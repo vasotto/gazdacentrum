@@ -398,8 +398,82 @@
   <footer>
     <p>© 2026 GazdaCentrum.hu – Automatizált agrár hírfigyelő</p>
   </footer>
+<script>
+  async function loadNews() {
+    const newsList = document.getElementById("news-list");
+    const newsStatus = document.getElementById("news-status");
 
-  article.append(
+    try {
+      const response = await fetch("news.json?v=" + Date.now(), {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error("A hírfájl nem tölthető be.");
+      }
+
+      const data = await response.json();
+      const items = Array.isArray(data.items) ? data.items : [];
+
+      newsList.replaceChildren();
+
+      if (items.length === 0) {
+        newsStatus.textContent =
+          "Jelenleg nincs megjeleníthető agrárhír.";
+        return;
+      }
+
+      const updatedAt = data.generated_at
+        ? new Date(data.generated_at).toLocaleString("hu-HU")
+        : "";
+
+      newsStatus.textContent =
+        items.length +
+        " friss hír · Utolsó frissítés: " +
+        updatedAt;
+
+      items.forEach((item) => {
+        const article = document.createElement("article");
+        article.className = "news-card";
+
+        const category = document.createElement("span");
+        category.className = "news-category";
+        category.textContent = item.category || "Agrárhír";
+
+        const title = document.createElement("h3");
+        title.textContent = item.title || "Cím nélküli hír";
+
+        const meta = document.createElement("p");
+        meta.className = "news-meta";
+
+        const publishedDate = item.published_at
+          ? new Date(item.published_at).toLocaleString("hu-HU", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              hour: "2-digit",
+              minute: "2-digit"
+            })
+          : "";
+
+        meta.textContent =
+          (item.source || "Ismeretlen forrás") +
+          (publishedDate ? " · " + publishedDate : "");
+
+        const summary = document.createElement("p");
+        summary.className = "news-summary";
+        summary.textContent =
+          item.summary ||
+          "A hír részletei az eredeti forrásnál olvashatók.";
+
+        const link = document.createElement("a");
+        link.className = "news-link";
+        link.href = item.link;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "Tovább az eredeti cikkhez";
+
+        article.append(
           category,
           title,
           meta,
