@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-14T13:46:41.195029+00:00",
+  "generated_at": "2026-07-14T21:34:32.023817+00:00",
   "item_count": 20,
   "items": [
+    {
+      "id": "bdbb042414c525a7",
+      "title": "Itt a jogszabály: így tennék politikamentessé az Agrárkamarát",
+      "link": "https://www.agrarszektor.hu/szabalyozas/20260714/itt-a-jogszabaly-igy-tennek-politikamentesse-az-agrarkamarat-63345",
+      "summary": "A parlament oldalán már megismerhető az Agrárkamaráról szóló törvényjavaslat szövege.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-14T18:31:00+00:00"
+    },
+    {
+      "id": "b053cbf4528e5293",
+      "title": "Csalódottak a lengyel meggytermesztők: nem ezt várták az idei évtől",
+      "link": "https://www.agrarszektor.hu/noveny/20260714/csalodottak-a-lengyel-meggytermesztok-nem-ezt-vartak-az-idei-evtol-63336",
+      "summary": "Minőségi kockázatok és ingadozó kínálat jellemezheti az induló meggyszezont a lengyeleknél.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-14T17:31:00+00:00"
+    },
+    {
+      "id": "09f6792796c75258",
+      "title": "Problémás teát találtak Magyarországon: vigyázz, ha te is vettél ilyet",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260714/problemas-teat-talaltak-magyarorszagon-vigyazz-ha-te-is-vettel-ilyet-63338",
+      "summary": "Kínából származó matcha teát hívott vissza a forgalomból a fogyasztóvédelem a magas alumínium tartalom miatt.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-14T16:29:00+00:00"
+    },
+    {
+      "id": "7c5053ad2f1638ee",
+      "title": "Brutális pusztítást végez az aszály Európában: ennek sosem lesz vége?",
+      "link": "https://www.agrarszektor.hu/noveny/20260714/brutalis-pusztitast-vegez-az-aszaly-europaban-ennek-sosem-lesz-vege-63337",
+      "summary": "Egyre súlyosabb az aszályhelyzet Európában, alig van már olyan térség, ami ne lenne érintett.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-14T15:28:00+00:00"
+    },
+    {
+      "id": "a849ebc1af0ec182",
+      "title": "Kegyetlen betegség viheti el a szőlőt: mutatjuk, mikor, mit és hogyan csinálj",
+      "link": "https://www.agrarszektor.hu/noveny/20260714/kegyetlen-betegseg-viheti-el-a-szolot-mutatjuk-mikor-mit-es-hogyan-csinalj-63341",
+      "summary": "Megkezdődött az szőlő aranyszínű sárgasága betegség felismerése szempontjából legfontosabb időszak.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-14T14:32:00+00:00"
+    },
     {
       "id": "8244caf553afa752",
       "title": "Nincs mese, lépni kell: csak így maradhat meg az európai műtrágyaipar",
@@ -151,56 +201,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-13T17:29:00+00:00"
-    },
-    {
-      "id": "0f9ac44fd8b0556f",
-      "title": "Kemény ellenőrzésbe kezdenek a hatóságok: vigyázz, nálad is megjelenhetnek",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260713/kemeny-ellenorzesbe-kezdenek-a-hatosagok-vigyazz-nalad-is-megjelenhetnek-63315",
-      "summary": "Tavaly a szakemberek 485 kereskedelmi egységet kerestek fel, ahol 426 hazai és 132 import görögdinnyetételt vizsgáltak.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T16:31:00+00:00"
-    },
-    {
-      "id": "d6b556017b8c7e78",
-      "title": "Durva, ami az ukránoknál történik: ennyibe kerül most egy kiló szamóca",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260713/durva-ami-az-ukranoknal-tortenik-ennyibe-kerul-most-egy-kilo-szamoca-63320",
-      "summary": "Bár a kereslet még mindig élénk, túl gyorsan apad a szamóca kínálat ahhoz, hogy az árak a korábbi szinten maradhassanak.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T15:32:00+00:00"
-    },
-    {
-      "id": "6c202f6e28481db7",
-      "title": "Megváltoztak a fogyasztói igények: ezek a sörök tarolnak Magyarországon",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260713/megvaltoztak-a-fogyasztoi-igenyek-ezek-a-sorok-tarolnak-magyarorszagon-63318",
-      "summary": "A különleges ízek, a tudatos kóstolás és a látványos csomagolás alakítja 2026-ban a magyar kisüzemi sörkultúrát.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T14:31:00+00:00"
-    },
-    {
-      "id": "48e7c302d20f06d3",
-      "title": "Sokkoló adatok érkeztek: rengeteg ember halálát okozta a hirtelen jött hőség",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260713/sokkolo-adatok-erkeztek-rengeteg-ember-halalat-okozta-a-hirtelen-jott-hoseg-63325",
-      "summary": "Az európai országok több mint 10 ezer többlethalálozást jelentettek a kontinens nyugati részét június végén sújtó hőhullám idején.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T13:33:00+00:00"
-    },
-    {
-      "id": "6592029b6a5eee0a",
-      "title": "Nagy a baj az egyik legnépszerűbb élelmiszernél: mi lesz így a termelőkkel?",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260713/nagy-a-baj-az-egyik-legnepszerubb-elelmiszernel-mi-lesz-igy-a-termelokkel-63314",
-      "summary": "Az olaszországi Emilia-Romagna tartományban tapasztalható rekordmagas hőhullámok komoly kihívás elé állítják a Parmigiano Reggiano sajt termelőit.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T12:31:00+00:00"
     }
   ],
   "errors": []
