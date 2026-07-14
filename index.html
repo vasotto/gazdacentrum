@@ -210,6 +210,79 @@
         flex-wrap: nowrap;
       }
     }
+  .news-status {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 18px;
+  color: var(--muted);
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.news-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card h3 {
+  margin: 10px 0;
+  color: var(--green-dark);
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.news-meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.news-category {
+  display: inline-block;
+  align-self: flex-start;
+  background: #e6f4ea;
+  color: var(--green-dark);
+  border: 1px solid #c8e6cf;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.news-summary {
+  color: var(--muted);
+  margin: 0 0 18px;
+  flex-grow: 1;
+}
+
+.news-link {
+  display: inline-block;
+  align-self: flex-start;
+  color: var(--green-dark);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid var(--green);
+}
+
+.news-link:hover {
+  color: var(--green);
+}
+
+@media (max-width: 760px) {
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 </head>
 
@@ -290,14 +363,12 @@
 
     <h2 id="friss" class="section-title">Friss agrárhírek</h2>
 
-    <section class="news-placeholder">
-      <p>
-        A hírfolyam hamarosan automatikusan frissül. A rendszer első körben nyilvánosan elérhető RSS-forrásokból fogja
-        gyűjteni a hírek címét, dátumát, forrását és eredeti linkjét.
-      </p>
-      <p>
-        A teljes cikkek minden esetben az eredeti kiadónál lesznek olvashatók.
-      </p>
+    <section>
+      <div id="news-status" class="news-status">
+        Friss agrárhírek betöltése…
+      </div>
+
+      <div id="news-list" class="news-list"></div>
     </section>
 
     <section class="notice">
@@ -327,5 +398,26 @@
   <footer>
     <p>© 2026 GazdaCentrum.hu – Automatizált agrár hírfigyelő</p>
   </footer>
+
+  article.append(
+          category,
+          title,
+          meta,
+          summary,
+          link
+        );
+
+        newsList.appendChild(article);
+      });
+    } catch (error) {
+      console.error(error);
+
+      newsStatus.textContent =
+        "A hírek jelenleg nem tölthetők be. Kérjük, próbálja meg később.";
+    }
+  }
+
+  loadNews();
+</script>  
 </body>
 </html>
