@@ -3,13 +3,319 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GazdaCentrum.hu</title>
-</head>
-<body>
-  <h1>GazdaCentrum.hu</h1>
-  <p>Automatizált agrár hírfigyelő és gazdálkodói információs központ.</p>
+  <title>GazdaCentrum.hu – Automatizált agrár hírfigyelő</title>
+  <meta name="description" content="GazdaCentrum.hu – automatizált agrár hírfigyelő és gazdálkodói információs központ. Friss agrárhírek, támogatások, terménypiac, időjárás, talaj és inputanyagok egy helyen.">
 
-  <h2>Indulás alatt</h2>
-  <p>Az oldal fejlesztés alatt áll. Hamarosan friss agrárhírekkel, támogatásfigyelővel és szakmai tartalmakkal jelentkezünk.</p>
+  <style>
+    :root {
+      --green: #1f6f3f;
+      --green-dark: #15552f;
+      --light: #f5f7f3;
+      --border: #dfe7dc;
+      --text: #1f2933;
+      --muted: #647067;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      color: var(--white);
+      padding: 56px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 42px;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 780px;
+      font-size: 19px;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav .nav-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      color: var(--green-dark);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 36px 20px 60px;
+    }
+
+    .intro {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+    }
+
+    .intro h2 {
+      margin-top: 0;
+      color: var(--green-dark);
+    }
+
+    .status {
+      display: inline-block;
+      background: #e6f4ea;
+      color: var(--green-dark);
+      border: 1px solid #c8e6cf;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin: 28px 0;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      min-height: 170px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      color: var(--green-dark);
+      font-size: 19px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .section-title {
+      margin: 40px 0 16px;
+      color: var(--green-dark);
+    }
+
+    .news-placeholder {
+      background: var(--white);
+      border: 1px dashed #b8c8b5;
+      border-radius: 16px;
+      padding: 24px;
+      color: var(--muted);
+    }
+
+    .notice {
+      background: #fffdf3;
+      border: 1px solid #eee2a7;
+      border-radius: 16px;
+      padding: 22px;
+      margin-top: 28px;
+      color: #5c5222;
+    }
+
+    footer {
+      background: #17251b;
+      color: #dfe7dc;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      header h1 {
+        font-size: 34px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        padding: 42px 18px;
+      }
+
+      header h1 {
+        font-size: 30px;
+      }
+
+      header p {
+        font-size: 17px;
+      }
+
+      nav .nav-inner {
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>GazdaCentrum.hu</h1>
+    <p>Automatizált agrár hírfigyelő és gazdálkodói információs központ – friss hírek, támogatások, piaci információk és szakmai témák egy helyen.</p>
+  </header>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#friss">Friss hírek</a>
+      <a href="#kategoriak">Kategóriák</a>
+      <a href="#tamogatas">Támogatások</a>
+      <a href="#talaj">Talaj</a>
+      <a href="#kapcsolat">Kapcsolat</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <span class="status">Indulás alatt</span>
+      <h2>Mi készül itt?</h2>
+      <p>
+        A GazdaCentrum.hu célja, hogy a magyar gazdálkodók, szaktanácsadók és agrárpiaci szereplők számára
+        automatikusan gyűjtse, rendszerezze és áttekinthető formában megjelenítse a fontos agrárhíreket.
+      </p>
+      <p>
+        Az oldal első verziója fejlesztés alatt áll. A következő lépésben RSS-alapú hírgyűjtés, automatikus kategorizálás
+        és forrásmegjelöléssel működő agrár hírfigyelő kerül beépítésre.
+      </p>
+    </section>
+
+    <h2 id="kategoriak" class="section-title">Fő témakörök</h2>
+
+    <section class="grid">
+      <article class="card" id="tamogatas">
+        <h3>Támogatások</h3>
+        <p>Pályázatok, határidők, KAP, AKG, ÖKO, beruházási és gazdálkodói támogatások.</p>
+      </article>
+
+      <article class="card">
+        <h3>Növénytermesztés</h3>
+        <p>Kalászosok, kukorica, napraforgó, repce, szója és egyéb főbb kultúrák hírei.</p>
+      </article>
+
+      <article class="card" id="talaj">
+        <h3>Talaj és regeneratív gazdálkodás</h3>
+        <p>Talajélet, humusz, vízmegtartás, tarlóbontás, talajművelés és fenntartható technológiák.</p>
+      </article>
+
+      <article class="card">
+        <h3>Inputanyagok</h3>
+        <p>Műtrágyák, növényvédő szerek, biostimulánsok, mikrobiológiai készítmények és piaci trendek.</p>
+      </article>
+
+      <article class="card">
+        <h3>Terménypiac</h3>
+        <p>Gabona, olajos növények, export-import hírek, ármozgások és piaci várakozások.</p>
+      </article>
+
+      <article class="card">
+        <h3>Időjárás és aszály</h3>
+        <p>Csapadékhelyzet, aszály, talajnedvesség, agrometeorológiai figyelmeztetések.</p>
+      </article>
+
+      <article class="card">
+        <h3>Gépek és technológia</h3>
+        <p>Mezőgazdasági gépek, precíziós gazdálkodás, kijuttatástechnika, digitalizáció.</p>
+      </article>
+
+      <article class="card">
+        <h3>Külföldi agrárhírek</h3>
+        <p>Nemzetközi agrárpiaci, EU-s és régiós hírek magyar gazdálkodói szempontból.</p>
+      </article>
+    </section>
+
+    <h2 id="friss" class="section-title">Friss agrárhírek</h2>
+
+    <section class="news-placeholder">
+      <p>
+        A hírfolyam hamarosan automatikusan frissül. A rendszer első körben nyilvánosan elérhető RSS-forrásokból fogja
+        gyűjteni a hírek címét, dátumát, forrását és eredeti linkjét.
+      </p>
+      <p>
+        A teljes cikkek minden esetben az eredeti kiadónál lesznek olvashatók.
+      </p>
+    </section>
+
+    <section class="notice">
+      <h2>Forráskezelési tájékoztató</h2>
+      <p>
+        A GazdaCentrum.hu automatizált agrár hírfigyelőként működik. Az oldalon megjelenő hírek külső forrásokból,
+        nyilvánosan elérhető hírfolyamok és forráslinkek alapján kerülnek feldolgozásra.
+        A forrásként megjelölt kiadók tartalmáért az adott kiadó felel.
+      </p>
+      <p>
+        Pontatlanság, jogi észrevétel vagy eltávolítási kérés esetén kérjük, vegye fel velünk a kapcsolatot.
+      </p>
+    </section>
+
+    <section id="kapcsolat" class="intro">
+      <h2>Kapcsolat</h2>
+      <p>
+        Kapcsolat és szerkesztési/jogi észrevétel:
+        <strong>info@gazdacentrum.hu</strong>
+      </p>
+      <p>
+        A végleges impresszum és adatkezelési tájékoztató az oldal indulásakor kerül feltöltésre.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 GazdaCentrum.hu – Automatizált agrár hírfigyelő</p>
+  </footer>
 </body>
 </html>
