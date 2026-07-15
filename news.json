@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T18:11:45.519634+00:00",
-  "item_count": 127,
+  "generated_at": "2026-07-15T18:22:17.153871+00:00",
+  "item_count": 116,
   "items": [
     {
       "id": "c2db5d8ac823cdc0",
@@ -141,16 +141,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T12:50:17+00:00"
-    },
-    {
-      "id": "ab95d1771fb9a22f",
-      "title": "Friss hírek érkeztek a magyar szamócáról: ezzel jó tisztában lenni",
-      "link": "https://www.agrarszektor.hu/noveny/20260715/friss-hirek-erkeztek-a-magyar-szamocarol-ezzel-jo-tisztaban-lenni-63354",
-      "summary": "A hatósági vizsgálatok eredményei alapján kijelenthető, hogy a legális termelőtől, legális értékesítési csatornán beszerzett magyar szamóca biztonsággal fogyasztható.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-15T12:34:00+00:00"
     },
     {
       "id": "86f172f771a37971",
@@ -573,26 +563,6 @@
       "published_at": "2026-07-14T12:47:13+00:00"
     },
     {
-      "id": "7649ebbb518f2309",
-      "title": "Olcsóbb lett a ketreces tartásból származó étkezési tojás Magyarországon",
-      "link": "https://www.aki.gov.hu/2026/07/14/olcsobb-lett-a-ketreces-tartasbol-szarmazo-etkezesi-tojas-magyarorszagon/",
-      "summary": "A Olcsóbb lett a ketreces tartásból származó étkezési tojás Magyarországon bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-14T12:00:13+00:00"
-    },
-    {
-      "id": "cbaee86014c7c34d",
-      "title": "Több sertéshúst exportált Magyarország, miközben az export értéke jelentősen visszaesett",
-      "link": "https://www.aki.gov.hu/2026/07/14/tobb-serteshust-exportalt-magyarorszag-mikozben-az-export-erteke-jelentosen-visszaesett/",
-      "summary": "A Több sertéshúst exportált Magyarország, miközben az export értéke jelentősen visszaesett bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-14T11:59:58+00:00"
-    },
-    {
       "id": "8398cc218e097883",
       "title": "Rendkívüli lépést tett Kína: azonnal zuhanni kezdett a repce ára a tőzsdén",
       "link": "https://agronaplo.hu/agrarhirek/20260714/rendkivuli-lepest-tett-kina-azonnal-zuhanni-kezdett-a-repce-ara-a-tozsden-40706",
@@ -701,16 +671,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-14T03:34:00+00:00"
-    },
-    {
-      "id": "86d50e1c8ce5cc4a",
-      "title": "InterPIG éves konferencia: a sertéságazat aktuális kérdései",
-      "link": "https://www.aki.gov.hu/2026/07/13/interpig-eves-konferencia-a-sertesagazat-aktualis-kerdesei/",
-      "summary": "A InterPIG éves konferencia: a sertéságazat aktuális kérdései bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-13T17:02:56+00:00"
     },
     {
       "id": "93413769f5838677",
@@ -1003,16 +963,6 @@
       "published_at": "2026-07-08T11:01:00+00:00"
     },
     {
-      "id": "0c4fe7624a80f9ca",
-      "title": "A szabadföldi termesztés erősödése jellemezte a vágott virágok termelését 2025-ben",
-      "link": "https://www.aki.gov.hu/2026/07/08/a-szabadfoldi-termesztes-erosodese-jellemezte-a-vagott-viragok-termeleset-2025-ben/",
-      "summary": "A A szabadföldi termesztés erősödése jellemezte a vágott virágok termelését 2025-ben bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-08T09:26:16+00:00"
-    },
-    {
       "id": "656124414ee104e5",
       "title": "Lengyelország: megcsúszó szezon, magas árak a paprika piacán",
       "link": "https://fruitveb.hu/lengyelorszag-megcsuszo-szezon-magas-arak-a-paprika-piacan/",
@@ -1033,26 +983,6 @@
       "published_at": "2026-07-08T07:01:00+00:00"
     },
     {
-      "id": "0a54b05b56ac4021",
-      "title": "12 százalékkal csökkent a takarmánykukorica ára",
-      "link": "https://www.aki.gov.hu/2026/07/07/12-szazalekkal-csokkent-a-takarmanykukorica-ara/",
-      "summary": "A 12 százalékkal csökkent a takarmánykukorica ár",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-07T11:49:07+00:00"
-    },
-    {
-      "id": "ad849271a0c073dd",
-      "title": "Magyarország nettó exportőr a friss és fagyasztott meggy, valamint a meggykonzerv piacán",
-      "link": "https://www.aki.gov.hu/2026/07/07/magyarorszag-netto-exportor-a-friss-es-fagyasztott-meggy-valamint-a-meggykonzerv-piacan/",
-      "summary": "A Magyarország nettó exportőr a friss és fagyasztott meggy, valamint a meggykonzerv piacán bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-07T11:48:08+00:00"
-    },
-    {
       "id": "457009cfb422a91f",
       "title": "Franciaország: élénk kereslet mellett zajlik a kajszi‑ és őszibarack‑szezon",
       "link": "https://fruitveb.hu/franciaorszag-elenk-kereslet-mellett-zajlik-a-kajszi-es-oszibarack-szezon/",
@@ -1061,46 +991,6 @@
       "category": "Kertészet",
       "source_type": "szakmai",
       "published_at": "2026-07-07T11:01:00+00:00"
-    },
-    {
-      "id": "af730be52efce9ba",
-      "title": "Nemzetközi szakértők tanácskoztak Budapesten a szántóföldi növénytermesztés jövőjéről",
-      "link": "https://www.aki.gov.hu/2026/07/06/nemzetkozi-szakertok-tanacskoztak-budapesten-a-szantofoldi-novenytermesztes-jovojerol/",
-      "summary": "A Nemzetközi szakértők tanácskoztak Budapesten a szántóföldi növénytermesztés jövőjéről bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-06T13:27:01+00:00"
-    },
-    {
-      "id": "74ebc9818eeaaf18",
-      "title": "Megkezdődött a horgászvizekkel kapcsolatos DCF3-feladatok előkészítése",
-      "link": "https://www.aki.gov.hu/2026/06/30/megkezdodott-a-horgaszvizekkel-kapcsolatos-dcf3-feladatok-elokeszitese/",
-      "summary": "A Megkezdődött a horgászvizekkel kapcsolatos DCF3-feladatok előkészítése bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-06-30T15:04:17+00:00"
-    },
-    {
-      "id": "e0872f58b3688855",
-      "title": "Az élelmiszeriparban a kedvezményes hitelek aránya jóval kisebb, mint a mezőgazdaságban",
-      "link": "https://www.aki.gov.hu/2026/06/30/az-elelmiszeriparban-a-kedvezmenyes-hitelek-aranya-joval-kisebb-mint-a-mezogazdasagban/",
-      "summary": "A Az élelmiszeriparban a kedvezményes hitelek aránya jóval kisebb, mint a mezőgazdaságban bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-06-30T15:00:08+00:00"
-    },
-    {
-      "id": "3740b1fdabb09cdd",
-      "title": "Erőteljesen bővült a baromfihús exportja az év első öt hónapjában",
-      "link": "https://www.aki.gov.hu/2026/06/30/eroteljesen-bovult-a-baromfihus-exportja-az-ev-elso-ot-honapjaban/",
-      "summary": "A Erőteljesen bővült a baromfihús exportja az év első öt hónapjában bejegyzés először AKI Agrárközgazdasági Intézet -én jelent meg.",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "source_type": "hivatalos",
-      "published_at": "2026-06-30T12:02:36+00:00"
     },
     {
       "id": "1d4cf442b3ca4988",
@@ -1273,5 +1163,7 @@
       "published_at": "2026-05-21T10:04:07+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    "AKI: <urlopen error [Errno 110] Connection timed out>"
+  ]
 }
