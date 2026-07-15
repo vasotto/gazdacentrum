@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:58:21.080258+00:00",
+  "generated_at": "2026-07-15T16:01:10.531413+00:00",
   "item_count": 131,
   "items": [
     {
@@ -1313,9 +1313,5 @@
       "published_at": "2026-05-21T10:04:07+00:00"
     }
   ],
-  "errors": [
-    "Haszon Agrár: <unknown>:41:2: mismatched tag",
-    "MAGRO: <unknown>:2:0: syntax error",
-    "Farmvilág: <unknown>:2:1326: not well-formed (invalid token)"
-  ]
+  "errors": []
 }
