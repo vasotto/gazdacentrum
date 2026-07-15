@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-07-14T21:34:32.023817+00:00",
+  "generated_at": "2026-07-15T07:31:20.573754+00:00",
   "item_count": 20,
   "items": [
+    {
+      "id": "b6391be113ac6ccd",
+      "title": "Drasztikus lépést tettek a dánok: ez az egész EU mezőgazdaságára hatással lehet",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260715/drasztikus-lepest-tettek-a-danok-ez-az-egesz-eu-mezogazdasagara-hatassal-lehet-63343",
+      "summary": "Az Európai Unióban elsőként Dánia számolta fel az önálló mezőgazdasági minisztériumát, de a lépésnek nem örül mindenki.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T07:01:00+00:00"
+    },
+    {
+      "id": "2572405ae00eedad",
+      "title": "Nincs kivétel: a cseh miniszterelnök ellen is nyomoznak az uniós agrárpénzek miatt",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260715/unios-tamogatasok-miatt-indult-nyomozas-a-cseh-agrarvallalkozo-cegenel-63346",
+      "summary": "Nyomozás indult a cseh miniszterelnök és agrárvállalkozó korábbi vállalatai által felvett uniós támogatások ügyében.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T06:46:00+00:00"
+    },
+    {
+      "id": "8a3f4bb795abb119",
+      "title": "Elöntheti az eső az országot: senki sem ússza meg ma a vihart",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/elontheti-az-eso-az-orszagot-senki-sem-ussza-meg-ma-a-vihart-63348",
+      "summary": "Ma napközben több hullámban, szórványosan alakulhatnak ki zivatarok országszerte.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T06:17:00+00:00"
+    },
+    {
+      "id": "34d5b78b38300aaf",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.07.15. szerda",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/friss-agrarszektor-idojaras-elorejelzes-20260715-szerda-63347",
+      "summary": "A többórás napsütés mellett fátyol- és gomolyfelhők haladnak kelet, délkelet felé, átmenetileg felhősebb időszakokat okozva",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T05:45:02+00:00"
+    },
+    {
+      "id": "e237cfa7ae6d516b",
+      "title": "Őrület, ami a lengyel piacokon zajlik: ennyibe kerül most egy kiló cseresznye",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/orulet-ami-a-lengyel-piacokon-zajlik-ennyibe-kerul-most-egy-kilo-cseresznye-63342",
+      "summary": "A legfrissebb jelentések szerint óvatos áremelkedés a cseresznyénél a lengyel nagybani piacokon.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T05:02:00+00:00"
+    },
+    {
+      "id": "786ee993192ee832",
+      "title": "Óriási bajban vannak az állattenyésztők: több helyen már a túlélés a tét",
+      "link": "https://www.agrarszektor.hu/allat/20260715/oriasi-bajban-vannak-az-allattenyesztok-tobb-helyen-mar-a-tuleles-a-tet-63339",
+      "summary": "A szárazság, a csökkenő takarmánytermés és a legelőterületek hiánya egyre nehezebb helyzetbe hozza a kisebb állattartó gazdaságokat.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T04:03:00+00:00"
+    },
     {
       "id": "bdbb042414c525a7",
       "title": "Itt a jogszabály: így tennék politikamentessé az Agrárkamarát",
@@ -141,66 +201,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-14T06:59:00+00:00"
-    },
-    {
-      "id": "62d6cecd405017ec",
-      "title": "Sokkoló jelentés látott napvilágot: végképp tönkremennek a magyar földek?",
-      "link": "https://www.agrarszektor.hu/fold/20260714/sokkolo-jelentes-latott-napvilagot-vegkepp-tonkremennek-a-magyar-foldek-63331",
-      "summary": "Egy nemzetközi kutatócsoport szerint drasztikusan leromolhat a magyar földek termőképessége 2100-ra.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T06:44:00+00:00"
-    },
-    {
-      "id": "2d14e7c491748831",
-      "title": "Kemény időjárásra készülhetünk ma: csak ez az 5 megye úszhatja meg",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/kemeny-idojarasra-keszulhetunk-ma-csak-ez-az-5-megye-uszhatja-meg-63330",
-      "summary": "A meteorológiai szolgálat a zivatarveszély miatt az ország legnagyobb részére elsőfokú figyelmeztetést adott ki.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T06:16:00+00:00"
-    },
-    {
-      "id": "e12e3bdb0d0dfe13",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.07.14. kedd",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/friss-agrarszektor-idojaras-elorejelzes-20260714-kedd-63329",
-      "summary": "A fátyol- és gomolyfelhők mellett napos időre készülhetünk",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T05:45:02+00:00"
-    },
-    {
-      "id": "bc77603c6cc84904",
-      "title": "Európa-szerte komoly gond van a burgonyával: durva, mi áll a háttérben",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260714/europa-szerte-komoly-gond-van-a-burgonyaval-durva-mi-all-a-hatterben-63323",
-      "summary": "A termelők felismerték, hogy a piac stabilizálásának egyetlen módja a burgonya vetésterületének mérséklése.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T05:02:00+00:00"
-    },
-    {
-      "id": "a56134b2d5df5d63",
-      "title": "Itt a kínaiak nagy terve: így épül a világ új élelmiszer-nagyhatalma",
-      "link": "https://www.agrarszektor.hu/metszet/20260714/itt-a-kinaiak-nagy-terve-igy-epul-a-vilag-uj-elelmiszer-nagyhatalma-63076",
-      "summary": "A helyzetünk kritikus, de Kína tudatos építkezése számunkra is jó példa.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T03:58:00+00:00"
-    },
-    {
-      "id": "633afb5f86481c72",
-      "title": "Rohamosan csökken a Duna vízszintje: azonnali lépésekre van szükség",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260713/rohamosan-csokken-a-duna-vizszintje-azonnali-lepesekre-van-szukseg-63322",
-      "summary": "A tartós csapadékhiány miatt kritikus szintre apadt a Duna és több más hazai folyó vízszintje.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-13T17:29:00+00:00"
     }
   ],
   "errors": []
