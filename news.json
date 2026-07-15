@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T15:17:36.506593+00:00",
-  "item_count": 51,
+  "generated_at": "2026-07-15T15:25:26.007299+00:00",
+  "item_count": 71,
   "items": [
     {
       "id": "c9b1796601c682b8",
@@ -43,6 +43,16 @@
       "published_at": "2026-07-15T14:04:35+00:00"
     },
     {
+      "id": "6bf21f64097abbe9",
+      "title": "Hőtűrő saláta készülhet a klímaváltozás ellen",
+      "link": "https://mezohir.hu/2026/07/15/hoturo-salatat-kutatnak-hollandiaban-mezogazdasag/",
+      "summary": "A kutatók olyan genetikai tényezőket azonosítottak, amelyek segíthetnek hőtűrőbb, jobb minőségű salátafajták kifejlesztésében.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T13:34:00+00:00"
+    },
+    {
       "id": "b44e0429a9402756",
       "title": "Kilőttek az árak a lengyel piacokon: ennyit kérnek most egy kiló paprikáért",
       "link": "https://www.agrarszektor.hu/noveny/20260715/kilottek-az-arak-a-lengyel-piacokon-ennyit-kernek-most-egy-kilo-paprikaert-63352",
@@ -61,6 +71,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T13:17:00+00:00"
+    },
+    {
+      "id": "b28052b41ea9cfb4",
+      "title": "Gyorsabban érkezhet a segítség a fagykárt szenvedett gazdáknak",
+      "link": "https://mezohir.hu/2026/07/15/mezogazdasag-fagykar-tamogatas-gyorsul/",
+      "summary": "A mezőgazdaság számára felgyorsul a fagykár utáni támogatások elbírálása, ami gyorsabb beruházásokat tehet lehetővé.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T12:50:17+00:00"
     },
     {
       "id": "ab95d1771fb9a22f",
@@ -103,6 +123,16 @@
       "published_at": "2026-07-15T11:01:00+00:00"
     },
     {
+      "id": "88793ee8fbcbfecb",
+      "title": "Vízmentő tarlóhántás Ebesen",
+      "link": "https://mezohir.hu/2026/07/15/mezogazdasag-tarlohantas-uj-szemlelettel/",
+      "summary": "Új válasz az aszályra: Ebesen mutatták be a vízmegőrzést szolgáló ultrasekély tarlóhántást.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T10:41:00+00:00"
+    },
+    {
       "id": "bb46385e9f9e285b",
       "title": "Megjelent a Modern Állattenyésztők Magazinja: most ingyenesen elérhető",
       "link": "https://www.agrarszektor.hu/allat/20260715/megjelent-a-modern-allattenyesztok-lapja-most-ingyenesen-elerheto-63360",
@@ -141,6 +171,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T09:07:00+00:00"
+    },
+    {
+      "id": "904eb33aea2940db",
+      "title": "„Forró ősz jöhet a magyar agráriumban”",
+      "link": "https://mezohir.hu/2026/07/15/mezogazdasag-jeger-vita-2/",
+      "summary": "A mezőgazdaságban egyre nagyobb figyelmet kap a JÉGER vita, amely sokak szerint már az agrárium mélyebb problémáira is rávilágít.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T08:29:41+00:00"
     },
     {
       "id": "f86a885ab44abaf1",
@@ -213,6 +253,16 @@
       "published_at": "2026-07-15T06:17:00+00:00"
     },
     {
+      "id": "ca270594ef7d5fd2",
+      "title": "JÉGER-stopot követelnek az alföldi gazdák",
+      "link": "https://mezohir.hu/2026/07/15/mezogazdasag-jeger-stoppot-kovetelnek/",
+      "summary": "A mezőgazdaságban ismét fellángolt a vita: alföldi gazdák szerint a JÉGER rendszer felülvizsgálata már nem halogatható.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T06:11:00+00:00"
+    },
+    {
       "id": "9b81c646fba7920c",
       "title": "A nehézfém-szennyezés ellen egy gén védheti meg haszonnövényeinket",
       "link": "https://magyarmezogazdasag.hu/2026/07/15/a-nehezfem-szennyezes-ellen-egy-gen-vedheti-meg-haszonnovenyeinket/",
@@ -261,6 +311,16 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-15T04:03:00+00:00"
+    },
+    {
+      "id": "66938a148b987cd7",
+      "title": "A vadnai túlélő: egy Batul almafa igaz története",
+      "link": "https://mezohir.hu/2026/07/15/mezogazdasag-batul-almafa-megorzese-vadnan/",
+      "summary": "A vadnai Batul almafa története az agrárörökség, a fajtafenntartás és a természet erejét mutatja be.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T03:34:00+00:00"
     },
     {
       "id": "3ec25318ae18d984",
@@ -353,6 +413,16 @@
       "published_at": "2026-07-14T14:04:31+00:00"
     },
     {
+      "id": "1fa4b175d665bfc1",
+      "title": "Gépek, talaj és lovak: jönnek a Szentlőrinci MEZŐGÉPNAPOK",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-szentlorinci-mezogepnapok-2026/",
+      "summary": "A mezőgazdaság legújabb gépei és technológiái mellett gyakorlati bemutatók is várják a látogatókat a Szentlőrinci MEZŐGÉPNAPOKON.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T13:34:00+00:00"
+    },
+    {
       "id": "fac220294e7c152d",
       "title": "Riasztó hírek jöttek a magyar földekről: végleg befellegzett ennek a növénynek?",
       "link": "https://agronaplo.hu/agrarhirek/20260714/riaszto-hirek-jottek-a-magyar-foldekrol-vegleg-befellegzett-ennek-a-novenynek-40707",
@@ -363,6 +433,16 @@
       "published_at": "2026-07-14T13:12:00+00:00"
     },
     {
+      "id": "2ac7ca5fec20df82",
+      "title": "Ez a prémium magyar dió titka",
+      "link": "https://mezohir.hu/2026/07/14/igy-keszul-a-premium-magyar-dio-az-engelhardt-diobirtokon/",
+      "summary": "A betakarított dió feldolgozása legalább olyan fontos, mint maga a termesztés. Az Engelhardt Dióbirtokon közel 50 hektáros ültetvény termését dolgozzák fel nagyrészt automatizált technológiával. Korszerű gépsorok végzik a tisztítást, a…",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T12:47:13+00:00"
+    },
+    {
       "id": "8398cc218e097883",
       "title": "Rendkívüli lépést tett Kína: azonnal zuhanni kezdett a repce ára a tőzsdén",
       "link": "https://agronaplo.hu/agrarhirek/20260714/rendkivuli-lepest-tett-kina-azonnal-zuhanni-kezdett-a-repce-ara-a-tozsden-40706",
@@ -371,6 +451,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-14T11:09:00+00:00"
+    },
+    {
+      "id": "4002caa531a1d4e7",
+      "title": "„Inkább legyen jég, mint ne legyen csapadék”",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-jeger-vita/",
+      "summary": "A mezőgazdaság számára ma az aszály nagyobb kockázat, mint a jégkár – erről beszélt Kakuk Zsolt a JÉGER kapcsán.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T10:41:00+00:00"
     },
     {
       "id": "42ae9793e15c70c5",
@@ -393,6 +483,16 @@
       "published_at": "2026-07-14T09:06:00+00:00"
     },
     {
+      "id": "eb539a35c1b0a4f7",
+      "title": "Rosszabb lehet az aszály, mint 2022-ben",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-aszaly-2026-sulyosbodik/",
+      "summary": "A mezőgazdaság számára aggasztó, hogy az aszály 2026 már most több helyen felülmúlja a 2022-es történelmi szárazságot.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T08:48:39+00:00"
+    },
+    {
       "id": "e8cf6d1f4eb55b5f",
       "title": "Természetes ellenségekkel az atkák ellen",
       "link": "https://magyarmezogazdasag.hu/2026/07/14/termeszetes-ellensegekkel-az-atkak-ellen/",
@@ -403,6 +503,16 @@
       "published_at": "2026-07-14T08:08:13+00:00"
     },
     {
+      "id": "04584688a76883d8",
+      "title": "Rekordhőség és tavaszi fagyok után is kiváló görögdinnye",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-magyar-gorogdinnye-sikere/",
+      "summary": "A magyar görögdinnye idén is kiváló minőségben terem, pedig a mezőgazdaságot tavaszi fagyok és rekordhőség is próbára tette.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T07:34:00+00:00"
+    },
+    {
       "id": "ac5443241fc2abf0",
       "title": "Itt a kínaiak nagy terve: így válnának a jövő mezőgazdasági nagyhatalmává",
       "link": "https://agronaplo.hu/agrarhirek/20260714/itt-a-kinaiak-nagy-terve-igy-valnanak-a-jovo-mezogazdasagi-nagyhatalmava-40703",
@@ -411,6 +521,26 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-14T07:03:00+00:00"
+    },
+    {
+      "id": "3f3170f8c34b42aa",
+      "title": "Leállt az orosz gabonaútvonal, ugrott a búza ára",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-orosz-gabonaexport-leallas/",
+      "summary": "Az agrárium számára is fontos fejlemény: az orosz gabonaexportot érintheti az Azovi-tengeri hajózás leállítása.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T06:11:00+00:00"
+    },
+    {
+      "id": "2138307bf5aa7417",
+      "title": "JÉGER rendszer: Szuda Zoltán szerint túl nagy a bizonytalanság",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-jeger-rendszer-vitaja/",
+      "summary": "A JÉGER rendszer körüli vita egyre erősebb, miközben a mezőgazdaság számára a vízhiány jelenti a legnagyobb kihívást.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T03:34:00+00:00"
     },
     {
       "id": "93413769f5838677",
@@ -433,6 +563,16 @@
       "published_at": "2026-07-13T13:39:00+00:00"
     },
     {
+      "id": "d6f79dfc53d8976c",
+      "title": "„A JÉGER nem veszi el az esőt” – válaszolt a NAK",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-jeger-valaszai/",
+      "summary": "A mezőgazdaság szereplőit megosztó JÉGER működéséről és a csapadékhiányról válaszolt a Nemzeti Agrárgazdasági Kamara.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T13:12:10+00:00"
+    },
+    {
       "id": "764da6fbcd83ea30",
       "title": "Komoly átalakulás a piacon: ma már ezek alapján választanak sört a magyarok",
       "link": "https://agronaplo.hu/agrarhirek/20260713/komoly-atalakulas-a-piacon-ma-mar-ezek-alapjan-valasztanak-sort-a-magyarok-40700",
@@ -453,6 +593,16 @@
       "published_at": "2026-07-13T09:29:00+00:00"
     },
     {
+      "id": "88f71e05251a8239",
+      "title": "Fordulat jön az időjárásban: záporok törik meg a hőséget",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-heti-idojaras-fordulattal/",
+      "summary": "A mezőgazdaság számára döntő hét jön: a meleg mellé záporok érkezhetnek, de nem minden térség kap esőt.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T08:34:00+00:00"
+    },
+    {
       "id": "aedd0398c0840996",
       "title": "Nagy razziát indítanak a hatóságok: ez a termék lesz a fókuszban",
       "link": "https://agronaplo.hu/agrarhirek/20260713/nagy-razziat-inditanak-a-hatosagok-ez-a-termek-lesz-a-fokuszban-40698",
@@ -463,6 +613,36 @@
       "published_at": "2026-07-13T08:31:00+00:00"
     },
     {
+      "id": "5d6fedceea49aae8",
+      "title": "Most támad a dióburok-fúrólégy – így lehet védekezni ellene",
+      "link": "https://mezohir.hu/2026/07/13/most-kell-vedekezni-a-dioburok-furolegy-ellen/",
+      "summary": "Veszélyes kártevő, a nyugati dióburok-fúrólégy rajzása kezdődött meg. A sikeres védekezéshez megfelelő technológia és pontos időzítés is kell.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T07:35:14+00:00"
+    },
+    {
+      "id": "742220c3282d0e90",
+      "title": "JÉGER: „A teljes rendszer hatását vizsgálni kell”",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-jeger-vizsgalata/",
+      "summary": "A mezőgazdaság számára is fontos kérdés, hogy a JÉGER működését milyen adatok és vizsgálatok támasztják alá.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T06:45:08+00:00"
+    },
+    {
+      "id": "3a6bba7fb37541d8",
+      "title": "Humanoid robotok szedhetik a paprikát Hollandiában",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-humanoid-robot-a-kerteszetben/",
+      "summary": "A mezőgazdaság jövője már itt van: humanoid robotokat tanítanak paprikát szedni a holland üvegházakban.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T06:11:00+00:00"
+    },
+    {
       "id": "d77a4dc600ebe9be",
       "title": "Kapás kultúrák lombtrágyázása (x)",
       "link": "https://agronaplo.hu/agrofokusz/20260713/kapas-kulturak-lombtragyazasa-x-40678",
@@ -471,6 +651,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-13T05:30:00+00:00"
+    },
+    {
+      "id": "e418faf833010a39",
+      "title": "Szalaggal kíméli a lucernát a Swativo",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-szalagos-rendkepzo-lucernara-krone/",
+      "summary": "A mezőgazdaságban új irányt jelez a KRONE Swativo, amely szalaggal kíméli a lucerna értékes leveleit.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T03:34:00+00:00"
     },
     {
       "id": "3a891336834eb732",
@@ -491,6 +681,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-12T13:44:00+00:00"
+    },
+    {
+      "id": "2351e437934a2556",
+      "title": "Két part, két aratás: nagy a különbség a Duna mentén",
+      "link": "https://mezohir.hu/2026/07/12/mezogazdasag-betakaritasi-helyzetkep/",
+      "summary": "A betakarítási helyzetkép szerint a mezőgazdaság idei eredményeit az aszály, az alacsony árak és a csapadékhiány határozza meg.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T12:34:00+00:00"
     },
     {
       "id": "9f00c94ebd71fda2",
