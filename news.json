@@ -1,7 +1,117 @@
 {
-  "generated_at": "2026-07-15T07:31:20.573754+00:00",
-  "item_count": 20,
+  "generated_at": "2026-07-15T13:28:18.655177+00:00",
+  "item_count": 40,
   "items": [
+    {
+      "id": "3ffc08f2bafbf64b",
+      "title": "Ez lenne a jövő? Nem is hinnéd, hogyan termelhetünk a jövőben",
+      "link": "https://agronaplo.hu/agrarhirek/20260715/ez-lenne-a-jovo-nem-is-hinned-hogyan-termelhetunk-a-jovoben-40714",
+      "summary": "A klímaváltozás és a gyors ütemű urbanizáció kihívásaira a városi mezőgazdaság nyújthat fenntartható megoldást.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T13:17:00+00:00"
+    },
+    {
+      "id": "ab95d1771fb9a22f",
+      "title": "Friss hírek érkeztek a magyar szamócáról: ezzel jó tisztában lenni",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/friss-hirek-erkeztek-a-magyar-szamocarol-ezzel-jo-tisztaban-lenni-63354",
+      "summary": "A hatósági vizsgálatok eredményei alapján kijelenthető, hogy a legális termelőtől, legális értékesítési csatornán beszerzett magyar szamóca biztonsággal fogyasztható.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T12:34:00+00:00"
+    },
+    {
+      "id": "36d105bb36a8d2ee",
+      "title": "Gyász: elhunyt az ismert magyar borász",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260715/gyasz-elhunyt-az-ismert-magyar-borasz-63363",
+      "summary": "Életének ötvenedik évében, július 9-én elhunyt Sellyei Gábor kántor, egyházkarnagy és hegybíró, a nemesgulácsi Sellyei Borászat alapítója.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T12:01:00+00:00"
+    },
+    {
+      "id": "bf33a1842d8ecc1f",
+      "title": "Itt teremhet a magyar családok étele? Sokan még tartanak tőle, pedig ez a jövő",
+      "link": "https://www.agrarszektor.hu/metszet/20260715/itt-teremhet-a-magyar-csaladok-etele-sokan-meg-tartanak-tole-pedig-ez-a-jovo-63096",
+      "summary": "Egyre több városban népszerű az agrártermelés, egy tetőfarmon még tyúkokat is tartanak.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T11:27:00+00:00"
+    },
+    {
+      "id": "87ce20c5e276b0cc",
+      "title": "Egyre több ilyen élelmiszer lehet a boltokban: ez vár a vásárlókra",
+      "link": "https://agronaplo.hu/agrarhirek/20260715/egyre-tobb-ilyen-elelmiszer-lehet-a-boltokban-ez-var-a-vasarlokra-40713",
+      "summary": "A bioélelmiszerek importjára vonatkozó jelenlegi rendelkezések 2026. december 31-én hatályukat vesztik.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T11:01:00+00:00"
+    },
+    {
+      "id": "bb46385e9f9e285b",
+      "title": "Megjelent a Modern Állattenyésztők Magazinja: most ingyenesen elérhető",
+      "link": "https://www.agrarszektor.hu/allat/20260715/megjelent-a-modern-allattenyesztok-lapja-most-ingyenesen-elerheto-63360",
+      "summary": "Megjelent a Modern Állattenyésztők Magazinjának legfrissebb száma, amely interaktív digitális kiadványként várja az olvasókat.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T10:32:00+00:00"
+    },
+    {
+      "id": "5ca06ceae69d71d4",
+      "title": "Szorításban a sertéstartók Európában: kiderült, mi várhat a magyar termelőkre",
+      "link": "https://www.agrarszektor.hu/allat/20260715/szoritasban-a-sertestartok-europaban-kiderult-mi-varhat-a-magyar-termelokre-63357",
+      "summary": "Az uniós és a globális számokat látva a hazai sertésexport egésze nincs veszélyben.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T09:31:00+00:00"
+    },
+    {
+      "id": "5b1ca051ad20712e",
+      "title": "Aggasztó a helyzet a Velencei-tónál: ennek nem lesz jó vége",
+      "link": "https://agronaplo.hu/agrarhirek/20260715/aggaszto-a-helyzet-a-velencei-tonal-ennek-nem-lesz-jo-vege-40712",
+      "summary": "A Velencei-tónál a vízállás történelmi mélypontra, mindössze 40 centiméterre apadt.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T09:07:00+00:00"
+    },
+    {
+      "id": "f86a885ab44abaf1",
+      "title": "Változás jöhet a boltokban: egyre több ilyen élelmiszer kerülhet a polcokra",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260715/valtozas-johet-a-boltokban-egyre-tobb-ilyen-elelmiszer-kerulhet-a-polcokra-63350",
+      "summary": "A cél az, hogy az uniós és a nem uniós termelők azonos feltételek mellett versenyezhessenek, miközben a vásárlók nagyobb biztonsággal bízhatnak a biojelölések hitelességében.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T08:29:00+00:00"
+    },
+    {
+      "id": "2f385215a2333bfb",
+      "title": "Kritikus állapotban a Velencei-tó: lassan eltűnhet sokak kedvence?",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260715/kritikus-allapotban-a-velencei-to-lassan-eltunhet-sokak-kedvence-63349",
+      "summary": "Sorra dönti a negatív rekordokat a Velencei-tó vízszintje, több mint 10 centivel alacsonyabb a vízállás, mint 2022 szeptemberében volt.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T07:43:00+00:00"
+    },
+    {
+      "id": "fe5c6186a86196e5",
+      "title": "Gödörben a magyar állattartók: tényleg már csak ez jelentheti a kiutat?",
+      "link": "https://agronaplo.hu/agrarhirek/20260715/godorben-a-magyar-allattartok-tenyleg-mar-csak-ez-jelentheti-a-kiutat-40711",
+      "summary": "A tartós aszály, a csökkenő takarmánytermés és a zsugorodó legelők egyre nehezebb helyzetbe sodorják a kisebb húsmarhatartó gazdaságokat.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T07:02:00+00:00"
+    },
     {
       "id": "b6391be113ac6ccd",
       "title": "Drasztikus lépést tettek a dánok: ez az egész EU mezőgazdaságára hatással lehet",
@@ -103,6 +213,16 @@
       "published_at": "2026-07-14T15:28:00+00:00"
     },
     {
+      "id": "a20034bd4e2aa423",
+      "title": "Figyelmeztetést kapott Európa: csak így maradhat meg az uniós műtrágyaipar",
+      "link": "https://agronaplo.hu/agrarhirek/20260714/figyelmeztetest-kapott-europa-csak-igy-maradhat-meg-az-unios-mutragyaipar-40710",
+      "summary": "Az Európai Uniónak meg kell erősítenie a stratégiai autonómiáját a műtrágya-ágazatban.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T15:15:00+00:00"
+    },
+    {
       "id": "a849ebc1af0ec182",
       "title": "Kegyetlen betegség viheti el a szőlőt: mutatjuk, mikor, mit és hogyan csinálj",
       "link": "https://www.agrarszektor.hu/noveny/20260714/kegyetlen-betegseg-viheti-el-a-szolot-mutatjuk-mikor-mit-es-hogyan-csinalj-63341",
@@ -123,6 +243,16 @@
       "published_at": "2026-07-14T13:32:00+00:00"
     },
     {
+      "id": "fac220294e7c152d",
+      "title": "Riasztó hírek jöttek a magyar földekről: végleg befellegzett ennek a növénynek?",
+      "link": "https://agronaplo.hu/agrarhirek/20260714/riaszto-hirek-jottek-a-magyar-foldekrol-vegleg-befellegzett-ennek-a-novenynek-40707",
+      "summary": "Egy nemzetközi kutatócsoport szerint drasztikusan leromolhat a magyar földek termőképessége 2100-ra.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T13:12:00+00:00"
+    },
+    {
       "id": "993051e6ebe9d900",
       "title": "Így locsolnak az élelmes magyarok a hőségben: mutatjuk, mit és hogyan csinálj",
       "link": "https://www.agrarszektor.hu/noveny/20260714/igy-locsolnak-az-elelmes-magyarok-a-hosegben-mutatjuk-mit-es-hogyan-csinalj-63095",
@@ -133,74 +263,144 @@
       "published_at": "2026-07-14T12:31:00+00:00"
     },
     {
-      "id": "b708e818839db901",
-      "title": "Fontos hírt közöltek a járványhelyzetről: ez rengeteg állattartót érinthet itthon",
-      "link": "https://www.agrarszektor.hu/allat/20260714/fontos-hirt-kozoltek-a-jarvanyhelyzetrol-ez-rengeteg-allattartot-erinthet-itthon-63335",
-      "summary": "Tovább enyhültek az afrikai sertéspestis-kitörés miatt elrendelt korlátozások Magyarországon.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "8398cc218e097883",
+      "title": "Rendkívüli lépést tett Kína: azonnal zuhanni kezdett a repce ára a tőzsdén",
+      "link": "https://agronaplo.hu/agrarhirek/20260714/rendkivuli-lepest-tett-kina-azonnal-zuhanni-kezdett-a-repce-ara-a-tozsden-40706",
+      "summary": "Kínában mostantól a magánkézben lévő feldolgozók is importálhatnak ausztrál repcemagot.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T11:33:00+00:00"
+      "published_at": "2026-07-14T11:09:00+00:00"
     },
     {
-      "id": "d5ea21f937f95a85",
-      "title": "Tűzvész pusztít ebben a térségben: több ezer hektár égett már le",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/tuzvesz-pusztit-ebben-a-tersegben-tobb-ezer-hektar-egett-mar-le-63333",
-      "summary": "Vasárnap óta küzdenek a tűzoltók és az önkéntesek a Párizstól délre pusztító erdőtűzzel.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "553aa44d7a4a2ed3",
+      "title": "Nyakunkon az újabb krízis? Kutyaszorítóba került rengeteg magyar állattartó",
+      "link": "https://agronaplo.hu/agrarhirek/20260714/nyakunkon-az-ujabb-krizis-kutyaszoritoba-kerult-rengeteg-magyar-allattarto-40705",
+      "summary": "A szakértők szerint idén várhatóan a silókukorica mennyisége és minősége is elmarad a várttól.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T10:34:00+00:00"
+      "published_at": "2026-07-14T09:06:00+00:00"
     },
     {
-      "id": "5fd2ff8761e6fecd",
-      "title": "Már látni, mikor jön a felfrissülés: mutatjuk, meddig tarthat még a hőség",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/mar-latni-mikor-jon-a-felfrissules-mutatjuk-meddig-tarthat-meg-a-hoseg-63334",
-      "summary": "A legfrissebb agrometeorológiai előrejelzések alapján nem várható az aszály enyhülése.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "ac5443241fc2abf0",
+      "title": "Itt a kínaiak nagy terve: így válnának a jövő mezőgazdasági nagyhatalmává",
+      "link": "https://agronaplo.hu/agrarhirek/20260714/itt-a-kinaiak-nagy-terve-igy-valnanak-a-jovo-mezogazdasagi-nagyhatalmava-40703",
+      "summary": "Kiadta az új agrárstratégiáját Kína, amellyel 2035-ig globális mezőgazdasági-nagyhatalommá válna.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T09:31:00+00:00"
+      "published_at": "2026-07-14T07:03:00+00:00"
     },
     {
-      "id": "033903af7a56ecc5",
-      "title": "Nem elég megvenni az MI-t: ezen múlik a magyar agrárium digitális jövője",
-      "link": "https://www.agrarszektor.hu/agrofokusz/20260714/nem-eleg-megvenni-az-mi-t-ezen-mulik-a-magyar-agrarium-digitalis-jovoje-63264",
-      "summary": "Mesterséges intelligencia (MI) a mezőgazdaságban: a siker kulcsa nem a technológia, hanem az ember.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "93413769f5838677",
+      "title": "Óriási a baj: folyamatosan csökken a Duna vízszintje",
+      "link": "https://agronaplo.hu/agrarhirek/20260713/oriasi-a-baj-folyamatosan-csokken-a-duna-vizszintje-40702",
+      "summary": "A tartós csapadékhiány miatt kritikus szintre apadt a Duna és több más hazai folyó vízszintje.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T09:00:00+00:00"
+      "published_at": "2026-07-13T14:34:00+00:00"
     },
     {
-      "id": "28d3497eaeb30e45",
-      "title": "Érik az újabb baj: kegyetlen árakkal és hiánnyal küzdenek az állattartók",
-      "link": "https://www.agrarszektor.hu/allat/20260714/erik-az-ujabb-baj-kegyetlen-arakkal-es-hiannyal-kuzdenek-az-allattartok-63319",
-      "summary": "Formálódik a tömegtakarmány-krízis, várhatóan a silókukorica mennyisége és minősége is elmarad a várttól idén.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "f817b1e408a1495c",
+      "title": "Nagy bajban az európai burgonyatermesztés: durván csökken a vetésterület",
+      "link": "https://agronaplo.hu/agrarhirek/20260713/nagy-bajban-az-europai-burgonyatermesztes-durvan-csokken-a-vetesterulet-40701",
+      "summary": "A termelők felismerték, hogy a piac stabilizálásának egyetlen módja a burgonya vetésterületének mérséklése.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T08:28:00+00:00"
+      "published_at": "2026-07-13T13:39:00+00:00"
     },
     {
-      "id": "e9c7bacd30318c34",
-      "title": "Ezt nem láttuk jönni: olyan esőzések jöhetnek itthon, amilyenre rég volt példa",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/ezt-nem-lattuk-jonni-olyan-esozesek-johetnek-itthon-amilyenre-reg-volt-pelda-63332",
-      "summary": "Az erős El Niño hatására rendkívül csapadékos ősz és tél jöhet Európa túlnyomó részén.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "764da6fbcd83ea30",
+      "title": "Komoly átalakulás a piacon: ma már ezek alapján választanak sört a magyarok",
+      "link": "https://agronaplo.hu/agrarhirek/20260713/komoly-atalakulas-a-piacon-ma-mar-ezek-alapjan-valasztanak-sort-a-magyarok-40700",
+      "summary": "A különleges ízek, a tudatos kóstolás és a látványos csomagolás alakítja 2026-ban a magyar kisüzemi sörkultúrát.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T07:46:00+00:00"
+      "published_at": "2026-07-13T11:37:00+00:00"
     },
     {
-      "id": "beddce4763eda37a",
-      "title": "Rendkívüli lépés a távol-keleti óriástól: azonnal zuhanni kezdtek az árak",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260714/rendkivuli-lepes-a-tavol-keleti-oriastol-azonnal-zuhanni-kezdtek-az-arak-63316",
-      "summary": "Kína tovább bővítette az ausztrál repcemag piacra jutási lehetőségeit, így mostantól magánkézben lévő feldolgozók is importálhatják az olajos magvat.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
+      "id": "0c73405cb2433ed1",
+      "title": "Láthatatlan veszély van az állateledelekben: erre minden gazdinak figyelni kell",
+      "link": "https://agronaplo.hu/agrarhirek/20260713/lathatatlan-veszely-van-az-allateledelekben-erre-minden-gazdinak-figyelni-kell-40699",
+      "summary": "A biztonságos állateledelek garantálásához a teljes ellátási láncot átfogó laboratóriumi vizsgálatokra és a gazdik tudatos hozzáállására egyaránt szükség van.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T06:59:00+00:00"
+      "published_at": "2026-07-13T09:29:00+00:00"
+    },
+    {
+      "id": "aedd0398c0840996",
+      "title": "Nagy razziát indítanak a hatóságok: ez a termék lesz a fókuszban",
+      "link": "https://agronaplo.hu/agrarhirek/20260713/nagy-razziat-inditanak-a-hatosagok-ez-a-termek-lesz-a-fokuszban-40698",
+      "summary": "Tavaly a szakemberek 485 kereskedelmi egységet kerestek fel, ahol 426 hazai és 132 import görögdinnyetételt vizsgáltak.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T08:31:00+00:00"
+    },
+    {
+      "id": "d77a4dc600ebe9be",
+      "title": "Kapás kultúrák lombtrágyázása (x)",
+      "link": "https://agronaplo.hu/agrofokusz/20260713/kapas-kulturak-lombtragyazasa-x-40678",
+      "summary": "Júliusban időszerű a kukorica lombtrágyázása. Az állományok többsége ekkorra már eléri a 8-leveles állapotot. Sőt egy részük akár még fejlettebb is lehet, ami együtt jár a nagyobb lombfelülettel.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T05:30:00+00:00"
+    },
+    {
+      "id": "3a891336834eb732",
+      "title": "Fel kell készülni arra, hogy a jövőben is drága marad ez az élelmiszer",
+      "link": "https://agronaplo.hu/agrarhirek/20260712/fel-kell-keszulni-arra-hogy-a-jovoben-is-draga-marad-ez-az-elelmiszer-40697",
+      "summary": "Az elmúlt években óriási ingadozások voltak a kakaó és a csokoládé áraiban, és ez a jövőben is így fog maradni.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T15:55:00+00:00"
+    },
+    {
+      "id": "edf4933ce17e588b",
+      "title": "Váratlan hírek érkeztek az olajnövényekről: ezt már nehéz követni",
+      "link": "https://agronaplo.hu/agrarhirek/20260712/varatlan-hirek-erkeztek-az-olajnovenyekrol-ezt-mar-nehez-kovetni-40696",
+      "summary": "Valamennyi olajosnövény termelői ára alacsonyabb volt június végén, mint egy évvel korábban.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T13:44:00+00:00"
+    },
+    {
+      "id": "9f00c94ebd71fda2",
+      "title": "Veszélyben az európai erdők? Bármikor beüthet a baj, oda kell figyelni",
+      "link": "https://agronaplo.hu/agrarhirek/20260712/veszelyben-az-europai-erdok-barmikor-beuthet-a-baj-oda-kell-figyelni-40695",
+      "summary": "Európa nagy részén tűzveszélyre figyelmeztet a Copernicus Katasztrófavédelmi Szolgáltatás.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T11:33:00+00:00"
+    },
+    {
+      "id": "8d43bd87f47ab53f",
+      "title": "Aggasztó hírek érkeztek a magyar krumpliról: ennek sokan nem fognak örülni",
+      "link": "https://agronaplo.hu/agrarhirek/20260712/aggaszto-hirek-erkeztek-a-magyar-krumplirol-ennek-sokan-nem-fognak-orulni-40694",
+      "summary": "A termőterület és a várható termés csökkenése miatt várhatóan idén is hiány lesz a magyar burgonyából.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T09:22:00+00:00"
+    },
+    {
+      "id": "a5d76df69136ccc1",
+      "title": "Így védd meg növényeid a kártevőktől: ez tényleg működik",
+      "link": "https://agronaplo.hu/agrarhirek/20260712/igy-vedd-meg-novenyeid-a-kartevoktol-ez-tenyleg-mukodik-40693",
+      "summary": "A rovarok világában a színeknek különleges jelentőségük van, amit fel lehet használni a növényvédelem során.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-12T07:11:00+00:00"
     }
   ],
   "errors": []
