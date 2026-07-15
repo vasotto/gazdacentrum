@@ -321,8 +321,14 @@ def is_semantic_duplicate(
         if len(token) >= 5 and document_frequency[token] <= 6
     }
 
+    shared_title_anchors = {
+        token
+        for token in shared_title_tokens
+        if len(token) >= 5
+    }
+
     topic_anchor_match = (
-        len(rare_title_tokens) >= 1
+        len(shared_title_anchors) >= 1
         and len(shared_content_tokens) >= 3
         and overlap_ratio >= 0.10
     )
