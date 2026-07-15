@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T17:29:53.327559+00:00",
-  "item_count": 118,
+  "generated_at": "2026-07-15T17:37:43.349506+00:00",
+  "item_count": 117,
   "items": [
     {
       "id": "f78b548e2bf27316",
@@ -11,6 +11,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T19:09:38+00:00"
+    },
+    {
+      "id": "1134a817b9e892cd",
+      "title": "Pusztít a gyilkos kór Angliában: mentőövet kapnak a gazdák",
+      "link": "https://www.agrarszektor.hu/allat/20260715/pusztit-a-gyilkos-kor-angliaban-mentoovet-kapnak-a-gazdak-63355",
+      "summary": "Az angliai baromfitartók mostantól államilag támogatott, állatorvos által végzett járványvédelmi felülvizsgálatot igényelhetnek.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T17:29:00+00:00"
     },
     {
       "id": "270f36ca937e42e1",
@@ -423,16 +433,6 @@
       "published_at": "2026-07-15T05:10:00+00:00"
     },
     {
-      "id": "e237cfa7ae6d516b",
-      "title": "Őrület, ami a lengyel piacokon zajlik: ennyibe kerül most egy kiló cseresznye",
-      "link": "https://www.agrarszektor.hu/noveny/20260715/orulet-ami-a-lengyel-piacokon-zajlik-ennyibe-kerul-most-egy-kilo-cseresznye-63342",
-      "summary": "A legfrissebb jelentések szerint óvatos áremelkedés a cseresznyénél a lengyel nagybani piacokon.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-15T05:02:00+00:00"
-    },
-    {
       "id": "786ee993192ee832",
       "title": "Óriási bajban vannak az állattenyésztők: több helyen már a túlélés a tét",
       "link": "https://www.agrarszektor.hu/allat/20260715/oriasi-bajban-vannak-az-allattenyesztok-tobb-helyen-mar-a-tuleles-a-tet-63339",
@@ -501,16 +501,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-14T19:08:12+00:00"
-    },
-    {
-      "id": "bdbb042414c525a7",
-      "title": "Itt a jogszabály: így tennék politikamentessé az Agrárkamarát",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260714/itt-a-jogszabaly-igy-tennek-politikamentesse-az-agrarkamarat-63345",
-      "summary": "A parlament oldalán már megismerhető az Agrárkamaráról szóló törvényjavaslat szövege.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T18:31:00+00:00"
     },
     {
       "id": "a20034bd4e2aa423",
