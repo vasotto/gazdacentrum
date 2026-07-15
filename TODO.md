@@ -4,12 +4,12 @@ Utolsó frissítés: 2026. július 15.
 
 ## Következő feladat
 
-- [ ] Egy új magyar agrár RSS-forrás kiválasztása és külön tesztelése.
+- [x] Egy új magyar agrár RSS-forrás kiválasztása és külön tesztelése.
 
 ## Források
 
 - [x] Agrárszektor RSS-forrás beállítása.
-- [ ] Agro Napló RSS-forrás beállítása és tesztelése.
+- [x] Agro Napló RSS-forrás beállítása és tesztelése.
 - [ ] Egy harmadik magyar agrár RSS-forrás kiválasztása és külön tesztelése.
 - [ ] Az új források dátumainak, linkjeinek és kivonatainak ellenőrzése.
 - [ ] A sikeresen tesztelt források hozzáadása a `sources.csv` fájlhoz.
