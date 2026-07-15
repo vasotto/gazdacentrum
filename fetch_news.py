@@ -396,7 +396,7 @@ def is_semantic_duplicate(
 
 
 def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Pontos és tartalmi hasonlóság alapján szűri a duplikációkat."""
+    """Pontos, tartalmi és láncolt hasonlóság alapján szűri a duplikációkat."""
     document_frequency: Counter[str] = Counter()
 
     for item in items:
@@ -417,6 +417,13 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     )
 
     unique_items: list[dict[str, Any]] = []
+
+    # Minden korábban megvizsgált hírt eltárolunk, a kihagyottakat is.
+    # Így a láncban kapcsolódó duplikációk is felismerhetők.
+    comparison_items: list[
+        tuple[dict[str, Any], dict[str, Any]]
+    ] = []
+
     seen_links: set[str] = set()
     seen_titles: set[str] = set()
 
@@ -443,34 +450,43 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             )
             continue
 
-        duplicate_of = next(
+        duplicate_match = next(
             (
-                existing_item
-                for existing_item in unique_items
+                (candidate_item, representative_item)
+                for candidate_item, representative_item in comparison_items
                 if is_semantic_duplicate(
                     item,
-                    existing_item,
+                    candidate_item,
                     document_frequency,
                 )
             ),
             None,
         )
 
-        if duplicate_of:
+        seen_links.add(normalized_link)
+        seen_titles.add(normalized_title)
+
+        if duplicate_match:
+            _, representative_item = duplicate_match
+
             print(
                 "Hasonló hír miatt kihagyva: "
                 f"{item['title']} ({item['source']}) "
-                f"→ {duplicate_of['title']} "
-                f"({duplicate_of['source']})"
+                f"→ {representative_item['title']} "
+                f"({representative_item['source']})"
+            )
+
+            # A kihagyott hírt is eltároljuk összehasonlításra,
+            # de ugyanahhoz a megtartott reprezentánshoz kapcsoljuk.
+            comparison_items.append(
+                (item, representative_item)
             )
             continue
 
-        seen_links.add(normalized_link)
-        seen_titles.add(normalized_title)
         unique_items.append(item)
+        comparison_items.append((item, item))
 
     return unique_items
-
 
 def save_news(items: list[dict[str, Any]], errors: list[str]) -> None:
     """Elmenti a híreket JSON-formátumban."""
