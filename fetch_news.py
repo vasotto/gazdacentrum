@@ -366,6 +366,15 @@ def is_semantic_duplicate(
 
     # Egyetlen címkulcsszó csak akkor elegendő, ha az ritka,
     # és az összefoglalók is több jellegzetes szót megosztanak.
+    distinct_title_anchors = {
+        token
+        for token in shared_title_tokens
+        if (
+            len(token) >= 6
+            and token not in generic_topic_tokens
+        )
+    }
+
     single_distinct_anchor_match = (
         len(rare_title_anchors) >= 1
         and len(rare_content_tokens) >= 3
@@ -373,7 +382,17 @@ def is_semantic_duplicate(
         and content_overlap_ratio >= 0.16
     )
 
-    return multiple_title_match or single_distinct_anchor_match
+    strong_single_anchor_match = (
+        len(distinct_title_anchors) >= 1
+        and len(shared_content_tokens) >= 5
+        and content_overlap_ratio >= 0.30
+    )
+
+    return (
+        multiple_title_match
+        or single_distinct_anchor_match
+        or strong_single_anchor_match
+    )
 
 
 def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
