@@ -267,13 +267,12 @@ def collect_news(
 
     return collected, errors
 
-
 def is_semantic_duplicate(
     item: dict[str, Any],
     existing_item: dict[str, Any],
     document_frequency: Counter[str],
 ) -> bool:
-    """Felismeri a más forrásban rövid időn belül megjelent azonos hírt."""
+    """Óvatosan felismeri a más forrásban megjelent azonos hírt."""
     if item["source"] == existing_item["source"]:
         return False
 
@@ -295,60 +294,86 @@ def is_semantic_duplicate(
         f"{existing_item['title']} {existing_item['summary']}"
     )
 
+    if not item_title_tokens or not existing_title_tokens:
+        return False
+
     if not item_content_tokens or not existing_content_tokens:
         return False
 
     shared_title_tokens = item_title_tokens & existing_title_tokens
     shared_content_tokens = item_content_tokens & existing_content_tokens
 
-    if not shared_content_tokens:
+    # Legalább egy közös címkulcsszó nélkül nem tekintjük
+    # azonos témának a két hírt.
+    if not shared_title_tokens:
         return False
 
-    overlap_ratio = len(shared_content_tokens) / min(
+    title_overlap_ratio = len(shared_title_tokens) / min(
+        len(item_title_tokens),
+        len(existing_title_tokens),
+    )
+
+    content_overlap_ratio = len(shared_content_tokens) / min(
         len(item_content_tokens),
         len(existing_content_tokens),
     )
 
-    rare_title_tokens = {
+    generic_topic_tokens = {
+        "rendszer",
+        "magyar",
+        "magyarorszag",
+        "helyzet",
+        "fontos",
+        "jelentos",
+        "termeszt",
+        "gazdalkod",
+        "mezogazdasag",
+        "aktualis",
+        "kerdes",
+        "valtozas",
+        "eredmeny",
+        "vizsgalat",
+    }
+
+    rare_title_anchors = {
         token
         for token in shared_title_tokens
-        if len(token) >= 6 and document_frequency[token] <= 4
+        if (
+            len(token) >= 6
+            and document_frequency[token] <= 5
+            and token not in generic_topic_tokens
+        )
     }
 
     rare_content_tokens = {
         token
         for token in shared_content_tokens
-        if len(token) >= 5 and document_frequency[token] <= 6
+        if (
+            len(token) >= 5
+            and document_frequency[token] <= 7
+            and token not in generic_topic_tokens
+        )
     }
 
-    shared_title_anchors = {
-        token
-        for token in shared_title_tokens
-        if len(token) >= 5
-    }
-
-    topic_anchor_match = (
-        len(shared_title_anchors) >= 1
+    # Legalább két közös címkulcsszó esetén mérsékelt
+    # tartalmi hasonlóság is elegendő.
+    multiple_title_match = (
+        len(shared_title_tokens) >= 2
         and len(shared_content_tokens) >= 3
-        and overlap_ratio >= 0.10
+        and title_overlap_ratio >= 0.18
+        and content_overlap_ratio >= 0.12
     )
 
-    same_distinct_topic = (
-        len(rare_title_tokens) >= 1
-        and len(rare_content_tokens) >= 2
-        and overlap_ratio >= 0.12
+    # Egyetlen címkulcsszó csak akkor elegendő, ha az ritka,
+    # és az összefoglalók is több jellegzetes szót megosztanak.
+    single_distinct_anchor_match = (
+        len(rare_title_anchors) >= 1
+        and len(rare_content_tokens) >= 3
+        and len(shared_content_tokens) >= 4
+        and content_overlap_ratio >= 0.16
     )
 
-    strongly_overlapping_content = (
-        len(shared_content_tokens) >= 4
-        and overlap_ratio >= 0.22
-    )
-
-    return (
-        topic_anchor_match
-        or same_distinct_topic
-        or strongly_overlapping_content
-    )
+    return multiple_title_match or single_distinct_anchor_match
 
 
 def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
