@@ -1,6 +1,13 @@
 # GazdaCentrum – változásnapló
 
 ## 2026. július 15.
+### Új RSS-forrás
+
+- Az Agro Napló RSS-feedje ellenőrizve lett.
+- Az új forrás bekerült a `sources.csv` fájlba.
+- A GitHub Actions tesztfuttatása sikeresen, zöld jelzéssel befejeződött.
+- Az Agro Napló hírei megjelentek a `news.json` fájlban.
+- A `PROJECT_STATUS.md` és a `TODO.md` dokumentáció frissítve lett.
 
 ### Létrehozva
 
