@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:51:41.385413+00:00",
+  "generated_at": "2026-07-15T17:59:14.178862+00:00",
   "item_count": 127,
   "items": [
     {
@@ -51,16 +51,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-15T15:27:00+00:00"
-    },
-    {
-      "id": "c9b1796601c682b8",
-      "title": "Szamócát tesztelt a hatóság: meglepő eredmény született",
-      "link": "https://agronaplo.hu/agrarhirek/20260715/szamocat-tesztelt-a-hatosag-meglepo-eredmeny-szuletett-40716",
-      "summary": "A Nébih laboratóriumi vizsgálatainak eredményei alapján kijelenthető, hogy biztonsággal fogyaszthatóak a hazai termesztésű szamócák.",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-15T15:09:00+00:00"
     },
     {
       "id": "dd9d976168701a9c",
@@ -141,6 +131,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T12:50:17+00:00"
+    },
+    {
+      "id": "ab95d1771fb9a22f",
+      "title": "Friss hírek érkeztek a magyar szamócáról: ezzel jó tisztában lenni",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/friss-hirek-erkeztek-a-magyar-szamocarol-ezzel-jo-tisztaban-lenni-63354",
+      "summary": "A hatósági vizsgálatok eredményei alapján kijelenthető, hogy a legális termelőtől, legális értékesítési csatornán beszerzett magyar szamóca biztonsággal fogyasztható.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T12:34:00+00:00"
     },
     {
       "id": "86f172f771a37971",
