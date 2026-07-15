@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T13:50:30.628303+00:00",
+  "generated_at": "2026-07-15T13:55:33.142300+00:00",
   "item_count": 40,
   "items": [
     {
@@ -403,7 +403,5 @@
       "published_at": "2026-07-12T07:11:00+00:00"
     }
   ],
-  "errors": [
-    "Agrárágazat: <unknown>:69:50: undefined entity"
-  ]
+  "errors": []
 }
