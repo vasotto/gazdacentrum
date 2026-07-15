@@ -384,8 +384,8 @@ def is_semantic_duplicate(
 
     strong_single_anchor_match = (
         len(distinct_title_anchors) >= 1
-        and len(shared_content_tokens) >= 5
-        and content_overlap_ratio >= 0.25
+        and len(shared_content_tokens) >= 3
+        and content_overlap_ratio >= 0.22
     )
 
     return (
