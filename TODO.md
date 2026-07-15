@@ -9,7 +9,8 @@ Utolsó frissítés: 2026. július 15.
 ## Források
 
 - [x] Agrárszektor RSS-forrás beállítása.
-- [ ] További magyar agrár RSS-források felkutatása.
+- [ ] Agro Napló RSS-forrás beállítása és tesztelése.
+- [ ] Egy harmadik magyar agrár RSS-forrás kiválasztása és külön tesztelése.
 - [ ] Az új források dátumainak, linkjeinek és kivonatainak ellenőrzése.
 - [ ] A sikeresen tesztelt források hozzáadása a `sources.csv` fájlhoz.
 - [ ] Hivatalos források, például NAK, Nébih, MÁK és Agrárminisztérium vizsgálata.
