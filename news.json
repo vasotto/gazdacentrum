@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T17:14:35.541172+00:00",
-  "item_count": 115,
+  "generated_at": "2026-07-15T17:29:53.327559+00:00",
+  "item_count": 118,
   "items": [
     {
       "id": "f78b548e2bf27316",
@@ -43,6 +43,16 @@
       "published_at": "2026-07-15T15:27:00+00:00"
     },
     {
+      "id": "c9b1796601c682b8",
+      "title": "Szamócát tesztelt a hatóság: meglepő eredmény született",
+      "link": "https://agronaplo.hu/agrarhirek/20260715/szamocat-tesztelt-a-hatosag-meglepo-eredmeny-szuletett-40716",
+      "summary": "A Nébih laboratóriumi vizsgálatainak eredményei alapján kijelenthető, hogy biztonsággal fogyaszthatóak a hazai termesztésű szamócák.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T15:09:00+00:00"
+    },
+    {
       "id": "dd9d976168701a9c",
       "title": "Nyomás alatt az európai gazdák: komoly változást sürgetnek",
       "link": "https://www.agrarszektor.hu/agrarpenzek/20260715/nyomas-alatt-az-europai-gazdak-komoly-valtozast-surgetnek-63366",
@@ -51,6 +61,16 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-15T15:02:00+00:00"
+    },
+    {
+      "id": "a6a59f64e43a37e4",
+      "title": "Fontos pályázat indul: érdemes résen lennie a magyaroknak",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260715/fontos-palyazat-indul-erdemes-resen-lennie-a-magyaroknak-63362",
+      "summary": "Nyílt pályázatot hirdet az ÖMKi agroökológiai Élő Laboratórium-ötletek fejlesztésére.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T14:28:00+00:00"
     },
     {
       "id": "02543e53f13767d8",
@@ -81,6 +101,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T13:34:00+00:00"
+    },
+    {
+      "id": "b44e0429a9402756",
+      "title": "Kilőttek az árak a lengyel piacokon: ennyit kérnek most egy kiló paprikáért",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/kilottek-az-arak-a-lengyel-piacokon-ennyit-kernek-most-egy-kilo-paprikaert-63352",
+      "summary": "A változékony időjárás hirtelen átrendezte a paprika kínálatát és árviszonyait a lengyeleknél.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T13:29:00+00:00"
     },
     {
       "id": "3ffc08f2bafbf64b",
@@ -173,6 +203,16 @@
       "published_at": "2026-07-15T10:32:00+00:00"
     },
     {
+      "id": "8c7c6d92df203b4c",
+      "title": "Glifozát, atrazin, dikamba: sorra nyerik a pereket a növényvédőszer-gyártók",
+      "link": "https://magyarmezogazdasag.hu/2026/07/15/glifozat-atrazin-dikamba-sorra-nyerik-a-pereket-a-novenyvedoszer-gyartok/",
+      "summary": "Az elmúlt hónapokban több fontos jogi és hatósági döntés is a növényvédőszer-gyártóknak kedvezett az Egyesült Államokban, miközben a környezetvédő és közegészségügyi szervezetek élesen bírálták ezeket. A Glifozát, atrazin, dikamba: sorra nyerik a pereket a növényvédőszer-gyártók bejegyzés először Magyar Mezőgazdaság -én jelent meg.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T10:07:54+00:00"
+    },
+    {
       "id": "f5f547de98455178",
       "title": "A Nébih átfogó ellenőrzései alapján biztonságos a hazai szamóca – egy kis mintaszámú tanulmány indokolatlan aggodalmat kelthet",
       "link": "https://fruitveb.hu/a-nebih-atfogo-ellenorzesei-alapjan-biztonsagos-a-hazai-szamoca-egy-kis-mintaszamu-tanulmany-indokolatlan-aggodalmat-kelthet/",
@@ -241,6 +281,26 @@
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
       "published_at": "2026-07-15T08:26:26+00:00"
+    },
+    {
+      "id": "9a98c05305555347",
+      "title": "A legmenőbb szobanövények, melyeknek tartása sem bonyolult",
+      "link": "https://magyarmezogazdasag.hu/2026/07/15/a-legmenobb-szobanovenyek-melyeknek-tartasa-sem-bonyolult/",
+      "summary": "A szobanövények világa jóval izgalmasabb annál, mint amit elsőre gondolunk. Számos olyan különlegesség létezik, amely első pillantásra „földönkívülinek” tűnik, mégis meglepően egyszerűen tartható lakásban A A legmenőbb szobanövények, melyeknek tartása sem bonyolult bejegyzés először Magyar Mezőgazdaság -én jelent meg.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T08:08:47+00:00"
+    },
+    {
+      "id": "2f385215a2333bfb",
+      "title": "Kritikus állapotban a Velencei-tó: lassan eltűnhet sokak kedvence?",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260715/kritikus-allapotban-a-velencei-to-lassan-eltunhet-sokak-kedvence-63349",
+      "summary": "Sorra dönti a negatív rekordokat a Velencei-tó vízszintje, több mint 10 centivel alacsonyabb a vízállás, mint 2022 szeptemberében volt.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T07:43:00+00:00"
     },
     {
       "id": "ea9fb079024df220",
@@ -323,6 +383,16 @@
       "published_at": "2026-07-15T06:10:00+00:00"
     },
     {
+      "id": "9b81c646fba7920c",
+      "title": "A nehézfém-szennyezés ellen egy gén védheti meg haszonnövényeinket",
+      "link": "https://magyarmezogazdasag.hu/2026/07/15/a-nehezfem-szennyezes-ellen-egy-gen-vedheti-meg-haszonnovenyeinket/",
+      "summary": "Lengyel kutatók egy tritikáléból származó gén működését vizsgálták Arabidopsisban. Az eredmények szerint a gén fokozta a növények réztűrését az antioxidáns védekezőrendszer erősítésével és a prolin felhalmozódásának növelésével. A A nehézfém-szennyezés ellen egy gén védheti meg haszonnövényeinket bejegyzés először Magyar Mezőgazdaság -én jelent meg.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T06:07:48+00:00"
+    },
+    {
       "id": "73c0bc550a82295d",
       "title": "Zöldebb állateledelek",
       "link": "https://magyarmezogazdasag.hu/2026/07/15/zoldebb-allateledelek/",
@@ -353,6 +423,36 @@
       "published_at": "2026-07-15T05:10:00+00:00"
     },
     {
+      "id": "e237cfa7ae6d516b",
+      "title": "Őrület, ami a lengyel piacokon zajlik: ennyibe kerül most egy kiló cseresznye",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/orulet-ami-a-lengyel-piacokon-zajlik-ennyibe-kerul-most-egy-kilo-cseresznye-63342",
+      "summary": "A legfrissebb jelentések szerint óvatos áremelkedés a cseresznyénél a lengyel nagybani piacokon.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T05:02:00+00:00"
+    },
+    {
+      "id": "786ee993192ee832",
+      "title": "Óriási bajban vannak az állattenyésztők: több helyen már a túlélés a tét",
+      "link": "https://www.agrarszektor.hu/allat/20260715/oriasi-bajban-vannak-az-allattenyesztok-tobb-helyen-mar-a-tuleles-a-tet-63339",
+      "summary": "A szárazság, a csökkenő takarmánytermés és a legelőterületek hiánya egyre nehezebb helyzetbe hozza a kisebb állattartó gazdaságokat.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T04:03:00+00:00"
+    },
+    {
+      "id": "53c48f59f7be1eaf",
+      "title": "Miért unatkoznak a méhek a modern kertekben?",
+      "link": "https://agroforum.hu/hazikert-2/miert-unatkoznak-a-mehek-a-modern-kertekben/",
+      "summary": "A méhek kapcsán sokszor halljuk, hogy „eltűnőben vannak”, „veszélyben vannak”, vagy éppen „menteni kell őket”. Ezek a megállapítások részben igazak, de van egy kevésbé emlegetett aspektus is: a modern kertek gyakran egyszerűen nem kínálnak elég változatos és folyamatosan elérhető táplálékot számukra.",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-15T03:40:00+00:00"
+    },
+    {
       "id": "66938a148b987cd7",
       "title": "A vadnai túlélő: egy Batul almafa igaz története",
       "link": "https://mezohir.hu/2026/07/15/mezogazdasag-batul-almafa-megorzese-vadnan/",
@@ -371,6 +471,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T02:36:00+00:00"
+    },
+    {
+      "id": "3ec25318ae18d984",
+      "title": "Egy családi álom vált valóra – 30 éves a Juhász Testvérek Pincészet",
+      "link": "https://magyarmezogazdasag.hu/2026/07/14/egy-csaladi-alom-valt-valora-30-eves-a-juhasz-testverek-pinceszet/",
+      "summary": "A Juhász Testvérek Pincészete egy apró családi vállalkozásból indult, és mára az ország egyik legmodernebb, legmeghatározóbb borászatává nőtte ki magát. Története 1996-ban, pontosan 30 évvel ezelőtt kezdődött egy egerszalóki családi ház pincéjében. A Egy családi álom vált valóra – 30 éves a Juhász Testvérek Pincészet bejegyzés először Magyar Mezőgazdaság -én jelent meg.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T21:20:13+00:00"
     },
     {
       "id": "030067ae2cabebb9",
@@ -593,6 +703,16 @@
       "published_at": "2026-07-14T06:11:00+00:00"
     },
     {
+      "id": "2138307bf5aa7417",
+      "title": "JÉGER rendszer: Szuda Zoltán szerint túl nagy a bizonytalanság",
+      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-jeger-rendszer-vitaja/",
+      "summary": "A JÉGER rendszer körüli vita egyre erősebb, miközben a mezőgazdaság számára a vízhiány jelenti a legnagyobb kihívást.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-14T03:34:00+00:00"
+    },
+    {
       "id": "86d50e1c8ce5cc4a",
       "title": "InterPIG éves konferencia: a sertéságazat aktuális kérdései",
       "link": "https://www.aki.gov.hu/2026/07/13/interpig-eves-konferencia-a-sertesagazat-aktualis-kerdesei/",
@@ -721,6 +841,16 @@
       "category": "Kertészet",
       "source_type": "szakmai",
       "published_at": "2026-07-13T07:00:00+00:00"
+    },
+    {
+      "id": "742220c3282d0e90",
+      "title": "JÉGER: „A teljes rendszer hatását vizsgálni kell”",
+      "link": "https://mezohir.hu/2026/07/13/mezogazdasag-jeger-vizsgalata/",
+      "summary": "A mezőgazdaság számára is fontos kérdés, hogy a JÉGER működését milyen adatok és vizsgálatok támasztják alá.",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-13T06:45:08+00:00"
     },
     {
       "id": "3a6bba7fb37541d8",
@@ -983,16 +1113,6 @@
       "published_at": "2026-06-30T12:02:36+00:00"
     },
     {
-      "id": "1d4cf442b3ca4988",
-      "title": "Ősszel több fontos agrárjogszabály is változhat. Készüljön fel időben!",
-      "link": "https://agrarkozosseg.hu/osszel-tobb-fontos-agrarjogszabaly-is-valtozhat/",
-      "summary": "Fontos agrárjogszabály változások várhatók 2026 őszén. Földügy, öntözés és állatvédelem is napirenden. Kattintson, és tudja meg, hogyan készülhet fel időben!",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-30T09:15:50+00:00"
-    },
-    {
       "id": "888a28efea915604",
       "title": "Magyar szakember az európai ökogazdálkodás élén",
       "link": "https://biokutatas.hu/hir/magyar-szakember-az-europai-okogazdalkodas-elen/",
@@ -1021,46 +1141,6 @@
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
       "published_at": "2026-06-24T14:45:39+00:00"
-    },
-    {
-      "id": "3223f7b50397a99d",
-      "title": "Új időszámítás a magyar szántóföldeken: A regeneratív talajművelés mint a klímatudatos gazdálkodás fundamentuma",
-      "link": "https://agrarkozosseg.hu/uj-idoszamitas-a-magyar-szantofoldeken-a-regenerativ-talajmuveles-mint-a-klimatudatos-gazdalkodas-fundamentuma/",
-      "summary": "Az elmúlt évek aszályai megmutatták, hogy a hagyományos szántás hosszú távon fenntarthatatlan. A klímatudatos gazdálkodás fundamentuma a regeneratív talajművelés (Min-Till, Strip-Till, No-Till), amely a takarónövények alkalmazásával és a talajtömörödés elleni védekezéssel radikálisan javítja a termőföldek vízmegtartó képességét. Olvassa el az Agrárközösség szakértői elemzését és gyakorlati esettanulmányait a jövedelmező átállásról!",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-24T09:22:58+00:00"
-    },
-    {
-      "id": "cbd627245768803e",
-      "title": "Márciusi GazdaMűhely – Agrárdigitalizáció/Precíziós gazdálkodás",
-      "link": "https://agrarkozosseg.hu/marciusi-gazdamuhely-agrardigitalizacio-precizios-gazdalkodas/",
-      "summary": "A márciusi GazdaMűhely szakmai napokon az agrárdigitalizáció és a precíziós gazdálkodás gyakorlati megvalósítása került a középpontba Békéscsabán és Kalocsán. Molnár Márton előadása és az azt követő kerekasztal-beszélgetések rávilágítottak arra, hogy a technológia önmagában nem cél, hanem eszköz: a valódi fejlődés alapja a hozamtérképek, a talajadatok és a munkafolyamatok adatvezérelt, tudatos átszervezése.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-23T09:00:38+00:00"
-    },
-    {
-      "id": "3f134092d248437c",
-      "title": "Áprilisi GazdaMűhely – Agrárkönyvelés",
-      "link": "https://agrarkozosseg.hu/aprilisi-gazdamuhely-agrarkonyveles/",
-      "summary": "Áprilisban három helyszínen, Gyöngyösön, Kecskeméten és Mályiban rendeztük meg az Agrárközösség GazdaMűhely szakmai napjait, ahol ezúttal a mezőgazdasági vállalkozások pénzügyi tudatossága került a középpontba.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-22T09:06:41+00:00"
-    },
-    {
-      "id": "d9a59ac799c1b4e4",
-      "title": "Júniusi GazdaMűhely – Szaktanácsadás",
-      "link": "https://agrarkozosseg.hu/juniusi-gazdamuhely-szaktanacsadas/",
-      "summary": "2025 novemberében PILOT jelleggel találkoztunk Gazdálkodó partnereinkkel az Agrárközösség gyöngyösi irodájában. Egy napot a közös fejlődés jegyében töltöttünk el egy szűkkörű szakmai rendezvény keretében.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-22T07:18:18+00:00"
     },
     {
       "id": "117d305a771faa9f",
@@ -1093,26 +1173,6 @@
       "published_at": "2026-06-16T11:47:07+00:00"
     },
     {
-      "id": "6952ae72f3dfebbe",
-      "title": "GazdaMűhely – pénzügyi tudatosság a gyakorlatban",
-      "link": "https://agrarkozosseg.hu/gazdamuhely-penzugyi-tudatossag-a-gyakorlatban/",
-      "summary": "Legutóbbi GazdaMűhely workshopunkon a tudatos gazdaságirányítás és a pénzügyi döntések kerültek fókuszba.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-16T09:32:30+00:00"
-    },
-    {
-      "id": "f922550619d62dab",
-      "title": "Fontos e-kereskedelmi, könyvelési és gazdálkodási tudnivalók 2026 nyarára",
-      "link": "https://agrarkozosseg.hu/fontos-e-kereskedelmi-konyvelesi-es-gazdalkodasi-tudnivalok-2026-nyarara/",
-      "summary": "Aszálykár érte a területét? Tudja meg, mit kell tenni betakarítás előtt, milyen adatokat szükséges megküldeni, és hogyan indulhat el a kártérítési eljárás.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-12T09:57:53+00:00"
-    },
-    {
       "id": "cdc3c5176535cfe6",
       "title": "Beszámoló a Total Grazing Masterclass-ról",
       "link": "https://biokutatas.hu/hir/beszamolo-a-total-grazing-masterclass-rol/",
@@ -1121,37 +1181,9 @@
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
       "published_at": "2026-06-05T13:00:51+00:00"
-    },
-    {
-      "id": "2a2aaa93c840a79a",
-      "title": "Aszálykár bejelentése betakarítás előtt",
-      "link": "https://agrarkozosseg.hu/aszalykar-bejelentese-betakaritas-elott/",
-      "summary": "Aszálykár érte a területét? Tudja meg, mit kell tenni betakarítás előtt, milyen adatokat szükséges megküldeni, és hogyan indulhat el a kártérítési eljárás.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-02T09:10:08+00:00"
-    },
-    {
-      "id": "0e347d9b3166c0e9",
-      "title": "A gazdaságátadás aktualitásai",
-      "link": "https://agrarkozosseg.hu/a-gazdasagatadas-aktualitasai/",
-      "summary": "Ismerje meg a gazdaságátadás legfontosabb 2026-os tudnivalóit, támogatási feltételeit, gyakori hibáit és az adózási kérdéseket generációváltás előtt.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-05-22T09:12:51+00:00"
-    },
-    {
-      "id": "9116bc9e8fc6aaba",
-      "title": "Agrárközösség 4.0 – MATE Precíziós képzés beszámoló",
-      "link": "https://agrarkozosseg.hu/agrarkozosseg-4-0-mate-precizios-kepzes-beszamolo/",
-      "summary": "A precíziós mezőgazdasági technológia alkalmazása egyre meghatározóbb trend a gazdálkodók körében, hiszen hatékony választ kínál a dinamikusan változó környezeti hatásokra. A piaci bizonytalanság, a szélsőséges időjárás, valamint a fokozódó kártevő nyomás komoly kihívást jelentenek az ágazat szereplői számára.",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-05-21T10:04:07+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    "Agrárközösség: <unknown>:7:2: mismatched tag"
+  ]
 }
