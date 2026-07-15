@@ -321,6 +321,12 @@ def is_semantic_duplicate(
         if len(token) >= 5 and document_frequency[token] <= 6
     }
 
+    topic_anchor_match = (
+        len(rare_title_tokens) >= 1
+        and len(shared_content_tokens) >= 3
+        and overlap_ratio >= 0.10
+    )
+
     same_distinct_topic = (
         len(rare_title_tokens) >= 1
         and len(rare_content_tokens) >= 2
@@ -332,7 +338,11 @@ def is_semantic_duplicate(
         and overlap_ratio >= 0.22
     )
 
-    return same_distinct_topic or strongly_overlapping_content
+    return (
+        topic_anchor_match
+        or same_distinct_topic
+        or strongly_overlapping_content
+    )
 
 
 def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
