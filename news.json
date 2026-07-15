@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-07-15T13:28:18.655177+00:00",
+  "generated_at": "2026-07-15T13:50:30.628303+00:00",
   "item_count": 40,
   "items": [
+    {
+      "id": "b44e0429a9402756",
+      "title": "Kilőttek az árak a lengyel piacokon: ennyit kérnek most egy kiló paprikáért",
+      "link": "https://www.agrarszektor.hu/noveny/20260715/kilottek-az-arak-a-lengyel-piacokon-ennyit-kernek-most-egy-kilo-paprikaert-63352",
+      "summary": "A változékony időjárás hirtelen átrendezte a paprika kínálatát és árviszonyait a lengyeleknél.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-15T13:29:00+00:00"
+    },
     {
       "id": "3ffc08f2bafbf64b",
       "title": "Ez lenne a jövő? Nem is hinnéd, hogyan termelhetünk a jövőben",
@@ -253,16 +263,6 @@
       "published_at": "2026-07-14T13:12:00+00:00"
     },
     {
-      "id": "993051e6ebe9d900",
-      "title": "Így locsolnak az élelmes magyarok a hőségben: mutatjuk, mit és hogyan csinálj",
-      "link": "https://www.agrarszektor.hu/noveny/20260714/igy-locsolnak-az-elelmes-magyarok-a-hosegben-mutatjuk-mit-es-hogyan-csinalj-63095",
-      "summary": "A cél nem az, hogy naponta mindig egy kevés vizet kapjanak a növények, hanem az, hogy megfelelő mélységig átnedvesedjen a gyökérzóna.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-14T12:31:00+00:00"
-    },
-    {
       "id": "8398cc218e097883",
       "title": "Rendkívüli lépést tett Kína: azonnal zuhanni kezdett a repce ára a tőzsdén",
       "link": "https://agronaplo.hu/agrarhirek/20260714/rendkivuli-lepest-tett-kina-azonnal-zuhanni-kezdett-a-repce-ara-a-tozsden-40706",
@@ -403,5 +403,7 @@
       "published_at": "2026-07-12T07:11:00+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    "Agrárágazat: <unknown>:69:50: undefined entity"
+  ]
 }
