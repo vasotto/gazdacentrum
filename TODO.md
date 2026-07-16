@@ -4,7 +4,7 @@ Utolsó frissítés: 2026. július 16.
 
 ## Következő konkrét feladat
 
-- [ ] A `CHANGELOG.md` frissítése a 2026. július 16-án elkészült fejlesztésekkel.
+- [ ] Az automatikus, hírtartalom alapján működő kategorizálás első változatának kialakítása.
 
 ## Aktív RSS-források
 
@@ -160,8 +160,8 @@ Jelenlegi aktív források száma:
 - [x] `TODO.md` létrehozása.
 - [x] `README.md` létrehozása.
 - [x] `CHANGELOG.md` létrehozása.
-- [ ] `CHANGELOG.md` frissítése a legutóbbi fejlesztésekkel.
-- [ ] `README.md` aktualizálása a jelenlegi működéshez.
+- [x] `CHANGELOG.md` frissítése a legutóbbi fejlesztésekkel.
+- [x] `README.md` aktualizálása a jelenlegi működéshez.
 - [ ] Az aktív és inaktív források rendszeres dokumentálása.
 - [ ] A jelentős változtatások folyamatos rögzítése.
 
