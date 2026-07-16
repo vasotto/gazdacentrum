@@ -479,11 +479,20 @@ def is_semantic_duplicate(
         strip_accents(existing_item["summary"].lower()),
     ).strip()
 
-    # Ha két különböző forrás hosszabb összefoglalója azonos,
-    # akkor eltérő cím mellett is ugyanannak a hírnek tekintjük.
+    shorter_summary, longer_summary = sorted(
+        (
+            normalized_item_summary,
+            normalized_existing_summary,
+        ),
+        key=len,
+    )
+
+    # Azonos hírnek tekintjük, ha a hosszabb összefoglaló
+    # csak egy rövid kiegészítéssel tér el a rövidebbtől.
     if (
-        len(normalized_item_summary) >= 80
-        and normalized_item_summary == normalized_existing_summary
+        len(shorter_summary) >= 80
+        and shorter_summary in longer_summary
+        and len(shorter_summary) / len(longer_summary) >= 0.80
     ):
         return True
     
