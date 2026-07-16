@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T13:08:38.169517+00:00",
-  "item_count": 152,
+  "generated_at": "2026-07-16T13:26:48.459009+00:00",
+  "item_count": 142,
   "items": [
     {
       "id": "e1686fb12c9baeb6",
@@ -11,6 +11,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-16T14:07:21+00:00"
+    },
+    {
+      "id": "b3f48da75e2fbef9",
+      "title": "Megoldódott egy rejtély: így verte át az állatorvosokat a teheneknél felbukkanó H5N1",
+      "link": "https://www.agroinform.hu/allattenyesztes/megoldodott-egy-rejtely-igy-verte-at-az-allatorvosokat-a-teheneknel-felbukkano-h5n1-98236-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98236",
+      "summary": "Amerikai kutatók kiderítették, hogy a tejelő szarvasmarháknál légzőszervi megbetegedés helyett miért tőgygyulladást okoz a H5N1 madárinfluenza.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T13:11:00+00:00"
     },
     {
       "id": "fc58301933e2bb84",
@@ -433,16 +443,6 @@
       "published_at": "2026-07-16T06:06:55+00:00"
     },
     {
-      "id": "8a186d1f261d795a",
-      "title": "A csupasz talaj nem pihen, hanem szenved",
-      "link": "https://www.agroinform.hu/szantofold/a-csupasz-talaj-nem-pihen-hanem-szenved-98069-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98069",
-      "summary": "Nem regenerálódik, hanem folyamatosan veszít szerves anyagából és biológiai aktivitásából. A takarónövények és a talajkímélő művelés ezért kulcsszerepet játszanak a fenntartható gazdálkodásban.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-16T06:06:34+00:00"
-    },
-    {
       "id": "681884868725242d",
       "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.07.16. csütörtök",
       "link": "https://www.agrarszektor.hu/noveny/20260716/friss-agrarszektor-idojaras-elorejelzes-20260716-csutortok-63369",
@@ -706,7 +706,7 @@
       "id": "c822f0efc4ffb0bd",
       "title": "Segédlet a vis maior bejelentésekhez – tudnivalók és gyakorlati példák",
       "link": "https://kap.gov.hu/news/2026-07-15/105613/segedlet-vis-maior-bejelentesekhez-tudnivalok-es-gyakorlati-peldak",
-      "summary": "Segédlet a vis maior bejelentésekhez – tudnivalók és gyakorlati példák szerkeszto 2026. 07. 15., sze – 10:56 A Magyar Államkincstár és az Agrár- és Élelmiszergazdaságért Felelős Minisztérium szakértői által közösen összeállított alább letölthető tájékoztató a vis maior bejelentések benyújtásához nyújt gyakorlati segítséget. A vonatkozó szabályok ismertetése mellett különböző példákon keresztül mutatja be a leggyakoribb eseteket, a szükséges igazoló dokumentumokat, valamint a mobilGAZDA alkalmaz…",
+      "summary": "A Magyar Államkincstár és az Agrár- és Élelmiszergazdaságért Felelős Minisztérium szakértői által közösen összeállított alább letölthető tájékoztató a vis maior bejelentések benyújtásához nyújt gyakorlati segítséget. A vonatkozó szabályok ismertetése mellett különböző példákon keresztül mutatja be a leggyakoribb eseteket, a szükséges igazoló dokumentumokat, valamint a mobilGAZDA alkalmaz…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -726,21 +726,11 @@
       "id": "42c9d0cd1d6bac13",
       "title": "Vis maior tájékoztató Aszály – 2026",
       "link": "https://kap.gov.hu/news/2026-07-15/102834/vis-maior-tajekoztato-aszaly-2026",
-      "summary": "Vis maior tájékoztató Aszály – 2026 szerkeszto 2026. 07. 15., sze – 10:28 2026-os év az agrárium számára ismét rendkívül kedvezőtlen időjárási körülmények között indult, mivel a tavaszi időszakban kialakult jelentős csapadékhiány az ország csaknem teljes területén súlyos aszályhelyzetet eredményezett. A tartós nedvességhiány következtében számos szántóföldi kultúrában a vetések kelése elmaradt vagy csak részlegesen valósult meg, a kikelt állományok fejlődése pedig jelentősen visszamaradt. A kia…",
+      "summary": "2026-os év az agrárium számára ismét rendkívül kedvezőtlen időjárási körülmények között indult, mivel a tavaszi időszakban kialakult jelentős csapadékhiány az ország csaknem teljes területén súlyos aszályhelyzetet eredményezett. A tartós nedvességhiány következtében számos szántóföldi kultúrában a vetések kelése elmaradt vagy csak részlegesen valósult meg, a kikelt állományok fejlődése pedig jelentősen visszamaradt. A kia…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
       "published_at": "2026-07-15T08:28:34+00:00"
-    },
-    {
-      "id": "36c4b5e4298b1ba0",
-      "title": "Nem zárt ajtók mögött: valós helyzetekben dől el, működik-e az innováció",
-      "link": "https://biokutatas.hu/hir/elo-laboratorium-palyazat-agrookologia/",
-      "summary": "Nyílt pályázatot hirdet az ÖMKi agroökológiai Élő Laboratórium-ötletek fejlesztésére Mi történik akkor, ha egy új megoldást nem zárt kutatói környezetben fejlesztenek, hanem ott, ahol annak később működnie kell? Egy városfejlesztési projektben, egy egészségügyi applikáció felhasználói körében – vagy éppen egy gazdaságban, közétkeztetési rendszerben. Erre épít az Élő Laboratórium (ÉL) módszere, amely világszerte egyre fontosabb szerepet kap a [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-07-15T08:26:26+00:00"
     },
     {
       "id": "fe5c6186a86196e5",
@@ -973,16 +963,6 @@
       "published_at": "2026-07-13T14:34:00+00:00"
     },
     {
-      "id": "a042759b2b1e2e20",
-      "title": "Együttműködés a növénynemesítés területén a zöld Európa érdekében – COLiBRI",
-      "link": "https://biokutatas.hu/kutatas/colibri/",
-      "summary": "„Horizon Europe” koordinációs és támogatási intézkedés (CSA): „Horizon Europe” 6. klaszter – Farm2Fork (HORIZON‑CL6‑2025‑02‑FARM2FORK‑09)Időtartam: 2026. június 1. – 2028. november 30. (30 hónap)Koordinátor: Julius Kühn-Intézet (JKI), NémetországKonzorcium: 17 partner, akik az állami kutatást, a nemesítőket, a gazdákat, az európai hálózatokat és a politikai szereplőket képviselik COLiBRI A COLiBRI egy „Horizont Európa” [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-07-13T13:33:44+00:00"
-    },
-    {
       "id": "717445c70b80cfae",
       "title": "Európa: jelentősen csökken a burgonya termőterülete",
       "link": "https://fruitveb.hu/europa-jelentosen-csokken-a-burgonya-termoterulete/",
@@ -1006,7 +986,7 @@
       "id": "dc2f76375c6bc888",
       "title": "A KAP Nemzeti Irányító Hatóság 71/2026. számú közleménye az „Erdőtelepítés és fásítás támogatása” című (KAP-RD38-RD39-1-25 kódszámú) pályázati felhívás módosításáról",
       "link": "https://kap.gov.hu/news/2026-07-13/121702/kap-nemzeti-iranyito-hatosag-712026.-szamu-kozlemenye-az-erdotelepites-es",
-      "summary": "A KAP Nemzeti Irányító Hatóság 71/2026. számú közleménye az „Erdőtelepítés és fásítás támogatása” című (KAP-RD38-RD39-1-25 kódszámú) pályázati felhívás módosításáról szerkeszto 2026. 07. 13., h – 12:17 A Közös Agrárpolitika Nemzeti Irányító Hatóság tájékoztatja a kedvezményezetteket, hogy módosult az „ Erdőtelepítés és fásítás támogatása ” című (KAP-RD38-RD39-1-25 kódszámú) pályázati felhívás. A felhívás 2.3 A támogatási kérelem benyújtásának határideje című fejezete kiegészül az 5., illetve a…",
+      "summary": "A Közös Agrárpolitika Nemzeti Irányító Hatóság tájékoztatja a kedvezményezetteket, hogy módosult az „ Erdőtelepítés és fásítás támogatása ” című (KAP-RD38-RD39-1-25 kódszámú) pályázati felhívás. A felhívás 2.3 A támogatási kérelem benyújtásának határideje című fejezete kiegészül az 5., illetve a…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -1036,7 +1016,7 @@
       "id": "7c97d8d9e19d4056",
       "title": "A KAP Nemzeti Irányító Hatóság 70/2026. számú közleménye a megítélt támogatás tíz százalékát meghaladó mértékű támogatás elszámolására irányuló kifizetési kérelem benyújtásának általános szabályairól",
       "link": "https://kap.gov.hu/news/2026-07-13/105707/kap-nemzeti-iranyito-hatosag-702026.-szamu-kozlemenye-megitelt-tamogatas-tiz",
-      "summary": "A KAP Nemzeti Irányító Hatóság 70/2026. számú közleménye a megítélt támogatás tíz százalékát meghaladó mértékű támogatás elszámolására irányuló kifizetési kérelem benyújtásának általános szabályairól szerkeszto 2026. 07. 13., h – 10:57 A Közös Agrárpolitikából és a nemzeti költségvetésből biztosított agrártámogatások felhasználásának rendjéről szóló 54/2023. (IX. 13.) AM rendelet (a továbbiakban: rendelet) 84. § (1) bekezdése alapján, amennyiben a vonatkozó pályázati felhívás másként nem rendel…",
+      "summary": "A Közös Agrárpolitikából és a nemzeti költségvetésből biztosított agrártámogatások felhasználásának rendjéről szóló 54/2023. (IX. 13.) AM rendelet (a továbbiakban: rendelet) 84. § (1) bekezdése alapján, amennyiben a vonatkozó pályázati felhívás másként nem rendel…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -1056,7 +1036,7 @@
       "id": "9e4d92ca57f0e2f0",
       "title": "A KAP Nemzeti Irányító Hatóság 69/2026. számú közleménye a „Generációs megújulás gazdaságátvevő támogatásával” című (KAP-RD06-1-25 kódszámú) pályázati felhívás módosításáról",
       "link": "https://kap.gov.hu/news/2026-07-13/100000/kap-nemzeti-iranyito-hatosag-692026.-szamu-kozlemenye-generacios-megujulas",
-      "summary": "A KAP Nemzeti Irányító Hatóság 69/2026. számú közleménye a „Generációs megújulás gazdaságátvevő támogatásával” című (KAP-RD06-1-25 kódszámú) pályázati felhívás módosításáról szerkeszto 2026. 07. 13., h – 10:00 A Közös Agrárpolitika Nemzeti Irányító Hatósága tájékoztatja a kedvezményezetteket, hogy a 2025. augusztus 28. napján megjelent „ Generációs megújulás gazdaságátvevő támogatásával ” című (KAP-RD06-1-25 kódszámú) pályázati felhívás az alábbiak szerint módosul: a 2.1. Kedvezményezettek köre…",
+      "summary": "A Közös Agrárpolitika Nemzeti Irányító Hatósága tájékoztatja a kedvezményezetteket, hogy a 2025. augusztus 28. napján megjelent „ Generációs megújulás gazdaságátvevő támogatásával ” című (KAP-RD06-1-25 kódszámú) pályázati felhívás az alábbiak szerint módosul: a 2.1. Kedvezményezettek köre…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -1203,16 +1183,6 @@
       "published_at": "2026-07-09T09:01:00+00:00"
     },
     {
-      "id": "400ec62c804e7498",
-      "title": "Világítótorony Ökogazdaságok Hálózatának fejlesztése – KAP",
-      "link": "https://biokutatas.hu/kutatas/vilagitotorony-okogazdasagok-halozatanak-fejlesztese/",
-      "summary": "Egy hazai világítótorony-hálózat kialakítása 8 ökológiai gazdaság részvételével, akik tudásuk széleskörű megosztásával hozzájárulnak a biogazdálkodás terjedéséhez és fejlesztéséhez. A világítótorony módszertan egyre nagyobb szerepet tölt be az európai agrárkutatásban. Az ökológiai világítótorony egy olyan kereskedelmileg is működő gazdaság, amely helyi vagy tájba illeszkedő ökológiai gyakorlatokat mutat be oktatási célból, így inspiráló példaként tudja növelni [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-07-09T08:29:16+00:00"
-    },
-    {
       "id": "3ffde5ecca0bd918",
       "title": "Franciaország: jelentősen visszaesik a burgonya termőterülete az idén",
       "link": "https://fruitveb.hu/franciaorszag-jelentosen-visszaesik-a-burgonya-termoterulete-az-iden/",
@@ -1266,7 +1236,7 @@
       "id": "76be5d78a68a2813",
       "title": "Pontosítás a minimális talajborításra vonatkozó előírás alkalmazásáról",
       "link": "https://kap.gov.hu/news/2026-07-07/150808/pontositas-minimalis-talajboritasra-vonatkozo-eloiras-alkalmazasarol",
-      "summary": "Pontosítás a minimális talajborításra vonatkozó előírás alkalmazásáról szerkeszto 2026. 07. 07., k – 15:08 Az Agrár- és Élelmiszergazdaságért Felelős Minisztérium felhívja az érintett gazdálkodók figyelmét az esetleges félreértések elkerülése érdekében, hogy a Helyes Mezőgazdasági és Környezeti Állapot (HMKÁ) 6-os előírása nem új kötelezettséget jelent, hanem egy már meglévő szabály teljesítésének lehetőségeire hívja fel a figyelmet. Az elmúlt napokban több gazdálkodóban az a félreértés alakult…",
+      "summary": "Az Agrár- és Élelmiszergazdaságért Felelős Minisztérium felhívja az érintett gazdálkodók figyelmét az esetleges félreértések elkerülése érdekében, hogy a Helyes Mezőgazdasági és Környezeti Állapot (HMKÁ) 6-os előírása nem új kötelezettséget jelent, hanem egy már meglévő szabály teljesítésének lehetőségeire hívja fel a figyelmet. Az elmúlt napokban több gazdálkodóban az a félreértés alakult…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -1276,7 +1246,7 @@
       "id": "2ea4e19219364ca5",
       "title": "A KAP Nemzeti Irányító Hatóság 68/2026. számú közleménye a „Termelői csoportok, termelői szervezetek támogatása” című (KAP-RD44-1-26 kódszámú) pályázati felhívás módosításáról",
       "link": "https://kap.gov.hu/news/2026-07-07/150542/kap-nemzeti-iranyito-hatosag-682026.-szamu-kozlemenye-termeloi-csoportok",
-      "summary": "A KAP Nemzeti Irányító Hatóság 68/2026. számú közleménye a „Termelői csoportok, termelői szervezetek támogatása” című (KAP-RD44-1-26 kódszámú) pályázati felhívás módosításáról szerkeszto 2026. 07. 07., k – 15:05 A Közös Agrárpolitika Nemzeti Irányító Hatósága tájékoztatja a kedvezményezetteket, hogy módosult a 2026. február 10. napján megjelent „ Termelői csoportok, termelői szervezetek támogatása ” című (KAP-RD44-1-26 kódszámú) pályázati felhívás: A felhívás 2.3. fejezet (A támogatási kérelem…",
+      "summary": "A Közös Agrárpolitika Nemzeti Irányító Hatósága tájékoztatja a kedvezményezetteket, hogy módosult a 2026. február 10. napján megjelent „ Termelői csoportok, termelői szervezetek támogatása ” című (KAP-RD44-1-26 kódszámú) pályázati felhívás: A felhívás 2.3. fejezet (A támogatási kérelem…",
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
@@ -1363,36 +1333,6 @@
       "published_at": "2026-06-30T09:15:50+00:00"
     },
     {
-      "id": "888a28efea915604",
-      "title": "Magyar szakember az európai ökogazdálkodás élén",
-      "link": "https://biokutatas.hu/hir/magyar-szakember-az-europai-okogazdalkodas-elen/",
-      "summary": "Az Ökológiai Gazdálkodási Mozgalmak Európai Szövetsége (IFOAM Organics Europe) közgyűlése dr. Drexler Dórát, az Ökológiai Mezőgazdasági Kutatóintézet (ÖMKi) ügyvezetőjét választotta a szervezet új elnökévé a 2026-2029-es időszakra. Az ökológiai termékpálya szereplőit képviselő szervezet új alelnökei Jérôme Cinel, az Interbio Nouvelle-Aquitaine vezetője, valamint Marian Blom, a holland Bionext szakértője lettek. Drexler Dóra megválasztása egyszerre jelent magyar szakmai sikert és lehetőséget arr…",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-29T08:33:56+00:00"
-    },
-    {
-      "id": "7bd73d9cb5c74e21",
-      "title": "Sorköztakarás hatása a szőlőültetvények ökoszisztémájára",
-      "link": "https://biokutatas.hu/hir/sorkoztakaras-hatasa-vilagitotorony-gazdasaglatogatas/",
-      "summary": "Szakmai Nap és Világítótorony Gazdaságlátogatás Az aranyszínű sárgaság elleni védekezési lehetőségek volt az egyik fő témája a júniusban Tokajban tartott Világítótorony Gazdaságlátogatás és Szakmai Nap rendezvénynek. A Tokaj-Hétszőlő Szőlőbirtok látta vendégük az érdeklődő szakembereket, ahol az amerikai szőlőkabóca és a fitoplazma elleni ökológiai védekezés lehetőségei mellett szó esett még a sorköztakarás fontosságáról mind [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-25T11:13:24+00:00"
-    },
-    {
-      "id": "9a5aec9f09876688",
-      "title": "A klímaváltozás kihívásai az ökológiai zöldségtermesztésben",
-      "link": "https://biokutatas.hu/hir/a-klimavaltozas-kihivasai-az-okologiai-zoldsegtermesztesben/",
-      "summary": "Nagy érdeklődés mellett tartotta meg szakmai terepi napját az ÖMKi 2026. június 2-án a zsámboki Orsiherba Biokertben. A rendezvény középpontjában az áttelelő és kora tavaszi vetésű pillangós zöldségek termesztési lehetőségei, valamint azok klímaváltozáshoz való alkalmazkodásban betöltött szerepe állt. A programot Papp Orsolya, az ÖMKi Kertészeti Csoportjának kutatója, az Orsiherba Biokert vezetője nyitotta meg, [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-24T14:45:39+00:00"
-    },
-    {
       "id": "3223f7b50397a99d",
       "title": "Új időszámítás a magyar szántóföldeken: A regeneratív talajművelés mint a klímatudatos gazdálkodás fundamentuma",
       "link": "https://agrarkozosseg.hu/uj-idoszamitas-a-magyar-szantofoldeken-a-regenerativ-talajmuveles-mint-a-klimatudatos-gazdalkodas-fundamentuma/",
@@ -1433,36 +1373,6 @@
       "published_at": "2026-06-22T07:18:18+00:00"
     },
     {
-      "id": "117d305a771faa9f",
-      "title": "A közös innováció előmozdítása: Az Agroecology-TRANSECT roskildei műhelymunkájának legfontosabb tanulságai",
-      "link": "https://biokutatas.hu/hir/a-kozos-innovacio-elomozditasa-agroecology-transect/",
-      "summary": "A dániai Roskildében rendezték meg 2026. április 21–23. között az Agroecology-TRANSECT projekt ötödik, egyben záró ko-innovációs műhelymunkájat, a Conservation Agriculture szervezésében (CA). A Roskilde Egyetem adott otthont az eseménynek, amelyen a projekt 11 Innovációs Központja (IK), kutatói és szakmai partnerei vettek részt. A találkozó fontos mérföldkőként szolgált a projekt négyéves közös munkájának lezárásában és [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-19T16:52:54+00:00"
-    },
-    {
-      "id": "9b05df5ca8e3a293",
-      "title": "Klímatudatos innovációk a gyakorlatban: a Climate Farm Demo éves találkozója Seinajökiben",
-      "link": "https://biokutatas.hu/hir/climate-farm-demo-eves-talalkozo/",
-      "summary": "A Climate Farm Demo harmadik éves találkozójára 2025. szeptember 23-25. között került sor Finnországban, Seinäjoki városában. Az eseményre 27 országból érkezett több, mint 90 partner, köztük gazdák, szaktanácsadók, kutatók és a projekthez kapcsolódó más kulcsszereplők. A három napos rendezvény lehetőséget teremtett a résztvevők számára a tapasztalatok megosztására, a jó gyakorlatok bemutatására, valamint a közös [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-19T14:28:50+00:00"
-    },
-    {
-      "id": "f70530f3125acc2d",
-      "title": "Milyen hozamokat remélhetünk az ökoszántón az egyre szélsőségesebbé váló éghajlati viszonyok mellett?",
-      "link": "https://biokutatas.hu/hir/szantofoldi-szakmai-nap-2026/",
-      "summary": "Többek között erre a kérdésre keresték a választ közösen az ÖMKi kutatói és a Szári Szántóföldi Szakmai Nap részvetői június 10-én a Csoroszlya Farmon tartott szakmai rendezvényen. A több mint 70 gazdálkodó, kutató, szaktanácsadó és agrárszakember az egésznapos rendezvény során nemcsak a terepi programon és a szakmai előadásokon vett részt, de interaktív műhelymunkák során [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-16T11:47:07+00:00"
-    },
-    {
       "id": "6952ae72f3dfebbe",
       "title": "GazdaMűhely – pénzügyi tudatosság a gyakorlatban",
       "link": "https://agrarkozosseg.hu/gazdamuhely-penzugyi-tudatossag-a-gyakorlatban/",
@@ -1481,16 +1391,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-06-12T09:57:53+00:00"
-    },
-    {
-      "id": "cdc3c5176535cfe6",
-      "title": "Beszámoló a Total Grazing Masterclass-ról",
-      "link": "https://biokutatas.hu/hir/beszamolo-a-total-grazing-masterclass-rol/",
-      "summary": "2026. április 27-29. között Gosztolán, a Dedes Private Agroecology Project szervezésében került megrendezésre a Total Grazing Masterclass képzés, amelyet Jaime Elizondo tartott. A háromnapos tréningen mintegy húsz résztvevő vett részt, többségük gyakorló állattartó gazdálkodó volt. A program elméleti előadásokból és terepi gyakorlatokból állt, a hangsúly pedig végig a gyakorlati alkalmazhatóságon és a gazdálkodói tapasztalatokon [...]",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "source_type": "szakmai",
-      "published_at": "2026-06-05T13:00:51+00:00"
     },
     {
       "id": "2a2aaa93c840a79a",
@@ -1523,5 +1423,7 @@
       "published_at": "2026-05-21T10:04:07+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    "ÖMKi: <urlopen error [Errno 110] Connection timed out>"
+  ]
 }
