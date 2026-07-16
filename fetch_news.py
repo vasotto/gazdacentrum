@@ -52,37 +52,12 @@ HUNGARIAN_SUFFIXES = tuple(
 
 
 def clean_text(value: Any, max_length: int = 500) -> str:
-    """HTML-elemek és automatikus RSS-zárómondatok eltávolítása."""
+    """HTML-elemek eltávolítása és a szöveg megtisztítása."""
     if value is None:
         return ""
 
     text = html.unescape(str(value))
     text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    text = re.sub(
-        r"\s*The post\b.*?\b(?:appeared first on|first appeared on)\b.*$",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    text = re.sub(
-        r"\s+(?:A\s+)?[^.]{0,350}?\bbejegyzés\s+először\b.*?"
-        r"\bjelent meg\.?\s*$",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    text = re.sub(
-        r"^(?:A\s+)?[^.]{0,350}?\bbejegyzés\s+először\b.*?"
-        r"\bjelent meg\.?\s*$",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-    
     text = re.sub(r"\s+", " ", text).strip()
 
     if len(text) > max_length:
@@ -91,6 +66,43 @@ def clean_text(value: Any, max_length: int = 500) -> str:
     return text
 
 
+def clean_summary(
+    value: Any,
+    title: str,
+    max_length: int = 500,
+) -> str:
+    """Az RSS-összefoglaló megtisztítása a forrásoldali zárószövegektől."""
+    text = clean_text(value, max_length=5000)
+
+    if not text:
+        return ""
+
+    escaped_title = re.escape(title.strip())
+
+    patterns = [
+        (
+            rf"\s*The post\s+{escaped_title}\s+"
+            rf"(?:appeared first on|first appeared on)\s+.*?\.?\s*$"
+        ),
+        (
+            rf"\s*A\s+{escaped_title}\s+bejegyzés\s+először\s+"
+            rf".*?\s+jelent\s+meg\.?\s*$"
+        ),
+    ]
+
+    for pattern in patterns:
+        text = re.sub(
+            pattern,
+            "",
+            text,
+            flags=re.IGNORECASE,
+        ).strip()
+
+    if len(text) > max_length:
+        return text[: max_length - 1].rstrip() + "…"
+
+    return text
+    
 def is_valid_feed_url(url: str) -> bool:
     """Kiszűri az üres és helykitöltő RSS-címeket."""
     url = url.strip()
@@ -283,8 +295,9 @@ def collect_news(
 
             published = parse_entry_date(entry)
 
-            summary = clean_text(
+            summary = clean_summary(
                 entry.get("summary", entry.get("description", "")),
+                title,
                 max_length=500,
             )
 
