@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-16T15:22:13.917815+00:00",
-  "item_count": 150,
+  "generated_at": "2026-07-16T15:34:12.119551+00:00",
+  "item_count": 152,
   "items": [
+    {
+      "id": "205d5c69f6f06d21",
+      "title": "Új adatokkal és funkciókkal bővült a HungaroMet KLIMADAT alkalmazása",
+      "link": "https://www.agroinform.hu/kornyezetvedelem/uj-adatokkal-es-funkciokkal-bovult-a-hungaromet-klimadat-alkalmazasa-98195-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98195",
+      "summary": "A HungaroMet frissítette KLIMADAT alkalmazását. Az új verzió friss éghajlati adatokat, új indikátorokat és egységesített klímaprojekciókat tartalmaz, segítve a szakmai döntéshozatalt, a kutatást és az oktatást.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T15:34:00+00:00"
+    },
+    {
+      "id": "19b3e137964b184e",
+      "title": "Fontos híreket közöltek a hazai aszályhelyzetről: itt vannak a részletek",
+      "link": "https://www.agrarszektor.hu/szabalyozas/20260716/fontos-hireket-kozoltek-a-hazai-aszalyhelyzetrol-itt-vannak-a-reszletek-63387",
+      "summary": "Az AÉM tájékoztatót tett közzé az idei évben megtapasztalható rendkívüli aszályhelyzet miatt kialakuló vis maior bejelentések megfelelő kezelhetősége érdekében.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-16T15:29:00+00:00"
+    },
     {
       "id": "8b7656a029968144",
       "title": "A KAP Nemzeti Irányító Hatóság 73/2026. számú közleménye az „Általános Útmutató a 2023 - 2027-es programozási időszakban a KAP Stratégiai Terv alapján meghirdetett pályázati felhívásokhoz” elnevezésű dokumentum módosítá…",
@@ -358,7 +378,7 @@
       "link": "https://www.agroinform.hu/gazdasag/europa-legikozlekedesenek-alkalmazkodokeszsege-a-gazdasagokban-kezdodik-98181-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98181",
       "summary": "Hogyan növelheti Magyarország a SAF-alapanyag-termelést rövid tenyészidejű növényekkel, köztes kultúrákkal és jobb vetőmag-genetikával.",
       "source": "Agroinform",
-      "category": "Kertészet",
+      "category": "Növénytermesztés",
       "source_type": "portál",
       "published_at": "2026-07-16T09:15:08+00:00"
     },
@@ -928,7 +948,7 @@
       "link": "https://agronaplo.hu/agrarhirek/20260714/itt-a-kinaiak-nagy-terve-igy-valnanak-a-jovo-mezogazdasagi-nagyhatalmava-40703",
       "summary": "Kiadta az új agrárstratégiáját Kína, amellyel 2035-ig globális mezőgazdasági-nagyhatalommá válna.",
       "source": "Agro Napló",
-      "category": "Kertészet",
+      "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-14T07:03:00+00:00"
     },
@@ -1498,7 +1518,7 @@
       "link": "https://agrarkozosseg.hu/agrarkozosseg-4-0-mate-precizios-kepzes-beszamolo/",
       "summary": "A precíziós mezőgazdasági technológia alkalmazása egyre meghatározóbb trend a gazdálkodók körében, hiszen hatékony választ kínál a dinamikusan változó környezeti hatásokra. A piaci bizonytalanság, a szélsőséges időjárás, valamint a fokozódó kártevő nyomás komoly kihívást jelentenek az ágazat szereplői számára.",
       "source": "Agrárközösség",
-      "category": "Kertészet",
+      "category": "Növényvédelem",
       "source_type": "portál",
       "published_at": "2026-05-21T10:04:07+00:00"
     }
