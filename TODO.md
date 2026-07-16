@@ -2,9 +2,9 @@
 
 Utolsó frissítés: 2026. július 16.
 
-## Következő feladat
+## Következő konkrét feladat
 
-- [ ] Az Agroinform működő RSS-feedjének megkeresése és tesztelése.
+- [ ] A `CHANGELOG.md` frissítése a 2026. július 16-án elkészült fejlesztésekkel.
 
 ## Aktív RSS-források
 
@@ -17,16 +17,24 @@ Utolsó frissítés: 2026. július 16.
 - [x] ÖMKi beállítása és tesztelése.
 - [x] FruitVeB beállítása és tesztelése.
 - [x] Agrárközösség beállítása és tesztelése.
+- [x] Agroinform beállítása és tesztelése.
+- [x] GÉPmax beállítása és tesztelése.
+- [x] KAP portál beállítása és tesztelése.
+
+Jelenlegi aktív források száma:
+
+- 12
 
 ## Következő RSS-források
 
-- [ ] Agroinform lehetséges RSS-végpontjainak ellenőrzése.
-- [ ] Phylazonit RSS-feed külön tesztelése.
 - [ ] További hivatalos agrárforrások keresése.
 - [ ] További növénytermesztési források keresése.
 - [ ] További állattenyésztési források keresése.
 - [ ] További kertészeti források keresése.
-- [ ] Támogatási és pályázati források keresése.
+- [ ] További támogatási és pályázati források keresése.
+- [ ] Minden új forrás külön tesztelése a `sources.csv` bővítése előtt.
+- [ ] A Phylazonit RSS-feed külön tesztelése partneri forrásként.
+- [ ] A partneri RSS-források megjelenítési és jelölési szabályainak kialakítása a Phylazonit feed esetleges aktiválása előtt.
 
 ## Tesztelt, de inaktív források
 
@@ -43,46 +51,119 @@ Utolsó frissítés: 2026. július 16.
 - [x] RSS-források beolvasása a `sources.csv` fájlból.
 - [x] Legfeljebb 20 hír feldolgozása forrásonként.
 - [x] Legfeljebb 200 hír mentése a `news.json` fájlba.
-- [x] Cím, link, forrás és publikálási idő mentése.
+- [x] Cím, link, forrás, kategória és publikálási idő mentése.
 - [x] Rövid RSS-összefoglalók tisztítása.
 - [x] HTML-elemek eltávolítása.
+- [x] HTML-karakterek dekódolása.
 - [x] Az „appeared first on” zárószövegek eltávolítása.
+- [x] A magyar „bejegyzés először ... jelent meg” zárószövegek eltávolítása.
+- [x] Duplán érkező RSS-címek tisztítása.
+- [x] Agroinform ismétlődő címeinek javítása.
+- [x] KAP-portál összefoglalóinak tisztítása.
+- [x] KAP-portál szerkesztői fejlécének eltávolítása.
+- [x] Nyilvánvalóan nem agrár témájú hírek relevanciaszűrése.
+- [x] Agroinform Házikert rovatának kizárása.
+- [x] Agrofórum hobbikerti és lakossági szaktanácsadási rovatainak kizárása.
+- [x] GÉPmax személyautós és SUV-híreinek kizárása.
+- [x] Átmeneti RSS-hibák automatikus újrapróbálása.
+- [x] Legfeljebb három RSS-lekérési kísérlet beállítása.
+- [x] Öt másodperces várakozás beállítása az ismételt lekérések között.
+- [x] Egyetlen hibás forrás mellett a többi forrás feldolgozásának folytatása.
+- [x] RSS-hibák mentése a `news.json` `errors` mezőjébe.
+- [ ] Tartósan hibás források külön, automatikus jelentése.
+- [ ] A források frissességének rendszeres ellenőrzése.
+- [ ] A hibás vagy elavult feedek időszakos felülvizsgálata.
+
+## Duplikációszűrés
+
 - [x] Azonos linkű hírek kiszűrése.
+- [x] Csak záró perjelben eltérő linkek felismerése.
 - [x] Azonos című hírek kiszűrése.
-- [x] Hasonló tartalmú hírek felismerése.
+- [x] Címek normalizálása az összehasonlításhoz.
+- [x] Különböző források hasonló tartalmú híreinek felismerése.
+- [x] Azonos és közel azonos összefoglalók felismerése.
+- [x] Legalább 80 karakteres összefoglalók összehasonlítása.
+- [x] Rövid kiegészítésben eltérő összefoglalók felismerése.
+- [x] Azonos forráson belül megjelenő másodpéldányok felismerése.
 - [x] Láncoltan kapcsolódó duplikációk felismerése.
 - [x] Forrástípus szerinti megtartási prioritás kialakítása.
-- [ ] Átmeneti RSS-hibák automatikus újrapróbálása.
-- [ ] Tartósan hibás források automatikus jelentése.
+- [x] Hivatalos forrás elsőbbségének beállítása.
+- [x] Szakmai forrás elsőbbségének beállítása a portálokkal szemben.
+- [x] Azonos forrástípusnál a frissebb hír előnyben részesítése.
+- [x] A 72 órás duplikációs időablak beállítása.
+- [x] Ukrán burgonyapiaci duplikáció tesztelése.
+- [x] Agrofórum azonos kukoricás videó- és szakcikkváltozatának kiszűrése.
 - [ ] A duplikációszűrés eredményeinek rendszeres ellenőrzése.
+- [ ] További valós duplikációs példák dokumentálása.
+- [ ] A téves összevonások időszakos ellenőrzése.
+- [ ] A fel nem ismert duplikációk időszakos ellenőrzése.
 
 ## Kategorizálás
 
+- [x] Forrásszintű kategóriák megadása a `sources.csv` fájlban.
+- [x] Agrárgazdaság kategória használata.
+- [x] Általános agrár kategória használata.
+- [x] Kertészet kategória használata.
+- [x] Gépesítés kategória használata.
+- [x] Támogatások és pályázatok kategória használata.
+- [x] Ökológiai gazdálkodás kategória használata.
 - [ ] Cím és összefoglaló alapján automatikus kategorizálás.
 - [ ] Növénytermesztés kategória.
 - [ ] Állattenyésztés kategória.
-- [ ] Kertészet kategória.
-- [ ] Agrárgazdaság kategória.
-- [ ] Támogatások és pályázatok kategória.
-- [ ] Gépesítés kategória.
 - [ ] Időjárás és vízgazdálkodás kategória.
-- [ ] Ökológiai gazdálkodás kategória.
 - [ ] Növényvédelem kategória.
+- [ ] Egy híren belül több lehetséges kategória kezelésének szabályozása.
+- [ ] A jelenlegi forrásszintű kategóriák felülvizsgálata.
 
 ## Weboldal
 
 - [x] Cloudflare Pages hosting beállítása.
 - [x] Saját domain bekötése.
+- [x] A `gazdacentrum.hu` működésének ellenőrzése.
+- [x] A `www.gazdacentrum.hu` működésének ellenőrzése.
 - [x] HTTPS működésének ellenőrzése.
 - [x] GazdaCentrum logó megjelenítése.
 - [x] Hírek automatikus betöltése a `news.json` fájlból.
-- [x] Forrás, dátum és eredeti cikklink megjelenítése.
+- [x] Kategória megjelenítése.
+- [x] Forrás megjelenítése.
+- [x] Publikálási idő megjelenítése.
+- [x] RSS-összefoglaló megjelenítése.
+- [x] Eredeti cikklink megjelenítése.
+- [x] Az élő oldalon az Agrofórum-duplikáció eltávolításának ellenőrzése.
 - [ ] Kategóriaszűrő kialakítása.
 - [ ] Külön kategóriaoldalak kialakítása.
 - [ ] Keresési funkció.
 - [ ] Mobilos megjelenés részletes ellenőrzése.
 - [ ] Forrásonkénti szűrés.
 - [ ] Hírkártyák megjelenésének finomítása.
+- [ ] Üres összefoglalóval érkező hírek megjelenésének felülvizsgálata.
+- [ ] Hibaállapot megjelenítése, ha a `news.json` nem tölthető be.
+
+## GitHub Actions és üzemeltetés
+
+- [x] Az „Agrárhírek frissítése” workflow létrehozása.
+- [x] Kézi workflow-indítás beállítása.
+- [x] Hatóránkénti automatikus futás beállítása.
+- [x] Python-függőségek automatikus telepítése.
+- [x] A `fetch_news.py` automatikus futtatása.
+- [x] A `news.json` automatikus frissítése.
+- [x] A módosított `news.json` visszamentése a `main` ágra.
+- [x] Cloudflare Pages automatikus deploy ellenőrzése.
+- [ ] Tartós workflow-hiba esetére értesítés kialakítása.
+- [ ] A workflow futási idejének és naplóinak időszakos ellenőrzése.
+- [ ] A GitHub Actions jogosultságainak dokumentálása.
+
+## Dokumentáció
+
+- [x] `PROJECT_STATUS.md` létrehozása.
+- [x] `PROJECT_STATUS.md` frissítése a 12 aktív forrással.
+- [x] `TODO.md` létrehozása.
+- [x] `README.md` létrehozása.
+- [x] `CHANGELOG.md` létrehozása.
+- [ ] `CHANGELOG.md` frissítése a legutóbbi fejlesztésekkel.
+- [ ] `README.md` aktualizálása a jelenlegi működéshez.
+- [ ] Az aktív és inaktív források rendszeres dokumentálása.
+- [ ] A jelentős változtatások folyamatos rögzítése.
 
 ## Tartalmi és jogi feladatok
 
@@ -92,6 +173,7 @@ Utolsó frissítés: 2026. július 16.
 - [ ] Hivatalos forrás ellenőrzésére figyelmeztető szöveg.
 - [ ] Felhasználási feltételek elkészítése.
 - [ ] Forráseltávolítási és panaszkezelési kapcsolat megadása.
+- [ ] Az RSS-összefoglalók felhasználási módjának rendszeres jogi felülvizsgálata.
 
 ## Partneri és fizetett vállalati tartalmak
 
@@ -101,6 +183,7 @@ Utolsó frissítés: 2026. július 16.
 - [ ] Partneri tartalmi feltételek kidolgozása.
 - [ ] Partneri csomagok és árak kidolgozása.
 - [ ] Partneri kattintási statisztikák kialakítása.
+- [ ] A Phylazonit RSS-forrás tesztelése csak a partneri szabályok kialakítása után.
 
 ## Későbbi fejlesztések
 
