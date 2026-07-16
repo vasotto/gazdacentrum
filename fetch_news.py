@@ -81,7 +81,25 @@ def clean_text(value: Any, max_length: int = 500) -> str:
         return text[: max_length - 1].rstrip() + "…"
 
     return text
+    
+def clean_title(value: Any, max_length: int = 220) -> str:
+    """Eltávolítja az RSS-ben kétszer egymás után szereplő címeket."""
+    text = clean_text(value, max_length=1000)
 
+    if not text:
+        return ""
+
+    text_length = len(text)
+
+    if text_length % 2 == 0:
+        middle = text_length // 2
+        first_half = text[:middle]
+        second_half = text[middle:]
+
+        if first_half == second_half:
+            text = first_half.strip()
+
+    return clean_text(text, max_length=max_length)
 
 def clean_summary(
     value: Any,
