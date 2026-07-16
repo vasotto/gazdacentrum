@@ -48,7 +48,153 @@ IRRELEVANT_TITLE_PHRASES = (
     "szunyogok ellen",
     "nepszeru marka minden tesztaetelet",
 )
-
+CATEGORY_KEYWORDS = (
+    (
+        "Támogatások és pályázatok",
+        (
+            "tamogatas",
+            "palyazat",
+            "kap strategiai terv",
+            "egyseges kerelem",
+            "tamogatasi kerelem",
+            "kifizetesi kerelem",
+            "jogcim",
+            "agrartamogatas",
+            "vis maior",
+        ),
+    ),
+    (
+        "Állattenyésztés",
+        (
+            "allattenyesztes",
+            "szarvasmarha",
+            "sertestenyesztes",
+            "sertespestis",
+            "baromfi",
+            "madarinfluenza",
+            "juhtartas",
+            "kecsketartas",
+            "tejtermeles",
+            "tejpiac",
+            "takarmanyozas",
+            "allategeszsegugy",
+            "tojas",
+        ),
+    ),
+    (
+        "Gépesítés",
+        (
+            "traktor",
+            "kombajn",
+            "mezogazdasagi gep",
+            "gepesites",
+            "munkagep",
+            "vetogep",
+            "permetezogep",
+            "betakaritogep",
+            "talajmuvelo gep",
+            "precizios gep",
+        ),
+    ),
+    (
+        "Kertészet",
+        (
+            "kerteszet",
+            "gyumolcs",
+            "zoldseg",
+            "paprika",
+            "paradicsom",
+            "burgonya",
+            "szolo",
+            "boraszat",
+            "alma",
+            "meggy",
+            "cseresznye",
+            "dinnye",
+            "hagyma",
+        ),
+    ),
+    (
+        "Növényvédelem",
+        (
+            "novenyvedelem",
+            "novenyvedo",
+            "kartev",
+            "korokozo",
+            "gombabetegseg",
+            "gyomirto",
+            "rovarolo",
+            "fungicid",
+            "herbicid",
+            "rezisztencia",
+            "fertozes",
+            "karantenkartevo",
+        ),
+    ),
+    (
+        "Időjárás és vízgazdálkodás",
+        (
+            "aszaly",
+            "csapadek",
+            "idojaras",
+            "vizgazdalkodas",
+            "arviz",
+            "belviz",
+            "ontozes",
+            "homerseklet",
+            "fagykar",
+            "vizhiany",
+            "vizallas",
+        ),
+    ),
+    (
+        "Ökológiai gazdálkodás",
+        (
+            "okologiai gazdalkodas",
+            "biogazdalkodas",
+            "bio minosites",
+            "regenerativ gazdalkodas",
+            "agrookologia",
+            "talajegeszseg",
+        ),
+    ),
+    (
+        "Növénytermesztés",
+        (
+            "novenytermesztes",
+            "buza",
+            "kukorica",
+            "napraforgo",
+            "repce",
+            "szoja",
+            "arpa",
+            "kalaszos",
+            "vetomag",
+            "vetes",
+            "aratas",
+            "termeshozam",
+            "talajmuveles",
+            "tarlokezeles",
+        ),
+    ),
+    (
+        "Agrárgazdaság",
+        (
+            "agrargazdasag",
+            "termeloi ar",
+            "felvasarlasi ar",
+            "elelmiszerar",
+            "piaci ar",
+            "agrarpiac",
+            "export",
+            "import",
+            "kereskedelem",
+            "elelmiszeripar",
+            "inflacio",
+            "termelesi koltseg",
+        ),
+    ),
+)
 STOP_WORDS = set(
     """
     a az egy es hogy de is nem meg mar mint ami amely ezt ez arra alapjan
@@ -340,7 +486,45 @@ def is_relevant_item(
 
     return True
 
+def determine_category(
+    source_category: str,
+    title: str,
+    summary: str,
+) -> str:
+    """A cím és az összefoglaló alapján meghatározza a hír kategóriáját."""
+    fallback_category = source_category.strip() or "Egyéb"
 
+    # Az első változat csak az általános források híreit
+    # kategorizálja automatikusan. A szakosított források
+    # eredeti kategóriáját változatlanul hagyja.
+    if fallback_category != "Általános agrár":
+        return fallback_category
+
+    normalized_title = strip_accents(title.lower())
+    normalized_summary = strip_accents(summary.lower())
+
+    best_category = fallback_category
+    best_score = 0
+
+    for category, keywords in CATEGORY_KEYWORDS:
+        score = sum(
+            2
+            for keyword in keywords
+            if keyword in normalized_title
+        )
+
+        score += sum(
+            1
+            for keyword in keywords
+            if keyword in normalized_summary
+        )
+
+        if score > best_score:
+            best_category = category
+            best_score = score
+
+    return best_category
+    
 def collect_news(
     sources: list[dict[str, str]],
 ) -> tuple[list[dict[str, Any]], list[str]]:
@@ -442,7 +626,11 @@ def collect_news(
                     "link": link,
                     "summary": summary,
                     "source": source["name"],
-                    "category": source["category"] or "Egyéb",
+                    "category": determine_category(
+                        source["category"],
+                        title,
+                        summary,
+                    ),
                     "source_type": source["type"],
                     "published_at": published.isoformat(),
                 }
