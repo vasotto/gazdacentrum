@@ -8,15 +8,18 @@ A GazdaCentrum.hu teljesen vagy közel teljesen automatizált magyar agrár hír
 
 A rendszer célja:
 
-- agrárhírek automatikus gyűjtése;
+- agrárhírek automatikus gyűjtése jogszerű RSS-, API- vagy más strukturált forrásból;
 - a hírek kategorizálása;
-- az azonos vagy nagyon hasonló hírek összevonása;
+- az azonos vagy nagyon hasonló hírek felismerése és összevonása;
+- a nyilvánvalóan nem agrár témájú tartalmak kiszűrése;
 - a forrás, publikálási idő és eredeti cikklink megjelenítése;
 - stabil, alacsony költségű és minimális kézi munkát igénylő működés.
 
 ## 2. Infrastruktúra
 
 ### Domain
+
+Aktív domainek:
 
 - gazdacentrum.hu
 - www.gazdacentrum.hu
@@ -48,6 +51,8 @@ Fontos DNS-rekordok, amelyeket védeni kell:
 - DMARC;
 - Google és más szolgáltatások igazoló TXT rekordjai.
 
+DNS-módosítás előtt ezeket a rekordokat minden esetben ellenőrizni kell.
+
 ### Hosting
 
 - Cloudflare Pages
@@ -71,12 +76,14 @@ A Cloudflare Pages minden `main` ágra kerülő commit után automatikusan új d
 
 ## 3. Jelenlegi működési folyamat
 
-    RSS-források
+    sources.csv
     → fetch_news.py
     → news.json
     → index.html
     → Cloudflare Pages
     → gazdacentrum.hu
+
+A GitHub Actions rendszer hatóránként automatikusan lefuttatja a hírfrissítést.
 
 ## 4. Fontos repository-fájlok
 
@@ -87,7 +94,8 @@ Feladata:
 - a weboldal megjelenítése;
 - a GazdaCentrum logó megjelenítése;
 - a `news.json` betöltése JavaScripttel;
-- a hírek kártyás megjelenítése.
+- a hírek kártyás megjelenítése;
+- a forrás, kategória, publikálási idő és eredeti link megjelenítése.
 
 ### gazdacentrum_logo.png
 
@@ -95,56 +103,314 @@ A GazdaCentrum weboldalon használt logó.
 
 ### sources.csv
 
-Az aktív RSS-forrásokat tartalmazza.
+Az aktív RSS-forrásokat, kategóriákat és forrástípusokat tartalmazza.
 
-Jelenlegi aktív források:
+Oszlopai:
 
-1. Agrárszektor  
-   https://www.agrarszektor.hu/rss
+- `name`
+- `rss_url`
+- `category`
+- `type`
 
-2. Agro Napló  
-   https://www.agronaplo.hu/rss
+## 5. Jelenlegi aktív RSS-források
 
-3. Magyar Mezőgazdaság  
-   https://magyarmezogazdasag.hu/feed/
+Jelenleg 12 aktív forrás szerepel a `sources.csv` fájlban.
 
-4. Mezőhír  
-   https://mezohir.hu/feed/
+### 1. Agrárszektor
 
-5. Agrofórum  
-   https://agroforum.hu/feed/
+RSS:
 
-6. AKI  
-   https://www.aki.gov.hu/feed/
+- https://www.agrarszektor.hu/rss
 
-7. ÖMKi  
-   https://biokutatas.hu/feed/
+Kategória:
 
-8. FruitVeB  
-   https://fruitveb.hu/feed/
+- Agrárgazdaság
 
-9. Agrárközösség  
-   https://agrarkozosseg.hu/feed/
+Forrástípus:
+
+- portál
+
+### 2. Agro Napló
+
+RSS:
+
+- https://www.agronaplo.hu/rss
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 3. Magyar Mezőgazdaság
+
+RSS:
+
+- https://magyarmezogazdasag.hu/feed/
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 4. Mezőhír
+
+RSS:
+
+- https://mezohir.hu/feed/
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 5. Agrofórum
+
+RSS:
+
+- https://agroforum.hu/feed/
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 6. AKI
+
+RSS:
+
+- https://www.aki.gov.hu/feed/
+
+Kategória:
+
+- Agrárgazdaság
+
+Forrástípus:
+
+- hivatalos
+
+### 7. ÖMKi
+
+RSS:
+
+- https://biokutatas.hu/feed/
+
+Kategória:
+
+- Ökológiai gazdálkodás
+
+Forrástípus:
+
+- szakmai
+
+### 8. FruitVeB
+
+RSS:
+
+- https://fruitveb.hu/feed/
+
+Kategória:
+
+- Kertészet
+
+Forrástípus:
+
+- szakmai
+
+### 9. Agrárközösség
+
+RSS:
+
+- https://agrarkozosseg.hu/feed/
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 10. Agroinform
+
+RSS:
+
+- https://www.agroinform.hu/rss
+
+Kategória:
+
+- Általános agrár
+
+Forrástípus:
+
+- portál
+
+### 11. GÉPmax
+
+RSS:
+
+- https://gepmax.hu/feed/
+
+Kategória:
+
+- Gépesítés
+
+Forrástípus:
+
+- szakmai
+
+### 12. KAP portál
+
+RSS:
+
+- https://kap.gov.hu/rss.xml
+
+Kategória:
+
+- Támogatások és pályázatok
+
+Forrástípus:
+
+- hivatalos
 
 A felsorolt forrásokból a hírek bekerülnek a `news.json` fájlba.
 
-A legutóbbi ellenőrző workflow-futás hibamentesen fejeződött be.
+A legutóbbi ellenőrzött workflow-futás hibamentesen fejeződött be.
 
-### fetch_news.py
+## 6. fetch_news.py
 
-Feladata:
+A `fetch_news.py` végzi a teljes automatikus RSS-feldolgozást.
+
+Fő feladatai:
 
 - a `sources.csv` beolvasása;
 - az RSS-források lekérése;
-- a cím, link, dátum, forrás és rövid összefoglaló feldolgozása;
-- a HTML-elemek eltávolítása;
-- a felesleges RSS-zárószövegek eltávolítása;
-- az azonos linkű és című hírek kiszűrése;
-- a hasonló tartalmú hírek felismerése;
-- a láncoltan kapcsolódó duplikációk felismerése;
+- a cím, link, dátum, forrás és összefoglaló feldolgozása;
+- a hírek egységes adatszerkezetbe rendezése;
+- a nyilvánvalóan nem releváns hírek kiszűrése;
+- a duplikációk felismerése;
 - a `news.json` elkészítése.
 
-A duplikációszűrés a források között prioritást alkalmaz:
+### RSS-lekérés
+
+Egy RSS-forrás lekérése legfeljebb háromszor történik meg.
+
+Beállítások:
+
+- maximális próbálkozások száma: 3;
+- két próbálkozás közötti várakozás: 5 másodperc.
+
+Ha egy forrás mindhárom alkalommal sikertelen, a hiba bekerül a `news.json` `errors` mezőjébe, a többi forrás feldolgozása pedig folytatódik.
+
+### Feldolgozási korlátok
+
+- forrásonként legfeljebb 20 hír kerül feldolgozásra;
+- a végleges `news.json` legfeljebb 200 hírt tartalmaz;
+- a tartalmi duplikációszűrés időablaka 72 óra.
+
+### Szövegtisztítás
+
+A program:
+
+- eltávolítja a HTML-elemeket;
+- dekódolja a HTML-karaktereket;
+- megszünteti a felesleges szóközöket;
+- korlátozza a cím és az összefoglaló hosszát;
+- eltávolítja az RSS-ben ismétlődő zárószövegeket;
+- eltávolítja az „appeared first on” típusú kiegészítéseket;
+- eltávolítja a magyar „bejegyzés először ... jelent meg” zárószövegeket.
+
+### Duplán érkező címek tisztítása
+
+Egyes RSS-források ugyanazt a címet kétszer egymás után adják át.
+
+A `clean_title()` függvény felismeri és eltávolítja az ilyen ismétlődést.
+
+Ez különösen az Agroinform egyes híreinél jelentkezett.
+
+### KAP-portál összefoglalóinak tisztítása
+
+A KAP-portál RSS-összefoglalói korábban tartalmazták az ismétlődő:
+
+- szerkesztői nevet;
+- dátumot;
+- időpontot.
+
+A `clean_kap_summary()` függvény ezt a fejlécet eltávolítja.
+
+## 7. Relevanciaszűrés
+
+A rendszer forrás- és linkfüggő szabályokkal kiszűri a nyilvánvalóan nem agrár témájú híreket.
+
+Jelenlegi fő szabályok:
+
+- ismert, nem releváns címkifejezések kizárása;
+- az Agroinform Házikert rovatának kizárása;
+- az Agrofórum hobbikerti és lakossági szaktanácsadási rovatainak kizárása;
+- a GÉPmax személyautós és SUV-híreinek kizárása.
+
+A relevanciaszűrés célja nem minden határeset automatikus eldöntése, hanem a nyilvánvalóan idegen témájú tartalmak eltávolítása.
+
+## 8. Duplikációszűrés
+
+A rendszer több szinten szűri az ismétlődő híreket.
+
+### Azonos link
+
+Azonos vagy csak záró perjelben eltérő link esetén csak egy hír marad meg.
+
+### Azonos cím
+
+Az írásjelektől megtisztított, kisbetűsített azonos címekből csak egy marad meg.
+
+### Azonos vagy közel azonos összefoglaló
+
+Ha két, legalább 80 karakteres összefoglaló:
+
+- teljesen azonos; vagy
+- az egyik a másikban megtalálható;
+- és a rövidebb összefoglaló hossza legalább a hosszabb 80 százaléka,
+
+akkor a rendszer azonos hírnek tekinti őket.
+
+Ez a szabály ugyanazon forrás eltérő URL-en megjelenő másodpéldányaira is működik.
+
+### Tartalmi hasonlóság
+
+Különböző források híreinél a rendszer vizsgálja:
+
+- a cím kulcsszavait;
+- a cím és összefoglaló közös kulcsszavait;
+- a ritkább, jellegzetes szavakat;
+- a tartalmi átfedés arányát;
+- a publikálási idő különbségét.
+
+A szemantikai összehasonlítás 72 órás időablakon belül történik.
+
+### Láncolt duplikációk
+
+A rendszer a már kihagyott duplikátumokat is megtartja összehasonlítási alapként.
+
+Ez lehetővé teszi az olyan hírláncok felismerését, ahol:
+
+- az A hír hasonlít a B hírre;
+- a B hír hasonlít a C hírre;
+- de az A és C címében kisebb az egyezés.
+
+### Forrásprioritás
+
+A megtartandó hír kiválasztásánál a rendszer a következő prioritást használja:
 
     hivatalos
     → szakmai
@@ -152,17 +418,26 @@ A duplikációszűrés a források között prioritást alkalmaz:
 
 Azonos forrástípus esetén a frissebb publikálási idő kap előnyt.
 
-### requirements.txt
+## 9. Ellenőrzött duplikációs példák
 
-Jelenlegi Python-függőség:
+A rendszer sikeresen felismerte és összevonta többek között:
 
-    feedparser==6.0.12
+- a három, magyar szamócáról szóló hírt;
+- a Velencei-tó alacsony vízállásáról szóló híreket;
+- a lengyel cseresznyepiacról szóló híreket;
+- az európai burgonya-termőterület csökkenéséről szóló híreket;
+- az ukrán burgonyapiacról szóló FruitVeB- és Agrárszektor-hírt;
+- az Agrofórum azonos kukoricás videó- és szakcikkváltozatát.
 
-### news.json
+Az ukrán burgonyapiaci hírből a FruitVeB szakmai forrás maradt meg.
+
+Az Agrofórum két azonos összefoglalójú kukoricás anyagából csak a frissebb maradt meg.
+
+## 10. news.json
 
 A weboldalon megjelenő hírek adatfájlja.
 
-Tartalmazza többek között:
+Tartalmazza:
 
 - a generálás időpontját;
 - a hírek számát;
@@ -175,9 +450,27 @@ Tartalmazza többek között:
 - a publikálási időt;
 - a feldolgozási hibákat.
 
-### .github/workflows/update-news.yml
+A legutóbbi ellenőrzött futás eredménye:
 
-GitHub Actions workflow neve:
+- hírek száma: 148;
+- RSS-hibák száma: 0;
+- `errors` lista: üres.
+
+A hírek száma minden futásnál változhat az RSS-források aktuális tartalma és a duplikációszűrés eredménye alapján.
+
+## 11. requirements.txt
+
+Jelenlegi Python-függőség:
+
+    feedparser==6.0.12
+
+## 12. GitHub Actions
+
+Workflow-fájl:
+
+    .github/workflows/update-news.yml
+
+Workflow neve:
 
 - Agrárhírek frissítése
 
@@ -190,22 +483,28 @@ Működése:
 - frissíti a `news.json` fájlt;
 - a változást automatikusan visszamenti a `main` ágra.
 
-## 5. Jelenleg működő funkciók
+## 13. Jelenleg működő funkciók
 
 - a `gazdacentrum.hu` elérhető;
 - a `www.gazdacentrum.hu` elérhető;
 - HTTPS működik;
 - a GitHub és a Cloudflare Pages kapcsolata működik;
 - az automatikus deploy működik;
-- a GitHub Actions sikeresen lefut;
-- kilenc RSS-forrás hírei kerülnek feldolgozásra;
+- a GitHub Actions kézzel és automatikusan is futtatható;
+- 12 RSS-forrás hírei kerülnek feldolgozásra;
+- sikertelen RSS-lekérésnél automatikus újrapróbálkozás történik;
 - a `news.json` automatikusan elkészül;
 - a hírek megjelennek a weboldalon;
+- az ismétlődő RSS-címek megtisztításra kerülnek;
+- a felesleges RSS-zárószövegek eltávolításra kerülnek;
+- a KAP-portál összefoglalói megtisztításra kerülnek;
+- a nyilvánvalóan nem releváns hírek kiszűrésre kerülnek;
 - az azonos linkű hírek kiszűrésre kerülnek;
 - az azonos című hírek kiszűrésre kerülnek;
-- a hasonló tartalmú hírek összevonásra kerülnek;
-- a láncoltan kapcsolódó duplikációk is felismerhetők;
-- az RSS-ben található felesleges „appeared first on” szövegek eltávolításra kerülnek.
+- az azonos és közel azonos összefoglalójú hírek kiszűrésre kerülnek;
+- azonos forráson belüli másodpéldányok is kiszűrésre kerülnek;
+- a különböző források hasonló tartalmú hírei összevonásra kerülnek;
+- a láncoltan kapcsolódó duplikációk is felismerhetők.
 
 A híreknél jelenleg látható:
 
@@ -216,19 +515,7 @@ A híreknél jelenleg látható:
 - rövid RSS-összefoglaló;
 - az eredeti cikk linkje.
 
-## 6. Ellenőrzött duplikációs példák
-
-A rendszer sikeresen összevonta:
-
-- a három, magyar szamócáról szóló hírt;
-- a Velencei-tó alacsony vízállásáról szóló híreket;
-- a lengyel cseresznyepiacról szóló híreket;
-- az európai burgonya-termőterület csökkenéséről szóló híreket;
-- az azonos bolti élelmiszertrenddel foglalkozó híreket.
-
-A szamócás híreknél a FruitVeB szakmai forrás maradt meg az Agro Napló és az Agrárszektor változata helyett.
-
-## 7. Tesztelt, de jelenleg inaktív források
+## 14. Tesztelt, de jelenleg inaktív források
 
 ### Agrárágazat
 
@@ -288,17 +575,20 @@ A tesztelt feed hibát adott, ezért nem maradt az aktív források között.
 
 A tesztelt feed hibát adott, ezért nem maradt az aktív források között.
 
-## 8. Átmeneti RSS-hibák
+## 15. Átmeneti RSS-hibák
 
-Az ÖMKi feedjénél egyszer kapcsolódási időtúllépés jelentkezett.
+Korábban előfordult:
 
-Az Agrárközösség feedjénél egyszer `mismatched tag` XML-hiba jelentkezett.
+- ÖMKi kapcsolódási időtúllépés;
+- Agrárközösség `mismatched tag` XML-hiba.
 
-Mindkét hiba eltűnt az ismételt workflow-futtatás után, ezért a források aktívak maradtak.
+Mindkét hiba eltűnt az ismételt lekérés után.
 
-Jelenleg nincs automatikus újrapróbálkozás a `fetch_news.py` fájlban.
+A program jelenleg automatikusan legfeljebb háromszor próbálkozik egy RSS-forrás lekérésével.
 
-## 9. Tartalmi és jogi működés
+Egyetlen forrás hibája nem állítja le a többi forrás feldolgozását.
+
+## 16. Tartalmi és jogi működés
 
 Jelenlegi alapelvek:
 
@@ -307,13 +597,15 @@ Jelenlegi alapelvek:
 - minden hírnél megjelenik a forrás;
 - minden hírnél megjelenik az eredeti cikk linkje;
 - elsődlegesen RSS-, API- vagy más engedélyezett strukturált forrást használunk;
+- scraping csak külön jogi és technikai vizsgálat után alkalmazható;
+- az összefoglaló nem torzíthatja az eredeti hírt;
 - az oldalon jelezni kell az automatizált tartalom-előállítást.
 
 Támogatási, jogszabályi, pénzügyi és növényvédelmi híreknél az eredeti hivatalos forrás ellenőrzése szükséges.
 
 Fizetett vállalati források később bevonhatók, de ezeket egyértelműen például „Fizetett partneri tartalom” jelöléssel kell elkülöníteni.
 
-## 10. Facebook
+## 17. Facebook
 
 A korábbi Zetorvas Facebook-oldal neve már GazdaCentrum.
 
@@ -323,17 +615,19 @@ Jelenlegi URL:
 
 A Facebook-link egyelőre nincs kitéve a weboldalra.
 
-Csak akkor kerül ki, amikor sikerült a végleges felhasználónevet beállítani, például:
+Csak akkor kerülhet ki, amikor sikerült a végleges felhasználónevet beállítani, például:
 
 - gazdacentrum;
 - gazdacentrum.hu;
 - gazdacentrumhu.
 
-## 11. Ismert korlátozások
+## 18. Ismert korlátozások
 
 - a kategória több forrásnál még forrásszinten van megadva;
+- az egyes hírek tartalma alapján még nincs részletes automatikus kategorizálás;
 - a tartalmi duplikációszűrés heurisztikus, ezért folyamatos ellenőrzést igényel;
-- nincs automatikus újrapróbálkozás az átmeneti RSS-hibáknál;
+- egyes rövid vagy általános összefoglalójú duplikációkat a rendszer nem feltétlenül ismer fel;
+- egyes, azonos témájú, de eltérő információt tartalmazó hírek szándékosan külön maradnak;
 - nincs kategóriaszűrés;
 - nincsenek külön kategóriaoldalak;
 - nincs kereső;
@@ -343,12 +637,12 @@ Csak akkor kerül ki, amikor sikerült a végleges felhasználónevet beállíta
 - az impresszum és az adatkezelési tájékoztató még nem készült el;
 - a fizetett partneri tartalmak technikai elkülönítése még nincs kialakítva.
 
-## 12. Következő konkrét feladat
+## 19. Következő konkrét feladat
 
-A következő feladat az Agroinform működő RSS-feedjének megkeresése és tesztelése.
+A következő fejlesztési feladat a jelenlegi dokumentáció összehangolása.
 
-Sikeres Agroinform-teszt után külön ellenőrizzük a Phylazonit RSS-feedet:
+Következő frissítendő fájl:
 
-- https://phylazonit.hu/feed/
+    TODO.md
 
-A vállalati forrást csak megfelelő, egyértelmű vállalati vagy partneri jelöléssel szabad később megjeleníteni.
+A `TODO.md` frissítése után a `CHANGELOG.md` és a `README.md` aktualizálása következik.
