@@ -525,8 +525,8 @@ def determine_category(
     best_score = 0
 
     for category, keywords in CATEGORY_KEYWORDS:
-        score = sum(
-            2
+        title_matches = sum(
+            1
             for keyword in keywords
             if category_keyword_matches(
                 keyword,
@@ -534,7 +534,7 @@ def determine_category(
             )
         )
 
-        score += sum(
+        summary_matches = sum(
             1
             for keyword in keywords
             if category_keyword_matches(
@@ -542,6 +542,13 @@ def determine_category(
                 normalized_summary,
             )
         )
+
+        # Egyetlen, csak az összefoglalóban előforduló szó
+        # még nem elegendő a kategória felülírásához.
+        if title_matches == 0 and summary_matches < 2:
+            continue
+
+        score = title_matches * 2 + summary_matches
 
         if score > best_score:
             best_category = category
