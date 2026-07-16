@@ -455,9 +455,8 @@ def is_semantic_duplicate(
     existing_item: dict[str, Any],
     document_frequency: Counter[str],
 ) -> bool:
-    """Óvatosan felismeri a más forrásban megjelent azonos hírt."""
-    if item["source"] == existing_item["source"]:
-        return False
+    """Óvatosan felismeri az azonos vagy nagyon hasonló híreket."""
+    same_source = item["source"] == existing_item["source"]
 
     item_date = parse_iso_datetime(item["published_at"])
     existing_date = parse_iso_datetime(existing_item["published_at"])
@@ -466,7 +465,7 @@ def is_semantic_duplicate(
         hours=SEMANTIC_DUPLICATE_WINDOW_HOURS
     ):
         return False
-        
+
     normalized_item_summary = re.sub(
         r"[^a-z0-9]+",
         " ",
@@ -487,15 +486,20 @@ def is_semantic_duplicate(
         key=len,
     )
 
-    # Azonos hírnek tekintjük, ha a hosszabb összefoglaló
-    # csak egy rövid kiegészítéssel tér el a rövidebbtől.
+    # A közel azonos, hosszabb összefoglalókat ugyanannak
+    # a hírnek tekintjük, azonos forráson belül is.
     if (
         len(shorter_summary) >= 80
         and shorter_summary in longer_summary
         and len(shorter_summary) / len(longer_summary) >= 0.80
     ):
         return True
-    
+
+    # Ugyanazon forrás eltérő tartalmú cikkeit a további,
+    # tágabb szemantikai vizsgálat már ne vonja össze.
+    if same_source:
+        return False
+
     item_title_tokens = keyword_tokens(item["title"])
     existing_title_tokens = keyword_tokens(existing_item["title"])
 
