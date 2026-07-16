@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T13:44:34.845798+00:00",
-  "item_count": 151,
+  "generated_at": "2026-07-16T13:49:27.349388+00:00",
+  "item_count": 149,
   "items": [
     {
       "id": "e1686fb12c9baeb6",
@@ -11,6 +11,16 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-16T14:07:21+00:00"
+    },
+    {
+      "id": "1e4bacef961482ce",
+      "title": "Fordulat jöhet a Velencei-tónál: mégis megmenekülhet a magyarok kedvence?",
+      "link": "https://agronaplo.hu/agrarhirek/20260716/fordulat-johet-a-velencei-tonal-megis-megmenekulhet-a-magyarok-kedvence-40720",
+      "summary": "Egy felújított, már meglévő ipari szivattyútelep bevonásával pótolnák a Dunából a Velencei-tó hiányzó vizét egy újragondolt szakmai javaslat szerint.",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T13:44:00+00:00"
     },
     {
       "id": "1f196353bef9684d",
@@ -283,16 +293,6 @@
       "published_at": "2026-07-16T08:34:00+00:00"
     },
     {
-      "id": "b6607fc49f69c785",
-      "title": "Nem várt fordulat a kiszáradó Velencei-tónál: így menthetik meg a pusztulástól",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260716/nem-vart-fordulat-a-kiszarado-velencei-tonal-igy-menthetik-meg-a-pusztulastol-63371",
-      "summary": "Új lendületet kapott egy évek óta keringő elképzelés, dunai vízzel pótolni a Velencei‑tó hiányzó vízmennyiségét.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-16T08:31:00+00:00"
-    },
-    {
       "id": "f3d7750698d3c898",
       "title": "Nem elég elkészíteni a bálát: utána is komoly veszély leselkedik a gazdákra",
       "link": "https://www.agroinform.hu/gazdaelet/nem-eleg-elkesziteni-a-balat-utana-is-komoly-veszely-leselkedik-a-gazdakra-98155-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98155",
@@ -461,16 +461,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-16T05:10:00+00:00"
-    },
-    {
-      "id": "1fffd00855af585e",
-      "title": "Valami nem stimmel az ukránoknál: érdekes, ami a krumplival történik a piacokon",
-      "link": "https://www.agrarszektor.hu/noveny/20260716/valami-nem-stimmel-az-ukranoknal-erdekes-ami-a-krumplival-tortenik-a-piacokon-63361",
-      "summary": "A tömegesen piacra érkező tételek miatt az árak esni kezdtek, ráadásul a minőség is sok esetben elmarad az elvárt szinttől az ukránoknál.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-16T05:07:00+00:00"
     },
     {
       "id": "1c8f722dc48e0ab3",
@@ -1061,16 +1051,6 @@
       "category": "Kertészet",
       "source_type": "szakmai",
       "published_at": "2026-07-13T07:00:00+00:00"
-    },
-    {
-      "id": "d77a4dc600ebe9be",
-      "title": "Kapás kultúrák lombtrágyázása (x)",
-      "link": "https://agronaplo.hu/agrofokusz/20260713/kapas-kulturak-lombtragyazasa-x-40678",
-      "summary": "Júliusban időszerű a kukorica lombtrágyázása. Az állományok többsége ekkorra már eléri a 8-leveles állapotot. Sőt egy részük akár még fejlettebb is lehet, ami együtt jár a nagyobb lombfelülettel.",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-13T05:30:00+00:00"
     },
     {
       "id": "7cfdc4692ec37076",
