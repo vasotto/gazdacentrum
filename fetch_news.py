@@ -61,17 +61,28 @@ def clean_text(value: Any, max_length: int = 500) -> str:
     text = re.sub(r"\s+", " ", text).strip()
 
     text = re.sub(
-        r"\s*The post\b.*?\bappeared first on\b.*$",
+        r"\s*The post\b.*?\b(?:appeared first on|first appeared on)\b.*$",
         "",
         text,
         flags=re.IGNORECASE,
     )
+
     text = re.sub(
-        r"\s*A bejegyzés\b.*?\belőször\b.*$",
+        r"\s+(?:A\s+)?[^.]{0,350}?\bbejegyzés\s+először\b.*?"
+        r"\bjelent meg\.?\s*$",
         "",
         text,
         flags=re.IGNORECASE,
     )
+
+    text = re.sub(
+        r"^(?:A\s+)?[^.]{0,350}?\bbejegyzés\s+először\b.*?"
+        r"\bjelent meg\.?\s*$",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+    
     text = re.sub(r"\s+", " ", text).strip()
 
     if len(text) > max_length:
