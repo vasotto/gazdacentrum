@@ -381,7 +381,7 @@ def collect_news(
             continue
 
         for entry in feed.entries[:MAX_ITEMS_PER_SOURCE]:
-            title = clean_text(entry.get("title", ""), max_length=220)
+            title = clean_title(entry.get("title", ""), max_length=220)
             link = str(entry.get("link", "")).strip()
 
             if not title or not link:
