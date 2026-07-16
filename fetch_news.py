@@ -138,6 +138,28 @@ def clean_summary(
 
     return text
     
+def clean_kap_summary(
+    value: Any,
+    max_length: int = 500,
+) -> str:
+    """Eltávolítja a KAP-portál összefoglalóinak ismétlődő fejlécét."""
+    text = clean_text(value, max_length=5000)
+
+    if not text:
+        return ""
+
+    text = re.sub(
+        r"^\s*.*?\bszerkeszt[oő]\s+"
+        r"\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\.,?\s*"
+        r"[^–—-]{0,12}[–—-]\s*\d{1,2}:\d{2}\s*",
+        "",
+        text,
+        count=1,
+        flags=re.IGNORECASE,
+    ).strip()
+
+    return clean_text(text, max_length=max_length)
+
 def is_valid_feed_url(url: str) -> bool:
     """Kiszűri az üres és helykitöltő RSS-címeket."""
     url = url.strip()
@@ -394,6 +416,12 @@ def collect_news(
                 title,
                 max_length=500,
             )
+
+            if source["name"] == "KAP portál":
+                summary = clean_kap_summary(
+                    summary,
+                    max_length=500,
+                )
 
             if not is_relevant_item(
                 source["name"],
