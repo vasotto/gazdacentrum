@@ -466,7 +466,27 @@ def is_semantic_duplicate(
         hours=SEMANTIC_DUPLICATE_WINDOW_HOURS
     ):
         return False
+        
+    normalized_item_summary = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        strip_accents(item["summary"].lower()),
+    ).strip()
 
+    normalized_existing_summary = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        strip_accents(existing_item["summary"].lower()),
+    ).strip()
+
+    # Ha két különböző forrás hosszabb összefoglalója azonos,
+    # akkor eltérő cím mellett is ugyanannak a hírnek tekintjük.
+    if (
+        len(normalized_item_summary) >= 80
+        and normalized_item_summary == normalized_existing_summary
+    ):
+        return True
+    
     item_title_tokens = keyword_tokens(item["title"])
     existing_title_tokens = keyword_tokens(existing_item["title"])
 
