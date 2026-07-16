@@ -485,7 +485,25 @@ def is_relevant_item(
             return False
 
     return True
+    
+def category_keyword_matches(
+    keyword: str,
+    text: str,
+) -> bool:
+    """Megakadályozza a rövid kulcsszavak szavakon belüli téves találatát."""
+    compact_keyword = keyword.replace(" ", "")
 
+    # A legfeljebb négybetűs kulcsszavaknak egy szó
+    # elején kell kezdődniük. Így az „alma” nem található
+    # meg például az „alkalmazása” szó belsejében.
+    if len(compact_keyword) <= 4:
+        return re.search(
+            rf"(?<![a-z0-9]){re.escape(keyword)}",
+            text,
+        ) is not None
+
+    return keyword in text
+    
 def determine_category(
     source_category: str,
     title: str,
@@ -510,13 +528,19 @@ def determine_category(
         score = sum(
             2
             for keyword in keywords
-            if keyword in normalized_title
+            if category_keyword_matches(
+                keyword,
+                normalized_title,
+            )
         )
 
         score += sum(
             1
             for keyword in keywords
-            if keyword in normalized_summary
+            if category_keyword_matches(
+                keyword,
+                normalized_summary,
+            )
         )
 
         if score > best_score:
