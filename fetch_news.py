@@ -32,6 +32,23 @@ SOURCE_TYPE_PRIORITY = {
     "portal": 1,
 }
 
+
+IRRELEVANT_TITLE_PHRASES = (
+    "balaton-atuszas",
+    "haletetes kozben fulladt",
+    "szobanoveny",
+    "kek zonak a kert vegeben",
+    "hosszu elet videki recept",
+    "allateledelek",
+    "minden gazdinak",
+    "valasztanak sort",
+    "sor-virsli index",
+    "ne etesd oket",
+    "eletveszelyes hal lepte el",
+    "szunyogok ellen",
+    "nepszeru marka minden tesztaetelet",
+)
+
 STOP_WORDS = set(
     """
     a az egy es hogy de is nem meg mar mint ami amely ezt ez arra alapjan
@@ -225,6 +242,65 @@ def keyword_tokens(value: str) -> set[str]:
     return tokens
 
 
+def is_relevant_item(
+    source_name: str,
+    title: str,
+    link: str,
+    summary: str,
+) -> bool:
+    """Forrás- és címfüggő szabályokkal kiszűri a nyilvánvalóan nem agrár híreket."""
+    normalized_source = strip_accents(source_name.lower())
+    normalized_title = strip_accents(title.lower())
+    normalized_link = strip_accents(link.lower())
+    normalized_summary = strip_accents(summary.lower())
+
+    combined_text = f"{normalized_title} {normalized_summary}"
+
+    if any(
+        phrase in combined_text
+        for phrase in IRRELEVANT_TITLE_PHRASES
+    ):
+        return False
+
+    # Az Agroinform Házikert rovata jellemzően lakossági,
+    # hobbi- és díszkerti tartalmat közöl.
+    if (
+        normalized_source == "agroinform"
+        and "/hazikert/" in normalized_link
+    ):
+        return False
+
+    # Az Agrofórum hobbikerti és lakossági szaktanácsadási
+    # rovatait nem jelenítjük meg a szakmai agrárhírfolyamban.
+    if normalized_source == "agroforum" and any(
+        path in normalized_link
+        for path in (
+            "/hazikert-2/",
+            "/szaktanacsadas-kerdesek/",
+        )
+    ):
+        return False
+
+    # A GÉPmax személyautós és SUV-hírei nem mezőgazdasági géphírek.
+    if normalized_source == "gepmax":
+        passenger_vehicle_markers = (
+            "suv",
+            "proton x70",
+            "kia seltos",
+            "jeep grand cherokee",
+            "renault boreal",
+        )
+
+        if any(
+            marker in normalized_title
+            or marker in normalized_link
+            for marker in passenger_vehicle_markers
+        ):
+            return False
+
+    return True
+
+
 def collect_news(
     sources: list[dict[str, str]],
 ) -> tuple[list[dict[str, Any]], list[str]]:
@@ -300,6 +376,18 @@ def collect_news(
                 title,
                 max_length=500,
             )
+
+            if not is_relevant_item(
+                source["name"],
+                title,
+                link,
+                summary,
+            ):
+                print(
+                    "Nem releváns hír miatt kihagyva: "
+                    f"{title} ({source['name']})"
+                )
+                continue
 
             collected.append(
                 {
