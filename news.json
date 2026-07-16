@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-07-16T09:54:37.987818+00:00",
+  "generated_at": "2026-07-16T10:18:28.803042+00:00",
   "item_count": 200,
   "items": [
+    {
+      "id": "6dce87cb3aa2fca9",
+      "title": "Így kerestek gépet 2026 első felében az Agroinform Piactéren – meglepő adatok!",
+      "link": "https://www.agroinform.hu/gepeszet/igy-kerestek-gepet-2026-elso-feleben-az-agroinform-piacteren-meglepo-adatok-97845-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=97845",
+      "summary": "Az Agroinform Piactéren több mint nyolcmillió traktorkeresés és közel kétmillió rakodógép-keresés mutatja, hogy a gazdák teljes gépkapcsolatban gondolkodnak.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T10:10:07+00:00"
+    },
     {
       "id": "beb09eeef647c71c",
       "title": "„Zöldebb és ehetőbb” város: kampány indul a városi kertekért",
@@ -561,16 +571,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-15T20:08:04+00:00"
-    },
-    {
-      "id": "54da9035b87e0a7b",
-      "title": "Keserű az uborka? Ki ne dobd! Ezzel az egyszerű módszerrel eltűnik a keserű íz!",
-      "link": "https://www.agroinform.hu/hazikert/keseru-az-uborka-ki-ne-dobd-ezzel-az-egyszeru-modszerrel-eltunik-a-keseru-iz-98096-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98096",
-      "summary": "Ha az uborka keserű lett, nem feltétlenül kell kidobni. Néhány egyszerű konyhai és házikerti módszerrel sokszor enyhíthető az íze, és az is kiderül, mi okozza a problémát.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-15T19:36:00+00:00"
     },
     {
       "id": "c1595fda43907647",
@@ -1993,18 +1993,18 @@
       "published_at": "2026-06-30T12:02:36+00:00"
     },
     {
-      "id": "1d4cf442b3ca4988",
-      "title": "Ősszel több fontos agrárjogszabály is változhat. Készüljön fel időben!",
-      "link": "https://agrarkozosseg.hu/osszel-tobb-fontos-agrarjogszabaly-is-valtozhat/",
-      "summary": "Fontos agrárjogszabály változások várhatók 2026 őszén. Földügy, öntözés és állatvédelem is napirenden. Kattintson, és tudja meg, hogyan készülhet fel időben!",
-      "source": "Agrárközösség",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-06-30T09:15:50+00:00"
+      "id": "888a28efea915604",
+      "title": "Magyar szakember az európai ökogazdálkodás élén",
+      "link": "https://biokutatas.hu/hir/magyar-szakember-az-europai-okogazdalkodas-elen/",
+      "summary": "Az Ökológiai Gazdálkodási Mozgalmak Európai Szövetsége (IFOAM Organics Europe) közgyűlése dr. Drexler Dórát, az Ökológiai Mezőgazdasági Kutatóintézet (ÖMKi) ügyvezetőjét választotta a szervezet új elnökévé a 2026-2029-es időszakra. Az ökológiai termékpálya szereplőit képviselő szervezet új alelnökei Jérôme Cinel, az Interbio Nouvelle-Aquitaine vezetője, valamint Marian Blom, a holland Bionext szakértője lettek. Drexler Dóra megválasztása egyszerre jelent magyar szakmai sikert és lehetőséget arr…",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "source_type": "szakmai",
+      "published_at": "2026-06-29T08:33:56+00:00"
     }
   ],
   "errors": [
-    "NAK: <urlopen error [Errno 110] Connection timed out>",
-    "HUN-REN ATK: <urlopen error [Errno 110] Connection timed out>"
+    "Agrárközösség: <unknown>:7:2: mismatched tag",
+    "NAK: <urlopen error [Errno 110] Connection timed out>"
   ]
 }
