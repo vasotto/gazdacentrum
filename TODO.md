@@ -1,59 +1,120 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 15.
+Utolsó frissítés: 2026. július 16.
 
 ## Következő feladat
 
-- [x] Egy új magyar agrár RSS-forrás kiválasztása és külön tesztelése.
+- [ ] Az Agroinform működő RSS-feedjének megkeresése és tesztelése.
 
-## Források
+## Aktív RSS-források
 
-- [x] Agrárszektor RSS-forrás beállítása.
-- [x] Agro Napló RSS-forrás beállítása és tesztelése.
-- [ ] Egy harmadik magyar agrár RSS-forrás kiválasztása és külön tesztelése.
-- [ ] Az új források dátumainak, linkjeinek és kivonatainak ellenőrzése.
-- [ ] A sikeresen tesztelt források hozzáadása a `sources.csv` fájlhoz.
-- [ ] Hivatalos források, például NAK, Nébih, MÁK és Agrárminisztérium vizsgálata.
-- [ ] Külföldi agrárforrások későbbi tesztelése.
+- [x] Agrárszektor beállítása és tesztelése.
+- [x] Agro Napló beállítása és tesztelése.
+- [x] Magyar Mezőgazdaság beállítása és tesztelése.
+- [x] Mezőhír beállítása és tesztelése.
+- [x] Agrofórum beállítása és tesztelése.
+- [x] AKI beállítása és tesztelése.
+- [x] ÖMKi beállítása és tesztelése.
+- [x] FruitVeB beállítása és tesztelése.
+- [x] Agrárközösség beállítása és tesztelése.
 
-## Hírgyűjtés és feldolgozás
+## Következő RSS-források
 
-- [x] RSS-hírek automatikus lekérése.
-- [x] A `news.json` automatikus előállítása.
-- [x] Hatóránkénti GitHub Actions frissítés.
-- [x] Alapszintű duplikációszűrés cím és link alapján.
-- [ ] Kulcsszóalapú, agrárspecifikus kategorizálás kialakítása.
-- [ ] Azonos eseményről szóló, eltérő című hírek felismerése.
-- [ ] Hibás vagy elérhetetlen RSS-források automatikus jelzése.
-- [ ] A régi hírek megőrzési idejének meghatározása.
+- [ ] Agroinform lehetséges RSS-végpontjainak ellenőrzése.
+- [ ] Phylazonit RSS-feed külön tesztelése.
+- [ ] További hivatalos agrárforrások keresése.
+- [ ] További növénytermesztési források keresése.
+- [ ] További állattenyésztési források keresése.
+- [ ] További kertészeti források keresése.
+- [ ] Támogatási és pályázati források keresése.
+
+## Tesztelt, de inaktív források
+
+- [x] Agrárágazat tesztelése – hibás XML-entitás miatt inaktív.
+- [x] Agrotrend tesztelése – hibás XML-entitás miatt inaktív.
+- [x] AgrárUnió tesztelése – nem található működő nyilvános RSS.
+- [x] Agrokép tesztelése – a feed nem található vagy le van tiltva.
+- [x] Haszon Agrár tesztelése – hibás feed miatt inaktív.
+- [x] MAGRO tesztelése – hibás feed miatt inaktív.
+- [x] Farmvilág tesztelése – hibás feed miatt inaktív.
+
+## Hírgyűjtés és adatfeldolgozás
+
+- [x] RSS-források beolvasása a `sources.csv` fájlból.
+- [x] Legfeljebb 20 hír feldolgozása forrásonként.
+- [x] Legfeljebb 200 hír mentése a `news.json` fájlba.
+- [x] Cím, link, forrás és publikálási idő mentése.
+- [x] Rövid RSS-összefoglalók tisztítása.
+- [x] HTML-elemek eltávolítása.
+- [x] Az „appeared first on” zárószövegek eltávolítása.
+- [x] Azonos linkű hírek kiszűrése.
+- [x] Azonos című hírek kiszűrése.
+- [x] Hasonló tartalmú hírek felismerése.
+- [x] Láncoltan kapcsolódó duplikációk felismerése.
+- [x] Forrástípus szerinti megtartási prioritás kialakítása.
+- [ ] Átmeneti RSS-hibák automatikus újrapróbálása.
+- [ ] Tartósan hibás források automatikus jelentése.
+- [ ] A duplikációszűrés eredményeinek rendszeres ellenőrzése.
+
+## Kategorizálás
+
+- [ ] Cím és összefoglaló alapján automatikus kategorizálás.
+- [ ] Növénytermesztés kategória.
+- [ ] Állattenyésztés kategória.
+- [ ] Kertészet kategória.
+- [ ] Agrárgazdaság kategória.
+- [ ] Támogatások és pályázatok kategória.
+- [ ] Gépesítés kategória.
+- [ ] Időjárás és vízgazdálkodás kategória.
+- [ ] Ökológiai gazdálkodás kategória.
+- [ ] Növényvédelem kategória.
 
 ## Weboldal
 
-- [x] Cloudflare Pages és GitHub összekapcsolása.
-- [x] A `gazdacentrum.hu` és `www.gazdacentrum.hu` beállítása.
-- [x] HTTPS működésének beállítása.
+- [x] Cloudflare Pages hosting beállítása.
+- [x] Saját domain bekötése.
+- [x] HTTPS működésének ellenőrzése.
 - [x] GazdaCentrum logó megjelenítése.
-- [x] A hírek megjelenítése a főoldalon.
-- [ ] Kategória szerinti szűrés kialakítása.
-- [ ] Külön kategóriaoldalak létrehozása.
-- [ ] Mobilnézet és megjelenés további finomítása.
-- [ ] Forráslista oldal létrehozása.
-- [ ] Hibajelentési és eltávolítási kapcsolat kialakítása.
+- [x] Hírek automatikus betöltése a `news.json` fájlból.
+- [x] Forrás, dátum és eredeti cikklink megjelenítése.
+- [ ] Kategóriaszűrő kialakítása.
+- [ ] Külön kategóriaoldalak kialakítása.
+- [ ] Keresési funkció.
+- [ ] Mobilos megjelenés részletes ellenőrzése.
+- [ ] Forrásonkénti szűrés.
+- [ ] Hírkártyák megjelenésének finomítása.
 
-## Jogi és tartalmi feladatok
+## Tartalmi és jogi feladatok
 
 - [ ] Impresszum elkészítése.
 - [ ] Adatkezelési tájékoztató elkészítése.
-- [ ] Automatizált tartalom-előállításról szóló tájékoztató véglegesítése.
-- [ ] Forráskezelési szabályzat elkészítése.
-- [ ] Hivatalos forrás ellenőrzésére figyelmeztető jelzés kialakítása támogatási, jogszabályi, pénzügyi és növényvédelmi híreknél.
+- [ ] Automatizált tartalom-előállításról szóló tájékoztatás.
+- [ ] Hivatalos forrás ellenőrzésére figyelmeztető szöveg.
+- [ ] Felhasználási feltételek elkészítése.
+- [ ] Forráseltávolítási és panaszkezelési kapcsolat megadása.
+
+## Partneri és fizetett vállalati tartalmak
+
+- [ ] A partneri RSS-források külön forrástípusának kialakítása.
+- [ ] „Fizetett partneri tartalom” jelölés megjelenítése.
+- [ ] A fizetett és független hírek egyértelmű elkülönítése.
+- [ ] Partneri tartalmi feltételek kidolgozása.
+- [ ] Partneri csomagok és árak kidolgozása.
+- [ ] Partneri kattintási statisztikák kialakítása.
 
 ## Későbbi fejlesztések
 
-- [ ] Automatikus hírlevél.
-- [ ] AI-alapú rövid összefoglalás.
-- [ ] „Miért fontos?” mező.
-- [ ] Terménypiaci figyelő.
-- [ ] Támogatásfigyelő.
-- [ ] Agrárkiállítás- és eseménynaptár.
-- [ ] A végleges Facebook-link elhelyezése a weboldalon.
+- [ ] „Miért fontos a gazdának?” mező.
+- [ ] AI-alapú saját összefoglaló.
+- [ ] Napi vagy heti hírlevél.
+- [ ] Támogatási határidőfigyelő.
+- [ ] Személyre szabható hírfolyam.
+- [ ] Kedvenc hírek mentése.
+- [ ] Látogatottságmérés és forgalmi statisztikák.
+- [ ] Közvetlen agrárhirdetési rendszer.
+
+## Facebook
+
+- [x] A Zetorvas Facebook-oldal átnevezése GazdaCentrumra.
+- [ ] Végleges Facebook-felhasználónév beállítása.
+- [ ] Facebook-link elhelyezése a weboldalon.
