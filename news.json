@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T12:53:15.142644+00:00",
-  "item_count": 151,
+  "generated_at": "2026-07-16T13:08:38.169517+00:00",
+  "item_count": 152,
   "items": [
     {
       "id": "e1686fb12c9baeb6",
@@ -11,6 +11,36 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-16T14:07:21+00:00"
+    },
+    {
+      "id": "fc58301933e2bb84",
+      "title": "Több mint egymillió tonna vár értékesítésre Európában ebből a gyümölcsből",
+      "link": "https://www.agroinform.hu/kerteszet_szoleszet/tobb-mint-egymillio-tonna-var-ertekesitesre-europaban-ebbol-a-gyumolcsbol-98179-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98179",
+      "summary": "A jelentős készletek befolyásolhatják az árakat és az új szezon indulását.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T13:06:35+00:00"
+    },
+    {
+      "id": "dde5a3e732ca1ac2",
+      "title": "Mi és mikor határozza meg a kukoricatermesztés eredményét?",
+      "link": "https://agroforum.hu/videok/mi-es-mikor-hatarozza-meg-a-kukoricatermesztes-eredmenyet/",
+      "summary": "Az utóbbi időben a kukoricatermesztés különösen nehézzé vált, sokan felhagytak vele. Ahol még szerepel a vetésforgóban, ott érdemes odafigyelni a csőfejlődés során bizonyos tápanyagok pótlására.",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-16T13:05:52+00:00"
+    },
+    {
+      "id": "45c826cfa0bb66b3",
+      "title": "Te is vettél ilyet a boltban? Aggasztó dolog derült ki sokak kedvencéről",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260716/te-is-vettel-ilyet-a-boltban-aggaszto-dolog-derult-ki-sokak-kedvencerol-63390",
+      "summary": "Salmonella-fertőzés miatt visszahívják a Reeva márkájú instant leveseket és instant tésztaleveseket.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-16T12:59:00+00:00"
     },
     {
       "id": "b4e2011622ae5b7d",
@@ -34,7 +64,7 @@
     },
     {
       "id": "cffaae3ff93e21f8",
-      "title": "Búzából kevesebb, kukoricából több – megérkezett a FAO júliusi előrejelzéseBúzából kevesebb, kukoricából több – megérkezett a FAO júliusi előrejelzése",
+      "title": "Búzából kevesebb, kukoricából több – megérkezett a FAO júliusi előrejelzése",
       "link": "https://www.agroinform.hu/szantofold/buzabol-kevesebb-kukoricabol-tobb-megerkezett-a-fao-juliusi-elorejelzesebuzabol-kevesebb-kukoricabol-tobb-megerkezett-a-fao-juliusi-elorejelzese-98172-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98172",
       "summary": "Az ausztrál terméskilátások romlása visszafogja a globális búzatermelést, miközben a kukorica esetében több nagy termelő országban is kedvezőbb hozamokra számítanak.",
       "source": "Agroinform",
@@ -423,16 +453,6 @@
       "published_at": "2026-07-16T05:45:01+00:00"
     },
     {
-      "id": "85bafbf1f9473381",
-      "title": "Végveszélyben Dél-Magyarország: így romolhat a termőképesség a század végére",
-      "link": "https://www.agroinform.hu/gazdasag/vegveszelyben-del-magyarorszag-igy-romolhat-a-termokepesseg-a-szazad-vegere-98141-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98141",
-      "summary": "Egy új tudományos modell, a CADI arra mutat rá, hogy Dél-Magyarország lehet az egyik leginkább veszélyeztetett európai térség.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-16T05:33:07+00:00"
-    },
-    {
       "id": "25d224674e66c915",
       "title": "Víztartalom érzékelők a talajban",
       "link": "https://agroforum.hu/szakcikkek/gyumolcs/viztartalom-erzekelok-a-talajban/",
@@ -561,16 +581,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-15T15:02:00+00:00"
-    },
-    {
-      "id": "a6a59f64e43a37e4",
-      "title": "Fontos pályázat indul: érdemes résen lennie a magyaroknak",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260715/fontos-palyazat-indul-erdemes-resen-lennie-a-magyaroknak-63362",
-      "summary": "Nyílt pályázatot hirdet az ÖMKi agroökológiai Élő Laboratórium-ötletek fejlesztésére.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-15T14:28:00+00:00"
     },
     {
       "id": "02543e53f13767d8",
