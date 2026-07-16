@@ -1,6 +1,6 @@
 # GazdaCentrum – projektállapot
 
-Utolsó frissítés: 2026. július 15.
+Utolsó frissítés: 2026. július 16.
 
 ## 1. A projekt célja
 
@@ -10,7 +10,7 @@ A rendszer célja:
 
 - agrárhírek automatikus gyűjtése;
 - a hírek kategorizálása;
-- az ismétlődő hírek kiszűrése;
+- az azonos vagy nagyon hasonló hírek összevonása;
 - a forrás, publikálási idő és eredeti cikklink megjelenítése;
 - stabil, alacsony költségű és minimális kézi munkát igénylő működés.
 
@@ -99,13 +99,36 @@ Az aktív RSS-forrásokat tartalmazza.
 
 Jelenlegi aktív források:
 
-- Agrárszektor  
-  https://www.agrarszektor.hu/rss
+1. Agrárszektor  
+   https://www.agrarszektor.hu/rss
 
-- Agro Napló  
-  https://www.agronaplo.hu/rss
+2. Agro Napló  
+   https://www.agronaplo.hu/rss
 
-Mindkét RSS-forrás sikeresen tesztelve lett.
+3. Magyar Mezőgazdaság  
+   https://magyarmezogazdasag.hu/feed/
+
+4. Mezőhír  
+   https://mezohir.hu/feed/
+
+5. Agrofórum  
+   https://agroforum.hu/feed/
+
+6. AKI  
+   https://www.aki.gov.hu/feed/
+
+7. ÖMKi  
+   https://biokutatas.hu/feed/
+
+8. FruitVeB  
+   https://fruitveb.hu/feed/
+
+9. Agrárközösség  
+   https://agrarkozosseg.hu/feed/
+
+A felsorolt forrásokból a hírek bekerülnek a `news.json` fájlba.
+
+A legutóbbi ellenőrző workflow-futás hibamentesen fejeződött be.
 
 ### fetch_news.py
 
@@ -114,8 +137,20 @@ Feladata:
 - a `sources.csv` beolvasása;
 - az RSS-források lekérése;
 - a cím, link, dátum, forrás és rövid összefoglaló feldolgozása;
-- az azonos linkek és címek alapvető kiszűrése;
+- a HTML-elemek eltávolítása;
+- a felesleges RSS-zárószövegek eltávolítása;
+- az azonos linkű és című hírek kiszűrése;
+- a hasonló tartalmú hírek felismerése;
+- a láncoltan kapcsolódó duplikációk felismerése;
 - a `news.json` elkészítése.
+
+A duplikációszűrés a források között prioritást alkalmaz:
+
+    hivatalos
+    → szakmai
+    → portál
+
+Azonos forrástípus esetén a frissebb publikálási idő kap előnyt.
 
 ### requirements.txt
 
@@ -136,6 +171,7 @@ Tartalmazza többek között:
 - az RSS-összefoglalót;
 - a forrás nevét;
 - a kategóriát;
+- a forrás típusát;
 - a publikálási időt;
 - a feldolgozási hibákat.
 
@@ -154,22 +190,6 @@ Működése:
 - frissíti a `news.json` fájlt;
 - a változást automatikusan visszamenti a `main` ágra.
 
-### PROJECT_STATUS.md
-
-Az aktuális technikai és működési projektállapotot tartalmazza.
-
-### TODO.md
-
-A következő és későbbi fejlesztési feladatokat tartalmazza.
-
-### CHANGELOG.md
-
-A projekt jelentősebb módosításait és mérföldköveit tartalmazza.
-
-### README.md
-
-A projekt rövid bemutatását, technikai felépítését és fő fájljait ismerteti.
-
 ## 5. Jelenleg működő funkciók
 
 - a `gazdacentrum.hu` elérhető;
@@ -178,10 +198,14 @@ A projekt rövid bemutatását, technikai felépítését és fő fájljait isme
 - a GitHub és a Cloudflare Pages kapcsolata működik;
 - az automatikus deploy működik;
 - a GitHub Actions sikeresen lefut;
-- az Agrárszektor RSS-feedje működik;
-- az Agro Napló RSS-feedje működik;
+- kilenc RSS-forrás hírei kerülnek feldolgozásra;
 - a `news.json` automatikusan elkészül;
-- a hírek megjelennek a weboldalon.
+- a hírek megjelennek a weboldalon;
+- az azonos linkű hírek kiszűrésre kerülnek;
+- az azonos című hírek kiszűrésre kerülnek;
+- a hasonló tartalmú hírek összevonásra kerülnek;
+- a láncoltan kapcsolódó duplikációk is felismerhetők;
+- az RSS-ben található felesleges „appeared first on” szövegek eltávolításra kerülnek.
 
 A híreknél jelenleg látható:
 
@@ -192,7 +216,89 @@ A híreknél jelenleg látható:
 - rövid RSS-összefoglaló;
 - az eredeti cikk linkje.
 
-## 6. Tartalmi és jogi működés
+## 6. Ellenőrzött duplikációs példák
+
+A rendszer sikeresen összevonta:
+
+- a három, magyar szamócáról szóló hírt;
+- a Velencei-tó alacsony vízállásáról szóló híreket;
+- a lengyel cseresznyepiacról szóló híreket;
+- az európai burgonya-termőterület csökkenéséről szóló híreket;
+- az azonos bolti élelmiszertrenddel foglalkozó híreket.
+
+A szamócás híreknél a FruitVeB szakmai forrás maradt meg az Agro Napló és az Agrárszektor változata helyett.
+
+## 7. Tesztelt, de jelenleg inaktív források
+
+### Agrárágazat
+
+Tesztelt feed:
+
+- https://agraragazat.hu/feed/
+
+Hiba:
+
+- `undefined entity`
+
+A forrás eltávolításra került a `sources.csv` fájlból.
+
+### Agrotrend
+
+Tesztelt feed:
+
+- https://agrotrend.hu/feed/
+
+Hiba:
+
+- `undefined entity`
+
+A forrás eltávolításra került a `sources.csv` fájlból.
+
+### AgrárUnió
+
+Tesztelt címek:
+
+- https://www.agrarunio.hu/feed/
+- https://www.agrarunio.hu/hirek?format=feed&type=rss
+
+Nem találtunk működő nyilvános RSS-feedet.
+
+### Agrokép
+
+Tesztelt feed:
+
+- https://agrokep.vg.hu/feed/
+
+A végpont válasza:
+
+- `feed not found or disabled`
+- HTTP-státusz: 400
+
+Az oldal hírei nem frissek, ezért jelenleg nem használjuk forrásként.
+
+### Haszon Agrár
+
+A tesztelt feed hibát adott, ezért nem maradt az aktív források között.
+
+### MAGRO
+
+A tesztelt feed hibát adott, ezért nem maradt az aktív források között.
+
+### Farmvilág
+
+A tesztelt feed hibát adott, ezért nem maradt az aktív források között.
+
+## 8. Átmeneti RSS-hibák
+
+Az ÖMKi feedjénél egyszer kapcsolódási időtúllépés jelentkezett.
+
+Az Agrárközösség feedjénél egyszer `mismatched tag` XML-hiba jelentkezett.
+
+Mindkét hiba eltűnt az ismételt workflow-futtatás után, ezért a források aktívak maradtak.
+
+Jelenleg nincs automatikus újrapróbálkozás a `fetch_news.py` fájlban.
+
+## 9. Tartalmi és jogi működés
 
 Jelenlegi alapelvek:
 
@@ -205,7 +311,9 @@ Jelenlegi alapelvek:
 
 Támogatási, jogszabályi, pénzügyi és növényvédelmi híreknél az eredeti hivatalos forrás ellenőrzése szükséges.
 
-## 7. Facebook
+Fizetett vállalati források később bevonhatók, de ezeket egyértelműen például „Fizetett partneri tartalom” jelöléssel kell elkülöníteni.
+
+## 10. Facebook
 
 A korábbi Zetorvas Facebook-oldal neve már GazdaCentrum.
 
@@ -221,29 +329,26 @@ Csak akkor kerül ki, amikor sikerült a végleges felhasználónevet beállíta
 - gazdacentrum.hu;
 - gazdacentrumhu.
 
-## 8. Ismert hibák és korlátozások
+## 11. Ismert korlátozások
 
-Jelenleg nincs ismert, az élő oldal működését akadályozó hiba.
-
-Jelenlegi korlátozások:
-
-- jelenleg két aktív RSS-forrás van;
-- a kategória jelenleg forrásszinten van megadva;
-- a duplikációszűrés csak azonos link és azonos cím alapján működik;
-- nincs még kategóriaszűrés;
+- a kategória több forrásnál még forrásszinten van megadva;
+- a tartalmi duplikációszűrés heurisztikus, ezért folyamatos ellenőrzést igényel;
+- nincs automatikus újrapróbálkozás az átmeneti RSS-hibáknál;
+- nincs kategóriaszűrés;
 - nincsenek külön kategóriaoldalak;
-- nincs még hírlevél;
+- nincs kereső;
+- nincs hírlevél;
 - nincs AI-alapú saját összefoglaló;
 - nincs „Miért fontos?” mező;
-- az impresszum és az adatkezelési tájékoztató még nem készült el.
+- az impresszum és az adatkezelési tájékoztató még nem készült el;
+- a fizetett partneri tartalmak technikai elkülönítése még nincs kialakítva.
 
-## 9. Következő konkrét feladat
+## 12. Következő konkrét feladat
 
-A következő feladat:
+A következő feladat az Agroinform működő RSS-feedjének megkeresése és tesztelése.
 
-- egy új magyar agrár RSS-forrás kiválasztása;
-- az RSS működésének ellenőrzése;
-- a dátumok, linkek és kivonatok vizsgálata;
-- csak sikeres teszt után a forrás felvétele a `sources.csv` fájlba.
+Sikeres Agroinform-teszt után külön ellenőrizzük a Phylazonit RSS-feedet:
 
-Az új forrásokat egyenként teszteljük.
+- https://phylazonit.hu/feed/
+
+A vállalati forrást csak megfelelő, egyértelmű vállalati vagy partneri jelöléssel szabad később megjeleníteni.
