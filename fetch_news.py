@@ -5,6 +5,7 @@ import hashlib
 import html
 import json
 import re
+import time
 import unicodedata
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -21,6 +22,8 @@ OUTPUT_FILE = ROOT / "news.json"
 MAX_ITEMS_PER_SOURCE = 20
 MAX_TOTAL_ITEMS = 200
 SEMANTIC_DUPLICATE_WINDOW_HOURS = 72
+RSS_MAX_ATTEMPTS = 3
+RSS_RETRY_DELAY_SECONDS = 5
 
 SOURCE_TYPE_PRIORITY = {
     "hivatalos": 3,
@@ -215,27 +218,49 @@ def collect_news(
 
         print(f"RSS beolvasása: {source['name']}")
 
-        try:
-            feed = feedparser.parse(
-                rss_url,
-                request_headers={
-                    "User-Agent": (
-                        "GazdaCentrum RSS Reader/1.0 "
-                        "(https://gazdacentrum.hu)"
-                    )
-                },
-            )
-        except Exception as exc:
-            errors.append(f"{source['name']}: {exc}")
-            continue
+        feed = None
+        last_error: Any = "ismeretlen RSS-hiba"
 
-        if getattr(feed, "bozo", False) and not feed.entries:
-            error_message = getattr(
-                feed,
-                "bozo_exception",
-                "ismeretlen RSS-hiba",
-            )
-            errors.append(f"{source['name']}: {error_message}")
+        for attempt in range(1, RSS_MAX_ATTEMPTS + 1):
+            try:
+                candidate_feed = feedparser.parse(
+                    rss_url,
+                    request_headers={
+                        "User-Agent": (
+                            "GazdaCentrum RSS Reader/1.0 "
+                            "(https://gazdacentrum.hu)"
+                        )
+                    },
+                )
+
+                feed_has_error = (
+                    getattr(candidate_feed, "bozo", False)
+                    and not candidate_feed.entries
+                )
+
+                if not feed_has_error:
+                    feed = candidate_feed
+                    break
+
+                last_error = getattr(
+                    candidate_feed,
+                    "bozo_exception",
+                    "ismeretlen RSS-hiba",
+                )
+
+            except Exception as exc:
+                last_error = exc
+
+            if attempt < RSS_MAX_ATTEMPTS:
+                print(
+                    f"Sikertelen RSS-lekérés: {source['name']} "
+                    f"({attempt}/{RSS_MAX_ATTEMPTS}). "
+                    "Újrapróbálkozás 5 másodperc múlva."
+                )
+                time.sleep(RSS_RETRY_DELAY_SECONDS)
+
+        if feed is None:
+            errors.append(f"{source['name']}: {last_error}")
             continue
 
         for entry in feed.entries[:MAX_ITEMS_PER_SOURCE]:
