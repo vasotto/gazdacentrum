@@ -123,12 +123,17 @@
     }
 
     .card {
-      background: var(--white);
-      border: 1px solid var(--border);
+      background: linear-gradient(
+        180deg,
+        #eef7f0 0%,
+        var(--white) 100%
+      );
+      border: 1px solid #c8e6cf;
+      border-top: 4px solid var(--green);
       border-radius: 16px;
       padding: 22px;
       min-height: 170px;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+      box-shadow: 0 4px 18px rgba(31, 111, 63, 0.08);
     }
 
     .card h3 {
