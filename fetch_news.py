@@ -564,7 +564,14 @@ def determine_category(
 
         score = title_matches * 2 + summary_matches
 
-        if score > best_score:
+        if (
+            score > best_score
+            or (
+                score == best_score
+                and best_category == "Kertészet"
+                and category == "Növényvédelem"
+            )
+        ):
             best_category = category
             best_score = score
 
