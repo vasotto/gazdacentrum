@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-07-17T16:40:33.847323+00:00",
-  "item_count": 156,
+  "generated_at": "2026-07-17T21:12:25.099674+00:00",
+  "item_count": 157,
   "items": [
+    {
+      "id": "7b28dee84447975a",
+      "title": "Egy új majomfajt találtak Afrika mélyén",
+      "link": "https://magyarmezogazdasag.hu/2026/07/17/egy-uj-majomfajt-talaltak-afrika-melyen/",
+      "summary": "A Kongói Demokratikus Köztársaság esőerdeiben a tudósok egy korábban ismeretlen afrikai majomfajt azonosítottak – ez a modern főemlőskutatás egyik legritkább felfedezése.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-17T21:08:36+00:00"
+    },
+    {
+      "id": "a92f3faa259e6fe7",
+      "title": "A robotizált takarmányozás a tehén testi és lelki egészségére is hat",
+      "link": "https://magyarmezogazdasag.hu/2026/07/17/a-robotizalt-takarmanyozas-a-tehen-testi-es-lelki-egeszsegere-is-hat/",
+      "summary": "A megfelelő időben, megfelelő mennyiségben és egyenletes összetételben elérhető takarmány alapvetően meghatározza a tehenek tejtermelését és általános egészségét is. Ebben segít a folyamatos jászolmenedzsment és a Lely Juno takarmányrendező robot.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "source_type": "portál",
+      "published_at": "2026-07-17T20:08:01+00:00"
+    },
+    {
+      "id": "6bbc2059ae050052",
+      "title": "A kínai Zöld Nagy Fal",
+      "link": "https://magyarmezogazdasag.hu/2026/07/17/a-kinai-zold-nagy-fal/",
+      "summary": "Kína fél évszázada építi a „Zöld Nagy Falat”, amelynek köszönhetően sikerült visszaszorítani a terjeszkedő sivatagot, de a szakértők szerint a siker megőrzése továbbra is komoly kihívás.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-17T19:08:49+00:00"
+    },
+    {
+      "id": "9a5117bd039ac097",
+      "title": "A családi gazdaságoké a jövő – de csak akkor, ha összefognak",
+      "link": "https://www.agroinform.hu/szantofold/gyokeres-valtozast-surget-a-magyar-mezogazdasagban-bona-szabolcs-98317-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98317",
+      "summary": "A magyar mezőgazdaság versenyképességét nem a mennyiség, hanem a magasabb hozzáadott értékű élelmiszerek előállítása erősítheti.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-17T17:45:56+00:00"
+    },
+    {
+      "id": "0494940382b772ad",
+      "title": "Most kiderül, mely élelmiszerekre lesz a legnagyobb kereslet a következő években",
+      "link": "https://www.agroinform.hu/elelmiszeripar/ez-dontheti-el-a-feldolgozott-elelmiszerek-jovojet-98370-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98370",
+      "summary": "A FAO 2026-os előrejelzése szerint a globális fogyasztói trendek átalakítják a feldolgozott élelmiszerek piacát.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-17T17:36:15+00:00"
+    },
+    {
+      "id": "f230bd1be1492388",
+      "title": "Katasztrófa, ami a lengyeleknél zajlik: óriási bajban vannak a termelők",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260717/katasztrofa-ami-a-lengyeleknel-zajlik-oriasi-bajban-vannak-a-termelok-63401",
+      "summary": "Nem túlzás azt állítani, hogy a 2025/2026‑os zellerszezon Lengyelországban kifejezetten kedvezőtlenül alakult.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-17T17:29:00+00:00"
+    },
+    {
+      "id": "a117bd8a36254ee0",
+      "title": "Hígtrágyából értékes takarmány? Mutatjuk az új ötletet",
+      "link": "https://www.agroinform.hu/allattenyesztes/higtragyabol-ertekes-takarmany-mutatjuk-az-uj-otletet-98387-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98387",
+      "summary": "A békalencse egyszerre csökkentheti a környezeti terhelést és új bevételi lehetőséget teremthet a sertéstartók számára, legalábbis az amerikai kutatók szerint.",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "source_type": "portál",
+      "published_at": "2026-07-17T17:06:00+00:00"
+    },
     {
       "id": "00cefab3e52d02c7",
       "title": "A hibrid rozs a gyengébb talajokon is biztonságos alternatíva",
@@ -283,16 +353,6 @@
       "published_at": "2026-07-17T11:01:00+00:00"
     },
     {
-      "id": "c2776ec812a9f5b1",
-      "title": "A Vadászkamara a kotorékvadászat szabályainak szigorítását támogatja, de a módszer betiltását nem",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/a-vadaszkamara-a-kotorekvadaszat-szabalyainak-szigoritasat-tamogatja-de-a-modszer-betiltasat-nem-98361-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98361",
-      "summary": "Szakmai egyeztetést folytatott az Országos Magyar Vadászkamara (OMVK) az Élő Környezetért Felelős Minisztériummal (ÉKFM) a kotorékvadászat és a ragadozógazdálkodás jövőjéről.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-17T10:52:56+00:00"
-    },
-    {
       "id": "206dda6344a94a0c",
       "title": "Felértékelődik az őszi vetés – ez a Pronto szakterülete!",
       "link": "https://gepmax.hu/hir/mezogazdasag-oszi-vetes-horsch-pronto/",
@@ -313,16 +373,6 @@
       "published_at": "2026-07-17T10:41:00+00:00"
     },
     {
-      "id": "4e6f9e6613a2a091",
-      "title": "Hétvégi roham előtt: ennyiért adják most a hazai csemegekukoricát a termelők",
-      "link": "https://www.agroinform.hu/szantofold/hetvegi-roham-elott-ennyiert-adjak-most-a-hazai-csemegekukoricat-a-termelok-98341-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98341",
-      "summary": "Országszerte megjelent a friss hazai csemegekukorica, a termelők kínálata alapján 120–200 forint között alakul a csövek ára.",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "source_type": "portál",
-      "published_at": "2026-07-17T10:34:00+00:00"
-    },
-    {
       "id": "493eaef8d7868311",
       "title": "Komoly fordulat jöhet a horgászatban: mutatjuk, ki lett a MOHOSZ elnöke",
       "link": "https://www.agrarszektor.hu/innovacio/20260717/komoly-fordulat-johet-a-horgaszatban-mutatjuk-ki-lett-a-mohosz-elnoke-63395",
@@ -331,16 +381,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-17T10:32:00+00:00"
-    },
-    {
-      "id": "f169bccb1c055418",
-      "title": "Elege lett a vádaskodásokból, posztban reagált a vadász",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/elege-lett-a-vadaskodasokbol-posztban-reagalt-a-zalai-vadasz-98339-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98339",
-      "summary": "A vadászkamara zalai szervezetének titkára, a Vadászszövetség megyei fővadásza, Győrvári Attila visszautasítja a vadászokat lejárató általánosításokat.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-17T10:10:02+00:00"
     },
     {
       "id": "1cb1748a88b84379",
@@ -613,26 +653,6 @@
       "published_at": "2026-07-16T21:08:12+00:00"
     },
     {
-      "id": "02c44dcf6134cbd0",
-      "title": "Magas a malmi búza aránya az idei termésben, de sokaknak csak álom a nyereség",
-      "link": "https://magyarmezogazdasag.hu/2026/07/16/magas-a-malmi-buza-aranya-az-idei-termesben-de-sokaknak-csak-alom-a-nyereseg/",
-      "summary": "Az idei búzatermés mennyisége nagy területi különbségeket mutat, a minőség azonban országosan kedvező. Magas a malmi búza aránya, jók a beltartalmi mutatók, az alacsony szemnedvesség viszont megoldandó feladatokat jelent a feldolgozóknak.",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "source_type": "portál",
-      "published_at": "2026-07-16T20:02:42+00:00"
-    },
-    {
-      "id": "e151bde75745e921",
-      "title": "A sárgabarack minden része kincset ér",
-      "link": "https://magyarmezogazdasag.hu/2026/07/16/a-sargabarack-minden-resze-kincset-er/",
-      "summary": "A sárgabarack egy finom és egészséges szupergyümölcs. A héja, a magja, illetve a magolaja is rendkívül értékes.",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-16T19:08:41+00:00"
-    },
-    {
       "id": "7577aa8ef543d83f",
       "title": "XXII. Rácalmási Tökfesztivál",
       "link": "https://agroforum.hu/programok/xxii-racalmasi-tokfesztival/",
@@ -661,16 +681,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-16T16:28:00+00:00"
-    },
-    {
-      "id": "19b3e137964b184e",
-      "title": "Fontos híreket közöltek a hazai aszályhelyzetről: itt vannak a részletek",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260716/fontos-hireket-kozoltek-a-hazai-aszalyhelyzetrol-itt-vannak-a-reszletek-63387",
-      "summary": "Az AÉM tájékoztatót tett közzé az idei évben megtapasztalható rendkívüli aszályhelyzet miatt kialakuló vis maior bejelentések megfelelő kezelhetősége érdekében.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-16T15:29:00+00:00"
     },
     {
       "id": "8b7656a029968144",
