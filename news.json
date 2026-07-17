@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-07-17T07:37:01.666089+00:00",
-  "item_count": 158,
+  "generated_at": "2026-07-17T08:35:14.445761+00:00",
+  "item_count": 157,
   "items": [
+    {
+      "id": "1cb1748a88b84379",
+      "title": "A hőség a gyümölcsfákat is megégette nem csak a termést – oda az Ageni szilva",
+      "link": "https://magyarmezogazdasag.hu/2026/07/17/a-hoseg-a-gyumolcsfakat-is-megegette-nem-csak-a-termest-oda-az-ageni-szilva/",
+      "summary": "A júniusi rendkívüli hőség jelentős terméskiesést okozott a francia Ageni szilvaültetvényeken. A veszteségek helyenként végzetesek, miközben a hőhullám nemcsak a gyümölcsöt, hanem a fákat is károsította.",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "source_type": "portál",
+      "published_at": "2026-07-17T10:07:26+00:00"
+    },
     {
       "id": "1abea0fc560f35cd",
       "title": "Kiszámíthatatlan és aránytalan a globális kávé-, kakaó-, és teapiac",
@@ -13,6 +23,36 @@
       "published_at": "2026-07-17T09:09:54+00:00"
     },
     {
+      "id": "61fb395adfee2710",
+      "title": "Elképesztő az aszály: Szentendrén is új sziget született a Dunán",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260717/elkepeszto-az-aszaly-szentendren-is-uj-sziget-szuletett-a-dunan-63398",
+      "summary": "Ma 9 órakor már csak 19 centimétert mutatott a bajai vízmérce, ami sokkoló negatív rekordot jelent.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-17T08:28:00+00:00"
+    },
+    {
+      "id": "d274f90ca5ff971d",
+      "title": "Hibrid búza, az alkalmazkodás mestere",
+      "link": "https://mezohir.hu/2026/07/17/mezogazdasag-hibrid-buza-alkalmazkodasa/",
+      "summary": "A hibrid búza az agráriumban nagyobb termésbiztonságot és stabil minőséget ad eltérő termőhelyi körülmények között.",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "source_type": "portál",
+      "published_at": "2026-07-17T08:19:46+00:00"
+    },
+    {
+      "id": "e6c34fc9905a1865",
+      "title": "Eurómilliárdok energiahálózatra, közlekedésre, módosuló adók és támogatások",
+      "link": "https://www.agroinform.hu/gazdasag/euromilliardok-energiahalozatra-kozlekedesre-modosulo-adok-es-tamogatasok-98327-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98327",
+      "summary": "Új uniós források nyílhatnak meg Magyarország előtt, miután elfogadták a módosított helyreállítási tervet. Több mint 10 milliárd euróhoz juthat az ország, és a kohéziós források is megnyílhatnak előttünk.",
+      "source": "Agroinform",
+      "category": "Támogatások és pályázatok",
+      "source_type": "portál",
+      "published_at": "2026-07-17T08:15:36+00:00"
+    },
+    {
       "id": "56e84198de8ffca3",
       "title": "Dzsungelből a tyúkudvarba",
       "link": "https://magyarmezogazdasag.hu/2026/07/17/dzsungelbol-a-tyukudvarba/",
@@ -21,6 +61,26 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-17T08:08:15+00:00"
+    },
+    {
+      "id": "10e70068d01dc202",
+      "title": "Megugrott a tankolási kedv: 2 milliárd liternél is több üzemanyag fogyott fél év alatt",
+      "link": "https://www.agroinform.hu/gazdasag/megugrott-a-tankolasi-kedv-2-milliard-liternel-is-tobb-uzemanyag-fogyott-fel-ev-alatt-98328-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98328",
+      "summary": "A Magyar Ásványolaj Szövetség adatai szerint a motorbenzin és a gázolaj iránt is jelentősen nőtt a kereslet, miközben a prémium benzinből kevesebb fogyott.",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "source_type": "portál",
+      "published_at": "2026-07-17T08:06:13+00:00"
+    },
+    {
+      "id": "5c851f55a50d18d8",
+      "title": "Megszólalt Bóna Szabolcs: ilyen változásokra lesz szükség az agráriumban",
+      "link": "https://www.agrarszektor.hu/szabalyozas/20260717/megszolalt-bona-szabolcs-ilyen-valtozasokra-lesz-szukseg-az-agrariumban-63394",
+      "summary": "Bóna Szabolcs szerint mindenkinek van szerepe a változásban, az államé például az új szabályrendszerek kialakítása.",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "source_type": "portál",
+      "published_at": "2026-07-17T07:44:00+00:00"
     },
     {
       "id": "728317607c6972fa",
@@ -81,16 +141,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-17T06:59:00+00:00"
-    },
-    {
-      "id": "b654dc8d4d6ac68f",
-      "title": "Bóna Szabolcs: sürgős változásokra van szükség a mezőgazdaságban",
-      "link": "https://agronaplo.hu/agrarhirek/20260717/bona-szabolcs-surgos-valtozasokra-van-szukseg-a-mezogazdasagban-40722",
-      "summary": "Bóna Szabolcs szerint mindenkinek van szerepe a változásban, az államé például az új szabályrendszerek kialakítása.",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-17T06:39:00+00:00"
     },
     {
       "id": "45435bb435cbb93c",
@@ -293,16 +343,6 @@
       "published_at": "2026-07-16T19:36:00+00:00"
     },
     {
-      "id": "1008177c4a509218",
-      "title": "Miért kell a gazdáknak együttműködni? Bóna Szabolcs gyakorlati javaslatai a jövőre",
-      "link": "https://www.agroinform.hu/gazdasag/miert-kell-a-gazdaknak-egyuttmukodni-bona-szabolcs-gyakorlati-javaslatai-a-jovore-98283-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98283",
-      "summary": "A miniszter úgy látja, hogy a családi gazdaságok maradnak az agrárium alapjai, de csak szorosabb együttműködéssel érhető el magasabb jövedelem.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-16T19:14:35+00:00"
-    },
-    {
       "id": "e151bde75745e921",
       "title": "A sárgabarack minden része kincset ér",
       "link": "https://magyarmezogazdasag.hu/2026/07/16/a-sargabarack-minden-resze-kincset-er/",
@@ -403,16 +443,6 @@
       "published_at": "2026-07-16T16:04:58+00:00"
     },
     {
-      "id": "205d5c69f6f06d21",
-      "title": "Új adatokkal és funkciókkal bővült a HungaroMet KLIMADAT alkalmazása",
-      "link": "https://www.agroinform.hu/kornyezetvedelem/uj-adatokkal-es-funkciokkal-bovult-a-hungaromet-klimadat-alkalmazasa-98195-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98195",
-      "summary": "A HungaroMet frissítette KLIMADAT alkalmazását. Az új verzió friss éghajlati adatokat, új indikátorokat és egységesített klímaprojekciókat tartalmaz, segítve a szakmai döntéshozatalt, a kutatást és az oktatást.",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-16T15:34:00+00:00"
-    },
-    {
       "id": "19b3e137964b184e",
       "title": "Fontos híreket közöltek a hazai aszályhelyzetről: itt vannak a részletek",
       "link": "https://www.agrarszektor.hu/szabalyozas/20260716/fontos-hireket-kozoltek-a-hazai-aszalyhelyzetrol-itt-vannak-a-reszletek-63387",
@@ -443,16 +473,6 @@
       "published_at": "2026-07-16T15:09:00+00:00"
     },
     {
-      "id": "e0d34a0be9614d11",
-      "title": "Időjárás: Tomboló hőségre kell készülni",
-      "link": "https://www.agroinform.hu/idojaras_hirek/idojaras-tombolo-hosegre-kell-keszulni-98169-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98169",
-      "summary": "Csütörtök estére kitisztul az ég, pénteken pedig újra fokozódik a hőség, de estétől többfelé csapadék várható.",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "source_type": "portál",
-      "published_at": "2026-07-16T15:06:00+00:00"
-    },
-    {
       "id": "f70bf148d204a02e",
       "title": "Kongatják a vészharangot: ijesztő, ami a Dunával történik itthon",
       "link": "https://www.agrarszektor.hu/fenntarthatosag/20260716/kongatjak-a-veszharangot-ijeszto-ami-a-dunaval-tortenik-itthon-63388",
@@ -471,16 +491,6 @@
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
       "published_at": "2026-07-16T15:00:21+00:00"
-    },
-    {
-      "id": "edeccfd97876dd8e",
-      "title": "Megnyílt a 100 ezer eurós kapu: a régebbi termelői csoportok is pályázhatnak",
-      "link": "https://www.agroinform.hu/gazdasag/megnyilt-a-100-ezer-euros-kapu-a-regebbi-termeloi-csoportok-is-palyazhatnak-98183-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98183",
-      "summary": "Módosult a termelői csoportok támogatása: a kérelmek benyújtási határideje 2026. augusztus 31-ig meghosszabbodott, és a már legalább 5 éve működő szervezetek is pályázhatnak új tevékenységekre.",
-      "source": "Agroinform",
-      "category": "Támogatások és pályázatok",
-      "source_type": "portál",
-      "published_at": "2026-07-16T14:35:54+00:00"
     },
     {
       "id": "63dc1f1ca7252153",
@@ -671,16 +681,6 @@
       "category": "Kertészet",
       "source_type": "portál",
       "published_at": "2026-07-16T08:34:00+00:00"
-    },
-    {
-      "id": "b2903bc217709044",
-      "title": "Letarolja a hőség Magyarországot: itt lehet a legkeményebb a forróság",
-      "link": "https://www.agrarszektor.hu/noveny/20260716/letarolja-a-hoseg-magyarorszagot-itt-lehet-a-legkemenyebb-a-forrosag-63372",
-      "summary": "A hét utolsó munkanapján sokfelé 36-37 fokot mutathatnak a hőmérők, szombatra egy hidegfrontnak köszönhetően pár fokkal mérséklődik a kánikula.",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-16T07:47:00+00:00"
     },
     {
       "id": "43f727abc59b5606",
@@ -1031,16 +1031,6 @@
       "category": "Állattenyésztés",
       "source_type": "portál",
       "published_at": "2026-07-14T09:06:00+00:00"
-    },
-    {
-      "id": "04584688a76883d8",
-      "title": "Rekordhőség és tavaszi fagyok után is kiváló görögdinnye",
-      "link": "https://mezohir.hu/2026/07/14/mezogazdasag-magyar-gorogdinnye-sikere/",
-      "summary": "A magyar görögdinnye idén is kiváló minőségben terem, pedig a mezőgazdaságot tavaszi fagyok és rekordhőség is próbára tette.",
-      "source": "Mezőhír",
-      "category": "Kertészet",
-      "source_type": "portál",
-      "published_at": "2026-07-14T07:34:00+00:00"
     },
     {
       "id": "ac5443241fc2abf0",
