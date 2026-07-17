@@ -3,8 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>GazdaCentrum.hu – Automatizált agrár hírfigyelő</title>
-  <meta name="description" content="GazdaCentrum.hu – automatizált agrár hírfigyelő és gazdálkodói információs központ. Friss agrárhírek, támogatások, terménypiac, időjárás, talaj és inputanyagok egy helyen.">
+
+  <meta
+    name="description"
+    content="GazdaCentrum.hu – automatizált agrár hírfigyelő és gazdálkodói információs központ. Friss agrárhírek, támogatások, növénytermesztés, állattenyésztés, gépesítés és szakmai információk egy helyen."
+  >
 
   <style>
     :root {
@@ -21,6 +26,10 @@
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +39,11 @@
     }
 
     header {
-      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      background: linear-gradient(
+        135deg,
+        var(--green),
+        var(--green-dark)
+      );
       color: var(--white);
       padding: 56px 20px;
       text-align: center;
@@ -48,16 +61,18 @@
       font-size: 19px;
       opacity: 0.95;
     }
+
     .logo {
       max-width: 210px;
       height: auto;
       display: block;
       margin: 0 auto 22px;
-      background: #ffffff;
+      background: var(--white);
       padding: 12px;
       border-radius: 18px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
     }
+
     nav {
       background: var(--white);
       border-bottom: 1px solid var(--border);
@@ -83,6 +98,10 @@
       font-size: 14px;
     }
 
+    nav a:hover {
+      color: var(--green);
+    }
+
     main {
       max-width: 1120px;
       margin: 0 auto;
@@ -95,7 +114,7 @@
       border-radius: 16px;
       padding: 28px;
       margin-bottom: 28px;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
     }
 
     .intro h2 {
@@ -156,17 +175,21 @@
       font-size: 15px;
     }
 
+    .category-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--green);
+      box-shadow: 0 8px 22px rgba(31, 111, 63, 0.14);
+    }
+
+    .category-card:focus-visible {
+      outline: 3px solid rgba(31, 111, 63, 0.25);
+      outline-offset: 3px;
+    }
+
     .section-title {
       margin: 40px 0 16px;
       color: var(--green-dark);
-    }
-
-    .news-placeholder {
-      background: var(--white);
-      border: 1px dashed #b8c8b5;
-      border-radius: 16px;
-      padding: 24px;
-      color: var(--muted);
+      scroll-margin-top: 80px;
     }
 
     .notice {
@@ -178,6 +201,113 @@
       color: #5c5222;
     }
 
+    .news-status {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 18px;
+      color: var(--muted);
+    }
+
+    .category-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 18px;
+    }
+
+    .category-filter-button {
+      appearance: none;
+      background: var(--white);
+      color: var(--green-dark);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .category-filter-button:hover {
+      border-color: var(--green);
+    }
+
+    .category-filter-button.is-active {
+      background: var(--green);
+      color: var(--white);
+      border-color: var(--green);
+    }
+
+    .category-filter-button:focus-visible {
+      outline: 3px solid rgba(31, 111, 63, 0.25);
+      outline-offset: 2px;
+    }
+
+    .news-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .news-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    .news-card h3 {
+      margin: 10px 0;
+      color: var(--green-dark);
+      font-size: 20px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+
+    .news-meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .news-category {
+      display: inline-block;
+      align-self: flex-start;
+      background: #e6f4ea;
+      color: var(--green-dark);
+      border: 1px solid #c8e6cf;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .news-summary {
+      color: var(--muted);
+      margin: 0 0 18px;
+      flex-grow: 1;
+    }
+
+    .news-link {
+      display: inline-block;
+      align-self: flex-start;
+      color: var(--green-dark);
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 2px solid var(--green);
+    }
+
+    .news-link:hover {
+      color: var(--green);
+    }
+
     footer {
       background: #17251b;
       color: #dfe7dc;
@@ -187,7 +317,7 @@
     }
 
     footer a {
-      color: #ffffff;
+      color: var(--white);
     }
 
     @media (max-width: 900px) {
@@ -197,6 +327,12 @@
 
       header h1 {
         font-size: 34px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .news-list {
+        grid-template-columns: 1fr;
       }
     }
 
@@ -218,131 +354,28 @@
       }
 
       nav .nav-inner {
-        justify-content: flex-start;
-        overflow-x: auto;
+        justify-content: center;
         flex-wrap: nowrap;
       }
     }
-  .news-status {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 18px;
-  margin-bottom: 18px;
-  color: var(--muted);
-}
-
-.news-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-}
-
-.news-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 22px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  max-width: 100%;
-}
-
-.news-card h3 {
-  margin: 10px 0;
-  color: var(--green-dark);
-  font-size: 20px;
-  line-height: 1.35;
-  overflow-wrap: anywhere;
-  word-break: normal;
-}
-
-.news-meta {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.news-category {
-  display: inline-block;
-  align-self: flex-start;
-  background: #e6f4ea;
-  color: var(--green-dark);
-  border: 1px solid #c8e6cf;
-  border-radius: 999px;
-  padding: 4px 10px;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.news-summary {
-  color: var(--muted);
-  margin: 0 0 18px;
-  flex-grow: 1;
-}
-
-.news-link {
-  display: inline-block;
-  align-self: flex-start;
-  color: var(--green-dark);
-  font-weight: 700;
-  text-decoration: none;
-  border-bottom: 2px solid var(--green);
-}
-
-.news-link:hover {
-  color: var(--green);
-}
-    
-.category-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0 0 18px;
-}
-
-.category-filter-button {
-  appearance: none;
-  background: var(--white);
-  color: var(--green-dark);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 14px;
-  font: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.category-filter-button:hover {
-  border-color: var(--green);
-}
-
-.category-filter-button.is-active {
-  background: var(--green);
-  color: var(--white);
-  border-color: var(--green);
-}
-
-.category-filter-button:focus-visible {
-  outline: 3px solid rgba(31, 111, 63, 0.25);
-  outline-offset: 2px;
-}
-    
-@media (max-width: 760px) {
-  .news-list {
-    grid-template-columns: 1fr;
-  }
-}
   </style>
 </head>
 
 <body>
   <header>
-    <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu logó" class="logo">
+    <img
+      src="gazdacentrum_logo.png"
+      alt="GazdaCentrum.hu logó"
+      class="logo"
+    >
+
     <h1>GazdaCentrum.hu</h1>
-    <p>Automatizált agrár hírfigyelő és gazdálkodói információs központ – friss hírek, támogatások, piaci információk és szakmai témák egy helyen.</p>
+
+    <p>
+      Automatizált agrár hírfigyelő és gazdálkodói információs
+      központ – friss hírek, támogatások, piaci információk és
+      szakmai témák egy helyen.
+    </p>
   </header>
 
   <nav>
@@ -356,70 +389,151 @@
   <main>
     <section class="intro">
       <span class="status">Automatikusan frissül</span>
+
       <h2>Friss agrárhírek egy helyen</h2>
+
       <p>
-        A GazdaCentrum.hu magyar agrárforrások híreit gyűjti össze, rendszerezi és kategóriák szerint áttekinthető formában jeleníti meg.
+        A GazdaCentrum.hu magyar agrárforrások híreit gyűjti
+        össze, rendszerezi és kategóriák szerint áttekinthető
+        formában jeleníti meg.
       </p>
+
       <p>
-        A hírek automatizált RSS-feldolgozással érkeznek. Minden hírnél látható a forrás, a közzététel ideje és az eredeti cikkre mutató hivatkozás.
+        A hírek automatizált RSS-feldolgozással érkeznek.
+        Minden hírnél látható a forrás, a közzététel ideje és
+        az eredeti cikkre mutató hivatkozás.
       </p>
     </section>
 
-    <h2 id="kategoriak" class="section-title">Fő témakörök</h2>
+    <h2 id="kategoriak" class="section-title">
+      Fő témakörök
+    </h2>
 
-<section class="grid">
-  <article class="card" id="tamogatas">
-    <h3>Támogatások és pályázatok</h3>
-    <p>KAP-közlemények, pályázatok, támogatási kérelmek, határidők és gazdálkodói jogcímek.</p>
-  </article>
+    <section class="grid">
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Támogatások és pályázatok"
+      >
+        <h3>Támogatások és pályázatok</h3>
+        <p>
+          KAP-közlemények, pályázatok, támogatási kérelmek,
+          határidők és gazdálkodói jogcímek.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Agrárgazdaság</h3>
-    <p>Piaci árak, export, import, élelmiszeripar, termelési költségek és agrárgazdasági elemzések.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Agrárgazdaság"
+      >
+        <h3>Agrárgazdaság</h3>
+        <p>
+          Piaci árak, export, import, élelmiszeripar,
+          termelési költségek és agrárgazdasági elemzések.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Állattenyésztés</h3>
-    <p>Szarvasmarha-, sertés-, baromfi- és juhtartás, takarmányozás, tejpiac és állategészségügy.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Állattenyésztés"
+      >
+        <h3>Állattenyésztés</h3>
+        <p>
+          Szarvasmarha-, sertés-, baromfi- és juhtartás,
+          takarmányozás, tejpiac és állategészségügy.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Gépesítés</h3>
-    <p>Traktorok, kombájnok, munkagépek, precíziós technológiák és mezőgazdasági gépújdonságok.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Gépesítés"
+      >
+        <h3>Gépesítés</h3>
+        <p>
+          Traktorok, kombájnok, munkagépek, precíziós
+          technológiák és mezőgazdasági gépújdonságok.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Időjárás és vízgazdálkodás</h3>
-    <p>Aszály, csapadék, öntözés, vízállás, fagyveszély és agrometeorológiai információk.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Időjárás és vízgazdálkodás"
+      >
+        <h3>Időjárás és vízgazdálkodás</h3>
+        <p>
+          Aszály, csapadék, öntözés, vízállás, fagyveszély
+          és agrometeorológiai információk.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Kertészet</h3>
-    <p>Gyümölcs-, zöldség-, szőlő- és kertészeti termesztés, piacok, technológiák és ágazati hírek.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Kertészet"
+      >
+        <h3>Kertészet</h3>
+        <p>
+          Gyümölcs-, zöldség-, szőlő- és kertészeti
+          termesztés, piacok, technológiák és ágazati hírek.
+        </p>
+      </a>
 
-  <article class="card" id="novenytermesztes">
-    <h3>Növénytermesztés</h3>
-    <p>Búza, kukorica, napraforgó, repce, szója, vetés, aratás, talajművelés és terméseredmények.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Növénytermesztés"
+      >
+        <h3>Növénytermesztés</h3>
+        <p>
+          Búza, kukorica, napraforgó, repce, szója, vetés,
+          aratás, talajművelés és terméseredmények.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Növényvédelem</h3>
-    <p>Kártevők, kórokozók, gyomirtás, növényvédelmi előrejelzések és védekezési lehetőségek.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Növényvédelem"
+      >
+        <h3>Növényvédelem</h3>
+        <p>
+          Kártevők, kórokozók, gyomirtás, növényvédelmi
+          előrejelzések és védekezési lehetőségek.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Ökológiai gazdálkodás</h3>
-    <p>Biogazdálkodás, agroökológia, regeneratív módszerek, talajegészség és fenntartható gyakorlatok.</p>
-  </article>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Ökológiai gazdálkodás"
+      >
+        <h3>Ökológiai gazdálkodás</h3>
+        <p>
+          Biogazdálkodás, agroökológia, regeneratív
+          módszerek, talajegészség és fenntartható gyakorlatok.
+        </p>
+      </a>
 
-  <article class="card">
-    <h3>Általános agrár</h3>
-    <p>Azok a fontos mezőgazdasági hírek, amelyek nem sorolhatók egyetlen szűkebb szakterülethez.</p>
-  </article>
-</section>
-    
-    <h2 id="friss" class="section-title">Friss agrárhírek</h2>
+      <a
+        class="card category-card"
+        href="#friss"
+        data-category="Általános agrár"
+      >
+        <h3>Általános agrár</h3>
+        <p>
+          Azok a fontos mezőgazdasági hírek, amelyek nem
+          sorolhatók egyetlen szűkebb szakterülethez.
+        </p>
+      </a>
+    </section>
+
+    <h2 id="friss" class="section-title">
+      Friss agrárhírek
+    </h2>
 
     <section>
       <div id="news-status" class="news-status">
@@ -431,249 +545,399 @@
         class="category-filters"
         aria-label="Hírek szűrése kategória szerint"
       ></div>
-      
+
       <div id="news-list" class="news-list"></div>
     </section>
 
     <section class="notice">
       <h2>Forráskezelési tájékoztató</h2>
+
       <p>
-        A GazdaCentrum.hu automatizált agrár hírfigyelőként működik. Az oldalon megjelenő hírek külső forrásokból,
-        nyilvánosan elérhető hírfolyamok és forráslinkek alapján kerülnek feldolgozásra.
-        A forrásként megjelölt kiadók tartalmáért az adott kiadó felel.
+        A GazdaCentrum.hu automatizált agrár hírfigyelőként
+        működik. Az oldalon megjelenő hírek külső forrásokból,
+        nyilvánosan elérhető hírfolyamok és forráslinkek alapján
+        kerülnek feldolgozásra. A forrásként megjelölt kiadók
+        tartalmáért az adott kiadó felel.
       </p>
+
       <p>
-        Pontatlanság, jogi észrevétel vagy eltávolítási kérés esetén kérjük, vegye fel velünk a kapcsolatot.
+        Pontatlanság, jogi észrevétel vagy eltávolítási kérés
+        esetén kérjük, vegye fel velünk a kapcsolatot.
       </p>
     </section>
 
     <section id="kapcsolat" class="intro">
       <h2>Kapcsolat</h2>
+
       <p>
         Kapcsolat és szerkesztési/jogi észrevétel:
         <strong>info@gazdacentrum.hu</strong>
       </p>
+
       <p>
-        A végleges impresszum és adatkezelési tájékoztató az oldal indulásakor kerül feltöltésre.
+        A végleges impresszum és adatkezelési tájékoztató
+        az oldal indulásakor kerül feltöltésre.
       </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 GazdaCentrum.hu – Automatizált agrár hírfigyelő</p>
+    <p>
+      © 2026 GazdaCentrum.hu – Automatizált agrár hírfigyelő
+    </p>
   </footer>
-<script>
-  async function loadNews() {
-    const newsList = document.getElementById("news-list");
-    const newsStatus = document.getElementById("news-status");
-    const categoryFilters =
-      document.getElementById("category-filters");
 
-    try {
-      const response = await fetch("news.json?v=" + Date.now(), {
-        cache: "no-store"
-      });
+  <script>
+    async function loadNews() {
+      const newsList =
+        document.getElementById("news-list");
 
-      if (!response.ok) {
-        throw new Error("A hírfájl nem tölthető be.");
-      }
+      const newsStatus =
+        document.getElementById("news-status");
 
-      const data = await response.json();
-      const items = Array.isArray(data.items) ? data.items : [];
+      const categoryFilters =
+        document.getElementById("category-filters");
 
-      newsList.replaceChildren();
-      categoryFilters.replaceChildren();
+      try {
+        const response = await fetch(
+          "news.json?v=" + Date.now(),
+          {
+            cache: "no-store"
+          }
+        );
 
-      if (items.length === 0) {
-        newsStatus.textContent =
-          "Jelenleg nincs megjeleníthető agrárhír.";
-        return;
-      }
+        if (!response.ok) {
+          throw new Error(
+            "A hírfájl nem tölthető be."
+          );
+        }
 
-      const updatedAt = data.generated_at
-        ? new Date(data.generated_at).toLocaleString("hu-HU")
-        : "";
+        const data = await response.json();
 
-      let activeCategory = "Összes";
+        const items =
+          Array.isArray(data.items)
+            ? data.items
+            : [];
 
-      const categories = [
-        ...new Set(
-          items.map((item) => item.category || "Agrárhír")
-        )
-      ].sort((first, second) =>
-        first.localeCompare(second, "hu")
-      );
-
-      function updateStatus(visibleItems) {
-        const message =
-          activeCategory === "Összes"
-            ? items.length + " friss hír"
-            : visibleItems.length +
-              " hír a(z) „" +
-              activeCategory +
-              "” kategóriában";
-
-        newsStatus.textContent =
-          message +
-          (updatedAt
-            ? " · Utolsó frissítés: " + updatedAt
-            : "");
-      }
-
-      function renderNews(visibleItems) {
         newsList.replaceChildren();
+        categoryFilters.replaceChildren();
 
-        if (visibleItems.length === 0) {
-          updateStatus(visibleItems);
+        if (items.length === 0) {
+          newsStatus.textContent =
+            "Jelenleg nincs megjeleníthető agrárhír.";
+
           return;
         }
 
-        visibleItems.forEach((item) => {
-          const article = document.createElement("article");
-          article.className = "news-card";
-
-          const category = document.createElement("span");
-          category.className = "news-category";
-          category.textContent = item.category || "Agrárhír";
-
-          const title = document.createElement("h3");
-          title.textContent =
-            item.title || "Cím nélküli hír";
-
-          const meta = document.createElement("p");
-          meta.className = "news-meta";
-
-          const publishedDate = item.published_at
-            ? new Date(item.published_at).toLocaleString(
-                "hu-HU",
-                {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                  hour: "2-digit",
-                  minute: "2-digit"
-                }
-              )
+        const updatedAt =
+          data.generated_at
+            ? new Date(
+                data.generated_at
+              ).toLocaleString("hu-HU")
             : "";
 
-          meta.textContent =
-            (item.source || "Ismeretlen forrás") +
-            (publishedDate
-              ? " · " + publishedDate
-              : "");
+        let activeCategory = "Összes";
 
-          const summary = document.createElement("p");
-          summary.className = "news-summary";
-          summary.textContent =
-            item.summary ||
-            "A hír részletei az eredeti forrásnál olvashatók.";
-
-          const link = document.createElement("a");
-          link.className = "news-link";
-          link.href = item.link;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent =
-            "Tovább az eredeti cikkhez";
-
-          article.append(
-            category,
-            title,
-            meta,
-            summary,
-            link
-          );
-
-          newsList.appendChild(article);
-        });
-
-        updateStatus(visibleItems);
-      }
-
-      function createFilterButton(categoryName) {
-        const button = document.createElement("button");
-
-        const categoryCount =
-          categoryName === "Összes"
-            ? items.length
-            : items.filter(
-                (item) =>
-                  (item.category || "Agrárhír") ===
-                  categoryName
-              ).length;
-
-        button.type = "button";
-        button.className = "category-filter-button";
-        button.textContent =
-          categoryName + " (" + categoryCount + ")";
-        button.setAttribute(
-          "aria-pressed",
-          categoryName === activeCategory
-            ? "true"
-            : "false"
+        const categories = [
+          ...new Set(
+            items.map(
+              (item) =>
+                item.category || "Agrárhír"
+            )
+          )
+        ].sort(
+          (first, second) =>
+            first.localeCompare(
+              second,
+              "hu"
+            )
         );
 
-        if (categoryName === activeCategory) {
-          button.classList.add("is-active");
+        function updateStatus(visibleItems) {
+          const message =
+            activeCategory === "Összes"
+              ? items.length + " friss hír"
+              : visibleItems.length +
+                " hír a(z) „" +
+                activeCategory +
+                "” kategóriában";
+
+          newsStatus.textContent =
+            message +
+            (
+              updatedAt
+                ? " · Utolsó frissítés: " +
+                  updatedAt
+                : ""
+            );
         }
 
-        button.addEventListener("click", () => {
-          activeCategory = categoryName;
+        function renderNews(visibleItems) {
+          newsList.replaceChildren();
 
-          document
-            .querySelectorAll(".category-filter-button")
-            .forEach((filterButton) => {
-              const isActive =
-                filterButton === button;
+          if (visibleItems.length === 0) {
+            updateStatus(visibleItems);
+            return;
+          }
 
-              filterButton.classList.toggle(
-                "is-active",
-                isActive
+          visibleItems.forEach((item) => {
+            const article =
+              document.createElement("article");
+
+            article.className = "news-card";
+
+            const category =
+              document.createElement("span");
+
+            category.className =
+              "news-category";
+
+            category.textContent =
+              item.category || "Agrárhír";
+
+            const title =
+              document.createElement("h3");
+
+            title.textContent =
+              item.title ||
+              "Cím nélküli hír";
+
+            const meta =
+              document.createElement("p");
+
+            meta.className = "news-meta";
+
+            const publishedDate =
+              item.published_at
+                ? new Date(
+                    item.published_at
+                  ).toLocaleString(
+                    "hu-HU",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                      hour: "2-digit",
+                      minute: "2-digit"
+                    }
+                  )
+                : "";
+
+            meta.textContent =
+              (
+                item.source ||
+                "Ismeretlen forrás"
+              ) +
+              (
+                publishedDate
+                  ? " · " +
+                    publishedDate
+                  : ""
               );
 
-              filterButton.setAttribute(
-                "aria-pressed",
-                isActive ? "true" : "false"
-              );
-            });
+            const summary =
+              document.createElement("p");
 
-          const visibleItems =
-            activeCategory === "Összes"
-              ? items
+            summary.className =
+              "news-summary";
+
+            summary.textContent =
+              item.summary ||
+              (
+                "A hír részletei az eredeti " +
+                "forrásnál olvashatók."
+              );
+
+            const link =
+              document.createElement("a");
+
+            link.className = "news-link";
+            link.href = item.link;
+            link.target = "_blank";
+            link.rel =
+              "noopener noreferrer";
+
+            link.textContent =
+              "Tovább az eredeti cikkhez";
+
+            article.append(
+              category,
+              title,
+              meta,
+              summary,
+              link
+            );
+
+            newsList.appendChild(article);
+          });
+
+          updateStatus(visibleItems);
+        }
+
+        function createFilterButton(
+          categoryName
+        ) {
+          const button =
+            document.createElement("button");
+
+          const categoryCount =
+            categoryName === "Összes"
+              ? items.length
               : items.filter(
                   (item) =>
-                    (item.category || "Agrárhír") ===
-                    activeCategory
+                    (
+                      item.category ||
+                      "Agrárhír"
+                    ) === categoryName
+                ).length;
+
+          button.type = "button";
+
+          button.className =
+            "category-filter-button";
+
+          button.dataset.category =
+            categoryName;
+
+          button.textContent =
+            categoryName +
+            " (" +
+            categoryCount +
+            ")";
+
+          button.setAttribute(
+            "aria-pressed",
+            categoryName === activeCategory
+              ? "true"
+              : "false"
+          );
+
+          if (
+            categoryName === activeCategory
+          ) {
+            button.classList.add(
+              "is-active"
+            );
+          }
+
+          button.addEventListener(
+            "click",
+            () => {
+              activeCategory =
+                categoryName;
+
+              document
+                .querySelectorAll(
+                  ".category-filter-button"
+                )
+                .forEach(
+                  (filterButton) => {
+                    const isActive =
+                      filterButton ===
+                      button;
+
+                    filterButton.classList.toggle(
+                      "is-active",
+                      isActive
+                    );
+
+                    filterButton.setAttribute(
+                      "aria-pressed",
+                      isActive
+                        ? "true"
+                        : "false"
+                    );
+                  }
                 );
 
-          renderNews(visibleItems);
-        });
+              const visibleItems =
+                activeCategory ===
+                "Összes"
+                  ? items
+                  : items.filter(
+                      (item) =>
+                        (
+                          item.category ||
+                          "Agrárhír"
+                        ) ===
+                        activeCategory
+                    );
 
-        return button;
-      }
+              renderNews(visibleItems);
+            }
+          );
 
-      categoryFilters.appendChild(
-        createFilterButton("Összes")
-      );
+          return button;
+        }
 
-      categories.forEach((categoryName) => {
         categoryFilters.appendChild(
-          createFilterButton(categoryName)
+          createFilterButton("Összes")
         );
-      });
 
-      renderNews(items);
-    } catch (error) {
-      console.error(error);
+        categories.forEach(
+          (categoryName) => {
+            categoryFilters.appendChild(
+              createFilterButton(
+                categoryName
+              )
+            );
+          }
+        );
 
-      categoryFilters.replaceChildren();
+        document
+          .querySelectorAll(
+            ".category-card"
+          )
+          .forEach((card) => {
+            card.addEventListener(
+              "click",
+              (event) => {
+                event.preventDefault();
 
-      newsStatus.textContent =
-        "A hírek jelenleg nem tölthetők be. Kérjük, próbálja meg később.";
+                const targetCategory =
+                  card.dataset.category;
+
+                const matchingButton =
+                  Array.from(
+                    categoryFilters
+                      .querySelectorAll(
+                        ".category-filter-button"
+                      )
+                  ).find(
+                    (button) =>
+                      button.dataset
+                        .category ===
+                      targetCategory
+                  );
+
+                if (!matchingButton) {
+                  return;
+                }
+
+                matchingButton.click();
+
+                document
+                  .getElementById("friss")
+                  .scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                  });
+              }
+            );
+          });
+
+        renderNews(items);
+      } catch (error) {
+        console.error(error);
+
+        categoryFilters.replaceChildren();
+
+        newsStatus.textContent =
+          "A hírek jelenleg nem tölthetők be. Kérjük, próbálja meg később.";
+      }
     }
-  }
 
-  loadNews();
-</script>
+    loadNews();
+  </script>
 </body>
 </html>
