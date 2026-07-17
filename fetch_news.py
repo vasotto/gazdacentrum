@@ -567,9 +567,10 @@ def determine_category(
         if (
             score > best_score
             or (
-                score == best_score
+                category == "Növényvédelem"
                 and best_category == "Kertészet"
-                and category == "Növényvédelem"
+                and title_matches > 0
+                and score >= best_score - 1
             )
         ):
             best_category = category
