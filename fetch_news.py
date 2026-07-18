@@ -35,10 +35,17 @@ SOURCE_TYPE_PRIORITY = {
 
 IRRELEVANT_TITLE_PHRASES = (
     "balaton-atuszas",
+    "beteg mosomedve",
+    "dobbenetes arak a balatonon",
+    "fordulat johet a horgaszatban",
     "haletetes kozben fulladt",
     "szobanoveny",
     "kek zonak a kert vegeben",
     "hosszu elet videki recept",
+    "meghalt geza ur",
+    "papagajok a kezben",
+    "rejtelyes uzenetet helyeztek ki egy gazdasagban",
+    "uj majomfajt talaltak",
     "allateledelek",
     "minden gazdinak",
     "valasztanak sort",

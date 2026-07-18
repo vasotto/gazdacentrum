@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-07-18T15:35:38.052029+00:00",
-  "item_count": 139,
+  "item_count": 132,
   "items": [
     {
       "id": "c4b89f01c49f13b7",
@@ -37,15 +37,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-18T14:58:00+00:00"
-    },
-    {
-      "id": "aedae3c2b28b7493",
-      "title": "Meghalt Géza úr, a cica, aki megváltoztatta gazdája életét",
-      "link": "https://www.agroinform.hu/gazdaelet/meghalt-geza-ur-a-cica-aki-megvaltoztatta-gazdaja-eletet-98467-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98467",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-18T14:21:09+00:00"
     },
     {
       "id": "0f35567d74e183df",
@@ -129,15 +120,6 @@
       "published_at": "2026-07-18T11:45:13+00:00"
     },
     {
-      "id": "b42adc93c9559369",
-      "title": "Felrobbantotta az internetet egy beteg mosómedve",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/felrobbantotta-az-internetet-egy-beteg-mosomedve-98456-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98456",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-18T11:35:54+00:00"
-    },
-    {
       "id": "fdea625fb5100d87",
       "title": "Komoly veszélyjelzés érkezett vasárnapra: figyelmeztetik az ország egyik felét",
       "link": "https://www.agrarszektor.hu/fenntarthatosag/20260718/komoly-veszelyjelzes-erkezett-vasarnapra-figyelmeztetik-az-orszag-egyik-felet-63412",
@@ -219,24 +201,6 @@
       "published_at": "2026-07-18T08:33:20+00:00"
     },
     {
-      "id": "fa5e43a0a77c7189",
-      "title": "Döbbenetes árak a Balatonon: a külföldiek imádják, a helyieknek megfizethetetlen?",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260718/dobbenetes-arak-a-balatonon-a-kulfoldiek-imadjak-a-helyieknek-megfizethetetlen-63410",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-18T08:31:00+00:00"
-    },
-    {
-      "id": "39488389251904fb",
-      "title": "Papagájok a kézben- avagy a kézzel nevelés fortélya",
-      "link": "https://magyarmezogazdasag.hu/2026/07/18/papagajok-a-kezben-avagy-a-kezzel-neveles-fortelya/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-18T08:08:12+00:00"
-    },
-    {
       "id": "a4b6ad1cba46ea08",
       "title": "Elkezdődött az őzek párzási időszaka – fokozott óvatosságot kér az agrárminiszter az autósoktól",
       "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/elkezdodott-az-ozek-parzasi-idoszaka-fokozott-ovatossagot-ker-az-agrarminiszter-az-autosoktol-98443-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98443",
@@ -253,15 +217,6 @@
       "category": "Agrárgazdaság",
       "source_type": "portál",
       "published_at": "2026-07-18T07:31:00+00:00"
-    },
-    {
-      "id": "7617c71c0af2e0c1",
-      "title": "Rejtélyes üzenetet helyeztek ki egy gazdaságban, a titkosszolgálat is felkereste utána a helyet",
-      "link": "https://agroforum.hu/agrarhirek/nagyvilag/rejtelyes-uzenetet-helyeztek-ki-egy-gazdasagban-a-titkosszolgalat-is-felkereste-utana-a-helyet/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-18T07:10:00+00:00"
     },
     {
       "id": "6a2bc607b212849b",
@@ -370,15 +325,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-18T03:34:00+00:00"
-    },
-    {
-      "id": "7b28dee84447975a",
-      "title": "Egy új majomfajt találtak Afrika mélyén",
-      "link": "https://magyarmezogazdasag.hu/2026/07/17/egy-uj-majomfajt-talaltak-afrika-melyen/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "source_type": "portál",
-      "published_at": "2026-07-17T21:08:36+00:00"
     },
     {
       "id": "a92f3faa259e6fe7",
@@ -541,15 +487,6 @@
       "category": "Általános agrár",
       "source_type": "portál",
       "published_at": "2026-07-17T10:41:00+00:00"
-    },
-    {
-      "id": "493eaef8d7868311",
-      "title": "Komoly fordulat jöhet a horgászatban: mutatjuk, ki lett a MOHOSZ elnöke",
-      "link": "https://www.agrarszektor.hu/innovacio/20260717/komoly-fordulat-johet-a-horgaszatban-mutatjuk-ki-lett-a-mohosz-elnoke-63395",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "source_type": "portál",
-      "published_at": "2026-07-17T10:32:00+00:00"
     },
     {
       "id": "66f71eae5eb989b6",
