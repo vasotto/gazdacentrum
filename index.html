@@ -11,6 +11,34 @@
     content="A GazdaCentrum.hu magyar agrárforrások híreit gyűjti össze és kategóriák szerint rendszerezi. Friss hírek, támogatások, növénytermesztés, állattenyésztés, gépesítés és szakmai információk egy helyen."
   >
 
+  <script>
+    (() => {
+      try {
+        const savedTheme =
+          localStorage.getItem("gazdacentrum-theme");
+
+        const preferredTheme =
+          window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches
+            ? "dark"
+            : "light";
+
+        const theme =
+          savedTheme || preferredTheme;
+
+        document.documentElement.dataset.theme =
+          theme;
+
+        document.documentElement.style.colorScheme =
+          theme;
+      } catch (error) {
+        document.documentElement.dataset.theme =
+          "light";
+      }
+    })();
+  </script>
+
   <style>
     :root {
       --purple: #8174df;
@@ -119,6 +147,39 @@
     .nav-links a:hover,
     .nav-links a:focus-visible {
       color: var(--lime);
+    }
+
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 38px;
+      padding: 7px 11px;
+      color: #f4f5f8;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .theme-toggle:hover,
+    .theme-toggle:focus-visible {
+      color: var(--lime);
+      border-color: rgba(174, 229, 0, 0.7);
+    }
+
+    .theme-toggle:focus-visible {
+      outline: 3px solid rgba(174, 229, 0, 0.35);
+      outline-offset: 2px;
+    }
+
+    .theme-toggle-icon {
+      font-size: 16px;
+      line-height: 1;
     }
 
     .hero {
@@ -997,6 +1058,133 @@
       font-size: 13px;
     }
 
+    html[data-theme="dark"] {
+      --purple: #a99eff;
+      --purple-dark: #c6beff;
+      --purple-soft: #302b50;
+      --lime: #b8ec27;
+      --lime-dark: #d0f76a;
+      --lime-soft: #293719;
+      --charcoal: #eef2f7;
+      --charcoal-soft: #d8dee8;
+      --page: #10141a;
+      --surface: #1a2029;
+      --border: #343d49;
+      --text: #e8ecf2;
+      --muted: #aab3bf;
+      --shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+      --shadow-soft: 0 8px 22px rgba(0, 0, 0, 0.22);
+    }
+
+    html[data-theme="dark"] .hero {
+      background:
+        radial-gradient(
+          circle at 78% 25%,
+          rgba(184, 236, 39, 0.10),
+          transparent 24%
+        ),
+        linear-gradient(
+          120deg,
+          #141922 0%,
+          #191827 52%,
+          #211e38 100%
+        );
+    }
+
+    html[data-theme="dark"] .button-secondary {
+      background: rgba(26, 32, 41, 0.88);
+    }
+
+    html[data-theme="dark"] .hero-art-panel {
+      background:
+        radial-gradient(
+          circle at 70% 22%,
+          rgba(184, 236, 39, 0.16),
+          transparent 20%
+        ),
+        linear-gradient(
+          145deg,
+          rgba(34, 40, 51, 0.96),
+          rgba(49, 43, 82, 0.94)
+        );
+    }
+
+    html[data-theme="dark"] .category-card {
+      background:
+        linear-gradient(
+          180deg,
+          rgba(48, 43, 80, 0.74),
+          rgba(26, 32, 41, 0.98)
+        );
+    }
+
+    html[data-theme="dark"] .category-card-icon,
+    html[data-theme="dark"] .news-category {
+      background: rgba(26, 32, 41, 0.94);
+    }
+
+    html[data-theme="dark"] .deadline-code,
+    html[data-theme="dark"] .news-source-type {
+      background: #222a35;
+    }
+
+    html[data-theme="dark"] .deadline-warning {
+      background: #252419;
+      border-color: #4b472b;
+    }
+
+    html[data-theme="dark"] .deadline-state.upcoming,
+    html[data-theme="dark"] .category-filter-button.is-priority:not(.is-active),
+    html[data-theme="dark"] .news-content-type {
+      color: #ffc778;
+      background: #352719;
+      border-color: #654726;
+    }
+
+    html[data-theme="dark"] .deadline-state:not(.upcoming):not(.relative),
+    html[data-theme="dark"] .news-source-type.hivatalos {
+      color: #c9f45b;
+    }
+
+    html[data-theme="dark"] .news-visual {
+      background:
+        radial-gradient(
+          circle at 82% 20%,
+          rgba(184, 236, 39, 0.14),
+          transparent 24%
+        ),
+        linear-gradient(
+          145deg,
+          #25233a,
+          #312b54
+        );
+    }
+
+    html[data-theme="dark"] .news-visual.tone-lime {
+      color: #c9f45b;
+      background:
+        radial-gradient(
+          circle at 80% 20%,
+          rgba(169, 158, 255, 0.16),
+          transparent 25%
+        ),
+        linear-gradient(
+          145deg,
+          #202b1a,
+          #2e3c1e
+        );
+    }
+
+    html[data-theme="dark"] .site-footer {
+      background:
+        radial-gradient(
+          circle at 85% 10%,
+          rgba(169, 158, 255, 0.14),
+          transparent 26%
+        ),
+        #0b0f14;
+    }
+
     @media (max-width: 1080px) {
       .hero-inner {
         grid-template-columns: 1fr 0.8fr;
@@ -1166,6 +1354,15 @@
         <a href="#friss">Friss hírek</a>
         <a href="#kategoriak">Kategóriák</a>
         <a href="#kapcsolat">Kapcsolat</a>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Sötét mód bekapcsolása"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+          <span class="theme-toggle-text">Sötét mód</span>
+        </button>
       </div>
     </nav>
   </header>
@@ -2228,6 +2425,77 @@
       }
     }
 
+    function setupThemeToggle() {
+      const toggle =
+        document.getElementById("theme-toggle");
+
+      if (!toggle) {
+        return;
+      }
+
+      const icon = toggle.querySelector(
+        ".theme-toggle-icon"
+      );
+
+      const text = toggle.querySelector(
+        ".theme-toggle-text"
+      );
+
+      function updateToggle() {
+        const isDark =
+          document.documentElement.dataset.theme ===
+          "dark";
+
+        icon.textContent = isDark ? "☀" : "☾";
+        text.textContent = isDark
+          ? "Világos mód"
+          : "Sötét mód";
+
+        toggle.setAttribute(
+          "aria-label",
+          isDark
+            ? "Világos mód bekapcsolása"
+            : "Sötét mód bekapcsolása"
+        );
+
+        toggle.setAttribute(
+          "aria-pressed",
+          isDark ? "true" : "false"
+        );
+      }
+
+      toggle.addEventListener("click", () => {
+        const nextTheme =
+          document.documentElement.dataset.theme ===
+          "dark"
+            ? "light"
+            : "dark";
+
+        document.documentElement.dataset.theme =
+          nextTheme;
+
+        document.documentElement.style.colorScheme =
+          nextTheme;
+
+        try {
+          localStorage.setItem(
+            "gazdacentrum-theme",
+            nextTheme
+          );
+        } catch (error) {
+          console.warn(
+            "A témabeállítás nem menthető.",
+            error
+          );
+        }
+
+        updateToggle();
+      });
+
+      updateToggle();
+    }
+
+    setupThemeToggle();
     loadDeadlines();
     loadNews();
   </script>
