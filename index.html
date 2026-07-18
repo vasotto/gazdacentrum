@@ -921,6 +921,34 @@
       border-color: rgba(129, 116, 223, 0.22);
     }
 
+    .news-source-type.ceges,
+    .news-source-type.partneri {
+      color: #8a4c08;
+      background: #fff3df;
+      border-color: rgba(196, 113, 22, 0.28);
+    }
+
+    .partner-news-shell {
+      border: 1px solid rgba(196, 113, 22, 0.18);
+      background:
+        linear-gradient(
+          180deg,
+          rgba(255, 247, 235, 0.92),
+          rgba(255, 255, 255, 0.98)
+        );
+    }
+
+    .partner-disclosure {
+      margin: 16px 0 0;
+      padding: 14px 16px;
+      border-left: 4px solid #c47116;
+      border-radius: 10px;
+      color: var(--muted);
+      background: rgba(255, 243, 223, 0.72);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
     .news-labels {
       display: flex;
       flex-wrap: wrap;
@@ -1131,6 +1159,29 @@
     html[data-theme="dark"] .deadline-warning {
       background: #252419;
       border-color: #4b472b;
+    }
+
+    html[data-theme="dark"] .partner-news-shell {
+      background:
+        linear-gradient(
+          180deg,
+          rgba(53, 39, 25, 0.78),
+          rgba(26, 32, 41, 0.98)
+        );
+      border-color: #654726;
+    }
+
+    html[data-theme="dark"] .partner-disclosure {
+      color: var(--muted);
+      background: #352719;
+      border-color: #c47116;
+    }
+
+    html[data-theme="dark"] .news-source-type.ceges,
+    html[data-theme="dark"] .news-source-type.partneri {
+      color: #ffc778;
+      background: #352719;
+      border-color: #654726;
     }
 
     html[data-theme="dark"] .deadline-state.upcoming,
@@ -1352,6 +1403,7 @@
       <div class="nav-links">
         <a href="#hataridok">Határidők</a>
         <a href="#friss">Friss hírek</a>
+        <a href="#partneri-tartalmak">Céges tartalmak</a>
         <a href="#kategoriak">Kategóriák</a>
         <a href="#kapcsolat">Kapcsolat</a>
         <button
@@ -1642,6 +1694,34 @@
       <div id="news-list" class="news-list"></div>
     </section>
 
+
+    <section
+      id="partneri-tartalmak"
+      class="news-shell partner-news-shell"
+    >
+      <div class="section-heading">
+        <div>
+          <h2>Céges és partneri szakmai tartalmak</h2>
+          <p>
+            Vállalatok saját szakmai hírei, technológiai anyagai és
+            terméktartalmai, a független hírfolyamtól elkülönítve.
+          </p>
+        </div>
+      </div>
+
+      <div id="partner-news-status" class="news-status">
+        Céges szakmai tartalmak betöltése…
+      </div>
+
+      <div id="partner-news-list" class="news-list"></div>
+
+      <p class="partner-disclosure">
+        Az itt megjelenő anyagokat az adott vállalat teszi közzé saját
+        szakmai vagy terméktartalmaként. Ezek nem a GazdaCentrum független
+        szerkesztőségi hírei. Minden elem az eredeti vállalati oldalra mutat.
+      </p>
+    </section>
+
     <section class="info-grid">
       <article class="info-panel">
         <h2>Forráskezelési tájékoztató</h2>
@@ -1650,7 +1730,8 @@
           működik. A hírek nyilvánosan elérhető hírfolyamok
           és forráslinkek alapján kerülnek feldolgozásra.
           Minden hírnél megjelenik az eredeti kiadó és a
-          forráscikk hivatkozása.
+          forráscikk hivatkozása. A céges és partneri szakmai
+          tartalmak külön rovatban, egyértelmű jelöléssel jelennek meg.
         </p>
       </article>
 
@@ -1678,6 +1759,7 @@
         <h2>Navigáció</h2>
         <div class="footer-links">
           <a href="#friss">Friss hírek</a>
+          <a href="#partneri-tartalmak">Céges tartalmak</a>
           <a href="#kategoriak">Kategóriák</a>
           <a href="#kapcsolat">Kapcsolat</a>
           <a href="impresszum.html">Impresszum</a>
@@ -1998,6 +2080,192 @@
       const categoryFilters =
         document.getElementById("category-filters");
 
+      const partnerSection =
+        document.getElementById("partneri-tartalmak");
+
+      const partnerNewsList =
+        document.getElementById("partner-news-list");
+
+      const partnerNewsStatus =
+        document.getElementById("partner-news-status");
+
+      const partnerSourceTypes =
+        new Set(["ceges", "partneri"]);
+
+      function normalizeSourceType(item) {
+        return String(
+          item.source_type || "portál"
+        ).toLocaleLowerCase("hu-HU");
+      }
+
+      function isPartnerItem(item) {
+        return partnerSourceTypes.has(
+          normalizeSourceType(item)
+        );
+      }
+
+      function createNewsCard(item) {
+        const article =
+          document.createElement("article");
+
+        article.className = "news-card";
+
+        const visual =
+          document.createElement("div");
+
+        const categoryName =
+          item.category || "Agrárhír";
+
+        const visualData =
+          getCategoryVisual(categoryName);
+
+        visual.className =
+          "news-visual " + visualData.tone;
+
+        const category =
+          document.createElement("span");
+
+        category.className = "news-category";
+        category.textContent = categoryName;
+
+        const visualIcon =
+          document.createElement("span");
+
+        visualIcon.className =
+          "news-visual-icon";
+
+        visualIcon.innerHTML =
+          visualData.icon;
+
+        visual.append(
+          category,
+          visualIcon
+        );
+
+        const body =
+          document.createElement("div");
+
+        body.className = "news-card-body";
+
+        const title =
+          document.createElement("h3");
+
+        title.textContent =
+          item.title ||
+          "Cím nélküli hír";
+
+        const meta =
+          document.createElement("p");
+
+        meta.className = "news-meta";
+
+        const publishedDate =
+          item.published_at
+            ? new Date(
+                item.published_at
+              ).toLocaleString(
+                "hu-HU",
+                {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                  hour: "2-digit",
+                  minute: "2-digit"
+                }
+              )
+            : "";
+
+        meta.textContent =
+          (
+            item.source ||
+            "Ismeretlen forrás"
+          ) +
+          (
+            publishedDate
+              ? " · " + publishedDate
+              : ""
+          );
+
+        const sourceType =
+          document.createElement("span");
+
+        const normalizedSourceType =
+          normalizeSourceType(item);
+
+        const sourceTypeLabels = {
+          "hivatalos": "Hivatalos forrás",
+          "szakmai": "Szakmai forrás",
+          "ceges": "Céges szakmai tartalom",
+          "partneri": "Partneri szakmai tartalom",
+          "portál": "Hírportál",
+          "portal": "Hírportál"
+        };
+
+        sourceType.className =
+          "news-source-type " +
+          normalizedSourceType;
+
+        sourceType.textContent =
+          sourceTypeLabels[
+            normalizedSourceType
+          ] || "Külső forrás";
+
+        const labels =
+          document.createElement("div");
+
+        labels.className = "news-labels";
+        labels.appendChild(sourceType);
+
+        if (item.content_type) {
+          const contentType =
+            document.createElement("span");
+
+          contentType.className =
+            "news-content-type";
+
+          contentType.textContent =
+            item.content_type;
+
+          labels.appendChild(contentType);
+        }
+
+        const link =
+          document.createElement("a");
+
+        link.className = "news-link";
+        link.href = item.link || "#";
+        link.target = "_blank";
+        link.rel =
+          "noopener noreferrer";
+
+        link.textContent =
+          "Tovább az eredeti cikkhez →";
+
+        const actions =
+          document.createElement("div");
+
+        actions.className =
+          "news-card-actions";
+
+        actions.append(
+          labels,
+          link
+        );
+
+        body.append(
+          title,
+          meta,
+          actions
+        );
+
+        article.append(
+          visual,
+          body
+        );
+
+        return article;
+      }
+
       try {
         const response = await fetch(
           "news.json?v=" + Date.now(),
@@ -2012,19 +2280,22 @@
 
         const data = await response.json();
 
-        const items =
+        const allItems =
           Array.isArray(data.items)
             ? data.items
             : [];
 
+        const items = allItems.filter(
+          (item) => !isPartnerItem(item)
+        );
+
+        const partnerItems = allItems.filter(
+          (item) => isPartnerItem(item)
+        );
+
         newsList.replaceChildren();
         categoryFilters.replaceChildren();
-
-        if (items.length === 0) {
-          newsStatus.textContent =
-            "Jelenleg nincs megjeleníthető agrárhír.";
-          return;
-        }
+        partnerNewsList.replaceChildren();
 
         const updatedAt =
           data.generated_at
@@ -2032,6 +2303,35 @@
                 data.generated_at
               ).toLocaleString("hu-HU")
             : "";
+
+        if (partnerItems.length > 0) {
+          partnerSection.hidden = false;
+
+          partnerItems.forEach((item) => {
+            partnerNewsList.appendChild(
+              createNewsCard(item)
+            );
+          });
+
+          partnerNewsStatus.textContent =
+            partnerItems.length +
+            " céges vagy partneri szakmai tartalom" +
+            (
+              updatedAt
+                ? " · Utolsó frissítés: " +
+                  updatedAt
+                : ""
+            );
+        } else {
+          partnerNewsStatus.textContent =
+            "Jelenleg nincs megjeleníthető céges vagy partneri szakmai tartalom.";
+        }
+
+        if (items.length === 0) {
+          newsStatus.textContent =
+            "Jelenleg nincs megjeleníthető független agrárhír.";
+          return;
+        }
 
         let activeCategory = "Összes";
 
@@ -2105,172 +2405,10 @@
         function renderNews(visibleItems) {
           newsList.replaceChildren();
 
-          if (visibleItems.length === 0) {
-            updateStatus(visibleItems);
-            return;
-          }
-
           visibleItems.forEach((item) => {
-            const article =
-              document.createElement("article");
-
-            article.className = "news-card";
-
-            const visual =
-              document.createElement("div");
-
-            const categoryName =
-              item.category || "Agrárhír";
-
-            const visualData =
-              getCategoryVisual(categoryName);
-
-            visual.className =
-              "news-visual " + visualData.tone;
-
-            const category =
-              document.createElement("span");
-
-            category.className = "news-category";
-            category.textContent = categoryName;
-
-            const visualIcon =
-              document.createElement("span");
-
-            visualIcon.className =
-              "news-visual-icon";
-
-            visualIcon.innerHTML =
-              visualData.icon;
-
-            visual.append(
-              category,
-              visualIcon
+            newsList.appendChild(
+              createNewsCard(item)
             );
-
-            const body =
-              document.createElement("div");
-
-            body.className = "news-card-body";
-
-            const title =
-              document.createElement("h3");
-
-            title.textContent =
-              item.title ||
-              "Cím nélküli hír";
-
-            const meta =
-              document.createElement("p");
-
-            meta.className = "news-meta";
-
-            const publishedDate =
-              item.published_at
-                ? new Date(
-                    item.published_at
-                  ).toLocaleString(
-                    "hu-HU",
-                    {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                      hour: "2-digit",
-                      minute: "2-digit"
-                    }
-                  )
-                : "";
-
-            meta.textContent =
-              (
-                item.source ||
-                "Ismeretlen forrás"
-              ) +
-              (
-                publishedDate
-                  ? " · " + publishedDate
-                  : ""
-              );
-
-            const sourceType =
-              document.createElement("span");
-
-            const normalizedSourceType =
-              String(
-                item.source_type ||
-                "portál"
-              ).toLocaleLowerCase("hu-HU");
-
-            const sourceTypeLabels = {
-              "hivatalos": "Hivatalos forrás",
-              "szakmai": "Szakmai forrás",
-              "portál": "Hírportál",
-              "portal": "Hírportál"
-            };
-
-            sourceType.className =
-              "news-source-type " +
-              normalizedSourceType;
-
-            sourceType.textContent =
-              sourceTypeLabels[
-                normalizedSourceType
-              ] || "Külső forrás";
-
-            const labels =
-              document.createElement("div");
-
-            labels.className = "news-labels";
-            labels.appendChild(sourceType);
-
-            if (item.content_type) {
-              const contentType =
-                document.createElement("span");
-
-              contentType.className =
-                "news-content-type";
-
-              contentType.textContent =
-                item.content_type;
-
-              labels.appendChild(contentType);
-            }
-
-            const link =
-              document.createElement("a");
-
-            link.className = "news-link";
-            link.href = item.link || "#";
-            link.target = "_blank";
-            link.rel =
-              "noopener noreferrer";
-
-            link.textContent =
-              "Tovább az eredeti cikkhez →";
-
-            const actions =
-              document.createElement("div");
-
-            actions.className =
-              "news-card-actions";
-
-            actions.append(
-              labels,
-              link
-            );
-
-            body.append(
-              title,
-              meta,
-              actions
-            );
-
-            article.append(
-              visual,
-              body
-            );
-
-            newsList.appendChild(article);
           });
 
           updateStatus(visibleItems);
@@ -2296,6 +2434,7 @@
               "is-priority"
             );
           }
+
           button.textContent =
             categoryName +
             " (" +
@@ -2346,10 +2485,9 @@
                   }
                 );
 
-              const visibleItems =
-                filterItems(activeCategory);
-
-              renderNews(visibleItems);
+              renderNews(
+                filterItems(activeCategory)
+              );
             }
           );
 
@@ -2420,6 +2558,8 @@
         console.error(error);
 
         categoryFilters.replaceChildren();
+        partnerNewsStatus.textContent =
+          "A céges szakmai tartalmak jelenleg nem tölthetők be.";
 
         newsStatus.textContent =
           "A hírek jelenleg nem tölthetők be. Kérjük, próbálja meg később.";

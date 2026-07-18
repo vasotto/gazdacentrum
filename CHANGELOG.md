@@ -2,6 +2,23 @@
 
 A projekt jelentősebb fejlesztéseinek és módosításainak összefoglalója.
 
+## 2026. július 18.
+
+### Phylazonit céges szakmai forrás aktiválása
+
+- A `https://phylazonit.hu/feed/` RSS-feed technikai tesztje sikeres volt.
+- A Phylazonit bekerült a `sources.csv` fájlba `ceges` forrástípussal.
+- Az oldal új „Céges és partneri szakmai tartalmak” rovatot kapott.
+- A céges elemek „Céges szakmai tartalom” jelöléssel jelennek meg.
+- A független hírek és a céges/partneri tartalmak külön listában jelennek meg.
+- A duplikációszűrés nem vonja össze a céges/partneri elemeket a független hírfolyam hasonló híreivel.
+- A teljes RSS-cikktartalom, képek és RSS-kivonatok továbbra sem kerülnek a nyilvános `news.json` fájlba.
+
+### GÉPmax státuszának javítása
+
+- A GÉPmax nem aktív forrás.
+- A forrás a hírek linkelését tiltja, ezért nem szerepel a `sources.csv` fájlban.
+
 ## 2026. július 16.
 
 ### Aktív RSS-források bővítése

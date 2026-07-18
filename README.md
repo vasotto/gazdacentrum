@@ -148,7 +148,7 @@ Jelenleg 12 aktív forrás működik.
 | FruitVeB | Kertészet | szakmai |
 | Agrárközösség | Általános agrár | portál |
 | Agroinform | Általános agrár | portál |
-| GÉPmax | Gépesítés | szakmai |
+| Phylazonit | Általános agrár | ceges |
 | KAP portál | Támogatások és pályázatok | hivatalos |
 
 Az aktív RSS-címek a `sources.csv` fájlban találhatók.
@@ -192,7 +192,6 @@ Jelenlegi példák:
 
 - Agroinform Házikert rovat;
 - Agrofórum hobbikerti és lakossági szaktanácsadási rovatok;
-- GÉPmax személyautós és SUV-tartalmak;
 - előre meghatározott, nem releváns címkifejezések.
 
 ## Duplikációszűrés
@@ -225,7 +224,7 @@ Különböző forrásoknál a rendszer vizsgálja:
 
 ### Forrásprioritás
 
-Duplikáció esetén a megtartási sorrend:
+Duplikáció esetén a független hírfolyamon belüli megtartási sorrend:
 
 ```text
 hivatalos
@@ -233,7 +232,21 @@ hivatalos
 → portál
 ```
 
-Azonos forrástípus esetén a frissebb hír kap előnyt.
+Azonos forrástípus esetén a frissebb hír kap előnyt. A `ceges` és `partneri` típusú tartalmak külön rovatba tartoznak, ezért a rendszer nem vonja össze őket a független hírfolyam elemeivel.
+
+## Céges és partneri szakmai tartalmak
+
+A `sources.csv` `type` oszlopában a `ceges` és `partneri` érték külön megjelenítési ágat aktivál.
+
+Ezek az elemek:
+
+- a „Céges és partneri szakmai tartalmak” rovatban jelennek meg;
+- jól látható forrástípus-jelölést kapnak;
+- nem keverednek a „Friss agrárhírek” listába;
+- nem kerülnek összevonásra a független hírfolyam hasonló híreivel;
+- csak címet, forrást, dátumot, kategóriát és eredeti linket tesznek közzé.
+
+Az első aktív céges forrás a Phylazonit RSS-feedje.
 
 ## Automatikus frissítés
 
@@ -296,9 +309,10 @@ Ellenőrizni kell:
 - Minden hírnél megjelenik a forrás és az eredeti cikk linkje.
 - Elsősorban RSS-, API- vagy más engedélyezett strukturált forrást használunk.
 - Scraping csak külön jogi és technikai vizsgálat után alkalmazható.
-- Az összefoglaló nem torzíthatja az eredeti hírt.
+- Az RSS-összefoglaló csak belső feldolgozásra használható, a nyilvános `news.json` fájlba nem kerül.
 - Támogatási, jogszabályi, pénzügyi és növényvédelmi információnál az eredeti hivatalos forrás ellenőrzése szükséges.
 - Az oldalon jelezni kell az automatizált tartalom-előállítást.
+- A céges és partneri tartalmakat a független hírfolyamtól egyértelműen el kell különíteni.
 
 ## Dokumentáció
 

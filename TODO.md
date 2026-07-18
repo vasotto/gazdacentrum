@@ -1,10 +1,10 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 16.
+Utolsó frissítés: 2026. július 18.
 
 ## Következő konkrét feladat
 
-- [ ] Az automatikus, hírtartalom alapján működő kategorizálás első változatának kialakítása.
+- [ ] A jelenlegi források felhasználási feltételeinek forrásonkénti dokumentálása.
 
 ## Aktív RSS-források
 
@@ -18,7 +18,7 @@ Utolsó frissítés: 2026. július 16.
 - [x] FruitVeB beállítása és tesztelése.
 - [x] Agrárközösség beállítása és tesztelése.
 - [x] Agroinform beállítása és tesztelése.
-- [x] GÉPmax beállítása és tesztelése.
+- [x] Phylazonit beállítása és tesztelése külön céges szakmai forrásként.
 - [x] KAP portál beállítása és tesztelése.
 
 Jelenlegi aktív források száma:
@@ -33,11 +33,10 @@ Jelenlegi aktív források száma:
 - [ ] További kertészeti források keresése.
 - [ ] További támogatási és pályázati források keresése.
 - [ ] Minden új forrás külön tesztelése a `sources.csv` bővítése előtt.
-- [ ] A Phylazonit RSS-feed külön tesztelése partneri forrásként.
-- [ ] A partneri RSS-források megjelenítési és jelölési szabályainak kialakítása a Phylazonit feed esetleges aktiválása előtt.
 
 ## Tesztelt, de inaktív források
 
+- [x] GÉPmax kizárása – a forrás tiltja a hírek linkelését.
 - [x] Agrárágazat tesztelése – hibás XML-entitás miatt inaktív.
 - [x] Agrotrend tesztelése – hibás XML-entitás miatt inaktív.
 - [x] AgrárUnió tesztelése – nem található működő nyilvános RSS.
@@ -64,7 +63,6 @@ Jelenlegi aktív források száma:
 - [x] Nyilvánvalóan nem agrár témájú hírek relevanciaszűrése.
 - [x] Agroinform Házikert rovatának kizárása.
 - [x] Agrofórum hobbikerti és lakossági szaktanácsadási rovatainak kizárása.
-- [x] GÉPmax személyautós és SUV-híreinek kizárása.
 - [x] Átmeneti RSS-hibák automatikus újrapróbálása.
 - [x] Legfeljebb három RSS-lekérési kísérlet beállítása.
 - [x] Öt másodperces várakozás beállítása az ismételt lekérések között.
@@ -127,17 +125,17 @@ Jelenlegi aktív források száma:
 - [x] Kategória megjelenítése.
 - [x] Forrás megjelenítése.
 - [x] Publikálási idő megjelenítése.
-- [x] RSS-összefoglaló megjelenítése.
+- [x] RSS-összefoglaló kizárása a nyilvános `news.json` fájlból.
 - [x] Eredeti cikklink megjelenítése.
 - [x] Az élő oldalon az Agrofórum-duplikáció eltávolításának ellenőrzése.
-- [ ] Kategóriaszűrő kialakítása.
+- [x] Kategóriaszűrő kialakítása.
 - [ ] Külön kategóriaoldalak kialakítása.
 - [ ] Keresési funkció.
 - [ ] Mobilos megjelenés részletes ellenőrzése.
 - [ ] Forrásonkénti szűrés.
 - [ ] Hírkártyák megjelenésének finomítása.
 - [ ] Üres összefoglalóval érkező hírek megjelenésének felülvizsgálata.
-- [ ] Hibaállapot megjelenítése, ha a `news.json` nem tölthető be.
+- [x] Hibaállapot megjelenítése, ha a `news.json` nem tölthető be.
 
 ## GitHub Actions és üzemeltetés
 
@@ -167,30 +165,31 @@ Jelenlegi aktív források száma:
 
 ## Tartalmi és jogi feladatok
 
-- [ ] Impresszum elkészítése.
+- [x] Impresszum elkészítése.
+- [ ] Adószám és egyéni vállalkozói nyilvántartási szám pótlása az impresszumban.
 - [ ] Adatkezelési tájékoztató elkészítése.
-- [ ] Automatizált tartalom-előállításról szóló tájékoztatás.
-- [ ] Hivatalos forrás ellenőrzésére figyelmeztető szöveg.
+- [x] Automatizált tartalom-előállításról szóló tájékoztatás.
+- [x] Hivatalos forrás ellenőrzésére figyelmeztető szöveg.
 - [ ] Felhasználási feltételek elkészítése.
 - [ ] Forráseltávolítási és panaszkezelési kapcsolat megadása.
 - [ ] Az RSS-összefoglalók felhasználási módjának rendszeres jogi felülvizsgálata.
 
 ## Partneri és fizetett vállalati tartalmak
 
-- [ ] A partneri RSS-források külön forrástípusának kialakítása.
-- [ ] „Fizetett partneri tartalom” jelölés megjelenítése.
-- [ ] A fizetett és független hírek egyértelmű elkülönítése.
+- [x] A partneri RSS-források külön `ceges` és `partneri` forrástípusának kialakítása.
+- [x] „Céges szakmai tartalom” és „Partneri szakmai tartalom” jelölés megjelenítése.
+- [x] A céges/partneri és független hírek egyértelmű elkülönítése.
 - [ ] Partneri tartalmi feltételek kidolgozása.
 - [ ] Partneri csomagok és árak kidolgozása.
 - [ ] Partneri kattintási statisztikák kialakítása.
-- [ ] A Phylazonit RSS-forrás tesztelése csak a partneri szabályok kialakítása után.
+- [x] A Phylazonit RSS-forrás technikai tesztelése és aktiválása a külön céges rovatban.
 
 ## Későbbi fejlesztések
 
 - [ ] „Miért fontos a gazdának?” mező.
 - [ ] AI-alapú saját összefoglaló.
 - [ ] Napi vagy heti hírlevél.
-- [ ] Támogatási határidőfigyelő.
+- [x] Támogatási határidőfigyelő első változata.
 - [ ] Személyre szabható hírfolyam.
 - [ ] Kedvenc hírek mentése.
 - [ ] Látogatottságmérés és forgalmi statisztikák.

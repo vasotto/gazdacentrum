@@ -28,9 +28,13 @@ RSS_RETRY_DELAY_SECONDS = 5
 SOURCE_TYPE_PRIORITY = {
     "hivatalos": 3,
     "szakmai": 2,
+    "ceges": 2,
+    "partneri": 2,
     "portál": 1,
     "portal": 1,
 }
+
+PARTNER_SOURCE_TYPES = {"ceges", "partneri"}
 
 
 IRRELEVANT_TITLE_PHRASES = (
@@ -488,23 +492,6 @@ def is_relevant_item(
     ):
         return False
 
-    # A GÉPmax személyautós és SUV-hírei nem mezőgazdasági géphírek.
-    if normalized_source == "gepmax":
-        passenger_vehicle_markers = (
-            "suv",
-            "proton x70",
-            "kia seltos",
-            "jeep grand cherokee",
-            "renault boreal",
-        )
-
-        if any(
-            marker in normalized_title
-            or marker in normalized_link
-            for marker in passenger_vehicle_markers
-        ):
-            return False
-
     return True
 
 
@@ -822,12 +809,27 @@ def collect_news(
 
     return collected, errors
 
+def is_partner_source_type(value: Any) -> bool:
+    """Jelzi, hogy a forrás külön céges vagy partneri rovatba tartozik."""
+    return str(value or "").strip().lower() in PARTNER_SOURCE_TYPES
+
+
 def is_semantic_duplicate(
     item: dict[str, Any],
     existing_item: dict[str, Any],
     document_frequency: Counter[str],
 ) -> bool:
     """Óvatosan felismeri az azonos vagy nagyon hasonló híreket."""
+    item_is_partner = is_partner_source_type(item.get("source_type"))
+    existing_is_partner = is_partner_source_type(
+        existing_item.get("source_type")
+    )
+
+    # A céges/partneri tartalmak külön rovatban jelennek meg,
+    # ezért a független hírfolyammal nem vonjuk össze őket.
+    if item_is_partner != existing_is_partner:
+        return False
+
     same_source = item["source"] == existing_item["source"]
 
     item_date = parse_iso_datetime(item["published_at"])
@@ -1012,11 +1014,17 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         tuple[dict[str, Any], dict[str, Any]]
     ] = []
 
-    seen_links: set[str] = set()
-    seen_titles: set[str] = set()
+    seen_links: set[tuple[str, str]] = set()
+    seen_titles: set[tuple[str, str]] = set()
 
     for item in ordered_items:
+        stream_key = (
+            "partner"
+            if is_partner_source_type(item.get("source_type"))
+            else "news"
+        )
         normalized_link = item["link"].rstrip("/").lower()
+        normalized_link_key = (stream_key, normalized_link)
 
         normalized_title = re.sub(
             r"[^a-záéíóöőúüű0-9]+",
@@ -1024,14 +1032,16 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             item["title"].lower(),
         ).strip()
 
-        if normalized_link in seen_links:
+        normalized_title_key = (stream_key, normalized_title)
+
+        if normalized_link_key in seen_links:
             print(
                 "Azonos link miatt kihagyva: "
                 f"{item['title']} ({item['source']})"
             )
             continue
 
-        if normalized_title in seen_titles:
+        if normalized_title_key in seen_titles:
             print(
                 "Azonos cím miatt kihagyva: "
                 f"{item['title']} ({item['source']})"
@@ -1051,8 +1061,8 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             None,
         )
 
-        seen_links.add(normalized_link)
-        seen_titles.add(normalized_title)
+        seen_links.add(normalized_link_key)
+        seen_titles.add(normalized_title_key)
 
         if duplicate_match:
             _, representative_item = duplicate_match
