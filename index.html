@@ -704,6 +704,35 @@
       font-size: 12px;
     }
 
+    .news-source-type {
+      display: inline-flex;
+      align-items: center;
+      align-self: flex-start;
+      margin-top: 9px;
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      background: #f7f8fb;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.2;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+    }
+
+    .news-source-type.hivatalos {
+      color: #466600;
+      background: var(--lime-soft);
+      border-color: rgba(111, 152, 0, 0.24);
+    }
+
+    .news-source-type.szakmai {
+      color: var(--purple-dark);
+      background: var(--purple-soft);
+      border-color: rgba(129, 116, 223, 0.22);
+    }
+
     .news-link {
       display: inline-flex;
       align-items: center;
@@ -1561,6 +1590,31 @@
                   : ""
               );
 
+            const sourceType =
+              document.createElement("span");
+
+            const normalizedSourceType =
+              String(
+                item.source_type ||
+                "portál"
+              ).toLocaleLowerCase("hu-HU");
+
+            const sourceTypeLabels = {
+              "hivatalos": "Hivatalos forrás",
+              "szakmai": "Szakmai forrás",
+              "portál": "Hírportál",
+              "portal": "Hírportál"
+            };
+
+            sourceType.className =
+              "news-source-type " +
+              normalizedSourceType;
+
+            sourceType.textContent =
+              sourceTypeLabels[
+                normalizedSourceType
+              ] || "Külső forrás";
+
             const link =
               document.createElement("a");
 
@@ -1576,6 +1630,7 @@
             body.append(
               title,
               meta,
+              sourceType,
               link
             );
 
