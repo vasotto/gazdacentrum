@@ -565,6 +565,12 @@
       box-shadow: 0 8px 18px rgba(126, 168, 0, 0.18);
     }
 
+    .category-filter-button.is-priority:not(.is-active) {
+      color: #8b4b0b;
+      background: #fff5e8;
+      border-color: rgba(196, 113, 22, 0.28);
+    }
+
     .category-filter-button:focus-visible {
       outline: 3px solid rgba(174, 229, 0, 0.45);
       outline-offset: 2px;
@@ -1509,14 +1515,50 @@
             first.localeCompare(second, "hu")
         );
 
+        const priorityView =
+          "Teendők és határidők";
+
+        function filterItems(filterName) {
+          if (filterName === "Összes") {
+            return items;
+          }
+
+          if (filterName === priorityView) {
+            return items.filter(
+              (item) =>
+                item.content_type ===
+                "Határidő / teendő"
+            );
+          }
+
+          return items.filter(
+            (item) =>
+              (
+                item.category ||
+                "Agrárhír"
+              ) === filterName
+          );
+        }
+
         function updateStatus(visibleItems) {
-          const message =
-            activeCategory === "Összes"
-              ? items.length + " friss hír"
-              : visibleItems.length +
-                " hír a(z) „" +
-                activeCategory +
-                "” kategóriában";
+          let message;
+
+          if (activeCategory === "Összes") {
+            message =
+              items.length + " friss hír";
+          } else if (
+            activeCategory === priorityView
+          ) {
+            message =
+              visibleItems.length +
+              " aktuális teendő vagy határidő";
+          } else {
+            message =
+              visibleItems.length +
+              " hír a(z) „" +
+              activeCategory +
+              "” kategóriában";
+          }
 
           newsStatus.textContent =
             message +
@@ -1709,21 +1751,19 @@
             document.createElement("button");
 
           const categoryCount =
-            categoryName === "Összes"
-              ? items.length
-              : items.filter(
-                  (item) =>
-                    (
-                      item.category ||
-                      "Agrárhír"
-                    ) === categoryName
-                ).length;
+            filterItems(categoryName).length;
 
           button.type = "button";
           button.className =
             "category-filter-button";
           button.dataset.category =
             categoryName;
+
+          if (categoryName === priorityView) {
+            button.classList.add(
+              "is-priority"
+            );
+          }
           button.textContent =
             categoryName +
             " (" +
@@ -1775,17 +1815,7 @@
                 );
 
               const visibleItems =
-                activeCategory ===
-                "Összes"
-                  ? items
-                  : items.filter(
-                      (item) =>
-                        (
-                          item.category ||
-                          "Agrárhír"
-                        ) ===
-                        activeCategory
-                    );
+                filterItems(activeCategory);
 
               renderNews(visibleItems);
             }
@@ -1796,6 +1826,10 @@
 
         categoryFilters.appendChild(
           createFilterButton("Összes")
+        );
+
+        categoryFilters.appendChild(
+          createFilterButton(priorityView)
         );
 
         categories.forEach(
