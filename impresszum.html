@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Impresszum – GazdaCentrum.hu</title>
+  <meta
+    name="description"
+    content="A GazdaCentrum.hu üzemeltetői, kapcsolattartási és tárhelyszolgáltatói adatai."
+  >
+
+  <script>
+    (() => {
+      try {
+        const savedTheme =
+          localStorage.getItem("gazdacentrum-theme");
+
+        const preferredTheme =
+          window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches
+            ? "dark"
+            : "light";
+
+        const theme = savedTheme || preferredTheme;
+
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+
+  <style>
+    :root {
+      --purple: #8174df;
+      --purple-dark: #6558bd;
+      --purple-soft: #f0edff;
+      --lime: #aee500;
+      --charcoal: #1b2530;
+      --page: #f6f7fb;
+      --surface: #ffffff;
+      --border: #e3e6ee;
+      --text: #252a35;
+      --muted: #697181;
+      --notice: #fff7d6;
+      --notice-border: #e6bd28;
+      --shadow: 0 16px 38px rgba(31, 39, 51, 0.08);
+    }
+
+    html[data-theme="dark"] {
+      --purple: #a99cff;
+      --purple-dark: #c1b8ff;
+      --purple-soft: #312d50;
+      --lime: #b8ea27;
+      --charcoal: #eef2f6;
+      --page: #10151c;
+      --surface: #18212b;
+      --border: #34404d;
+      --text: #eef2f6;
+      --muted: #aeb8c4;
+      --notice: #3a3215;
+      --notice-border: #b28b00;
+      --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        Inter,
+        ui-sans-serif,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        Helvetica,
+        sans-serif;
+      color: var(--text);
+      background: var(--page);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--purple-dark);
+      font-weight: 700;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--purple);
+    }
+
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      width: min(1120px, calc(100% - 32px));
+      min-height: 86px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .brand img {
+      display: block;
+      width: min(245px, 62vw);
+      height: auto;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .back-link,
+    .theme-toggle {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--text);
+      background: var(--surface);
+      font: inherit;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .back-link:hover,
+    .theme-toggle:hover {
+      border-color: var(--purple);
+      color: var(--purple-dark);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 54px 0 72px;
+    }
+
+    .page-heading {
+      margin-bottom: 26px;
+    }
+
+    .eyebrow {
+      margin: 0 0 6px;
+      color: var(--purple-dark);
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--charcoal);
+      font-size: clamp(2.1rem, 6vw, 3.7rem);
+      line-height: 1.08;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 1.04rem;
+    }
+
+    .notice {
+      margin: 0 0 24px;
+      padding: 16px 18px;
+      border: 1px solid var(--notice-border);
+      border-left-width: 5px;
+      border-radius: 14px;
+      background: var(--notice);
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .card {
+      margin-top: 20px;
+      padding: clamp(22px, 5vw, 34px);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .card h2 {
+      margin: 0 0 20px;
+      color: var(--charcoal);
+      font-size: 1.35rem;
+    }
+
+    .details {
+      margin: 0;
+      display: grid;
+      grid-template-columns: minmax(190px, 0.75fr) minmax(0, 1.25fr);
+      column-gap: 26px;
+    }
+
+    .details div {
+      display: contents;
+    }
+
+    .details dt,
+    .details dd {
+      margin: 0;
+      padding: 12px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .details div:first-child dt,
+    .details div:first-child dd {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .details dt {
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .details dd {
+      overflow-wrap: anywhere;
+    }
+
+    .pending {
+      color: var(--notice-border);
+      font-weight: 900;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .page-footer {
+      padding: 24px 16px;
+      color: #dfe6ed;
+      background: #1b2530;
+      text-align: center;
+      font-size: 0.92rem;
+    }
+
+    .page-footer a {
+      color: #d8ff65;
+    }
+
+    @media (max-width: 700px) {
+      .header-inner {
+        min-height: 76px;
+      }
+
+      .back-link span {
+        display: none;
+      }
+
+      .theme-toggle {
+        width: 42px;
+        padding: 0;
+      }
+
+      main {
+        padding-top: 38px;
+      }
+
+      .details,
+      .details div {
+        display: block;
+      }
+
+      .details dt {
+        padding-bottom: 2px;
+      }
+
+      .details dd {
+        padding-top: 0;
+      }
+
+      .details div:first-child dd {
+        padding-top: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Vissza a GazdaCentrum főoldalára">
+        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+      </a>
+
+      <div class="header-actions">
+        <a class="back-link" href="index.html">
+          <span aria-hidden="true">←</span>
+          <span>Vissza a főoldalra</span>
+        </a>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Megjelenés váltása"
+          title="Megjelenés váltása"
+        >
+          <span id="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">Jogi információk</p>
+      <h1>Impresszum</h1>
+      <p class="lead">
+        A GazdaCentrum.hu szolgáltatójának, kapcsolattartójának
+        és tárhelyszolgáltatójának adatai.
+      </p>
+    </section>
+
+    <aside class="notice" aria-label="Hiányzó vállalkozói adatok">
+      <strong>Ideiglenes impresszum</strong>
+      Az adószám és az egyéni vállalkozói nyilvántartási szám
+      feltöltés előtt pótlásra kerül.
+    </aside>
+
+    <section class="card">
+      <h2>A szolgáltató adatai</h2>
+      <dl class="details">
+        <div>
+          <dt>Szolgáltató és üzemeltető</dt>
+          <dd>Vas Nóra egyéni vállalkozó</dd>
+        </div>
+        <div>
+          <dt>Rövidített megnevezés</dt>
+          <dd>Vas Nóra e.v.</dd>
+        </div>
+        <div>
+          <dt>Székhely</dt>
+          <dd>4400 Nyíregyháza, Újház sor 43.</dd>
+        </div>
+        <div>
+          <dt>Nyilvántartó hatóság</dt>
+          <dd>Nemzeti Adó- és Vámhivatal</dd>
+        </div>
+        <div>
+          <dt>Nyilvántartási szám</dt>
+          <dd class="pending">Pótlás alatt</dd>
+        </div>
+        <div>
+          <dt>Adószám</dt>
+          <dd class="pending">Pótlás alatt</dd>
+        </div>
+        <div>
+          <dt>Kapcsolattartási e-mail</dt>
+          <dd><a href="mailto:info@gazdacentrum.hu">info@gazdacentrum.hu</a></dd>
+        </div>
+        <div>
+          <dt>Honlap</dt>
+          <dd><a href="https://gazdacentrum.hu/">gazdacentrum.hu</a></dd>
+        </div>
+        <div>
+          <dt>Felelős kiadó</dt>
+          <dd>Vas Nóra e.v.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Tárhelyszolgáltató</h2>
+      <dl class="details">
+        <div>
+          <dt>Szolgáltató neve</dt>
+          <dd>Cloudflare, Inc.</dd>
+        </div>
+        <div>
+          <dt>Székhely</dt>
+          <dd>101 Townsend St., San Francisco, CA 94107, USA</dd>
+        </div>
+        <div>
+          <dt>E-mail</dt>
+          <dd><a href="mailto:support@cloudflare.com">support@cloudflare.com</a></dd>
+        </div>
+        <div>
+          <dt>Honlap</dt>
+          <dd><a href="https://www.cloudflare.com/" rel="noopener noreferrer">cloudflare.com</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>A szolgáltatás jellege</h2>
+      <p>
+        A GazdaCentrum.hu agrárhíreket, támogatási információkat
+        és szakmai tartalmakra mutató hivatkozásokat rendszerez.
+        Az egyes hivatkozások külső oldalakra vezetnek; az ott
+        megjelenő tartalomért az eredeti kiadó felel.
+      </p>
+      <p>
+        A honlapon megjelenő információk tájékoztató jellegűek.
+        Támogatási, jogszabályi, pénzügyi és növényvédelmi
+        kérdésekben minden esetben az eredeti, hivatalos forrás
+        aktuális tartalma az irányadó.
+      </p>
+      <p>
+        Szerkesztési, helyesbítési vagy jogi megkeresés:
+        <a href="mailto:info@gazdacentrum.hu">info@gazdacentrum.hu</a>.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Szerzői jog</h2>
+      <p>
+        A GazdaCentrum.hu saját arculati és szerkesztési elemei
+        szerzői jogi védelem alatt állnak. A hivatkozott külső
+        tartalmakhoz fűződő jogok az adott forrás vagy jogosult
+        tulajdonában maradnak.
+      </p>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    © 2026 GazdaCentrum.hu ·
+    <a href="index.html">Vissza a főoldalra</a>
+  </footer>
+
+  <script>
+    const themeToggle =
+      document.getElementById("theme-toggle");
+    const themeIcon =
+      document.getElementById("theme-icon");
+
+    function currentTheme() {
+      return document.documentElement.dataset.theme || "light";
+    }
+
+    function updateThemeIcon() {
+      const isDark = currentTheme() === "dark";
+      themeIcon.textContent = isDark ? "☀" : "☾";
+      themeToggle.setAttribute(
+        "aria-label",
+        isDark ? "Világos mód bekapcsolása" : "Sötét mód bekapcsolása"
+      );
+      themeToggle.title = themeToggle.getAttribute("aria-label");
+    }
+
+    themeToggle.addEventListener("click", () => {
+      const nextTheme =
+        currentTheme() === "dark" ? "light" : "dark";
+
+      document.documentElement.dataset.theme = nextTheme;
+      document.documentElement.style.colorScheme = nextTheme;
+
+      try {
+        localStorage.setItem("gazdacentrum-theme", nextTheme);
+      } catch (error) {
+        // A téma ettől még az aktuális oldalon működik.
+      }
+
+      updateThemeIcon();
+    });
+
+    updateThemeIcon();
+  </script>
+</body>
+</html>
