@@ -9,7 +9,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-18T16:07:22+00:00"
+      "published_at": "2026-07-18T16:07:22+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "e7426b638f5adf69",
@@ -18,7 +19,8 @@
       "source": "Mezőhír",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-18T15:34:00+00:00"
+      "published_at": "2026-07-18T15:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "334d7400db80e951",
@@ -27,7 +29,8 @@
       "source": "Agroinform",
       "category": "Időjárás és vízgazdálkodás",
       "source_type": "portál",
-      "published_at": "2026-07-18T15:05:54+00:00"
+      "published_at": "2026-07-18T15:05:54+00:00",
+      "content_type": ""
     },
     {
       "id": "869225a820e04c40",
@@ -36,7 +39,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T14:58:00+00:00"
+      "published_at": "2026-07-18T14:58:00+00:00",
+      "content_type": ""
     },
     {
       "id": "0f35567d74e183df",
@@ -45,7 +49,8 @@
       "source": "Agrofórum",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T14:10:00+00:00"
+      "published_at": "2026-07-18T14:10:00+00:00",
+      "content_type": ""
     },
     {
       "id": "ed47c29e6976abbc",
@@ -54,7 +59,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T14:08:38+00:00"
+      "published_at": "2026-07-18T14:08:38+00:00",
+      "content_type": ""
     },
     {
       "id": "07cc858921382c51",
@@ -63,7 +69,8 @@
       "source": "Mezőhír",
       "category": "Támogatások és pályázatok",
       "source_type": "portál",
-      "published_at": "2026-07-18T13:34:00+00:00"
+      "published_at": "2026-07-18T13:34:00+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "ea7199646b8474b4",
@@ -72,7 +79,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T13:32:00+00:00"
+      "published_at": "2026-07-18T13:32:00+00:00",
+      "content_type": ""
     },
     {
       "id": "aeba51f01d3829a1",
@@ -81,7 +89,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T13:25:35+00:00"
+      "published_at": "2026-07-18T13:25:35+00:00",
+      "content_type": ""
     },
     {
       "id": "901c0d42fb1ac784",
@@ -90,7 +99,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T12:34:00+00:00"
+      "published_at": "2026-07-18T12:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "c3ec9ce39c9f814b",
@@ -99,7 +109,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T12:33:00+00:00"
+      "published_at": "2026-07-18T12:33:00+00:00",
+      "content_type": ""
     },
     {
       "id": "5ebef5af87e3df95",
@@ -108,7 +119,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T12:30:11+00:00"
+      "published_at": "2026-07-18T12:30:11+00:00",
+      "content_type": ""
     },
     {
       "id": "35d2757f6a20fc36",
@@ -117,7 +129,8 @@
       "source": "Agroinform",
       "category": "Kertészet",
       "source_type": "portál",
-      "published_at": "2026-07-18T11:45:13+00:00"
+      "published_at": "2026-07-18T11:45:13+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "fdea625fb5100d87",
@@ -126,7 +139,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T11:33:00+00:00"
+      "published_at": "2026-07-18T11:33:00+00:00",
+      "content_type": ""
     },
     {
       "id": "c50130f138e618dc",
@@ -135,7 +149,8 @@
       "source": "Agrofórum",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T11:10:00+00:00"
+      "published_at": "2026-07-18T11:10:00+00:00",
+      "content_type": ""
     },
     {
       "id": "0e48198c71c0e29a",
@@ -144,7 +159,8 @@
       "source": "Mezőhír",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-18T10:41:00+00:00"
+      "published_at": "2026-07-18T10:41:00+00:00",
+      "content_type": ""
     },
     {
       "id": "80f52797eaf96333",
@@ -153,7 +169,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T10:28:00+00:00"
+      "published_at": "2026-07-18T10:28:00+00:00",
+      "content_type": ""
     },
     {
       "id": "eed37eb5800ab76f",
@@ -162,7 +179,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T10:26:49+00:00"
+      "published_at": "2026-07-18T10:26:49+00:00",
+      "content_type": ""
     },
     {
       "id": "46ab96cf24cd7d45",
@@ -171,7 +189,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-18T10:10:42+00:00"
+      "published_at": "2026-07-18T10:10:42+00:00",
+      "content_type": "Kutatás / elemzés"
     },
     {
       "id": "e9c2702f7b4b3ad1",
@@ -180,7 +199,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T09:31:00+00:00"
+      "published_at": "2026-07-18T09:31:00+00:00",
+      "content_type": ""
     },
     {
       "id": "3ac2b189c57dcfea",
@@ -189,7 +209,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T09:27:27+00:00"
+      "published_at": "2026-07-18T09:27:27+00:00",
+      "content_type": ""
     },
     {
       "id": "d053914f1b3a06d9",
@@ -198,7 +219,8 @@
       "source": "Agroinform",
       "category": "Kertészet",
       "source_type": "portál",
-      "published_at": "2026-07-18T08:33:20+00:00"
+      "published_at": "2026-07-18T08:33:20+00:00",
+      "content_type": ""
     },
     {
       "id": "a4b6ad1cba46ea08",
@@ -207,7 +229,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T07:58:25+00:00"
+      "published_at": "2026-07-18T07:58:25+00:00",
+      "content_type": ""
     },
     {
       "id": "c6e67f56e79d97e3",
@@ -216,7 +239,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T07:31:00+00:00"
+      "published_at": "2026-07-18T07:31:00+00:00",
+      "content_type": ""
     },
     {
       "id": "6a2bc607b212849b",
@@ -225,7 +249,8 @@
       "source": "Agroinform",
       "category": "Támogatások és pályázatok",
       "source_type": "portál",
-      "published_at": "2026-07-18T07:08:20+00:00"
+      "published_at": "2026-07-18T07:08:20+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "6d9ce2d92de8f458",
@@ -234,7 +259,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T07:07:18+00:00"
+      "published_at": "2026-07-18T07:07:18+00:00",
+      "content_type": ""
     },
     {
       "id": "eb5d69ffbb42c3d8",
@@ -243,7 +269,8 @@
       "source": "Agroinform",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:37:54+00:00"
+      "published_at": "2026-07-18T06:37:54+00:00",
+      "content_type": ""
     },
     {
       "id": "0ad9eca240eed9af",
@@ -252,7 +279,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:29:00+00:00"
+      "published_at": "2026-07-18T06:29:00+00:00",
+      "content_type": ""
     },
     {
       "id": "e24de9df0224519a",
@@ -261,7 +289,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:11:00+00:00"
+      "published_at": "2026-07-18T06:11:00+00:00",
+      "content_type": ""
     },
     {
       "id": "4eb7eeb3a77ffdb2",
@@ -270,7 +299,8 @@
       "source": "Agrofórum",
       "category": "Kertészet",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:10:00+00:00"
+      "published_at": "2026-07-18T06:10:00+00:00",
+      "content_type": ""
     },
     {
       "id": "44e31ce155e27ae4",
@@ -279,7 +309,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:06:37+00:00"
+      "published_at": "2026-07-18T06:06:37+00:00",
+      "content_type": ""
     },
     {
       "id": "9072f7b9902dc2cd",
@@ -288,7 +319,8 @@
       "source": "Agroinform",
       "category": "Gépesítés",
       "source_type": "portál",
-      "published_at": "2026-07-18T06:00:00+00:00"
+      "published_at": "2026-07-18T06:00:00+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "d0c44ebf44f25dea",
@@ -297,7 +329,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T05:45:01+00:00"
+      "published_at": "2026-07-18T05:45:01+00:00",
+      "content_type": ""
     },
     {
       "id": "d0a26ead8b9d9fb1",
@@ -306,7 +339,8 @@
       "source": "Agrofórum",
       "category": "Időjárás és vízgazdálkodás",
       "source_type": "portál",
-      "published_at": "2026-07-18T05:10:00+00:00"
+      "published_at": "2026-07-18T05:10:00+00:00",
+      "content_type": ""
     },
     {
       "id": "be7811f5f220cee6",
@@ -315,7 +349,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-18T04:03:00+00:00"
+      "published_at": "2026-07-18T04:03:00+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "45aa1af18704847a",
@@ -324,7 +359,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-18T03:34:00+00:00"
+      "published_at": "2026-07-18T03:34:00+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "a92f3faa259e6fe7",
@@ -333,7 +369,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Állattenyésztés",
       "source_type": "portál",
-      "published_at": "2026-07-17T20:08:01+00:00"
+      "published_at": "2026-07-17T20:08:01+00:00",
+      "content_type": ""
     },
     {
       "id": "6bbc2059ae050052",
@@ -342,7 +379,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T19:08:49+00:00"
+      "published_at": "2026-07-17T19:08:49+00:00",
+      "content_type": ""
     },
     {
       "id": "f230bd1be1492388",
@@ -351,7 +389,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T17:29:00+00:00"
+      "published_at": "2026-07-17T17:29:00+00:00",
+      "content_type": ""
     },
     {
       "id": "d7f640650d824981",
@@ -360,7 +399,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T16:31:00+00:00"
+      "published_at": "2026-07-17T16:31:00+00:00",
+      "content_type": ""
     },
     {
       "id": "9ed86c8bd2457695",
@@ -369,7 +409,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T15:34:00+00:00"
+      "published_at": "2026-07-17T15:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "bc1976f97c4e556c",
@@ -378,7 +419,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T14:31:00+00:00"
+      "published_at": "2026-07-17T14:31:00+00:00",
+      "content_type": ""
     },
     {
       "id": "58b8aedf082c8920",
@@ -387,7 +429,8 @@
       "source": "Agrofórum",
       "category": "Növényvédelem",
       "source_type": "portál",
-      "published_at": "2026-07-17T14:10:00+00:00"
+      "published_at": "2026-07-17T14:10:00+00:00",
+      "content_type": ""
     },
     {
       "id": "b88166d9aade7432",
@@ -396,7 +439,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T14:08:08+00:00"
+      "published_at": "2026-07-17T14:08:08+00:00",
+      "content_type": ""
     },
     {
       "id": "2bfe4d5152e2ede2",
@@ -405,7 +449,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-17T14:03:54+00:00"
+      "published_at": "2026-07-17T14:03:54+00:00",
+      "content_type": "Kutatás / elemzés"
     },
     {
       "id": "4331b1662cfab776",
@@ -414,7 +459,8 @@
       "source": "Mezőhír",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-17T13:34:00+00:00"
+      "published_at": "2026-07-17T13:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "1daa9f1dd99e8baa",
@@ -423,7 +469,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T13:32:00+00:00"
+      "published_at": "2026-07-17T13:32:00+00:00",
+      "content_type": ""
     },
     {
       "id": "ce50897cb776f5b4",
@@ -432,7 +479,8 @@
       "source": "Magyar Mezőgazdaság",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T13:07:21+00:00"
+      "published_at": "2026-07-17T13:07:21+00:00",
+      "content_type": ""
     },
     {
       "id": "5af8ec4e6319e525",
@@ -441,7 +489,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T12:34:00+00:00"
+      "published_at": "2026-07-17T12:34:00+00:00",
+      "content_type": "Kutatás / elemzés"
     },
     {
       "id": "f29a498023e5119f",
@@ -450,7 +499,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T12:31:00+00:00"
+      "published_at": "2026-07-17T12:31:00+00:00",
+      "content_type": ""
     },
     {
       "id": "de57fc9d3fff3506",
@@ -459,7 +509,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T11:34:00+00:00"
+      "published_at": "2026-07-17T11:34:00+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "de0bc9128972891c",
@@ -468,7 +519,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T11:32:00+00:00"
+      "published_at": "2026-07-17T11:32:00+00:00",
+      "content_type": ""
     },
     {
       "id": "e38dbc6a7925c0f5",
@@ -477,7 +529,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-17T11:01:00+00:00"
+      "published_at": "2026-07-17T11:01:00+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "052da02b4624dd8c",
@@ -486,7 +539,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T10:41:00+00:00"
+      "published_at": "2026-07-17T10:41:00+00:00",
+      "content_type": ""
     },
     {
       "id": "66f71eae5eb989b6",
@@ -495,7 +549,8 @@
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-17T09:32:00+00:00"
+      "published_at": "2026-07-17T09:32:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "d7bbc56df99520e7",
@@ -504,7 +559,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T09:04:52+00:00"
+      "published_at": "2026-07-17T09:04:52+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "fadf28f50eedb98f",
@@ -513,7 +569,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-17T09:01:00+00:00"
+      "published_at": "2026-07-17T09:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "09fca666ba674b52",
@@ -522,7 +579,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-07-17T08:37:30+00:00"
+      "published_at": "2026-07-17T08:37:30+00:00",
+      "content_type": ""
     },
     {
       "id": "d274f90ca5ff971d",
@@ -531,7 +589,8 @@
       "source": "Mezőhír",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-17T08:19:46+00:00"
+      "published_at": "2026-07-17T08:19:46+00:00",
+      "content_type": ""
     },
     {
       "id": "1e17d87237a5e2be",
@@ -540,7 +599,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-17T07:01:00+00:00"
+      "published_at": "2026-07-17T07:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "b654dc8d4d6ac68f",
@@ -549,7 +609,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T06:39:00+00:00"
+      "published_at": "2026-07-17T06:39:00+00:00",
+      "content_type": ""
     },
     {
       "id": "2135e64c43bab30d",
@@ -558,7 +619,8 @@
       "source": "Mezőhír",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-17T06:11:00+00:00"
+      "published_at": "2026-07-17T06:11:00+00:00",
+      "content_type": ""
     },
     {
       "id": "d50cf14ab80790e4",
@@ -567,7 +629,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T05:00:00+00:00"
+      "published_at": "2026-07-17T05:00:00+00:00",
+      "content_type": ""
     },
     {
       "id": "85ca216624c474a3",
@@ -576,7 +639,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-17T03:34:00+00:00"
+      "published_at": "2026-07-17T03:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "8b7656a029968144",
@@ -585,7 +649,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-16T15:13:58+00:00"
+      "published_at": "2026-07-16T15:13:58+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "2ecd4ae708af7646",
@@ -594,7 +659,8 @@
       "source": "Agro Napló",
       "category": "Agrárgazdaság",
       "source_type": "portál",
-      "published_at": "2026-07-16T15:09:00+00:00"
+      "published_at": "2026-07-16T15:09:00+00:00",
+      "content_type": ""
     },
     {
       "id": "bebfd766b5dd5698",
@@ -603,7 +669,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-16T15:00:21+00:00"
+      "published_at": "2026-07-16T15:00:21+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "1e4bacef961482ce",
@@ -612,7 +679,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T13:44:00+00:00"
+      "published_at": "2026-07-16T13:44:00+00:00",
+      "content_type": ""
     },
     {
       "id": "b4e2011622ae5b7d",
@@ -621,7 +689,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T12:29:34+00:00"
+      "published_at": "2026-07-16T12:29:34+00:00",
+      "content_type": ""
     },
     {
       "id": "667691bb3d3ddca6",
@@ -630,7 +699,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T11:26:00+00:00"
+      "published_at": "2026-07-16T11:26:00+00:00",
+      "content_type": "Közlemény / jogszabály"
     },
     {
       "id": "6ae19e613bde7dea",
@@ -639,7 +709,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-16T11:01:00+00:00"
+      "published_at": "2026-07-16T11:01:00+00:00",
+      "content_type": "Gyakorlati útmutató"
     },
     {
       "id": "89fa60311687c709",
@@ -648,7 +719,8 @@
       "source": "Mezőhír",
       "category": "Támogatások és pályázatok",
       "source_type": "portál",
-      "published_at": "2026-07-16T10:41:00+00:00"
+      "published_at": "2026-07-16T10:41:00+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "3500524f30c8d125",
@@ -657,7 +729,8 @@
       "source": "Mezőhír",
       "category": "Kertészet",
       "source_type": "portál",
-      "published_at": "2026-07-16T09:34:00+00:00"
+      "published_at": "2026-07-16T09:34:00+00:00",
+      "content_type": ""
     },
     {
       "id": "994e5d1bbac5a654",
@@ -666,7 +739,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T09:11:00+00:00"
+      "published_at": "2026-07-16T09:11:00+00:00",
+      "content_type": ""
     },
     {
       "id": "8be821906ebb77ac",
@@ -675,7 +749,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-16T09:01:00+00:00"
+      "published_at": "2026-07-16T09:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "1d6ea531be21ab7c",
@@ -684,7 +759,8 @@
       "source": "Mezőhír",
       "category": "Növényvédelem",
       "source_type": "portál",
-      "published_at": "2026-07-16T08:34:00+00:00"
+      "published_at": "2026-07-16T08:34:00+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "43f727abc59b5606",
@@ -693,7 +769,8 @@
       "source": "Mezőhír",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T07:32:02+00:00"
+      "published_at": "2026-07-16T07:32:02+00:00",
+      "content_type": ""
     },
     {
       "id": "ffa4a7b6aecc88e4",
@@ -702,7 +779,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-16T07:01:00+00:00"
+      "published_at": "2026-07-16T07:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "4de540bf91e3e8c2",
@@ -711,7 +789,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-16T05:00:00+00:00"
+      "published_at": "2026-07-16T05:00:00+00:00",
+      "content_type": ""
     },
     {
       "id": "3ffc08f2bafbf64b",
@@ -720,7 +799,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-15T13:17:00+00:00"
+      "published_at": "2026-07-15T13:17:00+00:00",
+      "content_type": ""
     },
     {
       "id": "87ce20c5e276b0cc",
@@ -729,7 +809,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-15T11:01:00+00:00"
+      "published_at": "2026-07-15T11:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "f5f547de98455178",
@@ -738,7 +819,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-15T09:59:15+00:00"
+      "published_at": "2026-07-15T09:59:15+00:00",
+      "content_type": "Kutatás / elemzés"
     },
     {
       "id": "5b1ca051ad20712e",
@@ -747,7 +829,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-15T09:07:00+00:00"
+      "published_at": "2026-07-15T09:07:00+00:00",
+      "content_type": ""
     },
     {
       "id": "a7244e8e2d536db7",
@@ -756,7 +839,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-15T09:01:00+00:00"
+      "published_at": "2026-07-15T09:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "c822f0efc4ffb0bd",
@@ -765,7 +849,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-15T08:56:13+00:00"
+      "published_at": "2026-07-15T08:56:13+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "42c9d0cd1d6bac13",
@@ -774,7 +859,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-15T08:28:34+00:00"
+      "published_at": "2026-07-15T08:28:34+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "36c4b5e4298b1ba0",
@@ -783,7 +869,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-07-15T08:26:26+00:00"
+      "published_at": "2026-07-15T08:26:26+00:00",
+      "content_type": ""
     },
     {
       "id": "fe5c6186a86196e5",
@@ -792,7 +879,8 @@
       "source": "Agro Napló",
       "category": "Állattenyésztés",
       "source_type": "portál",
-      "published_at": "2026-07-15T07:02:00+00:00"
+      "published_at": "2026-07-15T07:02:00+00:00",
+      "content_type": ""
     },
     {
       "id": "b81df9a546c33a20",
@@ -801,7 +889,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-15T07:01:00+00:00"
+      "published_at": "2026-07-15T07:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "a20034bd4e2aa423",
@@ -810,7 +899,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T15:15:00+00:00"
+      "published_at": "2026-07-14T15:15:00+00:00",
+      "content_type": ""
     },
     {
       "id": "fac220294e7c152d",
@@ -819,7 +909,8 @@
       "source": "Agro Napló",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-07-14T13:12:00+00:00"
+      "published_at": "2026-07-14T13:12:00+00:00",
+      "content_type": ""
     },
     {
       "id": "7649ebbb518f2309",
@@ -828,7 +919,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-14T12:00:13+00:00"
+      "published_at": "2026-07-14T12:00:13+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "cbaee86014c7c34d",
@@ -837,7 +929,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-14T11:59:58+00:00"
+      "published_at": "2026-07-14T11:59:58+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "8398cc218e097883",
@@ -846,7 +939,8 @@
       "source": "Agro Napló",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-07-14T11:09:00+00:00"
+      "published_at": "2026-07-14T11:09:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "dbdc961832145186",
@@ -855,7 +949,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-14T11:01:00+00:00"
+      "published_at": "2026-07-14T11:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "9191c3f37c6cfc5e",
@@ -864,7 +959,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-14T07:01:00+00:00"
+      "published_at": "2026-07-14T07:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "86d50e1c8ce5cc4a",
@@ -873,7 +969,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-13T17:02:56+00:00"
+      "published_at": "2026-07-13T17:02:56+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "a042759b2b1e2e20",
@@ -882,7 +979,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-07-13T13:33:44+00:00"
+      "published_at": "2026-07-13T13:33:44+00:00",
+      "content_type": ""
     },
     {
       "id": "717445c70b80cfae",
@@ -891,7 +989,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-13T11:01:00+00:00"
+      "published_at": "2026-07-13T11:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "dc2f76375c6bc888",
@@ -900,7 +999,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-13T10:17:02+00:00"
+      "published_at": "2026-07-13T10:17:02+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "644cf0762d056237",
@@ -909,7 +1009,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-13T09:01:00+00:00"
+      "published_at": "2026-07-13T09:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "dd30e70e9c996807",
@@ -918,7 +1019,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-13T09:01:00+00:00"
+      "published_at": "2026-07-13T09:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "7c97d8d9e19d4056",
@@ -927,7 +1029,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-13T08:57:07+00:00"
+      "published_at": "2026-07-13T08:57:07+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "9e4d92ca57f0e2f0",
@@ -936,7 +1039,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-13T08:00:00+00:00"
+      "published_at": "2026-07-13T08:00:00+00:00",
+      "content_type": "Pályázat / támogatás"
     },
     {
       "id": "20853ada825ec344",
@@ -945,7 +1049,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-13T07:00:00+00:00"
+      "published_at": "2026-07-13T07:00:00+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "1eaa428e5d8f3ef9",
@@ -954,7 +1059,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-10T11:01:00+00:00"
+      "published_at": "2026-07-10T11:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "fa19e1a1c1141da9",
@@ -963,7 +1069,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-10T09:01:00+00:00"
+      "published_at": "2026-07-10T09:01:00+00:00",
+      "content_type": ""
     },
     {
       "id": "750cff03f70b30f8",
@@ -972,7 +1079,8 @@
       "source": "FruitVeB",
       "category": "Kertészet",
       "source_type": "szakmai",
-      "published_at": "2026-07-10T07:01:00+00:00"
+      "published_at": "2026-07-10T07:01:00+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "400ec62c804e7498",
@@ -981,7 +1089,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-07-09T08:29:16+00:00"
+      "published_at": "2026-07-09T08:29:16+00:00",
+      "content_type": ""
     },
     {
       "id": "0c4fe7624a80f9ca",
@@ -990,7 +1099,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-08T09:26:16+00:00"
+      "published_at": "2026-07-08T09:26:16+00:00",
+      "content_type": ""
     },
     {
       "id": "76be5d78a68a2813",
@@ -999,7 +1109,8 @@
       "source": "KAP portál",
       "category": "Támogatások és pályázatok",
       "source_type": "hivatalos",
-      "published_at": "2026-07-07T13:08:08+00:00"
+      "published_at": "2026-07-07T13:08:08+00:00",
+      "content_type": "Közlemény / jogszabály"
     },
     {
       "id": "0a54b05b56ac4021",
@@ -1008,7 +1119,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-07T11:49:07+00:00"
+      "published_at": "2026-07-07T11:49:07+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "ad849271a0c073dd",
@@ -1017,7 +1129,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-07T11:48:08+00:00"
+      "published_at": "2026-07-07T11:48:08+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "af730be52efce9ba",
@@ -1026,7 +1139,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-07-06T13:27:01+00:00"
+      "published_at": "2026-07-06T13:27:01+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "74ebc9818eeaaf18",
@@ -1035,7 +1149,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-06-30T15:04:17+00:00"
+      "published_at": "2026-06-30T15:04:17+00:00",
+      "content_type": ""
     },
     {
       "id": "e0872f58b3688855",
@@ -1044,7 +1159,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-06-30T15:00:08+00:00"
+      "published_at": "2026-06-30T15:00:08+00:00",
+      "content_type": ""
     },
     {
       "id": "3740b1fdabb09cdd",
@@ -1053,7 +1169,8 @@
       "source": "AKI",
       "category": "Agrárgazdaság",
       "source_type": "hivatalos",
-      "published_at": "2026-06-30T12:02:36+00:00"
+      "published_at": "2026-06-30T12:02:36+00:00",
+      "content_type": "Piaci adat"
     },
     {
       "id": "1d4cf442b3ca4988",
@@ -1062,7 +1179,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-30T09:15:50+00:00"
+      "published_at": "2026-06-30T09:15:50+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "888a28efea915604",
@@ -1071,7 +1189,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-29T08:33:56+00:00"
+      "published_at": "2026-06-29T08:33:56+00:00",
+      "content_type": ""
     },
     {
       "id": "7bd73d9cb5c74e21",
@@ -1080,7 +1199,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-25T11:13:24+00:00"
+      "published_at": "2026-06-25T11:13:24+00:00",
+      "content_type": ""
     },
     {
       "id": "9a5aec9f09876688",
@@ -1089,7 +1209,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-24T14:45:39+00:00"
+      "published_at": "2026-06-24T14:45:39+00:00",
+      "content_type": ""
     },
     {
       "id": "3223f7b50397a99d",
@@ -1098,7 +1219,8 @@
       "source": "Agrárközösség",
       "category": "Növénytermesztés",
       "source_type": "portál",
-      "published_at": "2026-06-24T09:22:58+00:00"
+      "published_at": "2026-06-24T09:22:58+00:00",
+      "content_type": ""
     },
     {
       "id": "cbd627245768803e",
@@ -1107,7 +1229,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-23T09:00:38+00:00"
+      "published_at": "2026-06-23T09:00:38+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "3f134092d248437c",
@@ -1116,7 +1239,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-22T09:06:41+00:00"
+      "published_at": "2026-06-22T09:06:41+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "d9a59ac799c1b4e4",
@@ -1125,7 +1249,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-22T07:18:18+00:00"
+      "published_at": "2026-06-22T07:18:18+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "117d305a771faa9f",
@@ -1134,7 +1259,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-19T16:52:54+00:00"
+      "published_at": "2026-06-19T16:52:54+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "9b05df5ca8e3a293",
@@ -1143,7 +1269,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-19T14:28:50+00:00"
+      "published_at": "2026-06-19T14:28:50+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "f70530f3125acc2d",
@@ -1152,7 +1279,8 @@
       "source": "ÖMKi",
       "category": "Ökológiai gazdálkodás",
       "source_type": "szakmai",
-      "published_at": "2026-06-16T11:47:07+00:00"
+      "published_at": "2026-06-16T11:47:07+00:00",
+      "content_type": ""
     },
     {
       "id": "6952ae72f3dfebbe",
@@ -1161,7 +1289,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-16T09:32:30+00:00"
+      "published_at": "2026-06-16T09:32:30+00:00",
+      "content_type": "Esemény / képzés"
     },
     {
       "id": "f922550619d62dab",
@@ -1170,7 +1299,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-06-12T09:57:53+00:00"
+      "published_at": "2026-06-12T09:57:53+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "2a2aaa93c840a79a",
@@ -1179,7 +1309,8 @@
       "source": "Agrárközösség",
       "category": "Időjárás és vízgazdálkodás",
       "source_type": "portál",
-      "published_at": "2026-06-02T09:10:08+00:00"
+      "published_at": "2026-06-02T09:10:08+00:00",
+      "content_type": "Határidő / teendő"
     },
     {
       "id": "0e347d9b3166c0e9",
@@ -1188,7 +1319,8 @@
       "source": "Agrárközösség",
       "category": "Általános agrár",
       "source_type": "portál",
-      "published_at": "2026-05-22T09:12:51+00:00"
+      "published_at": "2026-05-22T09:12:51+00:00",
+      "content_type": ""
     }
   ],
   "errors": []

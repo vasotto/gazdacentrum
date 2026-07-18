@@ -732,6 +732,28 @@
       border-color: rgba(129, 116, 223, 0.22);
     }
 
+    .news-labels {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .news-content-type {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 8px;
+      border: 1px solid rgba(196, 113, 22, 0.20);
+      border-radius: 999px;
+      color: #94510d;
+      background: #fff5e8;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.2;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+    }
+
     .news-card-actions {
       display: flex;
       flex-direction: column;
@@ -1621,6 +1643,25 @@
                 normalizedSourceType
               ] || "Külső forrás";
 
+            const labels =
+              document.createElement("div");
+
+            labels.className = "news-labels";
+            labels.appendChild(sourceType);
+
+            if (item.content_type) {
+              const contentType =
+                document.createElement("span");
+
+              contentType.className =
+                "news-content-type";
+
+              contentType.textContent =
+                item.content_type;
+
+              labels.appendChild(contentType);
+            }
+
             const link =
               document.createElement("a");
 
@@ -1640,7 +1681,7 @@
               "news-card-actions";
 
             actions.append(
-              sourceType,
+              labels,
               link
             );
 

@@ -506,6 +506,124 @@ def is_relevant_item(
             return False
 
     return True
+
+
+def determine_content_type(
+    title: str,
+    category: str,
+) -> str:
+    """Óvatosan meghatározza a hír elsődleges tartalomtípusát a címből."""
+    normalized_title = strip_accents(title.lower())
+
+    action_markers = (
+        "nem sok ido maradt",
+        "eddig kerheto",
+        "most kell",
+        "hatarido",
+        "bejelentese",
+        "benyujtasanak",
+        "keszuljon fel",
+        "mak-riasztas",
+        "tudnivalok",
+    )
+
+    if any(marker in normalized_title for marker in action_markers):
+        return "Határidő / teendő"
+
+    grant_markers = (
+        "palyazat",
+        "tamogatas",
+        "egyseges kerelem",
+        "kifizetesi kerelem",
+        "kap-rd",
+    )
+
+    if any(marker in normalized_title for marker in grant_markers):
+        return "Pályázat / támogatás"
+
+    legal_markers = (
+        "rendelet",
+        "jogszabaly",
+        "eloiras",
+        "altalanos szabaly",
+        "termeles szabalyai",
+        "szamu kozlemenye",
+        "pontositas",
+    )
+
+    if any(marker in normalized_title for marker in legal_markers):
+        return "Közlemény / jogszabály"
+
+    if category == "Támogatások és pályázatok":
+        return "Pályázat / támogatás"
+
+    event_markers = (
+        "talalkozo",
+        "konferencia",
+        "gazdamuhely",
+        "muhelymunka",
+        "jelentkezesi lehetoseg",
+        "tanacskoztak",
+        "fokuszcsoport",
+        "webinarium",
+        "kepzes",
+    )
+
+    if any(marker in normalized_title for marker in event_markers):
+        return "Esemény / képzés"
+
+    guide_markers = (
+        "kisokos",
+        "jo gyakorlat",
+        "segedlet",
+        "gyakorlati peldak",
+        "megelozese",
+        "vedelme",
+        "fortelya",
+        "hasznaljuk ki",
+    )
+
+    if (
+        any(marker in normalized_title for marker in guide_markers)
+        or normalized_title.startswith("hogyan ")
+        or "avagy hogyan " in normalized_title
+    ):
+        return "Gyakorlati útmutató"
+
+    market_patterns = (
+        r"(?<![a-z0-9])arak?(?![a-z0-9])",
+        r"(?<![a-z0-9])aron(?![a-z0-9])",
+        r"(?<![a-z0-9])olcsobb(?![a-z0-9])",
+        r"(?<![a-z0-9])dragul[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])areses(?![a-z0-9])",
+        r"(?<![a-z0-9])aremelkedes(?![a-z0-9])",
+        r"(?<![a-z0-9])[a-z]*piac[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])export[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])import[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])kinalat[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])raktarkeszlet[a-z]*(?![a-z0-9])",
+        r"(?<![a-z0-9])tozsde[a-z]*(?![a-z0-9])",
+    )
+
+    if any(
+        re.search(pattern, normalized_title)
+        for pattern in market_patterns
+    ):
+        return "Piaci adat"
+
+    research_markers = (
+        "kutatas",
+        "tanulmany",
+        "modellekkel",
+        "kerdoiv",
+        "felmeres",
+        "vizsgalat",
+    )
+
+    if any(marker in normalized_title for marker in research_markers):
+        return "Kutatás / elemzés"
+
+    return ""
     
 def category_keyword_matches(
     keyword: str,
@@ -679,6 +797,12 @@ def collect_news(
                 )
                 continue
 
+            category = determine_category(
+                source["category"],
+                title,
+                summary,
+            )
+
             collected.append(
                 {
                     "id": create_item_id(link, title),
@@ -686,10 +810,10 @@ def collect_news(
                     "link": link,
                     "summary": summary,
                     "source": source["name"],
-                    "category": determine_category(
-                        source["category"],
+                    "category": category,
+                    "content_type": determine_content_type(
                         title,
-                        summary,
+                        category,
                     ),
                     "source_type": source["type"],
                     "published_at": published.isoformat(),
