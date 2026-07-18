@@ -508,6 +508,128 @@
       font-weight: 900;
     }
 
+    .deadlines-shell {
+      margin-bottom: 48px;
+      scroll-margin-top: 92px;
+    }
+
+    .deadline-status {
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .deadline-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .deadline-card {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      padding: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--lime);
+      border-radius: 18px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .deadline-card-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .deadline-state,
+    .deadline-code {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.2;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+    }
+
+    .deadline-state {
+      color: #4d6900;
+      background: var(--lime-soft);
+      border: 1px solid rgba(111, 152, 0, 0.24);
+    }
+
+    .deadline-state.upcoming {
+      color: #94510d;
+      background: #fff5e8;
+      border-color: rgba(196, 113, 22, 0.20);
+    }
+
+    .deadline-state.relative {
+      color: var(--purple-dark);
+      background: var(--purple-soft);
+      border-color: rgba(129, 116, 223, 0.22);
+    }
+
+    .deadline-code {
+      color: var(--muted);
+      background: #f7f8fb;
+      border: 1px solid var(--border);
+    }
+
+    .deadline-card h3 {
+      margin: 0;
+      color: var(--charcoal);
+      font-size: 19px;
+      line-height: 1.3;
+    }
+
+    .deadline-date {
+      margin: 12px 0 0;
+      color: var(--purple-dark);
+      font-size: 17px;
+      font-weight: 900;
+      line-height: 1.35;
+    }
+
+    .deadline-detail {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .deadline-link {
+      align-self: flex-start;
+      margin-top: auto;
+      padding-top: 18px;
+      color: var(--purple-dark);
+      font-weight: 900;
+      text-decoration: none;
+      border-bottom: 2px solid var(--lime);
+    }
+
+    .deadline-link:hover {
+      color: var(--lime-dark);
+    }
+
+    .deadline-warning {
+      margin: 16px 0 0;
+      padding: 12px 14px;
+      color: var(--muted);
+      background: #fffdf4;
+      border: 1px solid #eee4b7;
+      border-radius: 12px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
     .news-shell {
       scroll-margin-top: 92px;
     }
@@ -900,6 +1022,10 @@
       .news-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
+
+      .deadline-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
     }
 
     @media (max-width: 780px) {
@@ -1009,6 +1135,7 @@
       }
 
       .category-grid,
+      .deadline-grid,
       .news-list {
         grid-template-columns: 1fr;
       }
@@ -1035,6 +1162,7 @@
       </a>
 
       <div class="nav-links">
+        <a href="#hataridok">Határidők</a>
         <a href="#friss">Friss hírek</a>
         <a href="#kategoriak">Kategóriák</a>
         <a href="#kapcsolat">Kapcsolat</a>
@@ -1273,6 +1401,27 @@
       </a>
     </section>
 
+    <section id="hataridok" class="deadlines-shell">
+      <div class="section-heading">
+        <div>
+          <h2>Aktuális teendők és határidők</h2>
+          <p>Ellenőrzött adatok közvetlenül hivatalos forrásokból.</p>
+        </div>
+      </div>
+
+      <div id="deadline-status" class="deadline-status">
+        Határidők betöltése…
+      </div>
+
+      <div id="deadline-list" class="deadline-grid"></div>
+
+      <p class="deadline-warning">
+        A lista tájékoztató jellegű. Benyújtás előtt mindig ellenőrizze
+        a részletes feltételeket és az esetleges módosításokat az eredeti
+        hivatalos forrásban.
+      </p>
+    </section>
+
     <section id="friss" class="news-shell">
       <div class="section-heading">
         <div>
@@ -1454,6 +1603,191 @@
         categoryVisuals[categoryName] ||
         categoryVisuals["Általános agrár"]
       );
+    }
+
+    function getDeadlineState(item) {
+      if (!item.deadline_date) {
+        return {
+          label: "Egyéni határidő",
+          className: "relative",
+          expired: false
+        };
+      }
+
+      const now = new Date();
+      const start = item.start_date
+        ? new Date(item.start_date + "T00:00:00")
+        : null;
+      const end = new Date(
+        item.deadline_date + "T23:59:59"
+      );
+
+      if (now > end) {
+        return {
+          label: "Lejárt",
+          className: "expired",
+          expired: true
+        };
+      }
+
+      if (start && now < start) {
+        return {
+          label: "Hamarosan nyílik",
+          className: "upcoming",
+          expired: false
+        };
+      }
+
+      return {
+        label: "Nyitva",
+        className: "open",
+        expired: false
+      };
+    }
+
+    async function loadDeadlines() {
+      const deadlineList =
+        document.getElementById("deadline-list");
+
+      const deadlineStatus =
+        document.getElementById("deadline-status");
+
+      try {
+        const response = await fetch(
+          "deadlines.json?v=" + Date.now(),
+          {
+            cache: "no-store"
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(
+            "A határidőfájl nem tölthető be."
+          );
+        }
+
+        const data = await response.json();
+        const allItems = Array.isArray(data.items)
+          ? data.items
+          : [];
+
+        const items = allItems
+          .map((item) => ({
+            ...item,
+            deadlineState: getDeadlineState(item)
+          }))
+          .filter(
+            (item) => !item.deadlineState.expired
+          )
+          .sort((first, second) => {
+            if (!first.deadline_date) {
+              return 1;
+            }
+
+            if (!second.deadline_date) {
+              return -1;
+            }
+
+            return first.deadline_date.localeCompare(
+              second.deadline_date
+            );
+          });
+
+        deadlineList.replaceChildren();
+
+        if (items.length === 0) {
+          deadlineStatus.textContent =
+            "Jelenleg nincs ellenőrzött, aktuális határidő.";
+          return;
+        }
+
+        deadlineStatus.textContent =
+          items.length +
+          " ellenőrzött aktuális határidő vagy teendő";
+
+        items.forEach((item) => {
+          const card =
+            document.createElement("article");
+
+          card.className = "deadline-card";
+
+          const top =
+            document.createElement("div");
+
+          top.className = "deadline-card-top";
+
+          const state =
+            document.createElement("span");
+
+          state.className =
+            "deadline-state " +
+            item.deadlineState.className;
+
+          state.textContent =
+            item.deadlineState.label;
+
+          const code =
+            document.createElement("span");
+
+          code.className = "deadline-code";
+          code.textContent =
+            item.reference_code ||
+            "Hivatalos teendő";
+
+          top.append(state, code);
+
+          const title =
+            document.createElement("h3");
+
+          title.textContent = item.title;
+
+          const deadline =
+            document.createElement("p");
+
+          deadline.className = "deadline-date";
+          deadline.textContent = item.deadline_text;
+
+          const action =
+            document.createElement("p");
+
+          action.className = "deadline-detail";
+          action.textContent =
+            "Teendő: " + item.action;
+
+          const affected =
+            document.createElement("p");
+
+          affected.className = "deadline-detail";
+          affected.textContent =
+            "Érintettek: " + item.affected;
+
+          const link =
+            document.createElement("a");
+
+          link.className = "deadline-link";
+          link.href = item.source_url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent =
+            "Hivatalos forrás megnyitása →";
+
+          card.append(
+            top,
+            title,
+            deadline,
+            action,
+            affected,
+            link
+          );
+
+          deadlineList.appendChild(card);
+        });
+      } catch (error) {
+        console.error(error);
+        deadlineList.replaceChildren();
+        deadlineStatus.textContent =
+          "A határidők jelenleg nem tölthetők be.";
+      }
     }
 
     async function loadNews() {
@@ -1894,6 +2228,7 @@
       }
     }
 
+    loadDeadlines();
     loadNews();
   </script>
 </body>
