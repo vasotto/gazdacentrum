@@ -704,18 +704,11 @@
       font-size: 12px;
     }
 
-    .news-summary {
-      flex-grow: 1;
-      margin: 14px 0 18px;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.55;
-    }
-
     .news-link {
       display: inline-flex;
       align-items: center;
       align-self: flex-start;
+      margin-top: 18px;
       gap: 8px;
       color: var(--purple-dark);
       font-weight: 900;
@@ -1220,7 +1213,7 @@
       <div class="section-heading">
         <div>
           <h2>Friss agrárhírek</h2>
-          <p>Forrás, dátum, rövid összefoglaló és eredeti cikklink.</p>
+          <p>Hírcím, forrás, dátum és közvetlen link az eredeti cikkhez.</p>
         </div>
       </div>
 
@@ -1567,19 +1560,6 @@
                   : ""
               );
 
-            const summary =
-              document.createElement("p");
-
-            summary.className =
-              "news-summary";
-
-            summary.textContent =
-              item.summary ||
-              (
-                "A hír részletei az eredeti " +
-                "forrásnál olvashatók."
-              );
-
             const link =
               document.createElement("a");
 
@@ -1595,7 +1575,6 @@
             body.append(
               title,
               meta,
-              summary,
               link
             );
 

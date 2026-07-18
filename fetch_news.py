@@ -946,16 +946,28 @@ def remove_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique_items
 
 def save_news(items: list[dict[str, Any]], errors: list[str]) -> None:
-    """Elmenti a híreket JSON-formátumban."""
+    """Elmenti a nyilvánosan megjeleníthető híradatokat JSON-formátumban."""
     items.sort(
         key=lambda item: item["published_at"],
         reverse=True,
     )
 
+    # Az RSS-összefoglaló csak a feldolgozás közben használható
+    # relevanciaszűrésre, kategorizálásra és duplikációkeresésre.
+    # A forrástól átvett szöveget nem mentjük a nyilvános JSON-ba.
+    public_items = [
+        {
+            key: value
+            for key, value in item.items()
+            if key != "summary"
+        }
+        for item in items[:MAX_TOTAL_ITEMS]
+    ]
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "item_count": len(items[:MAX_TOTAL_ITEMS]),
-        "items": items[:MAX_TOTAL_ITEMS],
+        "item_count": len(public_items),
+        "items": public_items,
         "errors": errors,
     }
 
