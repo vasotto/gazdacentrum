@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:51:33.228294+00:00",
+  "generated_at": "2026-07-19T17:02:27.747368+00:00",
   "item_count": 142,
   "items": [
     {
@@ -1423,7 +1423,5 @@
       "published_at": "2025-05-28T10:06:54+00:00"
     }
   ],
-  "errors": [
-    "Agrárközösség: <unknown>:7:2: mismatched tag"
-  ]
+  "errors": []
 }
