@@ -36,6 +36,40 @@ SOURCE_TYPE_PRIORITY = {
 
 PARTNER_SOURCE_TYPES = {"ceges", "partneri"}
 
+CATEGORY_ALIASES = {
+    "Mezőgazdasági gépek": "Gépesítés",
+}
+
+# Ezek a források a sources.csv-ben tág alapértelmezett kategóriát kapnak,
+# ezért a saját cikkcímük és RSS-adataik alapján újra kategorizáljuk őket.
+AUTO_CLASSIFY_SOURCES = {
+    "Agrárszektor",
+}
+
+RSS_CATEGORY_HINTS = {
+    "allattenyesztes": "Állattenyésztés",
+    "gepesites": "Gépesítés",
+    "kerteszet": "Kertészet",
+    "novenytermesztes": "Növénytermesztés",
+    "novenyvedelem": "Növényvédelem",
+    "okologiai gazdalkodas": "Ökológiai gazdálkodás",
+    "tamogatasok es palyazatok": "Támogatások és pályázatok",
+}
+
+SOURCE_PATH_CATEGORY_HINTS = {
+    "agroinform": (
+        ("/idojaras_hirek/", "Időjárás és vízgazdálkodás", 8),
+        ("/allattenyesztes/", "Állattenyésztés", 6),
+        ("/gepeszet/", "Gépesítés", 6),
+        ("/szantofold/", "Növénytermesztés", 3),
+    ),
+    "agrarszektor": (
+        ("/szabalyozas/", "Agrárgazdaság", 4),
+        ("/elelmiszer/", "Agrárgazdaság", 3),
+        ("/noveny/", "Növénytermesztés", 2),
+    ),
+}
+
 
 IRRELEVANT_TITLE_PHRASES = (
     "balaton-atuszas",
@@ -58,6 +92,13 @@ IRRELEVANT_TITLE_PHRASES = (
     "eletveszelyes hal lepte el",
     "szunyogok ellen",
     "nepszeru marka minden tesztaetelet",
+    "kajszibarackos sutemeny",
+    "milyen bort erdemes valasztani a hamburger melle",
+    "cserepes bazsalikom nem hal meg",
+    "leander levelei ragyogni fognak",
+    "figyelmeztetes a turistaknak",
+    "kedvelt nyaralohelyen",
+    "zoldseggel toltottek meg a retest",
 )
 CATEGORY_KEYWORDS = (
     (
@@ -73,6 +114,10 @@ CATEGORY_KEYWORDS = (
             "jogcim",
             "agrartamogatas",
             "vis maior",
+            "aop",
+            "akg",
+            "kap-rd",
+            "mak-riasztas",
         ),
     ),
     (
@@ -94,6 +139,13 @@ CATEGORY_KEYWORDS = (
             "takarmanyozas",
             "allategeszsegugy",
             "tojas",
+            "sertes",
+            "tehen",
+            "marha",
+            "tejipar",
+            "juh",
+            "kecske",
+            "allatjarvany",
         ),
     ),
     (
@@ -113,6 +165,15 @@ CATEGORY_KEYWORDS = (
             "betakaritogep",
             "talajmuvelo gep",
             "precizios gep",
+            "direktvetogep",
+            "balazo",
+            "hajtomu",
+            "isobus",
+            "agrardron",
+            "permetezodron",
+            "fendt",
+            "steyr",
+            "pottinger",
         ),
     ),
     (
@@ -135,6 +196,18 @@ CATEGORY_KEYWORDS = (
             "cseresznye",
             "dinnye",
             "hagyma",
+            "kajszibarack",
+            "oszibarack",
+            "zeller",
+            "kaposzta",
+            "sargarepa",
+            "uborka",
+            "cukkini",
+            "malna",
+            "ribizli",
+            "uveghaz",
+            "folias",
+            "vagott virag",
         ),
     ),
     (
@@ -152,6 +225,12 @@ CATEGORY_KEYWORDS = (
             "rezisztencia",
             "fertozes",
             "karantenkartevo",
+            "toxin",
+            "mikotoxin",
+            "gyapottok",
+            "bagolylepke",
+            "permetezes",
+            "novenyvedos",
         ),
     ),
     (
@@ -168,6 +247,18 @@ CATEGORY_KEYWORDS = (
             "fagykar",
             "vizhiany",
             "vizallas",
+            "hoseg",
+            "kanikula",
+            "zivatar",
+            "vihar",
+            "lehules",
+            "napos ido",
+            "felho",
+            "eso",
+            "szarazsag",
+            "vizvalsag",
+            "vizpotlas",
+            "vizvesztes",
         ),
     ),
     (
@@ -200,6 +291,12 @@ CATEGORY_KEYWORDS = (
             "tarlohantas",
             "tarlobontas",
             "tarlokezeles",
+            "termofold",
+            "szantofold",
+            "talajszelveny",
+            "direktvetes",
+            "minimum muveles",
+            "hozam",
         ),
     ),
     (
@@ -217,6 +314,16 @@ CATEGORY_KEYWORDS = (
             "elelmiszeripar",
             "inflacio",
             "termelesi koltseg",
+            "alkupozicio",
+            "versenyszabaly",
+            "szabalyozas",
+            "hitel",
+            "finanszirozas",
+            "beruhazas",
+            "jovedelem",
+            "munkaero",
+            "uzemanyagpiac",
+            "gazolaj",
         ),
     ),
 )
@@ -490,6 +597,15 @@ def is_relevant_item(
 
     combined_text = f"{normalized_title} {normalized_summary}"
 
+    # Az Agro Napló az (x) jelölést használja a fizetett vagy
+    # támogatott tartalmak címében. Ezek nem kerülhetnek a
+    # független agrárhírfolyamba.
+    if (
+        normalized_source == "agro naplo"
+        and re.search(r"\(x\)\s*$", normalized_title)
+    ):
+        return False
+
     if any(
         phrase in combined_text
         for phrase in IRRELEVANT_TITLE_PHRASES
@@ -654,62 +770,122 @@ def category_keyword_matches(
     return keyword in text
     
 def determine_category(
+    source_name: str,
     source_category: str,
     title: str,
     summary: str,
+    link: str = "",
+    entry_categories: set[str] | None = None,
 ) -> str:
-    """A cím és az összefoglaló alapján meghatározza a hír kategóriáját."""
-    fallback_category = source_category.strip() or "Egyéb"
+    """A cím, az RSS-kategória és a link alapján meghatározza a kategóriát."""
+    fallback_category = CATEGORY_ALIASES.get(
+        source_category.strip(),
+        source_category.strip() or "Egyéb",
+    )
 
-    # Az első változat csak az általános források híreit
-    # kategorizálja automatikusan. A szakosított források
-    # eredeti kategóriáját változatlanul hagyja.
-    if fallback_category != "Általános agrár":
+    # A szakosított források kategóriáját változatlanul hagyjuk.
+    # Kivétel az Agrárszektor, amely a sources.csv-ben technikai
+    # alapértelmezésként Agrárgazdaságot kap, de több témát közöl.
+    should_auto_classify = (
+        fallback_category == "Általános agrár"
+        or source_name in AUTO_CLASSIFY_SOURCES
+    )
+
+    if not should_auto_classify:
         return fallback_category
 
+    normalized_source = strip_accents(source_name.lower())
     normalized_title = strip_accents(title.lower())
     normalized_summary = strip_accents(summary.lower())
+    normalized_link = strip_accents(link.lower())
+    normalized_entry_categories = {
+        strip_accents(value.lower())
+        for value in (entry_categories or set())
+        if value
+    }
 
-    best_category = fallback_category
-    best_score = 0
+    category_scores: Counter[str] = Counter()
+    title_match_counts: Counter[str] = Counter()
 
     for category, keywords in CATEGORY_KEYWORDS:
         title_matches = sum(
             1
             for keyword in keywords
-            if category_keyword_matches(
-                keyword,
-                normalized_title,
-            )
+            if category_keyword_matches(keyword, normalized_title)
         )
-
         summary_matches = sum(
             1
             for keyword in keywords
-            if category_keyword_matches(
-                keyword,
-                normalized_summary,
-            )
+            if category_keyword_matches(keyword, normalized_summary)
         )
 
-        # Egyetlen, csak az összefoglalóban előforduló szó
-        # még nem elegendő a kategória felülírásához.
-        if title_matches == 0 and summary_matches < 2:
-            continue
+        title_match_counts[category] = title_matches
 
-        score = title_matches * 2 + summary_matches
+        # A cím erősebb jel, az összefoglaló csak kiegészítő.
+        if title_matches > 0:
+            category_scores[category] += title_matches * 4
 
-        if (
-            score > best_score
-            or (
-                category == "Növényvédelem"
-                and best_category == "Kertészet"
-                and title_matches > 0
-                and score >= best_score - 1
-            )
+        if summary_matches >= 2 or title_matches > 0:
+            category_scores[category] += summary_matches
+
+    # Ha az időjárás egy konkrét termelési ágazatot érint, akkor
+    # az ágazati kategóriát részesítjük előnyben. A tiszta
+    # előrejelzések és riasztások továbbra is az időjárásnál maradnak.
+    forecast_markers = (
+        "idojaras",
+        "elorejelzes",
+        "zivatar",
+        "vihar",
+        "felho",
+        "napos",
+        "lehules",
+        "riasztas",
+        "veszelyjelzes",
+        "homerseklet",
+    )
+    is_weather_forecast = any(
+        marker in normalized_title
+        for marker in forecast_markers
+    )
+
+    if (
+        title_match_counts["Időjárás és vízgazdálkodás"] > 0
+        and not is_weather_forecast
+    ):
+        for production_category in (
+            "Növénytermesztés",
+            "Kertészet",
+            "Állattenyésztés",
+            "Növényvédelem",
         ):
-            best_category = category
-            best_score = score
+            if title_match_counts[production_category] > 0:
+                category_scores[production_category] += 3
+
+    if (
+        title_match_counts["Növényvédelem"] >= 2
+        or "novenyvedelmi helyzetkep" in normalized_title
+    ):
+        category_scores["Növényvédelem"] += 4
+
+    for rss_category in normalized_entry_categories:
+        hinted_category = RSS_CATEGORY_HINTS.get(rss_category)
+
+        if hinted_category:
+            category_scores[hinted_category] += 3
+
+    for path_fragment, hinted_category, weight in (
+        SOURCE_PATH_CATEGORY_HINTS.get(normalized_source, ())
+    ):
+        if path_fragment in normalized_link:
+            category_scores[hinted_category] += weight
+
+    if not category_scores:
+        return fallback_category
+
+    best_category, best_score = category_scores.most_common(1)[0]
+
+    if best_score < 3:
+        return fallback_category
 
     return best_category
     
@@ -822,9 +998,12 @@ def collect_news(
                 continue
 
             category = determine_category(
+                source["name"],
                 source["category"],
                 title,
                 summary,
+                link,
+                entry_categories,
             )
 
             collected.append(
