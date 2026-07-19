@@ -1,4 +1,4 @@
-name,rss_url,category,type
+﻿name,rss_url,category,type
 Agrárszektor,https://www.agrarszektor.hu/rss,Agrárgazdaság,portál
 Agro Napló,https://www.agronaplo.hu/rss,Általános agrár,portál
 Magyar Mezőgazdaság,https://magyarmezogazdasag.hu/feed/,Általános agrár,portál
@@ -7,7 +7,7 @@ Agrofórum,https://agroforum.hu/feed/,Általános agrár,portál
 AKI,https://www.aki.gov.hu/feed/,Agrárgazdaság,hivatalos
 ÖMKi,https://biokutatas.hu/feed/,Ökológiai gazdálkodás,szakmai
 FruitVeB,https://fruitveb.hu/feed/,Kertészet,szakmai
-Agrárközösség,https://agrarkozosseg.hu/feed/,Általános agrár,portál
+Agroinform,https://www.agroinform.hu/rss,Általános agrár,portál
 Phylazonit,https://phylazonit.hu/feed/,Általános agrár,ceges
 Magtár Kft.,https://magtarkft.hu/feed/,Mezőgazdasági gépek,ceges
 KAP portál,https://kap.gov.hu/rss.xml,Támogatások és pályázatok,hivatalos
