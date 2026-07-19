@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-07-19T17:02:27.747368+00:00",
+  "generated_at": "2026-07-19T20:35:00.565800+00:00",
   "item_count": 142,
   "items": [
+    {
+      "id": "3068129427ed4be5",
+      "title": "Kikotortuk a közösségimédia-zaj alól a kotorékozás valódi kérdéseit",
+      "link": "https://magyarmezogazdasag.hu/2026/07/19/kikotortuk-a-kozossegimedia-zaj-alol-a-kotorekozas-valodi-kerdeseit-2/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T21:08:19+00:00"
+    },
+    {
+      "id": "f30caba45fdf429e",
+      "title": "Alkalmazkodás a változó klímához a kiskertben",
+      "link": "https://magyarmezogazdasag.hu/2026/07/19/alkalmazkodas-a-valtozo-klimahoz-a-kiskertben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T20:08:36+00:00"
+    },
+    {
+      "id": "dd717ee9e6af74e9",
+      "title": "Tőgygyulladás antibiotikum nélkül: a tehenek gyorsan gyógyulnak és több tejet adnak",
+      "link": "https://magyarmezogazdasag.hu/2026/07/19/togygyulladas-antibiotikum-nelkul-a-tehenek-gyorsan-gyogyulnak-es-tobb-tejet-adnak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T19:19:52+00:00"
+    },
+    {
+      "id": "a6a8c642f8a0724d",
+      "title": "Meghökkentő dologra hívta fel a figyelmet a szakértő - mégis elmarad a rettegett világvége?",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260719/meghokkento-dologra-hivta-fel-a-figyelmet-a-szakerto-megis-elmarad-a-rettegett-vilagvege-63426",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T18:17:00+00:00"
+    },
+    {
+      "id": "94ad12da94bba3a4",
+      "title": "A BB üzemének bezárásával egy újabb balatoni ikon dőlt le",
+      "link": "https://www.agroinform.hu/elelmiszeripar/a-bb-uzemenek-bezarasaval-egy-ujabb-balatoni-ikon-dolt-le-98510-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98510",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T17:11:04+00:00"
+    },
+    {
+      "id": "f389d43cc67decee",
+      "title": "Fellélegezhetnek a magyarok, de jön a fordulat: ilyen időjárás érkezik a jövő héten",
+      "link": "https://www.agrarszektor.hu/noveny/20260719/fellelegezhetnek-a-magyarok-de-jon-a-fordulat-ilyen-idojaras-erkezik-a-jovo-heten-63427",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-19T17:04:00+00:00"
+    },
     {
       "id": "2822b0138832d152",
       "title": "Egészséges étkezés a mezőgazdasági csúcsidőszakokban: praktikus tippek gazdáknak",
@@ -373,26 +433,6 @@
       "published_at": "2026-07-18T19:53:00+00:00"
     },
     {
-      "id": "8f3587b110618261",
-      "title": "Természet és termelékenység kéz a kézben",
-      "link": "https://magyarmezogazdasag.hu/2026/07/18/termeszet-es-termelekenyseg-kez-a-kezben/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-18T19:09:04+00:00"
-    },
-    {
-      "id": "c4b89f01c49f13b7",
-      "title": "Zöldborsó és csemegekukorica: jól, de drágán termesztünk, így nehéz piacot bővíteni",
-      "link": "https://magyarmezogazdasag.hu/2026/07/18/zoldborso-es-csemegekukorica-jol-de-dragan-termesztunk-igy-nehez-piacot-boviteni/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-18T16:07:22+00:00"
-    },
-    {
       "id": "e7426b638f5adf69",
       "title": "A kukorica már többet ér, mint a búza?",
       "link": "https://mezohir.hu/2026/07/18/mezogazdasag-kukorica-veri-a-buzat/",
@@ -411,16 +451,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-18T14:58:00+00:00"
-    },
-    {
-      "id": "ed47c29e6976abbc",
-      "title": "A hőség felülírta a reményeket a földeken",
-      "link": "https://magyarmezogazdasag.hu/2026/07/18/a-hoseg-felulirta-a-remenyeket-a-foldeken/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-18T14:08:38+00:00"
     },
     {
       "id": "07cc858921382c51",
@@ -481,36 +511,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-18T10:41:00+00:00"
-    },
-    {
-      "id": "80f52797eaf96333",
-      "title": "Nem várt döntés Magyarországon: új ember felügyeli a legendás állami ménesgazdaságot",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260718/nem-vart-dontes-magyarorszagon-uj-ember-felugyeli-a-legendas-allami-menesgazdasagot-63408",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-18T10:28:00+00:00"
-    },
-    {
-      "id": "46ab96cf24cd7d45",
-      "title": "Számítógépes modellekkel gyorsítható a szójanemesítés: éveket nyerhetnek a gazdák",
-      "link": "https://magyarmezogazdasag.hu/2026/07/18/szamitogepes-modellekkel-gyorsithato-a-szojanemesites-eveket-nyerhetnek-a-gazdak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "Kutatás / elemzés",
-      "source_type": "portál",
-      "published_at": "2026-07-18T10:10:42+00:00"
-    },
-    {
-      "id": "e9c2702f7b4b3ad1",
-      "title": "Több Balatonnyi vizet veszít el Magyarország évente: nincs mese, lépni kell",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260718/tobb-balatonnyi-vizet-veszit-el-magyarorszag-evente-nincs-mese-lepni-kell-63359",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-18T09:31:00+00:00"
     },
     {
       "id": "e24de9df0224519a",
