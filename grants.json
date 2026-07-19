@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-19T17:06:09.047394+00:00",
+  "items": [
+    {
+      "id": "kap-rd46-1-25",
+      "reference_code": "KAP-RD46-1-25",
+      "title": "Működő minőségrendszerhez történő csatlakozás támogatása",
+      "status": "upcoming",
+      "sectors": [],
+      "eligibility_summary": "Mezőgazdasági termelők",
+      "support_amount": null,
+      "support_intensity": null,
+      "application_windows": [
+        {
+          "id": "kap-rd46-1-25-2026-osz",
+          "label": "2026. őszi benyújtási időszak",
+          "sequence": null,
+          "start_date": "2026-10-01",
+          "deadline_date": "2026-10-28",
+          "deadline_text": "2026. október 1–28.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "upcoming"
+        }
+      ],
+      "updates": [],
+      "documents": [],
+      "official_source": {
+        "name": "KAP portál",
+        "url": "https://kap.gov.hu/tamogatas/kap-rd46-1-25"
+      },
+      "verified_at": "2026-07-18",
+      "requires_official_verification": true
+    },
+    {
+      "id": "kap-rd38-rd39-1-25",
+      "reference_code": "KAP-RD38-RD39-1-25",
+      "title": "Erdőtelepítés és fásítás támogatása",
+      "status": "upcoming",
+      "sectors": [
+        "Erdészet"
+      ],
+      "eligibility_summary": "Az érintett földterület tulajdonosai, illetve a szükséges tulajdonosi hozzájárulással rendelkezők",
+      "support_amount": null,
+      "support_intensity": null,
+      "application_windows": [
+        {
+          "id": "kap-rd38-rd39-1-25-2026-osz",
+          "label": "5. benyújtási szakasz",
+          "sequence": 5,
+          "start_date": "2026-10-07",
+          "deadline_date": "2026-11-04",
+          "deadline_text": "2026. október 7. – november 4.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "upcoming"
+        },
+        {
+          "id": "kap-rd38-rd39-1-25-2027-tel",
+          "label": "6. benyújtási szakasz",
+          "sequence": 6,
+          "start_date": "2027-02-03",
+          "deadline_date": "2027-03-03",
+          "deadline_text": "2027. február 3. – március 3.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "upcoming"
+        }
+      ],
+      "updates": [],
+      "documents": [],
+      "official_source": {
+        "name": "KAP portál",
+        "url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25"
+      },
+      "verified_at": "2026-07-18",
+      "requires_official_verification": true
+    }
+  ]
+}
