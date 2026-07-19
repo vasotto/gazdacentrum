@@ -355,6 +355,29 @@ def parse_entry_date(entry: Any) -> datetime:
     return datetime.now(timezone.utc)
 
 
+def get_entry_categories(entry: Any) -> set[str]:
+    """Kisbetűs RSS-kategóriákat ad vissza egy bejegyzésből."""
+    categories: set[str] = set()
+
+    for tag in entry.get("tags", []) or []:
+        if isinstance(tag, dict):
+            term = tag.get("term", "")
+        else:
+            term = getattr(tag, "term", "")
+
+        normalized = str(term or "").strip().casefold()
+
+        if normalized:
+            categories.add(normalized)
+
+    direct_category = str(entry.get("category", "") or "").strip().casefold()
+
+    if direct_category:
+        categories.add(direct_category)
+
+    return categories
+
+
 def parse_iso_datetime(value: str) -> datetime:
     """ISO-formátumú dátumot időzónás datetime objektummá alakít."""
     try:
@@ -756,6 +779,20 @@ def collect_news(
             link = str(entry.get("link", "")).strip()
 
             if not title or not link:
+                continue
+
+            entry_categories = get_entry_categories(entry)
+
+            # A Magtár feedben a tisztán akciós bejegyzések is szerepelnek.
+            # A GazdaCentrum céges szakmai rovatába ezeket nem emeljük át.
+            if (
+                source["name"] == "Magtár Kft."
+                and "akciók" in entry_categories
+            ):
+                print(
+                    "Akciós céges tartalom miatt kihagyva: "
+                    f"{title} ({source['name']})"
+                )
                 continue
 
             published = parse_entry_date(entry)

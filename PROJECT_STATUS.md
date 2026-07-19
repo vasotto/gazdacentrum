@@ -1,6 +1,6 @@
 # GazdaCentrum – projektállapot
 
-Utolsó frissítés: 2026. július 18.
+Utolsó frissítés: 2026. július 19.
 
 ## 1. A projekt célja
 
@@ -114,7 +114,7 @@ Oszlopai:
 
 ## 5. Jelenlegi aktív RSS-források
 
-Jelenleg 12 aktív forrás szerepel a `sources.csv` fájlban.
+Jelenleg 13 aktív forrás szerepel a `sources.csv` fájlban.
 
 ### 1. Agrárszektor
 
@@ -276,7 +276,28 @@ Megjelenítés:
 - „Céges szakmai tartalom” jelöléssel;
 - a független agrárhírfolyamtól elkülönítve.
 
-### 12. KAP portál
+### 12. Magtár Kft.
+
+RSS:
+
+- https://magtarkft.hu/feed/
+
+Kategória:
+
+- Mezőgazdasági gépek, automatikus tartalmi kategorizálással
+
+Forrástípus:
+
+- ceges
+
+Megjelenítés:
+
+- külön „Céges és partneri szakmai tartalmak” rovatban;
+- külön „Magtár Kft.” választógomb mögött;
+- „Céges szakmai tartalom” jelöléssel;
+- az `AKCIÓK` RSS-kategóriájú bejegyzések automatikus kizárásával.
+
+### 13. KAP portál
 
 RSS:
 
@@ -496,7 +517,7 @@ Működése:
 - a GitHub és a Cloudflare Pages kapcsolata működik;
 - az automatikus deploy működik;
 - a GitHub Actions kézzel és automatikusan is futtatható;
-- 12 RSS-forrás hírei kerülnek feldolgozásra;
+- 13 RSS-forrás hírei kerülnek feldolgozásra;
 - sikertelen RSS-lekérésnél automatikus újrapróbálkozás történik;
 - a `news.json` automatikusan elkészül;
 - a hírek megjelennek a weboldalon;
@@ -519,6 +540,8 @@ A híreknél jelenleg látható:
 - forrástípus;
 - publikálási idő;
 - az eredeti cikk linkje.
+
+A céges rovat alapállapotban nem jelenít meg cikkeket; előbb a Phylazonit vagy a Magtár Kft. választógombjára kell kattintani.
 
 Az RSS-összefoglaló csak belső relevanciaszűrésre, kategorizálásra és duplikációvizsgálatra használható; a nyilvános `news.json` fájlba nem kerül bele.
 
@@ -621,7 +644,7 @@ Jelenlegi alapelvek:
 
 Támogatási, jogszabályi, pénzügyi és növényvédelmi híreknél az eredeti hivatalos forrás ellenőrzése szükséges.
 
-A céges és partneri források csak dokumentált hozzájárulással vagy saját tartalomként kapcsolhatók be. Ezek külön rovatban, egyértelmű „Céges szakmai tartalom” vagy „Partneri szakmai tartalom” jelöléssel jelennek meg. A Phylazonit az első aktív `ceges` típusú forrás.
+A céges és partneri források csak dokumentált hozzájárulással vagy saját tartalomként kapcsolhatók be. Ezek külön rovatban, egyértelmű „Céges szakmai tartalom” vagy „Partneri szakmai tartalom” jelöléssel jelennek meg. A Phylazonit és a Magtár Kft. az aktív `ceges` típusú források. A céges rovatban vállalatonként külön választógomb jelenik meg, és a cikklista csak egy vállalat kiválasztása után töltődik be.
 
 ## 17. Facebook
 

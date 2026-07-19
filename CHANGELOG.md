@@ -2,6 +2,18 @@
 
 A projekt jelentősebb fejlesztéseinek és módosításainak összefoglalója.
 
+## 2026. július 19.
+
+### Magtár Kft. céges forrás és vállalati választó
+
+- A `https://magtarkft.hu/feed/` RSS-feed technikai tesztje sikeres volt.
+- A Magtár Kft. bekerült a `sources.csv` fájlba `ceges` forrástípussal.
+- A Magtár `AKCIÓK` RSS-kategóriájú, tisztán értékesítési bejegyzéseit a rendszer automatikusan kihagyja.
+- A céges rovatban külön Phylazonit és Magtár Kft. választógomb jelenik meg.
+- A céges cikklista alapállapotban üres, és csak valamelyik vállalat kiválasztása után jelenik meg.
+- A független agrárhírfolyam működése nem változott.
+- A nyilvános `news.json` továbbra sem tartalmaz RSS-kivonatot, teljes cikket vagy külső képet.
+
 ## 2026. július 18.
 
 ### Phylazonit céges szakmai forrás aktiválása

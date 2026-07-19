@@ -1,6 +1,6 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 18.
+Utolsó frissítés: 2026. július 19.
 
 ## Következő konkrét feladat
 
@@ -19,11 +19,12 @@ Utolsó frissítés: 2026. július 18.
 - [x] Agrárközösség beállítása és tesztelése.
 - [x] Agroinform beállítása és tesztelése.
 - [x] Phylazonit beállítása és tesztelése külön céges szakmai forrásként.
+- [x] Magtár Kft. beállítása és tesztelése külön céges szakmai forrásként.
 - [x] KAP portál beállítása és tesztelése.
 
 Jelenlegi aktív források száma:
 
-- 12
+- 13
 
 ## Következő RSS-források
 
@@ -154,7 +155,7 @@ Jelenlegi aktív források száma:
 ## Dokumentáció
 
 - [x] `PROJECT_STATUS.md` létrehozása.
-- [x] `PROJECT_STATUS.md` frissítése a 12 aktív forrással.
+- [x] `PROJECT_STATUS.md` frissítése a 13 aktív forrással.
 - [x] `TODO.md` létrehozása.
 - [x] `README.md` létrehozása.
 - [x] `CHANGELOG.md` létrehozása.
@@ -183,6 +184,10 @@ Jelenlegi aktív források száma:
 - [ ] Partneri csomagok és árak kidolgozása.
 - [ ] Partneri kattintási statisztikák kialakítása.
 - [x] A Phylazonit RSS-forrás technikai tesztelése és aktiválása a külön céges rovatban.
+- [x] A Magtár Kft. RSS-forrás technikai tesztelése és aktiválása a külön céges rovatban.
+- [x] Vállalatonként külön választógomb kialakítása a céges rovatban.
+- [x] Céges cikkek elrejtése addig, amíg a látogató nem választ vállalatot.
+- [x] A Magtár `AKCIÓK` kategóriájú bejegyzéseinek automatikus kizárása.
 
 ## Későbbi fejlesztések
 

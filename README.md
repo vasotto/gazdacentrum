@@ -134,7 +134,7 @@ Workflow neve:
 
 ## Aktív RSS-források
 
-Jelenleg 12 aktív forrás működik.
+Jelenleg 13 aktív forrás működik.
 
 | Forrás | Kategória | Típus |
 |---|---|---|
@@ -149,6 +149,7 @@ Jelenleg 12 aktív forrás működik.
 | Agrárközösség | Általános agrár | portál |
 | Agroinform | Általános agrár | portál |
 | Phylazonit | Általános agrár | ceges |
+| Magtár Kft. | Mezőgazdasági gépek | ceges |
 | KAP portál | Támogatások és pályázatok | hivatalos |
 
 Az aktív RSS-címek a `sources.csv` fájlban találhatók.
@@ -246,7 +247,7 @@ Ezek az elemek:
 - nem kerülnek összevonásra a független hírfolyam hasonló híreivel;
 - csak címet, forrást, dátumot, kategóriát és eredeti linket tesznek közzé.
 
-Az első aktív céges forrás a Phylazonit RSS-feedje.
+Az aktív céges források a Phylazonit és a Magtár Kft. RSS-feedjei. A rovat vállalatonként külön választógombot használ, és alapállapotban nem jelenít meg cikkeket. A Magtár feed `AKCIÓK` kategóriájú bejegyzéseit a feldolgozó automatikusan kihagyja.
 
 ## Automatikus frissítés
 

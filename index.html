@@ -759,6 +759,15 @@
       outline-offset: 2px;
     }
 
+    .partner-source-filters {
+      margin: 16px 0 20px;
+    }
+
+    .partner-source-filter-button:not(.is-active) {
+      border-color: rgba(129, 116, 223, 0.34);
+      background: var(--purple-soft);
+    }
+
     .news-list {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1713,6 +1722,12 @@
         Céges szakmai tartalmak betöltése…
       </div>
 
+      <div
+        id="partner-source-filters"
+        class="category-filters partner-source-filters"
+        aria-label="Céges szakmai tartalmak kiválasztása vállalat szerint"
+      ></div>
+
       <div id="partner-news-list" class="news-list"></div>
 
       <p class="partner-disclosure">
@@ -2089,6 +2104,9 @@
       const partnerNewsStatus =
         document.getElementById("partner-news-status");
 
+      const partnerSourceFilters =
+        document.getElementById("partner-source-filters");
+
       const partnerSourceTypes =
         new Set(["ceges", "partneri"]);
 
@@ -2295,6 +2313,7 @@
 
         newsList.replaceChildren();
         categoryFilters.replaceChildren();
+        partnerSourceFilters.replaceChildren();
         partnerNewsList.replaceChildren();
 
         const updatedAt =
@@ -2307,15 +2326,125 @@
         if (partnerItems.length > 0) {
           partnerSection.hidden = false;
 
-          partnerItems.forEach((item) => {
-            partnerNewsList.appendChild(
-              createNewsCard(item)
+          const partnerSources = [
+            ...new Set(
+              partnerItems.map(
+                (item) =>
+                  item.source ||
+                  "Ismeretlen vállalat"
+              )
+            )
+          ];
+
+          function renderPartnerNews(sourceName) {
+            const visiblePartnerItems =
+              partnerItems.filter(
+                (item) =>
+                  (
+                    item.source ||
+                    "Ismeretlen vállalat"
+                  ) === sourceName
+              );
+
+            partnerNewsList.replaceChildren();
+
+            visiblePartnerItems.forEach((item) => {
+              partnerNewsList.appendChild(
+                createNewsCard(item)
+              );
+            });
+
+            partnerNewsStatus.textContent =
+              visiblePartnerItems.length +
+              " céges szakmai tartalom a(z) „" +
+              sourceName +
+              "” forrástól" +
+              (
+                updatedAt
+                  ? " · Utolsó frissítés: " +
+                    updatedAt
+                  : ""
+              );
+          }
+
+          function createPartnerSourceButton(
+            sourceName
+          ) {
+            const button =
+              document.createElement("button");
+
+            const sourceCount =
+              partnerItems.filter(
+                (item) =>
+                  (
+                    item.source ||
+                    "Ismeretlen vállalat"
+                  ) === sourceName
+              ).length;
+
+            button.type = "button";
+            button.className =
+              "category-filter-button " +
+              "partner-source-filter-button";
+            button.dataset.source =
+              sourceName;
+            button.textContent =
+              sourceName +
+              " (" +
+              sourceCount +
+              ")";
+            button.setAttribute(
+              "aria-pressed",
+              "false"
             );
-          });
+
+            button.addEventListener(
+              "click",
+              () => {
+                partnerSourceFilters
+                  .querySelectorAll(
+                    ".partner-source-filter-button"
+                  )
+                  .forEach(
+                    (filterButton) => {
+                      const isActive =
+                        filterButton === button;
+
+                      filterButton.classList.toggle(
+                        "is-active",
+                        isActive
+                      );
+
+                      filterButton.setAttribute(
+                        "aria-pressed",
+                        isActive
+                          ? "true"
+                          : "false"
+                      );
+                    }
+                  );
+
+                renderPartnerNews(
+                  sourceName
+                );
+              }
+            );
+
+            return button;
+          }
+
+          partnerSources.forEach(
+            (sourceName) => {
+              partnerSourceFilters.appendChild(
+                createPartnerSourceButton(
+                  sourceName
+                )
+              );
+            }
+          );
 
           partnerNewsStatus.textContent =
-            partnerItems.length +
-            " céges vagy partneri szakmai tartalom" +
+            "Válasszon céget a tartalmak megjelenítéséhez." +
             (
               updatedAt
                 ? " · Utolsó frissítés: " +
@@ -2462,7 +2591,7 @@
               activeCategory =
                 categoryName;
 
-              document
+              categoryFilters
                 .querySelectorAll(
                   ".category-filter-button"
                 )
@@ -2558,6 +2687,8 @@
         console.error(error);
 
         categoryFilters.replaceChildren();
+        partnerSourceFilters.replaceChildren();
+        partnerNewsList.replaceChildren();
         partnerNewsStatus.textContent =
           "A céges szakmai tartalmak jelenleg nem tölthetők be.";
 
