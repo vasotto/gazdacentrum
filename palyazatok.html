@@ -493,6 +493,27 @@
       margin-top: 22px;
     }
 
+    .detail-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 9px 16px;
+      color: #243000;
+      background: linear-gradient(135deg, #c3ef32, var(--lime));
+      border: 1px solid rgba(111, 152, 0, 0.24);
+      border-radius: 999px;
+      box-shadow: 0 8px 18px rgba(126, 168, 0, 0.18);
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .detail-link:hover,
+    .detail-link:focus-visible {
+      color: #172000;
+      transform: translateY(-1px);
+    }
+
     .official-link {
       display: inline-flex;
       align-items: center;
@@ -1167,6 +1188,33 @@
         document.createElement("div");
 
       actions.className = "grant-actions";
+
+      const detailUrl =
+        grant.detail_url ||
+        (
+          grant.reference_code ===
+          "KAP-RD46-1-25"
+            ? "palyazat-kap-rd46-1-25.html"
+            : ""
+        );
+
+      if (detailUrl) {
+        const detailLink =
+          document.createElement("a");
+
+        detailLink.className =
+          "detail-link";
+
+        detailLink.href =
+          detailUrl;
+
+        detailLink.textContent =
+          "Részletes összefoglaló →";
+
+        actions.appendChild(
+          detailLink
+        );
+      }
 
       const officialSource =
         grant.official_source || {};
