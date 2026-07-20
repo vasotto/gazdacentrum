@@ -58,7 +58,7 @@ Alapértelmezetten **nem kerülhet át**:
 | 6 | AKI | hivatalos/szakmai | működik | **Csak engedéllyel** | írásos engedély nélkül kikapcsolandó |
 | 7 | ÖMKi | szakmai | működik | **Feltételes** | írásos engedély vagy egyértelmű felhasználási nyilatkozat szükséges |
 | 8 | FruitVeB | szakmai | működik | **Feltételes** | írásos engedély vagy felhasználási nyilatkozat szükséges |
-| 9 | Agrárközösség | szakmai/üzleti portál | működik | **Feltételes** | jogi feltételek nem voltak teljesen hozzáférhetők; engedély szükséges |
+| 9 | Agrárközösség | szakmai/üzleti portál | **inaktív** | **Kikapcsolva** | ellenőrzőoldal vagy hibás XML miatt nem használható stabil RSS-forrásként |
 | 10 | Agroinform | portál | működik | **Csak engedéllyel** | írásos engedély nélkül kikapcsolandó |
 | 11 | Phylazonit | céges | működik | **Céges pilot** | írásos partneri megerősítés; külön céges rovat megtartása |
 | 12 | Magtár Kft. | céges | működik | **Céges pilot** | írásos partneri megerősítés; `AKCIÓK` kizárása |
@@ -66,7 +66,7 @@ Alapértelmezetten **nem kerülhet át**:
 
 ## 5. Technikai összesítés
 
-A 2026-07-19-én létrehozott `news.json` szerint mind a 13 aktív forrás feldolgozása hiba nélkül befejeződött. A nyilvános adatállomány csak a szükséges mezőket tartalmazta; RSS-leírást, teljes cikket és külső képet nem tárolt.
+A 2026-07-20-án létrehozott `news.json` szerint mind a 12 aktív forrás feldolgozása hiba nélkül befejeződött. A nyilvános adatállomány 148 hírt tartalmazott, és csak a szükséges mezőket tárolta; RSS-leírást, teljes cikket és külső képet nem tett közzé. Az Agrárközösség technikai okból inaktív.
 
 | Forrás | Megmaradt tételek száma | Legújabb feldolgozott tétel | Fő megjegyzés |
 |---|---:|---|---|
@@ -78,7 +78,7 @@ A 2026-07-19-én létrehozott `news.json` szerint mind a 13 aktív forrás feldo
 | AKI | 10 | 2026-07-14 | piaci adatok és szakmai események |
 | ÖMKi | 10 | 2026-07-17 | jól körülhatárolt ökológiai szakmai tartalom |
 | FruitVeB | 19 | 2026-07-17 | kertészeti és piaci tartalom; stabil tematikus forrás |
-| Agrárközösség | 10 | 2026-07-17 | jogszabályi, szakmai és képzési tartalom; ritkább frissítés |
+| Agrárközösség | 0 | – | jelenleg inaktív; ellenőrzőoldal vagy feldolgozhatatlan XML-válasz |
 | Agroinform | 11 | 2026-07-18 | nagy mennyiségű vegyes tartalom; erős relevanciaszűrés szükséges |
 | Phylazonit | 10 | 2026-07-08 | céges szakmai tartalom; teljes cikket adó WordPress-feed |
 | Magtár Kft. | 9 | 2026-04-27 | ritkább frissítés; gépes tartalom; akciós elem kizárva |
@@ -270,8 +270,9 @@ A nyilvános impresszumban nem találtunk egyértelmű tartalom-újraközlési e
 
 ### Technikai megállapítás
 
-- Az RSS működik; 10 releváns elem maradt meg.
-- A forrás ritkábban frissül, de jogszabályi, gazdálkodási és képzési témákat közöl.
+- A feed korábban adott feldolgozható elemeket, de később ellenőrzőoldalt vagy hibás XML-választ küldött.
+- A forrás emiatt kikerült a `sources.csv` aktív listájából.
+- Csak stabil, szabványos RSS-válasz ismételt ellenőrzése után kapcsolható vissza.
 
 ### Jogi megállapítás
 
@@ -279,9 +280,9 @@ A weboldal nyilvános böngészése automatizált ellenőrzőoldalba ütközött
 
 ### Döntés
 
-- **Státusz:** Feltételes
-- **Nyilvános indulás:** írásos engedély vagy a feltételek kézi ellenőrzése nélkül nem tekinthető véglegesen jóváhagyottnak
-- **Teendő:** közvetlen kapcsolatfelvétel a szolgáltatóval
+- **Státusz:** Kikapcsolva
+- **Technikai ok:** nem stabil, automatizáltan feldolgozható RSS
+- **Jogi teendő:** visszakapcsolás előtt a feltételek kézi ellenőrzése vagy írásos engedély szükséges
 
 ### Hivatalos oldal
 
@@ -420,7 +421,6 @@ A jelenlegi audit alapján a technikai működés megfelelő, de a források tö
 - Agrofórum;
 - ÖMKi;
 - FruitVeB;
-- Agrárközösség;
 - Phylazonit;
 - Magtár Kft.
 
@@ -436,4 +436,4 @@ Az audit után nem újabb források tömeges felvétele következik. A helyes so
 2. a három egyértelműen engedélyköteles forrás ideiglenes leállításának eldöntése;
 3. a szükséges reklám- és irreleváns-tartalom szűrések beépítése;
 4. a végleges, nyilvános indulási forráslista rögzítése;
-5. ezután a pályázatfigyelő és támogatási naptár adatmodelljének kialakítása.
+5. a már elkészült pályázatfigyelő adatmodell automatizált dokumentum- és módosításfigyelésének megtervezése.

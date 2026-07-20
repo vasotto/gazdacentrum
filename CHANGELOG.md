@@ -1,5 +1,39 @@
 # GazdaCentrum – változásnapló
 
+## 2026. július 20.
+
+### Pályázatfigyelő és részletes pályázati adatlapok
+
+- Elkészült a `grants.json` pályázati adatmodell.
+- Elkészült a `deadlines.json` határidő-adatmodell.
+- Elkészült a `palyazatok.html` pályázati listaoldal.
+- A listaoldal 2 pályázatot és 12 benyújtási szakaszt kezel.
+- A lejárt, nyitott és jövőbeli beadási szakaszok eltérő színezést kaptak.
+- Elkészült a KAP-RD46-1-25 részletes pályázati adatlapja.
+- Elkészült a KAP-RD38-RD39-1-25 részletes pályázati adatlapja.
+- Mindkét pályázat kártyáján működik a `Részletes összefoglaló` gomb.
+- A részletes oldalakon szerepel a minimum pontszám, a határidő, a támogatási összeg, a kötelezettségek és a fő buktatók.
+- Elkészült a `PALYAZATI_ADATLAP_SABLON.md` belső szabvány.
+
+### Mobilnézet és navigáció
+
+- A főoldali mobilmenü több sorba törik, így minden menüpont látható.
+- A részletes pályázati oldalak teljes oldalas vízszintes kilógása megszűnt.
+- A széles táblázatok a saját keretükön belül görgethetők.
+
+### Gépesítés kategória
+
+- A Magtár Kft. forráskategóriája egységesen `Gépesítés` lett.
+- A főoldali Gépesítés kártya akkor is működik, ha csak céges gépes tartalom van.
+- Ilyen esetben a kártya a külön céges rovat Magtár Kft. tartalmaihoz navigál.
+
+### Adat- és dokumentációfrissítés
+
+- A KAP-RD46-1-25 két őszi beadási szakasza külön határidőrekord lett.
+- A `grants.json` mindkét pályázatnál részletes adatlap-URL-t tartalmaz.
+- A `README.md`, `PROJECT_STATUS.md`, `TODO.md` és `SOURCE_AUDIT.md` az aktuális állapothoz igazodott.
+- Az impresszum kiegészült az automatizált hírfeldolgozásra vonatkozó tájékoztatással.
+
 A projekt jelentősebb fejlesztéseinek és módosításainak összefoglalója.
 
 ## 2026. július 19.

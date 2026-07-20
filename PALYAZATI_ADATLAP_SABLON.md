@@ -21,7 +21,7 @@ Minden pályázatnál rögzíteni kell:
 
 - hivatalos megnevezés;
 - pályázati kód;
-- aktuális státusz;
+- aktuális programstátusz és a benyújtási szakasz pillanatnyi állapota;
 - hivatalos adatlap URL-je;
 - utolsó ellenőrzés dátuma;
 - keretösszeg;
@@ -48,7 +48,7 @@ Hiányzó adat helyett nem szabad feltételezést írni.
 
 - pályázati kód;
 - hivatalos cím;
-- státusz;
+- státusz, például `Aktív – következő beadás októberben`;
 - rövid leírás;
 - gomb a hivatalos pályázati oldalhoz.
 
@@ -334,12 +334,13 @@ palyazat-kap-rd46-1-25.html
 - [ ] Mobilon nincs teljes oldalas vízszintes kilógás.
 - [ ] A listaoldalról működik a részletes adatlap linkje.
 
-## 9. Első elfogadott minta
+## 9. Elfogadott minták
 
-Az első elfogadott vizuális és tartalmi minta:
+Elfogadott vizuális és tartalmi minták:
 
 ```text
 palyazat-kap-rd46-1-25.html
+palyazat-kap-rd38-rd39-1-25.html
 ```
 
-Az új pályázati adatlapok ettől csak indokolt esetben térhetnek el.
+Az első minta egy átalányjellegű, minőségrendszeri támogatást, a második egy hektáralapú erdészeti felhívást mutat be. Az új adatlapok ettől csak indokolt esetben térhetnek el.

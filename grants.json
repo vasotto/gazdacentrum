@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-20T19:22:28.588162+00:00",
+  "generated_at": "2026-07-20T20:30:00+00:00",
   "items": [
     {
       "id": "kap-rd46-1-25",
@@ -106,7 +106,13 @@
       "requires_official_verification": true,
       "support_form": "Vissza nem térítendő egyösszegű átalány támogatás",
       "budget": "1 600 000 000 Ft",
-      "implementation_period": "A támogatási okirat véglegessé válását követő naptól számított legfeljebb 60 hónap"
+      "implementation_period": "A támogatási okirat véglegessé válását követő naptól számított legfeljebb 60 hónap",
+      "program_status": "active",
+      "submission_status": "between_windows",
+      "detail_url": "palyazat-kap-rd46-1-25.html",
+      "minimum_points": 20,
+      "maximum_points": 100,
+      "maintenance_period": "A minőségrendszeri részvételt a támogatási időszak alatt, majd az utolsó kifizetést követő előírt időszakban is fenn kell tartani"
     },
     {
       "id": "kap-rd38-rd39-1-25",
@@ -252,7 +258,9 @@
           "amount": 432
         },
         "maximum_operation_eur": 7500000
-      }
+      },
+      "submission_status": "between_windows",
+      "detail_url": "palyazat-kap-rd38-rd39-1-25.html"
     }
   ]
 }

@@ -2695,11 +2695,68 @@
                       targetCategory
                   );
 
-                if (!matchingButton) {
+                if (matchingButton) {
+                  matchingButton.click();
+
+                  document
+                    .getElementById("friss")
+                    .scrollIntoView({
+                      behavior: "smooth",
+                      block: "start"
+                    });
+
                   return;
                 }
 
-                matchingButton.click();
+                const matchingPartnerItem =
+                  partnerItems.find(
+                    (item) =>
+                      (
+                        item.category ||
+                        "Agrárhír"
+                      ) === targetCategory
+                  );
+
+                if (matchingPartnerItem) {
+                  const targetSource =
+                    matchingPartnerItem.source ||
+                    "Ismeretlen vállalat";
+
+                  const partnerButton =
+                    Array.from(
+                      partnerSourceFilters
+                        .querySelectorAll(
+                          ".partner-source-filter-button"
+                        )
+                    ).find(
+                      (button) =>
+                        button.dataset.source ===
+                        targetSource
+                    );
+
+                  if (partnerButton) {
+                    partnerButton.click();
+
+                    partnerSection.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start"
+                    });
+                  }
+
+                  return;
+                }
+
+                newsList.replaceChildren();
+                newsStatus.textContent =
+                  "Jelenleg nincs megjeleníthető hír a(z) „" +
+                  targetCategory +
+                  "” kategóriában." +
+                  (
+                    updatedAt
+                      ? " · Utolsó frissítés: " +
+                        updatedAt
+                      : ""
+                  );
 
                 document
                   .getElementById("friss")

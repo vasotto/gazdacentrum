@@ -1,207 +1,100 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 19.
+Utolsó frissítés: 2026. július 20.
 
 ## Következő konkrét feladat
 
-- [ ] A jelenlegi források felhasználási feltételeinek forrásonkénti dokumentálása.
+- [ ] Döntés a Mezőhír, AKI és Agroinform átmeneti kikapcsolásáról vagy írásos engedélykéréséről.
+
+## Kritikus jogi és tartalmi feladatok
+
+- [ ] Egységes engedélykérő levél elkészítése a külső hírforrásokhoz.
+- [ ] Agrárszektor használati feltételeinek írásos pontosítása.
+- [ ] Agro Napló cím-, dátum- és linkhasználatának írásos pontosítása.
+- [ ] Magyar Mezőgazdaság írásos megerősítésének kérése.
+- [ ] Mezőhír engedélyének rendezése.
+- [ ] Agrofórum írásos megerősítésének kérése.
+- [ ] AKI engedélyének rendezése.
+- [ ] ÖMKi felhasználási feltételeinek tisztázása.
+- [ ] FruitVeB felhasználási feltételeinek tisztázása.
+- [ ] Agroinform engedélyének rendezése.
+- [ ] Phylazonit partneri hozzájárulásának archiválása.
+- [ ] Magtár Kft. partneri hozzájárulásának archiválása.
+- [ ] Adatkezelési tájékoztató elkészítése.
+- [ ] Az impresszum hiányzó adószámának és nyilvántartási számának pótlása.
 
 ## Aktív RSS-források
 
-- [x] Agrárszektor beállítása és tesztelése.
-- [x] Agro Napló beállítása és tesztelése.
-- [x] Magyar Mezőgazdaság beállítása és tesztelése.
-- [x] Mezőhír beállítása és tesztelése.
-- [x] Agrofórum beállítása és tesztelése.
-- [x] AKI beállítása és tesztelése.
-- [x] ÖMKi beállítása és tesztelése.
-- [x] FruitVeB beállítása és tesztelése.
-- [x] Agrárközösség beállítása és tesztelése.
-- [x] Agroinform beállítása és tesztelése.
-- [x] Phylazonit beállítása és tesztelése külön céges szakmai forrásként.
-- [x] Magtár Kft. beállítása és tesztelése külön céges szakmai forrásként.
-- [x] KAP portál beállítása és tesztelése.
+- [x] 12 aktív forrás rögzítése a `sources.csv` fájlban.
+- [x] Agrárközösség ideiglenes kikapcsolása a hibás vagy blokkolt feed miatt.
+- [x] Phylazonit elkülönített céges forrásként.
+- [x] Magtár Kft. elkülönített céges forrásként.
+- [x] Magtár `AKCIÓK` kategória kizárása.
+- [x] KAP portál hivatalos forrásként.
+- [ ] Új forrásokat továbbra is egyenként tesztelni.
 
-Jelenlegi aktív források száma:
+## Hírgyűjtés és kategorizálás
 
-- 13
-
-## Következő RSS-források
-
-- [ ] További hivatalos agrárforrások keresése.
-- [ ] További növénytermesztési források keresése.
-- [ ] További állattenyésztési források keresése.
-- [ ] További kertészeti források keresése.
-- [ ] További támogatási és pályázati források keresése.
-- [ ] Minden új forrás külön tesztelése a `sources.csv` bővítése előtt.
-
-## Tesztelt, de inaktív források
-
-- [x] GÉPmax kizárása – a forrás tiltja a hírek linkelését.
-- [x] Agrárágazat tesztelése – hibás XML-entitás miatt inaktív.
-- [x] Agrotrend tesztelése – hibás XML-entitás miatt inaktív.
-- [x] AgrárUnió tesztelése – nem található működő nyilvános RSS.
-- [x] Agrokép tesztelése – a feed nem található vagy le van tiltva.
-- [x] Haszon Agrár tesztelése – hibás feed miatt inaktív.
-- [x] MAGRO tesztelése – hibás feed miatt inaktív.
-- [x] Farmvilág tesztelése – hibás feed miatt inaktív.
-
-## Hírgyűjtés és adatfeldolgozás
-
-- [x] RSS-források beolvasása a `sources.csv` fájlból.
-- [x] Legfeljebb 20 hír feldolgozása forrásonként.
-- [x] Legfeljebb 200 hír mentése a `news.json` fájlba.
-- [x] Cím, link, forrás, kategória és publikálási idő mentése.
-- [x] Rövid RSS-összefoglalók tisztítása.
-- [x] HTML-elemek eltávolítása.
-- [x] HTML-karakterek dekódolása.
-- [x] Az „appeared first on” zárószövegek eltávolítása.
-- [x] A magyar „bejegyzés először ... jelent meg” zárószövegek eltávolítása.
-- [x] Duplán érkező RSS-címek tisztítása.
-- [x] Agroinform ismétlődő címeinek javítása.
-- [x] KAP-portál összefoglalóinak tisztítása.
-- [x] KAP-portál szerkesztői fejlécének eltávolítása.
-- [x] Nyilvánvalóan nem agrár témájú hírek relevanciaszűrése.
-- [x] Agroinform Házikert rovatának kizárása.
-- [x] Agrofórum hobbikerti és lakossági szaktanácsadási rovatainak kizárása.
-- [x] Átmeneti RSS-hibák automatikus újrapróbálása.
-- [x] Legfeljebb három RSS-lekérési kísérlet beállítása.
-- [x] Öt másodperces várakozás beállítása az ismételt lekérések között.
-- [x] Egyetlen hibás forrás mellett a többi forrás feldolgozásának folytatása.
-- [x] RSS-hibák mentése a `news.json` `errors` mezőjébe.
-- [ ] Tartósan hibás források külön, automatikus jelentése.
-- [ ] A források frissességének rendszeres ellenőrzése.
-- [ ] A hibás vagy elavult feedek időszakos felülvizsgálata.
+- [x] Háromszori RSS-újrapróbálás.
+- [x] HTML- és RSS-zárószöveg-tisztítás.
+- [x] Nyilvános összefoglalók eltávolítása a `news.json` fájlból.
+- [x] `(x)` jelölésű Agro Napló tartalmak kizárása.
+- [x] Magtár gépes híreinek `Gépesítés` kategóriába rendezése.
+- [x] `Mezőgazdasági gépek` → `Gépesítés` kategóriaegységesítés.
+- [x] Főoldali Gépesítés kártya partneri tartalomhoz irányítása, ha nincs független gépes hír.
+- [ ] Kategóriánkénti forráseloszlás rendszeres ellenőrzése.
+- [ ] Erdészeti és vadgazdálkodási kategória szükségességének vizsgálata.
+- [ ] További irreleváns életmód- és fogyasztói elemek szűrése.
 
 ## Duplikációszűrés
 
-- [x] Azonos linkű hírek kiszűrése.
-- [x] Csak záró perjelben eltérő linkek felismerése.
-- [x] Azonos című hírek kiszűrése.
-- [x] Címek normalizálása az összehasonlításhoz.
-- [x] Különböző források hasonló tartalmú híreinek felismerése.
-- [x] Azonos és közel azonos összefoglalók felismerése.
-- [x] Legalább 80 karakteres összefoglalók összehasonlítása.
-- [x] Rövid kiegészítésben eltérő összefoglalók felismerése.
-- [x] Azonos forráson belül megjelenő másodpéldányok felismerése.
-- [x] Láncoltan kapcsolódó duplikációk felismerése.
-- [x] Forrástípus szerinti megtartási prioritás kialakítása.
-- [x] Hivatalos forrás elsőbbségének beállítása.
-- [x] Szakmai forrás elsőbbségének beállítása a portálokkal szemben.
-- [x] Azonos forrástípusnál a frissebb hír előnyben részesítése.
-- [x] A 72 órás duplikációs időablak beállítása.
-- [x] Ukrán burgonyapiaci duplikáció tesztelése.
-- [x] Agrofórum azonos kukoricás videó- és szakcikkváltozatának kiszűrése.
-- [ ] A duplikációszűrés eredményeinek rendszeres ellenőrzése.
-- [ ] További valós duplikációs példák dokumentálása.
-- [ ] A téves összevonások időszakos ellenőrzése.
-- [ ] A fel nem ismert duplikációk időszakos ellenőrzése.
-
-## Kategorizálás
-
-- [x] Forrásszintű kategóriák megadása a `sources.csv` fájlban.
-- [x] Agrárgazdaság kategória használata.
-- [x] Általános agrár kategória használata.
-- [x] Kertészet kategória használata.
-- [x] Gépesítés kategória használata.
-- [x] Támogatások és pályázatok kategória használata.
-- [x] Ökológiai gazdálkodás kategória használata.
-- [ ] Cím és összefoglaló alapján automatikus kategorizálás.
-- [ ] Növénytermesztés kategória.
-- [ ] Állattenyésztés kategória.
-- [ ] Időjárás és vízgazdálkodás kategória.
-- [ ] Növényvédelem kategória.
-- [ ] Egy híren belül több lehetséges kategória kezelésének szabályozása.
-- [ ] A jelenlegi forrásszintű kategóriák felülvizsgálata.
+- [x] Azonos linkek szűrése.
+- [x] Azonos címek szűrése.
+- [x] Azonos vagy közel azonos belső összefoglalók szűrése.
+- [x] Források közötti tartalmi hasonlóság vizsgálata.
+- [x] Láncolt duplikációk kezelése.
+- [x] Hivatalos → szakmai → portál forrásprioritás.
+- [ ] Duplikációs hibák időszakos mintavételes ellenőrzése.
 
 ## Weboldal
 
-- [x] Cloudflare Pages hosting beállítása.
-- [x] Saját domain bekötése.
-- [x] A `gazdacentrum.hu` működésének ellenőrzése.
-- [x] A `www.gazdacentrum.hu` működésének ellenőrzése.
-- [x] HTTPS működésének ellenőrzése.
-- [x] GazdaCentrum logó megjelenítése.
-- [x] Hírek automatikus betöltése a `news.json` fájlból.
-- [x] Kategória megjelenítése.
-- [x] Forrás megjelenítése.
-- [x] Publikálási idő megjelenítése.
-- [x] RSS-összefoglaló kizárása a nyilvános `news.json` fájlból.
-- [x] Eredeti cikklink megjelenítése.
-- [x] Az élő oldalon az Agrofórum-duplikáció eltávolításának ellenőrzése.
-- [x] Kategóriaszűrő kialakítása.
-- [ ] Külön kategóriaoldalak kialakítása.
-- [ ] Keresési funkció.
-- [ ] Mobilos megjelenés részletes ellenőrzése.
-- [ ] Forrásonkénti szűrés.
-- [ ] Hírkártyák megjelenésének finomítása.
-- [ ] Üres összefoglalóval érkező hírek megjelenésének felülvizsgálata.
-- [x] Hibaállapot megjelenítése, ha a `news.json` nem tölthető be.
+- [x] Reszponzív főoldal.
+- [x] Mobilon tördelődő felső menü.
+- [x] Kategóriaszűrők.
+- [x] Elkülönített céges tartalmi rovat.
+- [x] Határidők szakasz.
+- [x] Pályázati listaoldal.
+- [x] Lejárt, nyitott és jövőbeli benyújtási szakaszok eltérő színezése.
+- [x] Két részletes pályázati adatlap.
+- [x] Mobilbarát részletes pályázati oldalak.
+- [x] Világos és sötét mód.
+- [ ] Külön kategóriaoldalak.
+- [ ] Kereső.
+- [ ] Hírlevél.
+- [ ] Végleges Facebook-felhasználónév után Facebook-link kihelyezése.
 
-## GitHub Actions és üzemeltetés
+## Pályázati rendszer
 
-- [x] Az „Agrárhírek frissítése” workflow létrehozása.
-- [x] Kézi workflow-indítás beállítása.
-- [x] Hatóránkénti automatikus futás beállítása.
-- [x] Python-függőségek automatikus telepítése.
-- [x] A `fetch_news.py` automatikus futtatása.
-- [x] A `news.json` automatikus frissítése.
-- [x] A módosított `news.json` visszamentése a `main` ágra.
-- [x] Cloudflare Pages automatikus deploy ellenőrzése.
-- [ ] Tartós workflow-hiba esetére értesítés kialakítása.
-- [ ] A workflow futási idejének és naplóinak időszakos ellenőrzése.
-- [ ] A GitHub Actions jogosultságainak dokumentálása.
+- [x] `deadlines.json` adatmodell.
+- [x] `grants.json` adatmodell.
+- [x] KAP-RD46-1-25 részletes adatlap.
+- [x] KAP-RD38-RD39-1-25 részletes adatlap.
+- [x] Egységes `PALYAZATI_ADATLAP_SABLON.md`.
+- [x] Minimum pontszám feltüntetése a részletes oldalakon.
+- [x] Benyújtási szakaszok külön rekordként kezelése.
+- [ ] Pályázati dokumentumok automatikus változásfigyelése.
+- [ ] IH-közlemények pályázatkódhoz rendelése.
+- [ ] Részletes adatlapok adatvezérelt generálása a kézi HTML helyett.
+- [ ] Előzetes jogosultsági és pontszám-ellenőrző tervezése.
+- [ ] Emberi jóváhagyási folyamat kialakítása AI-val készített összefoglalókhoz.
 
-## Dokumentáció
+## Dokumentáció és üzemeltetés
 
-- [x] `PROJECT_STATUS.md` létrehozása.
-- [x] `PROJECT_STATUS.md` frissítése a 13 aktív forrással.
-- [x] `TODO.md` létrehozása.
-- [x] `README.md` létrehozása.
-- [x] `CHANGELOG.md` létrehozása.
-- [x] `CHANGELOG.md` frissítése a legutóbbi fejlesztésekkel.
-- [x] `README.md` aktualizálása a jelenlegi működéshez.
-- [ ] Az aktív és inaktív források rendszeres dokumentálása.
-- [ ] A jelentős változtatások folyamatos rögzítése.
-
-## Tartalmi és jogi feladatok
-
-- [x] Impresszum elkészítése.
-- [ ] Adószám és egyéni vállalkozói nyilvántartási szám pótlása az impresszumban.
-- [ ] Adatkezelési tájékoztató elkészítése.
-- [x] Automatizált tartalom-előállításról szóló tájékoztatás.
-- [x] Hivatalos forrás ellenőrzésére figyelmeztető szöveg.
-- [ ] Felhasználási feltételek elkészítése.
-- [ ] Forráseltávolítási és panaszkezelési kapcsolat megadása.
-- [ ] Az RSS-összefoglalók felhasználási módjának rendszeres jogi felülvizsgálata.
-
-## Partneri és fizetett vállalati tartalmak
-
-- [x] A partneri RSS-források külön `ceges` és `partneri` forrástípusának kialakítása.
-- [x] „Céges szakmai tartalom” és „Partneri szakmai tartalom” jelölés megjelenítése.
-- [x] A céges/partneri és független hírek egyértelmű elkülönítése.
-- [ ] Partneri tartalmi feltételek kidolgozása.
-- [ ] Partneri csomagok és árak kidolgozása.
-- [ ] Partneri kattintási statisztikák kialakítása.
-- [x] A Phylazonit RSS-forrás technikai tesztelése és aktiválása a külön céges rovatban.
-- [x] A Magtár Kft. RSS-forrás technikai tesztelése és aktiválása a külön céges rovatban.
-- [x] Vállalatonként külön választógomb kialakítása a céges rovatban.
-- [x] Céges cikkek elrejtése addig, amíg a látogató nem választ vállalatot.
-- [x] A Magtár `AKCIÓK` kategóriájú bejegyzéseinek automatikus kizárása.
-
-## Későbbi fejlesztések
-
-- [ ] „Miért fontos a gazdának?” mező.
-- [ ] AI-alapú saját összefoglaló.
-- [ ] Napi vagy heti hírlevél.
-- [x] Támogatási határidőfigyelő első változata.
-- [ ] Személyre szabható hírfolyam.
-- [ ] Kedvenc hírek mentése.
-- [ ] Látogatottságmérés és forgalmi statisztikák.
-- [ ] Közvetlen agrárhirdetési rendszer.
-
-## Facebook
-
-- [x] A Zetorvas Facebook-oldal átnevezése GazdaCentrumra.
-- [ ] Végleges Facebook-felhasználónév beállítása.
-- [ ] Facebook-link elhelyezése a weboldalon.
+- [x] `README.md` aktuális állapothoz igazítása.
+- [x] `PROJECT_STATUS.md` karbantartása.
+- [x] `CHANGELOG.md` karbantartása.
+- [x] `SOURCE_AUDIT.md` elkészítése.
+- [x] GitHub Actions hatóránkénti futása.
+- [x] Cloudflare Pages automatikus deploy.
+- [ ] Időszakos belső link- és JSON-ellenőrzés automatizálása.
+- [ ] Hiba esetén a dokumentált ellenőrzési sorrend követése.

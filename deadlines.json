@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-07-18T20:15:00+02:00",
+  "generated_at": "2026-07-20T20:30:00+00:00",
   "items": [
     {
-      "id": "kap-rd46-1-25-2026-osz",
-      "title": "Működő minőségrendszerhez történő csatlakozás támogatása",
+      "id": "kap-rd46-1-25-5",
+      "title": "Működő minőségrendszerhez történő csatlakozás támogatása – 5. benyújtási szakasz",
       "action": "Támogatási kérelem benyújtása",
       "affected": "Mezőgazdasági termelők",
       "start_date": "2026-10-01",
-      "deadline_date": "2026-10-28",
-      "deadline_text": "2026. október 1–28.",
+      "deadline_date": "2026-10-14",
+      "deadline_text": "2026. október 1–14.",
       "reference_code": "KAP-RD46-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd46-1-25",
-      "verified_at": "2026-07-18"
+      "verified_at": "2026-07-20"
+    },
+    {
+      "id": "kap-rd46-1-25-6",
+      "title": "Működő minőségrendszerhez történő csatlakozás támogatása – 6. benyújtási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "Mezőgazdasági termelők",
+      "start_date": "2026-10-15",
+      "deadline_date": "2026-10-28",
+      "deadline_text": "2026. október 15–28.",
+      "reference_code": "KAP-RD46-1-25",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd46-1-25",
+      "verified_at": "2026-07-20"
     },
     {
       "id": "kap-rd38-rd39-1-25-2026-osz",
@@ -25,7 +38,7 @@
       "reference_code": "KAP-RD38-RD39-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25",
-      "verified_at": "2026-07-18"
+      "verified_at": "2026-07-20"
     },
     {
       "id": "kap-rd38-rd39-1-25-2027-tel",
@@ -38,7 +51,7 @@
       "reference_code": "KAP-RD38-RD39-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25",
-      "verified_at": "2026-07-18"
+      "verified_at": "2026-07-20"
     },
     {
       "id": "kap-ih-70-2026",
@@ -51,7 +64,7 @@
       "reference_code": "70/2026. IH közlemény",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/news/2026-07-13/105707/kap-nemzeti-iranyito-hatosag-702026.-szamu-kozlemenye-megitelt-tamogatas-tiz",
-      "verified_at": "2026-07-18"
+      "verified_at": "2026-07-20"
     }
   ]
 }
