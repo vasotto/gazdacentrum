@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-20T17:11:42.190788+00:00",
+  "generated_at": "2026-07-20T21:53:44.884380+00:00",
   "item_count": 148,
   "items": [
+    {
+      "id": "954bae28f47ecf15",
+      "title": "Fagykár: Hogyan mérsékelhető a kockázat?",
+      "link": "https://magyarmezogazdasag.hu/2026/07/20/fagykar-hogyan-mersekelheto-a-kockazat/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-20T21:07:48+00:00"
+    },
+    {
+      "id": "009789777a7e0f10",
+      "title": "A rovarfehérje rejtett kockázatai",
+      "link": "https://magyarmezogazdasag.hu/2026/07/20/a-rovarfeherje-rejtett-kockazatai/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-20T20:04:28+00:00"
+    },
     {
       "id": "5a4bae5b839ba448",
       "title": "Se fizetség, se üzemanyag – bajban az orosz gazdák",
@@ -21,6 +41,26 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-20T18:01:59+00:00"
+    },
+    {
+      "id": "f5e0b5ddc2900acd",
+      "title": "Sokan nem értik: ezért gyülekeznek most tömegesen a gólyák a földeken",
+      "link": "https://www.agroinform.hu/kornyezetvedelem/sokan-nem-ertik-ezert-gyulekeznek-most-tomegesen-a-golyak-a-foldeken-98589-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98589",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-20T17:38:00+00:00"
+    },
+    {
+      "id": "a9e08059688c4ebf",
+      "title": "Teljesen megváltozhat a növényvédelem: erre készülhetnek a gazdák?",
+      "link": "https://www.agrarszektor.hu/innovacio/20260720/teljesen-megvaltozhat-a-novenyvedelem-erre-keszulhetnek-a-gazdak-63437",
+      "source": "Agrárszektor",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-20T17:27:00+00:00"
     },
     {
       "id": "e1da923ef9864188",
@@ -283,16 +323,6 @@
       "published_at": "2026-07-20T11:36:52+00:00"
     },
     {
-      "id": "eb71189ad8bbee6d",
-      "title": "Disznó a kertben, róka a tornácon – mit tegyünk a hívatlan vendégekkel?",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/diszno-a-kertben-roka-a-tornacon-mit-tegyunk-a-hivatlan-vendegekkel-98538-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98538",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T11:05:21+00:00"
-    },
-    {
       "id": "265bfd4db681419e",
       "title": "Spanyolország: kiváló évet zárt tavaly a hajtatási szezon",
       "link": "https://fruitveb.hu/spanyolorszag-kivalo-evet-zart-tavaly-a-hajtatasi-szezon/",
@@ -321,16 +351,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-20T10:41:00+00:00"
-    },
-    {
-      "id": "3b3bc4078560f260",
-      "title": "18 ezer tehén mellé épít új birodalmat a tejóriás a szomszédban",
-      "link": "https://www.agroinform.hu/allattenyesztes/18-ezer-tehen-melle-epit-uj-birodalmat-a-tejorias-a-szomszedban-98539-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98539",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T10:39:00+00:00"
     },
     {
       "id": "fc42f84bae8d5ec6",
@@ -591,26 +611,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-19T20:08:36+00:00"
-    },
-    {
-      "id": "dd717ee9e6af74e9",
-      "title": "Tőgygyulladás antibiotikum nélkül: a tehenek gyorsan gyógyulnak és több tejet adnak",
-      "link": "https://magyarmezogazdasag.hu/2026/07/19/togygyulladas-antibiotikum-nelkul-a-tehenek-gyorsan-gyogyulnak-es-tobb-tejet-adnak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-19T19:19:52+00:00"
-    },
-    {
-      "id": "a6a8c642f8a0724d",
-      "title": "Meghökkentő dologra hívta fel a figyelmet a szakértő - mégis elmarad a rettegett világvége?",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260719/meghokkento-dologra-hivta-fel-a-figyelmet-a-szakerto-megis-elmarad-a-rettegett-vilagvege-63426",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-19T18:17:00+00:00"
     },
     {
       "id": "e992aad7ba5728dc",
