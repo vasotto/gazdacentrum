@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-20T14:11:50.936840+00:00",
+  "generated_at": "2026-07-20T19:22:28.588162+00:00",
   "items": [
     {
       "id": "kap-rd46-1-25",
@@ -114,14 +114,56 @@
       "title": "Erdőtelepítés és fásítás támogatása",
       "status": "upcoming",
       "sectors": [
-        "Erdészet"
+        "Erdészet",
+        "Erdőtelepítés",
+        "Fásítás"
       ],
-      "eligibility_summary": "Az érintett földterület tulajdonosai, illetve a szükséges tulajdonosi hozzájárulással rendelkezők",
-      "support_amount": null,
-      "support_intensity": null,
+      "eligibility_summary": "Természetes vagy jogi személy, aki az érintett földterület tulajdonosa, vagy a tulajdonos hozzájárulásával rendelkezik; erdőtelepítéshez jóváhagyott erdőtelepítési kivitelezési terv, ipari célú fás szárú ültetvényhez a szükséges hatósági igazolás kell.",
+      "support_amount": "Erdőtelepítés: 2 299–3 920 eurónak megfelelő forintösszeg/ha; ipari célú fás szárú ültetvény: 2 233–2 329 euró/ha; műveletenként legfeljebb 7,5 millió eurónak megfelelő forintösszeg",
+      "support_intensity": "Egységköltség alapú átalány; 10 fokos vagy nagyobb lejtésű erdőtelepítésnél 10%-kal emelt támogatás; előleg nem igényelhető",
       "application_windows": [
         {
-          "id": "kap-rd38-rd39-1-25-2026-osz",
+          "id": "kap-rd38-rd39-1-25-1",
+          "label": "1. benyújtási szakasz",
+          "sequence": 1,
+          "start_date": "2025-04-02",
+          "deadline_date": "2025-05-09",
+          "deadline_text": "2025. április 2. – május 9.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "closed"
+        },
+        {
+          "id": "kap-rd38-rd39-1-25-2",
+          "label": "2. benyújtási szakasz",
+          "sequence": 2,
+          "start_date": "2025-08-01",
+          "deadline_date": "2025-09-01",
+          "deadline_text": "2025. augusztus 1. – szeptember 1.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "closed"
+        },
+        {
+          "id": "kap-rd38-rd39-1-25-3",
+          "label": "3. benyújtási szakasz",
+          "sequence": 3,
+          "start_date": "2026-01-06",
+          "deadline_date": "2026-02-02",
+          "deadline_text": "2026. január 6. – február 2.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "closed"
+        },
+        {
+          "id": "kap-rd38-rd39-1-25-4",
+          "label": "4. benyújtási szakasz",
+          "sequence": 4,
+          "start_date": "2026-06-15",
+          "deadline_date": "2026-07-15",
+          "deadline_text": "2026. június 15. – július 15.",
+          "action": "Támogatási kérelem benyújtása",
+          "status": "closed"
+        },
+        {
+          "id": "kap-rd38-rd39-1-25-5",
           "label": "5. benyújtási szakasz",
           "sequence": 5,
           "start_date": "2026-10-07",
@@ -131,7 +173,7 @@
           "status": "upcoming"
         },
         {
-          "id": "kap-rd38-rd39-1-25-2027-tel",
+          "id": "kap-rd38-rd39-1-25-6",
           "label": "6. benyújtási szakasz",
           "sequence": 6,
           "start_date": "2027-02-03",
@@ -141,14 +183,76 @@
           "status": "upcoming"
         }
       ],
-      "updates": [],
-      "documents": [],
+      "updates": [
+        {
+          "date": "2026-07-13",
+          "type": "amendment",
+          "title": "71/2026. IH közlemény – az 5. és 6. benyújtási szakasz hozzáadása",
+          "source_url": "https://kap.gov.hu/palyazatikozlemeny/kap-rd38-rd39-1-25/2026-07-13t1204090200"
+        }
+      ],
+      "documents": [
+        {
+          "type": "call",
+          "title": "Pályázati felhívás",
+          "uploaded_at": "2026-07-13",
+          "url": "https://kap.gov.hu/sites/default/files/2026-07/KAP-RD38-RD39-1-25%20Erd%C5%91telep%C3%ADt%C3%A9s%20%C3%A9s%20f%C3%A1s%C3%ADt%C3%A1s%20t%C3%A1mogat%C3%A1sa.pdf"
+        },
+        {
+          "type": "scoring",
+          "title": "6. melléklet – Tartalmi értékelési szempontok",
+          "uploaded_at": "2025-03-11",
+          "url": "https://kap.gov.hu/sites/default/files/2025-03/6.%20mell%C3%A9klet%20-%20Tartalmi%20%C3%A9rt%C3%A9kel%C3%A9si%20szempontok.pdf"
+        }
+      ],
       "official_source": {
         "name": "KAP portál",
         "url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25"
       },
-      "verified_at": "2026-07-18",
-      "requires_official_verification": true
+      "verified_at": "2026-07-20",
+      "requires_official_verification": true,
+      "program_status": "active",
+      "support_form": "Vissza nem térítendő, egységköltség alapú átalány támogatás",
+      "budget": "64 000 000 000 Ft",
+      "minimum_points": 30,
+      "maximum_points": 100,
+      "implementation_period": "A telepítést a támogatási okirat véglegessé válását követő naptól számított legfeljebb 24 hónapon belül kell megvalósítani",
+      "maintenance_period": "Erdőtelepítésnél a célállománytípustól függő ápolási időszak; jövedelempótlás esetén 13 év; ipari célú ültetvénynél legalább 8, legfeljebb 20 év",
+      "support_rates": {
+        "forest_establishment_eur_per_ha": {
+          "Tölgy, bükk és egyéb kemény lomb": 3920,
+          "Egyéb lágylomb és fenyő": 2885,
+          "Akác": 2628,
+          "Nemesnyár": 2299
+        },
+        "industrial_plantation_eur_per_ha": {
+          "Ipari célú akác ültetvény": 2233,
+          "Ipari célú nemesnyár ültetvény": 2329
+        },
+        "forest_care_eur_per_ha_per_year": {
+          "Tölgy, bükk és egyéb kemény lomb": {
+            "years": 11,
+            "amount": 605
+          },
+          "Egyéb lágylomb és fenyő": {
+            "years": 8,
+            "amount": 328
+          },
+          "Akác": {
+            "years": 5,
+            "amount": 320
+          },
+          "Nemesnyár": {
+            "years": 5,
+            "amount": 320
+          }
+        },
+        "income_compensation_eur_per_ha_per_year": {
+          "years": 12,
+          "amount": 432
+        },
+        "maximum_operation_eur": 7500000
+      }
     }
   ]
 }
