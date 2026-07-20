@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KAP-RD38-RD39-1-25 – GazdaCentrum pályázati összefoglaló</title>
+  <meta name="description" content="Közérthető összefoglaló a KAP-RD38-RD39-1-25 Erdőtelepítés és fásítás támogatása pályázatról.">
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("gazdacentrum-theme");
+        const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        const theme = saved || preferred;
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+  <style>
+    :root {
+      --purple:#8174df;
+      --purple-dark:#6558bd;
+      --purple-soft:#f0edff;
+      --lime:#aee500;
+      --lime-dark:#6f9800;
+      --lime-soft:#f1fad6;
+      --charcoal:#1b2530;
+      --page:#f6f7fb;
+      --surface:#ffffff;
+      --border:#e3e6ee;
+      --text:#252a35;
+      --muted:#697181;
+      --warning:#c47116;
+      --warning-soft:#fff5e8;
+      --danger:#b84242;
+      --danger-soft:#fff0f0;
+      --shadow:0 16px 38px rgba(31,39,51,.08);
+      --shadow-soft:0 8px 22px rgba(31,39,51,.06);
+    }
+
+    *{box-sizing:border-box}
+    html{
+      max-width:100%;
+      overflow-x:hidden;
+      scroll-behavior:smooth
+    }
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+      color:var(--text);
+      max-width:100%;
+      overflow-x:hidden;
+      background:var(--page);
+      line-height:1.6
+    }
+    a{color:inherit}
+    img{display:block}
+    button{font:inherit}
+
+    .site-header{
+      position:sticky;top:0;z-index:50;
+      background:rgba(27,37,48,.97);
+      border-bottom:1px solid rgba(255,255,255,.08);
+      backdrop-filter:blur(14px)
+    }
+    .nav-inner{
+      width:min(1180px,calc(100% - 40px));
+      min-height:72px;margin:0 auto;
+      display:flex;align-items:center;justify-content:space-between;gap:24px
+    }
+    .brand{display:inline-flex;align-items:center;text-decoration:none}
+    .brand img{width:232px;max-height:54px;object-fit:contain}
+    .nav-links{display:flex;align-items:center;gap:18px}
+    .nav-link{color:#f4f5f8;text-decoration:none;font-size:14px;font-weight:800}
+    .nav-link:hover{color:var(--lime)}
+    .theme-toggle{
+      display:inline-flex;align-items:center;gap:7px;
+      min-height:38px;padding:7px 11px;
+      color:#f4f5f8;background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.18);
+      border-radius:999px;font-size:12px;font-weight:800;cursor:pointer
+    }
+
+    .hero{
+      background:
+        radial-gradient(circle at 83% 20%,rgba(174,229,0,.18),transparent 24%),
+        linear-gradient(120deg,#fff 0%,#f7f5ff 52%,#ece8ff 100%);
+      border-bottom:1px solid var(--border)
+    }
+    .hero-inner{
+      width:min(1180px,calc(100% - 40px));
+      margin:0 auto;padding:58px 0 54px
+    }
+    .badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:15px}
+    .badge{
+      display:inline-flex;align-items:center;padding:6px 10px;
+      border-radius:999px;font-size:11px;font-weight:900;
+      text-transform:uppercase;letter-spacing:.04em
+    }
+    .badge-code{color:var(--purple-dark);background:var(--purple-soft);border:1px solid rgba(129,116,223,.25)}
+    .badge-status{color:#94510d;background:var(--warning-soft);border:1px solid rgba(196,113,22,.24)}
+    h1{
+      max-width:960px;margin:0;color:var(--charcoal);
+      font-size:clamp(38px,5vw,64px);line-height:1.04;letter-spacing:-.04em;
+      overflow-wrap:anywhere;hyphens:auto
+    }
+    .hero-copy{max-width:820px;margin:20px 0 0;color:var(--muted);font-size:18px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .button{
+      display:inline-flex;align-items:center;justify-content:center;
+      min-height:46px;padding:10px 19px;border-radius:999px;
+      text-decoration:none;font-weight:900;border:1px solid transparent
+    }
+    .button-primary{color:#243000;background:linear-gradient(135deg,#c3ef32,var(--lime));box-shadow:0 10px 24px rgba(126,168,0,.24)}
+    .button-secondary{color:var(--purple-dark);background:rgba(255,255,255,.82);border-color:rgba(129,116,223,.45)}
+
+    main{
+      width:min(1180px,calc(100% - 40px));
+      margin:0 auto;padding:40px 0 76px
+    }
+    .quick-grid{
+      display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
+      gap:14px;margin-bottom:28px
+    }
+    .quick-card{
+      padding:18px;background:var(--surface);
+      border:1px solid var(--border);border-radius:17px;box-shadow:var(--shadow-soft)
+    }
+    .quick-label{color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.045em}
+    .quick-value{margin-top:5px;color:var(--charcoal);font-size:18px;font-weight:900;line-height:1.35}
+
+    .layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:start;min-width:0}
+    .content{display:grid;gap:20px;min-width:0}
+    .side-nav{
+      position:sticky;top:94px;padding:18px;background:var(--surface);
+      border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow-soft)
+    }
+    .side-nav h2{margin:0 0 12px;color:var(--charcoal);font-size:16px}
+    .side-nav-links{display:grid;gap:7px}
+    .side-nav a{
+      padding:8px 10px;color:var(--muted);text-decoration:none;
+      border-radius:10px;font-size:13px;font-weight:800
+    }
+    .side-nav a:hover{color:var(--purple-dark);background:var(--purple-soft)}
+
+    .panel{
+      min-width:0;scroll-margin-top:96px;padding:24px;background:var(--surface);
+      border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-soft)
+    }
+    .panel h2{margin:0 0 14px;color:var(--charcoal);font-size:clamp(24px,3vw,34px);line-height:1.2;letter-spacing:-.025em}
+    .panel h3{margin:22px 0 8px;color:var(--charcoal);font-size:18px}
+    .panel p{margin:10px 0 0;color:var(--muted)}
+
+    .lead-box{
+      padding:18px;background:linear-gradient(135deg,var(--purple-soft),var(--surface));
+      border:1px solid rgba(129,116,223,.22);border-radius:15px;
+      color:var(--charcoal);font-size:16px;font-weight:700
+    }
+    .info-note,.warning-note,.danger-note{
+      margin-top:14px;padding:14px 16px;border-radius:13px;
+      color:var(--muted);font-size:13px;line-height:1.55
+    }
+    .info-note{background:var(--purple-soft);border-left:4px solid var(--purple)}
+    .warning-note{background:var(--warning-soft);border-left:4px solid var(--warning)}
+    .danger-note{background:var(--danger-soft);border-left:4px solid var(--danger)}
+
+    .two-column{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+    .list-card{padding:17px;border:1px solid var(--border);border-radius:15px;background:var(--page)}
+    .list-card.good{border-top:4px solid var(--lime)}
+    .list-card.bad{border-top:4px solid var(--danger)}
+    .list-card h3{margin:0 0 10px;font-size:16px}
+    ul{margin:0;padding-left:20px;color:var(--muted)}
+    li+li{margin-top:7px}
+
+    .table-wrap{
+      width:100%;max-width:100%;min-width:0;
+      overflow-x:auto;-webkit-overflow-scrolling:touch;
+      margin-top:14px
+    }
+    table{width:100%;border-collapse:collapse;min-width:620px}
+    th,td{padding:12px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+    th{color:var(--charcoal);background:var(--page);font-size:12px;text-transform:uppercase;letter-spacing:.035em}
+    td{color:var(--muted);font-size:14px}
+    td strong{color:var(--charcoal)}
+
+    .timeline,.risk-grid,.document-list,.update-list{display:grid;gap:11px;margin-top:14px}
+    .timeline-item{
+      display:grid;grid-template-columns:126px minmax(0,1fr);
+      gap:14px;align-items:center;padding:14px 16px;
+      background:var(--page);border:1px solid var(--border);border-radius:14px
+    }
+    .timeline-state{
+      display:inline-flex;align-items:center;justify-content:center;
+      min-height:30px;padding:5px 9px;border-radius:999px;
+      font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.04em
+    }
+    .timeline-state.closed{color:var(--muted);background:#eef0f4;border:1px solid var(--border)}
+    .timeline-state.upcoming{color:#94510d;background:var(--warning-soft);border:1px solid rgba(196,113,22,.24)}
+    .timeline-title{color:var(--charcoal);font-weight:900}
+    .timeline-date{color:var(--purple-dark);font-weight:800}
+
+    .risk-card{
+      padding:16px;background:var(--warning-soft);
+      border:1px solid rgba(196,113,22,.22);border-radius:14px
+    }
+    .risk-card h3{margin:0;color:var(--charcoal);font-size:16px}
+    .risk-card p{margin-top:6px;font-size:13px}
+
+    .document-link{
+      display:flex;align-items:center;justify-content:space-between;gap:14px;
+      padding:14px 16px;color:var(--charcoal);background:var(--page);
+      border:1px solid var(--border);border-radius:13px;text-decoration:none;font-weight:850
+    }
+    .document-link:hover{color:var(--purple-dark);border-color:rgba(129,116,223,.55)}
+    .document-meta{color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap}
+
+    .update-item{
+      padding:15px 16px;border-left:4px solid var(--purple);
+      background:var(--page);border-radius:11px
+    }
+    .update-date{color:var(--purple-dark);font-size:12px;font-weight:900}
+    .update-title{margin-top:3px;color:var(--charcoal);font-weight:900}
+    .update-copy{margin-top:5px;color:var(--muted);font-size:13px}
+
+    .source-box{
+      margin-top:18px;padding:16px;background:var(--warning-soft);
+      border:1px solid rgba(196,113,22,.22);border-radius:14px;
+      color:var(--muted);font-size:13px
+    }
+    .source-box strong{color:var(--charcoal)}
+    .source-box a{color:var(--purple-dark);font-weight:900}
+
+    .site-footer{color:#eef1f5;background:#1b2530}
+    .footer-inner{
+      width:min(1180px,calc(100% - 40px));
+      margin:0 auto;padding:38px 0 20px;
+      display:grid;grid-template-columns:1.2fr .8fr;gap:44px
+    }
+    .footer-brand img{width:240px;max-height:58px;object-fit:contain;margin-bottom:14px}
+    .footer-brand p,.footer-column p{margin:0;color:#bfc6d0;font-size:14px}
+    .footer-column h2{margin:0 0 12px;color:#fff;font-size:16px}
+    .footer-links{display:grid;gap:8px}
+    .footer-links a{color:#d6dbe3;text-decoration:none;font-size:14px}
+    .footer-bottom{
+      width:min(1180px,calc(100% - 40px));margin:0 auto;
+      padding:18px 0 24px;color:#9fa8b5;
+      border-top:1px solid rgba(255,255,255,.1);font-size:13px
+    }
+
+    html[data-theme="dark"]{
+      --purple:#a99eff;--purple-dark:#c6beff;--purple-soft:#302b50;
+      --lime:#b8ec27;--lime-dark:#d0f76a;--lime-soft:#293719;
+      --charcoal:#eef2f7;--page:#10141a;--surface:#1a2029;
+      --border:#343d49;--text:#e8ecf2;--muted:#aab3bf;
+      --warning:#df923a;--warning-soft:#352719;
+      --danger:#e17b7b;--danger-soft:#382126;
+      --shadow:0 16px 38px rgba(0,0,0,.28);
+      --shadow-soft:0 8px 22px rgba(0,0,0,.22)
+    }
+    html[data-theme="dark"] .hero{
+      background:
+        radial-gradient(circle at 83% 20%,rgba(184,236,39,.10),transparent 24%),
+        linear-gradient(120deg,#141922 0%,#191827 52%,#211e38 100%)
+    }
+    html[data-theme="dark"] .button-secondary{background:rgba(26,32,41,.88)}
+    html[data-theme="dark"] .timeline-state.closed{background:#242b35}
+    html[data-theme="dark"] .site-footer{background:#0b0f14}
+
+    @media(max-width:980px){
+      .quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .layout{grid-template-columns:1fr}
+      .side-nav{position:static;order:-1}
+      .side-nav-links{display:flex;flex-wrap:wrap}
+    }
+    @media(max-width:720px){
+      .two-column{grid-template-columns:1fr}
+      .timeline-item{grid-template-columns:1fr}
+      .footer-inner{grid-template-columns:1fr}
+    }
+    @media(max-width:560px){
+      .site-header{position:static}
+      .nav-inner{
+        width:min(100% - 28px,1180px);min-height:auto;
+        padding:12px 0;flex-direction:column;gap:10px
+      }
+      .brand img{width:190px}
+      .nav-links{width:100%;justify-content:center;flex-wrap:wrap}
+      .hero-inner,main,.footer-inner,.footer-bottom{width:min(100% - 28px,1180px)}
+      .hero-inner{padding:42px 0 46px}
+      h1{font-size:32px;line-height:1.12}
+      .hero-copy{font-size:16px;overflow-wrap:anywhere}
+      .button{width:100%;white-space:normal;text-align:center}
+      .quick-grid{grid-template-columns:1fr}
+      .panel{padding:18px;overflow:hidden}
+      .panel h2,.panel h3,.panel p,.panel li,.side-nav a{
+        overflow-wrap:anywhere;
+        hyphens:auto
+      }
+      table{min-width:560px}
+      .document-link{align-items:flex-start;flex-direction:column}
+      .document-meta{white-space:normal}
+      .footer-brand img{width:218px}
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Pályázati adatlap navigáció">
+      <a class="brand" href="index.html" aria-label="GazdaCentrum.hu kezdőlap">
+        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="palyazatok.html">Pályázatok</a>
+        <a class="nav-link" href="index.html">Kezdőlap</a>
+        <button id="theme-toggle" class="theme-toggle" type="button">
+          <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+          <span class="theme-toggle-text">Sötét mód</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badges">
+        <span class="badge badge-code">KAP-RD38-RD39-1-25</span>
+        <span class="badge badge-status">Hamarosan nyílik</span>
+      </div>
+      <h1>Erdőtelepítés és fásítás támogatása</h1>
+      <p class="hero-copy">
+        Közérthető összefoglaló földtulajdonosoknak és földhasználóknak:
+        jogosultság, minimum terület, hektáronkénti támogatás,
+        benyújtási szakaszok, pontozás, fenntartási kötelezettségek
+        és a legfontosabb buktatók.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#gyors-attekintes">Gyors áttekintés</a>
+        <a class="button button-secondary"
+           href="https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25"
+           target="_blank" rel="noopener noreferrer">
+          Hivatalos pályázati oldal
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="gyors-attekintes" class="quick-grid">
+      <article class="quick-card">
+        <div class="quick-label">Kik pályázhatnak?</div>
+        <div class="quick-value">Tulajdonos vagy tulajdonosi hozzájárulással rendelkező személy</div>
+      </article>
+      <article class="quick-card">
+        <div class="quick-label">Minimum terület</div>
+        <div class="quick-value">0,5 ha kérelmenként</div>
+      </article>
+      <article class="quick-card">
+        <div class="quick-label">Telepítési támogatás</div>
+        <div class="quick-value">2 233–3 920 euró/ha</div>
+      </article>
+      <article class="quick-card">
+        <div class="quick-label">Következő beadás</div>
+        <div class="quick-value">2026. október 7. – november 4.</div>
+      </article>
+      <article class="quick-card">
+        <div class="quick-label">Minimum pontszám</div>
+        <div class="quick-value">30 pont</div>
+      </article>
+    </section>
+
+    <div class="layout">
+      <div class="content">
+        <section id="roviden" class="panel">
+          <h2>Röviden: nekem való lehet?</h2>
+          <div class="lead-box">
+            Annak lehet megfelelő, aki mezőgazdasági területét hosszú távon
+            erdővé kívánja alakítani, vagy ipari célú akác- vagy nemesnyár-
+            ültetvényt létesítene, és rendelkezik a szükséges tulajdonosi,
+            hatósági és erdészeti dokumentumokkal.
+          </div>
+          <p>
+            Ez nem hagyományos gép- vagy építési pályázat. A támogatás
+            hektáronként meghatározott egységköltségek alapján jár a
+            telepítésre, egyes kiegészítő elemekre, továbbá erdőtelepítésnél
+            az ápolásra és bizonyos esetekben a kieső mezőgazdasági jövedelem
+            pótlására.
+          </p>
+          <div class="info-note">
+            <strong>GazdaCentrum-értelmezés:</strong>
+            ez hosszú távú földhasználat-váltás. A támogatási összeg mellett
+            a 8–13 éves vagy még hosszabb fenntartási kötelezettséget is
+            mérlegelni kell.
+          </div>
+        </section>
+
+        <section id="jogosultak" class="panel">
+          <h2>Kik pályázhatnak?</h2>
+          <p>
+            Természetes vagy jogi személy, aki a kérelem benyújtásakor az
+            érintett földterület tulajdonosa, vagy rendelkezik a tulajdonos
+            hozzájárulásával.
+          </p>
+          <div class="two-column">
+            <article class="list-card good">
+              <h3>Szükséges alapfeltételek</h3>
+              <ul>
+                <li>Kedvezményezetti Nyilvántartási Rendszerben kérelemre nyilvántartott státusz.</li>
+                <li>Erdőtelepítésnél jóváhagyott erdőtelepítési kivitelezési terv.</li>
+                <li>Ipari célú ültetvénynél a szükséges hatósági igazolás.</li>
+                <li>Nem saját tulajdonú területnél rendezett használati jog a teljes kötelezettségi időre.</li>
+                <li>Legalább 0,5 ha tervezett erdőrészlet vagy ültetvény egy kérelemben.</li>
+              </ul>
+            </article>
+            <article class="list-card bad">
+              <h3>Fontos kizárások</h3>
+              <ul>
+                <li>Állami erdészeti társaság nem pályázhat.</li>
+                <li>Konzorciumi benyújtás nem lehetséges.</li>
+                <li>Bizonyos természetvédelmi bírságok kizáró okot jelenthetnek.</li>
+                <li>Nehéz helyzetben lévő vállalkozás nem részesülhet támogatásban.</li>
+                <li>Korábbi súlyos erdészeti támogatási szabálytalanság kizáró ok lehet.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="warning-note">
+            A jogosultsághoz nem STÉ-küszöb tartozik. A döntő feltétel a
+            területhez kapcsolódó jogcím, a jóváhagyott terv vagy hatósági
+            igazolás, valamint a minimum 0,5 hektáros terület.
+          </div>
+        </section>
+
+        <section id="tamogathato" class="panel">
+          <h2>Mire kérhető, és mire nem?</h2>
+          <div class="two-column">
+            <article class="list-card good">
+              <h3>Támogatható</h3>
+              <ul>
+                <li>Tölgy, bükk és más kemény lombos célállomány telepítése.</li>
+                <li>Egyéb lágylombos és fenyő célállomány telepítése.</li>
+                <li>Akác- és nemesnyár-erdő telepítése.</li>
+                <li>Ipari célú akác- vagy nemesnyár-ültetvény létrehozása.</li>
+                <li>Erdőtelepítés ápolása a meghatározott időszakban.</li>
+                <li>Kieső mezőgazdasági jövedelem pótlása legfeljebb 12 évig.</li>
+                <li>Kerítés, villanypásztor, padka, erdőszegély és meghatározott elegyítési elemek.</li>
+              </ul>
+            </article>
+            <article class="list-card bad">
+              <h3>Nem támogatható</h3>
+              <ul>
+                <li>Rövid vágásfordulójú energetikai ültetvény.</li>
+                <li>Karácsonyfa-telep.</li>
+                <li>Gyors növekedésű fajok energetikai célú ültetvénye.</li>
+                <li>A felhívás 3.1.1. és 3.1.2. pontjában nem szereplő más tevékenység.</li>
+                <li>Bizonyos védett vagy Natura 2000 területeken intenzíven terjedő fafaj alkalmazása.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="osszeg" class="panel">
+          <h2>Támogatási összeg és kifizetés</h2>
+          <p>
+            Vissza nem térítendő, egységköltség-alapú átalánytámogatás.
+            Előleg nem igényelhető. A létesítésre irányuló műveletenkénti
+            felső határ 7,5 millió eurónak megfelelő forintösszeg.
+          </p>
+
+          <h3>Erdőtelepítés hektáronként</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Célállománytípus</th><th>Támogatás</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Tölgy, bükk és egyéb kemény lomb</strong></td><td>3 920 euró/ha</td></tr>
+                <tr><td><strong>Egyéb lágylomb és fenyő</strong></td><td>2 885 euró/ha</td></tr>
+                <tr><td><strong>Akác</strong></td><td>2 628 euró/ha</td></tr>
+                <tr><td><strong>Nemesnyár</strong></td><td>2 299 euró/ha</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Ipari célú fás szárú ültetvény</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Ültetvénytípus</th><th>Támogatás</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Ipari célú akác</strong></td><td>2 233 euró/ha</td></tr>
+                <tr><td><strong>Ipari célú nemesnyár</strong></td><td>2 329 euró/ha</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Ápolás és jövedelempótlás</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Jogcím</th><th>Időtartam</th><th>Támogatás</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Kemény lomb ápolása</strong></td><td>11 év</td><td>605 euró/ha/év</td></tr>
+                <tr><td><strong>Lágylomb és fenyő ápolása</strong></td><td>8 év</td><td>328 euró/ha/év</td></tr>
+                <tr><td><strong>Akác ápolása</strong></td><td>5 év</td><td>320 euró/ha/év</td></tr>
+                <tr><td><strong>Nemesnyár ápolása</strong></td><td>5 év</td><td>320 euró/ha/év</td></tr>
+                <tr><td><strong>Kieső jövedelem pótlása</strong></td><td>12 év</td><td>432 euró/ha/év</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="info-note">
+            A 10 fokos vagy nagyobb lejtésű erdőtelepítésnél a hektáronkénti
+            telepítési támogatás 10%-kal emelkedik.
+          </div>
+        </section>
+
+        <section id="hataridok" class="panel">
+          <h2>Benyújtási szakaszok</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-state closed">Lezárult</span>
+              <div><div class="timeline-title">1. szakasz</div><div class="timeline-date">2025. április 2. – május 9.</div></div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-state closed">Lezárult</span>
+              <div><div class="timeline-title">2. szakasz</div><div class="timeline-date">2025. augusztus 1. – szeptember 1.</div></div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-state closed">Lezárult</span>
+              <div><div class="timeline-title">3. szakasz</div><div class="timeline-date">2026. január 6. – február 2.</div></div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-state closed">Lezárult</span>
+              <div><div class="timeline-title">4. szakasz</div><div class="timeline-date">2026. június 15. – július 15.</div></div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-state upcoming">Következő</span>
+              <div><div class="timeline-title">5. szakasz</div><div class="timeline-date">2026. október 7. – november 4.</div></div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-state upcoming">Később</span>
+              <div><div class="timeline-title">6. szakasz</div><div class="timeline-date">2027. február 3. – március 3.</div></div>
+            </article>
+          </div>
+          <div class="warning-note">
+            Forráskimerülés esetén az Irányító Hatóság a szakaszt a tervezett
+            zárás előtt is lezárhatja külön közleménnyel.
+          </div>
+        </section>
+
+        <section id="pontozas" class="panel">
+          <h2>Pontozás</h2>
+          <p>
+            Legfeljebb 100 pont szerezhető. <strong>A kötelező minimum
+            30 pont</strong>; az ezt el nem érő kérelem nem támogatható.
+            Az IH a rendelkezésre álló forrás és a kérelmek száma alapján
+            30 pontnál magasabb tényleges támogathatósági ponthatárt is
+            meghatározhat.
+          </p>
+
+          <h3>Erdőtelepítés fő értékelési szempontjai</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Szempont</th><th>Maximum</th></tr></thead>
+              <tbody>
+                <tr><td>Vármegye erdősültsége</td><td>12 pont</td></tr>
+                <tr><td>Tervezett erdő természetességi állapota</td><td>25 pont</td></tr>
+                <tr><td>Erdőrészlet rendeltetése</td><td>10 pont</td></tr>
+                <tr><td>Klimatikus megfelelés</td><td>20 pont</td></tr>
+                <tr><td>Terület aranykorona-értéke</td><td>23 pont</td></tr>
+                <tr><td>Erdőszegély létesítésének vállalása</td><td>10 pont</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Ipari célú ültetvény fő értékelési szempontjai</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Szempont</th><th>Maximum</th></tr></thead>
+              <tbody>
+                <tr><td>Vármegye erdősültsége</td><td>30 pont</td></tr>
+                <tr><td>Terület aranykorona-értéke</td><td>50 pont</td></tr>
+                <tr><td>11. évben vagy később vállalt kitermelés</td><td>20 pont</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="danger-note">
+            <strong>Minimum: 30 pont.</strong>
+            Erdőtelepítésnél több erdőrészlet esetén az értékelés
+            erdőrészletenként történik.
+          </div>
+        </section>
+
+        <section id="kotelezettsegek" class="panel">
+          <h2>Fő kötelezettségek</h2>
+          <ul>
+            <li>A telepítést a támogatási okirat véglegessé válásától számított 24 hónapon belül be kell fejezni.</li>
+            <li>A támogatási kérelem benyújtása előtt megkezdett telepítés nem támogatható.</li>
+            <li>Az ápolási munkákat évente el kell végezni.</li>
+            <li>A létrehozott erdőt az ápolási időszak végéig fenn kell tartani.</li>
+            <li>Jövedelempótlás igénybevétele esetén a fenntartási idő 13 év.</li>
+            <li>Ipari ültetvénynél legalább 8, vállalástól függően legfeljebb 20 éves időszakkal kell számolni.</li>
+            <li>A területet és az erdészeti nyilvántartásokat a felhívás szerint rendezni kell.</li>
+            <li>A kiegészítő elemeket a kötelezettségi idő végéig megfelelő állapotban kell fenntartani.</li>
+          </ul>
+        </section>
+
+        <section id="buktatok" class="panel">
+          <h2>A legfontosabb buktatók</h2>
+          <div class="risk-grid">
+            <article class="risk-card">
+              <h3>Túl korai telepítés</h3>
+              <p>
+                A kérelem benyújtása előtt megkezdett művelet az érintett
+                terület kérelmének elutasítását, később akár visszafizetést
+                okozhat.
+              </p>
+            </article>
+            <article class="risk-card">
+              <h3>Hiányzó vagy nem megfelelő erdészeti terv</h3>
+              <p>
+                Erdőtelepítésnél jóváhagyott kivitelezési terv nélkül a
+                jogosultság nem áll fenn.
+              </p>
+            </article>
+            <article class="risk-card">
+              <h3>Pontatlan területrajz</h3>
+              <p>
+                A támogatásba vont területet EOV-koordinátákkal vagy
+                megfelelő shp-fájllal kell megadni; kézi táblarajz nem
+                használható.
+              </p>
+            </article>
+            <article class="risk-card">
+              <h3>A vállalt erdőszegély elmaradása</h3>
+              <p>
+                Pontlevonás, visszafizetés, szélsőséges esetben az adott
+                terület teljes támogatási jogosultságának elvesztése is
+                bekövetkezhet.
+              </p>
+            </article>
+            <article class="risk-card">
+              <h3>Nem megfelelő tőszám vagy szaporítóanyag</h3>
+              <p>
+                A minimális tőszám, az igazolt származás és a telepítési
+                terv előírásainak megsértése támogatásvesztéssel járhat.
+              </p>
+            </article>
+            <article class="risk-card">
+              <h3>Fenntartási kötelezettség megszegése</h3>
+              <p>
+                A korai kitermelés, az ápolás elmulasztása vagy a
+                kiegészítő elemek megszüntetése részleges vagy teljes
+                visszafizetési kötelezettséget okozhat.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="dokumentumok" class="panel">
+          <h2>Hivatalos dokumentumok</h2>
+          <div class="document-list">
+            <a class="document-link"
+               href="https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25"
+               target="_blank" rel="noopener noreferrer">
+              <span>Hivatalos pályázati adatlap és összes dokumentum</span>
+              <span class="document-meta">kap.gov.hu</span>
+            </a>
+            <a class="document-link"
+               href="https://kap.gov.hu/sites/default/files/2026-07/KAP-RD38-RD39-1-25%20Erd%C5%91telep%C3%ADt%C3%A9s%20%C3%A9s%20f%C3%A1s%C3%ADt%C3%A1s%20t%C3%A1mogat%C3%A1sa.pdf"
+               target="_blank" rel="noopener noreferrer">
+              <span>Aktuális pályázati felhívás</span>
+              <span class="document-meta">PDF · 2026.07.13.</span>
+            </a>
+            <a class="document-link"
+               href="https://kap.gov.hu/sites/default/files/2025-03/6.%20mell%C3%A9klet%20-%20Tartalmi%20%C3%A9rt%C3%A9kel%C3%A9si%20szempontok.pdf"
+               target="_blank" rel="noopener noreferrer">
+              <span>6. melléklet – Tartalmi értékelési szempontok</span>
+              <span class="document-meta">PDF · pontozás</span>
+            </a>
+          </div>
+        </section>
+
+        <section id="valtozasok" class="panel">
+          <h2>Módosítások és változási előzmények</h2>
+          <div class="update-list">
+            <article class="update-item">
+              <div class="update-date">2026. július 13.</div>
+              <div class="update-title">71/2026. IH közlemény</div>
+              <div class="update-copy">
+                A felhívás két új benyújtási szakasszal egészült ki:
+                2026. október 7. – november 4., valamint
+                2027. február 3. – március 3.
+              </div>
+            </article>
+          </div>
+          <div class="source-box">
+            <strong>Fontos:</strong> ez tájékoztató, közérthető összefoglaló.
+            A pályázat benyújtása előtt minden adatot, mellékletet és
+            módosítást ellenőrizni kell a
+            <a href="https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25"
+               target="_blank" rel="noopener noreferrer">hivatalos KAP-oldalon</a>.
+            Utolsó ellenőrzés: 2026. július 20.
+          </div>
+        </section>
+      </div>
+
+      <aside class="side-nav">
+        <h2>Az összefoglaló részei</h2>
+        <div class="side-nav-links">
+          <a href="#roviden">Röviden</a>
+          <a href="#jogosultak">Jogosultak</a>
+          <a href="#tamogathato">Mire kérhető?</a>
+          <a href="#osszeg">Összeg</a>
+          <a href="#hataridok">Határidők</a>
+          <a href="#pontozas">Pontozás</a>
+          <a href="#kotelezettsegek">Kötelezettségek</a>
+          <a href="#buktatok">Buktatók</a>
+          <a href="#dokumentumok">Dokumentumok</a>
+          <a href="#valtozasok">Módosítások</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+        <p>Közérthető pályázati összefoglalók hivatalos források alapján.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Navigáció</h2>
+        <div class="footer-links">
+          <a href="index.html">Kezdőlap</a>
+          <a href="palyazatok.html">Pályázatok</a>
+          <a href="impresszum.html">Impresszum</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 GazdaCentrum.hu – Részletes pályázati adatlap
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("theme-toggle");
+    const icon = toggle.querySelector(".theme-toggle-icon");
+    const text = toggle.querySelector(".theme-toggle-text");
+
+    function updateToggle() {
+      const dark = document.documentElement.dataset.theme === "dark";
+      icon.textContent = dark ? "☀" : "☾";
+      text.textContent = dark ? "Világos mód" : "Sötét mód";
+      toggle.setAttribute("aria-pressed", dark ? "true" : "false");
+    }
+
+    toggle.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      document.documentElement.style.colorScheme = next;
+      try {
+        localStorage.setItem("gazdacentrum-theme", next);
+      } catch (error) {}
+      updateToggle();
+    });
+
+    updateToggle();
+  </script>
+</body>
+</html>
