@@ -468,6 +468,22 @@
       border-radius: 14px;
     }
 
+    .window-item.closed {
+      background: #f1f3f6;
+      border-color: var(--border);
+    }
+
+    .window-item.closed .window-title,
+    .window-item.closed .window-action,
+    .window-item.closed .window-date {
+      color: var(--muted);
+    }
+
+    .window-item.open {
+      background: var(--lime-soft);
+      border-color: rgba(111, 152, 0, 0.28);
+    }
+
     .window-title {
       color: var(--charcoal);
       font-weight: 900;
@@ -661,6 +677,11 @@
       color: #c9f45b;
       background: var(--lime-soft);
       border-color: rgba(111, 152, 0, 0.24);
+    }
+
+    html[data-theme="dark"] .window-item.closed {
+      background: #242b35;
+      border-color: var(--border);
     }
 
     html[data-theme="dark"] .site-footer {
@@ -1125,7 +1146,12 @@
             const row =
               document.createElement("div");
 
-            row.className = "window-item";
+            const windowStatus =
+              getWindowStatus(windowItem);
+
+            row.className =
+              "window-item " +
+              windowStatus;
 
             const copy =
               document.createElement("div");
@@ -1189,14 +1215,17 @@
 
       actions.className = "grant-actions";
 
+      const detailPages = {
+        "KAP-RD46-1-25":
+          "palyazat-kap-rd46-1-25.html",
+        "KAP-RD38-RD39-1-25":
+          "palyazat-kap-rd38-rd39-1-25.html"
+      };
+
       const detailUrl =
         grant.detail_url ||
-        (
-          grant.reference_code ===
-          "KAP-RD46-1-25"
-            ? "palyazat-kap-rd46-1-25.html"
-            : ""
-        );
+        detailPages[grant.reference_code] ||
+        "";
 
       if (detailUrl) {
         const detailLink =
