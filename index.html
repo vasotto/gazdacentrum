@@ -2951,10 +2951,6 @@
         return;
       }
 
-      const reduceMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      );
-
       function updateBackToTop() {
         const visible = window.scrollY > 500;
 
@@ -2969,14 +2965,79 @@
         );
       }
 
-      backToTop.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: reduceMotion.matches
-            ? "auto"
-            : "smooth"
-        });
-      });
+      let scrollAnimationFrame = null;
+
+      function stopScrollAnimation() {
+        if (scrollAnimationFrame !== null) {
+          cancelAnimationFrame(scrollAnimationFrame);
+          scrollAnimationFrame = null;
+        }
+      }
+
+      function smoothScrollToTop() {
+        stopScrollAnimation();
+
+        const startPosition =
+          window.scrollY ||
+          document.documentElement.scrollTop ||
+          0;
+
+        if (startPosition <= 0) {
+          return;
+        }
+
+        const duration = Math.min(
+          1100,
+          Math.max(650, startPosition * 0.12)
+        );
+
+        const startTime = performance.now();
+
+        function animate(currentTime) {
+          const progress = Math.min(
+            (currentTime - startTime) / duration,
+            1
+          );
+
+          const easedProgress =
+            1 - Math.pow(1 - progress, 3);
+
+          window.scrollTo(
+            0,
+            Math.round(
+              startPosition *
+              (1 - easedProgress)
+            )
+          );
+
+          if (progress < 1) {
+            scrollAnimationFrame =
+              requestAnimationFrame(animate);
+          } else {
+            scrollAnimationFrame = null;
+          }
+        }
+
+        scrollAnimationFrame =
+          requestAnimationFrame(animate);
+      }
+
+      backToTop.addEventListener(
+        "click",
+        smoothScrollToTop
+      );
+
+      window.addEventListener(
+        "wheel",
+        stopScrollAnimation,
+        { passive: true }
+      );
+
+      window.addEventListener(
+        "touchstart",
+        stopScrollAnimation,
+        { passive: true }
+      );
 
       window.addEventListener(
         "scroll",

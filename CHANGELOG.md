@@ -21,6 +21,7 @@
 - A részletes pályázati oldalak teljes oldalas vízszintes kilógása megszűnt.
 - A széles táblázatok a saját keretükön belül görgethetők.
 - Minden nyilvános oldalon megjelenik egy képernyő tetején középre igazított vissza-a-tetejére nyíl hosszabb görgetés után.
+- A vissza-a-tetejére nyíl egyedi animációval, minden támogatott böngészőben finoman görget az oldal tetejére.
 
 ### Gépesítés kategória
 
