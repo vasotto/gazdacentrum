@@ -20,6 +20,7 @@
 - A főoldali mobilmenü több sorba törik, így minden menüpont látható.
 - A részletes pályázati oldalak teljes oldalas vízszintes kilógása megszűnt.
 - A széles táblázatok a saját keretükön belül görgethetők.
+- Minden nyilvános oldalon megjelenik egy képernyő tetején középre igazított vissza-a-tetejére nyíl hosszabb görgetés után.
 
 ### Gépesítés kategória
 

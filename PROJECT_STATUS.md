@@ -104,6 +104,7 @@ A program:
 Működő elemek:
 
 - mobilbarát felső navigáció;
+- minden nyilvános oldalon automatikusan megjelenő, középre igazított vissza-a-tetejére gomb hosszabb görgetés után;
 - kategóriakártyák és kategóriaszűrők;
 - `Teendők és határidők` kiemelt nézet;
 - friss független agrárhírek;
