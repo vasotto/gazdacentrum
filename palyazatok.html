@@ -1078,23 +1078,7 @@
         createFact(
           "Kik pályázhatnak?",
           grant.eligibility_summary
-        )
-      );
-
-      if (
-        grant.minimum_points !== null &&
-        grant.minimum_points !== undefined &&
-        grant.minimum_points !== ""
-      ) {
-        facts.append(
-          createFact(
-            "Minimum pontszám",
-            grant.minimum_points + " pont"
-          )
-        );
-      }
-
-      facts.append(
+        ),
         createFact(
           "Támogatási összeg",
           grant.support_amount
