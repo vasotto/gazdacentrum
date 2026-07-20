@@ -1286,9 +1286,17 @@
         width: 190px;
       }
 
+      .nav-inner {
+        flex-wrap: wrap;
+        padding: 10px 0;
+      }
+
       .nav-links {
-        gap: 16px;
-        overflow-x: auto;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+        overflow-x: visible;
       }
 
       .nav-links a {
@@ -1350,7 +1358,26 @@
 
       .nav-links {
         width: 100%;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-content: stretch;
+        gap: 8px;
+        overflow: visible;
+      }
+
+      .nav-links a {
+        min-width: 0;
+        padding: 8px 6px;
+        text-align: center;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.06);
+      }
+
+      .nav-links .theme-toggle {
+        grid-column: 1 / -1;
+        justify-self: center;
       }
 
       .hero h1 {
