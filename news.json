@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-21T17:01:45.237847+00:00",
-  "item_count": 154,
+  "generated_at": "2026-07-21T21:47:37.839425+00:00",
+  "item_count": 152,
   "items": [
+    {
+      "id": "fba93a3fb6ef82a8",
+      "title": "Biológiai készítmények az agráriumban",
+      "link": "https://magyarmezogazdasag.hu/2026/07/21/biologiai-keszitmenyek-az-agrariumban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-21T21:07:50+00:00"
+    },
+    {
+      "id": "147efed1086bf1bd",
+      "title": "Faluszövetkezetből alakult",
+      "link": "https://magyarmezogazdasag.hu/2026/07/21/faluszovetkezetbol-alakult/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-21T20:09:22+00:00"
+    },
+    {
+      "id": "80a41790dffd99bf",
+      "title": "Ökológiai Fitoplazma Menedzsment (ÖFM): Az aranyszínű sárgaság és az amerikai szőlőkabóca elleni védekezés ajánlott technológiája ökológiai művelésben",
+      "link": "https://biokutatas.hu/tudastar/okologiai-fitoplazma-menedzsment-ofm-az-aranyszinu-sargasag-es-az-amerikai-szolokaboca-elleni-vedekezes-ajanlott-technologiaja-okologiai-muvelesben/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-07-21T19:14:27+00:00"
+    },
+    {
+      "id": "89d5581903f32d5c",
+      "title": "Juhok és kecskék is védik az erdőket",
+      "link": "https://magyarmezogazdasag.hu/2026/07/21/juhok-es-kecskek-is-vedik-az-erdoket/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-21T19:06:18+00:00"
+    },
+    {
+      "id": "899dbd70413ae677",
+      "title": "Érdekes dolgot figyeltek meg a Balatonnál: ezt okozta a vihar a tónál",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260721/erdekes-dolgot-figyeltek-meg-a-balatonnal-ezt-okozta-a-vihar-a-tonal-63456",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-21T18:33:00+00:00"
+    },
     {
       "id": "9ced1ed56671a890",
       "title": "Ismét téma a Brenner-hágó: környezetvédelem vagy az áru szabad mozgása",
@@ -11,6 +61,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-21T18:03:55+00:00"
+    },
+    {
+      "id": "f7c889c14bc3d956",
+      "title": "Zsákutcába szorult az ukrán gabona: a tengeren a rakéták, a Dunán az alacsony vízállás a gát",
+      "link": "https://www.agroinform.hu/termenypiacok/zsakutcaba-szorult-az-ukran-gabona-a-tengeren-a-raketak-a-dunan-az-alacsony-vizallas-a-gat-98743-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98743",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-21T17:04:00+00:00"
     },
     {
       "id": "d1cee890f0ed7f2a",
@@ -313,16 +373,6 @@
       "published_at": "2026-07-21T10:41:00+00:00"
     },
     {
-      "id": "090c45081076911c",
-      "title": "Juhtartók és méhészek siratják a munkájukat: ötezer hektáron tombolt a tűz",
-      "link": "https://www.agroinform.hu/gazdasag/juhtartok-es-meheszek-siratjak-a-munkajukat-otezer-hektaron-tombolt-a-tuz-98663-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98663",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-21T10:35:27+00:00"
-    },
-    {
       "id": "cfd03182f98cea39",
       "title": "Meglepő dolog történt a Balatonnál: erre kevesen számítottak",
       "link": "https://www.agrarszektor.hu/fenntarthatosag/20260721/meglepo-dolog-tortent-a-balatonnal-erre-kevesen-szamitottak-63453",
@@ -333,16 +383,6 @@
       "published_at": "2026-07-21T10:32:00+00:00"
     },
     {
-      "id": "2a757ba529c9464a",
-      "title": "130 forint alá esett a nyerstej ára, de nem ez a legmeglepőbb adat",
-      "link": "https://www.agroinform.hu/termenypiacok/130-forint-ala-esett-a-nyerstej-ara-de-nem-ez-a-legmeglepobb-adat-98607-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98607",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-21T10:06:00+00:00"
-    },
-    {
       "id": "5d151ed1457f210d",
       "title": "Műtrágya nélkül nincs biztonság",
       "link": "https://magyarmezogazdasag.hu/2026/07/21/mutragya-nelkul-nincs-biztonsag/",
@@ -351,16 +391,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-21T10:04:52+00:00"
-    },
-    {
-      "id": "b027bff237bf99bb",
-      "title": "Bizonyít a mérlegen!",
-      "link": "https://www.agroinform.hu/szantofold/bizonyit-a-merlegen-98550-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98550",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-21T09:36:31+00:00"
     },
     {
       "id": "f69c19752d848efa",
@@ -593,46 +623,6 @@
       "published_at": "2026-07-20T20:04:28+00:00"
     },
     {
-      "id": "5a4bae5b839ba448",
-      "title": "Se fizetség, se üzemanyag – bajban az orosz gazdák",
-      "link": "https://magyarmezogazdasag.hu/2026/07/20/se-fizetseg-se-uzemanyag-bajban-az-orosz-gazdak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T19:06:57+00:00"
-    },
-    {
-      "id": "d5f21f96f853b236",
-      "title": "A boltok nyáron is friss termékekre építenek",
-      "link": "https://magyarmezogazdasag.hu/2026/07/20/a-boltok-nyaron-is-friss-termekekre-epitenek/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T18:01:59+00:00"
-    },
-    {
-      "id": "a9e08059688c4ebf",
-      "title": "Teljesen megváltozhat a növényvédelem: erre készülhetnek a gazdák?",
-      "link": "https://www.agrarszektor.hu/innovacio/20260720/teljesen-megvaltozhat-a-novenyvedelem-erre-keszulhetnek-a-gazdak-63437",
-      "source": "Agrárszektor",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T17:27:00+00:00"
-    },
-    {
-      "id": "e9d0e4d6264d77c1",
-      "title": "Őrült áringadozás a piacokon: nem semmi, ami a spanyoloknál történik",
-      "link": "https://www.agrarszektor.hu/noveny/20260720/orult-aringadozas-a-piacokon-nem-semmi-ami-a-spanyoloknal-tortenik-63441",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-20T16:32:00+00:00"
-    },
-    {
       "id": "03e8861555998118",
       "title": "Óriási a bizonytalanság a brit tejágazatban: ebből még áruhiány is lehet",
       "link": "https://agronaplo.hu/agrarhirek/20260720/oriasi-a-bizonytalansag-a-brit-tejagazatban-ebbol-meg-aruhiany-is-lehet-40742",
@@ -663,16 +653,6 @@
       "published_at": "2026-07-20T14:10:00+00:00"
     },
     {
-      "id": "4d390751317f273e",
-      "title": "A gazdák a tisztességes felvásárlási árakért emelnek szót",
-      "link": "https://magyarmezogazdasag.hu/2026/07/20/a-gazdak-a-tisztesseges-felvasarlasi-arakert-emelnek-szot/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-20T14:06:24+00:00"
-    },
-    {
       "id": "40ae3675a4b93ddc",
       "title": "Rengetegen adják fel az ökogazdálkodást itthon: ez áll a háttérben",
       "link": "https://agronaplo.hu/agrarhirek/20260720/rengetegen-adjak-fel-az-okogazdalkodast-itthon-ez-all-a-hatterben-40741",
@@ -701,6 +681,16 @@
       "content_type": "Piaci adat",
       "source_type": "hivatalos",
       "published_at": "2026-07-20T13:02:37+00:00"
+    },
+    {
+      "id": "9d81e958b6971f0d",
+      "title": "Bizonyít a mérlegen!",
+      "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/bizonyit-a-merlegen/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-20T11:41:22+00:00"
     },
     {
       "id": "3e8c075a80537e83",
@@ -1401,16 +1391,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-06-17T12:00:46+00:00"
-    },
-    {
-      "id": "f70530f3125acc2d",
-      "title": "Milyen hozamokat remélhetünk az ökoszántón az egyre szélsőségesebbé váló éghajlati viszonyok mellett?",
-      "link": "https://biokutatas.hu/hir/szantofoldi-szakmai-nap-2026/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-06-16T11:47:07+00:00"
     },
     {
       "id": "87d32caf429e87d9",
