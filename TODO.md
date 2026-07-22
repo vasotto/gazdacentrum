@@ -159,6 +159,25 @@ Utolsó frissítés: 2026. július 21.
 - [ ] Későbbi bevételi lehetőségek vizsgálata: sikeres közvetítési díj, online fizetés és számlázási támogatás.
 - [ ] A szerelőközvetítés fejlesztését csak a tudásbázis, a profilrendszer és a minőségellenőrzés működő alapjai után megkezdeni.
 
+## Határidő- és pályázati naptárnézet
+
+- [ ] Külön `Naptár` menüpont és önálló naptároldal megtervezése.
+- [ ] Két alapnézet kialakítása: havi naptár és határidőlista.
+- [ ] A `deadlines.json` és `grants.json` eseményeinek egységes naptári adatmodellbe rendezése.
+- [ ] Csak biztos, konkrét kezdő- vagy záródátummal rendelkező eseményt megjeleníteni a havi naptárban.
+- [ ] A relatív határidőket, például „az esemény észlelésétől számított 21 napon belül”, külön relatív határidőként kezelni.
+- [ ] Eseménytípusok meghatározása: pályázati benyújtás, kifizetési kérelem, adatszolgáltatás, támogatási kötelezettség, vis maior, AKG, ÖKO, AÖP és más hivatalos agrárhatáridő.
+- [ ] Színjelölések kialakítása: nyitott, közelgő, lejárt, sürgős és külön ellenőrzést igénylő esemény.
+- [ ] Kattintható eseményadatlap megtervezése az esemény nevével, időszakával, érintettekkel, teendővel, kapcsolódó adatlapokkal és hivatalos forrással.
+- [ ] Az utolsó ellenőrzés dátumát és a hivatalos forrás ellenőrzésére vonatkozó figyelmeztetést minden eseménynél megjeleníteni.
+- [ ] Mobilbarát havi nézet és egyszerű, jól olvasható listanézet kialakítása.
+- [ ] Lejárt események automatikus szürkítése, nyitott események kiemelése és közeli határidők figyelmeztető jelölése.
+- [ ] A pályázati részletes adatlapok és a naptáresemények kétirányú összekapcsolása.
+- [ ] Későbbi bővítésként saját események mentésének és szűrésének megtervezése felhasználói fiókokhoz.
+- [ ] Későbbi bővítésként e-mailes, böngészős és naptáralkalmazásos emlékeztetők vizsgálata.
+- [ ] Google-, Apple- és Outlook-naptárba exportálható iCalendar (`.ics`) fájl lehetőségének megtervezése.
+- [ ] Első változatként a már meglévő pályázati és határidőadatokból nyilvános, csak olvasható naptárnézetet készíteni.
+
 ## Felhasználó által kérhető AI-összefoglalók
 
 - [ ] Az „AI-összefoglaló kérése” funkció céljának, első támogatott tartalomtípusainak és felhasználói korlátainak meghatározása.
