@@ -374,6 +374,82 @@
       cursor: pointer;
     }
 
+    .event-chip.grant-rd46 {
+      color: #efeaff;
+      background: #5a43a8;
+      border-color: rgba(144, 122, 234, 0.35);
+    }
+
+    .event-chip.grant-rd38rd39 {
+      color: #eef8ff;
+      background: #235987;
+      border-color: rgba(68, 151, 217, 0.35);
+    }
+
+    .event-chip.grant-other {
+      color: #eef4ff;
+      background: #39506f;
+      border-color: rgba(154, 178, 204, 0.24);
+    }
+
+    .event-card.grant-rd46 {
+      border-left: 5px solid #907aea;
+    }
+
+    .event-card.grant-rd38rd39 {
+      border-left: 5px solid #4f9be1;
+    }
+
+    .event-card.grant-other {
+      border-left: 5px solid #8799b3;
+    }
+
+    .grant-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+    }
+
+    .grant-badge.grant-rd46 {
+      color: #efeaff;
+      background: #5a43a8;
+    }
+
+    .grant-badge.grant-rd38rd39 {
+      color: #eef8ff;
+      background: #235987;
+    }
+
+    .grant-badge.grant-other {
+      color: #eef4ff;
+      background: #39506f;
+    }
+
+    .event-date-lines {
+      display: grid;
+      gap: 4px;
+    }
+
+    .event-date-line {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .event-date-line small {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
     .event-chip.closed,
     .status-badge.closed {
       color: var(--muted);
@@ -842,6 +918,10 @@
         <span class="legend-item"><span class="legend-dot urgent"></span>7 napon belül</span>
         <span class="legend-item"><span class="legend-dot attention"></span>Relatív határidő</span>
       </div>
+      <div class="legend" aria-label="Pályázati színek">
+        <span class="legend-item"><span class="grant-badge grant-rd46">RD46</span></span>
+        <span class="legend-item"><span class="grant-badge grant-rd38rd39">RD38/RD39</span></span>
+      </div>
 
       <div id="calendar-view" class="calendar-view">
         <div id="calendar-grid" class="calendar-grid" aria-live="polite"></div>
@@ -966,6 +1046,18 @@
       return code.length > 12 ? code.slice(0, 12) + "…" : code;
     }
 
+    function grantClass(event) {
+      const code = event.reference_code || "";
+      if (code.includes("RD38")) return "grant-rd38rd39";
+      if (code.includes("RD46")) return "grant-rd46";
+      return "grant-other";
+    }
+
+    function formatShortDate(value) {
+      const date = parseDate(value);
+      return date ? DATE_FORMATTER.format(date) : "Nincs megadva";
+    }
+
     function isSameDate(a, b) {
       return a.getFullYear() === b.getFullYear()
         && a.getMonth() === b.getMonth()
@@ -1084,7 +1176,7 @@
             const label = markerLabel(marker);
 
             button.type = "button";
-            button.className = "event-chip " + status;
+            button.className = "event-chip " + status + " " + grantClass(event) + " marker-" + marker;
             button.textContent =
               shortCode(event) + " · " + label;
 
@@ -1125,18 +1217,35 @@
 
       sorted.forEach((event) => {
         const card = document.createElement("article");
-        card.className = "event-card";
+        card.className = "event-card " + grantClass(event);
 
         const date = document.createElement("div");
         date.className = "event-date";
-        date.textContent = event.deadline_text || "Dátum nincs megadva";
+
+        const dateLines = document.createElement("div");
+        dateLines.className = "event-date-lines";
+
+        const startLine = document.createElement("div");
+        startLine.className = "event-date-line";
+        startLine.innerHTML = "<small>Nyitás</small>" + formatShortDate(event.start_date);
+
+        const endLine = document.createElement("div");
+        endLine.className = "event-date-line";
+        endLine.innerHTML = "<small>Zárás</small>" + formatShortDate(event.deadline_date);
+
+        dateLines.append(startLine, endLine);
+        date.appendChild(dateLines);
 
         const copy = document.createElement("div");
+        const badge = document.createElement("div");
+        badge.className = "grant-badge " + grantClass(event);
+        badge.textContent = shortCode(event);
+
         const title = document.createElement("h3");
         title.textContent = event.title;
         const action = document.createElement("p");
         action.textContent = event.action || "Hivatalos teendő";
-        copy.append(title, action);
+        copy.append(badge, title, action);
 
         const status = getEventStatus(event);
         const button = document.createElement("button");
@@ -1212,6 +1321,8 @@
       actions.replaceChildren();
 
       addDialogRow(meta, "Állapot", statusLabel(status));
+      addDialogRow(meta, "Nyitás", formatShortDate(event.start_date));
+      addDialogRow(meta, "Zárás", formatShortDate(event.deadline_date));
       addDialogRow(meta, "Időszak", event.deadline_text);
       addDialogRow(meta, "Teendő", event.action);
       addDialogRow(meta, "Érintettek", event.affected);
