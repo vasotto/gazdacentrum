@@ -448,8 +448,29 @@
       padding: 18px;
       background: var(--surface-alt);
       border: 1px solid var(--border);
+      border-top: 4px solid var(--purple);
       border-left: 5px solid var(--purple);
       border-radius: 16px;
+    }
+
+    .task-card.grant-rd46 {
+      background:
+        linear-gradient(
+          135deg,
+          rgba(129, 116, 223, 0.12),
+          var(--surface-alt) 42%
+        );
+      border-top-color: #8174df;
+    }
+
+    .task-card.grant-rd38-rd39 {
+      background:
+        linear-gradient(
+          135deg,
+          rgba(52, 145, 196, 0.13),
+          var(--surface-alt) 42%
+        );
+      border-top-color: #3491c4;
     }
 
     .task-card.open {
@@ -474,9 +495,23 @@
     }
 
     .task-code {
-      color: var(--purple-dark);
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      padding: 4px 9px;
+      border-radius: 999px;
       font-size: 12px;
       font-weight: 900;
+    }
+
+    .task-code.grant-rd46 {
+      color: #5d50b1;
+      background: rgba(129, 116, 223, 0.16);
+    }
+
+    .task-code.grant-rd38-rd39 {
+      color: #17658f;
+      background: rgba(52, 145, 196, 0.16);
     }
 
     .task-countdown {
@@ -878,6 +913,34 @@
         linear-gradient(120deg, #141922 0%, #191827 52%, #211e38 100%);
     }
 
+    html[data-theme="dark"] .task-card.grant-rd46 {
+      background:
+        linear-gradient(
+          135deg,
+          rgba(169, 158, 255, 0.16),
+          var(--surface-alt) 44%
+        );
+    }
+
+    html[data-theme="dark"] .task-card.grant-rd38-rd39 {
+      background:
+        linear-gradient(
+          135deg,
+          rgba(76, 164, 214, 0.16),
+          var(--surface-alt) 44%
+        );
+    }
+
+    html[data-theme="dark"] .task-code.grant-rd46 {
+      color: #d3ccff;
+      background: rgba(169, 158, 255, 0.18);
+    }
+
+    html[data-theme="dark"] .task-code.grant-rd38-rd39 {
+      color: #b9e3fa;
+      background: rgba(76, 164, 214, 0.18);
+    }
+
     html[data-theme="dark"] .site-footer { background: #0b0f14; }
 
     @media (max-width: 900px) {
@@ -988,7 +1051,7 @@
         <div>
           <h2 id="view-title" class="month-title">Következő teendők</h2>
           <p id="view-copy" class="view-copy">
-            A jelenleg nyitott és a következő időszakban megnyíló ügyek, időrendben.
+            Pályázatonként csak a következő nyitott vagy megnyíló benyújtási szakasz látható.
           </p>
         </div>
         <div class="view-switch" aria-label="Nézet választása">
@@ -1133,6 +1196,68 @@
       return code.length > 12 ? code.slice(0, 12) + "…" : code;
     }
 
+    function grantVisualClass(event) {
+      const code = event.reference_code || "";
+
+      if (code.includes("RD38")) {
+        return "grant-rd38-rd39";
+      }
+
+      if (code.includes("RD46")) {
+        return "grant-rd46";
+      }
+
+      return "";
+    }
+
+    function getNextEventPerGrant() {
+      const today = startOfDay();
+      const grouped = new Map();
+
+      state.events
+        .filter(
+          (event) =>
+            parseDate(event.deadline_date, true) >= today
+        )
+        .sort(
+          (a, b) =>
+            parseDate(a.start_date) -
+            parseDate(b.start_date)
+        )
+        .forEach((event) => {
+          const key =
+            event.reference_code ||
+            event.title ||
+            event.id;
+
+          if (!grouped.has(key)) {
+            grouped.set(key, []);
+          }
+
+          grouped.get(key).push(event);
+        });
+
+      return Array.from(grouped.values())
+        .map((events) => {
+          const active = events.find((event) => {
+            const start = parseDate(event.start_date);
+            const end = parseDate(
+              event.deadline_date,
+              true
+            );
+
+            return start <= today && end >= today;
+          });
+
+          return active || events[0];
+        })
+        .sort(
+          (a, b) =>
+            parseDate(a.start_date) -
+            parseDate(b.start_date)
+        );
+    }
+
     function isSameDate(a, b) {
       return a.getFullYear() === b.getFullYear()
         && a.getMonth() === b.getMonth()
@@ -1177,9 +1302,7 @@
 
     function renderSummary() {
       const today = startOfDay();
-      const activeOrUpcoming = state.events.filter(
-        (event) => parseDate(event.deadline_date, true) >= today
-      );
+      const activeOrUpcoming = getNextEventPerGrant();
 
       document.getElementById("fixed-count").textContent = activeOrUpcoming.length;
       document.getElementById("relative-count").textContent = state.relativeEvents.length;
@@ -1241,7 +1364,7 @@
         const events = document.createElement("div");
         events.className = "day-events";
 
-        state.events
+        getNextEventPerGrant()
           .map((event) => ({
             event,
             marker: getEventMarker(event, date)
@@ -1312,13 +1435,20 @@
     function createTaskCard(event) {
       const card = document.createElement("article");
       const status = getEventStatus(event);
-      card.className = "task-card " + status;
+      const visualClass = grantVisualClass(event);
+
+      card.className =
+        "task-card " +
+        status +
+        (visualClass ? " " + visualClass : "");
 
       const top = document.createElement("div");
       top.className = "task-top";
 
       const code = document.createElement("div");
-      code.className = "task-code";
+      code.className =
+        "task-code" +
+        (visualClass ? " " + visualClass : "");
       code.textContent = event.reference_code || "Hivatalos határidő";
 
       const countdown = document.createElement("div");
@@ -1417,17 +1547,34 @@
       list.replaceChildren();
 
       const today = startOfDay();
-      const active = state.events
+      const nextEvents = getNextEventPerGrant();
+
+      const active = nextEvents
         .filter((event) => {
           const start = parseDate(event.start_date);
-          const end = parseDate(event.deadline_date, true);
+          const end = parseDate(
+            event.deadline_date,
+            true
+          );
+
           return start <= today && end >= today;
         })
-        .sort((a, b) => parseDate(a.deadline_date) - parseDate(b.deadline_date));
+        .sort(
+          (a, b) =>
+            parseDate(a.deadline_date) -
+            parseDate(b.deadline_date)
+        );
 
-      const upcoming = state.events
-        .filter((event) => parseDate(event.start_date) > today)
-        .sort((a, b) => parseDate(a.start_date) - parseDate(b.start_date));
+      const upcoming = nextEvents
+        .filter(
+          (event) =>
+            parseDate(event.start_date) > today
+        )
+        .sort(
+          (a, b) =>
+            parseDate(a.start_date) -
+            parseDate(b.start_date)
+        );
 
       const nextNinetyDays = upcoming.filter(
         (event) => daysBetween(today, parseDate(event.start_date)) <= 90
@@ -1557,9 +1704,16 @@
 
     function selectInitialMonth() {
       const today = startOfDay();
-      const upcoming = state.events
-        .filter((event) => parseDate(event.deadline_date, true) >= today)
-        .sort((a, b) => parseDate(a.start_date) - parseDate(b.start_date))[0];
+      const upcoming = getNextEventPerGrant()
+        .filter(
+          (event) =>
+            parseDate(event.deadline_date, true) >= today
+        )
+        .sort(
+          (a, b) =>
+            parseDate(a.start_date) -
+            parseDate(b.start_date)
+        )[0];
 
       const target = upcoming ? parseDate(upcoming.start_date) : today;
       state.visibleMonth = new Date(target.getFullYear(), target.getMonth(), 1);
@@ -1604,7 +1758,7 @@
 
       copy.textContent = calendarActive
         ? "A naptár csak a benyújtási időszakok nyitó- és zárónapját mutatja."
-        : "A jelenleg nyitott és a következő időszakban megnyíló ügyek, időrendben.";
+        : "Pályázatonként csak a következő nyitott vagy megnyíló benyújtási szakasz látható.";
     }
 
     async function loadCalendarData() {
