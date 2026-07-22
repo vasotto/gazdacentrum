@@ -168,8 +168,20 @@ Utolsó frissítés: 2026. július 21.
 - [ ] Külső híroldalaknál csak jogszerűen felhasználható RSS-kivonatból, API-adatból, partneri tartalomból vagy külön engedéllyel elérhető szövegből dolgozni.
 - [ ] Engedély nélküli teljes cikkletöltést, nyilvános újraközlést és teljes szövegű AI-feldolgozást kizárni.
 - [ ] Cloudflare Worker vagy Pages Function alapú háttérrendszert tervezni, hogy az AI API-kulcs ne kerüljön a böngészőbe.
+- [ ] Külön AI API-projektet létrehozni, API-kulccsal, számlázási kerettel és havi költségkorláttal.
+- [ ] Az API-kulcsot Cloudflare Secretként tárolni; tilos az `index.html`, JavaScript-fájl vagy GitHub-repository tartalmába írni.
+- [ ] A szerveroldali végpont helyét és interfészét rögzíteni, például `functions/api/summary.js`.
+- [ ] A végpontban ellenőrizni, hogy a kérés csak előre engedélyezett forráshoz és létező GazdaCentrum-hírhez kapcsolódjon.
+- [ ] Maximális bemeneti szöveghosszt és maximális válaszhosszt meghatározni.
+- [ ] Kötött, strukturált AI-utasítást készíteni; az általános „foglald össze” kérés helyett kötelező mezőket használni.
+- [ ] Strukturált JSON-válaszsémát kialakítani, például: `what_happened`, `affected_users`, `required_action`, `deadline`, `documents`, `importance`, `warning`, `source_check_required`.
+- [ ] A hibás vagy hiányos JSON-válaszok ellenőrzését és biztonságos hibaüzenetét megvalósítani.
 - [ ] Kérésenkénti feldolgozást alkalmazni az összes hír előzetes összefoglalása helyett.
 - [ ] Az elkészült összefoglalók gyorsítótárazását megtervezni, hogy ugyanahhoz a forráshoz ne kelljen minden alkalommal új AI-hívás.
+- [ ] Cloudflare Workers KV vagy más megfelelő tároló használatát megtervezni az összefoglalók gyorsítótárazására.
+- [ ] A gyorsítótár kulcsában figyelembe venni a hír azonosítóját, a forrás URL-jét és a forrástartalom ellenőrző összegét.
+- [ ] Forrásváltozás esetén a régi összefoglalót automatikusan elavultnak jelölni vagy újragenerálni.
+- [ ] Ugyanarra a hírre egyszerre csak egy új összefoglalási kérés fusson.
 - [ ] Napi és felhasználónkénti kérési limiteket, túlterhelés elleni védelmet és hibakezelést kialakítani.
 - [ ] Az összefoglalóhoz rögzíteni a forrást, a dokumentumverziót, az elkészítés idejét és az ellenőrzési státuszt.
 - [ ] Külön jelölni a forrásból közvetlenül következő tényeket és a GazdaCentrum magyarázó értelmezéseit.
@@ -179,6 +191,12 @@ Utolsó frissítés: 2026. július 21.
 - [ ] Rövid és részletes összefoglaló külön funkcióként való későbbi vizsgálata.
 - [ ] Regisztrált felhasználói keret, előfizetés vagy kreditrendszer későbbi lehetőségének vizsgálata.
 - [ ] Első pilotként egyetlen hivatalos közleménytípussal, kézi ellenőrzéssel és alacsony napi limittel indulni.
+- [ ] Legalább 20–30 hivatalos közleményből álló tesztkészletet összeállítani.
+- [ ] A teszt során külön ellenőrizni a határidők, jogosultsági feltételek, szükséges teendők és dokumentumok helyességét.
+- [ ] Vizsgálni, hogy az AI összekever-e egymástól különálló eljárásokat, például a kárbejelentést és a vis maior bejelentést.
+- [ ] Pilot alatt az első összefoglalókat kézzel jóváhagyni a nyilvános megjelenés előtt.
+- [ ] A felhasználói felületen megvalósítani az „AI-összefoglaló kérése”, „Összefoglaló készül…” és a hibaállapot megjelenítését.
+- [ ] Az eredeti cikk vagy közlemény linkjét az összefoglaló megnyitása után is folyamatosan láthatóvá tenni.
 
 ## Dokumentáció és üzemeltetés
 
