@@ -1,5 +1,30 @@
 {
+  "schema_version": 2,
   "generated_at": "2026-07-20T20:30:00+00:00",
+  "filter_options": {
+    "deadline_types": [
+      "Pályázat",
+      "Kifizetés",
+      "Adatszolgáltatás",
+      "Kötelezettség",
+      "Bejelentés"
+    ],
+    "sectors": [
+      "Szántóföld",
+      "Kertészet",
+      "Állattenyésztés",
+      "Erdőgazdálkodás",
+      "Ökológiai gazdálkodás",
+      "Általános"
+    ],
+    "time_ranges": [
+      "Most nyitott",
+      "30 napon belül",
+      "90 napon belül",
+      "Későbbi"
+    ]
+  },
+  "status_rule": "A státuszt és az időszakot a felület számolja ki dinamikusan a start_date és deadline_date mezőkből.",
   "items": [
     {
       "id": "kap-rd46-1-25-5",
@@ -12,7 +37,14 @@
       "reference_code": "KAP-RD46-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd46-1-25",
-      "verified_at": "2026-07-20"
+      "verified_at": "2026-07-20",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
     },
     {
       "id": "kap-rd46-1-25-6",
@@ -25,7 +57,14 @@
       "reference_code": "KAP-RD46-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd46-1-25",
-      "verified_at": "2026-07-20"
+      "verified_at": "2026-07-20",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
     },
     {
       "id": "kap-rd38-rd39-1-25-2026-osz",
@@ -38,7 +77,14 @@
       "reference_code": "KAP-RD38-RD39-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25",
-      "verified_at": "2026-07-20"
+      "verified_at": "2026-07-20",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Erdőgazdálkodás"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
     },
     {
       "id": "kap-rd38-rd39-1-25-2027-tel",
@@ -51,7 +97,14 @@
       "reference_code": "KAP-RD38-RD39-1-25",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/tamogatas/kap-rd38-rd39-1-25",
-      "verified_at": "2026-07-20"
+      "verified_at": "2026-07-20",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Erdőgazdálkodás"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
     },
     {
       "id": "kap-ih-70-2026",
@@ -64,7 +117,14 @@
       "reference_code": "70/2026. IH közlemény",
       "source_name": "KAP portál",
       "source_url": "https://kap.gov.hu/news/2026-07-13/105707/kap-nemzeti-iranyito-hatosag-702026.-szamu-kozlemenye-megitelt-tamogatas-tiz",
-      "verified_at": "2026-07-20"
+      "verified_at": "2026-07-20",
+      "deadline_type": "Kifizetés",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kifizetési kérelem",
+      "date_type": "relative",
+      "show_in_main_list": false
     }
   ]
 }
