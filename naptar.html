@@ -972,12 +972,40 @@
         && a.getDate() === b.getDate();
     }
 
-    function eventCoversDate(event, date) {
+    function getEventMarker(event, date) {
       const start = parseDate(event.start_date);
-      const end = parseDate(event.deadline_date, true);
-      if (!start || !end) return false;
-      const timestamp = date.getTime();
-      return timestamp >= start.getTime() && timestamp <= end.getTime();
+      const end = parseDate(event.deadline_date);
+
+      if (!start || !end) {
+        return null;
+      }
+
+      const startsToday = isSameDate(date, start);
+      const endsToday = isSameDate(date, end);
+
+      if (startsToday && endsToday) {
+        return "deadline";
+      }
+
+      if (startsToday) {
+        return "start";
+      }
+
+      if (endsToday) {
+        return "end";
+      }
+
+      return null;
+    }
+
+    function markerLabel(marker) {
+      const labels = {
+        start: "nyitás",
+        end: "határidő",
+        deadline: "határidő"
+      };
+
+      return labels[marker] || "";
     }
 
     function renderSummary() {
@@ -1039,16 +1067,43 @@
         events.className = "day-events";
 
         state.events
-          .filter((event) => eventCoversDate(event, date))
-          .sort((a, b) => a.reference_code.localeCompare(b.reference_code, "hu"))
-          .forEach((event) => {
+          .map((event) => ({
+            event,
+            marker: getEventMarker(event, date)
+          }))
+          .filter((item) => item.marker)
+          .sort((a, b) =>
+            a.event.reference_code.localeCompare(
+              b.event.reference_code,
+              "hu"
+            )
+          )
+          .forEach(({ event, marker }) => {
             const button = document.createElement("button");
             const status = getEventStatus(event);
+            const label = markerLabel(marker);
+
             button.type = "button";
             button.className = "event-chip " + status;
-            button.textContent = shortCode(event);
-            button.title = event.title + " – " + event.deadline_text;
-            button.addEventListener("click", () => openEventDialog(event));
+            button.textContent =
+              shortCode(event) + " · " + label;
+
+            button.title =
+              event.title +
+              " – " +
+              (
+                marker === "start"
+                  ? "benyújtás kezdete"
+                  : "benyújtási határidő"
+              ) +
+              " – " +
+              event.deadline_text;
+
+            button.addEventListener(
+              "click",
+              () => openEventDialog(event)
+            );
+
             events.appendChild(button);
           });
 
