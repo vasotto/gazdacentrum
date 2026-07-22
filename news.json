@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-22T17:02:18.319902+00:00",
-  "item_count": 148,
+  "generated_at": "2026-07-22T21:55:50.965233+00:00",
+  "item_count": 150,
   "items": [
+    {
+      "id": "7ebecebecb797ced",
+      "title": "A tó, melyet milliárdnyi élőlény fest rózsaszínre – Laguna Rosa",
+      "link": "https://magyarmezogazdasag.hu/2026/07/22/a-to-melyet-milliardnyi-eloleny-fest-rozsaszinre-laguna-rosa/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-22T21:07:59+00:00"
+    },
+    {
+      "id": "a3ec45aeed971fce",
+      "title": "Kisméretű rágcsálók a háztartásban – gyerekeknek is ideálisak",
+      "link": "https://magyarmezogazdasag.hu/2026/07/22/kismeretu-ragcsalok-a-haztartasban-gyerekeknek-is-idealisak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-22T20:03:27+00:00"
+    },
+    {
+      "id": "5e5ac1c7f8a02821",
+      "title": "Veszélyben egy népszerű meme cuki, kerek békája",
+      "link": "https://magyarmezogazdasag.hu/2026/07/22/veszelyben-egy-nepszeru-meme-cuki-kerek-bekaja/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-22T19:04:59+00:00"
+    },
     {
       "id": "dda7c06e33bdc976",
       "title": "Új vidékfejlesztési program indul",
@@ -11,6 +41,26 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-22T18:03:08+00:00"
+    },
+    {
+      "id": "62f872f3ae160a40",
+      "title": "Olyan dolog fog történni augusztusban, amire 27 éve nem volt példa",
+      "link": "https://www.agrarszektor.hu/noveny/20260722/olyan-dolog-fog-tortenni-augusztusban-amire-27-eve-nem-volt-pelda-63483",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-22T17:31:00+00:00"
+    },
+    {
+      "id": "704362690fd69c70",
+      "title": "Raktározás, anyagi teherbírás, értékesítési árak: állnak még a régi ökölszabályok?",
+      "link": "https://www.agroinform.hu/gazdasag/raktarozas-anyagi-teherbiras-ertekesitesi-arak-allnak-meg-a-regi-okolszabalyok-98877-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98877",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-07-22T17:05:30+00:00"
     },
     {
       "id": "c9c785ba604f5bf7",
@@ -287,7 +337,7 @@
       "title": "Kerti növény lehet a banánból",
       "link": "https://magyarmezogazdasag.hu/2026/07/22/kerti-noveny-lehet-a-bananbol/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-22T10:09:49+00:00"
@@ -331,16 +381,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-22T09:05:00+00:00"
-    },
-    {
-      "id": "6ca3ebae1c06ed7e",
-      "title": "Fájdalmas drágulás a benzinkutakon: a dízelesek a nagyobb vesztesek",
-      "link": "https://www.agroinform.hu/gazdasag/fajdalmas-dragulas-a-benzinkutakon-a-dizelesek-a-nagyobb-vesztesek-98829-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98829",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-22T09:04:00+00:00"
     },
     {
       "id": "1cc6051a42dffd7f",
@@ -513,6 +553,16 @@
       "published_at": "2026-07-22T03:40:00+00:00"
     },
     {
+      "id": "e6fdf222f9ff5c08",
+      "title": "Aszály: zölden is vágható a kukorica",
+      "link": "https://mezohir.hu/2026/07/22/mezogazdasag-aszalykar-konnyites/",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-22T03:34:00+00:00"
+    },
+    {
       "id": "0596a927c06b5b23",
       "title": "Ettől javul a napraforgó terméseredménye robbanásszerűen + VIDEÓ",
       "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/ettol-javul-a-napraforgo-termeseredmenye-robbanasszeruen-video/",
@@ -533,16 +583,6 @@
       "published_at": "2026-07-21T21:07:50+00:00"
     },
     {
-      "id": "147efed1086bf1bd",
-      "title": "Faluszövetkezetből alakult",
-      "link": "https://magyarmezogazdasag.hu/2026/07/21/faluszovetkezetbol-alakult/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-21T20:09:22+00:00"
-    },
-    {
       "id": "80a41790dffd99bf",
       "title": "Ökológiai Fitoplazma Menedzsment (ÖFM): Az aranyszínű sárgaság és az amerikai szőlőkabóca elleni védekezés ajánlott technológiája ökológiai művelésben",
       "link": "https://biokutatas.hu/tudastar/okologiai-fitoplazma-menedzsment-ofm-az-aranyszinu-sargasag-es-az-amerikai-szolokaboca-elleni-vedekezes-ajanlott-technologiaja-okologiai-muvelesben/",
@@ -553,16 +593,6 @@
       "published_at": "2026-07-21T19:14:27+00:00"
     },
     {
-      "id": "89d5581903f32d5c",
-      "title": "Juhok és kecskék is védik az erdőket",
-      "link": "https://magyarmezogazdasag.hu/2026/07/21/juhok-es-kecskek-is-vedik-az-erdoket/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-21T19:06:18+00:00"
-    },
-    {
       "id": "899dbd70413ae677",
       "title": "Érdekes dolgot figyeltek meg a Balatonnál: ezt okozta a vihar a tónál",
       "link": "https://www.agrarszektor.hu/fenntarthatosag/20260721/erdekes-dolgot-figyeltek-meg-a-balatonnal-ezt-okozta-a-vihar-a-tonal-63456",
@@ -571,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-21T18:33:00+00:00"
-    },
-    {
-      "id": "9ced1ed56671a890",
-      "title": "Ismét téma a Brenner-hágó: környezetvédelem vagy az áru szabad mozgása",
-      "link": "https://magyarmezogazdasag.hu/2026/07/21/ismet-tema-a-brenner-hago-kornyezetvedelem-vagy-az-aru-szabad-mozgasa/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-21T18:03:55+00:00"
     },
     {
       "id": "13c598c42c03a7b5",
