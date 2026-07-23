@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T09:10:19+00:00",
+  "generated_at": "2026-07-23T09:20:11+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -205,6 +205,26 @@
         "Szántóföld"
       ],
       "action_type": "Kárbejelentés",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "egyseges-kerelem-2026",
+      "title": "2026. évi Egységes Kérelem benyújtása",
+      "action": "A 2026. évi Egységes Kérelem benyújtása a Magyar Államkincstár elektronikus felületén",
+      "affected": "A 2026. évi Egységes Kérelemben érintett mezőgazdasági termelők és kérelmezők",
+      "start_date": "2026-04-15",
+      "deadline_date": "2026-06-09",
+      "deadline_text": "2026. április 15. – június 9.",
+      "reference_code": "Egységes Kérelem 2026",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/index.php/news/2026-04-14/143350/indul-2026.-evi-egyseges-kerelmek-benyujtasa",
+      "verified_at": "2026-07-23",
+      "deadline_type": "Kifizetés",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Egységes kérelem benyújtása",
       "date_type": "fixed",
       "show_in_main_list": true
     }
