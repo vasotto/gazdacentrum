@@ -1450,7 +1450,7 @@
   <dialog id="event-dialog" aria-labelledby="dialog-title">
     <div class="dialog-inner">
       <div class="dialog-top">
-        <h2 id="dialog-title">Esemény részletei</h2>
+        <h2 id="dialog-title">Teendő részletei</h2>
         <button id="dialog-close" class="dialog-close" type="button" aria-label="Bezárás">×</button>
       </div>
       <div id="dialog-meta" class="dialog-meta"></div>
@@ -1906,7 +1906,7 @@
       const detailButton = document.createElement("button");
       detailButton.type = "button";
       detailButton.className = "task-button primary";
-      detailButton.textContent = "Esemény részletei";
+      detailButton.textContent = "Teendő részletei";
       detailButton.addEventListener("click", () => openEventDialog(item));
       actions.appendChild(detailButton);
 
