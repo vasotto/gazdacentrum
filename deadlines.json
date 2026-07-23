@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T07:57:42+00:00",
+  "generated_at": "2026-07-23T09:10:19+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -184,6 +184,27 @@
         "Állattenyésztés"
       ],
       "action_type": "Adatok rögzítése",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "tavaszi-fagykar-bejelentes-2026",
+      "title": "2026. évi tavaszi fagykár bejelentése",
+      "action": "A 2026. évi tavaszi fagykár bejelentése a Magyar Államkincstár elektronikus kárbejelentő felületén",
+      "affected": "A 2026. évi tavaszi fagykárral érintett mezőgazdasági termelők",
+      "start_date": "2026-06-09",
+      "deadline_date": "2026-06-09",
+      "deadline_text": "Határidő: 2026. június 9.",
+      "reference_code": "Tavaszi fagykár 2026",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/news/2026-06-05/105507/iden-meghosszabbodik-tavaszi-fagykarbejelentes-hatarideje",
+      "verified_at": "2026-07-23",
+      "deadline_type": "Bejelentés",
+      "sectors": [
+        "Kertészet",
+        "Szántóföld"
+      ],
+      "action_type": "Kárbejelentés",
       "date_type": "fixed",
       "show_in_main_list": true
     }
