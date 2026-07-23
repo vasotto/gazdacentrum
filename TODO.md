@@ -1,10 +1,13 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 21.
+Utolsó frissítés: 2026. július 23.
 
 ## Következő konkrét feladat
 
-- [ ] Döntés a Mezőhír, AKI és Agroinform átmeneti kikapcsolásáról vagy írásos engedélykéréséről.
+- [ ] Az aktualizált repository feltöltése után mobilon ellenőrizni, hogy a képernyőszéli vissza-a-tetejére gomb nem takarja a kártyagombokat.
+- [ ] Az `Adatszolgáltatás` szűrőn belül a nitrátos kártyán ellenőrizni a `… nap múlva esedékes` státuszszöveget.
+- [ ] Ezután teljes asztali tesztet végezni a `naptar-proba.html` oldalon.
+- [ ] A `naptar.html` lecseréléséről csak a mobil-, asztali- és színértékelés után dönteni.
 
 ## Kritikus jogi és tartalmi feladatok
 
@@ -159,24 +162,35 @@ Utolsó frissítés: 2026. július 21.
 - [ ] Későbbi bevételi lehetőségek vizsgálata: sikeres közvetítési díj, online fizetés és számlázási támogatás.
 - [ ] A szerelőközvetítés fejlesztését csak a tudásbázis, a profilrendszer és a minőségellenőrzés működő alapjai után megkezdeni.
 
-## Határidő- és pályázati naptárnézet
+## Agrárhatáridők és teendők
 
-- [ ] Külön `Naptár` menüpont és önálló naptároldal megtervezése.
-- [ ] Két alapnézet kialakítása: havi naptár és határidőlista.
-- [ ] A `deadlines.json` és `grants.json` eseményeinek egységes naptári adatmodellbe rendezése.
-- [ ] Csak biztos, konkrét kezdő- vagy záródátummal rendelkező eseményt megjeleníteni a havi naptárban.
-- [ ] A relatív határidőket, például „az esemény észlelésétől számított 21 napon belül”, külön relatív határidőként kezelni.
-- [ ] Eseménytípusok meghatározása: pályázati benyújtás, kifizetési kérelem, adatszolgáltatás, támogatási kötelezettség, vis maior, AKG, ÖKO, AÖP és más hivatalos agrárhatáridő.
-- [ ] Színjelölések kialakítása: nyitott, közelgő, lejárt, sürgős és külön ellenőrzést igénylő esemény.
-- [ ] Kattintható eseményadatlap megtervezése az esemény nevével, időszakával, érintettekkel, teendővel, kapcsolódó adatlapokkal és hivatalos forrással.
-- [ ] Az utolsó ellenőrzés dátumát és a hivatalos forrás ellenőrzésére vonatkozó figyelmeztetést minden eseménynél megjeleníteni.
-- [ ] Mobilbarát havi nézet és egyszerű, jól olvasható listanézet kialakítása.
-- [ ] Lejárt események automatikus szürkítése, nyitott események kiemelése és közeli határidők figyelmeztető jelölése.
-- [ ] A pályázati részletes adatlapok és a naptáresemények kétirányú összekapcsolása.
-- [ ] Későbbi bővítésként saját események mentésének és szűrésének megtervezése felhasználói fiókokhoz.
-- [ ] Későbbi bővítésként e-mailes, böngészős és naptáralkalmazásos emlékeztetők vizsgálata.
-- [ ] Google-, Apple- és Outlook-naptárba exportálható iCalendar (`.ics`) fájl lehetőségének megtervezése.
-- [ ] Első változatként a már meglévő pályázati és határidőadatokból nyilvános, csak olvasható naptárnézetet készíteni.
+- [x] A havi naptárnézet elvetése; szűrhető, időrendi teendőlista választása.
+- [x] `deadlines.json` `schema_version: 2` adatmodell kialakítása.
+- [x] Határidőtípusok: Pályázat, Kifizetés, Adatszolgáltatás, Kötelezettség, Bejelentés.
+- [x] Ágazati szűrés kialakítása.
+- [x] Időszakszűrés kialakítása: most nyitott, 30 napon belül, 31–90 nap, későbbi.
+- [x] Lejárt tételek alapértelmezett elrejtése és külön kapcsolója.
+- [x] Szűrők törlése és azonnali listasfrissítés.
+- [x] Pályázatonként csak a következő aktív vagy megnyíló szakasz megjelenítése.
+- [x] Relatív határidők kizárása a fő listából.
+- [x] Hivatalos forrás és ellenőrzési dátum megjelenítése a kártyán.
+- [x] `Teendő részletei` párbeszédablak kialakítása.
+- [x] Egynapos jövőbeli határidőknél az `esedékes` megfogalmazás bevezetése.
+- [x] HMKÁ 6 határidő felvétele.
+- [x] 2026. évi Gazdálkodási Napló eGN-rögzítési határidejének felvétele.
+- [x] 2026. évi nitrát-adatszolgáltatás felvétele.
+- [x] 2026. évi tavaszi fagykár-bejelentés felvétele.
+- [x] 2026. évi Egységes Kérelem felvétele.
+- [x] Mobil egyoszlopos kártyanézet ellenőrzése.
+- [x] Mobil részletező ablak és alsó biztonsági tér ellenőrzése.
+- [x] Külön `naptar-szinproba.html` négy kapcsolható sötét palettával.
+- [ ] A képernyőszéli mobil vissza-a-tetejére gomb ismételt ellenőrzése feltöltés után.
+- [ ] A nitrátos `esedékes` státusz felhasználói ellenőrzése.
+- [ ] Teljes asztali teszt.
+- [ ] A négy sötét paletta későbbi kiértékelése és végleges színvilág kiválasztása.
+- [ ] A `naptar.html` csak elfogadott és visszaállítható commitban cserélhető le.
+- [ ] Későbbi bővítésként mentett szűrők, személyes dátumok és értesítések tervezése.
+- [ ] Google-, Apple- és Outlook-naptárba exportálható iCalendar (`.ics`) lehetőségének későbbi vizsgálata.
 
 ## Felhasználó által kérhető AI-összefoglalók
 

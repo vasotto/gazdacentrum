@@ -1,5 +1,37 @@
 # GazdaCentrum – változásnapló
 
+## 2026. július 23.
+
+### Agrárhatáridők és teendők próbafelülete
+
+- A `deadlines.json` `schema_version: 2` adatmodellje 10 rekordra bővült.
+- Felkerült a HMKÁ 6 minimális talajborítási kötelezettség.
+- Felkerült a 2026. évi Gazdálkodási Napló eGN-rögzítési határideje.
+- Felkerült a 2026. évi nitrát-adatszolgáltatás.
+- Felkerült a 2026. évi tavaszi fagykár-bejelentés.
+- Felkerült a 2026. évi Egységes Kérelem időszaka.
+- Elkészült az öt határidőtípust, ágazatot és időszakot kezelő szűrőrendszer.
+- A lejárt tételek alapból rejtve maradnak, külön kapcsolóval jeleníthetők meg.
+- A pályázatokból csak a következő aktív vagy megnyíló szakasz jelenik meg.
+- A kártyák megjelenítik a hivatalos forrást és az ellenőrzés dátumát.
+- Az egynapos jövőbeli határidők `esedékes` szöveget kapnak a `nyílik` helyett.
+- Az `Esemény részletei` felirat `Teendő részletei` szövegre változott.
+
+### Mobilteszt és kezelhetőség
+
+- A szűrők és a kártyák mobilon egy oszlopba rendeződnek.
+- A részletező ablak alján biztonsági tér készült a telefon alsó kezelősávja fölött.
+- A mobil vissza-a-tetejére gomb képernyőszéli lapfül formára változott, hogy kevésbé takarja a kártyák tartalmát.
+- A mobil kártyanézet, a HMKÁ 6 kártya, a részletező ablak és az Adatszolgáltatás szűrő felhasználói ellenőrzést kapott.
+
+### Színpróba és dokumentáció
+
+- Elkészült a `naptar-szinproba.html` négy kapcsolható sötét palettával.
+- A színpróba megkapta a legújabb funkcionális és mobiljavításokat.
+- A `README.md`, `PROJECT_STATUS.md`, `TODO.md` és `CHANGELOG.md` az aktuális állapothoz igazodott.
+- A `naptar.html` production fájl változatlan maradt; lecserélése csak további tesztek után történhet.
+
+
 ## 2026. július 20.
 
 ### Pályázatfigyelő és részletes pályázati adatlapok

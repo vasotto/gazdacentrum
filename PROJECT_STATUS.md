@@ -1,29 +1,35 @@
 # GazdaCentrum – projektállapot
 
-Utolsó frissítés: 2026. július 20.
+Utolsó frissítés: 2026. július 23.
 
-## 1. Projektcél
+## 1. Projektcél és aktuális fő irány
 
-A GazdaCentrum.hu automatizált magyar agrár hírgyűjtő, pályázatfigyelő és gazdálkodói információs portál.
+A GazdaCentrum.hu automatizált magyar agrárinformációs portál. A jelenlegi elsődleges fejlesztési irány az **Agrárhatáridők és teendők** funkció.
 
-Fő funkciók:
+A fő felhasználói kérdés:
 
-- agrárhírek gyűjtése RSS-ből és más jogszerű strukturált forrásból;
-- kategorizálás és duplikációszűrés;
-- forrás, dátum és eredeti link megjelenítése;
-- hivatalos pályázati adatok és határidők rendszerezése;
-- közérthető, ellenőrzött részletes pályázati összefoglalók;
-- céges és partneri tartalmak külön kezelése.
+> Mivel kell most foglalkoznom, és mennyi időm van rá?
+
+A rendszer célja:
+
+- hivatalos agrárhatáridők, kötelezettségek és pályázati időszakok gyűjtése;
+- a teendő, az érintettek, a dátum és a hivatalos forrás közérthető megjelenítése;
+- agrárhírek jogszerű gyűjtése RSS-ből, API-ból vagy engedélyezett forrásból;
+- egyszerű HTML-, JavaScript-, JSON- és Python-alapú, kevés kézi munkát igénylő működés.
+
+A havi naptárnézetet elvetettük. A cél egy szűrhető, időrendi teendőlista.
 
 ## 2. Infrastruktúra
 
 - Domain: `gazdacentrum.hu`, `www.gazdacentrum.hu`
 - Regisztrátor: WWH.hu
-- DNS, CDN, SSL: Cloudflare
+- DNS, CDN és SSL: Cloudflare
 - Hosting: Cloudflare Pages
 - GitHub: `vasotto/gazdacentrum`
 - Production branch: `main`
 - Deploy: automatikus minden `main` commit után
+
+A GitHub `main` ág a production forrás. A repository ZIP csak pillanatfelvétel.
 
 DNS-módosításnál az MX-, SPF-, DKIM-, DMARC- és igazoló TXT-rekordokat védeni kell.
 
@@ -52,35 +58,35 @@ Jelenleg 12 aktív forrás van:
 7. ÖMKi – szakmai
 8. FruitVeB – szakmai
 9. Agroinform – portál
-10. Phylazonit – ceges
-11. Magtár Kft. – ceges
+10. Phylazonit – céges
+11. Magtár Kft. – céges
 12. KAP portál – hivatalos
 
-Az Agrárközösség ideiglenesen inaktív, mert a feed ellenőrzőoldalt vagy feldolgozhatatlan XML-választ adott.
+Az Agrárközösség inaktív, mert a feed nem ad stabilan feldolgozható RSS-választ.
 
 ## 5. Híradat és kategorizálás
 
-A legutóbbi repositoryban található `news.json`:
+A repositoryban található `news.json` állapota:
 
-- generálva: 2026. július 20.;
-- hírek száma: 148;
+- generálva: 2026. július 23.;
+- hírek száma: 151;
 - RSS-hibák: 0;
 - aktív források: 12.
 
 Kategóriaeloszlás:
 
-- Általános agrár: 39;
-- Kertészet: 25;
-- Agrárgazdaság: 18;
-- Növénytermesztés: 14;
-- Időjárás és vízgazdálkodás: 13;
+- Általános agrár: 42;
+- Kertészet: 27;
+- Agrárgazdaság: 17;
+- Növénytermesztés: 15;
+- Időjárás és vízgazdálkodás: 15;
 - Ökológiai gazdálkodás: 12;
-- Támogatások és pályázatok: 10;
-- Gépesítés: 9;
-- Állattenyésztés: 7;
+- Gépesítés: 11;
+- Támogatások és pályázatok: 9;
+- Állattenyésztés: 2;
 - Növényvédelem: 1.
 
-A 9 gépesítési hír jelenleg mind a Magtár Kft. elkülönített céges rovatában található. Emiatt a főoldali `Gépesítés` kártya most partneri tartalomhoz irányít, ha nincs független gépes hír.
+A `Gépesítés` kategória partneri tartalomhoz is tud navigálni, ha nincs megfelelő független gépes hír.
 
 ## 6. fetch_news.py állapota
 
@@ -99,83 +105,97 @@ A program:
 - kezeli az azonos és tartalmilag hasonló híreket;
 - hivatalos → szakmai → portál prioritást alkalmaz.
 
-## 7. Főoldal
+## 7. Agrárhatáridők adatmodellje
 
-Működő elemek:
+A `deadlines.json`:
 
-- mobilbarát felső navigáció;
-- minden nyilvános oldalon automatikusan megjelenő, középre igazított vissza-a-tetejére gomb hosszabb görgetés után, egyedi finom görgetési animációval;
-- kategóriakártyák és kategóriaszűrők;
-- `Teendők és határidők` kiemelt nézet;
-- friss független agrárhírek;
-- külön céges és partneri rovat;
-- Phylazonit- és Magtár-választógomb;
-- határidők megjelenítése;
-- pályázati listaoldalra vezető link;
-- világos és sötét mód;
-- automatizált feldolgozásról szóló tájékoztatás.
+- `schema_version: 2`;
+- 10 rekordot tartalmaz;
+- a státuszt nem tárolja fixen, azt a felület számolja ki;
+- a relatív határidőt külön kezeli és nem mutatja a fő listában;
+- pályázatonként csak a következő aktív vagy megnyíló szakaszt jeleníti meg.
 
-A `Gépesítés` kategóriakártya már akkor is működik, ha az adott kategóriában csak céges tartalom van: ilyenkor a külön partneri részhez navigál és kiválasztja az érintett céget.
+Fontos mezők:
 
-## 8. Céges tartalmak
+```text
+id, title, action, affected, start_date, deadline_date,
+deadline_text, reference_code, source_name, source_url,
+verified_at, deadline_type, sectors, action_type,
+date_type, show_in_main_list
+```
 
-A céges tartalom:
+### Jelenlegi rekordok
 
-- nem keveredik a független hírekkel;
-- alapállapotban nincs megnyitva;
-- vállalatonként választható;
-- egyértelmű jelölést kap;
-- teljes cikket, kivonatot és külső képet nem vesz át.
+1. KAP-RD46-1-25 – 5. benyújtási szakasz, 2026. október 1–14.
+2. KAP-RD46-1-25 – 6. benyújtási szakasz, 2026. október 15–28.
+3. KAP-RD38-RD39-1-25 – 2026. őszi szakasz, 2026. október 7. – november 4.
+4. KAP-RD38-RD39-1-25 – 2027. téli szakasz, 2027. február 3. – március 3.
+5. 70/2026. IH – relatív kifizetési kötelezettség, rejtve a fő listából.
+6. HMKÁ 6 – minimális talajborítás, 2026. július 15. – szeptember 30.
+7. 2026. évi Gazdálkodási Napló eGN-rögzítése, határidő: 2027. január 31.
+8. 2026. évi nitrát-adatszolgáltatás, határidő: 2027. március 31.
+9. 2026. évi tavaszi fagykár-bejelentés, határidő: 2026. június 9., lejárt.
+10. 2026. évi Egységes Kérelem, 2026. április 15. – június 9., lejárt.
 
-Aktív céges források:
+## 8. Határidőfelület
 
-- Phylazonit;
-- Magtár Kft.
+### Production és próbafájlok
 
-## 9. Határidők
+- `naptar.html`: korábbi production naptároldal; egyelőre nem cserélhető le.
+- `naptar-proba.html`: az új, szűrhető teendőlista aktuális próbafelülete.
+- `naptar-szinproba.html`: négy kapcsolható sötét palettát tartalmazó külön színpróba.
 
-A `deadlines.json` 5 rekordot tartalmaz:
+### A `naptar-proba.html` működő elemei
 
-- KAP-RD46-1-25 – 5. benyújtási szakasz;
-- KAP-RD46-1-25 – 6. benyújtási szakasz;
-- KAP-RD38-RD39-1-25 – 5. benyújtási szakasz;
-- KAP-RD38-RD39-1-25 – 6. benyújtási szakasz;
-- 70/2026. IH – relatív kifizetési kötelezettség.
+- határidőtípus-szűrés: Pályázat, Kifizetés, Adatszolgáltatás, Kötelezettség, Bejelentés;
+- ágazati szűrés;
+- időszakszűrés;
+- lejárt tételek alapértelmezett elrejtése és külön kapcsolója;
+- szűrők törlése;
+- azonnali listasfrissítés;
+- pályázati szakaszok összevonása a következő releváns szakaszra;
+- hivatalos forrás és ellenőrzési dátum megjelenítése a kártyán;
+- `Teendő részletei` párbeszédablak;
+- egynapos jövőbeli határidőknél `esedékes` megfogalmazás;
+- mobilon egyoszlopos kártyák és teljes szélességű gombok;
+- a részletező ablak alján biztonsági tér a telefon alsó kezelősávja fölött;
+- mobil vissza-a-tetejére gomb képernyőszéli lapfül formában.
 
-A két RD46 szakasz külön rekordként szerepel, ezért a főoldali határidőlista pontosabban tükrözi a hivatalos beadási időszakokat.
+### Mobilteszt állapota
+
+Felhasználó által ellenőrizve:
+
+- a szűrők egy oszlopba rendeződnek;
+- a kártyák nem lógnak ki vízszintesen;
+- a teljes HMKÁ 6 kártya jól olvasható;
+- a részletező ablak jól görgethető;
+- a `Hivatalos forrás` gomb teljesen látható;
+- a `Teendő részletei` átnevezés megjelent;
+- az Adatszolgáltatás szűrő működik.
+
+Még ellenőrizendő a feltöltés után:
+
+- a képernyőszéli vissza-a-tetejére gomb már ne takarja a kártyagombokat;
+- a nitrátos kártyán ténylegesen `… nap múlva esedékes` jelenjen meg;
+- teljes asztali ellenőrzés;
+- csak ezután döntés a `naptar.html` lecseréléséről.
+
+## 9. Színpróba
+
+A `naptar-szinproba.html` négy sötét palettát tartalmaz:
+
+- Grafit–petrol;
+- Palakék–ibolya;
+- Meleg grafit–bronz;
+- Semleges grafit.
+
+A palettaértékelést későbbre halasztottuk. A production színvilág még nincs elfogadva.
 
 ## 10. Pályázati rendszer
 
-### grants.json
+A `grants.json` 2 pályázatot és 12 benyújtási szakaszt tartalmaz.
 
-A fájl 2 pályázatot és 12 benyújtási szakaszt tartalmaz.
-
-Mindkét pályázat:
-
-- programállapota aktív;
-- 2026. július 20-án két beadási szakasz között van;
-- közvetlen részletes adatlap-URL-lel rendelkezik;
-- hivatalos forrásellenőrzést igényel.
-
-### Pályázati listaoldal
-
-URL:
-
-```text
-https://gazdacentrum.hu/palyazatok.html
-```
-
-Funkciók:
-
-- 2 pályázat;
-- 12 benyújtási szakasz;
-- lejárt szakaszok szürke jelölése;
-- nyitott szakasz zöld jelölése;
-- jövőbeli szakasz lila jelölése;
-- hivatalos pályázati link;
-- mindkét pályázatnál részletes összefoglaló gomb.
-
-### Részletes pályázati adatlapok
+Részletes oldalak:
 
 1. `palyazat-kap-rd46-1-25.html`
    - minimum pontszám: 20;
@@ -187,28 +207,11 @@ Funkciók:
    - minimum terület: 0,5 ha;
    - következő szakasz: 2026. október 7. – november 4.
 
-Mindkét oldal mobilbarát, sötét módot támogat, és közvetlen hivatalos dokumentumlinkeket tartalmaz.
-
-### Pályázati adatlap-szabvány
-
-A `PALYAZATI_ADATLAP_SABLON.md` rögzíti:
-
-- a kötelező adatmezőket;
-- a jogosultság, STÉ, pontozás és intenzitás kezelését;
-- a támogatható és kizárt tevékenységeket;
-- a buktatók bemutatását;
-- a hivatalos adat és a GazdaCentrum-értelmezés elkülönítését;
-- az AI használatának emberi ellenőrzési szabályait.
+A `PALYAZATI_ADATLAP_SABLON.md` rögzíti a kötelező mezőket, az emberi ellenőrzést és a hivatalos tények, illetve a GazdaCentrum-magyarázat elkülönítését.
 
 ## 11. Impresszum
 
-Az `impresszum.html` tartalmazza:
-
-- az üzemeltető jelenleg ismert adatait;
-- a tárhelyszolgáltatót;
-- a szolgáltatás jellegét;
-- az automatizált hírfeldolgozásra vonatkozó tájékoztatást;
-- a hivatalos forrás ellenőrzésének szükségességét.
+Az `impresszum.html` tartalmazza az üzemeltető jelenleg ismert adatait, a tárhelyszolgáltatót, a szolgáltatás jellegét és az automatizált hírfeldolgozásra vonatkozó tájékoztatást.
 
 Nyitott feladat:
 
@@ -231,17 +234,15 @@ A technikai működés nem helyettesíti a felhasználási engedélyek rendezés
 
 ## 13. Ismert korlátozások
 
-- a kategorizálás heurisztikus;
-- a duplikációszűrés heurisztikus;
-- nincs külön kategóriaoldal;
-- nincs kereső;
+- a kategorizálás és a duplikációszűrés heurisztikus;
+- nincs külön kategóriaoldal és kereső;
 - nincs hírlevél;
-- a pályázatok frissítése még kézi;
+- a pályázatok és határidők frissítése még kézi ellenőrzést igényel;
 - nincs automatikus dokumentumverzió-figyelés;
-- nincs jogosultsági vagy pontszám-előbecslő;
+- nincs felhasználói fiók vagy értesítés;
 - a forrásengedélyek rendezése nem teljes;
 - nincs külön adatkezelési tájékoztató.
 
 ## 14. Következő konkrét feladat
 
-Döntés a Mezőhír, AKI és Agroinform átmeneti kikapcsolásáról vagy az írásos engedélykérések azonnali elindításáról.
+Az aktualizált repository feltöltése után mobilon ellenőrizni kell a képernyőszéli vissza-a-tetejére gombot és a nitrátos kártya `esedékes` státuszszövegét. Ezután következhet az asztali teszt és a production `naptar.html` lecserélésének előkészítése.

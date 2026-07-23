@@ -1,25 +1,41 @@
 # GazdaCentrum.hu
 
-Automatizált magyar agrár hírgyűjtő, pályázatfigyelő és gazdálkodói információs portál.
+Automatizált magyar agrárinformációs portál agrárhatáridőkkel, pályázati összefoglalókkal és jogszerűen gyűjtött agrárhírekkel.
 
 ## Élő weboldal
 
 - https://gazdacentrum.hu
 - https://www.gazdacentrum.hu
 - https://gazdacentrum.hu/palyazatok.html
+- https://gazdacentrum.hu/naptar-proba.html – fejlesztési próbafelület
+- https://gazdacentrum.hu/naptar-szinproba.html – külön színpróba
 
-## A projekt célja
+## Aktuális fő irány
 
-A GazdaCentrum magyar gazdálkodók számára gyűjt és rendszerez:
+Az elsődleges funkció az **Agrárhatáridők és teendők**.
 
-- agrárhíreket jogszerű RSS- és más strukturált forrásokból;
-- hivatalos pályázati és támogatási információkat;
-- benyújtási és kifizetési határidőket;
-- elkülönített céges és partneri szakmai tartalmakat.
+A cél nem havi naptár, hanem szűrhető, időrendi lista, amely megmutatja:
 
-A rendszer megjeleníti a forrást, a dátumot és az eredeti linket. Teljes külső cikket és külső képet nem vesz át automatikusan.
+- mi a teendő;
+- mikor nyílik és mikor jár le;
+- kiket érint;
+- melyik ágazathoz és határidőtípushoz tartozik;
+- mi a hivatalos forrás;
+- mikor ellenőriztük utoljára.
+
+A `naptar-proba.html` az új felület próbaváltozata. A `naptar.html` csak elfogadott mobil- és asztali teszt után cserélhető le.
 
 ## Működési folyamatok
+
+### Agrárhatáridők
+
+```text
+hivatalos forrás
+→ kézi ellenőrzés
+→ deadlines.json
+→ naptar-proba.html
+→ később naptar.html
+```
 
 ### Hírek
 
@@ -51,6 +67,8 @@ hivatalos KAP-adatlapok és dokumentumok
 - Production branch: `main`
 - Automatikus deploy: minden `main` ágra kerülő commit után
 
+A GitHub `main` ág a production forrás. A ZIP csak pillanatfelvétel.
+
 DNS-módosításnál védeni kell az MX-, SPF-, DKIM-, DMARC- és igazoló TXT-rekordokat.
 
 ## Fontos fájlok
@@ -58,18 +76,70 @@ DNS-módosításnál védeni kell az MX-, SPF-, DKIM-, DMARC- és igazoló TXT-r
 | Fájl | Feladat |
 |---|---|
 | `index.html` | Főoldal, hírek, kategóriák, határidők és céges rovat |
+| `naptar.html` | Korábbi production naptároldal; egyelőre nem cserélendő |
+| `naptar-proba.html` | Új szűrhető agrárhatáridő- és teendőlista |
+| `naptar-szinproba.html` | Négy kapcsolható sötét paletta próbafelülete |
+| `deadlines.json` | Határidők és teendők, `schema_version: 2` |
+| `grants.json` | Pályázati adatmodell |
+| `palyazatok.html` | Pályázati listaoldal |
+| `palyazat-kap-rd46-1-25.html` | KAP-RD46-1-25 részletes adatlapja |
+| `palyazat-kap-rd38-rd39-1-25.html` | KAP-RD38-RD39-1-25 részletes adatlapja |
 | `sources.csv` | Aktív RSS-források |
 | `fetch_news.py` | RSS-lekérés, tisztítás, kategorizálás és duplikációszűrés |
 | `news.json` | Nyilvánosan megjelenő híradatok |
-| `deadlines.json` | Strukturált pályázati és támogatási határidők |
-| `grants.json` | Pályázati adatmodell |
-| `palyazatok.html` | Pályázati listaoldal |
-| `palyazat-kap-rd46-1-25.html` | Minőségrendszeri pályázat részletes adatlapja |
-| `palyazat-kap-rd38-rd39-1-25.html` | Erdőtelepítési pályázat részletes adatlapja |
-| `PALYAZATI_ADATLAP_SABLON.md` | Egységes részletes pályázati adatlap-szabvány |
+| `PALYAZATI_ADATLAP_SABLON.md` | Részletes pályázati adatlap-szabvány |
 | `SOURCE_AUDIT.md` | Források technikai és jogi auditja |
 | `impresszum.html` | Impresszum és szolgáltatási tájékoztatás |
 | `.github/workflows/update-news.yml` | Hatóránkénti automatikus hírfrissítés |
+
+## Határidő-adatmodell
+
+A `deadlines.json` jelenleg 10 rekordot tartalmaz.
+
+Határidőtípusok:
+
+- Pályázat;
+- Kifizetés;
+- Adatszolgáltatás;
+- Kötelezettség;
+- Bejelentés.
+
+Ágazatok:
+
+- Szántóföld;
+- Kertészet;
+- Állattenyésztés;
+- Erdőgazdálkodás;
+- Ökológiai gazdálkodás;
+- Általános.
+
+A státuszt a felület számolja ki. A relatív rekord maradhat `date_type: "relative"` és `show_in_main_list: false` értékkel.
+
+Új tétel előtt kötelező ellenőrizni:
+
+- a hivatalos forrást;
+- az évet és a dátumtípust;
+- a nyitó- és záródátumot;
+- az érintetteket és a teendőt;
+- a kivételeket és módosításokat;
+- az ellenőrzés dátumát.
+
+Hiányzó dátumot, jogosultságot, összeget, szankciót vagy érintetti kört nem szabad kitalálni.
+
+## A próbafelület működése
+
+A `naptar-proba.html`:
+
+- az öt határidőtípus szerint szűr;
+- ágazat és időszak szerint szűr;
+- a lejárt tételeket alapból elrejti;
+- pályázatonként csak a következő releváns szakaszt mutatja;
+- megjeleníti a hivatalos forrást és az ellenőrzési dátumot;
+- `Teendő részletei` ablakot nyit;
+- az egynapos jövőbeli határidőket `esedékes` szöveggel kezeli;
+- mobilon egyoszlopos kártyákat és biztonságosan görgethető részletező ablakot használ.
+
+A `naptar-szinproba.html` ugyanezt a működést tartja meg, és négy később értékelendő sötét palettát kínál.
 
 ## Aktív RSS-források
 
@@ -86,11 +156,11 @@ Jelenleg 12 aktív forrás szerepel a `sources.csv` fájlban.
 | ÖMKi | Ökológiai gazdálkodás | szakmai |
 | FruitVeB | Kertészet | szakmai |
 | Agroinform | Általános agrár | portál |
-| Phylazonit | Általános agrár | ceges |
-| Magtár Kft. | Gépesítés | ceges |
+| Phylazonit | Általános agrár | céges |
+| Magtár Kft. | Gépesítés | céges |
 | KAP portál | Támogatások és pályázatok | hivatalos |
 
-Az Agrárközösség jelenleg inaktív, mert a feed ellenőrzőoldalt vagy hibás XML-választ adott.
+Az Agrárközösség inaktív, mert a feed nem ad stabilan feldolgozható RSS-választ.
 
 ## Hírgyűjtés
 
@@ -104,8 +174,6 @@ Az Agrárközösség jelenleg inaktív, mert a feed ellenőrzőoldalt vagy hibá
 ### Kategorizálás
 
 A rendszer cím-, RSS-kategória-, URL- és forrásspecifikus jelek alapján kategorizál. A `Mezőgazdasági gépek` megnevezést egységesen `Gépesítés` kategóriára alakítja.
-
-A főoldali `Gépesítés` kártya akkor is működik, ha az aktuális gépes hírek kizárólag a külön céges rovatban találhatók: ilyenkor a Magtár Kft. tartalmaihoz navigál, nem keveri azokat a független hírfolyamba.
 
 ### Duplikációszűrés
 
@@ -126,7 +194,7 @@ hivatalos
 → portál
 ```
 
-A `ceges` és `partneri` típusú tartalmak külön ágon maradnak.
+A `céges` és `partneri` típusú tartalmak külön ágon maradnak.
 
 ## Céges és partneri szakmai tartalmak
 
@@ -135,35 +203,18 @@ Aktív céges források:
 - Phylazonit;
 - Magtár Kft.
 
-A céges rovat:
-
-- alapállapotban nem jelenít meg cikkeket;
-- vállalatonként külön választógombot használ;
-- egyértelmű `Céges szakmai tartalom` jelölést ad;
-- nem keveri a vállalati cikkeket a független hírekkel;
-- a Magtár Kft. `AKCIÓK` kategóriájú elemeit kizárja.
+A céges rovat elkülönül a független hírektől, egyértelmű jelölést kap, és nem vesz át teljes cikket, kivonatot vagy külső képet.
 
 ## Pályázati rendszer
 
-A `grants.json` jelenleg 2 pályázatot és összesen 12 benyújtási szakaszt tartalmaz.
+A `grants.json` 2 pályázatot és összesen 12 benyújtási szakaszt tartalmaz.
 
 Részletes adatlapok:
 
 - `KAP-RD46-1-25` – Működő minőségrendszerhez történő csatlakozás támogatása;
 - `KAP-RD38-RD39-1-25` – Erdőtelepítés és fásítás támogatása.
 
-Mindkét felhívás aktív, de 2026. július 20-án két benyújtási időszak közötti állapotban van. A következő beadási szakaszok 2026 októberében indulnak.
-
-A részletes oldalak elkülönítik:
-
-- a hivatalos adatokat;
-- a GazdaCentrum közérthető értelmezését;
-- a jogosultságot;
-- a támogatási összegeket;
-- a pontozást;
-- a kötelezettségeket;
-- a legfontosabb buktatókat;
-- a hivatalos dokumentumokat és módosításokat.
+A részletes oldalak elkülönítik a hivatalos adatokat és a GazdaCentrum közérthető magyarázatát.
 
 ## Automatikus frissítés
 
@@ -172,7 +223,7 @@ A GitHub Actions workflow:
 - kézzel indítható;
 - hatóránként automatikusan fut;
 - Python 3.12-t használ;
-- telepíti a `feedparser==6.0.12` függőséget;
+- telepíti a `requirements.txt` függőségeit;
 - lefuttatja a `fetch_news.py` programot;
 - csak a `news.json` fájlt commitolja vissza.
 
@@ -196,9 +247,8 @@ http://localhost:8000
 - Külső képet nem töltünk le automatikusan.
 - Minden hírnél szerepel a forrás, a dátum és az eredeti link.
 - Scraping csak külön jogi és technikai vizsgálat után használható.
-- Támogatási, jogszabályi, pénzügyi és növényvédelmi információnál az eredeti hivatalos forrás az irányadó.
-- A hírfeldolgozás részben automatizált.
-- Kritikus pályázati adat AI vagy automatizmus segítségével csak emberi ellenőrzés után publikálható.
+- Kritikus agrárinformációnál az eredeti hivatalos forrás az irányadó.
+- AI vagy automatizmus kritikus adatot csak emberi ellenőrzés után publikálhat.
 - A céges és partneri tartalmakat egyértelműen el kell különíteni.
 
 ## Dokumentáció

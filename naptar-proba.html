@@ -1306,14 +1306,16 @@
       .back-to-top {
         top: auto;
         left: auto;
-        right: 16px;
-        bottom: 16px;
-        width: 44px;
+        right: 0;
+        bottom: calc(14px + env(safe-area-inset-bottom));
+        width: 40px;
         height: 44px;
-        transform: translateY(14px);
+        border-right: 0;
+        border-radius: 999px 0 0 999px;
+        transform: translate(10px, 14px);
       }
       .back-to-top.is-visible {
-        transform: translateY(0);
+        transform: translate(0, 0);
       }
     }
 
