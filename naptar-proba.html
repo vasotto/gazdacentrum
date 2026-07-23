@@ -1274,6 +1274,9 @@
       .calendar-grid { min-width: 720px; }
       .footer-inner { grid-template-columns: 1fr; }
       .dialog-row { grid-template-columns: 1fr; gap: 3px; }
+      .dialog-inner {
+        padding-bottom: calc(48px + env(safe-area-inset-bottom));
+      }
     }
 
     @media (max-width: 560px) {
