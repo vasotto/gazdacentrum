@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-20T20:30:00+00:00",
+  "generated_at": "2026-07-23T06:23:23+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -125,6 +125,26 @@
       "action_type": "Kifizetési kérelem",
       "date_type": "relative",
       "show_in_main_list": false
+    },
+    {
+      "id": "hmka-6-minimalis-talajboritas-2026",
+      "title": "HMKÁ 6 – minimális talajborítás fenntartása",
+      "action": "A minimális talajborítás fenntartása az előírásnak megfelelő módon",
+      "affected": "A HMKÁ 6 feltételességi előírás hatálya alá tartozó érintett gazdálkodók",
+      "start_date": "2026-07-15",
+      "deadline_date": "2026-09-30",
+      "deadline_text": "2026. július 15. – szeptember 30.",
+      "reference_code": "HMKÁ 6",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/news/2026-07-07/150808/pontositas-minimalis-talajboritasra-vonatkozo-eloiras-alkalmazasarol",
+      "verified_at": "2026-07-23",
+      "deadline_type": "Kötelezettség",
+      "sectors": [
+        "Szántóföld"
+      ],
+      "action_type": "Gazdálkodási kötelezettség",
+      "date_type": "fixed",
+      "show_in_main_list": true
     }
   ]
 }
