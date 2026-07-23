@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T06:23:23+00:00",
+  "generated_at": "2026-07-23T06:53:58+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -143,6 +143,26 @@
         "Szántóföld"
       ],
       "action_type": "Gazdálkodási kötelezettség",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "egn-2026-papiralapu-adatok-rogzitese",
+      "title": "2026. évi Gazdálkodási Napló adatainak rögzítése az eGN-ben",
+      "action": "A papíralapon vezetett 2026. évi Gazdálkodási Napló adatainak rögzítése az eGN rendszerben",
+      "affected": "A 2026. évi Gazdálkodási Naplót papíralapon vezető, eGN-adatrögzítésre kötelezett gazdálkodók",
+      "start_date": "2026-03-02",
+      "deadline_date": "2027-01-31",
+      "deadline_text": "2026. március 2. – 2027. január 31.",
+      "reference_code": "eGN 2026",
+      "source_name": "Nébih",
+      "source_url": "https://portal.nebih.gov.hu/-/marcius-2-an-indul-az-idei-evre-vonatkozo-elektronikus-gazdalkodasi-naplo",
+      "verified_at": "2026-07-23",
+      "deadline_type": "Adatszolgáltatás",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Adatok rögzítése",
       "date_type": "fixed",
       "show_in_main_list": true
     }
