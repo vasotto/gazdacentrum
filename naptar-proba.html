@@ -1300,7 +1300,18 @@
       .task-button { width: 100%; }
       .calendar-toolbar { align-items: flex-start; flex-direction: column; }
       .month-title { min-width: 0; }
-      .back-to-top { top: 14px; width: 40px; height: 40px; }
+      .back-to-top {
+        top: auto;
+        left: auto;
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+        transform: translateY(14px);
+      }
+      .back-to-top.is-visible {
+        transform: translateY(0);
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
