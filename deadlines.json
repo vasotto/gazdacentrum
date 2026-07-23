@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T06:53:58+00:00",
+  "generated_at": "2026-07-23T07:57:42+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -161,6 +161,27 @@
       "deadline_type": "Adatszolgáltatás",
       "sectors": [
         "Általános"
+      ],
+      "action_type": "Adatok rögzítése",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "nitrat-adatszolgaltatas-2026",
+      "title": "2026. évi nitrát-adatszolgáltatás",
+      "action": "A 2026. évi nitrát-nyilvántartás adatainak rögzítése az eGN rendszerben",
+      "affected": "Nitrátérzékeny területen gazdálkodók, valamint a vonatkozó előírások szerinti érintett állattartók",
+      "start_date": "2027-03-31",
+      "deadline_date": "2027-03-31",
+      "deadline_text": "Határidő: 2027. március 31.",
+      "reference_code": "Nitrát-adatszolgáltatás 2026",
+      "source_name": "Nébih",
+      "source_url": "https://portal.nebih.gov.hu/nitrat-adatszolgaltatas",
+      "verified_at": "2026-07-23",
+      "deadline_type": "Adatszolgáltatás",
+      "sectors": [
+        "Szántóföld",
+        "Állattenyésztés"
       ],
       "action_type": "Adatok rögzítése",
       "date_type": "fixed",
