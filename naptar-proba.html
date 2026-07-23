@@ -833,6 +833,21 @@
       font-weight: 900;
     }
 
+    .task-source-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .task-source-meta strong {
+      color: var(--charcoal);
+      font-weight: 900;
+    }
+
     .task-details {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1817,6 +1832,25 @@
       period.className = "task-period";
       period.textContent = item.deadline_text || "Dátum nincs megadva";
 
+      const sourceMeta = document.createElement("div");
+      sourceMeta.className = "task-source-meta";
+
+      const sourceName = document.createElement("span");
+      sourceName.innerHTML =
+        "<strong>Hivatalos forrás:</strong> " +
+        (item.source_name || "Nincs megadva");
+
+      const verified = document.createElement("span");
+      verified.innerHTML =
+        "<strong>Ellenőrizve:</strong> " +
+        (
+          item.verified_at
+            ? DATE_FORMATTER.format(parseDate(item.verified_at))
+            : "Nincs megadva"
+        );
+
+      sourceMeta.append(sourceName, verified);
+
       const details = document.createElement("div");
       details.className = "task-details";
 
@@ -1870,7 +1904,14 @@
         actions.appendChild(sourceLink);
       }
 
-      card.append(top, title, period, details, actions);
+      card.append(
+        top,
+        title,
+        period,
+        sourceMeta,
+        details,
+        actions
+      );
       return card;
     }
 
