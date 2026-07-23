@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-23T17:05:24.794682+00:00",
-  "item_count": 151,
+  "generated_at": "2026-07-23T21:47:01.615490+00:00",
+  "item_count": 150,
   "items": [
+    {
+      "id": "6532253ea8eb6b2f",
+      "title": "Kisméretű gekkók a terráriumban",
+      "link": "https://magyarmezogazdasag.hu/2026/07/23/kismeretu-gekkok-a-terrariumban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T21:02:30+00:00"
+    },
+    {
+      "id": "5e8245eab0176274",
+      "title": "Miért gyökeresedik könnyen egy pozsgás, és miért olyan nehezen egy fenyő?",
+      "link": "https://magyarmezogazdasag.hu/2026/07/23/miert-gyokeresedik-konnyen-egy-pozsgas-es-miert-olyan-nehezen-egy-fenyo/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T20:03:27+00:00"
+    },
+    {
+      "id": "ffe867334d4bc04e",
+      "title": "Házi görögdinnyés gumicukor! Egyszerű elkészíteni, fantasztikusan néz ki és nagyon finom!",
+      "link": "https://www.agroinform.hu/gazdaelet/hazi-gorogdinnyes-malnas-gumicukor-nyari-nasi-otthon-98955-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98955",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T19:36:00+00:00"
+    },
     {
       "id": "629c2831557bf75f",
       "title": "Akár 10 százalékkal nagyobb termést ígérnek az új hibrid búzák",
@@ -11,6 +41,46 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-23T19:02:52+00:00"
+    },
+    {
+      "id": "f76e79840c3ab06d",
+      "title": "Átalakulás jöhet a földeken: nagy változás vár a gazdák",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260723/atalakulas-johet-a-foldeken-nagy-valtozas-var-a-gazdak-63501",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T18:28:00+00:00"
+    },
+    {
+      "id": "9e5a63bef436b66a",
+      "title": "Kész vége, ennyi volt: végleg bezárt a Balaton legendás borgazdasága",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260723/kesz-vege-ennyi-volt-vegleg-bezart-a-balaton-legendas-borgazdasaga-63490",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T17:28:00+00:00"
+    },
+    {
+      "id": "3582c45a664255d5",
+      "title": "Nem akármilyen helyzet állt elő a Tiszánál: ez így nem mehet tovább",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260723/nem-akarmilyen-helyzet-allt-elo-a-tiszanal-ez-igy-nem-mehet-tovabb-63509",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T17:07:00+00:00"
+    },
+    {
+      "id": "2b1265202efc35dd",
+      "title": "Biztonságos korai vetés: rezisztens ősziárpa-fajták",
+      "link": "https://www.agroinform.hu/szantofold/oszi-arpa-generaciovaltas-a-koztermesztesben-98543-022?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98543",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-23T17:06:12+00:00"
     },
     {
       "id": "95a28ad6b1abd696",
@@ -173,16 +243,6 @@
       "published_at": "2026-07-23T14:10:00+00:00"
     },
     {
-      "id": "11d1fc448780ff9b",
-      "title": "Sok gazdát érintő változást jelentett be a NAK",
-      "link": "https://www.agroinform.hu/gazdasag/sok-gazdat-erinto-valtozast-jelentett-be-a-nak-98995-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98995",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-23T14:06:35+00:00"
-    },
-    {
       "id": "cbab07e34bbd3c70",
       "title": "A politika emelheti egekbe a kávé árát",
       "link": "https://magyarmezogazdasag.hu/2026/07/23/a-politika-emelheti-egekbe-a-kave-arat/",
@@ -333,16 +393,6 @@
       "published_at": "2026-07-23T10:32:00+00:00"
     },
     {
-      "id": "0c453dda5756d1dd",
-      "title": "Már a zsilipek sincsenek biztonságban: víziháború tört ki az aszály sújtotta Alföldön",
-      "link": "https://www.agroinform.hu/szantofold/mar-a-zsilipek-sincsenek-biztonsagban-vizihaboru-tort-ki-az-aszaly-sujtotta-alfoldon-98978-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98978",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-23T10:30:48+00:00"
-    },
-    {
       "id": "a4480ab301f39b63",
       "title": "Több millió rovar lepi el a magyar folyókat: érdekes, mi a háttérben",
       "link": "https://agronaplo.hu/agrarhirek/20260723/tobb-millio-rovar-lepi-el-a-magyar-folyokat-erdekes-mi-a-hatterben-40757",
@@ -353,21 +403,11 @@
       "published_at": "2026-07-23T10:12:00+00:00"
     },
     {
-      "id": "186b594ca5b4daea",
-      "title": "Mi történik, ha egy gazda kiég? Meglepő döntést hozott a Cinege Tanya vezetője",
-      "link": "https://www.agroinform.hu/gazdasag/mi-tortenik-ha-egy-gazda-kieg-meglepo-dontest-hozott-a-cinege-tanya-vezetoje-98950-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=98950",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-23T10:10:25+00:00"
-    },
-    {
       "id": "69d764cd443eb83a",
       "title": "Szuperhősök: Porcsinrózsa",
       "link": "https://magyarmezogazdasag.hu/2026/07/23/szuperhosok-porcsinrozsa/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-23T10:02:28+00:00"
@@ -533,26 +573,6 @@
       "published_at": "2026-07-23T06:06:09+00:00"
     },
     {
-      "id": "dfc797344dae4dcb",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.07.23. csütörtök",
-      "link": "https://www.agrarszektor.hu/noveny/20260723/friss-agrarszektor-idojaras-elorejelzes-20260723-csutortok-63487",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-23T05:45:02+00:00"
-    },
-    {
-      "id": "ea809a5abc5a492e",
-      "title": "Következetes technológia és jó időzítés - Milyen titkok rejlenek a 4,84 tonnás repceátlag mögött?",
-      "link": "https://www.agrarszektor.hu/agrofokusz/20260723/kovetkezetes-technologia-es-jo-idozites-milyen-titkok-rejlenek-a-484-tonnas-repceatlag-mogott-63467",
-      "source": "Agrárszektor",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-23T05:30:00+00:00"
-    },
-    {
       "id": "b379c31db11c180f",
       "title": "Kíméletesebb megoldás kártevők ellen? A neemolaj lehet az egyik eszköz",
       "link": "https://agroforum.hu/agrarhirek/novenyvedelem/kimeletesebb-megoldas-kartevok-ellen-a-neemolaj-lehet-az-egyik-eszkoz/",
@@ -561,16 +581,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-23T05:10:00+00:00"
-    },
-    {
-      "id": "4f1ec01b14a74a9f",
-      "title": "Komoly drágulás jöhet a piacokon: ezt az élelmiszert érinti jelentősen",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260723/komoly-dragulas-johet-a-piacokon-ezt-az-elelmiszert-erinti-jelentosen-63482",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-23T05:02:00+00:00"
     },
     {
       "id": "f77bd3352e9869c4",
@@ -601,26 +611,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-22T20:03:27+00:00"
-    },
-    {
-      "id": "5e5ac1c7f8a02821",
-      "title": "Veszélyben egy népszerű meme cuki, kerek békája",
-      "link": "https://magyarmezogazdasag.hu/2026/07/22/veszelyben-egy-nepszeru-meme-cuki-kerek-bekaja/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-22T19:04:59+00:00"
-    },
-    {
-      "id": "dda7c06e33bdc976",
-      "title": "Új vidékfejlesztési program indul",
-      "link": "https://magyarmezogazdasag.hu/2026/07/22/uj-videkfejlesztesi-program-indul/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-22T18:03:08+00:00"
     },
     {
       "id": "a6c005b0c9d3d99d",
