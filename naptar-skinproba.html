@@ -1,0 +1,2116 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skinpróba – Agrárhatáridők és teendők – GazdaCentrum.hu</title>
+  <meta name="description" content="Szűrhető mezőgazdasági pályázati, adatszolgáltatási és hivatalos agrárhatáridők, közvetlen hivatalos forráslinkekkel.">
+
+  <script>
+    (() => {
+      const appearances = new Set(["auto", "light", "dark"]);
+      const skins = new Set([
+        "graphite-petrol",
+        "slate-mist",
+        "warm-graphite-bronze"
+      ]);
+      const legacySkinMap = {
+        "graphite-petrol": "graphite-petrol",
+        "slate-violet": "slate-mist",
+        "warm-bronze": "warm-graphite-bronze",
+        "neutral-graphite": "graphite-petrol"
+      };
+
+      let appearance = "auto";
+      let skin = "graphite-petrol";
+
+      try {
+        const savedAppearance = localStorage.getItem("gazdacentrum-appearance");
+        const savedSkin = localStorage.getItem("gazdacentrum-skin");
+
+        if (appearances.has(savedAppearance)) {
+          appearance = savedAppearance;
+        } else {
+          const legacyTheme = localStorage.getItem("gazdacentrum-theme");
+          if (legacyTheme === "light" || legacyTheme === "dark") {
+            appearance = legacyTheme;
+          }
+        }
+
+        if (skins.has(savedSkin)) {
+          skin = savedSkin;
+        } else {
+          const legacyPalette = localStorage.getItem("gazdacentrum-dark-palette");
+          skin = legacySkinMap[legacyPalette] || "graphite-petrol";
+        }
+      } catch (error) {
+        // A felület a böngészőbeállítás alapján localStorage nélkül is működik.
+      }
+
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+      const theme = appearance === "auto" ? systemTheme : appearance;
+
+      document.documentElement.dataset.appearance = appearance;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.skin = skin;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+
+  <style>
+    :root {
+      --page: #f3f6f6;
+      --surface: #ffffff;
+      --surface-alt: #f7f9f9;
+      --border: #d9e2e2;
+      --text: #1d292c;
+      --muted: #5f7074;
+      --accent: #287d80;
+      --accent-strong: #135f62;
+      --accent-soft: #dceded;
+      --primary: #aee500;
+      --primary-strong: #729900;
+      --primary-soft: #eef8d2;
+      --primary-text: #273500;
+      --warning: #ad6a0f;
+      --warning-soft: #fff3dc;
+      --danger: #b43b42;
+      --danger-soft: #fdebed;
+      --closed: #68757a;
+      --closed-soft: #edf0f1;
+      --header-bg: rgba(25, 37, 40, 0.97);
+      --footer-bg: #182326;
+      --header-text: #f5f8f8;
+      --header-muted: #c8d2d3;
+      --hero-start: #f9fbfb;
+      --hero-end: #e8f1f1;
+      --hero-glow: rgba(40, 125, 128, 0.15);
+      --shadow-soft: 0 10px 28px rgba(26, 46, 49, 0.08);
+      --shadow-panel: 0 18px 50px rgba(11, 25, 28, 0.2);
+      --focus: #74a900;
+    }
+
+    html[data-theme="light"][data-skin="graphite-petrol"] {
+      --page: #f3f6f6;
+      --surface: #ffffff;
+      --surface-alt: #f7f9f9;
+      --border: #d9e2e2;
+      --text: #1d292c;
+      --muted: #5f7074;
+      --accent: #287d80;
+      --accent-strong: #135f62;
+      --accent-soft: #dceded;
+      --primary: #aee500;
+      --primary-strong: #729900;
+      --primary-soft: #eef8d2;
+      --primary-text: #273500;
+      --warning: #ad6a0f;
+      --warning-soft: #fff3dc;
+      --danger: #b43b42;
+      --danger-soft: #fdebed;
+      --closed: #68757a;
+      --closed-soft: #edf0f1;
+      --header-bg: rgba(25, 37, 40, 0.97);
+      --footer-bg: #182326;
+      --header-text: #f5f8f8;
+      --header-muted: #c8d2d3;
+      --hero-start: #f9fbfb;
+      --hero-end: #e8f1f1;
+      --hero-glow: rgba(40, 125, 128, 0.15);
+      --shadow-soft: 0 10px 28px rgba(26, 46, 49, 0.08);
+      --shadow-panel: 0 18px 50px rgba(11, 25, 28, 0.2);
+      --focus: #74a900;
+    }
+
+    html[data-theme="dark"][data-skin="graphite-petrol"] {
+      --page: #0e171a;
+      --surface: #172327;
+      --surface-alt: #1d2b2f;
+      --border: #34494e;
+      --text: #edf3f3;
+      --muted: #a7b8bb;
+      --accent: #70b9ba;
+      --accent-strong: #9ed2d2;
+      --accent-soft: #223b3e;
+      --primary: #b8e92c;
+      --primary-strong: #c9f25a;
+      --primary-soft: #2b381a;
+      --primary-text: #1d2900;
+      --warning: #e2a24d;
+      --warning-soft: #392b1b;
+      --danger: #ef858b;
+      --danger-soft: #3c2328;
+      --closed: #9ba8ab;
+      --closed-soft: #293336;
+      --header-bg: rgba(11, 20, 23, 0.97);
+      --footer-bg: #091114;
+      --header-text: #f4f8f8;
+      --header-muted: #bdcbcc;
+      --hero-start: #121d20;
+      --hero-end: #1a2d31;
+      --hero-glow: rgba(64, 150, 153, 0.18);
+      --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.25);
+      --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.42);
+      --focus: #c7ef54;
+    }
+
+    html[data-theme="light"][data-skin="slate-mist"] {
+      --page: #f1f4f8;
+      --surface: #ffffff;
+      --surface-alt: #f6f8fb;
+      --border: #d6deea;
+      --text: #202a37;
+      --muted: #617083;
+      --accent: #577b9f;
+      --accent-strong: #345d84;
+      --accent-soft: #e1ebf4;
+      --primary: #aee500;
+      --primary-strong: #729900;
+      --primary-soft: #eef8d2;
+      --primary-text: #273500;
+      --warning: #a8650c;
+      --warning-soft: #fff3dc;
+      --danger: #b43b42;
+      --danger-soft: #fdebed;
+      --closed: #6c7784;
+      --closed-soft: #edf0f4;
+      --header-bg: rgba(36, 48, 63, 0.97);
+      --footer-bg: #222f3e;
+      --header-text: #f6f8fb;
+      --header-muted: #cbd5df;
+      --hero-start: #fafcff;
+      --hero-end: #e7edf4;
+      --hero-glow: rgba(83, 122, 160, 0.16);
+      --shadow-soft: 0 10px 28px rgba(37, 57, 78, 0.08);
+      --shadow-panel: 0 18px 50px rgba(23, 37, 54, 0.2);
+      --focus: #729900;
+    }
+
+    html[data-theme="dark"][data-skin="slate-mist"] {
+      --page: #101722;
+      --surface: #192331;
+      --surface-alt: #202c3b;
+      --border: #3a4b60;
+      --text: #eef3f8;
+      --muted: #aab7c7;
+      --accent: #82aacd;
+      --accent-strong: #afd0eb;
+      --accent-soft: #263b50;
+      --primary: #b8e92c;
+      --primary-strong: #c9f25a;
+      --primary-soft: #2b381a;
+      --primary-text: #1d2900;
+      --warning: #e2a24d;
+      --warning-soft: #392b1b;
+      --danger: #ef858b;
+      --danger-soft: #3c2328;
+      --closed: #9ca8b7;
+      --closed-soft: #2a3441;
+      --header-bg: rgba(12, 18, 28, 0.97);
+      --footer-bg: #0a1018;
+      --header-text: #f5f8fb;
+      --header-muted: #c1ccd8;
+      --hero-start: #151e2a;
+      --hero-end: #203044;
+      --hero-glow: rgba(99, 145, 184, 0.18);
+      --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.25);
+      --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.44);
+      --focus: #c7ef54;
+    }
+
+    html[data-theme="light"][data-skin="warm-graphite-bronze"] {
+      --page: #f5f3ef;
+      --surface: #fffefa;
+      --surface-alt: #f8f6f1;
+      --border: #e2ddd3;
+      --text: #2d302e;
+      --muted: #706f68;
+      --accent: #95734e;
+      --accent-strong: #735331;
+      --accent-soft: #eee4d7;
+      --primary: #aee500;
+      --primary-strong: #729900;
+      --primary-soft: #eef8d2;
+      --primary-text: #273500;
+      --warning: #aa6811;
+      --warning-soft: #fff2da;
+      --danger: #b43b42;
+      --danger-soft: #fdebed;
+      --closed: #747772;
+      --closed-soft: #efefeb;
+      --header-bg: rgba(43, 45, 43, 0.97);
+      --footer-bg: #292b29;
+      --header-text: #faf9f5;
+      --header-muted: #d6d2ca;
+      --hero-start: #fffefa;
+      --hero-end: #eee9df;
+      --hero-glow: rgba(149, 115, 78, 0.14);
+      --shadow-soft: 0 10px 28px rgba(56, 49, 39, 0.08);
+      --shadow-panel: 0 18px 50px rgba(39, 34, 28, 0.22);
+      --focus: #729900;
+    }
+
+    html[data-theme="dark"][data-skin="warm-graphite-bronze"] {
+      --page: #171816;
+      --surface: #222421;
+      --surface-alt: #2a2d29;
+      --border: #484b44;
+      --text: #f1f1eb;
+      --muted: #b8b8ae;
+      --accent: #c39c6c;
+      --accent-strong: #e0bf96;
+      --accent-soft: #3c342a;
+      --primary: #b8e92c;
+      --primary-strong: #c9f25a;
+      --primary-soft: #2b381a;
+      --primary-text: #1d2900;
+      --warning: #e2a24d;
+      --warning-soft: #392b1b;
+      --danger: #ef858b;
+      --danger-soft: #3c2328;
+      --closed: #a6aaa3;
+      --closed-soft: #30332f;
+      --header-bg: rgba(20, 21, 19, 0.97);
+      --footer-bg: #10110f;
+      --header-text: #f8f8f2;
+      --header-muted: #cecec5;
+      --hero-start: #1c1e1b;
+      --hero-end: #2d2a24;
+      --hero-glow: rgba(183, 143, 93, 0.17);
+      --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.26);
+      --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.45);
+      --focus: #c7ef54;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      max-width: 100%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      max-width: 100%;
+      overflow-x: hidden;
+      color: var(--text);
+      background: var(--page);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+    button, select, input { font: inherit; }
+    img, svg { display: block; }
+    [hidden] { display: none !important; }
+
+    :where(a, button, select, input):focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 3px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      color: var(--header-text);
+      background: var(--header-bg);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-inner {
+      width: min(1180px, calc(100% - 40px));
+      min-height: 72px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      flex: 0 0 auto;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: 232px;
+      max-height: 54px;
+      object-fit: contain;
+      object-position: left center;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 18px;
+    }
+
+    .nav-link {
+      color: var(--header-text);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus-visible { color: var(--primary); }
+
+    .appearance-menu {
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .appearance-button {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px 14px;
+      color: var(--header-text);
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 850;
+      cursor: pointer;
+    }
+
+    .appearance-button[aria-expanded="true"] {
+      color: var(--primary-text);
+      background: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .appearance-panel {
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      z-index: 80;
+      width: min(360px, calc(100vw - 28px));
+      max-height: min(680px, calc(100vh - 96px));
+      padding: 18px;
+      overflow-y: auto;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow-panel);
+    }
+
+    .appearance-panel h2 {
+      margin: 0;
+      color: var(--text);
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    .appearance-current {
+      margin: 6px 0 16px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .appearance-group {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    .appearance-group + .appearance-group { margin-top: 16px; }
+
+    .appearance-group legend {
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .appearance-options {
+      display: grid;
+      gap: 7px;
+    }
+
+    .appearance-option {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 11px;
+      color: var(--text);
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .appearance-option:has(input:checked) {
+      color: var(--primary-text);
+      background: var(--primary-soft);
+      border-color: var(--primary-strong);
+      box-shadow: inset 4px 0 0 var(--primary);
+    }
+
+    .appearance-option input {
+      width: 20px;
+      height: 20px;
+      flex: 0 0 auto;
+      accent-color: var(--primary-strong);
+    }
+
+    .page-hero {
+      background:
+        radial-gradient(circle at 82% 20%, var(--hero-glow), transparent 24%),
+        linear-gradient(120deg, var(--hero-start), var(--hero-end));
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-inner {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 58px 0 52px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 920px;
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(38px, 5vw, 64px);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+    }
+
+    .hero-copy {
+      max-width: 800px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 42px 0 74px;
+    }
+
+    .summary-panel {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .summary-card,
+    .filter-panel,
+    .deadline-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .summary-card {
+      padding: 18px;
+      border-radius: 16px;
+    }
+
+    .summary-label,
+    .filter-label,
+    .filter-field > span,
+    .task-detail-label,
+    .dialog-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+    }
+
+    .summary-value {
+      margin-top: 5px;
+      color: var(--text);
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .filter-panel,
+    .deadline-panel {
+      padding: 22px;
+      border-radius: 20px;
+    }
+
+    .filter-panel { margin-bottom: 22px; }
+
+    .filter-heading,
+    .deadline-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .filter-heading h2,
+    .deadline-heading h2 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(23px, 3vw, 32px);
+      line-height: 1.2;
+      letter-spacing: -0.025em;
+    }
+
+    .filter-heading p,
+    .deadline-heading p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .reset-button,
+    .type-filter,
+    .task-button,
+    .action-link {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      color: var(--accent-strong);
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-weight: 900;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .reset-button:hover,
+    .type-filter:hover,
+    .task-button:hover,
+    .action-link:hover { border-color: var(--accent); }
+
+    .filter-group { margin-bottom: 18px; }
+    .filter-label, .filter-field > span { display: block; margin-bottom: 7px; }
+
+    .type-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .type-filter { font-size: 13px; }
+
+    .type-filter.active,
+    .task-button.primary,
+    .action-link.primary {
+      color: var(--primary-text);
+      background: var(--primary);
+      border-color: var(--primary-strong);
+    }
+
+    .filter-selects {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr)) auto;
+      gap: 14px;
+      align-items: end;
+    }
+
+    .filter-field select {
+      width: 100%;
+      min-height: 44px;
+      padding: 8px 36px 8px 12px;
+      color: var(--text);
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-weight: 750;
+    }
+
+    .expired-toggle {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 12px;
+      color: var(--text);
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .expired-toggle input {
+      width: 19px;
+      height: 19px;
+      accent-color: var(--primary-strong);
+    }
+
+    .filter-result {
+      margin-top: 15px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .empty-state {
+      padding: 28px 18px;
+      color: var(--muted);
+      background: var(--surface-alt);
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .task-list { display: grid; gap: 12px; }
+
+    .task-card {
+      padding: 18px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-left: 5px solid var(--accent);
+      border-radius: 15px;
+    }
+
+    .task-card.open { border-left-color: var(--primary-strong); }
+    .task-card.urgent { border-left-color: var(--danger); }
+
+    .task-card.closed {
+      color: var(--closed);
+      background: var(--closed-soft);
+      border-left-color: var(--closed);
+      opacity: 0.78;
+    }
+
+    .task-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .task-identifiers {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .task-code,
+    .task-type {
+      min-height: 28px;
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .task-code {
+      color: var(--accent-strong);
+      background: var(--accent-soft);
+    }
+
+    .task-type {
+      color: var(--muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+
+    .task-countdown {
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .task-card h3 {
+      margin: 10px 0 0;
+      color: var(--text);
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.3;
+    }
+
+    .task-period {
+      margin-top: 7px;
+      color: var(--accent-strong);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .task-source-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .task-source-meta strong { color: var(--text); font-weight: 900; }
+
+    .task-details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .task-detail {
+      padding: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .task-detail-label { font-size: 10px; }
+
+    .task-detail-value {
+      margin-top: 4px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 750;
+      line-height: 1.45;
+    }
+
+    .task-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .task-button { font-size: 12px; }
+
+    .page-warning {
+      margin-top: 22px;
+      padding: 15px 17px;
+      color: var(--text);
+      background: var(--warning-soft);
+      border: 1px solid var(--warning);
+      border-left-width: 5px;
+      border-radius: 14px;
+      font-size: 13px;
+    }
+
+    dialog {
+      width: min(680px, calc(100% - 30px));
+      max-height: calc(100vh - 40px);
+      padding: 0;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow-panel);
+      overflow: auto;
+    }
+
+    dialog::backdrop {
+      background: rgba(10, 17, 20, 0.66);
+      backdrop-filter: blur(3px);
+    }
+
+    .dialog-inner { padding: 22px; }
+
+    .dialog-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .dialog-top h2 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(22px, 4vw, 30px);
+      line-height: 1.25;
+    }
+
+    .dialog-close {
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+      color: var(--muted);
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 20px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .dialog-meta {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .dialog-row {
+      display: grid;
+      grid-template-columns: 145px minmax(0, 1fr);
+      gap: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .dialog-value { color: var(--text); font-weight: 750; }
+
+    .dialog-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .site-footer {
+      color: var(--header-text);
+      background: var(--footer-bg);
+    }
+
+    .footer-inner {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 38px 0 20px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 44px;
+    }
+
+    .footer-brand img {
+      width: 240px;
+      max-height: 58px;
+      object-fit: contain;
+      margin-bottom: 14px;
+    }
+
+    .footer-brand p { margin: 0; color: var(--header-muted); font-size: 14px; }
+    .footer-column h2 { margin: 0 0 12px; color: var(--header-text); font-size: 16px; }
+    .footer-links { display: grid; gap: 8px; }
+    .footer-links a { color: var(--header-muted); text-decoration: none; font-size: 14px; }
+    .footer-links a:hover { color: var(--primary); }
+
+    .footer-bottom {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 18px 0 24px;
+      color: var(--header-muted);
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 13px;
+    }
+
+    .back-to-top {
+      position: fixed;
+      top: 84px;
+      left: 50%;
+      z-index: 90;
+      width: 44px;
+      height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      color: var(--accent-strong);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      box-shadow: var(--shadow-soft);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translate(-50%, -14px);
+      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+      cursor: pointer;
+    }
+
+    .back-to-top.is-visible {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translate(-50%, 0);
+    }
+
+    .back-to-top svg {
+      width: 21px;
+      height: 21px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    @media (max-width: 900px) {
+      .summary-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .filter-selects { grid-template-columns: 1fr 1fr; }
+      .expired-toggle { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 720px) {
+      .footer-inner { grid-template-columns: 1fr; }
+      .dialog-row { grid-template-columns: 1fr; gap: 3px; }
+      .dialog-inner { padding-bottom: calc(48px + env(safe-area-inset-bottom)); }
+    }
+
+    @media (max-width: 560px) {
+      .site-header { position: relative; }
+      .nav-inner {
+        width: min(100% - 28px, 1180px);
+        min-height: auto;
+        padding: 12px 0;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .brand img { width: 184px; }
+      .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        gap: 9px;
+      }
+      .nav-link { font-size: 13px; }
+      .appearance-panel {
+        position: fixed;
+        top: 12px;
+        right: 14px;
+        left: 14px;
+        width: auto;
+        max-height: calc(100dvh - 24px);
+      }
+      .hero-inner, main, .footer-inner, .footer-bottom { width: min(100% - 28px, 1180px); }
+      .hero-inner { padding: 42px 0 44px; }
+      .hero-copy { font-size: 16px; }
+      .summary-panel { grid-template-columns: 1fr; }
+      .filter-heading, .deadline-heading { flex-direction: column; }
+      .filter-selects { grid-template-columns: 1fr; }
+      .expired-toggle { grid-column: auto; }
+      .reset-button { width: 100%; }
+      .task-details { grid-template-columns: 1fr; }
+      .task-button { width: 100%; }
+      .back-to-top {
+        top: auto;
+        left: auto;
+        right: 0;
+        bottom: calc(14px + env(safe-area-inset-bottom));
+        width: 42px;
+        height: 46px;
+        border-right: 0;
+        border-radius: 999px 0 0 999px;
+        transform: translate(10px, 14px);
+      }
+      .back-to-top.is-visible { transform: translate(0, 0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .back-to-top { transition: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <button
+    id="back-to-top"
+    class="back-to-top"
+    type="button"
+    aria-label="Vissza az oldal tetejére"
+    title="Vissza az oldal tetejére"
+    aria-hidden="true"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M6 15l6-6 6 6"></path>
+    </svg>
+  </button>
+
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Naptároldal navigáció">
+      <a class="brand" href="index.html" aria-label="GazdaCentrum.hu kezdőlap">
+        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html">Kezdőlap</a>
+        <a class="nav-link" href="palyazatok.html">Pályázatok</a>
+        <div id="appearance-menu" class="appearance-menu">
+          <button
+            id="appearance-button"
+            class="appearance-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="appearance-panel"
+          >
+            <span aria-hidden="true">◐</span>
+            <span>Megjelenés</span>
+          </button>
+          <div
+            id="appearance-panel"
+            class="appearance-panel"
+            role="region"
+            aria-labelledby="appearance-panel-title"
+            hidden
+          >
+            <h2 id="appearance-panel-title">Megjelenés</h2>
+            <p id="appearance-current" class="appearance-current" aria-live="polite"></p>
+
+            <fieldset class="appearance-group">
+              <legend>Megjelenési mód</legend>
+              <div class="appearance-options">
+                <label class="appearance-option">
+                  <input type="radio" name="appearance" value="auto">
+                  <span>Automatikus</span>
+                </label>
+                <label class="appearance-option">
+                  <input type="radio" name="appearance" value="light">
+                  <span>Világos</span>
+                </label>
+                <label class="appearance-option">
+                  <input type="radio" name="appearance" value="dark">
+                  <span>Sötét</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="appearance-group">
+              <legend>Színvilág</legend>
+              <div class="appearance-options">
+                <label class="appearance-option">
+                  <input type="radio" name="skin" value="graphite-petrol">
+                  <span>Grafit–petrol</span>
+                </label>
+                <label class="appearance-option">
+                  <input type="radio" name="skin" value="slate-mist">
+                  <span>Palakék–köd</span>
+                </label>
+                <label class="appearance-option">
+                  <input type="radio" name="skin" value="warm-graphite-bronze">
+                  <span>Meleg grafit–bronz</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="hero-inner">
+      <p class="eyebrow">GazdaCentrum skinpróba · három színvilág világos és sötét módban</p>
+      <h1>Csak azokat a teendőket mutatjuk, amelyek érdekelnek</h1>
+      <p class="hero-copy">
+        Szűrj határidőtípus, ágazat és időszak szerint. A pályázatokból mindig csak
+        a következő aktuális vagy megnyíló benyújtási szakasz jelenik meg.
+      </p>
+    </div>
+  </section>
+
+  <main>
+    <section class="summary-panel" aria-label="Határidők összesítő">
+      <article class="summary-card">
+        <div class="summary-label">Megjelenített teendők</div>
+        <div id="visible-count" class="summary-value">–</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">Jelenleg nyitott</div>
+        <div id="open-count" class="summary-value">–</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">30 napon belül</div>
+        <div id="thirty-count" class="summary-value">–</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">Következő fontos dátum</div>
+        <div id="next-event" class="summary-value">–</div>
+      </article>
+    </section>
+
+    <section class="filter-panel" aria-labelledby="filter-title">
+      <div class="filter-heading">
+        <div>
+          <h2 id="filter-title">Milyen határidőket szeretnél látni?</h2>
+          <p>A szűrők azonnal frissítik a találati listát.</p>
+        </div>
+        <button id="reset-filters" class="reset-button" type="button">Szűrők törlése</button>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-label">Határidő típusa</div>
+        <div id="type-filters" class="type-filters" role="group" aria-label="Határidő típusa"></div>
+      </div>
+
+      <div class="filter-selects">
+        <label class="filter-field">
+          <span>Ágazat</span>
+          <select id="sector-filter">
+            <option value="all">Minden ágazat</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Időszak</span>
+          <select id="time-filter">
+            <option value="all">Minden aktív és közelgő</option>
+            <option value="open">Most nyitott</option>
+            <option value="30">Következő 30 nap</option>
+            <option value="90">31–90 nap múlva</option>
+            <option value="later">90 napon túl</option>
+          </select>
+        </label>
+
+        <label class="expired-toggle">
+          <input id="show-expired" type="checkbox">
+          <span>Lejárt határidők megjelenítése</span>
+        </label>
+      </div>
+
+      <div id="filter-result" class="filter-result" aria-live="polite">Adatok betöltése…</div>
+    </section>
+
+    <section class="deadline-panel" aria-labelledby="deadline-title">
+      <div class="deadline-heading">
+        <div>
+          <h2 id="deadline-title">Agrárhatáridők és teendők</h2>
+          <p id="deadline-copy">Aktív és közelgő tételek időrendben.</p>
+        </div>
+      </div>
+      <div id="deadline-list" class="task-list" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        A kiválasztott szűrőkkel nincs megjeleníthető határidő.
+      </div>
+    </section>
+
+    <p class="page-warning">
+      Az oldal tájékoztató jellegű. Benyújtás vagy kötelezettségteljesítés előtt minden esetben
+      ellenőrizd a hivatalos forrás legfrissebb változatát. A fő listában csak konkrét,
+      ellenőrzött dátummal rendelkező teendők jelennek meg.
+    </p>
+  </main>
+
+  <dialog id="event-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <div class="dialog-top">
+        <h2 id="dialog-title">Teendő részletei</h2>
+        <button id="dialog-close" class="dialog-close" type="button" aria-label="Bezárás">×</button>
+      </div>
+      <div id="dialog-meta" class="dialog-meta"></div>
+      <div id="dialog-actions" class="dialog-actions"></div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+        <p>Szűrhető mezőgazdasági határidők és teendők hivatalos források alapján.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Navigáció</h2>
+        <div class="footer-links">
+          <a href="index.html">Kezdőlap</a>
+          <a href="palyazatok.html">Pályázatok</a>
+          <a href="index.html#hataridok">Határidők</a>
+          <a href="impresszum.html">Impresszum</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 GazdaCentrum.hu – Agrárhatáridők</div>
+  </footer>
+
+  <script>
+    const DEFAULT_TYPES = [
+      "Pályázat",
+      "Kifizetés",
+      "Adatszolgáltatás",
+      "Kötelezettség",
+      "Bejelentés"
+    ];
+
+    const DEFAULT_SECTORS = [
+      "Szántóföld",
+      "Kertészet",
+      "Állattenyésztés",
+      "Erdőgazdálkodás",
+      "Ökológiai gazdálkodás",
+      "Általános"
+    ];
+
+    const state = {
+      allItems: [],
+      grantsByCode: new Map(),
+      selectedType: "all",
+      selectedSector: "all",
+      selectedTime: "all",
+      showExpired: false,
+      filterOptions: {
+        deadlineTypes: DEFAULT_TYPES,
+        sectors: DEFAULT_SECTORS
+      }
+    };
+
+    const DATE_FORMATTER = new Intl.DateTimeFormat("hu-HU", {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+
+    function parseDate(value, endOfDay = false) {
+      if (!value) return null;
+      return new Date(value + (endOfDay ? "T23:59:59" : "T00:00:00"));
+    }
+
+    function startOfDay(value = new Date()) {
+      return new Date(value.getFullYear(), value.getMonth(), value.getDate());
+    }
+
+    function daysBetween(from, to) {
+      return Math.ceil((startOfDay(to) - startOfDay(from)) / 86400000);
+    }
+
+    function normalizeItem(item) {
+      const code = item.reference_code || "";
+
+      let deadlineType = item.deadline_type;
+      if (!deadlineType) {
+        if (code.startsWith("KAP-") && item.action?.includes("Támogatási kérelem")) {
+          deadlineType = "Pályázat";
+        } else if (item.action?.includes("Kifizetési")) {
+          deadlineType = "Kifizetés";
+        } else {
+          deadlineType = "Kötelezettség";
+        }
+      }
+
+      let sectors = Array.isArray(item.sectors) ? item.sectors : [];
+      if (sectors.length === 0) {
+        sectors = code.includes("RD38") ? ["Erdőgazdálkodás"] : ["Általános"];
+      }
+
+      return {
+        ...item,
+        deadline_type: deadlineType,
+        sectors,
+        action_type: item.action_type || item.action || "Egyéb teendő",
+        date_type: item.date_type || (
+          item.start_date && item.deadline_date ? "fixed" : "relative"
+        ),
+        show_in_main_list: item.show_in_main_list !== false
+      };
+    }
+
+    function getStatus(item) {
+      const today = startOfDay();
+      const start = parseDate(item.start_date);
+      const end = parseDate(item.deadline_date, true);
+
+      if (!start || !end) return "relative";
+      if (today > end) return "closed";
+      if (today >= start && today <= end) return "open";
+      return "upcoming";
+    }
+
+    function getRelevantDate(item) {
+      const status = getStatus(item);
+      return status === "open"
+        ? parseDate(item.deadline_date)
+        : parseDate(item.start_date);
+    }
+
+    function getTimeBucket(item) {
+      const status = getStatus(item);
+      if (status === "open") return "open";
+      if (status === "closed") return "closed";
+
+      const date = getRelevantDate(item);
+      if (!date) return "later";
+
+      const days = daysBetween(startOfDay(), date);
+      if (days <= 30) return "30";
+      if (days <= 90) return "90";
+      return "later";
+    }
+
+    function statusText(item) {
+      const status = getStatus(item);
+      const today = startOfDay();
+      const start = parseDate(item.start_date);
+      const end = parseDate(item.deadline_date, true);
+      const singleDate =
+        item.start_date &&
+        item.deadline_date &&
+        item.start_date === item.deadline_date;
+
+      if (status === "closed") return "Lejárt";
+      if (status === "open") {
+        const days = daysBetween(today, end);
+        if (days === 0) return "Ma jár le";
+        if (days === 1) return "Holnap jár le";
+        return days + " nap múlva jár le";
+      }
+
+      const days = daysBetween(today, start);
+
+      if (singleDate) {
+        if (days === 0) return "Ma esedékes";
+        if (days === 1) return "Holnap esedékes";
+        return days + " nap múlva esedékes";
+      }
+
+      if (days === 0) return "Ma nyílik";
+      if (days === 1) return "Holnap nyílik";
+      return days + " nap múlva nyílik";
+    }
+
+    function collapseGrantWindows(items) {
+      const today = startOfDay();
+      const regularItems = [];
+      const grantGroups = new Map();
+
+      items.forEach((item) => {
+        if (item.deadline_type !== "Pályázat") {
+          regularItems.push(item);
+          return;
+        }
+
+        const key = item.reference_code || item.title || item.id;
+        if (!grantGroups.has(key)) grantGroups.set(key, []);
+        grantGroups.get(key).push(item);
+      });
+
+      const selectedGrants = Array.from(grantGroups.values()).map((group) => {
+        const sorted = [...group].sort(
+          (a, b) => parseDate(a.start_date) - parseDate(b.start_date)
+        );
+
+        const active = sorted.find((item) => {
+          const start = parseDate(item.start_date);
+          const end = parseDate(item.deadline_date, true);
+          return start <= today && end >= today;
+        });
+
+        if (active) return active;
+
+        const next = sorted.find(
+          (item) => parseDate(item.start_date) > today
+        );
+
+        if (next) return next;
+
+        return sorted[sorted.length - 1];
+      });
+
+      return [...regularItems, ...selectedGrants];
+    }
+
+    function getBaseItems() {
+      return collapseGrantWindows(
+        state.allItems.filter((item) => {
+          if (!item.show_in_main_list) return false;
+          if (item.date_type !== "fixed") return false;
+          if (!item.start_date || !item.deadline_date) return false;
+          if (!state.showExpired && getStatus(item) === "closed") return false;
+          return true;
+        })
+      );
+    }
+
+    function getFilteredItems() {
+      return getBaseItems()
+        .filter((item) => {
+          if (
+            state.selectedType !== "all" &&
+            item.deadline_type !== state.selectedType
+          ) {
+            return false;
+          }
+
+          if (
+            state.selectedSector !== "all" &&
+            !item.sectors.includes(state.selectedSector)
+          ) {
+            return false;
+          }
+
+          if (
+            state.selectedTime !== "all" &&
+            getTimeBucket(item) !== state.selectedTime
+          ) {
+            return false;
+          }
+
+          return true;
+        })
+        .sort((a, b) => {
+          const aDate = getRelevantDate(a) || parseDate(a.deadline_date);
+          const bDate = getRelevantDate(b) || parseDate(b.deadline_date);
+          return aDate - bDate;
+        });
+    }
+
+    function createFilterButtons() {
+      const container = document.getElementById("type-filters");
+      container.replaceChildren();
+
+      ["Minden", ...state.filterOptions.deadlineTypes].forEach((label) => {
+        const value = label === "Minden" ? "all" : label;
+        const button = document.createElement("button");
+
+        button.type = "button";
+        button.className = "type-filter";
+        button.dataset.value = value;
+        button.textContent = label;
+        button.setAttribute(
+          "aria-pressed",
+          state.selectedType === value ? "true" : "false"
+        );
+
+        if (state.selectedType === value) {
+          button.classList.add("active");
+        }
+
+        button.addEventListener("click", () => {
+          state.selectedType = value;
+          createFilterButtons();
+          render();
+        });
+
+        container.appendChild(button);
+      });
+    }
+
+    function populateSectorFilter() {
+      const select = document.getElementById("sector-filter");
+      select.replaceChildren();
+
+      const allOption = document.createElement("option");
+      allOption.value = "all";
+      allOption.textContent = "Minden ágazat";
+      select.appendChild(allOption);
+
+      state.filterOptions.sectors.forEach((sector) => {
+        const option = document.createElement("option");
+        option.value = sector;
+        option.textContent = sector;
+        select.appendChild(option);
+      });
+
+      select.value = state.selectedSector;
+    }
+
+    function createTaskCard(item) {
+      const card = document.createElement("article");
+      const status = getStatus(item);
+
+      card.className = "task-card " + status;
+
+      const top = document.createElement("div");
+      top.className = "task-top";
+
+      const identifiers = document.createElement("div");
+      identifiers.className = "task-identifiers";
+
+      const code = document.createElement("div");
+      code.className = "task-code";
+      code.textContent = item.reference_code || "Hivatalos határidő";
+
+      const type = document.createElement("div");
+      type.className = "task-type";
+      type.textContent = item.deadline_type;
+
+      identifiers.append(code, type);
+
+      const countdown = document.createElement("div");
+      countdown.className = "task-countdown";
+      countdown.textContent = statusText(item);
+
+      top.append(identifiers, countdown);
+
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+
+      const period = document.createElement("div");
+      period.className = "task-period";
+      period.textContent = item.deadline_text || "Dátum nincs megadva";
+
+      const sourceMeta = document.createElement("div");
+      sourceMeta.className = "task-source-meta";
+
+      const sourceName = document.createElement("span");
+      sourceName.innerHTML =
+        "<strong>Hivatalos forrás:</strong> " +
+        (item.source_name || "Nincs megadva");
+
+      const verified = document.createElement("span");
+      verified.innerHTML =
+        "<strong>Ellenőrizve:</strong> " +
+        (
+          item.verified_at
+            ? DATE_FORMATTER.format(parseDate(item.verified_at))
+            : "Nincs megadva"
+        );
+
+      sourceMeta.append(sourceName, verified);
+
+      const details = document.createElement("div");
+      details.className = "task-details";
+
+      [
+        ["Ágazat", item.sectors.join(", ")],
+        ["Kiket érint?", item.affected],
+        ["Mit kell tenni?", item.action],
+        ["Teendő típusa", item.action_type]
+      ].forEach(([label, value]) => {
+        const detail = document.createElement("div");
+        detail.className = "task-detail";
+
+        const detailLabel = document.createElement("div");
+        detailLabel.className = "task-detail-label";
+        detailLabel.textContent = label;
+
+        const detailValue = document.createElement("div");
+        detailValue.className = "task-detail-value";
+        detailValue.textContent = value || "Nincs megadva";
+
+        detail.append(detailLabel, detailValue);
+        details.appendChild(detail);
+      });
+
+      const actions = document.createElement("div");
+      actions.className = "task-actions";
+
+      const detailButton = document.createElement("button");
+      detailButton.type = "button";
+      detailButton.className = "task-button primary";
+      detailButton.textContent = "Teendő részletei";
+      detailButton.addEventListener("click", () => openEventDialog(item));
+      actions.appendChild(detailButton);
+
+      const grant = state.grantsByCode.get(item.reference_code);
+      if (grant && grant.detail_url) {
+        const grantLink = document.createElement("a");
+        grantLink.className = "task-button";
+        grantLink.href = grant.detail_url;
+        grantLink.textContent = "Pályázati összefoglaló";
+        actions.appendChild(grantLink);
+      }
+
+      if (item.source_url) {
+        const sourceLink = document.createElement("a");
+        sourceLink.className = "task-button";
+        sourceLink.href = item.source_url;
+        sourceLink.target = "_blank";
+        sourceLink.rel = "noopener noreferrer";
+        sourceLink.textContent = "Hivatalos forrás";
+        actions.appendChild(sourceLink);
+      }
+
+      card.append(
+        top,
+        title,
+        period,
+        sourceMeta,
+        details,
+        actions
+      );
+      return card;
+    }
+
+    function renderSummary(items) {
+      const today = startOfDay();
+
+      document.getElementById("visible-count").textContent = items.length;
+
+      document.getElementById("open-count").textContent = items.filter(
+        (item) => getStatus(item) === "open"
+      ).length;
+
+      document.getElementById("thirty-count").textContent = items.filter(
+        (item) => {
+          const bucket = getTimeBucket(item);
+          return bucket === "open" || bucket === "30";
+        }
+      ).length;
+
+      const next = items
+        .filter((item) => getStatus(item) !== "closed")
+        .sort((a, b) => getRelevantDate(a) - getRelevantDate(b))[0];
+
+      document.getElementById("next-event").textContent = next
+        ? DATE_FORMATTER.format(getRelevantDate(next))
+        : "Nincs találat";
+    }
+
+    function renderFilterResult(items) {
+      const activeFilters = [];
+
+      if (state.selectedType !== "all") {
+        activeFilters.push(state.selectedType);
+      }
+
+      if (state.selectedSector !== "all") {
+        activeFilters.push(state.selectedSector);
+      }
+
+      const timeLabels = {
+        open: "Most nyitott",
+        "30": "Következő 30 nap",
+        "90": "31–90 nap múlva",
+        later: "90 napon túl"
+      };
+
+      if (state.selectedTime !== "all") {
+        activeFilters.push(timeLabels[state.selectedTime]);
+      }
+
+      if (state.showExpired) {
+        activeFilters.push("Lejártakkal együtt");
+      }
+
+      document.getElementById("filter-result").textContent =
+        items.length +
+        " találat" +
+        (
+          activeFilters.length
+            ? " · Aktív szűrők: " + activeFilters.join(", ")
+            : " · Nincs aktív szűrő"
+        );
+    }
+
+    function render() {
+      const items = getFilteredItems();
+      const list = document.getElementById("deadline-list");
+      const emptyState = document.getElementById("empty-state");
+
+      list.replaceChildren();
+
+      items.forEach((item) => {
+        list.appendChild(createTaskCard(item));
+      });
+
+      emptyState.hidden = items.length !== 0;
+
+      renderSummary(items);
+      renderFilterResult(items);
+    }
+
+    function addDialogRow(container, label, value) {
+      const row = document.createElement("div");
+      row.className = "dialog-row";
+
+      const labelElement = document.createElement("div");
+      labelElement.className = "dialog-label";
+      labelElement.textContent = label;
+
+      const valueElement = document.createElement("div");
+      valueElement.className = "dialog-value";
+      valueElement.textContent = value || "Nincs megadva";
+
+      row.append(labelElement, valueElement);
+      container.appendChild(row);
+    }
+
+    function openEventDialog(item) {
+      const dialog = document.getElementById("event-dialog");
+      const meta = document.getElementById("dialog-meta");
+      const actions = document.getElementById("dialog-actions");
+
+      document.getElementById("dialog-title").textContent = item.title;
+      meta.replaceChildren();
+      actions.replaceChildren();
+
+      addDialogRow(meta, "Állapot", statusText(item));
+      addDialogRow(meta, "Határidőtípus", item.deadline_type);
+      addDialogRow(meta, "Ágazat", item.sectors.join(", "));
+      addDialogRow(meta, "Időszak", item.deadline_text);
+      addDialogRow(meta, "Teendő", item.action);
+      addDialogRow(meta, "Érintettek", item.affected);
+      addDialogRow(meta, "Hivatkozási kód", item.reference_code);
+      addDialogRow(
+        meta,
+        "Ellenőrizve",
+        item.verified_at
+          ? DATE_FORMATTER.format(parseDate(item.verified_at))
+          : "Nincs megadva"
+      );
+
+      const grant = state.grantsByCode.get(item.reference_code);
+      if (grant && grant.detail_url) {
+        const detail = document.createElement("a");
+        detail.className = "action-link primary";
+        detail.href = grant.detail_url;
+        detail.textContent = "Részletes összefoglaló";
+        actions.appendChild(detail);
+      }
+
+      if (item.source_url) {
+        const official = document.createElement("a");
+        official.className = "action-link";
+        official.href = item.source_url;
+        official.target = "_blank";
+        official.rel = "noopener noreferrer";
+        official.textContent = "Hivatalos forrás";
+        actions.appendChild(official);
+      }
+
+      if (typeof dialog.showModal === "function") {
+        dialog.showModal();
+      } else {
+        dialog.setAttribute("open", "");
+      }
+    }
+
+    async function loadDeadlineData() {
+      try {
+        const deadlineResponse = await fetch(
+          "deadlines.json?v=" + Date.now(),
+          { cache: "no-store" }
+        );
+
+        if (!deadlineResponse.ok) {
+          throw new Error("A deadlines.json nem tölthető be.");
+        }
+
+        const deadlines = await deadlineResponse.json();
+        state.allItems = (
+          Array.isArray(deadlines.items) ? deadlines.items : []
+        ).map(normalizeItem);
+
+        const configuredTypes =
+          deadlines.filter_options?.deadline_types;
+        const configuredSectors =
+          deadlines.filter_options?.sectors;
+
+        if (Array.isArray(configuredTypes) && configuredTypes.length) {
+          state.filterOptions.deadlineTypes = configuredTypes;
+        }
+
+        if (Array.isArray(configuredSectors) && configuredSectors.length) {
+          state.filterOptions.sectors = configuredSectors;
+        }
+
+        try {
+          const grantResponse = await fetch(
+            "grants.json?v=" + Date.now(),
+            { cache: "no-store" }
+          );
+
+          if (grantResponse.ok) {
+            const grants = await grantResponse.json();
+            const grantItems = Array.isArray(grants.items)
+              ? grants.items
+              : [];
+
+            grantItems.forEach((grant) => {
+              if (grant.reference_code) {
+                state.grantsByCode.set(
+                  grant.reference_code,
+                  grant
+                );
+              }
+            });
+          }
+        } catch (grantError) {
+          console.warn(
+            "A pályázati részletes oldalak adatai nem tölthetők be.",
+            grantError
+          );
+        }
+
+        createFilterButtons();
+        populateSectorFilter();
+        render();
+      } catch (error) {
+        console.error(error);
+        document.getElementById("filter-result").textContent =
+          "A határidőadatok jelenleg nem tölthetők be.";
+        document.getElementById("deadline-list").textContent =
+          "Ellenőrizd a deadlines.json fájlt és a böngésző konzolját.";
+      }
+    }
+
+    function resetFilters() {
+      state.selectedType = "all";
+      state.selectedSector = "all";
+      state.selectedTime = "all";
+      state.showExpired = false;
+
+      document.getElementById("sector-filter").value = "all";
+      document.getElementById("time-filter").value = "all";
+      document.getElementById("show-expired").checked = false;
+
+      createFilterButtons();
+      render();
+    }
+
+    function setupFilters() {
+      document
+        .getElementById("sector-filter")
+        .addEventListener("change", (event) => {
+          state.selectedSector = event.target.value;
+          render();
+        });
+
+      document
+        .getElementById("time-filter")
+        .addEventListener("change", (event) => {
+          state.selectedTime = event.target.value;
+          render();
+        });
+
+      document
+        .getElementById("show-expired")
+        .addEventListener("change", (event) => {
+          state.showExpired = event.target.checked;
+          render();
+        });
+
+      document
+        .getElementById("reset-filters")
+        .addEventListener("click", resetFilters);
+    }
+
+    function setupAppearancePanel() {
+      const root = document.documentElement;
+      const menu = document.getElementById("appearance-menu");
+      const button = document.getElementById("appearance-button");
+      const panel = document.getElementById("appearance-panel");
+      const current = document.getElementById("appearance-current");
+      const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+      const appearanceLabels = {
+        auto: "Automatikus",
+        light: "Világos",
+        dark: "Sötét"
+      };
+      const skinLabels = {
+        "graphite-petrol": "Grafit–petrol",
+        "slate-mist": "Palakék–köd",
+        "warm-graphite-bronze": "Meleg grafit–bronz"
+      };
+
+      function save(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch (error) {
+          console.warn("A megjelenési beállítás nem menthető.", error);
+        }
+      }
+
+      function resolvedTheme(appearance) {
+        if (appearance === "auto") {
+          return mediaQuery.matches ? "dark" : "light";
+        }
+        return appearance;
+      }
+
+      function updateControls() {
+        const appearance = root.dataset.appearance || "auto";
+        const skin = root.dataset.skin || "graphite-petrol";
+        const theme = root.dataset.theme || resolvedTheme(appearance);
+
+        document.querySelectorAll('input[name="appearance"]').forEach((input) => {
+          input.checked = input.value === appearance;
+        });
+        document.querySelectorAll('input[name="skin"]').forEach((input) => {
+          input.checked = input.value === skin;
+        });
+
+        current.textContent =
+          "Aktuális: " +
+          appearanceLabels[appearance] +
+          (appearance === "auto" ? " (" + appearanceLabels[theme] + ")" : "") +
+          " · " +
+          skinLabels[skin];
+      }
+
+      function applyAppearance(appearance, persist = true) {
+        const theme = resolvedTheme(appearance);
+        root.dataset.appearance = appearance;
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+        if (persist) save("gazdacentrum-appearance", appearance);
+        updateControls();
+      }
+
+      function applySkin(skin, persist = true) {
+        root.dataset.skin = skin;
+        if (persist) save("gazdacentrum-skin", skin);
+        updateControls();
+      }
+
+      function closePanel(returnFocus = false) {
+        if (panel.hidden) return;
+        panel.hidden = true;
+        button.setAttribute("aria-expanded", "false");
+        if (returnFocus) button.focus();
+      }
+
+      function openPanel() {
+        panel.hidden = false;
+        button.setAttribute("aria-expanded", "true");
+      }
+
+      button.addEventListener("click", () => {
+        if (panel.hidden) {
+          openPanel();
+        } else {
+          closePanel();
+        }
+      });
+
+      document.querySelectorAll('input[name="appearance"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) applyAppearance(input.value);
+        });
+      });
+
+      document.querySelectorAll('input[name="skin"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) applySkin(input.value);
+        });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !panel.hidden) {
+          event.preventDefault();
+          closePanel(true);
+        }
+      });
+
+      document.addEventListener("pointerdown", (event) => {
+        if (!panel.hidden && !menu.contains(event.target)) {
+          closePanel();
+        }
+      });
+
+      mediaQuery.addEventListener("change", () => {
+        if (root.dataset.appearance === "auto") {
+          applyAppearance("auto", false);
+        }
+      });
+
+      applyAppearance(root.dataset.appearance || "auto", false);
+      applySkin(root.dataset.skin || "graphite-petrol", false);
+    }
+
+    function setupBackToTop() {
+      const button = document.getElementById("back-to-top");
+      let animationFrame = null;
+
+      function stopAnimation() {
+        if (animationFrame !== null) {
+          cancelAnimationFrame(animationFrame);
+          animationFrame = null;
+        }
+      }
+
+      function updateVisibility() {
+        const visible = window.scrollY > 500;
+        button.classList.toggle("is-visible", visible);
+        button.setAttribute(
+          "aria-hidden",
+          visible ? "false" : "true"
+        );
+      }
+
+      function scrollToTop() {
+        stopAnimation();
+
+        const startPosition =
+          window.scrollY ||
+          document.documentElement.scrollTop ||
+          0;
+
+        if (startPosition <= 0) return;
+
+        const duration = Math.min(
+          1100,
+          Math.max(650, startPosition * 0.12)
+        );
+        const startedAt = performance.now();
+
+        function animate(now) {
+          const progress = Math.min(
+            (now - startedAt) / duration,
+            1
+          );
+          const eased = 1 - Math.pow(1 - progress, 3);
+
+          window.scrollTo(
+            0,
+            Math.round(startPosition * (1 - eased))
+          );
+
+          if (progress < 1) {
+            animationFrame = requestAnimationFrame(animate);
+          } else {
+            animationFrame = null;
+          }
+        }
+
+        animationFrame = requestAnimationFrame(animate);
+      }
+
+      button.addEventListener("click", scrollToTop);
+      window.addEventListener(
+        "wheel",
+        stopAnimation,
+        { passive: true }
+      );
+      window.addEventListener(
+        "touchstart",
+        stopAnimation,
+        { passive: true }
+      );
+      window.addEventListener(
+        "scroll",
+        updateVisibility,
+        { passive: true }
+      );
+
+      updateVisibility();
+    }
+
+    document
+      .getElementById("dialog-close")
+      .addEventListener("click", () => {
+        document.getElementById("event-dialog").close();
+      });
+
+    document
+      .getElementById("event-dialog")
+      .addEventListener("click", (event) => {
+        if (event.target === event.currentTarget) {
+          event.currentTarget.close();
+        }
+      });
+
+    setupFilters();
+    setupAppearancePanel();
+    setupBackToTop();
+    loadDeadlineData();
+  </script>
+</body>
+</html>
