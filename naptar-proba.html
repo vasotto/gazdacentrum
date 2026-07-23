@@ -1620,6 +1620,10 @@
       const today = startOfDay();
       const start = parseDate(item.start_date);
       const end = parseDate(item.deadline_date, true);
+      const singleDate =
+        item.start_date &&
+        item.deadline_date &&
+        item.start_date === item.deadline_date;
 
       if (status === "closed") return "Lejárt";
       if (status === "open") {
@@ -1630,6 +1634,13 @@
       }
 
       const days = daysBetween(today, start);
+
+      if (singleDate) {
+        if (days === 0) return "Ma esedékes";
+        if (days === 1) return "Holnap esedékes";
+        return days + " nap múlva esedékes";
+      }
+
       if (days === 0) return "Ma nyílik";
       if (days === 1) return "Holnap nyílik";
       return days + " nap múlva nyílik";
