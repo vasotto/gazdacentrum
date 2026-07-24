@@ -2,6 +2,18 @@
 
 ## 2026. július 24.
 
+### Agrárhatáridők és teendők – első stabil production változat
+
+- A production `naptar.html` működik, mobilon és asztali gépen ellenőrzött.
+- A `naptar.html` a főoldal `Határidők` hivatkozásáról elérhető.
+- A `deadlines.json` 18 rekordot tartalmaz.
+- 8 új, hivatalos forrásból ellenőrzött 2026-os tétel került productionbe.
+- A kutatási jelöltek közül 6 bizonytalan tétel és 1 duplikátum nem került productionbe.
+- Nincs ismétlődő rekordazonosító; a relatív határidők ki vannak zárva a fő listából.
+- Az ágazati szűrőben az `Általános` elnevezés maradt.
+- Az automatikus határidő-adatgyűjtő még nincs elkészítve; később csak emberi jóváhagyással működhet.
+- A következő kiválasztott különálló próbafejlesztés a használtgép-értékbecslő, amely még nem production funkció.
+
 ### Új logó és production arculat
 
 - A felhasználó által jóváhagyott GazdaCentrum logó bekerült a GitHub `main` ágba.
@@ -19,6 +31,7 @@
 - A világos és sötét mód működése megmaradt.
 - Agráradat, híradat, JSON-fájl, Python-kód és forráslista nem változott az arculati módosítás részeként.
 - A felhasználó a `gazdacentrum.hu` production oldalt világos és sötét módban is ellenőrizte és elfogadta.
+- Az új logó és a türkiz/petrol–tengerészkék–lime arculat productionben működik.
 
 ### Dokumentáció
 

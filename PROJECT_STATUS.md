@@ -141,10 +141,11 @@ A program:
 A `deadlines.json`:
 
 - `schema_version: 2`;
-- 10 rekordot tartalmaz;
+- 18 rekordot tartalmaz;
 - a státuszt nem tárolja fixen, azt a felület számolja ki;
 - a relatív határidőt külön kezeli és nem mutatja a fő listában;
 - pályázatonként csak a következő aktív vagy megnyíló szakaszt jeleníti meg.
+- az ágazati szűrőben az `Általános` elnevezés maradt.
 
 Fontos mezők:
 
@@ -167,16 +168,26 @@ date_type, show_in_main_list
 8. 2026. évi nitrát-adatszolgáltatás, határidő: 2027. március 31.
 9. 2026. évi tavaszi fagykár-bejelentés, határidő: 2026. június 9., lejárt.
 10. 2026. évi Egységes Kérelem, 2026. április 15. – június 9., lejárt.
+11. KAP-RD42a-1-26 – zártkerti infrastruktúra, 2. benyújtási szakasz, 2026. július 16–29.
+12. KAP-RD06-1-25 – gazdaságátvevő támogatása, 5. benyújtási szakasz, 2026. augusztus 6–19.
+13. KAP-RD44-1-26 – termelői csoportok és szervezetek támogatása, 2026. június 5. – augusztus 31.
+14. Értékesítési jelentés benyújtása, esedékes: 2026. szeptember 10.
+15. KAP-RD21-RD22-2-25 – természetközeli és vizes élőhelyek, következő szakasz, 2026. szeptember 3–16.
+16. Új borszőlőültetvény telepítési engedély iránti kérelem, őszi időszak, 2026. október 1–31.
+17. KAP-RD07-1-25 – gazdaságátadási együttműködés, 5. benyújtási szakasz, 2026. október 8–21.
+18. KAP-RD09a-2-26 – mezőgazdasági kisüzemek beruházási támogatása, 3. benyújtási szakasz, 2026. november 5–18.
+
+A 2026. július 24-i bővítésben 8, hivatalos forrásból ellenőrzött tétel került productionbe. A kutatási jelöltek közül 6 bizonytalan tétel és 1 duplikátum nem került be.
 
 ## 8. Határidőfelület
 
 ### Production és próbafájlok
 
-- `naptar.html`: korábbi production naptároldal; egyelőre nem cserélhető le.
-- `naptar-proba.html`: az új, szűrhető teendőlista aktuális próbafelülete.
+- `naptar.html`: az első stabil, szűrhető production teendőlista; mobilon és asztali gépen ellenőrzött.
+- `naptar-proba.html`: a fejlesztési próbafelület megőrzött változata.
 - `naptar-szinproba.html`: négy kapcsolható sötét palettát tartalmazó külön színpróba.
 
-### A `naptar-proba.html` működő elemei
+### A production `naptar.html` működő elemei
 
 - határidőtípus-szűrés: Pályázat, Kifizetés, Adatszolgáltatás, Kötelezettség, Bejelentés;
 - ágazati szűrés;
@@ -191,8 +202,9 @@ date_type, show_in_main_list
 - mobilon egyoszlopos kártyák és teljes szélességű gombok;
 - a részletező ablak alján biztonsági tér a telefon alsó kezelősávja fölött;
 - mobil vissza-a-tetejére gomb képernyőszéli lapfül formában.
+- a főoldal `Határidők` hivatkozásáról közvetlenül elérhető.
 
-### Mobilteszt állapota
+### Ellenőrzési állapot
 
 Felhasználó által ellenőrizve:
 
@@ -202,14 +214,10 @@ Felhasználó által ellenőrizve:
 - a részletező ablak jól görgethető;
 - a `Hivatalos forrás` gomb teljesen látható;
 - a `Teendő részletei` átnevezés megjelent;
-- az Adatszolgáltatás szűrő működik.
-
-Még ellenőrizendő a feltöltés után:
-
-- a képernyőszéli vissza-a-tetejére gomb már ne takarja a kártyagombokat;
-- a nitrátos kártyán ténylegesen `… nap múlva esedékes` jelenjen meg;
-- teljes asztali ellenőrzés;
-- csak ezután döntés a `naptar.html` lecseréléséről.
+- az Adatszolgáltatás szűrő működik;
+- a képernyőszéli vissza-a-tetejére gomb nem takarja a kártyagombokat;
+- a nitrátos kártya `… nap múlva esedékes` státuszszövege megfelelő;
+- a production oldal mobil- és asztali ellenőrzése megtörtént.
 
 ## 9. Színpróba és elfogadott production paletta
 
@@ -221,6 +229,8 @@ A `naptar-szinproba.html` továbbra is külön vizuális próbafájl, amely nég
 - Semleges grafit.
 
 A production oldalak 2026. július 24-én külön, a jóváhagyott logóhoz igazított türkiz/petrol–tengerészkék–lime színvilágot kaptak. Ez a production arculat felhasználói ellenőrzést és elfogadást kapott. A `naptar-szinproba.html` nem production forrás, később archiválható vagy további vizuális kísérletekhez megtartható.
+
+Az új logó és a production arculat működik. A production `index.html` világos és sötét módban ellenőrzött.
 
 ## 10. Pályázati rendszer
 
@@ -269,6 +279,8 @@ A technikai működés nem helyettesíti a felhasználási engedélyek rendezés
 - nincs külön kategóriaoldal és kereső;
 - nincs hírlevél;
 - a pályázatok és határidők frissítése még kézi ellenőrzést igényel;
+- az automatikus határidő-adatgyűjtő még nincs elkészítve;
+- az automatikus adatgyűjtés később csak emberi jóváhagyási lépéssel működhet;
 - nincs automatikus dokumentumverzió-figyelés;
 - nincs felhasználói fiók vagy értesítés;
 - a forrásengedélyek rendezése nem teljes;
@@ -276,4 +288,4 @@ A technikai működés nem helyettesíti a felhasználási engedélyek rendezés
 
 ## 14. Következő konkrét feladat
 
-A production arculat és logó bevezetése megtörtént. Következőként mobilon ellenőrizni kell a `naptar-proba.html` képernyőszéli vissza-a-tetejére gombját és a nitrátos kártya `esedékes` státuszszövegét. Ezután következhet a teljes asztali teszt és csak annak eredménye alapján a production `naptar.html` funkcionális lecserélésének előkészítése.
+Az „Agrárhatáridők és teendők” első stabil production mérföldköve lezárult. A következő kiválasztott, különálló próbafejlesztés a használtgép-értékbecslő. Ez még nem production funkció; először a célját, az első támogatott gépkategóriát, az adatforrásokat, az értékelési módszert és az emberi felülvizsgálatot kell próbaváltozatként meghatározni.

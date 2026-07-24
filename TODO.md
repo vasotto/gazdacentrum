@@ -4,10 +4,8 @@ Utolsó frissítés: 2026. július 24.
 
 ## Következő konkrét feladat
 
-- [ ] Az aktualizált repository feltöltése után mobilon ellenőrizni, hogy a képernyőszéli vissza-a-tetejére gomb nem takarja a kártyagombokat.
-- [ ] Az `Adatszolgáltatás` szűrőn belül a nitrátos kártyán ellenőrizni a `… nap múlva esedékes` státuszszöveget.
-- [ ] Ezután teljes asztali tesztet végezni a `naptar-proba.html` oldalon.
-- [ ] A `naptar.html` lecseréléséről csak a mobil-, asztali- és színértékelés után dönteni.
+- [ ] A használtgép-értékbecslő különálló próbafejlesztésének célját, első támogatott gépkategóriáját és elfogadási feltételeit meghatározni.
+- [ ] Rögzíteni, hogy a használtgép-értékbecslő próbaváltozata nem production funkció és nem módosíthatja a jelenlegi production oldalakat.
 
 ## Kritikus jogi és tartalmi feladatok
 
@@ -99,6 +97,7 @@ Utolsó frissítés: 2026. július 24.
 
 ## Használtgép-értékbecslő
 
+- [x] A következő különálló próbafejlesztésként kiválasztva; még nem production funkció.
 - [ ] A használt mezőgazdasági gépek értékbecslő funkciójának célját, célcsoportját és első kiadását meghatározni.
 - [ ] Az első támogatott gépkategóriát kiválasztani; kezdetben egyetlen jól összehasonlítható kategóriával indulni.
 - [ ] Strukturált gépadatlap megtervezése: márka, modell, kivitel, gyártási év, üzemóra, teljesítmény, hajtás, felszereltség, munkaszélesség, gumiabroncsok, műszaki állapot és ismert hibák.
@@ -189,12 +188,18 @@ Utolsó frissítés: 2026. július 24.
 - [x] Mobil egyoszlopos kártyanézet ellenőrzése.
 - [x] Mobil részletező ablak és alsó biztonsági tér ellenőrzése.
 - [x] Külön `naptar-szinproba.html` négy kapcsolható sötét palettával.
-- [ ] A képernyőszéli mobil vissza-a-tetejére gomb ismételt ellenőrzése feltöltés után.
-- [ ] A nitrátos `esedékes` státusz felhasználói ellenőrzése.
-- [ ] Teljes asztali teszt.
+- [x] A képernyőszéli mobil vissza-a-tetejére gomb ellenőrzése.
+- [x] A nitrátos `esedékes` státusz felhasználói ellenőrzése.
+- [x] Teljes asztali teszt.
 - [x] A végleges production színvilág kiválasztása és bevezetése a jóváhagyott logóhoz igazítva.
 - [ ] Döntés a `naptar-szinproba.html` későbbi megtartásáról vagy archiválásáról.
-- [ ] A `naptar.html` csak elfogadott és visszaállítható commitban cserélhető le.
+- [x] A `naptar.html` elfogadott, visszaállítható production változatának bevezetése.
+- [x] A `naptar.html` főoldali elérhetőségének ellenőrzése.
+- [x] A `deadlines.json` bővítése 18 rekordra 8 új, hivatalos forrásból ellenőrzött 2026-os tétellel.
+- [x] 6 bizonytalan jelölt és 1 duplikátum kizárása a production adatokból.
+- [x] Az `Általános` ágazati elnevezés megtartása.
+- [ ] Automatikus határidő-adatgyűjtő megtervezése.
+- [ ] Emberi jóváhagyási folyamat kialakítása a későbbi automatikus határidő-adatgyűjtéshez.
 - [ ] Későbbi bővítésként mentett szűrők, személyes dátumok és értesítések tervezése.
 - [ ] Google-, Apple- és Outlook-naptárba exportálható iCalendar (`.ics`) lehetőségének későbbi vizsgálata.
 
@@ -240,6 +245,7 @@ Utolsó frissítés: 2026. július 24.
 ## Dokumentáció és üzemeltetés
 
 - [x] A 2026. július 24-i production logó- és arculatváltás dokumentálása.
+- [x] Az „Agrárhatáridők és teendők” első stabil production mérföldkövének dokumentálása.
 - [x] `README.md` aktuális állapothoz igazítása.
 - [x] `PROJECT_STATUS.md` karbantartása.
 - [x] `CHANGELOG.md` karbantartása.
