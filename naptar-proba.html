@@ -1307,16 +1307,16 @@
       .back-to-top {
         top: auto;
         left: auto;
-        right: 0;
+        right: calc(14px + env(safe-area-inset-right));
         bottom: calc(14px + env(safe-area-inset-bottom));
-        width: 40px;
+        width: 44px;
         height: 44px;
-        border-right: 0;
-        border-radius: 999px 0 0 999px;
-        transform: translate(10px, 14px);
+        border-right: 1px solid var(--border);
+        border-radius: 999px;
+        transform: translateY(14px);
       }
       .back-to-top.is-visible {
-        transform: translate(0, 0);
+        transform: translateY(0);
       }
     }
 
