@@ -1,5 +1,29 @@
 # GazdaCentrum – változásnapló
 
+## 2026. július 24.
+
+### Új logó és production arculat
+
+- A felhasználó által jóváhagyott GazdaCentrum logó bekerült a GitHub `main` ágba.
+- A repository új világos és sötét vízszintes logókat, ikonváltozatokat, SVG-változatokat és favicont tartalmaz.
+- Sötét háttéren a `gazdacentrum-logo-dark.png`, világos háttéren a `gazdacentrum-logo-light.png` használatos.
+- A főoldali hero világos és sötét módhoz külön logót választ.
+- A hero logó mögül világos és sötét módban is eltűnt a külön fehér doboz, keret és árnyék.
+- A régi `gazdacentrum_logo.png` visszaállítási tartalékként megmaradt.
+- A jelenlegi SVG-fájlok beágyazott raszteres képet tartalmaznak; teljes értékű szerkeszthető vektoros master később készíthető.
+
+### Production színvilág
+
+- Az `index.html`, `naptar.html`, `palyazatok.html`, `palyazat-kap-rd46-1-25.html`, `palyazat-kap-rd38-rd39-1-25.html` és `impresszum.html` a logóhoz igazított türkiz/petrol–tengerészkék–lime arculatot kapott.
+- A türkiz/petrol lett a fő márkaszín, a tengerészkék a stabil sötét felületek színe, a lime pedig korlátozott kiemelőszín.
+- A világos és sötét mód működése megmaradt.
+- Agráradat, híradat, JSON-fájl, Python-kód és forráslista nem változott az arculati módosítás részeként.
+- A felhasználó a `gazdacentrum.hu` production oldalt világos és sötét módban is ellenőrizte és elfogadta.
+
+### Dokumentáció
+
+- A `PROJECT_STATUS.md`, `TODO.md` és `CHANGELOG.md` az elfogadott production arculathoz és logóállapothoz igazodott.
+
 ## 2026. július 23.
 
 ### Agrárhatáridők és teendők próbafelülete

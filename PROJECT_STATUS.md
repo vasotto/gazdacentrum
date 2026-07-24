@@ -1,6 +1,6 @@
 # GazdaCentrum – projektállapot
 
-Utolsó frissítés: 2026. július 23.
+Utolsó frissítés: 2026. július 24.
 
 ## 1. Projektcél és aktuális fő irány
 
@@ -32,6 +32,37 @@ A havi naptárnézetet elvetettük. A cél egy szűrhető, időrendi teendőlist
 A GitHub `main` ág a production forrás. A repository ZIP csak pillanatfelvétel.
 
 DNS-módosításnál az MX-, SPF-, DKIM-, DMARC- és igazoló TXT-rekordokat védeni kell.
+
+### Production arculat és logó
+
+A 2026. július 24-én elfogadott arculat a GitHub `main` ágon és a `gazdacentrum.hu` production oldalon megjelent.
+
+Elfogadott vizuális irány:
+
+- türkiz/petrol fő márkaszín;
+- tengerészkék fejlécek és sötét felületek;
+- lime csak fontos kiemelésekhez és elsődleges műveletekhez;
+- világos, enyhén hideg szürke oldalháttér és fehér kártyák;
+- világos és sötét mód.
+
+Használt logófájlok:
+
+- `gazdacentrum-logo-dark.png` – sötét háttérhez;
+- `gazdacentrum-logo-light.png` – világos háttérhez;
+- `gazdacentrum-icon-dark.png` és `gazdacentrum-icon-light.png` – emblémaváltozatok;
+- `favicon-proba.png` – jelenlegi favicon;
+- az azonos nevű SVG-fájlok a repositoryban megtalálhatók.
+
+Megjelenítési szabály:
+
+- sötét fejlécen, láblécben és sötét hero-felületen a dark logó használatos;
+- világos hero-felületen a light logó használatos;
+- a hero logó mögött sem világos, sem sötét módban nincs külön fehér doboz, keret vagy árnyék;
+- a régi `gazdacentrum_logo.png` fájl visszaállítási tartalékként megmaradt.
+
+A felhasználó a production oldalt világos és sötét módban is ellenőrizte. A fejléc, hero, gombok és fő színvilág elfogadást kapott.
+
+Technikai megjegyzés: a jelenlegi SVG-fájlok beágyazott raszteres képet tartalmaznak, ezért nem tekinthetők teljes értékű, szerkeszthető vektoros masterfájloknak.
 
 ## 3. Hírfrissítési folyamat
 
@@ -180,16 +211,16 @@ Még ellenőrizendő a feltöltés után:
 - teljes asztali ellenőrzés;
 - csak ezután döntés a `naptar.html` lecseréléséről.
 
-## 9. Színpróba
+## 9. Színpróba és elfogadott production paletta
 
-A `naptar-szinproba.html` négy sötét palettát tartalmaz:
+A `naptar-szinproba.html` továbbra is külön vizuális próbafájl, amely négy korábbi sötét palettát tartalmaz:
 
 - Grafit–petrol;
 - Palakék–ibolya;
 - Meleg grafit–bronz;
 - Semleges grafit.
 
-A palettaértékelést későbbre halasztottuk. A production színvilág még nincs elfogadva.
+A production oldalak 2026. július 24-én külön, a jóváhagyott logóhoz igazított türkiz/petrol–tengerészkék–lime színvilágot kaptak. Ez a production arculat felhasználói ellenőrzést és elfogadást kapott. A `naptar-szinproba.html` nem production forrás, később archiválható vagy további vizuális kísérletekhez megtartható.
 
 ## 10. Pályázati rendszer
 
@@ -245,4 +276,4 @@ A technikai működés nem helyettesíti a felhasználási engedélyek rendezés
 
 ## 14. Következő konkrét feladat
 
-Az aktualizált repository feltöltése után mobilon ellenőrizni kell a képernyőszéli vissza-a-tetejére gombot és a nitrátos kártya `esedékes` státuszszövegét. Ezután következhet az asztali teszt és a production `naptar.html` lecserélésének előkészítése.
+A production arculat és logó bevezetése megtörtént. Következőként mobilon ellenőrizni kell a `naptar-proba.html` képernyőszéli vissza-a-tetejére gombját és a nitrátos kártya `esedékes` státuszszövegét. Ezután következhet a teljes asztali teszt és csak annak eredménye alapján a production `naptar.html` funkcionális lecserélésének előkészítése.

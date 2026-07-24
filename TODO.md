@@ -1,6 +1,6 @@
 # GazdaCentrum – feladatlista
 
-Utolsó frissítés: 2026. július 23.
+Utolsó frissítés: 2026. július 24.
 
 ## Következő konkrét feladat
 
@@ -61,6 +61,11 @@ Utolsó frissítés: 2026. július 23.
 
 ## Weboldal
 
+- [x] A jóváhagyott GazdaCentrum logó production integrációja.
+- [x] Külön világos és sötét logófájl használata a háttér szerint.
+- [x] A hero logó fehér dobozának, keretének és árnyékának eltávolítása mindkét témában.
+- [x] Türkiz/petrol–tengerészkék–lime production színvilág bevezetése.
+- [x] A production oldal felhasználói ellenőrzése világos és sötét módban.
 - [x] Reszponzív főoldal.
 - [x] Mobilon tördelődő felső menü.
 - [x] Kategóriaszűrők.
@@ -187,7 +192,8 @@ Utolsó frissítés: 2026. július 23.
 - [ ] A képernyőszéli mobil vissza-a-tetejére gomb ismételt ellenőrzése feltöltés után.
 - [ ] A nitrátos `esedékes` státusz felhasználói ellenőrzése.
 - [ ] Teljes asztali teszt.
-- [ ] A négy sötét paletta későbbi kiértékelése és végleges színvilág kiválasztása.
+- [x] A végleges production színvilág kiválasztása és bevezetése a jóváhagyott logóhoz igazítva.
+- [ ] Döntés a `naptar-szinproba.html` későbbi megtartásáról vagy archiválásáról.
 - [ ] A `naptar.html` csak elfogadott és visszaállítható commitban cserélhető le.
 - [ ] Későbbi bővítésként mentett szűrők, személyes dátumok és értesítések tervezése.
 - [ ] Google-, Apple- és Outlook-naptárba exportálható iCalendar (`.ics`) lehetőségének későbbi vizsgálata.
@@ -233,6 +239,7 @@ Utolsó frissítés: 2026. július 23.
 
 ## Dokumentáció és üzemeltetés
 
+- [x] A 2026. július 24-i production logó- és arculatváltás dokumentálása.
 - [x] `README.md` aktuális állapothoz igazítása.
 - [x] `PROJECT_STATUS.md` karbantartása.
 - [x] `CHANGELOG.md` karbantartása.
