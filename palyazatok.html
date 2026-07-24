@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon-proba.png">
 
   <title>Pályázatok és támogatások – GazdaCentrum.hu</title>
 
@@ -41,18 +42,18 @@
 
   <style>
     :root {
-      --purple: #8174df;
-      --purple-dark: #6558bd;
-      --purple-soft: #f0edff;
-      --lime: #aee500;
-      --lime-dark: #6f9800;
-      --lime-soft: #f1fad6;
-      --charcoal: #1b2530;
-      --page: #f6f7fb;
+      --purple: #10B7C1;
+      --purple-dark: #087E8A;
+      --purple-soft: #E5F7F8;
+      --lime: #B8EF19;
+      --lime-dark: #6F9600;
+      --lime-soft: #F1F9D5;
+      --charcoal: #0B294D;
+      --page: #F4F7F9;
       --surface: #ffffff;
-      --border: #e3e6ee;
-      --text: #252a35;
-      --muted: #697181;
+      --border: #DCE5EA;
+      --text: #1D2B3A;
+      --muted: #627286;
       --warning-bg: #fffdf4;
       --warning-border: #eee4b7;
       --shadow: 0 16px 38px rgba(31, 39, 51, 0.08);
@@ -100,7 +101,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(27, 37, 48, 0.97);
+      background: rgba(11, 41, 77, 0.97);
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       backdrop-filter: blur(14px);
     }
@@ -188,8 +189,8 @@
         linear-gradient(
           120deg,
           #ffffff 0%,
-          #f7f5ff 52%,
-          #ece8ff 100%
+          #EEF9FA 52%,
+          #E5F7F8 100%
         );
       border-bottom: 1px solid var(--border);
     }
@@ -202,7 +203,7 @@
       right: -180px;
       top: -220px;
       border-radius: 50%;
-      background: rgba(129, 116, 223, 0.09);
+      background: rgba(16, 183, 193, 0.09);
     }
 
     .hero-inner {
@@ -266,7 +267,7 @@
     .button-secondary {
       color: var(--purple-dark);
       background: rgba(255, 255, 255, 0.82);
-      border-color: rgba(129, 116, 223, 0.45);
+      border-color: rgba(16, 183, 193, 0.45);
     }
 
     main {
@@ -396,7 +397,7 @@
     .badge-sector {
       color: var(--purple-dark);
       background: var(--purple-soft);
-      border: 1px solid rgba(129, 116, 223, 0.22);
+      border: 1px solid rgba(16, 183, 193, 0.22);
     }
 
     .verified {
@@ -464,7 +465,7 @@
       align-items: center;
       padding: 14px 16px;
       background: var(--purple-soft);
-      border: 1px solid rgba(129, 116, 223, 0.18);
+      border: 1px solid rgba(16, 183, 193, 0.18);
       border-radius: 14px;
     }
 
@@ -565,10 +566,10 @@
       background:
         radial-gradient(
           circle at 85% 10%,
-          rgba(129, 116, 223, 0.17),
+          rgba(16, 183, 193, 0.17),
           transparent 26%
         ),
-        #1b2530;
+        #0B294D;
     }
 
     .footer-inner {
@@ -626,18 +627,18 @@
     }
 
     html[data-theme="dark"] {
-      --purple: #a99eff;
-      --purple-dark: #c6beff;
-      --purple-soft: #302b50;
-      --lime: #b8ec27;
+      --purple: #49D2D8;
+      --purple-dark: #76E2E6;
+      --purple-soft: #123A4C;
+      --lime: #B8EF19;
       --lime-dark: #d0f76a;
       --lime-soft: #293719;
       --charcoal: #eef2f7;
-      --page: #10141a;
-      --surface: #1a2029;
-      --border: #343d49;
-      --text: #e8ecf2;
-      --muted: #aab3bf;
+      --page: #081B2E;
+      --surface: #102B43;
+      --border: #29465E;
+      --text: #EDF5F7;
+      --muted: #A9BBC6;
       --warning-bg: #252419;
       --warning-border: #4b472b;
       --shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
@@ -654,8 +655,8 @@
         linear-gradient(
           120deg,
           #141922 0%,
-          #191827 52%,
-          #211e38 100%
+          #102B43 52%,
+          #163B62 100%
         );
     }
 
@@ -786,9 +787,9 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      color: var(--purple-dark, #6558bd);
+      color: var(--purple-dark, #087E8A);
       background: var(--surface, #ffffff);
-      border: 1px solid var(--border, #e3e6ee);
+      border: 1px solid var(--border, #DCE5EA);
       border-radius: 999px;
       box-shadow: 0 8px 22px rgba(31, 39, 51, 0.18);
       opacity: 0;
@@ -810,8 +811,8 @@
     }
 
     .back-to-top:hover {
-      color: var(--lime-dark, #6f9800);
-      border-color: var(--lime, #aee500);
+      color: var(--lime-dark, #6F9600);
+      border-color: var(--lime, #B8EF19);
     }
 
     .back-to-top:focus-visible {
@@ -865,7 +866,7 @@
     <nav class="nav-inner" aria-label="Pályázati oldal navigáció">
       <a class="brand" href="index.html" aria-label="GazdaCentrum.hu kezdőlap">
         <img
-          src="gazdacentrum_logo.png"
+          src="gazdacentrum-logo-dark.png"
           alt="GazdaCentrum.hu"
         >
       </a>
@@ -959,7 +960,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+        <img src="gazdacentrum-logo-dark.png" alt="GazdaCentrum.hu">
         <p>
           Agrárhírek, támogatások és szakmai információk
           egy helyen, automatizált feldolgozással.

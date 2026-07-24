@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon-proba.png">
 
   <title>Impresszum – GazdaCentrum.hu</title>
   <meta
@@ -35,32 +36,32 @@
 
   <style>
     :root {
-      --purple: #8174df;
-      --purple-dark: #6558bd;
-      --purple-soft: #f0edff;
-      --lime: #aee500;
-      --charcoal: #1b2530;
-      --page: #f6f7fb;
+      --purple: #10B7C1;
+      --purple-dark: #087E8A;
+      --purple-soft: #E5F7F8;
+      --lime: #B8EF19;
+      --charcoal: #0B294D;
+      --page: #F4F7F9;
       --surface: #ffffff;
-      --border: #e3e6ee;
-      --text: #252a35;
-      --muted: #697181;
+      --border: #DCE5EA;
+      --text: #1D2B3A;
+      --muted: #627286;
       --notice: #fff7d6;
       --notice-border: #e6bd28;
       --shadow: 0 16px 38px rgba(31, 39, 51, 0.08);
     }
 
     html[data-theme="dark"] {
-      --purple: #a99cff;
-      --purple-dark: #c1b8ff;
-      --purple-soft: #312d50;
-      --lime: #b8ea27;
-      --charcoal: #eef2f6;
-      --page: #10151c;
-      --surface: #18212b;
-      --border: #34404d;
-      --text: #eef2f6;
-      --muted: #aeb8c4;
+      --purple: #49D2D8;
+      --purple-dark: #76E2E6;
+      --purple-soft: #123A4C;
+      --lime: #B8EF19;
+      --charcoal: #EDF5F7;
+      --page: #081B2E;
+      --surface: #102B43;
+      --border: #29465E;
+      --text: #EDF5F7;
+      --muted: #A9BBC6;
       --notice: #3a3215;
       --notice-border: #b28b00;
       --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
@@ -260,7 +261,7 @@
     .page-footer {
       padding: 24px 16px;
       color: #dfe6ed;
-      background: #1b2530;
+      background: #0B294D;
       text-align: center;
       font-size: 0.92rem;
     }
@@ -317,9 +318,9 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      color: var(--purple-dark, #6558bd);
+      color: var(--purple-dark, #087E8A);
       background: var(--surface, #ffffff);
-      border: 1px solid var(--border, #e3e6ee);
+      border: 1px solid var(--border, #DCE5EA);
       border-radius: 999px;
       box-shadow: 0 8px 22px rgba(31, 39, 51, 0.18);
       opacity: 0;
@@ -341,8 +342,8 @@
     }
 
     .back-to-top:hover {
-      color: var(--lime-dark, #6f9800);
-      border-color: var(--lime, #aee500);
+      color: var(--lime-dark, #6F9600);
+      border-color: var(--lime, #B8EF19);
     }
 
     .back-to-top:focus-visible {
@@ -374,7 +375,27 @@
       }
     }
 
-  </style>
+      /* Production-jelölt márkaillesztés: egységes sötét fejléc. */
+    .site-header {
+      color: #EDF5F7;
+      background: #0B294D;
+      border-bottom-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .site-header .back-link,
+    .site-header .theme-toggle {
+      color: #EDF5F7;
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .site-header .back-link:hover,
+    .site-header .theme-toggle:hover {
+      color: #B8EF19;
+      border-color: rgba(184, 239, 25, 0.65);
+    }
+
+</style>
 </head>
 
 <body>
@@ -395,7 +416,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html" aria-label="Vissza a GazdaCentrum főoldalára">
-        <img src="gazdacentrum_logo.png" alt="GazdaCentrum.hu">
+        <img src="gazdacentrum-logo-dark.png" alt="GazdaCentrum.hu">
       </a>
 
       <div class="header-actions">
