@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T09:20:11+00:00",
+  "generated_at": "2026-07-24T12:17:13+00:00",
   "filter_options": {
     "deadline_types": [
       "Pályázat",
@@ -225,6 +225,166 @@
         "Általános"
       ],
       "action_type": "Egységes kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd42a-1-26-2",
+      "title": "Vidéki infrastruktúra fejlesztés zártkerti területeken – 2. benyújtási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "Vidéki térségben működő települési önkormányzatok",
+      "start_date": "2026-07-16",
+      "deadline_date": "2026-07-29",
+      "deadline_text": "2026. július 16–29.",
+      "reference_code": "KAP-RD42a-1-26",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd42a-1-26",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd06-1-25-5",
+      "title": "Generációs megújulás gazdaságátvevő támogatásával – 5. benyújtási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "A 2021. évi CXLIII. törvény szerinti jóváhagyott gazdaságátadási szerződéssel rendelkező, mezőgazdasági tevékenységet folytató kedvezményezettek",
+      "start_date": "2026-08-06",
+      "deadline_date": "2026-08-19",
+      "deadline_text": "2026. augusztus 6–19.",
+      "reference_code": "KAP-RD06-1-25",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd06-1-25",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd44-1-26-aktualis",
+      "title": "Termelői csoportok, termelői szervezetek támogatása – aktuális beadási időszak",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "Elismert termelői csoportok és elismert termelői integrációs szervezetek",
+      "start_date": "2026-06-05",
+      "deadline_date": "2026-08-31",
+      "deadline_text": "2026. június 5. – augusztus 31.",
+      "reference_code": "KAP-RD44-1-26",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd44-1-26",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "ertekesitesi-jelentes-2026-09-10",
+      "title": "Értékesítési jelentés benyújtása",
+      "action": "Értékesítési jelentés benyújtása a gazdasági aktát vezető hegybíróhoz",
+      "affected": "Borászati termelők",
+      "start_date": "2026-09-10",
+      "deadline_date": "2026-09-10",
+      "deadline_text": "Határidő: 2026. szeptember 10.",
+      "reference_code": "435/2021. (VII. 16.) Korm. rendelet 46. § a)",
+      "source_name": "NAK / HNT",
+      "source_url": "https://www.nak.hu/kiadvanyok/8465-hegykozsegi-adatszolgaltatasi-es-egyeb-hataridok-2026/file",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Adatszolgáltatás",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Jelentés benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd21-rd22-2-25-2026-szeptember",
+      "title": "Természetközeli és vizes élőhelyek kialakítását elősegítő beruházások és azok fenntartása – következő beadási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "Mezőgazdasági termelők",
+      "start_date": "2026-09-03",
+      "deadline_date": "2026-09-16",
+      "deadline_text": "2026. szeptember 3–16.",
+      "reference_code": "KAP-RD21-RD22-2-25",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd21-rd22-2-25",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "borszolo-telepitesi-engedely-2026-osz",
+      "title": "Új borszőlőültetvény telepítési engedély iránti kérelem – őszi időszak",
+      "action": "Kérelem benyújtása a létesítendő ültetvény helye szerint illetékes hegybíróhoz",
+      "affected": "Új borszőlőültetvény telepítéséhez engedélyt kérő szőlészeti termelők",
+      "start_date": "2026-10-01",
+      "deadline_date": "2026-10-31",
+      "deadline_text": "2026. október 1–31.",
+      "reference_code": "435/2021. (VII. 16.) Korm. rendelet 12. §",
+      "source_name": "NAK / HNT",
+      "source_url": "https://www.nak.hu/kiadvanyok/8465-hegykozsegi-adatszolgaltatasi-es-egyeb-hataridok-2026/file",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Bejelentés",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Engedélykérelem",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd07-1-25-5",
+      "title": "Gazdaságátadási együttműködés támogatása – 5. benyújtási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "A gazdaságátadási együttműködésben részt vevő gazdaságátadók",
+      "start_date": "2026-10-08",
+      "deadline_date": "2026-10-21",
+      "deadline_text": "2026. október 8–21.",
+      "reference_code": "KAP-RD07-1-25",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd07-1-25",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
+      "date_type": "fixed",
+      "show_in_main_list": true
+    },
+    {
+      "id": "kap-rd09a-2-26-3",
+      "title": "Mezőgazdasági kisüzemek beruházási támogatása – 3. benyújtási szakasz",
+      "action": "Támogatási kérelem benyújtása",
+      "affected": "Őstermelők, mezőgazdasági termelőnek minősülő egyéni vállalkozók és szociális szövetkezetek",
+      "start_date": "2026-11-05",
+      "deadline_date": "2026-11-18",
+      "deadline_text": "2026. november 5–18.",
+      "reference_code": "KAP-RD09a-2-26",
+      "source_name": "KAP portál",
+      "source_url": "https://kap.gov.hu/tamogatas/kap-rd09a-2-26",
+      "verified_at": "2026-07-24",
+      "deadline_type": "Pályázat",
+      "sectors": [
+        "Általános"
+      ],
+      "action_type": "Kérelem benyújtása",
       "date_type": "fixed",
       "show_in_main_list": true
     }
