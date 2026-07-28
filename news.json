@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-28T17:14:44.655109+00:00",
-  "item_count": 159,
+  "generated_at": "2026-07-28T21:51:32.782488+00:00",
+  "item_count": 158,
   "items": [
+    {
+      "id": "40fad212eae16550",
+      "title": "Ki veszi át a stafétát?",
+      "link": "https://magyarmezogazdasag.hu/2026/07/28/ki-veszi-at-a-stafetat/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-28T21:08:10+00:00"
+    },
+    {
+      "id": "a4a7b715cf1869cb",
+      "title": "A talaj mást mesél, mint a labor – mit árul el egy talajszelvény?",
+      "link": "https://magyarmezogazdasag.hu/2026/07/28/a-talaj-mast-mesel-mint-a-labor-mit-arul-el-egy-talajszelveny/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-28T20:08:56+00:00"
+    },
+    {
+      "id": "b56de79edd1017fd",
+      "title": "Fordult a kocka a csirkepiacon? Meglepő hírek érkeztek",
+      "link": "https://www.agroinform.hu/allattenyesztes/fordult-a-kocka-a-csirkepiacon-meglepo-hirek-erkeztek-99589-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99589",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-07-28T17:36:46+00:00"
+    },
+    {
+      "id": "8d3d70f2d188bd91",
+      "title": "Elképesztő hőség fojtja meg Magyarországot: pokoli napok várnak ránk",
+      "link": "https://www.agrarszektor.hu/noveny/20260728/elkepeszto-hoseg-fojtja-meg-magyarorszagot-pokoli-napok-varnak-rank-63606",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-28T17:32:00+00:00"
+    },
+    {
+      "id": "073bcc2afe79c091",
+      "title": "Idén Magyarország negatív európai rekordot állít be minden szántóföldi növényből",
+      "link": "https://www.agroinform.hu/szantofold/iden-magyarorszag-negativ-europai-rekordot-allit-be-minden-szantofoldi-novenybol-99573-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99573",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-28T17:15:51+00:00"
+    },
     {
       "id": "678efb89254b0839",
       "title": "Szigorú öntözési korlátozás: tilos a vízkivétel a dunántúli csatornából",
@@ -273,16 +323,6 @@
       "published_at": "2026-07-28T12:08:00+00:00"
     },
     {
-      "id": "8582be949f971200",
-      "title": "Paks visszavett, Csernavoda egyik blokkja leállt: veszélybe kerülhet a régió áramellátása?",
-      "link": "https://www.agroinform.hu/gazdasag/paks-visszavett-csernavoda-egyik-blokkja-leallt-veszelybe-kerulhet-a-regio-aramellatasa-99560-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99560",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T11:42:00+00:00"
-    },
-    {
       "id": "91630f3dabbe6c1b",
       "title": "Jelentősen erősödött a hazai élőbárány-export az év első öt hónapjában",
       "link": "https://www.aki.gov.hu/2026/07/28/jelentosen-erosodott-a-hazai-elobarany-export-az-ev-elso-ot-honapjaban/",
@@ -291,16 +331,6 @@
       "content_type": "Piaci adat",
       "source_type": "hivatalos",
       "published_at": "2026-07-28T11:41:43+00:00"
-    },
-    {
-      "id": "c95c57abd3fb43af",
-      "title": "Erre várt az ágazat: vízügyi munkacsoport alakult",
-      "link": "https://www.agroinform.hu/gazdasag/erre-vart-az-agazat-vizugyi-munkacsoport-alakult-99530-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99530",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T11:24:21+00:00"
     },
     {
       "id": "107a46f89bbab0eb",
@@ -331,16 +361,6 @@
       "content_type": "",
       "source_type": "hivatalos",
       "published_at": "2026-07-28T11:08:17+00:00"
-    },
-    {
-      "id": "4f56b8f24385ab7c",
-      "title": "Így alakul a 2026/2027-es tanév az agrárszakképzésben: fontos dátumok a duális képzőhelyeknek",
-      "link": "https://www.agroinform.hu/gazdasag/igy-alakul-a-20262027-es-tanev-az-agrarszakkepzesben-fontos-datumok-a-dualis-kepzohelyeknek-99519-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99519",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "Esemény / képzés",
-      "source_type": "portál",
-      "published_at": "2026-07-28T11:06:00+00:00"
     },
     {
       "id": "53b6b11909ad60a5",
@@ -603,16 +623,6 @@
       "published_at": "2026-07-28T05:10:00+00:00"
     },
     {
-      "id": "3f4b96f95065d4ea",
-      "title": "Változik a szabályozás: súlyos lépésre készülnek a magyar erdőkben is",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260728/valtozik-a-szabalyozas-sulyos-lepesre-keszulnek-a-magyar-erdokben-is-63575",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T05:01:00+00:00"
-    },
-    {
       "id": "362887de40307176",
       "title": "A vasnál is erősebb, ami összetartja a céget",
       "link": "https://mezohir.hu/2026/07/28/mezogazdasag-kovacs-ker-sikertortenete/",
@@ -693,16 +703,6 @@
       "published_at": "2026-07-27T14:10:00+00:00"
     },
     {
-      "id": "79f3fa8e17d8264c",
-      "title": "A gazdák véleménye is dönthet a JÉGER jövőjéről",
-      "link": "https://magyarmezogazdasag.hu/2026/07/27/a-gazdak-velemenye-is-donthet-a-jeger-jovojerol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-27T13:32:24+00:00"
-    },
-    {
       "id": "578ca34d443ec994",
       "title": "Ezért kerülhet reflektorfénybe a rovarfehérje nálunk: itt a magyarázat",
       "link": "https://agronaplo.hu/agrarhirek/20260727/ezert-kerulhet-reflektorfenybe-a-rovarfeherje-nalunk-itt-a-magyarazat-40777",
@@ -741,16 +741,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-27T10:41:00+00:00"
-    },
-    {
-      "id": "684a345446686652",
-      "title": "Átrendeződés a burgonyapiacon: helyére kerül a burgonya ára?",
-      "link": "https://magyarmezogazdasag.hu/2026/07/27/atrendezodes-a-burgonyapiacon-helyere-kerul-a-burgonya-ara/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-27T10:07:48+00:00"
     },
     {
       "id": "44e23fdbef0ca405",
