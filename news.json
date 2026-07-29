@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-07-29T16:55:04.178861+00:00",
-  "item_count": 157,
+  "generated_at": "2026-07-29T21:31:32.684188+00:00",
+  "item_count": 156,
   "items": [
+    {
+      "id": "c0242e1ef31378b3",
+      "title": "Jégverés pusztított Nagymihályi és Szobránci járásban, az agrárkár 3,5 millió euró",
+      "link": "https://magyarmezogazdasag.hu/2026/07/29/jegveres-pusztitott-nagymihalyi-es-szobranci-jarasban-az-agrarkar-35-millio-euro/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T21:08:46+00:00"
+    },
+    {
+      "id": "1622f9c98bb6a70b",
+      "title": "A wasabi nyomában",
+      "link": "https://magyarmezogazdasag.hu/2026/07/29/a-wasabi-nyomaban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T20:08:29+00:00"
+    },
+    {
+      "id": "fcce845d14efa575",
+      "title": "Skóciában két hete lángol egy hegy",
+      "link": "https://magyarmezogazdasag.hu/2026/07/29/skociaban-ket-hete-langol-egy-hegy/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T19:07:16+00:00"
+    },
+    {
+      "id": "67d482d3ba3b5838",
+      "title": "Miniszterelnöki bejelentés: korlátozhatják a nagyfogyasztók energia- és vízellátását",
+      "link": "https://www.agroinform.hu/gazdasag/miniszterelnoki-bejelentes-korlatozhatjak-a-nagyfogyasztok-energia-es-vizellatasat-99797-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99797",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T18:38:00+00:00"
+    },
+    {
+      "id": "5fdc6abc146aea9c",
+      "title": "Összeomlott az áramhálózat: sorra zárnak be itt a gyárak, rohad a termés",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260729/osszeomlott-az-aramhalozat-sorra-zarnak-be-itt-a-gyarak-rohad-a-termes-63625",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T18:32:00+00:00"
+    },
+    {
+      "id": "a33a8cbdf1cb123a",
+      "title": "Nem akármi derült ki a kullancsokról: nem úgy van, ahogy sokan hiszik",
+      "link": "https://www.agrarszektor.hu/allat/20260729/nem-akarmi-derult-ki-a-kullancsokrol-nem-ugy-van-ahogy-sokan-hiszik-63618",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T17:31:00+00:00"
+    },
     {
       "id": "179a12a4fcc0c4ef",
       "title": "Kész, ennyi volt: hatalmas területen számolják fel a krumpliföldeket",
@@ -363,44 +423,14 @@
       "published_at": "2026-07-29T08:32:00+00:00"
     },
     {
-      "id": "ab1a892c15576482",
-      "title": "Hatalmas területen lángol a tarló és a zöldhulladék Pest megyében",
-      "link": "https://www.agroinform.hu/gazdaelet/hatalmas-teruleten-langol-a-tarlo-es-a-zoldhulladek-pest-megyeben-99688-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99688",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-29T08:27:00+00:00"
-    },
-    {
-      "id": "b3fd5ba3e5d553b5",
-      "title": "Országos parlagfű-riadó: most kell lépniük a földhasználóknak a bírságok elkerüléséért",
-      "link": "https://www.agroinform.hu/szantofold/orszagos-parlagfu-riado-most-kell-lepniuk-a-foldhasznaloknak-a-birsagok-elkeruleseert-99680-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99680",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "Határidő / teendő",
-      "source_type": "portál",
-      "published_at": "2026-07-29T08:08:45+00:00"
-    },
-    {
       "id": "3e2ae298637ff33c",
       "title": "Szaktanácsadás és termesztés egy kézben",
       "link": "https://magyarmezogazdasag.hu/2026/07/29/szaktanacsadas-es-termesztes-egy-kezben/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-29T08:08:32+00:00"
-    },
-    {
-      "id": "7a5e7a16a9f8efa6",
-      "title": "A szakmai bemutató, ahol mindig tanulhat valami hasznosat – Szentes-Lapistó",
-      "link": "https://www.agroinform.hu/program_gepeszet/a-szakmai-bemutato-ahol-mindig-tanulhat-valami-hasznosat-99422-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99422",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-29T08:00:43+00:00"
     },
     {
       "id": "f1f1f517e4dd6116",
@@ -573,16 +603,6 @@
       "published_at": "2026-07-28T17:32:00+00:00"
     },
     {
-      "id": "15a44323a5f654c9",
-      "title": "Valami nem stimmel a szilvával Európában: sokan már meg sem veszik",
-      "link": "https://www.agrarszektor.hu/noveny/20260728/valami-nem-stimmel-a-szilvaval-europaban-sokan-mar-meg-sem-veszik-63599",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T16:34:00+00:00"
-    },
-    {
       "id": "01e31f3d9a52a41c",
       "title": "Durva krízis jöhet a húsiparban: erre a Covid óta nem volt példa",
       "link": "https://agronaplo.hu/agrarhirek/20260728/durva-krizis-johet-a-husiparban-erre-a-covid-ota-nem-volt-pelda-40783",
@@ -593,26 +613,6 @@
       "published_at": "2026-07-28T15:33:00+00:00"
     },
     {
-      "id": "12b6eadb579222ef",
-      "title": "Sötét titkot lepleztek le az EU-ban: sokkal rosszabb a helyzet, mint hittük",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260728/sotet-titkot-lepleztek-le-az-eu-ban-sokkal-rosszabb-a-helyzet-mint-hittuk-63567",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T15:31:00+00:00"
-    },
-    {
-      "id": "6040b1ab46fbd58e",
-      "title": "Sokféle nyomás az ágazaton, romlott az MBH AgrárTrend Index",
-      "link": "https://magyarmezogazdasag.hu/2026/07/28/sokfele-nyomas-az-agazaton-romlott-az-mbh-agrartrend-index/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T15:04:08+00:00"
-    },
-    {
       "id": "24558b98595305bf",
       "title": "Több részre szakadt az egyik legnépszerűbb magyar tó, a vizének fele eltűnt",
       "link": "https://agroforum.hu/agrarhirek/kornyezetvedelem/tobb-reszre-szakadt-az-egyik-legnepszerubb-magyar-to-a-vizenek-fele-eltunt/",
@@ -621,16 +621,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-28T14:10:00+00:00"
-    },
-    {
-      "id": "aeb6734cf8d512ce",
-      "title": "Az aszály a szlovák agráregyetem tangazdaságát sem kímélte",
-      "link": "https://magyarmezogazdasag.hu/2026/07/28/az-aszaly-a-szlovak-agraregyetem-tangazdasagat-sem-kimelte/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T14:07:12+00:00"
     },
     {
       "id": "479957f8e8d4a3d0",
@@ -711,16 +701,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-28T10:41:00+00:00"
-    },
-    {
-      "id": "96c8ae124a75f7bb",
-      "title": "Napi 100 hektár teljesítményre képes az új Krone silózó",
-      "link": "https://magyarmezogazdasag.hu/2026/07/28/napi-100-hektar-teljesitmenyre-kepes-az-uj-krone-silozo/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T10:07:43+00:00"
     },
     {
       "id": "ca626350c41171e6",
@@ -961,6 +941,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-26T12:34:00+00:00"
+    },
+    {
+      "id": "ca8588addc6b269f",
+      "title": "Óriási baj van Európában: hatalmas területen lángol a tűz",
+      "link": "https://agronaplo.hu/agrarhirek/20260726/oriasi-baj-van-europaban-hatalmas-teruleten-langol-a-tuz-40773",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-26T12:18:00+00:00"
     },
     {
       "id": "63c49813e5584fe5",
