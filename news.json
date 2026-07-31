@@ -1,7 +1,347 @@
 {
-  "generated_at": "2026-07-30T21:55:08.444717+00:00",
+  "generated_at": "2026-07-31T10:11:06.267611+00:00",
   "item_count": 157,
   "items": [
+    {
+      "id": "5afa5fdc87717f03",
+      "title": "Ritka gőtéket engedtek szabadon egy titkos helyen",
+      "link": "https://magyarmezogazdasag.hu/2026/07/31/ritka-goteket-engedtek-szabadon-egy-titkos-helyen/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T10:07:51+00:00"
+    },
+    {
+      "id": "010619b829628296",
+      "title": "Az őszi káposztarepce drónos növényvédelme és a szabályos alkalmazás feltételei",
+      "link": "https://www.agroinform.hu/szantofold/a-dronos-permetezes-alkalmazasi-lehetosegei-oszi-kaposztarepceben-valamint-a-legalis-hasznalat-feltetelei-a-szektorban-100013-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100013",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-07-31T10:06:16+00:00"
+    },
+    {
+      "id": "82ae92eebad2ec52",
+      "title": "Ellehetetlenültek – jogi kiskapuval jutnak termőföldhöz külföldiek, egy regeneratív gazdaság feladására készül egy magyar család",
+      "link": "https://www.agroinform.hu/gazdasag/ellehetetlenultek-jogi-kiskapuval-jutnak-termofoldhoz-kulfoldiek-egy-regenerativ-gazdasag-feladasara-keszul-egy-magyar-csalad-100011-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100011",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:35:40+00:00"
+    },
+    {
+      "id": "cbaa867abc28d6d5",
+      "title": "Jön az újabb áremelés? Durván drágulhat ez az élelmiszer a boltokban",
+      "link": "https://www.agrarszektor.hu/noveny/20260731/jon-az-ujabb-aremeles-durvan-dragulhat-ez-az-elelmiszer-a-boltokban-63660",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:29:00+00:00"
+    },
+    {
+      "id": "213de3aa265ab693",
+      "title": "Megszületett a döntés: tényleg leállítják a jégkármérséklő rendszert",
+      "link": "https://agronaplo.hu/agrarhirek/20260731/megszuletett-a-dontes-tenyleg-leallitjak-a-jegkarmerseklo-rendszert-40863",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:27:00+00:00"
+    },
+    {
+      "id": "33e0b9a3e41db325",
+      "title": "Elhallgatnak JÉGER-generátorok, a többségük legalábbis",
+      "link": "https://mezohir.hu/2026/07/31/mezogazdasag-jeger-vita-vegeredmeny/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:13:37+00:00"
+    },
+    {
+      "id": "1ed0599ad9cfa3f5",
+      "title": "Futóbab a kertben: így lesz roskadásig tele hüvellyel",
+      "link": "https://agroforum.hu/szakcikkek/zoldseg/futobab-a-kertben-igy-lesz-roskadasig-tele-huvellyel/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:10:00+00:00"
+    },
+    {
+      "id": "4f7f72e812f70da0",
+      "title": "Fejetlenség a műtrágya-támogatásban: a gazdák 40%-a lemaradt",
+      "link": "https://www.agroinform.hu/palyazatok/fejetlenseg-a-mutragya-tamogatasban-a-gazdak-40-a-lemaradt-99977-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99977",
+      "source": "Agroinform",
+      "category": "Támogatások és pályázatok",
+      "content_type": "Pályázat / támogatás",
+      "source_type": "portál",
+      "published_at": "2026-07-31T09:04:54+00:00"
+    },
+    {
+      "id": "bc1c38ae3f00f2ef",
+      "title": "Németország: veszélyben a gyümölcstermesztés jövője",
+      "link": "https://fruitveb.hu/nemetorszag-veszelyben-a-gyumolcstermesztes-jovoje/",
+      "source": "FruitVeB",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-07-31T09:01:00+00:00"
+    },
+    {
+      "id": "8b5643773f86ad02",
+      "title": "Számottevően növekedett a kajszi- és őszibaracktermés az idén",
+      "link": "https://www.aki.gov.hu/2026/07/31/szamottevoen-novekedett-a-kajszi-es-oszibaracktermes-az-iden/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-07-31T08:40:27+00:00"
+    },
+    {
+      "id": "87b78bd5ee8ce552",
+      "title": "Őstermelői papírokkal álcázta a kenderültetvényt",
+      "link": "https://www.agroinform.hu/gazdasag/ostermeloi-papirokkal-alcazta-a-kenderultetvenyt-100012-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100012",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T08:36:23+00:00"
+    },
+    {
+      "id": "a86e669ef0b949cb",
+      "title": "Körömvirágot ültetnél a kertedbe? Jó, ha tudod, mi derült ki róla",
+      "link": "https://www.agrarszektor.hu/noveny/20260731/koromviragot-ultetnel-a-kertedbe-jo-ha-tudod-mi-derult-ki-rola-63636",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T08:32:00+00:00"
+    },
+    {
+      "id": "2cec3ff3551933f1",
+      "title": "Ha berág a gyapottok bagolylepke hernyója, oda az egész termés",
+      "link": "https://magyarmezogazdasag.hu/2026/07/31/ha-berag-a-gyapottok-bagolylepke-hernyoja-oda-az-egesz-termes/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T08:06:15+00:00"
+    },
+    {
+      "id": "aad1f6d30746935b",
+      "title": "16 évig gyűjtötték az adatokat, kiderült, érdemes-e a levegőt szűrni a sertéstelepeken",
+      "link": "https://www.agroinform.hu/allattenyesztes/16-evig-gyujtottek-az-adatokat-kiderult-erdemes-e-a-levegot-szurni-a-sertestelepeken-100009-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100009",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T08:06:00+00:00"
+    },
+    {
+      "id": "80b112cbf2a6179a",
+      "title": "Itt az energiakrízis: felszólítást kaptak a magyar műtrágyagyárak",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20260731/itt-az-energiakrizis-felszolitast-kaptak-a-magyar-mutragyagyarak-63659",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:46:00+00:00"
+    },
+    {
+      "id": "4d1feabf87b63227",
+      "title": "Sumi Agro technológia a repce őszi növényvédelméhez",
+      "link": "https://www.agroinform.hu/szantofold/repce-oszi-novenyvedelme-sumi-agro-technologiaval-100004-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100004",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:36:44+00:00"
+    },
+    {
+      "id": "54529905548c24a5",
+      "title": "Ilyen traktort keresnek most a magyar gazdák: viszik, mint a cukrot",
+      "link": "https://agronaplo.hu/agrarhirek/20260731/ilyen-traktort-keresnek-most-a-magyar-gazdak-viszik-mint-a-cukrot-40862",
+      "source": "Agro Napló",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:31:00+00:00"
+    },
+    {
+      "id": "0f0d0848d35525da",
+      "title": "Visszajár a befizetett kvóta-adó, de ha lemaradsz a határidőről, elbukod a pénzt",
+      "link": "https://www.agroinform.hu/gazdasag/visszajar-a-befizetett-kvota-ado-de-ha-lemaradsz-a-hataridorol-elbukod-a-penzt-100014-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100014",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "Határidő / teendő",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:22:00+00:00"
+    },
+    {
+      "id": "97e4605ff8634cf9",
+      "title": "Tegye ezt a paradicsommal, nehogy „felfőjön” a kánikulában",
+      "link": "https://agroforum.hu/agrarhirek/zoldseg-gyumolcs/tegye-ezt-a-paradicsommal-nehogy-felfojon-a-kanikulaban/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:10:00+00:00"
+    },
+    {
+      "id": "2c8eba24c8b7d982",
+      "title": "Dirty soda: a nyár legédesebb italtrendje",
+      "link": "https://magyarmezogazdasag.hu/2026/07/31/dirty-soda-a-nyar-legedesebb-italtrendje/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:07:14+00:00"
+    },
+    {
+      "id": "3ee42e32187dbd14",
+      "title": "Az érkező hőhullám során nem csak a nappali csúcshőmérsékletek okozhatnak kihívást",
+      "link": "https://www.agroinform.hu/idojaras_hirek/az-ujabb-hohullamban-nemcsak-a-nappali-rekordokra-kell-figyelni-100001-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100001",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T07:06:40+00:00"
+    },
+    {
+      "id": "56ba5460b1fb8d30",
+      "title": "Spanyolország: jelentősen nőtt az első féléves paprikaexport értéke",
+      "link": "https://fruitveb.hu/spanyolorszag-jelentosen-nott-az-elso-feleves-paprikaexport-erteke/",
+      "source": "FruitVeB",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-07-31T07:01:00+00:00"
+    },
+    {
+      "id": "d2014e5c37c6c7a4",
+      "title": "Sokk a lengyel piacokon: ennyiért árulnak most egy kiló káposztát",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260731/sokk-a-lengyel-piacokon-ennyiert-arulnak-most-egy-kilo-kaposztat-63646",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:59:00+00:00"
+    },
+    {
+      "id": "69bb820453c55dd8",
+      "title": "Pokoli nyarak várnak a magyarokra: ami most van, az csak a kezdet",
+      "link": "https://www.agrarszektor.hu/noveny/20260731/pokoli-nyarak-varnak-a-magyarokra-ami-most-van-az-csak-a-kezdet-63645",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:44:00+00:00"
+    },
+    {
+      "id": "4fe4430aed2d80eb",
+      "title": "Növényvédelmi előrejelzés: fokozódik a kártevők nyomása a szántóföldeken és a gyümölcsösökben",
+      "link": "https://www.agroinform.hu/szantofold/novenyvedelmi-elorejelzes-fokozodik-a-kartevok-nyomasa-a-szantofoldeken-es-a-gyumolcsosokben-99962-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99962",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:36:26+00:00"
+    },
+    {
+      "id": "39084812c6522823",
+      "title": "Olyan időjárás jön ma, hogy erre a 8 megyére már piros riasztást adtak ki",
+      "link": "https://www.agrarszektor.hu/noveny/20260731/olyan-idojaras-jon-ma-hogy-erre-a-8-megyere-mar-piros-riasztast-adtak-ki-63658",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:16:00+00:00"
+    },
+    {
+      "id": "87477a0ba77b8e08",
+      "title": "Közösségi kertet hoztak létre a dagály övezetében",
+      "link": "https://mezohir.hu/2026/07/31/mezogazdasag-arapaly-kert-epul-angliaban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:11:00+00:00"
+    },
+    {
+      "id": "a7b77e953fd9a2bf",
+      "title": "Gyomlálás a hőségben? Nem biztos, hogy most kell nekilátni",
+      "link": "https://agroforum.hu/szakcikkek/idojaras-szakcikkek/gyomlalas-a-hosegben-nem-biztos-hogy-most-kell-nekilatni/",
+      "source": "Agrofórum",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "Határidő / teendő",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:10:00+00:00"
+    },
+    {
+      "id": "4c9b5a834b76739d",
+      "title": "Erdély, ahol még számít a szőlő és a bor",
+      "link": "https://magyarmezogazdasag.hu/2026/07/31/erdely-ahol-meg-szamit-a-szolo-es-a-bor/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T06:07:37+00:00"
+    },
+    {
+      "id": "d25dbd73ac972dae",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.07.31. péntek",
+      "link": "https://www.agrarszektor.hu/noveny/20260731/friss-agrarszektor-idojaras-elorejelzes-20260731-pentek-63657",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T05:45:02+00:00"
+    },
+    {
+      "id": "deea0aa1c2d3cffb",
+      "title": "A napraforgó kései betegségei: amikor már késő védekezni",
+      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/a-napraforgo-kesei-betegsegei-amikor-mar-keso-vedekezni/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T05:10:00+00:00"
+    },
+    {
+      "id": "a5583adda2a5538c",
+      "title": "Nem fogod kitalálni, miért érdemes sok szilvát enned!",
+      "link": "https://www.agroinform.hu/gazdaelet/nem-fogod-kitalalni-miert-erdemes-sok-szilvat-enned-99453-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99453",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T04:36:00+00:00"
+    },
+    {
+      "id": "cccb8d6aad5ffb2c",
+      "title": "Hampshire évszázados epertermesztési sikertörténete",
+      "link": "https://mezohir.hu/2026/07/31/mezogazdasag-hampshire-epertermesztesenek-kulonleges-tortenete/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T03:34:00+00:00"
+    },
+    {
+      "id": "1c796ab88fb43afa",
+      "title": "3 napos időjárás-előrejelzés: tovább fokozódik a forróság – messze még a felfrissülés",
+      "link": "https://www.agroinform.hu/idojaras_hirek/perzselo-hoseg-es-sok-napsutes-ilyen-idojaras-jon-99803-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99803",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-31T03:05:52+00:00"
+    },
     {
       "id": "812d5bced87e914d",
       "title": "Itt az első lépés: lesznek megyék, ahol lekapcsolják a JÉGER-t",
@@ -173,16 +513,6 @@
       "published_at": "2026-07-30T15:33:00+00:00"
     },
     {
-      "id": "b511ef9cac507ceb",
-      "title": "Perzselő hőség, derült ég: ilyen idő lesz ma este és holnap",
-      "link": "https://www.agroinform.hu/idojaras_hirek/perzselo-hoseg-derult-eg-ilyen-ido-var-ma-estere-es-holnapra-99830-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99830",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T15:05:34+00:00"
-    },
-    {
       "id": "fd0cc587547b9d07",
       "title": "Veszélyes fűszerport szállítottak Magyarországra: több boltban is ott lehet",
       "link": "https://www.agrarszektor.hu/elelmiszer/20260730/veszelyes-fuszerport-szallitottak-magyarorszagra-tobb-boltban-is-ott-lehet-63655",
@@ -201,36 +531,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-30T15:01:00+00:00"
-    },
-    {
-      "id": "d3c2cea679c36089",
-      "title": "Az üveges szem jót jelent a durumpiacon: mely fajták teljesítik a piaci elvárást? – Heti Körkérdés",
-      "link": "https://www.agroinform.hu/korkerdes/az-uveges-szem-jot-jelent-a-durum-piacon-mely-fajtak-teljesitik-a-piaci-elvarast-heti-korkerdes-99713-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99713",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-30T14:53:52+00:00"
-    },
-    {
-      "id": "170dea30ab3a0b13",
-      "title": "Takarékos és környezetbarát tehén? A biológusok már dolgoznak rajta",
-      "link": "https://www.agroinform.hu/allattenyesztes/takarekos-es-kornyezetbarat-tehen-a-biologusok-mar-dolgoznak-rajta-99903-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99903",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T14:46:42+00:00"
-    },
-    {
-      "id": "b418db4e9443b821",
-      "title": "Gyengébb termés, biztos tárolás: nem kell áron alul eladni a gabonát?",
-      "link": "https://www.agroinform.hu/szantofold/gyengebb-termes-biztos-tarolas-nem-kell-aron-alul-eladni-a-gabonatt-99873-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99873",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-30T14:36:13+00:00"
     },
     {
       "id": "a345768d0a7a33f6",
@@ -263,16 +563,6 @@
       "published_at": "2026-07-30T14:07:22+00:00"
     },
     {
-      "id": "32d76c964670247a",
-      "title": "Vészhelyzet: megjelent a kártevő, ami miatt menthetetlenek a magyar kőrisfák",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/veszhelyzet-megjelent-a-kartevo-ami-miatt-menthetetlenek-a-magyar-korisfak-99872-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99872",
-      "source": "Agroinform",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T14:06:20+00:00"
-    },
-    {
       "id": "7c7a7ef223daf5c8",
       "title": "Ami hétvégén érkezik hazánkba, arra jobb, ha mindenki felkészül",
       "link": "https://www.agrarszektor.hu/noveny/20260730/ami-hetvegen-erkezik-hazankba-arra-jobb-ha-mindenki-felkeszul-63642",
@@ -281,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-30T14:01:00+00:00"
-    },
-    {
-      "id": "6b91c394a422ba0b",
-      "title": "Elképesztő húshiány fenyegeti a világot – de miért pont a magyar csirke lehet a megoldás?",
-      "link": "https://www.agroinform.hu/allattenyesztes/elkepeszto-hushiany-fenyegeti-a-vilagot-de-miert-pont-a-magyar-csirke-lehet-a-megoldas-99867-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99867",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T13:36:12+00:00"
     },
     {
       "id": "eda7302edcfb15c2",
@@ -313,16 +593,6 @@
       "published_at": "2026-07-30T13:18:54+00:00"
     },
     {
-      "id": "1e436e9e57a8c295",
-      "title": "Így tarthatjuk meg a vizet a talajban: 3 gyakorlati lépés, amit most minden gazdának ismernie kell",
-      "link": "https://www.agroinform.hu/gazdasag/igy-tarthatjuk-meg-a-vizet-a-talajban-3-gyakorlati-lepes-amit-most-minden-gazdanak-ismernie-kell-99861-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99861",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T13:10:06+00:00"
-    },
-    {
       "id": "8b7d2a15edf53b76",
       "title": "Reménytelen a helyzet: nincs megoldás a magyar földek kárára",
       "link": "https://www.agrarszektor.hu/noveny/20260730/remenytelen-a-helyzet-nincs-megoldas-a-magyar-foldek-karara-63650",
@@ -343,26 +613,6 @@
       "published_at": "2026-07-30T12:56:00+00:00"
     },
     {
-      "id": "14dd0f084b41e99d",
-      "title": "Kritikus a helyzet Paksnál: akár 24-72 órán belül teljesen leállíthatják az atomerőművet",
-      "link": "https://www.agroinform.hu/gazdasag/kritikus-helyzet-paksnal-akar-24-72-oran-belul-teljesen-leallithatjak-az-atomeromuvet-99879-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99879",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T12:48:23+00:00"
-    },
-    {
-      "id": "76ba22f37fda56d2",
-      "title": "Minden korábbi tudásunkat cáfolják az új kukoricák",
-      "link": "https://www.agroinform.hu/szantofold/minden-korabbi-tudasunkat-cafoljak-az-uj-kukoricak-99860-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99860",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T12:35:45+00:00"
-    },
-    {
       "id": "e3e3dc68fc32ab79",
       "title": "Akadozik az ukrán gabonakereskedelem",
       "link": "https://mezohir.hu/2026/07/30/mezogazdasag-akadozik-az-ukran-gabonakereskedelem/",
@@ -371,46 +621,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-30T12:34:00+00:00"
-    },
-    {
-      "id": "953b22bbb19419c7",
-      "title": "Ezt meg ne tedd most a kertedben: halálos lehet a könnyelműség",
-      "link": "https://www.agrarszektor.hu/noveny/20260730/ezt-meg-ne-tedd-most-a-kertedben-halalos-lehet-a-konnyelmuseg-63640",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T12:28:00+00:00"
-    },
-    {
-      "id": "fa6c8a8a756986bc",
-      "title": "Őszi növényvédelmi teendők a repcében",
-      "link": "https://www.agroinform.hu/szantofold/oszi-vedelem-a-repceben-99854-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99854",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T12:06:51+00:00"
-    },
-    {
-      "id": "5a335464cbd9fe39",
-      "title": "Leállt az öntözés és a feldolgozás: a perzselő hőségben megrohad a termés",
-      "link": "https://www.agroinform.hu/kerteszet_szoleszet/leallt-az-ontozes-es-a-feldolgozas-a-perzselo-hosegben-megrohad-a-termes-99843-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99843",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T11:36:38+00:00"
-    },
-    {
-      "id": "4faa37459151608c",
-      "title": "Fél Anglia kiszáradt - vészhelyzetet hirdettek a hatóságok",
-      "link": "https://www.agrarszektor.hu/noveny/20260730/fel-anglia-kiszaradt-veszhelyzetet-hirdettek-a-hatosagok-63638",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T11:31:00+00:00"
     },
     {
       "id": "4391f4097b4ba440",
@@ -443,16 +653,6 @@
       "published_at": "2026-07-30T10:37:00+00:00"
     },
     {
-      "id": "595b7dd145e47c4f",
-      "title": "Vészhelyzet Magyarországon: már a Tiszából mentik a kiszáradó vidéket",
-      "link": "https://www.agrarszektor.hu/noveny/20260730/veszhelyzet-magyarorszagon-mar-a-tiszabol-mentik-a-kiszarado-videket-63637",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T10:27:00+00:00"
-    },
-    {
       "id": "3a0ac3e07afd9c53",
       "title": "Elektromos talicskával könnyebb a nehéz fizikai munka",
       "link": "https://magyarmezogazdasag.hu/2026/07/30/elektromos-talicskaval-konnyebb-a-nehez-fizikai-munka/",
@@ -461,16 +661,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-30T10:07:25+00:00"
-    },
-    {
-      "id": "31bb61df464bbe3e",
-      "title": "Pusztító aszályban is lehet több a termés: itt a megoldás, mégis alig használják",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260730/pusztito-aszalyban-is-lehet-tobb-a-termes-itt-a-megoldas-megis-alig-hasznaljak-63531",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T09:32:00+00:00"
     },
     {
       "id": "18fa312f4830ad26",
@@ -493,16 +683,6 @@
       "published_at": "2026-07-30T09:01:00+00:00"
     },
     {
-      "id": "ef56e34b358fff36",
-      "title": "Nagyon vigyázz, ha a Dunánál sétálsz: büntetést kaphat, aki ezt megteszi",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260730/nagyon-vigyazz-ha-a-dunanal-setalsz-buntetest-kaphat-aki-ezt-megteszi-63634",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T08:31:00+00:00"
-    },
-    {
       "id": "ca1202f02295a328",
       "title": "Időzített bomba ketyeg: ha ezt a jelet látod a fákon, már óriási a baj",
       "link": "https://agronaplo.hu/agrarhirek/20260730/idozitett-bomba-ketyeg-ha-ezt-a-jelet-latod-a-fakon-mar-oriasi-a-baj-40858",
@@ -521,26 +701,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-30T08:08:02+00:00"
-    },
-    {
-      "id": "9283b1a6e5cf8c95",
-      "title": "Aszálytűrő szőlő Afrikából?",
-      "link": "https://magyarmezogazdasag.hu/2026/07/30/aszalyturo-szolo-afrikabol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T07:07:45+00:00"
-    },
-    {
-      "id": "70d82d8a57abe604",
-      "title": "Felszólítják a kerttulajdonosokat: korlátozás jön, ha ezt tovább csinálják",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260730/felszolitjak-a-kerttulajdonosokat-korlatozas-jon-ha-ezt-tovabb-csinaljak-63633",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T07:01:00+00:00"
     },
     {
       "id": "e06a1310e193308c",
@@ -563,16 +723,6 @@
       "published_at": "2026-07-30T06:44:00+00:00"
     },
     {
-      "id": "feb683b6107a0c5c",
-      "title": "Durva figyelmeztetés lépett életbe: csak 2 megye ússza meg azt, ami ma jön",
-      "link": "https://www.agrarszektor.hu/noveny/20260730/durva-figyelmeztetes-lepett-eletbe-csak-2-megye-ussza-meg-azt-ami-ma-jon-63632",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T06:18:00+00:00"
-    },
-    {
       "id": "bdd0e94e26068d8e",
       "title": "Növényvédelmi szakmérnök lehetsz négy félév alatt",
       "link": "https://mezohir.hu/2026/07/30/mezogazdasag-novenyvedelmi-szakmernok-kepzes-debrecenben/",
@@ -593,26 +743,6 @@
       "published_at": "2026-07-30T06:10:00+00:00"
     },
     {
-      "id": "4792412d36c71ab2",
-      "title": "Bab- megfizethető, bolygóbarát, és rendkívül sokoldalúan felhasználható",
-      "link": "https://magyarmezogazdasag.hu/2026/07/30/bab-megfizetheto-bolygobarat-es-rendkivul-sokoldaluan-felhasznalhato/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T06:06:03+00:00"
-    },
-    {
-      "id": "ecf1d4258a8eed50",
-      "title": "Szabályozott deficit öntözés",
-      "link": "https://agroforum.hu/szakcikkek/gyumolcs/szabalyozott-deficit-ontozes/",
-      "source": "Agrofórum",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-30T05:10:00+00:00"
-    },
-    {
       "id": "cf95844daa7b837d",
       "title": "Mérséklődő termés és változó árak a gabonapiacon",
       "link": "https://mezohir.hu/2026/07/30/mezogazdasag-gabonapiaci-jelentes-buza-kukorica/",
@@ -621,26 +751,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-07-30T03:34:00+00:00"
-    },
-    {
-      "id": "c0242e1ef31378b3",
-      "title": "Jégverés pusztított Nagymihályi és Szobránci járásban, az agrárkár 3,5 millió euró",
-      "link": "https://magyarmezogazdasag.hu/2026/07/29/jegveres-pusztitott-nagymihalyi-es-szobranci-jarasban-az-agrarkar-35-millio-euro/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-29T21:08:46+00:00"
-    },
-    {
-      "id": "1622f9c98bb6a70b",
-      "title": "A wasabi nyomában",
-      "link": "https://magyarmezogazdasag.hu/2026/07/29/a-wasabi-nyomaban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-29T20:08:29+00:00"
     },
     {
       "id": "2bfc19b52801c873",
@@ -653,16 +763,6 @@
       "published_at": "2026-07-29T14:40:00+00:00"
     },
     {
-      "id": "7c738c95b2c2c095",
-      "title": "Hamarosan ismét Baromfi Járványvédelmi Konferencia – plusz auditpontok járhatnak érte!",
-      "link": "https://agroforum.hu/pr-cikk/hamarosan-ismet-baromfi-jarvanyvedelmi-konferencia-plusz-auditpontok-jarhatnak-erte/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "Esemény / képzés",
-      "source_type": "portál",
-      "published_at": "2026-07-29T14:10:00+00:00"
-    },
-    {
       "id": "c8bbdfafb0288ac6",
       "title": "Változtak az árak a hazai zöldség- és gyümölcspiacon",
       "link": "https://mezohir.hu/2026/07/29/mezogazdasag-zoldseg-es-gyumolcspiac-arai/",
@@ -671,16 +771,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-07-29T13:34:00+00:00"
-    },
-    {
-      "id": "99a8a3f9ff88e95c",
-      "title": "Brutális drágulás a lengyel piacon: durva, mennyibe kerül egy kiló szilva",
-      "link": "https://agronaplo.hu/agrarhirek/20260729/brutalis-dragulas-a-lengyel-piacon-durva-mennyibe-kerul-egy-kilo-szilva-40855",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-07-29T13:15:00+00:00"
     },
     {
       "id": "25e4be556234b91f",
@@ -723,16 +813,6 @@
       "published_at": "2026-07-29T09:27:00+00:00"
     },
     {
-      "id": "3ee0aa935cd70b39",
-      "title": "Növényi kivonatok nyári alkalmazása városi környezetben: mikor támogatják, és mikor terhelik tovább a rendszert?",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/novenyi-kivonatok-nyari-alkalmazasa-varosi-kornyezetben-mikor-tamogatjak-es-mikor-terhelik-tovabb-a-rendszert/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-29T09:10:00+00:00"
-    },
-    {
       "id": "7649fd218c8a741a",
       "title": "Tunézia: energiaellátási zavarok okozhatnak károkat az ipari paradicsom vertikumban",
       "link": "https://fruitveb.hu/tunezia-energiaellatasi-zavarok-okozhatnak-karokat-az-ipari-paradicsom-vertikumban/",
@@ -751,6 +831,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-29T08:55:41+00:00"
+    },
+    {
+      "id": "bcbce35c71fa1d6b",
+      "title": "Kemény, ami a magyar barackkal történik: erről mindenkinek tudnia kell",
+      "link": "https://agronaplo.hu/agrarhirek/20260729/kemeny-ami-a-magyar-barackkal-tortenik-errol-mindenkinek-tudnia-kell-40784",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-07-29T07:07:00+00:00"
     },
     {
       "id": "de724b7047210de7",
@@ -831,16 +921,6 @@
       "content_type": "Piaci adat",
       "source_type": "hivatalos",
       "published_at": "2026-07-28T11:41:43+00:00"
-    },
-    {
-      "id": "107a46f89bbab0eb",
-      "title": "Itt az igazság: tényleg a jégkármérséklő rendszer miatt nincs elég eső itthon?",
-      "link": "https://agronaplo.hu/agrarhirek/20260728/itt-az-igazsag-tenyleg-a-jegkarmerseklo-rendszer-miatt-nincs-eleg-eso-itthon-40781",
-      "source": "Agro Napló",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-28T11:23:00+00:00"
     },
     {
       "id": "1f5d16ab074b5d10",
@@ -1013,16 +1093,6 @@
       "published_at": "2026-07-27T10:41:00+00:00"
     },
     {
-      "id": "44e23fdbef0ca405",
-      "title": "Olyan katasztrófa sújtja Magyarországot, amire nem vagyunk felkészülve",
-      "link": "https://agronaplo.hu/agrarhirek/20260727/olyan-katasztrofa-sujtja-magyarorszagot-amire-nem-vagyunk-felkeszulve-40776",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-27T10:01:00+00:00"
-    },
-    {
       "id": "7071609f67a66107",
       "title": "AÉM: újabb uniós forrás segíti a tavalyi aszály által sújtott gazdálkodókat",
       "link": "https://fruitveb.hu/aem-ujabb-unios-forras-segiti-a-tavalyi-aszaly-altal-sujtott-gazdalkodokat/",
@@ -1043,16 +1113,6 @@
       "published_at": "2026-07-27T08:44:02+00:00"
     },
     {
-      "id": "5e728bb9710af4a7",
-      "title": "Akkora a baj, hogy itt már bármikor beüthet a súlyos tojáshiány",
-      "link": "https://agronaplo.hu/agrarhirek/20260727/akkora-a-baj-hogy-itt-mar-barmikor-beuthet-a-sulyos-tojashiany-40775",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-27T08:01:00+00:00"
-    },
-    {
       "id": "8730bc9e4b253ed8",
       "title": "Európa: a hőség és a szűkös kínálat alakítja a kajszi piacát",
       "link": "https://fruitveb.hu/europa-a-hoseg-es-a-szukos-kinalat-alakitja-a-kajszi-piacat/",
@@ -1071,36 +1131,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-07-27T06:11:00+00:00"
-    },
-    {
-      "id": "f70491295f582f03",
-      "title": "A vadban okozott kár",
-      "link": "https://mezohir.hu/2026/07/27/mezogazdasag-vadmentes-kaszalas-elotti-felelosseg/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-27T03:34:00+00:00"
-    },
-    {
-      "id": "a5fcc8b59816a2f0",
-      "title": "A kék fény segíti a növényeket a konkurencia felismerésében",
-      "link": "https://mezohir.hu/2026/07/26/kek-feny-gyorsitja-novenyek-novekedeset/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-26T12:34:00+00:00"
-    },
-    {
-      "id": "63c49813e5584fe5",
-      "title": "Miért éri meg mégis a szénmegkötés a gazdáknak?",
-      "link": "https://mezohir.hu/2026/07/26/szen-dioxid-megkotes-noveli-a-gazdasag-erteket/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-07-26T10:41:00+00:00"
     },
     {
       "id": "6c910c03f8d1c2ca",
@@ -1143,16 +1173,6 @@
       "published_at": "2026-07-23T11:00:00+00:00"
     },
     {
-      "id": "7e7127eceeadf6b1",
-      "title": "Hollandia: élénk hagymaexport, kínai világpiaci nyomás mellett",
-      "link": "https://fruitveb.hu/hollandia-elenk-hagymaexport-kinai-vilagpiaci-nyomas-mellett/",
-      "source": "FruitVeB",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "szakmai",
-      "published_at": "2026-07-23T09:01:00+00:00"
-    },
-    {
       "id": "cbde66747bbe40ad",
       "title": "Segítség a kritikus augusztusi, szeptemberi aprómag vetések sikerességéhez",
       "link": "https://phylazonit.hu/segitseg-a-kritikus-augusztusi-szeptemberi-apromag-vetesek-sikeresegehez/",
@@ -1161,16 +1181,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-07-23T08:34:22+00:00"
-    },
-    {
-      "id": "a67f3faad82a9c7a",
-      "title": "Az eGN szabályainak módosítását javasolja a NAK",
-      "link": "https://fruitveb.hu/az-egn-szabalyainak-modositasat-javasolja-a-nak/",
-      "source": "FruitVeB",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-07-23T07:01:00+00:00"
     },
     {
       "id": "80a41790dffd99bf",
@@ -1351,16 +1361,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-07-08T08:40:39+00:00"
-    },
-    {
-      "id": "0a54b05b56ac4021",
-      "title": "12 százalékkal csökkent a takarmánykukorica ára",
-      "link": "https://www.aki.gov.hu/2026/07/07/12-szazalekkal-csokkent-a-takarmanykukorica-ara/",
-      "source": "AKI",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "hivatalos",
-      "published_at": "2026-07-07T11:49:07+00:00"
     },
     {
       "id": "78c243df471b12aa",
