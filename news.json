@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-08-02T15:48:31.232257+00:00",
+  "generated_at": "2026-08-02T21:14:35.261298+00:00",
   "item_count": 153,
   "items": [
+    {
+      "id": "09bbea30da0c4fd8",
+      "title": "Úgy szeretlek, majd megeszlek! – ehető növények a díszkertben",
+      "link": "https://magyarmezogazdasag.hu/2026/08/02/ugy-szeretlek-majd-megeszlek-eheto-novenyek-a-diszkertben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T21:08:06+00:00"
+    },
+    {
+      "id": "fbf92cdcdbaa39c3",
+      "title": "A vadkár tovább rontja a takarmányhelyzetet – mekkora egy tehenészet vesztesége?",
+      "link": "https://magyarmezogazdasag.hu/2026/08/02/a-vadkar-tovabb-rontja-a-takarmanyhelyzetet-mekkora-egy-teheneszet-vesztesege/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T20:04:36+00:00"
+    },
+    {
+      "id": "d3476937b25db8a3",
+      "title": "Ettől ez egyszerű trükktől lesz elképesztően roppanós a kovászos uborka!",
+      "link": "https://www.agroinform.hu/gazdaelet/igy-lesz-roppanos-a-kovaszos-uborka-a-legjobb-trukkokkel-99963-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99963",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T19:45:00+00:00"
+    },
+    {
+      "id": "b70f872146ad7879",
+      "title": "Kávé hidegen? Igen, mert hűsítő, és menő",
+      "link": "https://magyarmezogazdasag.hu/2026/08/02/kave-hidegen-igen-mert-husito-es-meno/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T19:09:13+00:00"
+    },
+    {
+      "id": "b838c01bc3f818f7",
+      "title": "Súlyosan fertőzhet a napraforgó károsítója: itt a védekezés legtutibb módja",
+      "link": "https://www.agrarszektor.hu/noveny/20260802/sulyosan-fertozhet-a-napraforgo-karositoja-itt-a-vedekezes-legtutibb-modja-63662",
+      "source": "Agrárszektor",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T16:28:00+00:00"
+    },
+    {
+      "id": "93d432a32d5df813",
+      "title": "Most megsül minden: a kukoricából normális szilázs sem lesz",
+      "link": "https://www.agroinform.hu/allattenyesztes/most-megsul-minden-a-kukoricabol-normalis-szilazs-sem-lesz-100435-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100435",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-02T16:05:01+00:00"
+    },
     {
       "id": "4aa26dc58a3b5bd6",
       "title": "Megvan, mikor üt be még nagyobb kánikula itthon: megjött a friss előrejelzés",
@@ -423,26 +483,6 @@
       "published_at": "2026-08-01T16:06:58+00:00"
     },
     {
-      "id": "2af69ee45a9963ee",
-      "title": "Használt étolaj: ki ne öntsd! Elképesztően hasznos!",
-      "link": "https://www.agroinform.hu/gazdaelet/hasznalt-etolaj-ki-ne-ontsd-elkepesztoen-hasznos-99955-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99955",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-01T15:45:00+00:00"
-    },
-    {
-      "id": "66dc587e05149a02",
-      "title": "A hagyományos mediterrán étrend már a múlté? Itt az új zöld változat, ami átírja a játékszabályokat",
-      "link": "https://www.agroinform.hu/elelmiszeripar/a-hagyomanyos-mediterran-etrend-mar-a-multe-itt-az-uj-zold-valtozat-ami-atirja-a-jatekszabalyokat-100228-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100228",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-01T15:36:50+00:00"
-    },
-    {
       "id": "8b0798c764675290",
       "title": "Figyelmeztetik a magyarokat: ezt mindenkinek be kell tartania, aki itt él",
       "link": "https://www.agrarszektor.hu/szabalyozas/20260801/figyelmeztetik-a-magyarokat-ezt-mindenkinek-be-kell-tartania-aki-itt-el-63685",
@@ -473,16 +513,6 @@
       "published_at": "2026-08-01T15:07:00+00:00"
     },
     {
-      "id": "d467428e582a0208",
-      "title": "Tartós hőhullámra számíthatunk",
-      "link": "https://www.agroinform.hu/idojaras_hirek/perzselo-hoseg-es-nyugodt-idojaras-ma-estetol-holnapig-100140-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100140",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-01T15:05:51+00:00"
-    },
-    {
       "id": "c107d0fff0256017",
       "title": "Az oroszok fojtófogása és a visszatérő hőkupola felrobbantja a gabonaárakat",
       "link": "https://agroforum.hu/agrarhirek/agrargazdasag/az-oroszok-fojtofogasa-es-a-visszatero-hokupola-felrobbantja-a-gabonaarakat/",
@@ -491,16 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-01T14:10:00+00:00"
-    },
-    {
-      "id": "6466f539f0adabca",
-      "title": "Visszatér a Porsche az agráriumba? Hibrid hajtást fejlesztett kombájnokhoz",
-      "link": "https://magyarmezogazdasag.hu/2026/08/01/visszater-a-porsche-az-agrariumba-hibrid-hajtast-fejlesztett-kombajnokhoz/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-01T14:07:18+00:00"
     },
     {
       "id": "882b727af8f5e627",
@@ -533,16 +553,6 @@
       "published_at": "2026-08-01T11:27:00+00:00"
     },
     {
-      "id": "f8beb8af68b19708",
-      "title": "Import műtrágya helyett uniós szerves trágya „nagyüzemben”",
-      "link": "https://magyarmezogazdasag.hu/2026/08/01/import-mutragya-helyett-unios-szerves-tragya-nagyuzemben/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-08-01T10:07:48+00:00"
-    },
-    {
       "id": "9ead90080e35a897",
       "title": "Itt a bejelentést: fontos dolgot közölt Bóna Szabolcs a jégkármérséklő rendszerről",
       "link": "https://agronaplo.hu/agrarhirek/20260801/itt-a-bejelentest-fontos-dolgot-kozolt-bona-szabolcs-a-jegkarmerseklo-rendszerrol-40868",
@@ -561,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-01T09:10:00+00:00"
-    },
-    {
-      "id": "2c876343730dddc5",
-      "title": "A nem megfelelő tartási körülmények hatásai hobbiállatainkra",
-      "link": "https://magyarmezogazdasag.hu/2026/08/01/a-nem-megfelelo-tartasi-korulmenyek-hatasai-hobbiallatainkra/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-01T08:11:54+00:00"
     },
     {
       "id": "79e89aa5cd94f2ff",
