@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-08-11T15:34:00.232007+00:00",
+  "generated_at": "2026-08-11T20:27:19.243515+00:00",
   "item_count": 158,
   "items": [
+    {
+      "id": "ab052ab8fa661ff8",
+      "title": "Így marad sokáig friss a hagyma",
+      "link": "https://magyarmezogazdasag.hu/2026/08/11/igy-marad-sokaig-friss-a-hagyma/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T21:02:26+00:00"
+    },
+    {
+      "id": "6f2e0f1d9405f360",
+      "title": "Mesterséges intelligencia segíthet az élelmiszer-pazarlás csökkentésében",
+      "link": "https://magyarmezogazdasag.hu/2026/08/11/mesterseges-intelligencia-segithet-az-elelmiszer-pazarlas-csokkenteseben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T20:02:41+00:00"
+    },
+    {
+      "id": "11fc937703fa45ef",
+      "title": "Vigyázz! Minden nap fogyasztod, pedig magas vérnyomást, stroke-ot is okozhat!",
+      "link": "https://www.agroinform.hu/gazdaelet/vigyazz-minden-nap-fogyasztod-pedig-magas-vernyomast-stroke-ot-is-okozhat-99695-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99695",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T19:36:00+00:00"
+    },
+    {
+      "id": "9fc5fe0caa19a62c",
+      "title": "Aszály: alkalmazkodni kell, de a túlélés a tét",
+      "link": "https://magyarmezogazdasag.hu/2026/08/11/aszaly-alkalmazkodni-kell-de-a-tuleles-a-tet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T19:03:51+00:00"
+    },
+    {
+      "id": "3fb76babb96c28de",
+      "title": "Meglepő hírek jöttek a cukorról: erről mindenkinek tudnia kell",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260811/meglepo-hirek-jottek-a-cukorrol-errol-mindenkinek-tudnia-kell-63863",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T18:31:00+00:00"
+    },
+    {
+      "id": "75f278aa8c3c8630",
+      "title": "Kiderült az ukránok új terve: így próbálják meg most eladni a gabonát",
+      "link": "https://www.agrarszektor.hu/noveny/20260811/kiderult-az-ukranok-uj-terve-igy-probaljak-meg-most-eladni-a-gabonat-63865",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T17:31:00+00:00"
+    },
+    {
+      "id": "0f481a5d2e3a179b",
+      "title": "Pezseg a marhapiac, magasak a hazai árak",
+      "link": "https://www.agroinform.hu/allattenyesztes/pezseg-a-marhapiac-magasak-a-hazai-arak-102017-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102017",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-08-11T16:34:56+00:00"
+    },
+    {
+      "id": "657bc7c3fcaa34ff",
+      "title": "Ami kedden történt Magyarországon, olyan 105 éve nem volt itthon",
+      "link": "https://www.agrarszektor.hu/noveny/20260811/ami-kedden-tortent-magyarorszagon-olyan-105-eve-nem-volt-itthon-63869",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T16:32:00+00:00"
+    },
+    {
+      "id": "7006c0bb1b135bc2",
+      "title": "A takarmányhiány miatt majdnem eladták Szegfűt",
+      "link": "https://www.agroinform.hu/allattenyesztes/a-takarmanyhiany-miatt-majdnem-eladtak-szegfut-102004-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102004",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-11T16:10:49+00:00"
+    },
     {
       "id": "1295d3fe7f41967a",
       "title": "Új kutatás vizsgálta a beépített felületek és a talaj vízgazdálkodási kapcsolatát",
@@ -323,16 +413,6 @@
       "published_at": "2026-08-11T09:35:00+00:00"
     },
     {
-      "id": "3a82cd11acf607dc",
-      "title": "Ezt nem láttuk szembejönni: a vízhiány így nehezíti az ASP elleni védekezést",
-      "link": "https://www.agroinform.hu/allattenyesztes/ezt-nem-lattuk-szembe-jonni-a-vizhiany-igy-neheziti-az-asp-elleni-vedekezest-101944-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=101944",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-11T09:05:16+00:00"
-    },
-    {
       "id": "b691f999724be6ca",
       "title": "Forróság és kevés eső: nehéz hét jön a földeken",
       "link": "https://mezohir.hu/2026/08/11/mezogazdasag-hoseg-keves-csapadek/",
@@ -343,16 +423,6 @@
       "published_at": "2026-08-11T08:58:52+00:00"
     },
     {
-      "id": "1d5845ecd0d969c0",
-      "title": "A durva aszály elpusztította a hazai szúnyogokat, de kaptunk a nyakunkba valami sokkal rosszabbat",
-      "link": "https://www.agroinform.hu/kornyezetvedelem/a-durva-aszaly-elpusztitotta-a-hazai-szunyogokat-de-kaptunk-a-nyakunkba-valami-sokkal-rosszabbat-101926-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=101926",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-11T08:39:00+00:00"
-    },
-    {
       "id": "1902becf9320ea2a",
       "title": "Olyan súlyos a helyzet, hogy itt rengeteg gazdaságot bezárhatnak",
       "link": "https://www.agrarszektor.hu/noveny/20260811/olyan-sulyos-a-helyzet-hogy-itt-rengeteg-gazdasagot-bezarhatnak-63855",
@@ -361,16 +431,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-11T08:32:00+00:00"
-    },
-    {
-      "id": "bb1146ebdc4c8268",
-      "title": "Veszteséges a kiváló ukrán búzatermés is, jövőre kevesebbet tesznek bele",
-      "link": "https://www.agroinform.hu/szantofold/veszteseges-a-kivalo-ukran-buzatermes-is-jovore-kevesebbet-tesznek-bele-101913-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=101913",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-11T08:05:13+00:00"
     },
     {
       "id": "7db18f65c0f852dd",
@@ -533,16 +593,6 @@
       "published_at": "2026-08-10T20:03:55+00:00"
     },
     {
-      "id": "51a94cf6658ca24c",
-      "title": "Termékpályában kell gondolkodni az agrárium jövőjéről",
-      "link": "https://magyarmezogazdasag.hu/2026/08/10/termekpalyaban-kell-gondolkodni-az-agrarium-jovojerol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T19:03:50+00:00"
-    },
-    {
       "id": "1724cec7a378ca09",
       "title": "Súlyos árat fizethet, aki lebetonozta az udvarát: ezt sok magyar nem is tudja",
       "link": "https://www.agrarszektor.hu/fenntarthatosag/20260810/sulyos-arat-fizethet-aki-lebetonozta-az-udvarat-ezt-sok-magyar-nem-is-tudja-63841",
@@ -551,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-10T18:32:00+00:00"
-    },
-    {
-      "id": "0952a77e06c5c83e",
-      "title": "Ismét felbukkant az ASP házisertés-állományban",
-      "link": "https://magyarmezogazdasag.hu/2026/08/10/ismet-felbukkant-az-asp-hazisertes-allomanyban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T18:07:31+00:00"
     },
     {
       "id": "db18cee03ba89aae",
@@ -573,36 +613,6 @@
       "published_at": "2026-08-10T17:33:00+00:00"
     },
     {
-      "id": "4783a424be6335c7",
-      "title": "Már látni, mikor kaphatunk esőt: mutatjuk, meddig tarthat a hőség",
-      "link": "https://www.agrarszektor.hu/noveny/20260810/mar-latni-mikor-kaphatunk-esot-mutatjuk-meddig-tarthat-a-hoseg-63850",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T16:29:00+00:00"
-    },
-    {
-      "id": "28d4ea2e9b4b3b57",
-      "title": "Hajdúböszörményben lezárult a 26. traktorhúzó hétvége",
-      "link": "https://magyarmezogazdasag.hu/2026/08/10/hajduboszormenyben-lezarult-a-26-traktorhuzo-hetvege/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T16:02:56+00:00"
-    },
-    {
-      "id": "31079c057102c8fb",
-      "title": "Lehullt a lepel: sokan nem is tudják, mi van valójában a joghurtban, sajtban",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260810/lehullt-a-lepel-sokan-nem-is-tudjak-mi-van-valojaban-a-joghurtban-sajtban-63842",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T15:27:00+00:00"
-    },
-    {
       "id": "cc43f061e69aa903",
       "title": "Most érkezett a hír: Somogyban bejutott egy sertéstelepre a rettegett kór",
       "link": "https://agronaplo.hu/agrarhirek/20260810/most-erkezett-a-hir-somogyban-bejutott-egy-sertestelepre-a-rettegett-kor-40917",
@@ -611,16 +621,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-10T15:23:00+00:00"
-    },
-    {
-      "id": "d630613a367ca6a7",
-      "title": "Újra megjelent a járvány: elrendelték egy magyar gazdaság lezárását",
-      "link": "https://www.agrarszektor.hu/allat/20260810/ujra-megjelent-a-jarvany-elrendeltek-egy-magyar-gazdasag-lezarasat-63851",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-10T15:03:00+00:00"
     },
     {
       "id": "f07e9f449b078e71",
