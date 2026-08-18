@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-08-17T18:57:20.373364+00:00",
-  "item_count": 158,
+  "generated_at": "2026-08-18T01:52:47.279562+00:00",
+  "item_count": 155,
   "items": [
+    {
+      "id": "e5844675fc305237",
+      "title": "Rózsák augusztusi ápolása: így sokáig virágoznak, és felkészülnek a télre",
+      "link": "https://magyarmezogazdasag.hu/2026/08/17/rozsak-augusztusi-apolasa-igy-sokaig-viragoznak-es-felkeszulnek-a-telre/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-17T21:03:37+00:00"
+    },
     {
       "id": "df9ff5e96e23999a",
       "title": "Klímaálló takarmány",
@@ -11,6 +21,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-17T20:02:30+00:00"
+    },
+    {
+      "id": "5a629d0a8bc931fb",
+      "title": "Vigyázz! Ez a víz a forróságban olyan, mint a méreg!",
+      "link": "https://www.agroinform.hu/gazdaelet/vigyazz-ez-a-viz-a-forrosagban-olyan-mint-a-mereg-102329-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102329",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-17T19:36:00+00:00"
     },
     {
       "id": "c5b259cfe44a6f6d",
@@ -34,7 +54,7 @@
     },
     {
       "id": "fa17782e47cd507c",
-      "title": "Döbbenetes hír látott napvilgot: véletlenül verik át a vásárlókat a boltokban",
+      "title": "Döbbenetes hír látott napvilágot: véletlenül verik át a vásárlókat a boltokban",
       "link": "https://www.agrarszektor.hu/elelmiszer/20260817/dobbenetes-hir-latott-napvilgot-veletlenul-verik-at-a-vasarlokat-a-boltokban-63970",
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
@@ -323,16 +343,6 @@
       "published_at": "2026-08-17T10:04:00+00:00"
     },
     {
-      "id": "50c53cefb666144c",
-      "title": "Belegabalyodtak a kábelbe, feldúlták a töltőállomást: milliós kárt okozott a csorda +VIDEÓ",
-      "link": "https://www.agroinform.hu/gazdaelet/belegabalyodtak-a-kabelbe-feldultak-a-toltoallomast-millios-kart-okozott-a-csorda-video-102864-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102864",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-17T09:39:00+00:00"
-    },
-    {
       "id": "ad74916dc3e4721d",
       "title": "Most kezdett el felébredni Magyarország – Lehet, hogy már késő?",
       "link": "https://www.agrarszektor.hu/metszet/20260817/most-kezdett-el-felebredni-magyarorszag-lehet-hogy-mar-keso-63838",
@@ -353,16 +363,6 @@
       "published_at": "2026-08-17T09:14:00+00:00"
     },
     {
-      "id": "525ced73c2d98897",
-      "title": "Oda a gazda megélhetése: szabályosan elgyászoljuk a megszokott tájat?",
-      "link": "https://www.agroinform.hu/kornyezetvedelem/oda-a-gazda-megelhetese-szabalyosan-elgyaszoljuk-a-megszokott-tajat-102855-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102855",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-17T09:07:00+00:00"
-    },
-    {
       "id": "caa83f2401953605",
       "title": "Az új búzafajták fokozzák a termésbiztonságot",
       "link": "https://mezohir.hu/2026/08/17/mezogazdasag-uj-buzafajtak-termesbiztonsaggal/",
@@ -373,31 +373,11 @@
       "published_at": "2026-08-17T08:44:10+00:00"
     },
     {
-      "id": "06c66924ae6fc299",
-      "title": "Katasztrófa: hiába oltották el a tüzet, a föld alatt tovább égett a talaj",
-      "link": "https://www.agroinform.hu/gazdaelet/katasztrofa-hiaba-oltottak-el-a-tuzet-a-fold-alatt-tovabb-egett-a-talaj-102853-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102853",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-17T08:33:00+00:00"
-    },
-    {
       "id": "45a5f9e45805c32d",
       "title": "Már látni, mikor kaphatunk nagy esőt: mutatjuk, mikor jön a felfrissülés",
       "link": "https://www.agrarszektor.hu/noveny/20260817/mar-latni-mikor-kaphatunk-nagy-esot-mutatjuk-mikor-jon-a-felfrissules-63960",
       "source": "Agrárszektor",
       "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-17T08:31:00+00:00"
-    },
-    {
-      "id": "17ff373506c71649",
-      "title": "Drámai a helyzet: egymás után állnak le a halgazdaságok",
-      "link": "https://www.agroinform.hu/allattenyesztes/dramai-a-helyzet-egymas-utan-allnak-le-a-halgazdasagok-102862-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102862",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-17T08:31:00+00:00"
@@ -621,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-16T15:01:00+00:00"
-    },
-    {
-      "id": "c6986862fe8318a6",
-      "title": "Az augusztusi jégesők súlyos károkat okoznak Spanyolországban",
-      "link": "https://magyarmezogazdasag.hu/2026/08/16/az-augusztusi-jegesok-sulyos-karokat-okoznak-spanyolorszagban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-16T14:07:51+00:00"
     },
     {
       "id": "ac019fbdb50d6d61",
