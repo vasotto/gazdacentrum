@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-08-19T18:52:59.289648+00:00",
-  "item_count": 159,
+  "generated_at": "2026-08-20T01:51:18.274824+00:00",
+  "item_count": 158,
   "items": [
+    {
+      "id": "6f1c50c4a42f0ef1",
+      "title": "Apró barna lepkék repkednek a kamrában? A fertőzés forrása már valószínűleg a polcon van",
+      "link": "https://www.agroinform.hu/gazdaelet/apro-barna-lepkek-repkednek-a-kamraban-a-fertozes-forrasa-mar-valoszinuleg-a-polcon-van-100250-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100250",
+      "source": "Agroinform",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-19T21:45:00+00:00"
+    },
+    {
+      "id": "21e7adf878a96330",
+      "title": "Formás szőlőfürtök fitotechnikával",
+      "link": "https://magyarmezogazdasag.hu/2026/08/19/formas-szolofurtok-fitotechnikaval/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-19T21:01:36+00:00"
+    },
     {
       "id": "5bf14201e19239ef",
       "title": "Mi lesz a fáinkkal tartós vízhiányban?",
@@ -11,6 +31,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-19T20:04:44+00:00"
+    },
+    {
+      "id": "da0796feff178348",
+      "title": "Nincs kamrád? Nem gond! Itt a tökéletes megoldás helyette!",
+      "link": "https://www.agroinform.hu/gazdaelet/nincs-kamrad-nem-gond-itt-a-tokeletes-megoldas-helyette-102902-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=102902",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-19T19:36:00+00:00"
     },
     {
       "id": "c95c9d6f1f912783",
@@ -343,36 +373,6 @@
       "published_at": "2026-08-19T10:33:00+00:00"
     },
     {
-      "id": "5ee15f52f2e121e0",
-      "title": "Búzaszállító traktor borult árokba, mindent beterített a termény",
-      "link": "https://www.agroinform.hu/gazdaelet/buzaszallito-traktor-borult-arokba-mindent-beteritett-a-termeny-103214-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=103214",
-      "source": "Agroinform",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-19T10:27:00+00:00"
-    },
-    {
-      "id": "f0036f1aaa3d4de3",
-      "title": "Új stratégia a magyar búzatermesztésben: Takarékosság és piacképesség a prémium iránnyal",
-      "link": "https://www.agroinform.hu/szantofold/uj-strategia-a-magyar-buzatermesztesben-takarekossag-es-piackepesseg-a-premium-irannyal-99372-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=99372",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-08-19T10:16:06+00:00"
-    },
-    {
-      "id": "dbc956d5b3b966bb",
-      "title": "Egybeolvad két magyar tejipari márka: mi lesz így a megszokott ízekkel?",
-      "link": "https://www.agroinform.hu/elelmiszeripar/egybeolvad-ket-magyar-tejipari-marka-mi-lesz-igy-a-megszokott-izekkel-103204-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=103204",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-19T10:03:00+00:00"
-    },
-    {
       "id": "f6cd31c73c2cfda1",
       "title": "A Tisza mellett 50 százalékos öntözési vízkorlátozást rendeltek el",
       "link": "https://magyarmezogazdasag.hu/2026/08/19/a-tisza-mellett-50-szazalekos-ontozesi-vizkorlatozast-rendeltek-el/",
@@ -641,16 +641,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-18T14:10:00+00:00"
-    },
-    {
-      "id": "09ef50275126a2f1",
-      "title": "A nagy folyókat is eléri az aszály",
-      "link": "https://magyarmezogazdasag.hu/2026/08/18/a-nagy-folyokat-is-eleri-az-aszaly/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-18T14:03:35+00:00"
     },
     {
       "id": "df1e0c31600212a5",
