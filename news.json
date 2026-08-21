@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-08-20T19:00:06.271590+00:00",
-  "item_count": 143,
+  "generated_at": "2026-08-21T01:57:18.605639+00:00",
+  "item_count": 153,
   "items": [
+    {
+      "id": "2fb2f1af0b3923ca",
+      "title": "A görögdinnyével nem lehet betelni: carpaccio, fröccs és szusi görögdinnyével…",
+      "link": "https://magyarmezogazdasag.hu/2026/08/20/a-gorogdinnyevel-nem-lehet-betelni-carpaccio-froccs-es-szusi-gorogdinnyevel/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-20T21:08:39+00:00"
+    },
+    {
+      "id": "458680b68a694816",
+      "title": "Róka jár a kertbe? Nem mindig jelent közvetlen veszélyt, de ezt érdemes megtenni",
+      "link": "https://www.agroinform.hu/gazdaelet/roka-jar-a-kertbe-nem-mindig-jelent-kozvetlen-veszelyt-de-ezt-erdemes-megtenni-100257-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100257",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-20T20:45:00+00:00"
+    },
     {
       "id": "8a5a5b461919031b",
       "title": "A japán cserebogár zárlati kártevő már a határon kopogtat",
@@ -343,16 +363,6 @@
       "published_at": "2026-08-20T07:59:00+00:00"
     },
     {
-      "id": "213e2d57faa2287d",
-      "title": "Közel 300 millió köbméter víz segíthet az aszály sújtotta tájon",
-      "link": "https://www.agroinform.hu/gazdasag/kozel-300-millio-kobmeter-viz-segithet-az-aszaly-sujtotta-tajon-103351-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=103351",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-20T07:15:05+00:00"
-    },
-    {
       "id": "775df44571bcadfc",
       "title": "Tényleg a jobb oldali kerítés az enyém? Rengeteg a tévhit a telekhatárok kapcsán",
       "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/tenyleg-a-jobb-oldali-kerites-az-enyem-rengeteg-a-tevhit-a-telekhatarok-kapcsan/",
@@ -523,16 +533,6 @@
       "published_at": "2026-08-19T14:32:00+00:00"
     },
     {
-      "id": "1b851fb00dcc195c",
-      "title": "Amerikai kukorica áraszthatja el az európai piacokat, mélyponton az uniós terméshozam",
-      "link": "https://magyarmezogazdasag.hu/2026/08/19/amerikai-kukorica-araszthatja-el-az-europai-piacokat-melyponton-az-unios-termeshozam/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-08-19T14:04:31+00:00"
-    },
-    {
       "id": "e6b18e81594c9485",
       "title": "Egy tollvonással törölnék a szabályozást, ami több millió hektár földet érint",
       "link": "https://www.agrarszektor.hu/szabalyozas/20260819/egy-tollvonassal-torolnek-a-szabalyozast-ami-tobb-millio-hektar-foldet-erint-64002",
@@ -551,6 +551,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-19T13:14:00+00:00"
+    },
+    {
+      "id": "6df9c18fa77a54b6",
+      "title": "Szakmai egyeztetés az akvakultúra-ágazat innovációs helyzetének, potenciáljának felméréséről",
+      "link": "https://www.aki.gov.hu/2026/08/19/szakmai-egyeztetes-az-akvakultura-agazat-innovacios-helyzetenek-potencialjanak-felmereserol/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "Kutatás / elemzés",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-19T13:08:50+00:00"
     },
     {
       "id": "e39d5da4d4a23055",
@@ -661,6 +671,26 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-18T13:16:00+00:00"
+    },
+    {
+      "id": "2a70d4926264693c",
+      "title": "Az őszibarack és a nektarin termelői ára több mint 30 százalékkal csökkent",
+      "link": "https://www.aki.gov.hu/2026/08/18/az-oszibarack-es-a-nektarin-termeloi-ara-tobb-mint-30-szazalekkal-csokkent/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-18T12:18:09+00:00"
+    },
+    {
+      "id": "daa364cdbfca5f1f",
+      "title": "Az EU-ban 14 százalékkal kevesebb kukoricát takaríthatnak be az idén",
+      "link": "https://www.aki.gov.hu/2026/08/18/az-eu-ban-14-szazalekkal-kevesebb-kukoricat-takarithatnak-be-az-iden/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-18T11:43:01+00:00"
     },
     {
       "id": "db66492bd02be1c2",
@@ -913,6 +943,16 @@
       "published_at": "2026-08-14T10:39:42+00:00"
     },
     {
+      "id": "5ab06c67bbf9ee0e",
+      "title": "Szakmai egyeztetés a horgászvizek adatgyűjtésének előkészítéséről",
+      "link": "https://www.aki.gov.hu/2026/08/14/szakmai-egyeztetes-a-horgaszvizek-adatgyujtesenek-elokesziteserol/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-14T10:10:01+00:00"
+    },
+    {
       "id": "3af790ca1c37d204",
       "title": "Innováció az egészséges talajokért – talajegészséggel foglalkozó Élő Laboratóriumok európai hálózatának szintlépése",
       "link": "https://biokutatas.hu/kutatas/innovacio-az-egeszseges-talajokert-talajegeszseggel-foglalkozo-elo-laboratoriumok-europai-halozatanak-szintlepese/",
@@ -963,6 +1003,16 @@
       "published_at": "2026-08-13T05:54:37+00:00"
     },
     {
+      "id": "e43ae3975a3757b2",
+      "title": "Kiadványszerkesztő munkatársat keresünk",
+      "link": "https://www.aki.gov.hu/2026/08/13/kiadvanyszerkeszto-munkatarsat-keresunk/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-13T00:51:42+00:00"
+    },
+    {
       "id": "dd0c7bd2bc322487",
       "title": "A KAP Nemzeti Irányító Hatóság 87/2026. számú közleménye a „Mezőgazdasági kisüzemek beruházási támogatása” című (KAP-RD09a-2-26 kódszámú) pályázati felhívás módosításáról",
       "link": "https://kap.gov.hu/news/2026-08-12/214752/kap-nemzeti-iranyito-hatosag-872026.-szamu-kozlemenye-mezogazdasagi",
@@ -1001,6 +1051,46 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "hivatalos",
       "published_at": "2026-08-12T11:33:48+00:00"
+    },
+    {
+      "id": "0acf3c1f7c334b72",
+      "title": "Visszaesett a héjas tojás importja, erősödött az export az első fél évben",
+      "link": "https://www.aki.gov.hu/2026/08/11/visszaesett-a-hejas-tojas-importja-erosodott-az-export-az-elso-fel-evben/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-11T13:10:16+00:00"
+    },
+    {
+      "id": "49a1eaaecccf8cd6",
+      "title": "Emelkedett a szarvasmarhavágások száma az év első felében",
+      "link": "https://www.aki.gov.hu/2026/08/11/emelkedett-a-szarvasmarhavagasok-szama-az-ev-elso-feleben/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-11T12:39:26+00:00"
+    },
+    {
+      "id": "2ce41bcb9cbc8a99",
+      "title": "Vízválasztásból vízmegtartás – fórum Óballán",
+      "link": "https://www.aki.gov.hu/2026/08/10/vizvalaszto-forum-oballan-vizvalasztasbol-vizmegtartas/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-10T10:49:48+00:00"
+    },
+    {
+      "id": "b845086aaf65b9e8",
+      "title": "Harmadára esett a hazai műtrágyaforgalom 2026 második negyedévében",
+      "link": "https://www.aki.gov.hu/2026/08/10/harmadara-esett-a-hazai-mutragyaforgalom-2026-masodik-negyedeveben/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-10T09:13:01+00:00"
     },
     {
       "id": "8d7ceeea566ea653",
@@ -1101,6 +1191,16 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-08-05T11:01:00+00:00"
+    },
+    {
+      "id": "0ce020cb1c934f32",
+      "title": "Csaknem kétszeresére nőtt az EPA/EBA-országokból érkező cukor mennyisége az EU-ban",
+      "link": "https://www.aki.gov.hu/2026/08/05/csaknem-ketszeresere-nott-az-epa-eba-orszagokbol-erkezo-cukor-mennyisege-az-eu-ban/",
+      "source": "AKI",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "hivatalos",
+      "published_at": "2026-08-05T09:14:36+00:00"
     },
     {
       "id": "2b454529466a1a93",
