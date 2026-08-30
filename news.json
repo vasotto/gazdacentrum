@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-08-30T16:40:41.258551+00:00",
-  "item_count": 149,
+  "generated_at": "2026-08-30T21:04:54.610147+00:00",
+  "item_count": 148,
   "items": [
+    {
+      "id": "3bebbc0814f1e04e",
+      "title": "A kollagénbarát konyha alapjai",
+      "link": "https://magyarmezogazdasag.hu/2026/08/30/a-kollagenbarat-konyha-alapjai/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T21:03:37+00:00"
+    },
+    {
+      "id": "74e64fd309d670b7",
+      "title": "Hogyan segítsük a málnát az idei extrém nyár után?",
+      "link": "https://magyarmezogazdasag.hu/2026/08/30/hogyan-segitsuk-a-malnat-az-idei-extrem-nyar-utan/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-08-30T20:03:31+00:00"
+    },
+    {
+      "id": "bdd8c708b91723e4",
+      "title": "Öntözés nélkül búcsút mondhatunk a kukoricának? Szerb tanulmány az aszály hatásairól",
+      "link": "https://magyarmezogazdasag.hu/2026/08/30/ontozes-nelkul-bucsut-mondhatunk-a-kukoricanak-szerb-tanulmany-az-aszaly-hatasairol/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "Kutatás / elemzés",
+      "source_type": "portál",
+      "published_at": "2026-08-30T19:03:29+00:00"
+    },
+    {
+      "id": "1e9da72aba11e543",
+      "title": "Kullancs a kertben? Nem csak az erdőszélen érdemes rájuk számítani",
+      "link": "https://www.agroinform.hu/gazdaelet/kullancs-a-kertben-nem-csak-az-erdoszelen-erdemes-rajuk-szamitani-100351-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100351",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T18:19:00+00:00"
+    },
+    {
+      "id": "3000ba5f03c67418",
+      "title": "Almapaprika savanyítása télire: mitől marad ropogós?",
+      "link": "https://www.agroinform.hu/gazdaelet/almapaprika-savanyitasa-telire-mitol-marad-ropogos-100397-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100397",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T18:08:37+00:00"
+    },
+    {
+      "id": "842240299aa0c200",
+      "title": "Tücsök költözött a házba? A ciripelés mellett ezek a nyomok árulják el",
+      "link": "https://www.agroinform.hu/gazdaelet/tucsok-koltozott-a-hazba-a-ciripeles-mellett-ezek-a-nyomok-aruljak-el-100349-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100349",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T17:41:00+00:00"
+    },
+    {
+      "id": "2c341bfe68904e22",
+      "title": "Hihetetlen, ami kiderült egy friss kutatásból: ez sok minden megváltoztathat",
+      "link": "https://www.agrarszektor.hu/allat/20260830/hihetetlen-ami-kiderult-egy-friss-kutatasbol-ez-sok-minden-megvaltoztathat-64176",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Kutatás / elemzés",
+      "source_type": "portál",
+      "published_at": "2026-08-30T17:31:00+00:00"
+    },
     {
       "id": "b76f5da6c5d1aeb2",
       "title": "Ami augusztusban történt, olyanra 200 éve nem volt itt példa",
@@ -41,16 +111,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-30T15:05:52+00:00"
-    },
-    {
-      "id": "1f4ab5fae08c5980",
-      "title": "Durva kutatás látott napvilágot: óriási fordulat jöhet a baromfitenyésztésben",
-      "link": "https://agronaplo.hu/agrarhirek/20260830/durva-kutatas-latott-napvilagot-oriasi-fordulat-johet-a-baromfitenyesztesben-41017",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "Kutatás / elemzés",
-      "source_type": "portál",
-      "published_at": "2026-08-30T14:47:00+00:00"
     },
     {
       "id": "c0a93a4baecb7096",
@@ -143,16 +203,6 @@
       "published_at": "2026-08-30T13:07:03+00:00"
     },
     {
-      "id": "d491af0eece1919c",
-      "title": "Idő előtt indulnak a kombájnok: gyorsan kiszáradt a kukorica",
-      "link": "https://www.agroinform.hu/szantofold/ido-elott-indulnak-a-kombajnok-gyorsan-kiszaradt-a-kukorica-104672-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104672",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T12:42:57+00:00"
-    },
-    {
       "id": "d690473614412a43",
       "title": "Nem semmi, amit a hollandok csinálnak: ezzel rengeteget spórolnak",
       "link": "https://agronaplo.hu/agrarhirek/20260830/nem-semmi-amit-a-hollandok-csinalnak-ezzel-rengeteget-sporolnak-41016",
@@ -181,26 +231,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-30T12:01:00+00:00"
-    },
-    {
-      "id": "44d06242ad64d7a6",
-      "title": "Ne maradj le az ősz legkülönlegesebb természeti eseményéről",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/ne-maradj-le-az-osz-legkulonlegesebb-termeszeti-esemenyerol-104671-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104671",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T11:47:04+00:00"
-    },
-    {
-      "id": "0e6791412515eff9",
-      "title": "Úgy mozog oldalra, mint a rák: különleges kormányzást kapott a Fastrac",
-      "link": "https://www.agroinform.hu/gepeszet/ugy-mozog-oldalra-mint-a-rak-kulonleges-kormanyzast-kapott-a-fastrac-104667-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104667",
-      "source": "Agroinform",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T11:10:41+00:00"
     },
     {
       "id": "23e813c282ac4e6f",
@@ -251,16 +281,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-30T10:02:44+00:00"
-    },
-    {
-      "id": "b0f66de8eec536be",
-      "title": "Kiemelt beruházások helyett termőföldvédelem: új korszakot ígér a miniszter",
-      "link": "https://www.agroinform.hu/szantofold/kiemelt-beruhazasok-helyett-termofoldvedelem-uj-korszakot-iger-a-miniszter-104661-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104661",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T09:32:24+00:00"
     },
     {
       "id": "2c9cfb0d98018953",
@@ -407,7 +427,7 @@
       "title": "Miért nagyszerű választás permakultúrás kertbe a homoktövis?",
       "link": "https://magyarmezogazdasag.hu/2026/08/29/miert-nagyszeru-valasztas-permakulturas-kertbe-a-homoktovis/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T19:02:01+00:00"
@@ -433,16 +453,6 @@
       "published_at": "2026-08-29T16:29:00+00:00"
     },
     {
-      "id": "55066d2db488cb64",
-      "title": "A torma vesztét okozhatja a piaci szervezetlenség?",
-      "link": "https://magyarmezogazdasag.hu/2026/08/29/a-torma-vesztet-okozhatja-a-piaci-szervezetlenseg/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-08-29T16:02:20+00:00"
-    },
-    {
       "id": "6241cdf59b541167",
       "title": "Ledobta a bombát Donald Trump: nagy csapást mérnének a húsipari óriásokra",
       "link": "https://www.agrarszektor.hu/elelmiszer/20260829/ledobta-a-bombat-donald-trump-nagy-csapast-mernenek-a-husipari-oriasokra-64172",
@@ -461,16 +471,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T14:31:00+00:00"
-    },
-    {
-      "id": "9277353d9aa79b98",
-      "title": "Megmenekült a kihalástól, pedig sokáig azt se tudták, hogy létezik",
-      "link": "https://magyarmezogazdasag.hu/2026/08/29/megmenekult-a-kihalastol-pedig-sokaig-azt-se-tudtak-hogy-letezik/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T14:04:05+00:00"
     },
     {
       "id": "95d62b9aec3845ed",
@@ -541,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T10:34:00+00:00"
-    },
-    {
-      "id": "d2ce1cb702d9d14c",
-      "title": "Hatékonyan kimutatható lehet a műanyag a baromfitakarmányban",
-      "link": "https://magyarmezogazdasag.hu/2026/08/29/hatekonyan-kimutathato-lehet-a-muanyag-a-baromfitakarmanyban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T10:03:25+00:00"
     },
     {
       "id": "a525c85772ba04be",
