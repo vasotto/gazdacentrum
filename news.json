@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-08-30T21:04:54.610147+00:00",
-  "item_count": 148,
+  "generated_at": "2026-08-31T05:33:15.782169+00:00",
+  "item_count": 146,
   "items": [
+    {
+      "id": "bb052e905e72c32c",
+      "title": "Talajélet és az elásott pamut alsónemű",
+      "link": "https://magyarmezogazdasag.hu/2026/08/31/talajelet-es-az-elasott-pamut-alsonemu/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T07:03:35+00:00"
+    },
+    {
+      "id": "910a91e312ae363a",
+      "title": "A gyökérzöldség-kereskedelem kritikus pontjai",
+      "link": "https://magyarmezogazdasag.hu/2026/08/31/a-gyokerzoldseg-kereskedelem-kritikus-pontjai/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T06:03:03+00:00"
+    },
+    {
+      "id": "40826d2aab50f7cb",
+      "title": "Augusztus végén még szükség lehet tápanyagra a zöldségeskertben",
+      "link": "https://agroforum.hu/szakcikkek/tapanyag-utanpotlas/augusztus-vegen-meg-szukseg-lehet-tapanyagra-a-zoldsegeskertben/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T05:10:00+00:00"
+    },
+    {
+      "id": "668fe23a2bba7978",
+      "title": "Kiderült a holland kertészetek legnagyobb titka: erre nem sokan gondoltak",
+      "link": "https://www.agrarszektor.hu/kiskert/20260831/kiderult-a-holland-kerteszetek-legnagyobb-titka-erre-nem-sokan-gondoltak-64156",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T05:02:00+00:00"
+    },
+    {
+      "id": "a0c22e94ad107699",
+      "title": "Durva, ami a műtrágyapiacon zajlik: újabb fekete év jöhet?",
+      "link": "https://www.agrarszektor.hu/noveny/20260831/durva-ami-a-mutragyapiacon-zajlik-ujabb-fekete-ev-johet-64167",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-08-31T04:01:00+00:00"
+    },
+    {
+      "id": "5a72b9fa8b174ce9",
+      "title": "CLAAS ARION 6 és AXION 8 CMATIC",
+      "link": "https://mezohir.hu/2026/08/31/mezogazdasag-claas-traktorok-ket-teljesitmenyszinten/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T03:34:00+00:00"
+    },
+    {
+      "id": "188b0949baf53e2f",
+      "title": "Forró napok záporokkal – 3 napos időjárás",
+      "link": "https://www.agroinform.hu/idojaras_hirek/forro-nyari-napok-zaporokkal-orszagos-idojaras-104638-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104638",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T03:15:47+00:00"
+    },
+    {
+      "id": "f5425b4f4bacab3a",
+      "title": "Tyúkatka a baromfiudvarban: felismerés, takarítás és védekezés",
+      "link": "https://www.agroinform.hu/allattenyesztes/tyukatka-a-baromfiudvarban-felismeres-takaritas-es-vedekezes-100205-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100205",
+      "source": "Agroinform",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-31T03:15:09+00:00"
+    },
+    {
+      "id": "a50402ad7275d9e1",
+      "title": "Almapaprikát savanyítasz? Ettől marad ropogós, és nem puhul meg néhány hét alatt",
+      "link": "https://www.agroinform.hu/elelmiszeripar/almapaprikat-savanyitasz-ettol-marad-ropogos-es-nem-puhul-meg-nehany-het-alatt-100359-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100359",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T23:35:00+00:00"
+    },
+    {
+      "id": "7f9fd2bd86c42eae",
+      "title": "Paradicsomlevet teszel el? A túl rövid hőkezelés és a híg lé is gondot okozhat",
+      "link": "https://www.agroinform.hu/gazdaelet/paradicsomlevet-teszel-el-a-tul-rovid-hokezeles-es-a-hig-le-is-gondot-okozhat-100358-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100358",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-08-30T21:31:00+00:00"
+    },
     {
       "id": "3bebbc0814f1e04e",
       "title": "A kollagénbarát konyha alapjai",
@@ -143,16 +243,6 @@
       "published_at": "2026-08-30T14:31:53+00:00"
     },
     {
-      "id": "ba66e5746eaeae51",
-      "title": "A denevér egyetlen éjszaka alatt sok rovart elfogyaszthat – ezért érték a kert körül",
-      "link": "https://www.agroinform.hu/gazdaelet/a-denever-egyetlen-ejszaka-alatt-sok-rovart-elfogyaszthat-ezert-ertek-a-kert-korul-100348-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100348",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T14:06:00+00:00"
-    },
-    {
       "id": "2f871c87a079471f",
       "title": "Amikor mentára van szükség",
       "link": "https://magyarmezogazdasag.hu/2026/08/30/amikor-mentara-van-szukseg/",
@@ -163,26 +253,6 @@
       "published_at": "2026-08-30T14:03:09+00:00"
     },
     {
-      "id": "61cf1097c360a501",
-      "title": "Fekete bodza szedése: az érettség jelei és a biztonságos feldolgozás szabályai",
-      "link": "https://www.agroinform.hu/gazdaelet/fekete-bodza-szedese-az-erettseg-jelei-es-a-biztonsagos-feldolgozas-szabalyai-100382-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=100382",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T13:45:59+00:00"
-    },
-    {
-      "id": "87b9ae7f009b677f",
-      "title": "Ha olcsón akarsz szállítani: elektromos traktorral erősít a Chenglong",
-      "link": "https://www.agroinform.hu/gepeszet/elektromos-traktorral-erosit-a-chenglong-uj-lehetosegek-a-mezogazdasagi-fuvarozasban-104674-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104674",
-      "source": "Agroinform",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T13:35:35+00:00"
-    },
-    {
       "id": "0f2de991e52ea490",
       "title": "Készülhetnek a magyarok: meglepő időjárás jön szeptember első hetében",
       "link": "https://www.agrarszektor.hu/noveny/20260830/keszulhetnek-a-magyarok-meglepo-idojaras-jon-szeptember-elso-heteben-64184",
@@ -191,26 +261,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-30T13:33:00+00:00"
-    },
-    {
-      "id": "66005a5c09bd0b31",
-      "title": "Nem vicc: szárazságadó bevezetésével segítenék a francia gazdákat",
-      "link": "https://www.agroinform.hu/gazdasag/ismet-napirenden-a-szarazsagado-bevezetese-a-francia-mezogazdasag-tamogatasara-104675-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104675",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T13:07:03+00:00"
-    },
-    {
-      "id": "d690473614412a43",
-      "title": "Nem semmi, amit a hollandok csinálnak: ezzel rengeteget spórolnak",
-      "link": "https://agronaplo.hu/agrarhirek/20260830/nem-semmi-amit-a-hollandok-csinalnak-ezzel-rengeteget-sporolnak-41016",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T12:29:00+00:00"
     },
     {
       "id": "c7b4623a61614e63",
@@ -363,16 +413,6 @@
       "published_at": "2026-08-30T06:03:58+00:00"
     },
     {
-      "id": "3cfc63fe3441ced7",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.08.30. vasárnap",
-      "link": "https://www.agrarszektor.hu/noveny/20260830/friss-agrarszektor-idojaras-elorejelzes-20260830-vasarnap-64179",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-30T05:45:02+00:00"
-    },
-    {
       "id": "e4b4a0b8c8937d27",
       "title": "Paradicsom nyár végén: le kell csípni a virágokat, vagy még teremhetnek?",
       "link": "https://agroforum.hu/agrarhirek/zoldseg-gyumolcs/paradicsom-nyar-vegen-le-kell-csipni-a-viragokat-vagy-meg-teremhetnek/",
@@ -411,26 +451,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T21:03:26+00:00"
-    },
-    {
-      "id": "10aa7dcd835bdd91",
-      "title": "Élet a deszkákon innen és túl, a fa hívása",
-      "link": "https://magyarmezogazdasag.hu/2026/08/29/elet-a-deszkakon-innen-es-tul-a-fa-hivasa/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T20:03:24+00:00"
-    },
-    {
-      "id": "966e9d7b44fa26c6",
-      "title": "Miért nagyszerű választás permakultúrás kertbe a homoktövis?",
-      "link": "https://magyarmezogazdasag.hu/2026/08/29/miert-nagyszeru-valasztas-permakulturas-kertbe-a-homoktovis/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T19:02:01+00:00"
     },
     {
       "id": "5ad023f131574407",
@@ -493,26 +513,6 @@
       "published_at": "2026-08-29T12:15:00+00:00"
     },
     {
-      "id": "9abf18060ef292e3",
-      "title": "Tofu: miből készül valójában, és mitől lesz kemény vagy selymes?",
-      "link": "https://agroforum.hu/agrarhirek/elelmiszeripar/tofu-mibol-keszul-valojaban-es-mitol-lesz-kemeny-vagy-selymes/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T12:10:00+00:00"
-    },
-    {
-      "id": "5be36432a0e4f019",
-      "title": "Sokan bosszankodnak a balatoni árvaszúnyogok miatt: most minden kiderül róluk",
-      "link": "https://www.agrarszektor.hu/metszet/20260829/mindenki-bosszankodik-a-balatoni-arvaszunyogok-miatt-most-minden-kiderul-roluk-64110",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T12:01:00+00:00"
-    },
-    {
       "id": "b76bda06e55eb9bb",
       "title": "Drágább lehet az őszi vetés?",
       "link": "https://mezohir.hu/2026/08/29/oszi-vetes-dragulhat-a-mezogazdasag/",
@@ -531,16 +531,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T10:36:00+00:00"
-    },
-    {
-      "id": "b0f11ba480ac10bb",
-      "title": "Így gyűjtik a vizet az igazi profik: rengeteget lehet spórolni vele",
-      "link": "https://www.agrarszektor.hu/innovacio/20260829/igy-gyujtik-a-vizet-az-igazi-profik-rengeteget-lehet-sporolni-vele-64117",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T10:34:00+00:00"
     },
     {
       "id": "a525c85772ba04be",
@@ -941,16 +931,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-08-25T11:01:00+00:00"
-    },
-    {
-      "id": "ce880ddd91509e16",
-      "title": "Magyarország belépett az EU Vidéki Paktumába",
-      "link": "https://mezohir.hu/2026/08/25/videki-paktum-mezogazdasag-uj-keretben/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-25T10:41:00+00:00"
     },
     {
       "id": "b1cfe97e0b25b77b",
