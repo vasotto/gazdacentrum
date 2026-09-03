@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-02T21:02:47.059391+00:00",
+  "generated_at": "2026-09-03T04:24:27.095326+00:00",
   "item_count": 156,
   "items": [
+    {
+      "id": "f8a1c0db32a64ee7",
+      "title": "Alacsony termelői ár mellett indul az új kakaószezon",
+      "link": "https://magyarmezogazdasag.hu/2026/09/03/alacsony-termeloi-ar-mellett-indul-az-uj-kakaoszezon/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-03T06:06:57+00:00"
+    },
+    {
+      "id": "7f9b9742c6780b6b",
+      "title": "Fordulat a magyar földeken: sok gazda már így vásárol permetezőgépet",
+      "link": "https://www.agrarszektor.hu/noveny/20260903/fordulat-a-magyar-foldeken-sok-gazda-mar-igy-vasarol-permetezogepet-64165",
+      "source": "Agrárszektor",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-03T03:59:00+00:00"
+    },
+    {
+      "id": "cf05a71d2cdb3120",
+      "title": "Bezárul az EU kapuja több brazil agrártermék előtt",
+      "link": "https://mezohir.hu/2026/09/03/mezogazdasag-brazil-agrartermekek-stop/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-03T03:34:00+00:00"
+    },
+    {
+      "id": "7654dc69886d3c16",
+      "title": "3 napos előrejelzés: Tenyérnyi helyen felfrissül az idő, másutt forró nyár",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-tenyernyi-helyen-felfrissul-az-ido-masutt-forro-nyar-105117-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105117",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-03T03:08:00+00:00"
+    },
+    {
+      "id": "0985634c2a47fa3b",
+      "title": "Mikor üt vissza a napraforgó túl gyakori visszavetése? + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/mikor-ut-vissza-a-napraforgo-tul-gyakori-visszavetese-video/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-03T02:55:00+00:00"
+    },
     {
       "id": "94b8c6d83f389d9c",
       "title": "Curryfű: szárazságtűrő és stresszűző, mi kell még?",
@@ -503,16 +553,6 @@
       "published_at": "2026-09-02T10:38:00+00:00"
     },
     {
-      "id": "e0cb469633058948",
-      "title": "A szakadék szélére került a magyar alma? Anyagilag és pszichésen is padlón a hazai termelők",
-      "link": "https://www.agroinform.hu/kerteszet_szoleszet/a-szakadek-szelere-kerult-a-magyar-alma-anyagilag-es-pszichesen-is-padlon-a-hazai-termelok-105130-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105130",
-      "source": "Agroinform",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-02T10:06:44+00:00"
-    },
-    {
       "id": "b011f976692c9d82",
       "title": "Újra együtt a hazai díszkertészet színe-java",
       "link": "https://magyarmezogazdasag.hu/2026/09/02/ujra-egyutt-a-hazai-diszkerteszet-szine-java/",
@@ -713,16 +753,6 @@
       "published_at": "2026-09-02T05:45:01+00:00"
     },
     {
-      "id": "84c65035cf4fd58e",
-      "title": "Miért elengedhetetlen a kalcium megfelelő pótlása a talajban a kalászosok és a repce számára, és hogyan segítheti a talaj pH-jának beállítása a tápanyagfelvétel javítását? (x)",
-      "link": "https://www.agrarszektor.hu/agrofokusz/20260902/miert-elengedhetetlen-a-kalcium-megfelelo-potlasa-a-talajban-a-kalaszosok-es-a-repce-szamara-es-hogyan-segitheti-a-talaj-ph-janak-beallitasa-a-tapanyagfelvetel-javitasat-x-64238",
-      "source": "Agrárszektor",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-02T05:00:00+00:00"
-    },
-    {
       "id": "1d0822da8a876bb3",
       "title": "A talajnak nem papíron kell jól működnie",
       "link": "https://mezohir.hu/2026/09/02/mezogazdasag-a-talaj-valodi-mukodese/",
@@ -753,16 +783,6 @@
       "published_at": "2026-09-01T20:02:20+00:00"
     },
     {
-      "id": "fa1e71553157eb6f",
-      "title": "Nyári lombhullás, egy veszélyes növényi stresszreakció",
-      "link": "https://magyarmezogazdasag.hu/2026/09/01/nyari-lombhullas-egy-veszelyes-novenyi-stresszreakcio/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-01T19:02:14+00:00"
-    },
-    {
       "id": "2d846ecd23d346cf",
       "title": "Meghívó: XV. Magyar Paprika Napja (Szentes, szeptember 3.)",
       "link": "https://fruitveb.hu/meghivo-xv-magyar-paprika-napja-szentes-szeptember-3/",
@@ -781,16 +801,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-01T15:35:00+00:00"
-    },
-    {
-      "id": "1fb31f139570904d",
-      "title": "Kiszáradtak a területek „Nem bírom elviselni, ha jön még egy aszályos év”",
-      "link": "https://agroforum.hu/agrarhirek/nagyvilag/kiszaradtak-a-teruletek-nem-birom-elviselni-ha-jon-meg-egy-aszalyos-ev/",
-      "source": "Agrofórum",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-01T14:10:00+00:00"
     },
     {
       "id": "2fe0bad2dd56e1b3",
@@ -1191,16 +1201,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-29T10:41:00+00:00"
-    },
-    {
-      "id": "a525c85772ba04be",
-      "title": "Új terv az aszály ellen: a víz megtartása a cél",
-      "link": "https://mezohir.hu/2026/08/29/mezogazdasag-vizmegtartas-az-aszaly-ellen/",
-      "source": "Mezőhír",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-29T06:11:00+00:00"
     },
     {
       "id": "03f208d39563b9a3",
