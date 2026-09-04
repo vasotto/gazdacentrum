@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-04T16:20:54.830011+00:00",
-  "item_count": 155,
+  "generated_at": "2026-09-04T20:45:26.983250+00:00",
+  "item_count": 154,
   "items": [
+    {
+      "id": "b61e95456ef5a3e1",
+      "title": "Kiszáradó tavak, elpusztult halak: 350 tonnás halpusztulás Rétimajorban",
+      "link": "https://magyarmezogazdasag.hu/2026/09/04/kiszarado-tavak-elpusztult-halak-350-tonnas-halpusztulas-retimajorban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T21:07:15+00:00"
+    },
+    {
+      "id": "84c9d73e7239c6a7",
+      "title": "Őszi veszélyek négylábú kedvenceinkre: szezonális egészségi problémák",
+      "link": "https://magyarmezogazdasag.hu/2026/09/04/oszi-veszelyek-negylabu-kedvenceinkre-szezonalis-egeszsegi-problemak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T20:03:00+00:00"
+    },
+    {
+      "id": "ba4debb9d2d1cbfd",
+      "title": "A szőlőültetvények a bozóttüzek terjedését is lassíthatják",
+      "link": "https://magyarmezogazdasag.hu/2026/09/04/a-szoloultetvenyek-a-bozottuzek-terjedeset-is-lassithatjak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T19:07:27+00:00"
+    },
     {
       "id": "ed391c453abb3e46",
       "title": "Coop Rally: célunk megmutatni kik vannak a magyar termékek mögött",
@@ -11,6 +41,26 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-04T18:04:55+00:00"
+    },
+    {
+      "id": "bac1f348ef957e75",
+      "title": "Kemény drágulás jöhet ebben a régióban: nem semmi, mi áll a háttérben",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260904/kemeny-dragulas-johet-ebben-a-regioban-nem-semmi-mi-all-a-hatterben-64294",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-09-04T17:32:00+00:00"
+    },
+    {
+      "id": "ef306a93a32a49da",
+      "title": "Lecsapott a Nébih a nyáron: több tonna veszélyes árut vontak ki a forgalomból",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260904/lecsapott-a-nebih-a-nyaron-tobb-tonna-veszelyes-arut-vontak-ki-a-forgalombol-64298",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T16:27:00+00:00"
     },
     {
       "id": "8c5972320cb3072b",
@@ -94,7 +144,7 @@
     },
     {
       "id": "09898c03247d83f1",
-      "title": "Magzatkárosító oldószer a talajvízben: veszélyben lehetnek a fúrt kutak az iváncsai akkugyárnál",
+      "title": "Magzatkárosító oldószer a talajvízben: veszélyben lehetnek a fúrt kutak az iváncsai akkugyárnál +frissítve",
       "link": "https://www.agroinform.hu/kornyezetvedelem/magzatkarosito-oldoszer-a-talajvizben-veszelyben-lehetnek-a-furt-kutak-az-ivancsai-akkugyarnal-105433-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105433",
       "source": "Agroinform",
       "category": "Általános agrár",
@@ -353,16 +403,6 @@
       "published_at": "2026-09-04T09:10:00+00:00"
     },
     {
-      "id": "b189560061c04444",
-      "title": "Jogi fellépést sürgetnek a szakmai szervezetek az új uniós génkezelési technikákkal szemben",
-      "link": "https://www.agroinform.hu/szantofold/jogi-fellepest-surgetnek-a-szakmai-szervezetek-az-uj-unios-genkezelesi-technikakkal-szemben-105412-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105412",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-04T09:06:46+00:00"
-    },
-    {
       "id": "689ac5589c432d50",
       "title": "Milyen intézkedésekkel növelhető a zöldségek-gyümölcsök fogyasztása?",
       "link": "https://fruitveb.hu/milyen-intezkedesekkel-novelheto-a-zoldsegek-gyumolcsok-fogyasztasa/",
@@ -391,16 +431,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-04T08:36:52+00:00"
-    },
-    {
-      "id": "86ced949974f5377",
-      "title": "Az EU TOP-1 kukoricatermelője Lengyelország, a magyar termés 1,5 millió tonna",
-      "link": "https://www.agroinform.hu/termenypiacok/az-eu-top-1-kukoricatermeloje-lengyelorszag-a-magyar-termes-15-millio-tonna-105409-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105409",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-04T08:34:18+00:00"
     },
     {
       "id": "195dcb97179b75bc",
@@ -557,30 +587,10 @@
       "title": "Bóna Szabolcs: „Fenntartás helyett már fejlődni kell”",
       "link": "https://magyarmezogazdasag.hu/2026/09/03/bona-szabolcs-fenntartas-helyett-mar-fejlodni-kell/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Állattenyésztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-03T21:06:53+00:00"
-    },
-    {
-      "id": "a0fcecf097ed3902",
-      "title": "A pénzügyi tudatosság lehet a túlélés kulcsa",
-      "link": "https://magyarmezogazdasag.hu/2026/09/03/a-penzugyi-tudatossag-lehet-a-tuleles-kulcsa/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T20:04:46+00:00"
-    },
-    {
-      "id": "5fb33d6a5a334c9a",
-      "title": "Ezeket tartja első száz napja legfontosabb eredményeinek az agrártárca",
-      "link": "https://magyarmezogazdasag.hu/2026/09/03/ezeket-tartja-elso-szaz-napja-legfontosabb-eredmenyeinek-az-agrartarca/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T19:07:28+00:00"
     },
     {
       "id": "794333a67c533cf3",
@@ -593,16 +603,6 @@
       "published_at": "2026-09-03T18:28:00+00:00"
     },
     {
-      "id": "20f168b49536275a",
-      "title": "Kongatják a vészharangot: rohamtempóban terjed az új vírus Európában",
-      "link": "https://www.agrarszektor.hu/allat/20260903/kongatjak-a-veszharangot-rohamtempoban-terjed-az-uj-virus-europaban-64284",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T17:29:00+00:00"
-    },
-    {
       "id": "4e60e459a73ee9a1",
       "title": "Hamarosan itt van az édesburgonya betakarításának ideje",
       "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/hamarosan-itt-van-az-edesburgonya-betakaritasanak-ideje/",
@@ -611,16 +611,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-03T14:10:00+00:00"
-    },
-    {
-      "id": "1b3a8ad359f001fb",
-      "title": "Az erdőirtás elleni rendelet környezetbarátabbá teheti a teljes kávétermelést",
-      "link": "https://magyarmezogazdasag.hu/2026/09/03/az-erdoirtas-elleni-rendelet-kornyezetbaratabba-teheti-a-teljes-kavetermelest/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "Közlemény / jogszabály",
-      "source_type": "portál",
-      "published_at": "2026-09-03T14:03:10+00:00"
     },
     {
       "id": "d595799b31e2e36c",
