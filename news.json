@@ -1,13 +1,53 @@
 {
-  "generated_at": "2026-09-03T21:02:01.357146+00:00",
-  "item_count": 159,
+  "generated_at": "2026-09-04T04:31:47.028998+00:00",
+  "item_count": 157,
   "items": [
+    {
+      "id": "263cbf0487584cb9",
+      "title": "Terítéken a baromfihús – szeptemberi AKI elemzés",
+      "link": "https://magyarmezogazdasag.hu/2026/09/04/teriteken-a-baromfihus-szeptemberi-aki-elemzes/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T06:04:27+00:00"
+    },
+    {
+      "id": "7763478c9d3ab927",
+      "title": "A támogatás most időt ad, de nem oldja meg a termelők problémáit",
+      "link": "https://www.agrarszektor.hu/metszet/20260904/a-tamogatas-most-idot-ad-de-nem-oldja-meg-a-termelok-problemait-64138",
+      "source": "Agrárszektor",
+      "category": "Támogatások és pályázatok",
+      "content_type": "Pályázat / támogatás",
+      "source_type": "portál",
+      "published_at": "2026-09-04T03:58:00+00:00"
+    },
+    {
+      "id": "82baa1c080f806a2",
+      "title": "Gyorsabban jön a pénz: felpörög a TÉSZ-ek támogatása",
+      "link": "https://mezohir.hu/2026/09/04/mezogazdasag-gyorsul-a-tesz-tamogatas/",
+      "source": "Mezőhír",
+      "category": "Támogatások és pályázatok",
+      "content_type": "Pályázat / támogatás",
+      "source_type": "portál",
+      "published_at": "2026-09-04T03:34:00+00:00"
+    },
+    {
+      "id": "613d7b1e7e283518",
+      "title": "3 napos előrejelzés: Kisebb hidegfront közelít, de ne reméljünk sokat tőle",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-kisebb-hidegfront-kozelit-de-ne-remeljunk-sokat-tole-105258-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105258",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-04T03:09:00+00:00"
+    },
     {
       "id": "8b5b2a2abc458dc2",
       "title": "Bóna Szabolcs: „Fenntartás helyett már fejlődni kell”",
       "link": "https://magyarmezogazdasag.hu/2026/09/03/bona-szabolcs-fenntartas-helyett-mar-fejlodni-kell/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-03T21:06:53+00:00"
@@ -343,16 +383,6 @@
       "published_at": "2026-09-03T11:27:00+00:00"
     },
     {
-      "id": "039517215c8cd946",
-      "title": "Kiragadott gondolatok a hoboli szója-bemutatóról",
-      "link": "https://www.agroinform.hu/szantofold/kiragadott-gondolatok-a-hoboli-szoja-bemutatorol-105120-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105120",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T11:26:30+00:00"
-    },
-    {
       "id": "11b3b050cb041302",
       "title": "Érik a botrány a briteknél: veszélyes tojás kerülhetett rengeteg étterembe",
       "link": "https://agronaplo.hu/agrarhirek/20260903/erik-a-botrany-a-briteknel-veszelyes-tojas-kerulhetett-rengeteg-etterembe-41037",
@@ -361,16 +391,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-03T11:21:00+00:00"
-    },
-    {
-      "id": "72234ce5dc388128",
-      "title": "Befagyasztják a tűzifa árát az állami erdészeteknél",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/befagyasztjak-a-tuzifa-arat-az-allami-erdeszeteknel-105280-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105280",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T11:17:00+00:00"
     },
     {
       "id": "1feb0c38311f7f44",
@@ -623,16 +643,6 @@
       "published_at": "2026-09-03T03:34:00+00:00"
     },
     {
-      "id": "0985634c2a47fa3b",
-      "title": "Mikor üt vissza a napraforgó túl gyakori visszavetése? + VIDEÓ",
-      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/mikor-ut-vissza-a-napraforgo-tul-gyakori-visszavetese-video/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T02:55:00+00:00"
-    },
-    {
       "id": "94b8c6d83f389d9c",
       "title": "Curryfű: szárazságtűrő és stresszűző, mi kell még?",
       "link": "https://magyarmezogazdasag.hu/2026/09/02/curryfu-szarazsagturo-es-stresszuzo-mi-kell-meg/",
@@ -651,26 +661,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-02T20:04:05+00:00"
-    },
-    {
-      "id": "23249ecef4256728",
-      "title": "Olcsó traktor a neten? Gazdákra vadászó kiberbűnözőket fogtak a lengyel rendőrök",
-      "link": "https://magyarmezogazdasag.hu/2026/09/02/olcso-traktor-a-neten-gazdakra-vadaszo-kiberbunozoket-fogtak-a-lengyel-rendorok/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-02T19:07:54+00:00"
-    },
-    {
-      "id": "6f967c3183063636",
-      "title": "Egészen másmilyen barackok lepik el itt a boltokat: mutatjuk, mi az oka",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20260902/egeszen-masmilyen-barackok-lepik-el-itt-a-boltokat-mutatjuk-mi-az-oka-64258",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-02T18:31:00+00:00"
     },
     {
       "id": "d68353885920bbd6",
@@ -1261,16 +1251,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-08-31T06:11:00+00:00"
-    },
-    {
-      "id": "5a72b9fa8b174ce9",
-      "title": "CLAAS ARION 6 és AXION 8 CMATIC",
-      "link": "https://mezohir.hu/2026/08/31/mezogazdasag-claas-traktorok-ket-teljesitmenyszinten/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-08-31T03:34:00+00:00"
     },
     {
       "id": "03f208d39563b9a3",
