@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-09-06T20:23:42.281586+00:00",
-  "item_count": 155,
+  "generated_at": "2026-09-07T04:39:42.667612+00:00",
+  "item_count": 153,
   "items": [
+    {
+      "id": "753cc63577c88143",
+      "title": "Robotok szedhetik a koktélparadicsomot egy új látórendszerrel",
+      "link": "https://magyarmezogazdasag.hu/2026/09/07/robotok-szedhetik-a-koktelparadicsomot-egy-uj-latorendszerrel/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-07T06:06:08+00:00"
+    },
+    {
+      "id": "ac8c18a6407670a9",
+      "title": "Súlyos csapás jöhet: alig maradtak magyar gombatermesztők",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260907/sulyos-csapas-johet-alig-maradtak-magyar-gombatermesztok-64300",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-07T04:02:00+00:00"
+    },
+    {
+      "id": "2d35b2cdbaca2b2a",
+      "title": "Talajegészség: egy divatos kifejezés vagy a jövőnk záloga?",
+      "link": "https://mezohir.hu/2026/09/07/mezogazdasag-talajegeszseg-egyszeru-helyszini-vizsgalatokkal/",
+      "source": "Mezőhír",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-07T03:34:00+00:00"
+    },
+    {
+      "id": "4dc5b2f0b8929577",
+      "title": "Hőségből lehűlésbe: nagy fordulatot hoz a jövő hét",
+      "link": "https://www.agroinform.hu/idojaras_hirek/nyarias-idojaras-sok-napsutes-szerdan-fordulat-105518-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105518",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-07T03:05:58+00:00"
+    },
     {
       "id": "4556ba6f4d27a91b",
       "title": "Valós vadlétszám nélkül nincs hatékony vadgazdálkodás",
@@ -273,26 +313,6 @@
       "published_at": "2026-09-06T11:10:00+00:00"
     },
     {
-      "id": "4fc89caed3aee15a",
-      "title": "Quinoa helyett klímatűrő búza lehet a jövő a német földeken",
-      "link": "https://www.agroinform.hu/szantofold/quinoa-helyett-klimaturo-buza-lehet-a-jovo-a-nemet-foldeken-105488-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105488",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T11:08:02+00:00"
-    },
-    {
-      "id": "3b4d1fb0ed34d7d7",
-      "title": "A szárazság és a háborúk is hajtják az élelmiszerárakat a FAO szerint",
-      "link": "https://www.agroinform.hu/termenypiacok/a-szarazsag-es-a-haboruk-is-hajtjak-az-elelmiszerarakat-a-fao-szerint-105490-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105490",
-      "source": "Agroinform",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T10:46:01+00:00"
-    },
-    {
       "id": "eb3134a43594a16c",
       "title": "Kész, vége: újabb magyar folyó tűnhet el a szárazság miatt",
       "link": "https://agronaplo.hu/agrarhirek/20260906/kesz-vege-ujabb-magyar-folyo-tunhet-el-a-szarazsag-miatt-41050",
@@ -321,16 +341,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-06T10:32:00+00:00"
-    },
-    {
-      "id": "7df630efb19a738b",
-      "title": "Ezt is megértük: az USA veri Oroszországot a búzaexportban",
-      "link": "https://www.agroinform.hu/termenypiacok/ezt-is-megertuk-az-usa-veri-oroszorszagot-a-buzaexportban-105515-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105515",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T10:15:19+00:00"
     },
     {
       "id": "0e8c5385981195f9",
@@ -491,26 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-05T20:02:53+00:00"
-    },
-    {
-      "id": "d9fd46f564b228ca",
-      "title": "Bakancslistás őszi kertészeti események",
-      "link": "https://magyarmezogazdasag.hu/2026/09/05/bakancslistas-oszi-kerteszeti-esemenyek/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-05T19:09:16+00:00"
-    },
-    {
-      "id": "b2228550aaa9233c",
-      "title": "Öreg-tavi Halász és Halgasztro Fesztivál 2026",
-      "link": "https://agroforum.hu/programok/oreg-tavi-halasz-es-halgasztro-fesztival-2026/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-05T18:19:47+00:00"
     },
     {
       "id": "4d87823b5d7a81dd",
@@ -971,16 +961,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-02T12:40:04+00:00"
-    },
-    {
-      "id": "a6e156ce904f1fb7",
-      "title": "Hiába várjuk az esőt",
-      "link": "https://mezohir.hu/2026/09/02/mezogazdasag-csapadek-alig-erkezik/",
-      "source": "Mezőhír",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-02T12:34:00+00:00"
     },
     {
       "id": "97869bf3787a850c",
