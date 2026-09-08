@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-08T16:37:42.081635+00:00",
-  "item_count": 150,
+  "generated_at": "2026-09-08T21:09:10.453937+00:00",
+  "item_count": 149,
   "items": [
+    {
+      "id": "21a440e1ca7dfebb",
+      "title": "Juhágazat: csak jobb lehet a helyzet",
+      "link": "https://magyarmezogazdasag.hu/2026/09/08/juhagazat-csak-jobb-lehet-a-helyzet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T21:03:27+00:00"
+    },
+    {
+      "id": "af0d41d894a59f2c",
+      "title": "Hamarabb értek be a gabonák Európában",
+      "link": "https://magyarmezogazdasag.hu/2026/09/08/hamarabb-ertek-be-a-gabonak-europaban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T20:03:22+00:00"
+    },
+    {
+      "id": "2f7eac96ec5725ca",
+      "title": "Rovarok mint haszonállatok",
+      "link": "https://magyarmezogazdasag.hu/2026/09/08/rovarok-mint-haszonallatok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T19:04:56+00:00"
+    },
+    {
+      "id": "520dece18ddd727f",
+      "title": "Kiderült a klímaváltozás legnagyobb titka: erre senki sincs felkészülve",
+      "link": "https://www.agrarszektor.hu/allat/20260908/kiderult-a-klimavaltozas-legnagyobb-titka-erre-senki-sincs-felkeszulve-64343",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T18:26:00+00:00"
+    },
+    {
+      "id": "01ab193951c02c24",
+      "title": "Nem akármilyen hírek jöttek a hagymáról: ezt sokan nem gondolták volna",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260908/nem-akarmilyen-hirek-jottek-a-hagymarol-ezt-sokan-nem-gondoltak-volna-64354",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T17:28:00+00:00"
+    },
+    {
+      "id": "091fcd469f55390d",
+      "title": "Csak a csoda segíthet? Riasztó jövő várhat a magyarországi erdőkre",
+      "link": "https://agronaplo.hu/agrarhirek/20260908/csak-a-csoda-segithet-riaszto-jovo-varhat-a-magyarorszagi-erdokre-41065",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T17:28:00+00:00"
+    },
+    {
+      "id": "50483a3e63d34064",
+      "title": "Bóna Szabolcs: Nyilvánvaló, hogy a korábbi módszerekkel már nem tartható a helyzet",
+      "link": "https://agronaplo.hu/agrarhirek/20260908/bona-szabolcs-nyilvanvalo-hogy-a-korabbi-modszerekkel-mar-nem-tarthato-a-helyzet-41066",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T17:06:00+00:00"
+    },
     {
       "id": "c885fc851ada56e2",
       "title": "Pusztító hidegfront: 100 km/h-s szél, durva lehűlés és zivatarok",
@@ -73,16 +143,6 @@
       "published_at": "2026-09-08T14:34:00+00:00"
     },
     {
-      "id": "35b5ff788a3363f6",
-      "title": "Már a csoda sem segíthet? Ijesztő, mi várhat Magyarországra",
-      "link": "https://www.agrarszektor.hu/noveny/20260908/mar-a-csoda-sem-segithet-ijeszto-mi-varhat-magyarorszagra-64164",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-08T14:28:00+00:00"
-    },
-    {
       "id": "475fa9a4dcb7b9c4",
       "title": "Elkerülhetetlen: hatalmas magyarországi területeket fognak vízzel elárasztani",
       "link": "https://agronaplo.hu/agrarhirek/20260908/elkerulhetetlen-hatalmas-magyarorszagi-teruleteket-fognak-vizzel-elarasztani-41064",
@@ -111,16 +171,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-08T14:07:00+00:00"
-    },
-    {
-      "id": "152903ea5d49ce84",
-      "title": "Bóna Szabolcs: Egyértelmű, hogy az eddigi módszerekkel nem kezelhető a helyzet",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20260908/bona-szabolcs-egyertelmu-hogy-az-eddigi-modszerekkel-nem-kezelheto-a-helyzet-64364",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-08T14:06:00+00:00"
     },
     {
       "id": "d9b65f52835791c1",
@@ -351,16 +401,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-08T10:16:08+00:00"
-    },
-    {
-      "id": "1b971c7b4e83648c",
-      "title": "Szeptemberi időjárás: ezért nem tűnnek el a vérszívók",
-      "link": "https://www.agroinform.hu/gazdaelet/szeptemberi-idojaras-ezert-nem-tunnek-el-a-verszivok-105576-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105576",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-08T10:09:00+00:00"
     },
     {
       "id": "22aa90d34b72dc3b",
@@ -613,16 +653,6 @@
       "published_at": "2026-09-07T14:10:00+00:00"
     },
     {
-      "id": "6cdacdecff611ac1",
-      "title": "Európa nem engedheti meg magának, hogy a következő válságra várjon",
-      "link": "https://magyarmezogazdasag.hu/2026/09/07/europa-nem-engedheti-meg-maganak-hogy-a-kovetkezo-valsagra-varjon/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T14:02:20+00:00"
-    },
-    {
       "id": "029a90e7dabefe84",
       "title": "Ilyen áfával, hőséggel, munkaerővel mi vár a paprikánkra?",
       "link": "https://mezohir.hu/2026/09/07/paprikatermesztes-kihivasai-a-mezogazdasagban/",
@@ -683,16 +713,6 @@
       "published_at": "2026-09-07T10:41:00+00:00"
     },
     {
-      "id": "dff44dce9c2b474a",
-      "title": "A fák képesek korrigálni a görbe törzset",
-      "link": "https://magyarmezogazdasag.hu/2026/09/07/a-fak-kepesek-korrigalni-a-gorbe-torzset/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T10:03:39+00:00"
-    },
-    {
       "id": "19758a914ef8555d",
       "title": "25 százalékkal nőtt a mezőgazdasági gépértékesítés az év első felében",
       "link": "https://www.aki.gov.hu/2026/09/07/25-szazalekkal-nott-a-mezogazdasagi-gepertekesites-az-ev-elso-feleben/",
@@ -751,16 +771,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-07T08:09:00+00:00"
-    },
-    {
-      "id": "40115e18ed94f2b4",
-      "title": "Milyen kutya illik hozzánk? –mozgásigény és ugatás: nem csak a kinézet számít!",
-      "link": "https://magyarmezogazdasag.hu/2026/09/07/milyen-kutya-illik-hozzank-mozgasigeny-es-ugatas-nem-csak-a-kinezet-szamit/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T08:05:19+00:00"
     },
     {
       "id": "d4ff2f8c77218356",
@@ -881,26 +891,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-05T15:17:00+00:00"
-    },
-    {
-      "id": "2ca1420d02e0d1c3",
-      "title": "Döbbenetes dolgot tudhatsz meg a kertedről: ettől leesik az állad",
-      "link": "https://agronaplo.hu/agrarhirek/20260905/dobbenetes-dolgot-tudhatsz-meg-a-kertedrol-ettol-leesik-az-allad-41046",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-05T13:22:00+00:00"
-    },
-    {
-      "id": "50cbbe69cd89e35c",
-      "title": "Komoly támogatást kapnak ezek a magyar állattartók: itt vannak a részletek",
-      "link": "https://agronaplo.hu/agrarhirek/20260905/komoly-tamogatast-kapnak-ezek-a-magyar-allattartok-itt-vannak-a-reszletek-41045",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-09-05T11:06:00+00:00"
     },
     {
       "id": "02404ff4730ba69f",
