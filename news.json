@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-07T21:30:45.718472+00:00",
-  "item_count": 156,
+  "generated_at": "2026-09-08T04:41:22.990260+00:00",
+  "item_count": 141,
   "items": [
+    {
+      "id": "ed20b57f72f403a0",
+      "title": "Salmonella újra a tojásláncban",
+      "link": "https://magyarmezogazdasag.hu/2026/09/08/salmonella-ujra-a-tojaslancban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T06:03:02+00:00"
+    },
+    {
+      "id": "f7a59ea43a24d488",
+      "title": "Lejárt az idő: ráfázik az a gazda, aki csak az állam segítségére vár",
+      "link": "https://www.agrarszektor.hu/metszet/20260908/lejart-az-ido-rafazik-az-a-gazda-aki-csak-az-allam-segitsegere-var-64297",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T03:59:00+00:00"
+    },
+    {
+      "id": "8d1eb1e7edce0822",
+      "title": "Gazdaságátadás: ezen bukhat el az átadás",
+      "link": "https://mezohir.hu/2026/09/08/gazdasagatadas-valtozas-a-mezogazdasagban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-08T03:34:00+00:00"
+    },
     {
       "id": "33e44e3ffa0a7868",
       "title": "Kosztka Ernő: új lendületet kap a díszkertész ágazat",
@@ -293,16 +323,6 @@
       "published_at": "2026-09-07T12:10:00+00:00"
     },
     {
-      "id": "51046020758e063d",
-      "title": "A gazdák munkájának egy része a kukában végezte, de most valami megváltozott",
-      "link": "https://www.agroinform.hu/kornyezetvedelem/a-gazdak-munkajanak-egy-resze-a-kukaban-vegzi-de-most-valami-megvaltozott-105547-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105547",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T11:36:57+00:00"
-    },
-    {
       "id": "56eb7eea0e02c66a",
       "title": "Elképesztő: így formálja át a mesterséges intelligencia az élelmiszer-ellátásunkat",
       "link": "https://www.agrarszektor.hu/innovacio/20260907/elkepeszto-igy-formalja-at-a-mesterseges-intelligencia-az-elelmiszer-ellatasunkat-64329",
@@ -321,16 +341,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-07T11:10:00+00:00"
-    },
-    {
-      "id": "02fbb70cb163d8ff",
-      "title": "Új energiaforrás a telepekről: szarvasmarhatrágyából készülne földgáz",
-      "link": "https://www.agroinform.hu/allattenyesztes/szarvasmarhatragyabol-evi-12-millio-mmbtu-foldgazt-allitananak-elo-105535-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105535",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T11:06:53+00:00"
     },
     {
       "id": "d757a105b9a8ccee",
@@ -623,26 +633,6 @@
       "published_at": "2026-09-06T20:06:01+00:00"
     },
     {
-      "id": "5d3c1ab5c64c6df3",
-      "title": "Mi a köze a birkáknak a gleccserek megóvásához?",
-      "link": "https://magyarmezogazdasag.hu/2026/09/06/mi-a-koze-a-birkaknak-a-gleccserek-megovasahoz/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T19:06:11+00:00"
-    },
-    {
-      "id": "fda1bf50c22e411e",
-      "title": "Nem várt meleg rohanta le Magyarországot: durva értéket mértek",
-      "link": "https://www.agrarszektor.hu/noveny/20260906/nem-vart-meleg-rohanta-le-magyarorszagot-durva-erteket-mertek-64318",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T17:34:00+00:00"
-    },
-    {
       "id": "c9a188352ebd84f1",
       "title": "Íme, a legfontosabb szeptemberi teendők a kertben: ezeket érdemes elvégezni",
       "link": "https://agronaplo.hu/agrarhirek/20260906/ime-a-legfontosabb-szeptemberi-teendok-a-kertben-ezeket-erdemes-elvegezni-41052",
@@ -651,16 +641,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-06T15:17:00+00:00"
-    },
-    {
-      "id": "bce01fd10bd3e090",
-      "title": "Komoly károkat okozhatnak az épületek szigetelésében ezek a madarak",
-      "link": "https://agroforum.hu/agrarhirek/kornyezetvedelem/komoly-karokat-okozhatnak-az-epuletek-szigeteleseben-ezek-a-madarak/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T14:10:00+00:00"
     },
     {
       "id": "0a29ef09a1f336a9",
@@ -673,16 +653,6 @@
       "published_at": "2026-09-06T13:03:00+00:00"
     },
     {
-      "id": "5163257ab3059318",
-      "title": "Ezért veszélyes kutyával megközelíteni a borjas teheneket: az élete is múlhat rajta",
-      "link": "https://agroforum.hu/szakcikkek/allattenyesztes-szakcikkek/ezert-veszelyes-kutyaval-megkozeliteni-a-borjas-teheneket/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T12:10:00+00:00"
-    },
-    {
       "id": "94efbb3278fb1aba",
       "title": "Jön a zsebdinnye? Új irányt vesz a görögdinnye",
       "link": "https://mezohir.hu/2026/09/06/mezogazdasag-valtozik-a-gorogdinnye/",
@@ -691,16 +661,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-06T10:41:00+00:00"
-    },
-    {
-      "id": "bbec2066ad706a02",
-      "title": "Fontos dolgokat közöltek a gazdaságátadásról: ezeket érdemes tudni",
-      "link": "https://agronaplo.hu/agrarhirek/20260906/fontos-dolgokat-kozoltek-a-gazdasagatadasrol-ezeket-erdemes-tudni-41049",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-06T08:36:00+00:00"
     },
     {
       "id": "7ec2333855a4e0e6",
@@ -1023,46 +983,6 @@
       "published_at": "2026-09-03T07:01:00+00:00"
     },
     {
-      "id": "58e5d0167823cc96",
-      "title": "Már él a hitelmoratórium: ennyit nyerhetnek vele a gazdák",
-      "link": "https://mezohir.hu/2026/09/03/mezogazdasag-hitelmoratorium-a-gazdaknak/",
-      "source": "Mezőhír",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-03T06:11:00+00:00"
-    },
-    {
-      "id": "9622fae39ee501c6",
-      "title": "Sorközkezelés gyümölcsültetvényekben",
-      "link": "https://biokutatas.hu/rendezvenyek/sorkozkezeles-gyumolcsultetvenyekben-2/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T13:01:57+00:00"
-    },
-    {
-      "id": "d02ea5abcbe3f7ea",
-      "title": "Kenyerünk és a gabonák jövője: Milyen lehetőségeink vannak?",
-      "link": "https://biokutatas.hu/rendezvenyek/kenyerunk-es-a-gabonak-jovoje-milyen-lehetosegeink-vannak/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T12:51:16+00:00"
-    },
-    {
-      "id": "343313eb4ea7a545",
-      "title": "BIOFACH 2026",
-      "link": "https://biokutatas.hu/rendezvenyek/biofach-2026/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T12:40:04+00:00"
-    },
-    {
       "id": "97869bf3787a850c",
       "title": "MEGHÍVÓ: Lézeres gyomirtógép bemutató és szakmai nap a Csizmadi Farmon (szept. 17., Bugyi)",
       "link": "https://fruitveb.hu/meghivo-lezeres-gyomirtogep-bemutato-es-szakmai-nap-a-csizmadi-farmon-szept-17-bugyi/",
@@ -1073,66 +993,6 @@
       "published_at": "2026-09-02T12:30:58+00:00"
     },
     {
-      "id": "85579846666f77dc",
-      "title": "Magbörze és házikerti szakmai nap",
-      "link": "https://biokutatas.hu/rendezvenyek/magborze-es-hazikerti-szakmai-nap/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T12:26:55+00:00"
-    },
-    {
-      "id": "3f43624771bfb42d",
-      "title": "ÖMKi Ágazati Szakmai Nap 2026",
-      "link": "https://biokutatas.hu/rendezvenyek/omki-agazati-szakmai-nap-2026/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T12:18:22+00:00"
-    },
-    {
-      "id": "25a3ea45c96a5f83",
-      "title": "Öko vetőmag – alapoktól a vállalkozásig",
-      "link": "https://biokutatas.hu/rendezvenyek/oko-vetomag-alapoktol-a-vallalkozasig-2/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T12:09:26+00:00"
-    },
-    {
-      "id": "8a3db87a581c0e15",
-      "title": "Talaj a talpad alatt",
-      "link": "https://biokutatas.hu/rendezvenyek/talaj-a-talpad-alatt/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T11:58:49+00:00"
-    },
-    {
-      "id": "14ebb8ed47ca605c",
-      "title": "Áttelelő pillangós zöldségek termesztése",
-      "link": "https://biokutatas.hu/rendezvenyek/attelelo-pillangos-zoldsegek-termesztese/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T11:52:55+00:00"
-    },
-    {
-      "id": "0de90361cc9952d9",
-      "title": "ÖMKi Szántóföldi Szakmai Nap 2026",
-      "link": "https://biokutatas.hu/rendezvenyek/omki-szantofoldi-szakmai-nap-2026/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T11:43:39+00:00"
-    },
-    {
       "id": "cf51b97ba3792f98",
       "title": "Szerbia: rekord szabadföldi paradicsomtermés, váratlan csomagolási gondokkal",
       "link": "https://fruitveb.hu/szerbia-rekord-szabadfoldi-paradicsomtermes-varatlan-csomagolasi-gondokkal/",
@@ -1141,16 +1001,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-02T11:01:00+00:00"
-    },
-    {
-      "id": "bd0fd02b5f41bb2f",
-      "title": "Sorköztakarás hatása a szőlőültetvények ökoszisztémájára",
-      "link": "https://biokutatas.hu/rendezvenyek/sorkoztakaras-hatasa-a-szoloultetvenyek-okoszisztemajara/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-02T10:04:01+00:00"
     },
     {
       "id": "637c90719be665af",
@@ -1563,5 +1413,7 @@
       "published_at": "2025-05-28T10:06:54+00:00"
     }
   ],
-  "errors": []
+  "errors": [
+    "ÖMKi: <urlopen error [Errno 110] Connection timed out>"
+  ]
 }
