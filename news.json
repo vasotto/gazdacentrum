@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-09-09T20:56:18.772863+00:00",
-  "item_count": 154,
+  "generated_at": "2026-09-10T04:41:32.984549+00:00",
+  "item_count": 152,
   "items": [
+    {
+      "id": "fd7b2e3b30966c2a",
+      "title": "Az AfD tartományi sikere nem jó hír a mezőgazdaságnak, véli az agrárközgazdász",
+      "link": "https://magyarmezogazdasag.hu/2026/09/10/az-afd-tartomanyi-sikere-nem-jo-hir-a-mezogazdasagnak-veli-az-agrarkozgazdasz/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-10T06:06:50+00:00"
+    },
+    {
+      "id": "bd81db8d7d0aa179",
+      "title": "Rengeteg magyar gazda halasztja el a gépbeszerzéseket: mégis, mi folyik itt?",
+      "link": "https://www.agrarszektor.hu/gepek/20260910/rengeteg-magyar-gazda-halasztja-el-a-gepbeszerzeseket-megis-mi-folyik-itt-64352",
+      "source": "Agrárszektor",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-10T04:01:00+00:00"
+    },
+    {
+      "id": "3c7dc1f5b1ceff75",
+      "title": "Ez a gabona lehet az aszály egyik nagy túlélője",
+      "link": "https://mezohir.hu/2026/09/10/mezogazdasag-terjedhet-a-kernza/",
+      "source": "Mezőhír",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-10T03:34:00+00:00"
+    },
+    {
+      "id": "f431f140c29db1bc",
+      "title": "3 napos előrejelzés: Felhős, szeles fordulat hétvége előtt",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-felhos-szeles-fordulat-hetvege-elott-105602-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105602",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-10T03:06:00+00:00"
+    },
     {
       "id": "cb5529950c6d4131",
       "title": "Kárpátalja, ahol a szőlő- és a borkultúra virágzik",
@@ -161,6 +201,16 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-09-09T14:59:00+00:00"
+    },
+    {
+      "id": "12e04cd87a445992",
+      "title": "Tavasszal már késő lehet: ősszel kell megvédeni a gabonát",
+      "link": "https://www.agroinform.hu/szantofold/tavasszal-mar-keso-lehet-osszel-kell-megvedeni-a-gabonat-105624-032?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105624",
+      "source": "Agroinform",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-09T14:40:01+00:00"
     },
     {
       "id": "729ee43482b8821c",
@@ -373,16 +423,6 @@
       "published_at": "2026-09-09T11:27:21+00:00"
     },
     {
-      "id": "10c5a156aeb2e38b",
-      "title": "A traktortól az irodáig: új digitális szolgáltatás érkezik",
-      "link": "https://www.agroinform.hu/gepeszet/a-traktortol-az-irodaig-uj-digitalis-szolgaltatas-erkezik-105615-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105615",
-      "source": "Agroinform",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-09T11:10:44+00:00"
-    },
-    {
       "id": "95df91cd54abb997",
       "title": "Mennyi ideig hagyjuk nyitva a mosógép ajtaját mosás után? A kérdés fontosabb, mint gondolnánk",
       "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/mennyi-ideig-hagyjuk-nyitva-a-mosogep-ajtajat-mosas-utan-a-kerdes-fontosabb-mint-gondolnank/",
@@ -423,16 +463,6 @@
       "published_at": "2026-09-09T11:00:38+00:00"
     },
     {
-      "id": "dc9928dd592a629b",
-      "title": "Riasztás Európában: veszélyes viharok közelítenek",
-      "link": "https://www.agroinform.hu/idojaras_hirek/riasztas-europaban-veszelyes-viharok-kozelitenek-105626-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105626",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-09T10:56:00+00:00"
-    },
-    {
       "id": "971ccf834bde818b",
       "title": "Gyakorlatilag nullát mértek a magyar földeken",
       "link": "https://mezohir.hu/2026/09/09/mezogazdasag-lenullazta-az-aszaly/",
@@ -441,16 +471,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-09T10:41:00+00:00"
-    },
-    {
-      "id": "76098b3a292507f5",
-      "title": "Rendezett vagy elvadult? Óriási tévhit él a magyarok fejében a szép erdőről",
-      "link": "https://www.agroinform.hu/erdo_vadgazdalkodas/rendezett-vagy-elvadult-oriasi-tevhit-el-a-magyarok-fejeben-a-szep-erdorol-105614-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105614",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-09T10:39:00+00:00"
     },
     {
       "id": "fa9842b403b6b737",
@@ -703,16 +723,6 @@
       "published_at": "2026-09-09T06:06:48+00:00"
     },
     {
-      "id": "4c368cbbe8496424",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.09.09. szerda",
-      "link": "https://www.agrarszektor.hu/noveny/20260909/friss-agrarszektor-idojaras-elorejelzes-20260909-szerda-64368",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-09T05:45:04+00:00"
-    },
-    {
       "id": "1ac0aaf3c6dcc35f",
       "title": "Húsz nappal előbb érik a búza – mi történik?",
       "link": "https://mezohir.hu/2026/09/09/mezogazdasag-gyorsul-a-buza-erese/",
@@ -743,16 +753,6 @@
       "published_at": "2026-09-08T20:03:22+00:00"
     },
     {
-      "id": "2f7eac96ec5725ca",
-      "title": "Rovarok mint haszonállatok",
-      "link": "https://magyarmezogazdasag.hu/2026/09/08/rovarok-mint-haszonallatok/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-08T19:04:56+00:00"
-    },
-    {
       "id": "091fcd469f55390d",
       "title": "Csak a csoda segíthet? Riasztó jövő várhat a magyarországi erdőkre",
       "link": "https://agronaplo.hu/agrarhirek/20260908/csak-a-csoda-segithet-riaszto-jovo-varhat-a-magyarorszagi-erdokre-41065",
@@ -781,16 +781,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-08T14:11:00+00:00"
-    },
-    {
-      "id": "4b8854a2de069b22",
-      "title": "Hogyan és meddig lehet jövedelmező a napraforgó termesztése?",
-      "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/hogyan-es-meddig-lehet-jovedelmezo-a-napraforgo-termesztese/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "portál",
-      "published_at": "2026-09-08T14:10:00+00:00"
     },
     {
       "id": "31a084b209192eea",
@@ -1161,16 +1151,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-05T10:41:00+00:00"
-    },
-    {
-      "id": "4b1593449e7ca3d0",
-      "title": "Műholdról jöhet a térerő a magyar földekre",
-      "link": "https://mezohir.hu/2026/09/05/mezogazdasag-jon-a-starlink-mobile/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-05T06:11:00+00:00"
     },
     {
       "id": "04fae3bcae028b35",
