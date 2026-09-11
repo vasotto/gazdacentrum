@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-09-10T20:51:53.305167+00:00",
-  "item_count": 152,
+  "generated_at": "2026-09-11T04:39:24.477019+00:00",
+  "item_count": 148,
   "items": [
+    {
+      "id": "c40102525023f473",
+      "title": "Drucskó Zoltán: az IKR története közös a gazdákkal",
+      "link": "https://magyarmezogazdasag.hu/2026/09/11/drucsko-zoltan-az-ikr-tortenete-kozos-a-gazdakkal/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-11T06:06:21+00:00"
+    },
+    {
+      "id": "49622c60aa4f3d68",
+      "title": "Zöldséghiány jöhet a magyar boltokban? Erre jobb lesz, ha felkészülünk",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20260911/zoldseghiany-johet-a-magyar-boltokban-erre-jobb-lesz-ha-felkeszulunk-64391",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-11T04:01:00+00:00"
+    },
+    {
+      "id": "81964baf34ee902a",
+      "title": "3 napos előrejelzés: Borúsan indul, és egész másképp zárul a hétvége",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-borusan-indul-es-egesz-maskepp-zarul-a-hetvege-105639-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105639",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-11T03:07:00+00:00"
+    },
+    {
+      "id": "7c612ed4334a4758",
+      "title": "Szeptemberben ezt tedd a cserepes növényekkel, mielőtt újra a lakásba kerülnek",
+      "link": "https://www.agroinform.hu/gazdaelet/szeptemberben-ezt-tedd-a-cserepes-novenyekkel-mielott-ujra-a-lakasba-kerulnek-105061-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105061",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-11T02:55:00+00:00"
+    },
     {
       "id": "c629e089828f27e3",
       "title": "Óriási csavar lesz az időjárásban: eddig tartott a nyár, jön a lehűlés?",
@@ -81,16 +121,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-10T16:28:00+00:00"
-    },
-    {
-      "id": "c4f7f90783f1788c",
-      "title": "A nagy eső csak most jön? Itt a friss előrejelzés, ez vár ránk hétvégén",
-      "link": "https://www.agrarszektor.hu/noveny/20260910/a-nagy-eso-csak-most-jon-itt-a-friss-elorejelzes-ez-var-rank-hetvegen-64406",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T16:02:00+00:00"
     },
     {
       "id": "369913372543539d",
@@ -333,26 +363,6 @@
       "published_at": "2026-09-10T11:45:54+00:00"
     },
     {
-      "id": "15810fa2e293ea05",
-      "title": "Több hullámban érkezik az eső: mutatjuk, mely térségek kapnak 30 millimétert és kik maradnak ki",
-      "link": "https://www.agroinform.hu/idojaras_hirek/tobb-hullamban-erkezik-az-eso-mutatjuk-mely-tersegek-kapnak-30-millimetert-es-kik-maradnak-ki-105667-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105667",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T11:40:00+00:00"
-    },
-    {
-      "id": "c16d51eeda100735",
-      "title": "Évi 7%-os növekedés előtt áll a biológiai növényvédelem Európában",
-      "link": "https://www.agroinform.hu/kerteszet_szoleszet/evi-7-os-novekedes-elott-all-a-biologiai-novenyvedelem-europaban-105654-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105654",
-      "source": "Agroinform",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T11:35:28+00:00"
-    },
-    {
       "id": "7f847438ccde4bfb",
       "title": "Változás lesz a magyar földeken: aki jól dönt, ezzel sokat kereshet",
       "link": "https://www.agrarszektor.hu/noveny/20260910/valtozas-lesz-a-magyar-foldeken-aki-jol-dont-ezzel-sokat-kereshet-64411",
@@ -373,16 +383,6 @@
       "published_at": "2026-09-10T11:23:53+00:00"
     },
     {
-      "id": "2cf336a0f62deb53",
-      "title": "Új fegyver az aszály ellen: jönnek az NGT–1 növények",
-      "link": "https://www.agroinform.hu/szantofold/uj-fegyver-az-aszaly-ellen-jonnek-az-ngt-1-novenyek-105652-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105652",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T11:10:48+00:00"
-    },
-    {
       "id": "b0cd6f59c3e28c54",
       "title": "Különös tárgyak bukkantak fel egy sivatagban, 7 milliárd liter vizet takarítottak meg eddig",
       "link": "https://agroforum.hu/agrarhirek/kornyezetvedelem/kulonos-targyak-bukkantak-fel-egy-sivatagban-7-milliard-liter-vizet-takaritottak-meg-eddig/",
@@ -401,16 +401,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-10T11:01:00+00:00"
-    },
-    {
-      "id": "630f0ca10e151d45",
-      "title": "Kiszáradás és fojtogató hínár: megállás nélkül küzdenek a víz megmentéséért",
-      "link": "https://www.agroinform.hu/kornyezetvedelem/kiszaradas-es-fojtogato-hinar-megallas-nelkul-kuzdenek-a-viz-megmenteseert-105666-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105666",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T10:57:00+00:00"
     },
     {
       "id": "236224fd1e36e912",
@@ -563,16 +553,6 @@
       "published_at": "2026-09-10T06:36:27+00:00"
     },
     {
-      "id": "18df8393298805f6",
-      "title": "Kemény vihar vet véget a nyárnak: jön a nagy eső, mutatjuk, mi várható",
-      "link": "https://www.agrarszektor.hu/noveny/20260910/kemeny-vihar-vet-veget-a-nyarnak-jon-a-nagy-eso-mutatjuk-mi-varhato-64395",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T06:16:00+00:00"
-    },
-    {
       "id": "7a66b841d30cbc08",
       "title": "Megújul a Betamag vetőmag-portfóliója",
       "link": "https://mezohir.hu/2026/09/10/mezogazdasag-megujul-a-vetomagkinalat/",
@@ -591,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-10T06:06:50+00:00"
-    },
-    {
-      "id": "d5edf457c2e510af",
-      "title": "Meglepő gép érkezik a földekre: kiszívja a kártevőket a növények közül",
-      "link": "https://agroforum.hu/agrarhirek/novenyvedelem/meglepo-gep-erkezik-a-foldekre-kiszivja-a-kartevoket-a-novenyek-kozul/",
-      "source": "Agrofórum",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T05:10:00+00:00"
     },
     {
       "id": "3c7dc1f5b1ceff75",
@@ -631,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-09T20:06:14+00:00"
-    },
-    {
-      "id": "52112bce6b56d7b1",
-      "title": "Már nem csak agrárügy a vízhiány – társadalmi problémák jöhetnek",
-      "link": "https://magyarmezogazdasag.hu/2026/09/09/mar-nem-csak-agrarugy-a-vizhiany-tarsadalmi-problemak-johetnek/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-09T19:09:38+00:00"
     },
     {
       "id": "55011365e107f27b",
