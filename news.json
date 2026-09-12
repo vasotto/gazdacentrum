@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-11T20:58:22.412136+00:00",
-  "item_count": 150,
+  "generated_at": "2026-09-12T04:33:20.414780+00:00",
+  "item_count": 149,
   "items": [
+    {
+      "id": "84ac2b4dfbbf0bd6",
+      "title": "Durva, mi hozza el a mezőgazdaság új forradalmát: ez mentheti meg a földeket?",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260912/durva-mi-hozza-el-a-mezogazdasag-uj-forradalmat-ez-mentheti-meg-a-foldeket-64221",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-12T04:01:00+00:00"
+    },
+    {
+      "id": "ba878d2dc1e954b9",
+      "title": "A magyar mezőgazdaság válaszútján: iránymutatás a jövőbe",
+      "link": "https://mezohir.hu/2026/09/12/mezogazdasag-tamogatasi-szabalyok-a-valaszuton/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-12T03:34:00+00:00"
+    },
+    {
+      "id": "8d4cc6c4c76fc420",
+      "title": "3 napos előrejelzés: Nyugodtabb hétvége után hétfőn ismét támad az ősz",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-nyugodtabb-hetvege-utan-hetfon-ismet-tamad-az-osz-105677-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105677",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-12T03:05:00+00:00"
+    },
     {
       "id": "0ea853a66b74cc5c",
       "title": "Rezveratrol: egy ígéretes növényi hatóanyag",
@@ -373,16 +403,6 @@
       "published_at": "2026-09-11T10:27:00+00:00"
     },
     {
-      "id": "89a3a3b7b4331466",
-      "title": "Nem elég letenni az ekét: így maradhat a víz a termőföldön",
-      "link": "https://www.agroinform.hu/szantofold/nem-eleg-letenni-az-eket-igy-maradhat-a-viz-a-termofoldon-105689-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105689",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-11T10:24:23+00:00"
-    },
-    {
       "id": "66936d04e4230be7",
       "title": "Szigorodhat az EU bioimportja, könnyítést kapnának a kisebb szereplők",
       "link": "https://magyarmezogazdasag.hu/2026/09/11/szigorodhat-az-eu-bioimportja-konnyitest-kapnanak-a-kisebb-szereplok/",
@@ -391,16 +411,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-11T10:08:26+00:00"
-    },
-    {
-      "id": "0b3cb23da89cb380",
-      "title": "Átírhatják a húsfagyasztás szabályait – októberig várják a véleményeket",
-      "link": "https://www.agroinform.hu/elelmiszeripar/atirhatjak-husfagyasztas-szabalyait-oktoberig-varjak-a-velemenyeket-105688-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105688",
-      "source": "Agroinform",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-11T10:06:47+00:00"
     },
     {
       "id": "94e0adda3faedb89",
@@ -551,16 +561,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-11T06:06:21+00:00"
-    },
-    {
-      "id": "4476a2cd1b0fb483",
-      "title": "Disznótoros hétvége Versegen",
-      "link": "https://agroforum.hu/programok/disznotoros-hetvege-versegen/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-10T18:11:06+00:00"
     },
     {
       "id": "cf4626421badcb6b",
@@ -1151,16 +1151,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-08T03:34:00+00:00"
-    },
-    {
-      "id": "029a90e7dabefe84",
-      "title": "Ilyen áfával, hőséggel, munkaerővel mi vár a paprikánkra?",
-      "link": "https://mezohir.hu/2026/09/07/paprikatermesztes-kihivasai-a-mezogazdasagban/",
-      "source": "Mezőhír",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-07T13:34:00+00:00"
     },
     {
       "id": "d757a105b9a8ccee",
