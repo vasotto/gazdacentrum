@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-16T21:17:25.438175+00:00",
+  "generated_at": "2026-09-17T04:51:52.992238+00:00",
   "item_count": 153,
   "items": [
+    {
+      "id": "369d5778b6399d2a",
+      "title": "Kicsi hozamok várhatók burgonyából Északnyugat-Európában",
+      "link": "https://magyarmezogazdasag.hu/2026/09/17/kicsi-burgonyahozamok-vannak-kilatasban-eszaknyugat-europaban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T06:02:22+00:00"
+    },
+    {
+      "id": "ea7962138ac1c9b6",
+      "title": "Alig vesznek már ilyen gépet a magyar gazdák: miért nem kell nekik?",
+      "link": "https://www.agrarszektor.hu/gepek/20260917/alig-vesznek-mar-ilyen-gepet-a-magyar-gazdak-miert-nem-kell-nekik-64525",
+      "source": "Agrárszektor",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T04:03:00+00:00"
+    },
+    {
+      "id": "cc1f9781ff11e228",
+      "title": "Mi a különbség a baromfipestis és a madárinfluenza között?",
+      "link": "https://agroforum.hu/szakcikkek/allattenyesztes-szakcikkek/mi-a-kulonbseg-a-baromfipestis-es-a-madarinfluenza-kozott/",
+      "source": "Agrofórum",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T03:40:00+00:00"
+    },
+    {
+      "id": "73b4ec6f67fc85da",
+      "title": "Rekordcukor kevés répából: nehéz év a cukorrépának",
+      "link": "https://mezohir.hu/2026/09/17/mezogazdasag-nehez-ev-a-cukorrepanak/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T03:34:00+00:00"
+    },
+    {
+      "id": "3d4e4e7ee7645162",
+      "title": "3 napos előrejelzés: erősödő szél, változékony időjárás",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-erosodo-szel-valtozekony-idojaras-105811-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105811",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T03:05:27+00:00"
+    },
+    {
+      "id": "c97def94d54a81f6",
+      "title": "Ne dobd ki a tökmagot: így lesz belőle ropogós őszi csemege!",
+      "link": "https://www.agroinform.hu/gazdaelet/ne-dobd-ki-a-tokmagot-igy-lesz-belole-ropogos-oszi-snack-105108-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105108",
+      "source": "Agroinform",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T03:04:00+00:00"
+    },
+    {
+      "id": "753c7e15d0d3e2f7",
+      "title": "A dió egészséges, de könnyű túlzásba vinni: ennyi fér bele egy adagba",
+      "link": "https://www.agroinform.hu/gazdaelet/a-dio-egeszseges-de-konnyu-tulzasba-vinni-ennyi-fer-bele-egy-adagba-105107-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105107",
+      "source": "Agroinform",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-17T01:51:00+00:00"
+    },
     {
       "id": "6fc257f2b51dfce5",
       "title": "Darázsveszély – Mikor támad a darázs?",
@@ -313,16 +383,6 @@
       "published_at": "2026-09-16T12:45:50+00:00"
     },
     {
-      "id": "8a0922e70a206308",
-      "title": "Megtört az áremelkedés: lefelé tart az alma ára",
-      "link": "https://www.agroinform.hu/kerteszet_szoleszet/fordulat-az-almapiacon-esnek-az-arak-105818-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105818",
-      "source": "Agroinform",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-09-16T12:36:29+00:00"
-    },
-    {
       "id": "dbf22cb806314d15",
       "title": "Ezért a zöldségért rohanták meg sokan a boltokat: rengetegen veszik",
       "link": "https://www.agrarszektor.hu/noveny/20260916/ezert-a-zoldsegert-rohantak-meg-sokan-a-boltokat-rengetegen-veszik-64515",
@@ -333,16 +393,6 @@
       "published_at": "2026-09-16T12:28:00+00:00"
     },
     {
-      "id": "a1da2fffa719c6a3",
-      "title": "Automata készülékek a gyakorlatban – mire figyelj, ha tojáskeltetőt választasz?",
-      "link": "https://www.agroinform.hu/tovabbi_cikkek/automata-keszulekek-a-gyakorlatban-mire-figyelj-ha-tojaskeltetot-valasztasz-105808-002?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105808",
-      "source": "Agroinform",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-16T12:18:51+00:00"
-    },
-    {
       "id": "6732b8d6204db360",
       "title": "Miért nincs illata sok bolti rózsának? A válasz a nemesítésben keresendő",
       "link": "https://agroforum.hu/szakcikkek/egyeb/miert-nincs-illata-sok-bolti-rozsanak-a-valasz-a-nemesitesben-keresendo/",
@@ -351,16 +401,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-16T12:10:00+00:00"
-    },
-    {
-      "id": "9c369cd0203cd3dc",
-      "title": "Aszály ellen is bevethetők a meglévő csatornák – nem feltétlenül kell mindent újraépíteni",
-      "link": "https://www.agroinform.hu/szantofold/aszaly-ellen-is-bevethetok-a-meglevo-csatornak-nem-feltetlenul-kell-mindent-ujraepiteni-105803-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105803",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-16T12:06:04+00:00"
     },
     {
       "id": "0a6a03b31625ce76",
@@ -573,16 +613,6 @@
       "published_at": "2026-09-16T06:03:26+00:00"
     },
     {
-      "id": "72e99b6b12769802",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.09.16. szerda",
-      "link": "https://www.agrarszektor.hu/noveny/20260916/friss-agrarszektor-idojaras-elorejelzes-20260916-szerda-64508",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-16T05:45:02+00:00"
-    },
-    {
       "id": "8725fd098cb64ffa",
       "title": "Bács-Kiskun vármegyében baromfipestist igazolt a hatóság brojlercsirke állományban",
       "link": "https://agroforum.hu/szakcikkek/allattenyesztes-szakcikkek/bacs-kiskun-varmegyeben-baromfipestist-igazolt-a-hatosag-brojlercsirke-allomanyban/",
@@ -623,16 +653,6 @@
       "published_at": "2026-09-15T20:03:11+00:00"
     },
     {
-      "id": "b3b5fe76dea4ccc2",
-      "title": "Környezettudatosság az asztalon: az élelmiszerműveltség lényege",
-      "link": "https://magyarmezogazdasag.hu/2026/09/15/kornyezettudatossag-az-asztalon-az-elelmiszermuveltseg-lenyege/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-15T19:03:53+00:00"
-    },
-    {
       "id": "e5b0810a2d5c3895",
       "title": "Kiderült a lengyel almapiac sötét titka: ez áll minden hátterében?",
       "link": "https://www.agrarszektor.hu/noveny/20260915/kiderult-a-lengyel-almapiac-sotet-titka-ez-all-minden-hattereben-64504",
@@ -641,16 +661,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-09-15T18:36:00+00:00"
-    },
-    {
-      "id": "520d5832347df80c",
-      "title": "Pánik Tihanynál: megtörtént, amitől mindenki tartott",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20260915/panik-tihanynal-megtortent-amitol-mindenki-tartott-64501",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-15T17:29:00+00:00"
     },
     {
       "id": "7d1f8ea3f53e7a10",
@@ -1041,16 +1051,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-13T06:11:00+00:00"
-    },
-    {
-      "id": "827bff56e44990d3",
-      "title": "A szántóföldi növénytermesztés kilátásai az Alföldön",
-      "link": "https://mezohir.hu/2026/09/13/mezogazdasag-vizvisszatartas-mentheti-az-alfoldet/",
-      "source": "Mezőhír",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-13T03:34:00+00:00"
     },
     {
       "id": "8da8998b784b712b",
