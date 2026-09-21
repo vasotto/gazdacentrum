@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-20T20:48:22.677629+00:00",
-  "item_count": 158,
+  "generated_at": "2026-09-21T04:54:31.337071+00:00",
+  "item_count": 159,
   "items": [
+    {
+      "id": "a19a43ab8c6b0c05",
+      "title": "Pénzzel és a követelmények enyhítésével támogatják a nehéz helyzetbe jutott gazdákat",
+      "link": "https://magyarmezogazdasag.hu/2026/09/21/penzzel-es-a-kovetelmenyek-enyhitesevel-tamogatjak-a-nehez-helyzetbe-jutott-gazdakat/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-21T06:03:07+00:00"
+    },
+    {
+      "id": "3538875aeb35e97a",
+      "title": "Súlyos milliókat bukhatnak a magyar agrárcégek: erre kevesen készültek fel, jön a hidegzuhany",
+      "link": "https://www.agrarszektor.hu/vallalkozas/20260921/sulyos-milliokat-bukhatnak-a-magyar-agrarcegek-erre-kevesen-keszultek-fel-jon-a-hidegzuhany-64507",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-21T03:58:00+00:00"
+    },
+    {
+      "id": "8456a5c536592c42",
+      "title": "A megfelelő szedési időpont meghatározása",
+      "link": "https://mezohir.hu/2026/09/21/mezogazdasag-szedesi-idopont-almaeres-alapjan/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-21T03:34:00+00:00"
+    },
+    {
+      "id": "f43e40883d21076b",
+      "title": "Időjárási fordulat: 10 fok alá süllyedhetnek a minimumok",
+      "link": "https://www.agroinform.hu/idojaras_hirek/idojarasi-fordulat-10-fok-ala-sullyedhetnek-a-minimumok-105900-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105900",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-21T03:04:41+00:00"
+    },
+    {
+      "id": "5c4343740e5407bd",
+      "title": "A kombájntűz sokszor nem a semmiből jön: ezek a pontok melegszenek túl először",
+      "link": "https://www.agroinform.hu/gepeszet/a-kombajntuz-sokszor-nem-a-semmibol-jon-ezek-a-pontok-melegszenek-tul-eloszor-105209-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105209",
+      "source": "Agroinform",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-21T03:01:00+00:00"
+    },
     {
       "id": "b435006532fa2ebd",
       "title": "Egy évszázad után új vadmacskafajt találtak",
@@ -393,16 +443,6 @@
       "published_at": "2026-09-20T08:02:36+00:00"
     },
     {
-      "id": "b09d1f1e03a57242",
-      "title": "Őszi búza vetőmagnorma: hány kilogramm kell hektáronként?",
-      "link": "https://www.agroinform.hu/szantofold/oszi-buza-vetomagnorma-hany-kilogramm-kell-hektaronkent-104897-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=104897",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-20T07:45:26+00:00"
-    },
-    {
       "id": "223e445143e7596e",
       "title": "Életveszélyben dolgozik sok magyar gazda? Ebbe akár bele is halhatnak",
       "link": "https://agronaplo.hu/agrarhirek/20260920/eletveszelyben-dolgozik-sok-magyar-gazda-ebbe-akar-bele-is-halhatnak-41129",
@@ -411,16 +451,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-20T07:21:00+00:00"
-    },
-    {
-      "id": "abbeb6e92070870c",
-      "title": "Az árpa is felzárkózik a malmi búza árához: ezek a piaci kockázatok",
-      "link": "https://www.agroinform.hu/termenypiacok/az-arpa-is-felzarkozik-a-malmi-buza-arahoz-ezek-a-piaci-kockazatok-105901-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105901",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-09-20T07:15:28+00:00"
     },
     {
       "id": "67f6eee3088a9d2b",
@@ -521,16 +551,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-19T21:08:30+00:00"
-    },
-    {
-      "id": "772046bd87eb8f02",
-      "title": "Gyurgyalagok: színpompás légi akrobaták",
-      "link": "https://magyarmezogazdasag.hu/2026/09/19/gyurgyalagok-szinpompas-legi-akrobatak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-19T20:02:08+00:00"
     },
     {
       "id": "4187a8277db27df4",
@@ -1061,16 +1081,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-16T07:01:00+00:00"
-    },
-    {
-      "id": "d35c2e8b4a56e674",
-      "title": "Megmozdult a kukorica és a szója ára",
-      "link": "https://mezohir.hu/2026/09/16/kukorica-ara-mozdul-a-mezogazdasag/",
-      "source": "Mezőhír",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-09-16T06:11:00+00:00"
     },
     {
       "id": "44c0f0f3ab241f2b",
