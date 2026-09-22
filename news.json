@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-21T21:58:12.016597+00:00",
-  "item_count": 143,
+  "generated_at": "2026-09-22T04:54:43.104425+00:00",
+  "item_count": 142,
   "items": [
+    {
+      "id": "5ac89344e2c7f587",
+      "title": "Exporttilalom szorítja a román juhágazatot",
+      "link": "https://magyarmezogazdasag.hu/2026/09/22/exporttilalom-szoritja-a-roman-juhagazatot/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-09-22T06:02:56+00:00"
+    },
+    {
+      "id": "d58460e22011ee02",
+      "title": "Idegen betolakodók jelentek meg a magyar vizekben: gyorsan terjednek",
+      "link": "https://www.agrarszektor.hu/allat/20260922/idegen-betolakodok-jelentek-meg-a-magyar-vizekben-gyorsan-terjednek-64589",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-22T04:03:00+00:00"
+    },
+    {
+      "id": "9b2cbc725891ca35",
+      "title": "A szőlőültetvények az erdőtüzek ellen is védhetnek",
+      "link": "https://mezohir.hu/2026/09/22/szoloultetvenyekkel-az-erdotuzek-ellen/",
+      "source": "Mezőhír",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-22T03:34:00+00:00"
+    },
     {
       "id": "dffdf0d52bddfcc2",
       "title": "Dióöntözés nem csak nyáron",
@@ -503,16 +533,6 @@
       "published_at": "2026-09-21T05:01:00+00:00"
     },
     {
-      "id": "3538875aeb35e97a",
-      "title": "Súlyos milliókat bukhatnak a magyar agrárcégek: erre kevesen készültek fel, jön a hidegzuhany",
-      "link": "https://www.agrarszektor.hu/vallalkozas/20260921/sulyos-milliokat-bukhatnak-a-magyar-agrarcegek-erre-kevesen-keszultek-fel-jon-a-hidegzuhany-64507",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-21T03:58:00+00:00"
-    },
-    {
       "id": "8456a5c536592c42",
       "title": "A megfelelő szedési időpont meghatározása",
       "link": "https://mezohir.hu/2026/09/21/mezogazdasag-szedesi-idopont-almaeres-alapjan/",
@@ -543,16 +563,6 @@
       "published_at": "2026-09-20T20:03:06+00:00"
     },
     {
-      "id": "b9a3d2e068370947",
-      "title": "Ölelgesse a fákat, túrjon bele a sárba: egészségesebb lehet tőle",
-      "link": "https://magyarmezogazdasag.hu/2026/09/20/olelgesse-a-fakat-turjon-bele-a-sarba-egeszsegesebb-lehet-tole/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-20T19:02:10+00:00"
-    },
-    {
       "id": "f784306ab4f05bc9",
       "title": "Nagyon fontos hírt kaptak a magyar gazdák: milliárdos új támogatás érkezik",
       "link": "https://agronaplo.hu/agrarhirek/20260920/nagyon-fontos-hirt-kaptak-a-magyar-gazdak-milliardos-uj-tamogatas-erkezik-41133",
@@ -561,16 +571,6 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "portál",
       "published_at": "2026-09-20T15:28:00+00:00"
-    },
-    {
-      "id": "4ace89dc7f6298e7",
-      "title": "A nyár emléke – Így készíthet szárazvirág csokrot kerti növényekből",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/a-nyar-emleke-igy-keszithet-szarazvirag-csokrot-kerti-novenyekbol/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-20T14:10:00+00:00"
     },
     {
       "id": "1b06cedc89efb546",
@@ -901,16 +901,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-17T10:41:00+00:00"
-    },
-    {
-      "id": "cce59b7756bfabaa",
-      "title": "Másképp kell termelni – alkalmazkodás a SAATBAU látóképi bemutatóján",
-      "link": "https://mezohir.hu/2026/09/17/saatbau-alkalmazkodas-uj-termesztesi-rendszerekkel/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-17T09:37:27+00:00"
     },
     {
       "id": "c16274973becee6f",
