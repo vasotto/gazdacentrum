@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-22T21:18:02.872851+00:00",
-  "item_count": 138,
+  "generated_at": "2026-09-23T04:44:25.553926+00:00",
+  "item_count": 137,
   "items": [
+    {
+      "id": "33761a2ccf41e1ce",
+      "title": "Hőségállóságra tesztelt traktorok",
+      "link": "https://magyarmezogazdasag.hu/2026/09/23/hosegallosagra-tesztelt-traktorok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-23T06:02:56+00:00"
+    },
+    {
+      "id": "a2be800c977640cc",
+      "title": "Megszólaltak az agrármilliárdosok: nincsenek elragadtatva a vagyonadótól",
+      "link": "https://www.agrarszektor.hu/vallalkozas/20260923/megszolaltak-az-agrarmilliardosok-nincsenek-elragadtatva-a-vagyonadotol-64626",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-23T03:58:00+00:00"
+    },
+    {
+      "id": "1427eaa384d05824",
+      "title": "Porzik a föld, mi lesz az őszi vetéssel?",
+      "link": "https://mezohir.hu/2026/09/23/mezogazdasag-talajmuveles-szaraz-foldon/",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-23T03:34:00+00:00"
+    },
     {
       "id": "af7e002a5cf95407",
       "title": "Mire jó egy talajnedvesség mérő?",
@@ -403,16 +433,6 @@
       "published_at": "2026-09-22T05:45:02+00:00"
     },
     {
-      "id": "f3108ec562f48602",
-      "title": "Brutális vihar csapott le ezekre a földekre: óriásiak a károk",
-      "link": "https://www.agrarszektor.hu/noveny/20260922/brutalis-vihar-csapott-le-ezekre-a-foldekre-oriasiak-a-karok-64596",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-22T05:01:00+00:00"
-    },
-    {
       "id": "9b2cbc725891ca35",
       "title": "A szőlőültetvények az erdőtüzek ellen is védhetnek",
       "link": "https://mezohir.hu/2026/09/22/szoloultetvenyekkel-az-erdotuzek-ellen/",
@@ -441,16 +461,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-21T20:03:54+00:00"
-    },
-    {
-      "id": "d05636d706da9131",
-      "title": "A hőhullámok időpontja is számít a terméshozamnál",
-      "link": "https://magyarmezogazdasag.hu/2026/09/21/a-hohullamok-ideje-is-szamit-a-termeshozamnal/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-21T19:02:51+00:00"
     },
     {
       "id": "26eb014ba5aa54ee",
@@ -541,16 +551,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-21T11:24:00+00:00"
-    },
-    {
-      "id": "cbf52599ec9e0e26",
-      "title": "Akikre generációk óta számítani lehet: 30 éves az Alfa-Gép",
-      "link": "https://agroforum.hu/szakcikkek/gepeszet/akikre-generaciok-ota-szamitani-lehet-30-eves-az-alfa-gep/",
-      "source": "Agrofórum",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-21T11:10:00+00:00"
     },
     {
       "id": "92175eb6c0ab1beb",
@@ -891,16 +891,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-18T07:01:00+00:00"
-    },
-    {
-      "id": "7770a84e29eee041",
-      "title": "Nagyot ment külföldön a magyar görögdinnye",
-      "link": "https://mezohir.hu/2026/09/18/mezogazdasag-erosodik-a-magyar-gorogdinnye/",
-      "source": "Mezőhír",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-18T06:11:00+00:00"
     },
     {
       "id": "aab7502a0413c779",
