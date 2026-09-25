@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-24T21:30:48.644988+00:00",
-  "item_count": 161,
+  "generated_at": "2026-09-25T04:56:55.017363+00:00",
+  "item_count": 158,
   "items": [
+    {
+      "id": "b2bd1371783baab7",
+      "title": "Technológia és természet együtt formálhatja a kertészet jövőjét",
+      "link": "https://magyarmezogazdasag.hu/2026/09/25/technologia-es-termeszet-egyutt-formalhatja-a-kerteszet-jovojet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-25T06:04:31+00:00"
+    },
+    {
+      "id": "fe826fb39adb6354",
+      "title": "Sokan nem ismerik a szabályokat: csak így szállíthatsz állatot Magyarországon",
+      "link": "https://www.agrarszektor.hu/allat/20260925/sokan-nem-ismerik-a-szabalyokat-csak-igy-szallithatsz-allatot-magyarorszagon-64657",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-25T04:03:00+00:00"
+    },
+    {
+      "id": "8072f0b6fe6bcf07",
+      "title": "Óránként 5000 palánta: gép váltja ki a kézi munkát",
+      "link": "https://mezohir.hu/2026/09/25/mezogazdasag-palanta-automatizalas-5000-es-tempoban/",
+      "source": "Mezőhír",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-25T03:34:00+00:00"
+    },
+    {
+      "id": "9b7f58b8a682583f",
+      "title": "3 napos előrejelzés: Mintha visszatérne a nyár",
+      "link": "https://www.agroinform.hu/idojaras_hirek/3-napos-elorejelzes-mintha-visszaterne-a-nyar-106015-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=106015",
+      "source": "Agroinform",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-25T03:10:00+00:00"
+    },
+    {
+      "id": "f132b7f8650eaec5",
+      "title": "Lézeres gyomirtás a gyakorlatban + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/gyomirtas/lezeres-gyomirtas-a-gyakorlatban-video/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-09-25T02:53:00+00:00"
+    },
     {
       "id": "0242b59b70fe28ac",
       "title": "Tárolókapacitással bővíthető a hazai zöldség- és gyümölcskínálat",
@@ -413,16 +463,6 @@
       "published_at": "2026-09-24T12:15:56+00:00"
     },
     {
-      "id": "f8ff860f55e0db5b",
-      "title": "Súlyos árat fizetnek a gazdák a csapadékhiányért: sokan veszteséggel zárhatják az évet",
-      "link": "https://www.agroinform.hu/szantofold/sulyos-arat-fizetnek-a-gazdak-a-csapadekhianyert-sokan-veszteseggel-zarhatjak-az-evet-106028-001?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=106028",
-      "source": "Agroinform",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-24T11:36:54+00:00"
-    },
-    {
       "id": "e2f502f3e4a4376d",
       "title": "Új növények lephetik el Magyarországot: valóban megéri ezekre váltani?",
       "link": "https://agronaplo.hu/agrarhirek/20260924/uj-novenyek-lephetik-el-magyarorszagot-valoban-megeri-ezekre-valtani-41159",
@@ -451,16 +491,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-09-24T11:10:00+00:00"
-    },
-    {
-      "id": "b1bdda56d7341b0e",
-      "title": "Hogyan biztosítják a gazdák az öntözés hatékonyságát",
-      "link": "https://www.agroinform.hu/szantofold/uj-korszakot-hoz-az-aszaly-a-magyar-szantofoldeken-105662-002?utm_source=rss&utm_medium=organic&utm_campaign=HIRpromo&utm_content=105662",
-      "source": "Agroinform",
-      "category": "Növénytermesztés",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "portál",
-      "published_at": "2026-09-24T11:06:37+00:00"
     },
     {
       "id": "f4cb61165e651d5f",
@@ -511,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-24T09:32:00+00:00"
-    },
-    {
-      "id": "f42a530d79c5d872",
-      "title": "Mire jó valójában a homoktövis, és mikor legyen óvatos vele?",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/mire-jo-valojaban-a-homoktovis-es-mikor-legyen-ovatos-vele/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-24T09:10:00+00:00"
     },
     {
       "id": "32a7b6c77855378b",
@@ -593,16 +613,6 @@
       "published_at": "2026-09-24T07:44:00+00:00"
     },
     {
-      "id": "876820356bc4b95d",
-      "title": "Egymásnak eresztették az olcsó kínai gépi szerszámokat a diszkontlánc termékével, itt az eredmény",
-      "link": "https://agroforum.hu/agrarhirek/nagyvilag/egymasnak-eresztettek-az-olcso-kinai-gepi-szerszamokat-a-diszkontlanc-termekevel-itt-az-eredmeny/",
-      "source": "Agrofórum",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-24T07:10:00+00:00"
-    },
-    {
       "id": "491c434e029af529",
       "title": "Nagy esőre készülhetünk ma: ezt a térséget teljesen elmoshatja a zivatar",
       "link": "https://www.agrarszektor.hu/noveny/20260924/nagy-esore-keszulhetunk-ma-ezt-a-terseget-teljesen-elmoshatja-a-zivatar-64654",
@@ -643,16 +653,6 @@
       "published_at": "2026-09-24T07:01:00+00:00"
     },
     {
-      "id": "f084d9ce61f547c2",
-      "title": "Figyelmeztetik a magyarokat: ebben a 4 megyében ma durva vihar jöhet",
-      "link": "https://www.agrarszektor.hu/noveny/20260924/figyelmeztetik-a-magyarokat-ebben-a-4-megyeben-ma-durva-vihar-johet-64653",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-24T06:13:00+00:00"
-    },
-    {
       "id": "786dd432f1a578e7",
       "title": "95 százalék egyetért: a mezőgazdaság kulcskérdés",
       "link": "https://mezohir.hu/2026/09/24/mezogazdasag-jovoje-95-szazalek/",
@@ -661,16 +661,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-24T06:11:00+00:00"
-    },
-    {
-      "id": "db28e4858f3be373",
-      "title": "A gyümölcsfák tápanyag-felhasználásának dinamikája",
-      "link": "https://agroforum.hu/szakcikkek/gyumolcs/a-gyumolcsfak-tapanyag-felhasznalasanak-dinamikaja/",
-      "source": "Agrofórum",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-24T06:10:00+00:00"
     },
     {
       "id": "8eab532b4bd7ac6c",
@@ -721,16 +711,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-23T21:03:47+00:00"
-    },
-    {
-      "id": "718fef1cda96fccc",
-      "title": "Nyolc állomás, nyolc különböző érték, egy cél",
-      "link": "https://magyarmezogazdasag.hu/2026/09/23/nyolc-allomas-nyolc-kulonbozo-ertek-egy-cel/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-23T20:07:50+00:00"
     },
     {
       "id": "91ab638897a91e8d",
@@ -1171,16 +1151,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-21T09:01:00+00:00"
-    },
-    {
-      "id": "c50f4c3bafcec642",
-      "title": "30 fok után jön a hidegzuhany",
-      "link": "https://mezohir.hu/2026/09/21/mezogazdasag-lehules-erkezik-a-heten/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-21T08:18:02+00:00"
     },
     {
       "id": "38c40ae25abebc63",
