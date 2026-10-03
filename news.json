@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-03T16:17:23.254349+00:00",
-  "item_count": 134,
+  "generated_at": "2026-10-03T21:13:51.198885+00:00",
+  "item_count": 145,
   "items": [
+    {
+      "id": "6c9b78f80ceb79f4",
+      "title": "Kis híján eltűnt egy lepke, mára elsötétül a rajaitól az éjszakai égbolt",
+      "link": "https://magyarmezogazdasag.hu/2026/10/03/kis-hijan-eltunt-egy-lepke-mara-elsotetul-a-rajaitol-az-ejszakai-egbolt/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T21:08:49+00:00"
+    },
+    {
+      "id": "a36b043a2a872a51",
+      "title": "Tápióka: az elfeledett alapanyagtól a bubble teáig",
+      "link": "https://magyarmezogazdasag.hu/2026/10/03/tapioka-az-elfeledett-alapanyagtol-a-bubble-teaig/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T20:08:13+00:00"
+    },
+    {
+      "id": "c7c022c158bf6f01",
+      "title": "10 klímaálló évelő, ami ősszel díszíti a kertet",
+      "link": "https://magyarmezogazdasag.hu/2026/10/03/10-klimaallo-evelo-ami-osszel-disziti-a-kertet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T19:09:59+00:00"
+    },
+    {
+      "id": "d01d995a20ecf4ea",
+      "title": "Decemberi botanikai séta a fehérvárcsurgói Károlyi Kastély parkjában",
+      "link": "https://agroforum.hu/programok/decemberi-botanikai-seta-a-fehervarcsurgoi-karolyi-kastely-parkjaban/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T17:59:51+00:00"
+    },
+    {
+      "id": "7d2698923a0b5258",
+      "title": "Brutális drágulás jön a boltokban: hihetetlen, mi áll a háttérben",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261003/brutalis-dragulas-jon-a-boltokban-hihetetlen-mi-all-a-hatterben-64851",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-03T17:29:00+00:00"
+    },
+    {
+      "id": "fc38ec7da23537a2",
+      "title": "Itt az utolsó figyelmeztetés: most már drasztikus lépésekre van szükség",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261003/itt-az-utolso-figyelmeztetes-most-mar-drasztikus-lepesekre-van-szukseg-64854",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T16:31:00+00:00"
+    },
     {
       "id": "359dc5aec27fe252",
       "title": "Akkor a baj, hogy harmadfokú készültséget rendeltek el itthon",
@@ -433,26 +493,6 @@
       "published_at": "2026-10-02T14:28:17+00:00"
     },
     {
-      "id": "acbd2512186b85b5",
-      "title": "Hamarosan visszatérhet a brazil baromfihús az uniós piacra",
-      "link": "https://magyarmezogazdasag.hu/2026/10/02/hamarosan-visszaterhet-a-brazil-baromfihus-az-unios-piacra/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-02T14:07:32+00:00"
-    },
-    {
-      "id": "61df526fa6f1ad7b",
-      "title": "Gigaberuházás Magyarországon: óriási halgazdasági fejlesztés kezdődik",
-      "link": "https://www.agrarszektor.hu/agrarpenzek/20261002/gigaberuhazas-magyarorszagon-oriasi-halgazdasagi-fejlesztes-kezdodik-64826",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T13:31:00+00:00"
-    },
-    {
       "id": "2c64b84162fa7fc9",
       "title": "Magyar agrártudás érkezik Ghánába",
       "link": "https://mezohir.hu/2026/10/02/magyar-ghanai-agraregyuttmukodes-a-mezogazdasagban/",
@@ -461,16 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-02T12:34:00+00:00"
-    },
-    {
-      "id": "d27ab4efab8bf5cd",
-      "title": "Átalakulás jöhet a kávépiacon: ezt jó, ha mindenki tudja",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261002/atalakulas-johet-a-kavepiacon-ezt-jo-ha-mindenki-tudja-64819",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-02T12:28:00+00:00"
     },
     {
       "id": "4649b33b09dda418",
@@ -513,16 +543,6 @@
       "published_at": "2026-10-02T10:41:00+00:00"
     },
     {
-      "id": "716f67cd9b0b3d66",
-      "title": "Ausztria ragaszkodik az erős uniós agrárpolitikához",
-      "link": "https://magyarmezogazdasag.hu/2026/10/02/ausztria-ragaszkodik-az-eros-unios-agrarpolitikahoz/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T10:07:07+00:00"
-    },
-    {
       "id": "82b3d8e8cd43f9f7",
       "title": "Spanyolország: az uniós padlizsánpiac kétharmada spanyol kézben",
       "link": "https://fruitveb.hu/spanyolorszag-az-unios-padlizsanpiac-ketharmada-spanyol-kezben/",
@@ -541,16 +561,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-02T08:46:00+00:00"
-    },
-    {
-      "id": "ce3e5c5772e303c5",
-      "title": "Keleti csemegeszőlő-toplista",
-      "link": "https://magyarmezogazdasag.hu/2026/10/02/keleti-csemegeszolo-toplista/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T08:08:44+00:00"
     },
     {
       "id": "82abdde3182240d8",
@@ -821,6 +831,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-09-30T14:30:00+00:00"
+    },
+    {
+      "id": "5390295f692e3eb4",
+      "title": "Reinke rendszerek szezonvégi karbantartása: így készítse fel öntözőrendszerét a télre",
+      "link": "https://magtarkft.hu/reinke-szezonvegi-karbantartas",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-30T13:13:07+00:00"
     },
     {
       "id": "10eaefbad9e4aa91",
@@ -1143,6 +1163,16 @@
       "published_at": "2026-09-23T12:45:14+00:00"
     },
     {
+      "id": "c0ae1d673c9c1a97",
+      "title": "DAMMANN önjáró permetezők John Deere vezérléssel és ISOBUS rendszerrel",
+      "link": "https://magtarkft.hu/dammann-onjaro-permetezok-john-deere-vezerlessel-es-isobus-rendszerrel/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-23T11:38:23+00:00"
+    },
+    {
       "id": "76d938a146202f08",
       "title": "Friss adatok a hazai biotermék piacról: egyre több bioélelmiszer kerül a kosarunkba, de lépést tud-e tartani a hazai kínálat?",
       "link": "https://biokutatas.hu/hir/friss-adatok-a-hazai-biotermek-piacrol/",
@@ -1213,6 +1243,16 @@
       "published_at": "2026-09-21T08:13:37+00:00"
     },
     {
+      "id": "b9910decf50346f4",
+      "title": "STEYR HYTRAC: hidrogénhajtású traktorral kutatják a mezőgazdaság energiafüggetlenebb jövőjét",
+      "link": "https://magtarkft.hu/steyr-hytrac-hidrogenhajtasu-traktorral-kutatjak-a-mezogazdasag-energiafuggetlenebb-jovojet/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-19T13:10:32+00:00"
+    },
+    {
       "id": "aab7502a0413c779",
       "title": "FORTUNA műhelymunka és éves projekttalálkozó Párizsban",
       "link": "https://biokutatas.hu/hir/fortuna-muhelymunka-es-eves-projekttalalkozo-parizsban/",
@@ -1261,6 +1301,16 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-09-14T08:18:49+00:00"
+    },
+    {
+      "id": "9850f7d31f2e64ae",
+      "title": "DAMMANN önjárók Güstrower műtrágyaszóró adapterrel",
+      "link": "https://magtarkft.hu/dammann-onjarok-gustrower-mutragyaszoro-adapterrel/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-10T12:05:05+00:00"
     },
     {
       "id": "be597cab048ed5c0",
@@ -1341,6 +1391,66 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-08-05T13:43:07+00:00"
+    },
+    {
+      "id": "cc05075295cc95b7",
+      "title": "Újabb elismerés: a STEYR Cervus CVT RED DOT díjat nyert",
+      "link": "https://magtarkft.hu/ujabb-elismeres-a-steyr-cervus-cvt-red-dot-dijat-nyert/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-04-27T11:14:30+00:00"
+    },
+    {
+      "id": "847d812b5dde900f",
+      "title": "A szántóföldön derül ki minden – SKY direktvetőgép a gyakorlatban",
+      "link": "https://magtarkft.hu/a-szantofoldon-derul-ki-minden-sky-direktvetogep-a-gyakorlatban/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-04-01T11:29:47+00:00"
+    },
+    {
+      "id": "b27b2ca150d95773",
+      "title": "Nemzetközi formatervezési díjat nyert a STEYR új csúcsmodellje",
+      "link": "https://magtarkft.hu/nemzetkozi-formatervezesi-dijat-nyert-a-steyr-uj-csucsmodellje/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-03-26T12:00:54+00:00"
+    },
+    {
+      "id": "651204af5f56d098",
+      "title": "Több választási lehetőség a STEYR Expert vásárlóknak: kétféle váltó és három felszereltségi csomag",
+      "link": "https://magtarkft.hu/tobb-valasztasi-lehetoseg-a-steyr-expert-vasarloknak-ketfele-valto-es-harom-felszereltsegi-csomag/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-02-25T14:26:41+00:00"
+    },
+    {
+      "id": "3f1753f55658923f",
+      "title": "Új STEYR Impuls traktorcsalád – nagyobb teljesítmény, fejlettebb technológia, kiemelkedő komfort",
+      "link": "https://magtarkft.hu/itt-az-uj-impuls-cvt",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2025-12-10T14:24:51+00:00"
+    },
+    {
+      "id": "bb927ae8e231239e",
+      "title": "Mérnöki kiválóság és csúcsteljesítmény: a Cervus CVT új távlatokat nyit a STEYR erejében",
+      "link": "https://magtarkft.hu/itt-az-uj-cervus-cvt",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2025-12-03T13:08:34+00:00"
     }
   ],
   "errors": [
