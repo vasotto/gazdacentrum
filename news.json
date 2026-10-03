@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-02T22:13:52.762607+00:00",
-  "item_count": 144,
+  "generated_at": "2026-10-03T05:18:09.901950+00:00",
+  "item_count": 143,
   "items": [
+    {
+      "id": "a96bd822ab62ce1d",
+      "title": "Miért romolhat a B12-vitamin felszívódása",
+      "link": "https://magyarmezogazdasag.hu/2026/10/03/miert-romolhat-a-b12-vitamin-felszivodasa/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T07:07:50+00:00"
+    },
+    {
+      "id": "2ac60d47553a8bca",
+      "title": "Ha tovább legel a tehén, finomabb lesz a tej is – egy ír gazdaság titkai",
+      "link": "https://magyarmezogazdasag.hu/2026/10/03/ha-tovabb-legel-a-tehen-finomabb-lesz-a-tej-is-egy-ir-gazdasag-titkai/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T06:06:32+00:00"
+    },
+    {
+      "id": "c5fed9161d25cda6",
+      "title": "Mi kerül a cumisüvegbe? Meglepő eredményt hozott a babavizek ellenőrzése",
+      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/mi-kerul-a-cumisuvegbe-meglepo-eredmenyt-hozott-a-babavizek-ellenorzese/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T05:10:00+00:00"
+    },
+    {
+      "id": "f8acfd175a6a6452",
+      "title": "Igazi luxuscsemege nő a magyar kertekben: sokan kidobják, pedig aranyat ér",
+      "link": "https://www.agrarszektor.hu/noveny/20261003/igazi-luxuscsemege-no-a-magyar-kertekben-sokan-kidobjak-pedig-aranyat-er-64607",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T04:02:00+00:00"
+    },
+    {
+      "id": "0732026e6330aaa0",
+      "title": "A homokon a legkönnyebb szántani, de van más út is!",
+      "link": "https://mezohir.hu/2026/10/03/regenerativ-gazdalkodas-a-mezogazdasagban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T03:34:00+00:00"
+    },
+    {
+      "id": "8a7ef76f2f1151c7",
+      "title": "Terjedő inváziós rovarok: korai felismerés kell",
+      "link": "https://mezohir.hu/2026/10/03/mezogazdasag-invazios-kartevok-magyarorszag-kapujaban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-03T03:34:00+00:00"
+    },
     {
       "id": "5d6e9a8bc6ca4dcf",
       "title": "Új zárlati károsító jelent meg hazánkban",
@@ -403,16 +463,6 @@
       "published_at": "2026-10-02T06:47:00+00:00"
     },
     {
-      "id": "bdca6c6d66f7f893",
-      "title": "Fájdalmas áremelés: jól megdrágult sokak kedvenc gyümölcse",
-      "link": "https://www.agrarszektor.hu/noveny/20261002/fajdalmas-aremeles-jol-megdragult-sokak-kedvenc-gyumolcse-64817",
-      "source": "Agrárszektor",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T06:14:00+00:00"
-    },
-    {
       "id": "5e0457ddf6bd154f",
       "title": "Kevesebb gabonát vesz az EU külföldről",
       "link": "https://mezohir.hu/2026/10/02/unios-gabonaimport-csokken-a-mezogazdasagban/",
@@ -443,16 +493,6 @@
       "published_at": "2026-10-02T06:06:11+00:00"
     },
     {
-      "id": "d1611a385cdf2b78",
-      "title": "Háromszor nyitják ki évente: mit őriznek a sarkvidéki magbunkerben?",
-      "link": "https://agroforum.hu/agrarhirek/novenytermesztes/haromszor-nyitjak-ki-evente-mit-oriznek-a-sarkvideki-magbunkerben/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T05:10:00+00:00"
-    },
-    {
       "id": "3955595d16f61c24",
       "title": "Jön a vénasszonyok nyara, de a gazdák nem örülnek",
       "link": "https://mezohir.hu/2026/10/02/venasszonyok-nyara-a-mezogazdasagban/",
@@ -471,26 +511,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-01T21:08:29+00:00"
-    },
-    {
-      "id": "6a472ea74ac01757",
-      "title": "Jövőre halasztódik a zöldség- és gyümölcsáfa csökkentése",
-      "link": "https://magyarmezogazdasag.hu/2026/10/01/jovore-halasztodik-a-zoldseg-es-gyumolcsafa-csokkentese/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-01T20:10:27+00:00"
-    },
-    {
-      "id": "4f2aba44423b02fa",
-      "title": "Aranyszínű sárgaság – miért nem elég már csak a károsító ellen védekezni?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/01/aranyszinu-sargasag-miert-nem-eleg-mar-csak-a-karosito-ellen-vedekezni/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-01T19:09:40+00:00"
     },
     {
       "id": "0070d39a39a25809",
@@ -521,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-01T14:32:00+00:00"
-    },
-    {
-      "id": "ea7fd79a87fb874b",
-      "title": "Ezért érdemes a fürj tojását fogyasztani",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/ezert-erdemes-a-furj-tojasat-fogyasztani/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-01T14:10:00+00:00"
     },
     {
       "id": "59511319696f94ca",
@@ -981,26 +991,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-29T09:01:00+00:00"
-    },
-    {
-      "id": "379984fc6a322c0b",
-      "title": "Ökoterrorizmusnak minősítené az erdőégetést az indonéz elnök",
-      "link": "https://mezohir.hu/2026/09/29/indonezia-szigorit-az-erdoegetesen/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-29T06:11:00+00:00"
-    },
-    {
-      "id": "32a04e243b603a97",
-      "title": "Indiában egyre nagyobb üzlet az avokádó",
-      "link": "https://mezohir.hu/2026/09/29/indiaban-berobbant-az-avokadotermesztes/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-09-29T03:34:00+00:00"
     },
     {
       "id": "40e6017b3f0cea47",
