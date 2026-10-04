@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-03T21:13:51.198885+00:00",
-  "item_count": 145,
+  "generated_at": "2026-10-04T05:51:32.260514+00:00",
+  "item_count": 146,
   "items": [
+    {
+      "id": "c83329b169782ab6",
+      "title": "Miből készülhet természetes párna? – állati és növényi töltetek régen és ma",
+      "link": "https://magyarmezogazdasag.hu/2026/10/04/mibol-keszulhet-termeszetes-parna-allati-es-novenyi-toltetek-regen-es-ma/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T07:07:26+00:00"
+    },
+    {
+      "id": "7cb701cad6ad5d71",
+      "title": "Ahogy mi, a kutyák is szavakra tagolják a beszédet",
+      "link": "https://magyarmezogazdasag.hu/2026/10/04/ahogy-mi-a-kutyak-is-szavakra-tagoljak-a-beszedet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T06:06:32+00:00"
+    },
+    {
+      "id": "d10180bac2b6b8c9",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.04. vasárnap",
+      "link": "https://www.agrarszektor.hu/noveny/20261004/friss-agrarszektor-idojaras-elorejelzes-20261004-vasarnap-64855",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T05:45:04+00:00"
+    },
+    {
+      "id": "c94864f335b75708",
+      "title": "Új irányt vesz a szója nemesítése: az aszály ellen is segíthet",
+      "link": "https://agroforum.hu/agrarhirek/novenytermesztes/uj-iranyt-vesz-a-szoja-nemesitese-az-aszaly-ellen-is-segithet/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T05:10:00+00:00"
+    },
+    {
+      "id": "4f26704a8b4f77b4",
+      "title": "Új őrület hódít a kertekben: ezzel vége az ásásnak és a drága locsolásnak",
+      "link": "https://www.agrarszektor.hu/kiskert/20261004/uj-orulet-hodit-a-kertekben-ezzel-vege-az-asasnak-es-a-draga-locsolasnak-64606",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T04:01:00+00:00"
+    },
+    {
+      "id": "5f354329f6a58752",
+      "title": "Kíméletes betakarítás: gépek a hagymaföldek szolgálatában",
+      "link": "https://mezohir.hu/2026/10/04/gep-hagyma-betakaritas-gepesites-mezogazdasag/",
+      "source": "Mezőhír",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-04T03:34:00+00:00"
+    },
     {
       "id": "6c9b78f80ceb79f4",
       "title": "Kis híján eltűnt egy lepke, mára elsötétül a rajaitól az éjszakai égbolt",
@@ -313,16 +373,6 @@
       "published_at": "2026-10-03T05:45:05+00:00"
     },
     {
-      "id": "c5fed9161d25cda6",
-      "title": "Mi kerül a cumisüvegbe? Meglepő eredményt hozott a babavizek ellenőrzése",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/mi-kerul-a-cumisuvegbe-meglepo-eredmenyt-hozott-a-babavizek-ellenorzese/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-03T05:10:00+00:00"
-    },
-    {
       "id": "f8acfd175a6a6452",
       "title": "Igazi luxuscsemege nő a magyar kertekben: sokan kidobják, pedig aranyat ér",
       "link": "https://www.agrarszektor.hu/noveny/20261003/igazi-luxuscsemege-no-a-magyar-kertekben-sokan-kidobjak-pedig-aranyat-er-64607",
@@ -361,26 +411,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-02T21:08:00+00:00"
-    },
-    {
-      "id": "046ac4d948e1e042",
-      "title": "Japán zöldségvetőmagok Kecskemétről",
-      "link": "https://magyarmezogazdasag.hu/2026/10/02/japan-zoldsegvetomagok-kecskemetrol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T20:08:44+00:00"
-    },
-    {
-      "id": "296e7242ccfe1b3a",
-      "title": "KWS: A versenyalap immár a megbízhatóság",
-      "link": "https://magyarmezogazdasag.hu/2026/10/02/kws-a-versenyalap-immar-a-megbizhatosag/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T19:09:48+00:00"
     },
     {
       "id": "36e4a036e787d1df",
@@ -461,26 +491,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-02T15:26:00+00:00"
-    },
-    {
-      "id": "59113bc65d03a30c",
-      "title": "Áramlik ki a spanyoloktól ez a zöldség: elárasztotta az egész EU-t",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261002/aramlik-ki-a-spanyoloktol-ez-a-zoldseg-elarasztotta-az-egesz-eu-t-64841",
-      "source": "Agrárszektor",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T15:03:00+00:00"
-    },
-    {
-      "id": "16015ca22ea17e88",
-      "title": "Itt a szomorú igazság: sok magyar gazda végleg kiszállhat a bizniszből",
-      "link": "https://www.agrarszektor.hu/vallalkozas/20261002/itt-a-szomoru-igazsag-sok-magyar-gazda-vegleg-kiszallhat-a-bizniszbol-64838",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T14:29:00+00:00"
     },
     {
       "id": "8414355ac7f92d6c",
