@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-05T14:35:38.108032+00:00",
-  "item_count": 147,
+  "generated_at": "2026-10-06T00:02:58.132237+00:00",
+  "item_count": 146,
   "items": [
+    {
+      "id": "f0d925546dff8c73",
+      "title": "Miért tűnt el az őstulok? És mit tanulhat belőle a természetvédelem?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/05/miert-tunt-el-az-ostulok-es-mit-tanulhat-belole-a-termeszetvedelem/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T21:08:49+00:00"
+    },
+    {
+      "id": "26748fff1fe54f50",
+      "title": "A gazdaságátadás mögötti valóság",
+      "link": "https://magyarmezogazdasag.hu/2026/10/05/a-gazdasagatadas-mogotti-valosag/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T19:09:11+00:00"
+    },
+    {
+      "id": "39b4196f4dd0130f",
+      "title": "Aláírták a törvényt, ami sok állat sorsáról dönthet: indulnak a kilövések",
+      "link": "https://www.agrarszektor.hu/allat/20261005/alairtak-a-torvenyt-ami-sok-allat-sorsarol-donthet-indulnak-a-kilovesek-64878",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T18:26:00+00:00"
+    },
+    {
+      "id": "0b0cfc5c80f105df",
+      "title": "Január végéig olcsó marad az európai kivi",
+      "link": "https://magyarmezogazdasag.hu/2026/10/05/januar-vegeig-olcso-marad-az-europai-kivi/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T17:37:12+00:00"
+    },
+    {
+      "id": "daf200100a86af55",
+      "title": "Így trükközhet sok kertesház-tulaj: ez aranyat ér, megéri bevállalni",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261005/igy-trukkozhet-sok-kerteshaz-tulaj-ez-aranyat-er-megeri-bevallalni-64864",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T17:31:00+00:00"
+    },
+    {
+      "id": "f6b6af580db62545",
+      "title": "Megindult az őszi poloskainvázió Magyarországon: így védekezhetsz a hívatlan vendégek ellen",
+      "link": "https://agronaplo.hu/agrarhirek/20261005/megindult-az-oszi-poloskainvazio-magyarorszagon-igy-vedekezhetsz-a-hivatlan-vendegek-ellen-41217",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T17:26:00+00:00"
+    },
+    {
+      "id": "7cccea29b61a3edb",
+      "title": "Sokan hibáznak az őszi fűnyíráskor: mutatjuk, hogy csináld helyesen",
+      "link": "https://www.agrarszektor.hu/kiskert/20261005/sokan-hibaznak-az-oszi-funyiraskor-mutatjuk-hogy-csinald-helyesen-64866",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T16:26:00+00:00"
+    },
+    {
+      "id": "d7620bbdaecb7561",
+      "title": "Jöhet az újabb feketeleves: jobb, ha minden magyar felkészül, ez várhat ránk",
+      "link": "https://www.agrarszektor.hu/noveny/20261005/johet-az-ujabb-feketeleves-jobb-ha-minden-magyar-felkeszul-ez-varhat-rank-64883",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-05T15:02:00+00:00"
+    },
     {
       "id": "f6d73ee48dffc411",
       "title": "Ennyire könnyű a poloskák ellen védekezni: itt a trükk, ami biztosan beválik",
@@ -383,26 +463,6 @@
       "published_at": "2026-10-05T05:10:00+00:00"
     },
     {
-      "id": "2c4661b6a8bb68b7",
-      "title": "Nem semmi, ami a csirkehússal történik itt: ezt minden vásárlónak tudnia kell",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261005/nem-semmi-ami-a-csirkehussal-tortenik-itt-ezt-minden-vasarlonak-tudnia-kell-64830",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T05:01:00+00:00"
-    },
-    {
-      "id": "b83103b04830013f",
-      "title": "Durva anyaggal terheltek a magyar vizek - az állattartásnak is köze lehet hozzá",
-      "link": "https://www.agrarszektor.hu/allat/20261005/durva-anyaggal-vannak-tele-a-magyar-vizek-kiderult-az-allatokban-is-ott-lehet-64842",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T04:03:00+00:00"
-    },
-    {
       "id": "3a739ef6f7564dbe",
       "title": "A növénytermesztési technológiák vízhasználatának fejlesztési kihívásai",
       "link": "https://mezohir.hu/2026/10/05/mezogazdasag-ontozes-vizhasznalati-fejlesztesi-kihivasai/",
@@ -443,36 +503,6 @@
       "published_at": "2026-10-04T19:09:46+00:00"
     },
     {
-      "id": "1733244c7e80d78a",
-      "title": "Hihetetlen, ami a Tisza-tónál történik: tonnaszámra emelik ki a halakat",
-      "link": "https://www.agrarszektor.hu/allat/20261004/hihetetlen-ami-a-tisza-tonal-tortenik-tonnaszamra-emelik-ki-a-halakat-64843",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T17:32:00+00:00"
-    },
-    {
-      "id": "818aa3dd41c6d987",
-      "title": "Hatalmas probléma a népszerű magyar víznél, mentőakciót kellett indítani",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261004/hatalmas-problema-a-nepszeru-magyar-viznel-mentoakciot-kellett-inditani-64849",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T16:31:00+00:00"
-    },
-    {
-      "id": "9a26c69d40c07072",
-      "title": "Kongatják a vészharangot a szakértők: óriási csapás érte a gombászokat",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261004/kongatjak-a-veszharangot-a-szakertok-oriasi-csapas-erte-a-gombaszokat-64859",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T15:31:00+00:00"
-    },
-    {
       "id": "9c7ebef00ae82ad0",
       "title": "Váratlan fordulat a magyar piacokon: ennyibe kerül most a szilva",
       "link": "https://agronaplo.hu/agrarhirek/20261004/varatlan-fordulat-a-magyar-piacokon-ennyibe-kerul-most-a-szilva-41212",
@@ -511,36 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-04T10:41:00+00:00"
-    },
-    {
-      "id": "dbff72dc2031eac6",
-      "title": "Gleccserolvadás: az édesvízkészlet is veszélyben forog",
-      "link": "https://magyarmezogazdasag.hu/2026/10/04/gleccserolvadas-az-edesvizkeszlet-is-veszelyben-forog/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T10:08:59+00:00"
-    },
-    {
-      "id": "a6f6709c79ba778d",
-      "title": "Lóillatú gyökérből stresszűző slágernövény – mi igaz a hatásaiból?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/04/loillatu-gyokerbol-stresszuzo-slagernoveny-mi-igaz-a-hatasaibol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T08:08:13+00:00"
-    },
-    {
-      "id": "c83329b169782ab6",
-      "title": "Miből készülhet természetes párna? – állati és növényi töltetek régen és ma",
-      "link": "https://magyarmezogazdasag.hu/2026/10/04/mibol-keszulhet-termeszetes-parna-allati-es-novenyi-toltetek-regen-es-ma/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T07:07:26+00:00"
     },
     {
       "id": "9318df1cf4c178c8",
@@ -821,16 +821,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-01T16:06:00+00:00"
-    },
-    {
-      "id": "c91c3bd018c35111",
-      "title": "Hatalmas változás előtt a magyar tojástermelés: tízmilliárdokba kerülhet az átállás",
-      "link": "https://agronaplo.hu/agrarhirek/20261001/hatalmas-valtozas-elott-a-magyar-tojastermeles-tizmilliardokba-kerulhet-az-atallas-41196",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-01T14:32:00+00:00"
     },
     {
       "id": "b46942a68584b32d",
