@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-06T18:21:33.011665+00:00",
+  "generated_at": "2026-10-07T05:58:22.064800+00:00",
   "item_count": 140,
   "items": [
+    {
+      "id": "33962ec91b1335bb",
+      "title": "Mit együnk reggelire, hogy ne ugorjon meg a vércukorszintünk?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/07/mit-egyunk-reggelire-hogy-ne-ugorjon-meg-a-vercukorszintunk/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-07T07:03:17+00:00"
+    },
+    {
+      "id": "95c0ef53e8fba601",
+      "title": "Mit tud az MI az állatjóllétről?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/07/mit-tud-az-mi-az-allatjolletrol/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-07T06:02:38+00:00"
+    },
+    {
+      "id": "9285cba41cf28303",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.07. szerda",
+      "link": "https://www.agrarszektor.hu/noveny/20261007/friss-agrarszektor-idojaras-elorejelzes-20261007-szerda-64910",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-07T05:45:05+00:00"
+    },
+    {
+      "id": "f47eb83d7fbddd73",
+      "title": "Pocokveszély a földeken: most érdemes védekezni",
+      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/pocokveszely-a-foldeken-most-erdemes-vedekezni/",
+      "source": "Agrofórum",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-07T05:10:00+00:00"
+    },
+    {
+      "id": "9175c9cc775eb43c",
+      "title": "Megbolondult a piac: ennyibe kerül most egy kiló hagyma a lengyeleknél",
+      "link": "https://www.agrarszektor.hu/noveny/20261007/megbolondult-a-piac-ennyibe-kerul-most-egy-kilo-hagyma-a-lengyeleknel-64899",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-07T05:01:00+00:00"
+    },
+    {
+      "id": "bc7407a0eeade0a9",
+      "title": "Lehullt a lepel: kiderült, miért sokkal olcsóbb sok élelmiszer a szomszédban",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20261007/lehullt-a-lepel-kiderult-miert-sokkal-olcsobb-sok-elelmiszer-a-szomszedban-64795",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-07T04:01:00+00:00"
+    },
+    {
+      "id": "ef57ad3037aece25",
+      "title": "A mangó nemcsak gyümölcs, hanem kulturális örökség is",
+      "link": "https://mezohir.hu/2026/10/07/mar-tobb-ezer-tonna-mango-erkezik-europaba/",
+      "source": "Mezőhír",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-07T03:34:00+00:00"
+    },
+    {
+      "id": "62761556b764762d",
+      "title": "160 éve Budapest szívében",
+      "link": "https://magyarmezogazdasag.hu/2026/10/06/160-eve-budapest-sziveben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-06T21:01:22+00:00"
+    },
     {
       "id": "d6d995289b72cfeb",
       "title": "Wachaui vs magyar borok: jól jön a sógorság",
@@ -413,16 +493,6 @@
       "published_at": "2026-10-06T06:06:58+00:00"
     },
     {
-      "id": "894ad268e05b15c8",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.06. kedd",
-      "link": "https://www.agrarszektor.hu/noveny/20261006/friss-agrarszektor-idojaras-elorejelzes-20261006-kedd-64885",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-06T05:45:04+00:00"
-    },
-    {
       "id": "744cdff90f190d4d",
       "title": "Melegkedvelő, különleges kultúra: mit érdemes tudni a földimogyoróról?",
       "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/melegkedvelo-kulonleges-kultura-mit-erdemes-tudni-a-foldimogyororol/",
@@ -431,16 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-06T05:10:00+00:00"
-    },
-    {
-      "id": "3bc058653808945f",
-      "title": "Itt a magyar kutatók nagy dobása: ez a csodaszer mindent megváltoztathat",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261006/itt-a-magyar-kutatok-nagy-dobasa-ez-a-csodaszer-mindent-megvaltoztathat-64837",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-06T04:01:00+00:00"
     },
     {
       "id": "7cebb0402ce36d54",
@@ -463,36 +523,6 @@
       "published_at": "2026-10-05T21:08:49+00:00"
     },
     {
-      "id": "26748fff1fe54f50",
-      "title": "A gazdaságátadás mögötti valóság",
-      "link": "https://magyarmezogazdasag.hu/2026/10/05/a-gazdasagatadas-mogotti-valosag/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T19:09:11+00:00"
-    },
-    {
-      "id": "39b4196f4dd0130f",
-      "title": "Aláírták a törvényt, ami sok állat sorsáról dönthet: indulnak a kilövések",
-      "link": "https://www.agrarszektor.hu/allat/20261005/alairtak-a-torvenyt-ami-sok-allat-sorsarol-donthet-indulnak-a-kilovesek-64878",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T18:26:00+00:00"
-    },
-    {
-      "id": "0b0cfc5c80f105df",
-      "title": "Január végéig olcsó marad az európai kivi",
-      "link": "https://magyarmezogazdasag.hu/2026/10/05/januar-vegeig-olcso-marad-az-europai-kivi/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T17:37:12+00:00"
-    },
-    {
       "id": "f6b6af580db62545",
       "title": "Megindult az őszi poloskainvázió Magyarországon: így védekezhetsz a hívatlan vendégek ellen",
       "link": "https://agronaplo.hu/agrarhirek/20261005/megindult-az-oszi-poloskainvazio-magyarorszagon-igy-vedekezhetsz-a-hivatlan-vendegek-ellen-41217",
@@ -501,16 +531,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-05T17:26:00+00:00"
-    },
-    {
-      "id": "02a39371d3c68cb2",
-      "title": "Ahol a kutatás, az oktatás és a gyakorlati mezőgazdaság találkozik: SmartFarm",
-      "link": "https://magyarmezogazdasag.hu/2026/10/05/ahol-a-kutatas-az-oktatas-es-a-gyakorlati-mezogazdasag-talalkozik-smartfarm/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "Kutatás / elemzés",
-      "source_type": "portál",
-      "published_at": "2026-10-05T13:35:03+00:00"
     },
     {
       "id": "9709c6f8b214ffca",
@@ -641,16 +661,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-05T03:34:00+00:00"
-    },
-    {
-      "id": "9c7ebef00ae82ad0",
-      "title": "Váratlan fordulat a magyar piacokon: ennyibe kerül most a szilva",
-      "link": "https://agronaplo.hu/agrarhirek/20261004/varatlan-fordulat-a-magyar-piacokon-ennyibe-kerul-most-a-szilva-41212",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-04T15:04:00+00:00"
     },
     {
       "id": "22adcc7f88446a58",
@@ -811,16 +821,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-02T14:28:17+00:00"
-    },
-    {
-      "id": "2c64b84162fa7fc9",
-      "title": "Magyar agrártudás érkezik Ghánába",
-      "link": "https://mezohir.hu/2026/10/02/magyar-ghanai-agraregyuttmukodes-a-mezogazdasagban/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-02T12:34:00+00:00"
     },
     {
       "id": "3e10eb7e87663926",
