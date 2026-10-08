@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-07T23:04:54.772101+00:00",
-  "item_count": 141,
+  "generated_at": "2026-10-08T06:02:41.545336+00:00",
+  "item_count": 143,
   "items": [
+    {
+      "id": "26b88de76b077ec8",
+      "title": "Digitális sommelier segít eligazodni a borok között",
+      "link": "https://magyarmezogazdasag.hu/2026/10/08/digitalis-sommelier-segit-eligazodni-a-borok-kozott/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T07:02:00+00:00"
+    },
+    {
+      "id": "1e138e5cea560c06",
+      "title": "„Quorum sensing”, avagy mit beszélgetnek a bélbaktériumok",
+      "link": "https://magyarmezogazdasag.hu/2026/10/08/quorum-sensing-avagy-mit-beszelgetnek-a-belbakteriumok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T06:02:44+00:00"
+    },
+    {
+      "id": "58cfb6b476ae23cb",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.08. csütörtök",
+      "link": "https://www.agrarszektor.hu/noveny/20261008/friss-agrarszektor-idojaras-elorejelzes-20261008-csutortok-64934",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T05:45:06+00:00"
+    },
+    {
+      "id": "c3939d253350aca1",
+      "title": "Korszerű őszibarack művelési rendszerek",
+      "link": "https://agroforum.hu/szakcikkek/gyumolcs/korszeru-oszibarack-muvelesi-rendszerek/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T05:10:00+00:00"
+    },
+    {
+      "id": "878706fbaa0fabe0",
+      "title": "Kiderült a nagy élelmiszertitok: ezért változik meg sok termék íze",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261008/kiderult-a-nagy-elelmiszertitok-ezert-valtozik-meg-sok-termek-ize-64920",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T05:01:00+00:00"
+    },
+    {
+      "id": "42d9cb98dbd7d4cb",
+      "title": "Talajelőkészítés őszi vetés előtt: mutatjuk, mit és hogyan csinálj",
+      "link": "https://www.agrarszektor.hu/noveny/20261008/talajelokeszites-oszi-vetes-elott-mutatjuk-mit-es-hogyan-csinalj-64894",
+      "source": "Agrárszektor",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T04:01:00+00:00"
+    },
+    {
+      "id": "3e402b73dac223f7",
+      "title": "Nem csak nálunk pusztít: Európát is megütötte az aszály",
+      "link": "https://mezohir.hu/2026/10/08/mezogazdasag-aszaly-sujtja-europat/",
+      "source": "Mezőhír",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T03:34:00+00:00"
+    },
     {
       "id": "d9b7f9a9960f0d49",
       "title": "Fűszerkocka, levesalapok házilag",
@@ -383,16 +453,6 @@
       "published_at": "2026-10-07T08:02:31+00:00"
     },
     {
-      "id": "225efe8e88d48750",
-      "title": "Nagy szigorítás jöhet: ez durván érintheti a mezőgazdasági támogatásokat",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20261007/nagy-szigoritas-johet-ez-durvan-erintheti-a-mezogazdasagi-tamogatasokat-64903",
-      "source": "Agrárszektor",
-      "category": "Támogatások és pályázatok",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-10-07T07:44:00+00:00"
-    },
-    {
       "id": "ee18af633010e459",
       "title": "Hihetetlen módon kezelték az öntözővizet, negyedével többet termett tőle a búza",
       "link": "https://agroforum.hu/agrarhirek/novenytermesztes/hihetetlen-modon-kezeltek-az-ontozovizet-negyedevel-tobbet-termett-tole-a-buza/",
@@ -431,16 +491,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-10-07T07:01:00+00:00"
-    },
-    {
-      "id": "7e93850ecb110736",
-      "title": "Most érkezett a hír: rendkívüli a helyzet Szombathelyen",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261007/most-erkezett-a-hir-rendkivuli-a-helyzet-szombathelyen-64912",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-07T06:44:00+00:00"
     },
     {
       "id": "3de68c951a87045b",
@@ -503,16 +553,6 @@
       "published_at": "2026-10-06T21:01:22+00:00"
     },
     {
-      "id": "d6d995289b72cfeb",
-      "title": "Wachaui vs magyar borok: jól jön a sógorság",
-      "link": "https://magyarmezogazdasag.hu/2026/10/06/wachaui-vs-magyar-borok-jol-jon-a-sogorsag/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-06T19:02:26+00:00"
-    },
-    {
       "id": "325c56d6c2f46327",
       "title": "Egyre több magyar adja fel az állattartást: akkora a baj, hogy alig maradt utánpótlás",
       "link": "https://agronaplo.hu/agrarhirek/20261006/egyre-tobb-magyar-adja-fel-az-allattartast-akkora-a-baj-hogy-alig-maradt-utanpotlas-41223",
@@ -531,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-06T16:32:00+00:00"
-    },
-    {
-      "id": "9cf7c7a4b47a636c",
-      "title": "Gazda vélemény: Változtatni kell a szántóföldi gazdálkodáson",
-      "link": "https://agroforum.hu/agrarhirek/novenytermesztes/gazda-velemeny-valtoztatni-kell-a-szantofoldi-gazdalkodason/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-06T14:10:00+00:00"
     },
     {
       "id": "8172b1dd38256d57",
@@ -851,16 +881,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-04T07:01:00+00:00"
-    },
-    {
-      "id": "c6846617089250c0",
-      "title": "A gombatermesztés új utat nyit a falusi gazdálkodók számára",
-      "link": "https://mezohir.hu/2026/10/04/gombatermesztesbol-epitett-megelhetest-indiaban/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-04T06:11:00+00:00"
     },
     {
       "id": "205968507ada1a70",
