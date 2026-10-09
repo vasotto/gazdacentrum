@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-08T23:20:43.007877+00:00",
-  "item_count": 141,
+  "generated_at": "2026-10-09T06:07:35.771778+00:00",
+  "item_count": 140,
   "items": [
+    {
+      "id": "070d60bf9033012e",
+      "title": "Miért van szükség a vadászatra?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/09/miert-van-szukseg-a-vadaszatra/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T08:03:37+00:00"
+    },
+    {
+      "id": "ef9236433f3e8a83",
+      "title": "Nem csak a cékla segíthet a vérnyomás kordában tartásában",
+      "link": "https://magyarmezogazdasag.hu/2026/10/09/nem-csak-a-cekla-segithet-a-vernyomas-kordaban-tartasaban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T07:02:21+00:00"
+    },
+    {
+      "id": "8822a1065ae2e81c",
+      "title": "Esőcsinálás drónokkal?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/09/esocsinalas-dronokkal/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T06:02:05+00:00"
+    },
+    {
+      "id": "883dff9cc425de92",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.09. péntek",
+      "link": "https://www.agrarszektor.hu/noveny/20261009/friss-agrarszektor-idojaras-elorejelzes-20261009-pentek-64959",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T05:45:05+00:00"
+    },
+    {
+      "id": "06693af3b75de2ca",
+      "title": "Skorpiónak néz ki, de a kertünkben vadászik! Ne bántsuk ezt a bogarat!",
+      "link": "https://agroforum.hu/agrarhirek/novenyvedelem/skorpionak-nez-ki-de-a-kertunkben-vadaszik-ne-bantsuk-ezt-a-bogarat/",
+      "source": "Agrofórum",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T05:10:00+00:00"
+    },
+    {
+      "id": "1e8e44efafa00c5a",
+      "title": "Vége az olcsó kézi munka korának: óriási változás jön a mezőgazdaságban",
+      "link": "https://www.agrarszektor.hu/innovacio/20261009/vege-az-olcso-kezi-munka-koranak-oriasi-valtozas-jon-a-mezogazdasagban-64931",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T05:02:00+00:00"
+    },
+    {
+      "id": "6c4429978142f0e7",
+      "title": "Megszólalt a Cserpes új tulajdonosa: eldőlt, mi lesz a népszerű márka sorsa",
+      "link": "https://www.agrarszektor.hu/vallalkozas/20261009/megszolalt-a-cserpes-uj-tulajdonosa-eldolt-mi-lesz-a-nepszeru-marka-sorsa-64954",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T04:02:00+00:00"
+    },
+    {
+      "id": "2e2abdc85c159c37",
+      "title": "A technológia és a technika még fontosabb lett, mint valaha",
+      "link": "https://mezohir.hu/2026/10/09/mezogazdasag-vetestechnologia-aszalyban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-09T03:34:00+00:00"
+    },
     {
       "id": "2ba9afde184def8c",
       "title": "A kánikula átkai és áldásai",
@@ -373,16 +453,6 @@
       "published_at": "2026-10-08T07:10:00+00:00"
     },
     {
-      "id": "26b88de76b077ec8",
-      "title": "Digitális sommelier segít eligazodni a borok között",
-      "link": "https://magyarmezogazdasag.hu/2026/10/08/digitalis-sommelier-segit-eligazodni-a-borok-kozott/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T07:02:00+00:00"
-    },
-    {
       "id": "db1cd1323143cf20",
       "title": "Ukrajna: a növekvő költségek miatt szorult helyzetbe kerülnek a salátatermesztők",
       "link": "https://fruitveb.hu/ukrajna-a-novekvo-koltsegek-miatt-szorult-helyzetbe-kerulnek-a-salatatermesztok/",
@@ -423,46 +493,6 @@
       "published_at": "2026-10-08T06:48:09+00:00"
     },
     {
-      "id": "fb2e31c8e301231d",
-      "title": "Pánik a Dunánál: bekövetkezett, amitől mindenki tartott",
-      "link": "https://www.agrarszektor.hu/noveny/20261008/panik-a-dunanal-bekovetkezett-amitol-mindenki-tartott-64937",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T06:43:00+00:00"
-    },
-    {
-      "id": "43d5ebf78c4d02f0",
-      "title": "Óriási vihar jöhet ma Magyarországon: mutatjuk, hova érkezhet nagy eső",
-      "link": "https://www.agrarszektor.hu/noveny/20261008/oriasi-vihar-johet-ma-magyarorszagon-mutatjuk-hova-erkezhet-nagy-eso-64935",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T06:14:00+00:00"
-    },
-    {
-      "id": "1e138e5cea560c06",
-      "title": "„Quorum sensing”, avagy mit beszélgetnek a bélbaktériumok",
-      "link": "https://magyarmezogazdasag.hu/2026/10/08/quorum-sensing-avagy-mit-beszelgetnek-a-belbakteriumok/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T06:02:44+00:00"
-    },
-    {
-      "id": "58cfb6b476ae23cb",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.08. csütörtök",
-      "link": "https://www.agrarszektor.hu/noveny/20261008/friss-agrarszektor-idojaras-elorejelzes-20261008-csutortok-64934",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T05:45:06+00:00"
-    },
-    {
       "id": "c3939d253350aca1",
       "title": "Korszerű őszibarack művelési rendszerek",
       "link": "https://agroforum.hu/szakcikkek/gyumolcs/korszeru-oszibarack-muvelesi-rendszerek/",
@@ -481,16 +511,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-08T03:34:00+00:00"
-    },
-    {
-      "id": "d9b7f9a9960f0d49",
-      "title": "Fűszerkocka, levesalapok házilag",
-      "link": "https://magyarmezogazdasag.hu/2026/10/07/fuszerkocka-levesalapok-hazilag/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-07T21:02:20+00:00"
     },
     {
       "id": "29dff3aa26d6972a",
@@ -551,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-07T12:34:00+00:00"
-    },
-    {
-      "id": "94a3dd3097983572",
-      "title": "Van otthon lilahagyma? Ezt a fűszeres chutney-t érdemes kipróbálni",
-      "link": "https://agroforum.hu/agrarhirek/zoldseg-gyumolcs/van-otthon-lilahagyma-ezt-a-fuszeres-chutney-t-erdemes-kiprobalni/",
-      "source": "Agrofórum",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-07T12:10:00+00:00"
     },
     {
       "id": "ef369cfc38f13ca0",
@@ -853,16 +863,6 @@
       "published_at": "2026-10-05T17:26:00+00:00"
     },
     {
-      "id": "9709c6f8b214ffca",
-      "title": "Új tavaszi árpafajták érkeznek",
-      "link": "https://mezohir.hu/2026/10/05/uj-tavaszi-arpafajtak-erkeznek/",
-      "source": "Mezőhír",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T12:34:00+00:00"
-    },
-    {
       "id": "4c6f7198e950442d",
       "title": "Neked is van levendula a kertedben? Akkor ezzel nem árt tisztában lenned",
       "link": "https://agronaplo.hu/agrarhirek/20261005/neked-is-van-levendula-a-kertedben-akkor-ezzel-nem-art-tisztaban-lenned-41215",
@@ -871,16 +871,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-05T11:03:00+00:00"
-    },
-    {
-      "id": "1d83713a68b8c677",
-      "title": "Fontos változás jön október 1-jétől: ez rengeteg magyar horgászt érint",
-      "link": "https://agronaplo.hu/agrarhirek/20261005/fontos-valtozas-jon-oktober-1-jetol-ez-rengeteg-magyar-horgaszt-erint-41214",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-05T10:01:00+00:00"
     },
     {
       "id": "a71395b12866a49c",
