@@ -1,13 +1,73 @@
 {
-  "generated_at": "2026-10-09T22:37:46.949999+00:00",
-  "item_count": 140,
+  "generated_at": "2026-10-10T05:51:31.299105+00:00",
+  "item_count": 142,
   "items": [
+    {
+      "id": "fd5f9781c70d1b1b",
+      "title": "A japánbirs gyümölcse, amely a citromot is helyettesítheti",
+      "link": "https://magyarmezogazdasag.hu/2026/10/10/a-japanbirs-gyumolcse-amely-a-citromot-is-helyettesitheti/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T07:02:37+00:00"
+    },
+    {
+      "id": "d6e4f82011cb2d9d",
+      "title": "Újra megjelentek hazánkban a veszélyes vírusokat terjesztő Hyalomma kullancsok",
+      "link": "https://magyarmezogazdasag.hu/2026/10/10/ujra-megjelentek-hazankban-a-veszelyes-virusokat-terjeszto-hyalomma-kullancsok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T06:02:35+00:00"
+    },
+    {
+      "id": "6c5775523bed865a",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.10. szombat",
+      "link": "https://www.agrarszektor.hu/noveny/20261010/friss-agrarszektor-idojaras-elorejelzes-20261010-szombat-64984",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T05:45:04+00:00"
+    },
+    {
+      "id": "0dd7199bb99b433a",
+      "title": "Öntözővíz és műtrágya a szennyvízből? Svédországban már működik",
+      "link": "https://agroforum.hu/szakcikkek/nagyvilag-szakcikkek/ontozoviz-es-mutragya-a-szennyvizbol-svedorszagban-mar-mukodik/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T05:10:00+00:00"
+    },
+    {
+      "id": "e7c351db6b454628",
+      "title": "Nehéz ősz vár a magyar tógazdasági haltermelőkre",
+      "link": "https://www.agrarszektor.hu/metszet/20261010/nehez-osz-var-a-magyar-togazdasagi-haltermelokre-64907",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T03:59:00+00:00"
+    },
+    {
+      "id": "628c4e61649b5862",
+      "title": "Vaddisznó: intelligens vad, komoly károkkal",
+      "link": "https://mezohir.hu/2026/10/10/mezogazdasag-vaddiszno-vadkar-es-veszelyek/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-10T03:34:00+00:00"
+    },
     {
       "id": "e2cf1b3bfec7691b",
       "title": "Alpesi mintafarm a Pilis lábánál",
       "link": "https://magyarmezogazdasag.hu/2026/10/09/alpesi-mintafarm-a-pilis-labanal/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Állattenyésztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-09T21:03:17+00:00"
@@ -353,16 +413,6 @@
       "published_at": "2026-10-09T09:31:00+00:00"
     },
     {
-      "id": "497e8d5df95b8653",
-      "title": "A hőtűrés is tenyészcél lehet: új irányt kap a juhtenyésztés",
-      "link": "https://agroforum.hu/szakcikkek/allattenyesztes-szakcikkek/a-hotures-is-tenyeszcel-lehet-uj-iranyt-kap-a-juhtenyesztes/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T09:10:00+00:00"
-    },
-    {
       "id": "0dddb62e7a3a976d",
       "title": "Óriási a kukoricahiány Magyarországon: de honnan fog bejönni az import?",
       "link": "https://agronaplo.hu/agrarhirek/20261009/oriasi-a-kukoricahiany-magyarorszagon-de-honnan-fog-bejonni-az-import-41238",
@@ -453,16 +503,6 @@
       "published_at": "2026-10-09T07:42:00+00:00"
     },
     {
-      "id": "4b11b84dc1dcbbaf",
-      "title": "A kukorica utolsó esélye lehet ez a növény, megvédheti a példátlan aszálytól",
-      "link": "https://agroforum.hu/agrarhirek/novenytermesztes/a-kukorica-utolso-eselye-lehet-ez-a-noveny-megvedheti-a-peldatlan-aszalytol/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T07:10:00+00:00"
-    },
-    {
       "id": "ef9236433f3e8a83",
       "title": "Nem csak a cékla segíthet a vérnyomás kordában tartásában",
       "link": "https://magyarmezogazdasag.hu/2026/10/09/nem-csak-a-cekla-segithet-a-vernyomas-kordaban-tartasaban/",
@@ -503,16 +543,6 @@
       "published_at": "2026-10-09T07:01:00+00:00"
     },
     {
-      "id": "1114e5502c6e01b9",
-      "title": "Drasztikus lépésre kényszerülnek a termelők - nem maradt más választásuk",
-      "link": "https://www.agrarszektor.hu/noveny/20261009/drasztikus-lepesre-kenyszerulnek-a-termelok-nem-maradt-mas-valasztasuk-64942",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T06:14:00+00:00"
-    },
-    {
       "id": "053b465c1ecc2789",
       "title": "Brit gazdák tesztelik a csicseriborsót",
       "link": "https://mezohir.hu/2026/10/09/brit-gazdak-tesztelik-a-csicseriborsot/",
@@ -523,16 +553,6 @@
       "published_at": "2026-10-09T06:11:00+00:00"
     },
     {
-      "id": "8822a1065ae2e81c",
-      "title": "Esőcsinálás drónokkal?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/09/esocsinalas-dronokkal/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T06:02:05+00:00"
-    },
-    {
       "id": "2e2abdc85c159c37",
       "title": "A technológia és a technika még fontosabb lett, mint valaha",
       "link": "https://mezohir.hu/2026/10/09/mezogazdasag-vetestechnologia-aszalyban/",
@@ -541,16 +561,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-09T03:34:00+00:00"
-    },
-    {
-      "id": "2ba9afde184def8c",
-      "title": "A kánikula átkai és áldásai",
-      "link": "https://magyarmezogazdasag.hu/2026/10/08/a-kanikula-atkai-es-aldasai/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-08T21:02:29+00:00"
     },
     {
       "id": "c5b01358864ecd80",
@@ -681,6 +691,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-08T06:48:09+00:00"
+    },
+    {
+      "id": "3e402b73dac223f7",
+      "title": "Nem csak nálunk pusztít: Európát is megütötte az aszály",
+      "link": "https://mezohir.hu/2026/10/08/mezogazdasag-aszaly-sujtja-europat/",
+      "source": "Mezőhír",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-08T03:34:00+00:00"
     },
     {
       "id": "29dff3aa26d6972a",
