@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-10T21:43:14.693128+00:00",
+  "generated_at": "2026-10-11T05:45:29.024401+00:00",
   "item_count": 140,
   "items": [
+    {
+      "id": "cb54a59179a6effe",
+      "title": "Szárazföldi teknősök- hogyan is tartsuk kedvencünket?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/11/szarazfoldi-teknosok-hogyan-is-tartsuk-kedvencunket/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-11T07:02:52+00:00"
+    },
+    {
+      "id": "545e50c62eb8ab84",
+      "title": "A világ egyik legnagyobb rovara megmenekülhet a kihalástól",
+      "link": "https://magyarmezogazdasag.hu/2026/10/11/a-vilag-legnagyobb-rovara-megmenekulhet-a-kihalastol/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-11T06:02:26+00:00"
+    },
+    {
+      "id": "8e0aa48e66a92f2f",
+      "title": "Makacs gyomok a kertben: az ásó néha többet árt, mint használ",
+      "link": "https://agroforum.hu/szakcikkek/gyomirtas/makacs-gyomok-a-kertben-az-aso-neha-tobbet-art-mint-hasznal/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-11T05:10:00+00:00"
+    },
+    {
+      "id": "3e64115bc5c72494",
+      "title": "Megválaszoljuk a nagy kérdést: meddig kell ősszel öntözni a kertet?",
+      "link": "https://www.agrarszektor.hu/kiskert/20261011/megvalaszoljuk-a-nagy-kerdest-meddig-kell-osszel-ontozni-a-kertet-64943",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-11T03:58:00+00:00"
+    },
+    {
+      "id": "e0dac3572f895dca",
+      "title": "A repce őszi növényvédelme",
+      "link": "https://mezohir.hu/2026/10/11/automatikus-vazlatmezogazdasag-repce-oszi-novenyvedelmi-strategiaja/",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-10-11T03:34:00+00:00"
+    },
+    {
+      "id": "95bf8137db5a4967",
+      "title": "Szabolcsban még gazdaságosan tudtak kukoricát termeszteni + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/szabolcsban-meg-gazdasagosan-tudtak-kukoricat-termeszteni-video/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-11T02:58:00+00:00"
+    },
     {
       "id": "4445d516c985351e",
       "title": "Német szemmel Erdély medvéi: turistalátványosság és komoly veszély",
@@ -283,16 +343,6 @@
       "published_at": "2026-10-10T06:11:00+00:00"
     },
     {
-      "id": "26f4c88352bc6dd5",
-      "title": "Az európai almatermés mélypontra került, Magyarországon még súlyosabb a helyzet",
-      "link": "https://agroforum.hu/agrarhirek/zoldseg-gyumolcs/az-europai-almatermes-melypontra-kerult-magyarorszagon-meg-sulyosabb-a-helyzet/",
-      "source": "Agrofórum",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-10T06:10:00+00:00"
-    },
-    {
       "id": "d6e4f82011cb2d9d",
       "title": "Újra megjelentek hazánkban a veszélyes vírusokat terjesztő Hyalomma kullancsok",
       "link": "https://magyarmezogazdasag.hu/2026/10/10/ujra-megjelentek-hazankban-a-veszelyes-virusokat-terjeszto-hyalomma-kullancsok/",
@@ -311,16 +361,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-10T05:45:04+00:00"
-    },
-    {
-      "id": "0dd7199bb99b433a",
-      "title": "Öntözővíz és műtrágya a szennyvízből? Svédországban már működik",
-      "link": "https://agroforum.hu/szakcikkek/nagyvilag-szakcikkek/ontozoviz-es-mutragya-a-szennyvizbol-svedorszagban-mar-mukodik/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-10T05:10:00+00:00"
     },
     {
       "id": "e7c351db6b454628",
@@ -351,26 +391,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-09T21:03:17+00:00"
-    },
-    {
-      "id": "9a79f8f1199c7e73",
-      "title": "A csemegeszőlő-termesztéstől a mazsolakészítésig",
-      "link": "https://magyarmezogazdasag.hu/2026/10/09/a-csemegeszolo-termesztestol-a-mazsolakeszitesig/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T20:02:41+00:00"
-    },
-    {
-      "id": "a80e9b00379f1243",
-      "title": "Sertéspiaci helyzetkép – októberi AKI elemzés",
-      "link": "https://magyarmezogazdasag.hu/2026/10/09/sertespiaci-helyzetkep-oktoberi-aki-elemzes/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-09T19:33:20+00:00"
     },
     {
       "id": "518eec03d755daef",
@@ -441,16 +461,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-09T14:32:00+00:00"
-    },
-    {
-      "id": "881499a60e622897",
-      "title": "Azt hittük, a 2022-es év volt a legrosszabb, de idén még nagyobb a baj",
-      "link": "https://www.agrarszektor.hu/metszet/20261009/azt-hittuk-a-2022-es-ev-volt-a-legrosszabb-de-iden-meg-nagyobb-a-baj-64751",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T14:31:00+00:00"
     },
     {
       "id": "85094447b76ee774",
@@ -831,16 +841,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-07T10:41:00+00:00"
-    },
-    {
-      "id": "53c3f4cd4ece99b8",
-      "title": "Fagyott az éjjel – mutatjuk, hol volt a leghidegebb",
-      "link": "https://mezohir.hu/2026/10/07/mezogazdasag-fagyott-az-ejjel/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-07T09:22:23+00:00"
     },
     {
       "id": "6dde11d3356c697c",
