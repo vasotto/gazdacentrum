@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-12T15:22:30.828828+00:00",
-  "item_count": 140,
+  "generated_at": "2026-10-13T00:38:53.358593+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "755e49b223bf1ce4",
+      "title": "Mitől sárga a répa – vagy fehér, esetleg lila?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/12/mitol-sarga-a-repa-vagy-feher-esetleg-lila/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T21:03:16+00:00"
+    },
+    {
+      "id": "a134e142dd077583",
+      "title": "Ázsia orrszarvúi több figyelmet érdemelnének",
+      "link": "https://magyarmezogazdasag.hu/2026/10/12/azsia-orrszarvui-tobb-figyelmet-erdemelnenek/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T20:02:48+00:00"
+    },
+    {
+      "id": "88d7819b39152364",
+      "title": "Új korszakra készül az EFSA",
+      "link": "https://magyarmezogazdasag.hu/2026/10/12/uj-korszakra-keszul-az-efsa/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T19:02:27+00:00"
+    },
+    {
+      "id": "8aebd956a5dcc60f",
+      "title": "Súlyos fertőzés terjed Magyarországon: sokan nem is tudnak róla",
+      "link": "https://www.agrarszektor.hu/allat/20261012/sulyos-fertozes-terjed-magyarorszagon-sokan-nem-is-tudnak-rola-65025",
+      "source": "Agrárszektor",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T18:32:00+00:00"
+    },
+    {
+      "id": "f7307ea91f7bde76",
+      "title": "Gyakran iszol kávét? Jobb, ha tisztában vagy vele, mi derült ki róla",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261012/gyakran-iszol-kavet-jobb-ha-tisztaban-vagy-vele-mi-derult-ki-rola-65020",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T17:33:00+00:00"
+    },
+    {
+      "id": "d997fce778c51b23",
+      "title": "Kezdhetünk pánikolni? Tényleg 2-3 hónap múlva elszabadulhat a pokol?",
+      "link": "https://www.agrarszektor.hu/noveny/20261012/kezdhetunk-panikolni-tenyleg-2-3-honap-mulva-elszabadulhat-a-pokol-65021",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T16:32:00+00:00"
+    },
+    {
+      "id": "b45f6519cd9759a1",
+      "title": "Valami nem stimmel ezzel a gyümölccsel: különös, ami a lengyeleknél folyik",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261012/valami-nem-stimmel-ezzel-a-gyumolccsel-kulonos-ami-a-lengyeleknel-folyik-65014",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-12T15:29:00+00:00"
+    },
     {
       "id": "c50a121765c1b05f",
       "title": "Újabb veszély a földeken: négy szer kapott engedélyt!",
@@ -21,16 +91,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-12T14:29:00+00:00"
-    },
-    {
-      "id": "11c83dd398a61e40",
-      "title": "Sokan fogyasztják ezeket a tojásokat: nem tudják, de súlyos fertőzés lehet a vége",
-      "link": "https://agronaplo.hu/agrarhirek/20261012/sokan-fogyasztjak-ezeket-a-tojasokat-nem-tudjak-de-sulyos-fertozes-lehet-a-vege-41249",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-12T14:27:00+00:00"
     },
     {
       "id": "b2421bc3f3c4b1ff",
@@ -413,16 +473,6 @@
       "published_at": "2026-10-12T05:07:00+00:00"
     },
     {
-      "id": "247905fe1623f0df",
-      "title": "Összeomlás szélén a magyar sertéságazat: tömegével adják fel a tenyésztők",
-      "link": "https://www.agrarszektor.hu/allat/20261012/osszeomlas-szelen-a-magyar-sertesagazat-tomegevel-adjak-fel-a-tenyesztok-64970",
-      "source": "Agrárszektor",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-12T04:02:00+00:00"
-    },
-    {
       "id": "5aa1e02f3a1f0f2d",
       "title": "Vadkárok felmérése drónnal",
       "link": "https://mezohir.hu/2026/10/12/mezogazdasag-vadkarfelmeres-dronnal-szigoru-feltetelekkel/",
@@ -453,46 +503,6 @@
       "published_at": "2026-10-11T20:02:10+00:00"
     },
     {
-      "id": "a0dd647d84ed8812",
-      "title": "Upcycled food: új irány az élelmiszeriparban",
-      "link": "https://magyarmezogazdasag.hu/2026/10/11/upcycled-food-uj-irany-az-elelmiszeriparban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T19:03:11+00:00"
-    },
-    {
-      "id": "12a3e5777ce76402",
-      "title": "Itt az ideje aggódni? 76 éve nem látott katasztrófa előtt állhatunk",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261011/itt-az-ideje-aggodni-76-eve-nem-latott-katasztrofa-elott-allhatunk-64993",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T17:09:00+00:00"
-    },
-    {
-      "id": "7055b622dae9636b",
-      "title": "Érik a vízkrízis? Sürgős változtatás van szükség Magyarországon",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261011/erik-a-vizkrizis-surgos-valtoztatas-van-szukseg-magyarorszagon-64994",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T16:02:00+00:00"
-    },
-    {
-      "id": "93a5868e6d54ba63",
-      "title": "Döbbenet: 30 ezer üveg bort loptak el, nem is hinnéd, hogy csinálták",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261011/dobbenet-30-ezer-uveg-bort-loptak-el-nem-is-hinned-hogy-csinaltak-64990",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T15:07:00+00:00"
-    },
-    {
       "id": "b310cc859948e32a",
       "title": "Megugrott a fakitermelés Magyarországon: döbbenetes adat látott napvilágot",
       "link": "https://agronaplo.hu/agrarhirek/20261011/megugrott-a-fakitermeles-magyarorszagon-dobbenetes-adat-latott-napvilagot-41247",
@@ -501,16 +511,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-11T15:02:00+00:00"
-    },
-    {
-      "id": "255df1028ee150ac",
-      "title": "Amőbákkal a növénybetegségek ellen",
-      "link": "https://magyarmezogazdasag.hu/2026/10/11/amobakkal-a-novenybetegsegek-ellen/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T14:03:51+00:00"
     },
     {
       "id": "9c1592480e2713f7",
@@ -541,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-11T10:41:00+00:00"
-    },
-    {
-      "id": "fc5e71c4dbf5b731",
-      "title": "A csomagolásra írná, hogy a termék „környezetbarát”, „fenntartható” stb.? Bizonyítsa!",
-      "link": "https://magyarmezogazdasag.hu/2026/10/11/a-csomagolasra-irna-hogy-a-termek-kornyezetbarat-fenntarthato-stb-bizonyitsa/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-11T10:02:46+00:00"
     },
     {
       "id": "797f333af23954e2",
