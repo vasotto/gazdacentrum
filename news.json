@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-14T17:09:14.950103+00:00",
+  "generated_at": "2026-10-14T21:40:34.235649+00:00",
   "item_count": 140,
   "items": [
+    {
+      "id": "6d7009156e2ead4a",
+      "title": "Őszi veteményes: ezeket a zöldségeket még most is elvethetjük",
+      "link": "https://magyarmezogazdasag.hu/2026/10/14/oszi-vetemenyes-ezeket-a-zoldsegeket-meg-most-is-elvethetjuk/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T21:06:02+00:00"
+    },
+    {
+      "id": "cd4101bba4eba39c",
+      "title": "Mit veszít a baromfi a csőrkurtítással?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/14/mit-veszit-a-baromfi-a-csorkurtitassal/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T20:03:24+00:00"
+    },
     {
       "id": "229fa7882a7c9ded",
       "title": "Pea4Ever: Borsónemesítés 50 millió euróból",
@@ -11,6 +31,36 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-14T19:07:21+00:00"
+    },
+    {
+      "id": "c445a30b65ec1ca6",
+      "title": "Működik a magyar kutatók trükkje: így nőhetnek nagyra a csirkék",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261014/mukodik-a-magyar-kutatok-trukkje-igy-nohetnek-nagyra-a-csirkek-65064",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T18:32:00+00:00"
+    },
+    {
+      "id": "d434865d8ac490a0",
+      "title": "Váratlan fordulat a magyar piacokon: óriásit zuhant az egyik legfontosabb zöldség ára",
+      "link": "https://agronaplo.hu/agrarhirek/20261014/varatlan-fordulat-a-magyar-piacokon-oriasit-zuhant-az-egyik-legfontosabb-zoldseg-ara-41259",
+      "source": "Agro Napló",
+      "category": "Kertészet",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-14T17:32:00+00:00"
+    },
+    {
+      "id": "b53dab7f9926e4d4",
+      "title": "Pánik a Velencei-tónál: megtörtént, amitől mindenki tartott",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261014/panik-a-velencei-tonal-megtortent-amitol-mindenki-tartott-65070",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T17:29:00+00:00"
     },
     {
       "id": "bfbccbd3eaabf72e",
@@ -483,36 +533,6 @@
       "published_at": "2026-10-13T18:27:00+00:00"
     },
     {
-      "id": "7e05615a331bf9f0",
-      "title": "Magyar műholdakkal figyelik meg a földeket: mindent lát az új rendszer",
-      "link": "https://www.agrarszektor.hu/innovacio/20261013/magyar-muholdakkal-figyelik-meg-a-foldeket-mindent-lat-az-uj-rendszer-65040",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T17:27:00+00:00"
-    },
-    {
-      "id": "e3ad79ab87ff6b5a",
-      "title": "Csúnyán ráfizetnek erre a gazdák: egyre több pénzt vesznek ki a zsebükből",
-      "link": "https://www.agrarszektor.hu/allat/20261013/csunyan-rafizetnek-erre-a-gazdak-egyre-tobb-penzt-vesznek-ki-a-zsebukbol-65033",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T16:28:00+00:00"
-    },
-    {
-      "id": "6e70edc1c4f83181",
-      "title": "Hogyan szabályozzák a gének a paradicsom érését?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/13/hogyan-szabalyozzak-a-genek-a-paradicsom-ereset/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "portál",
-      "published_at": "2026-10-13T16:03:00+00:00"
-    },
-    {
       "id": "04e48cdde89d92f6",
       "title": "Öntsünk tiszta vizet a pohárba (3.): Tudja-e élelmezni a biogazdálkodás a világot? Avagy látjuk-e az elefántot a szobában?",
       "link": "https://biokutatas.hu/hir/ontsunk-tiszta-vizet-a-poharba-3-tudja-e-elelmezni-a-biogazdalkodas-a-vilagot/",
@@ -541,16 +561,6 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "hivatalos",
       "published_at": "2026-10-13T14:27:22+00:00"
-    },
-    {
-      "id": "d6bb2b9995a4efd8",
-      "title": "Valóban méhbarát a „méhbarát növény”-kínálat?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/13/valoban-mehbarat-a-mehbarat-noveny-kinalat/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-13T14:03:57+00:00"
     },
     {
       "id": "31caf531e2b02c72",
@@ -911,16 +921,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-09T14:32:00+00:00"
-    },
-    {
-      "id": "9a9820f3e568aa63",
-      "title": "Váratlan fordulat történt a népszerű magyar borvidéken: 25 éve nem láttak ilyet a szakemberek",
-      "link": "https://agronaplo.hu/agrarhirek/20261009/varatlan-fordulat-tortent-a-nepszeru-magyar-borvideken-25-eve-nem-lattak-ilyet-a-szakemberek-41239",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-09T12:31:00+00:00"
     },
     {
       "id": "56869baff652e8ff",
