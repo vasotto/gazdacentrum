@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-13T22:44:13.753245+00:00",
-  "item_count": 140,
+  "generated_at": "2026-10-14T04:51:55.551712+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "914f096c76ad5e4e",
+      "title": "Ázsia felé nyitnak a spanyol exportőrök",
+      "link": "https://magyarmezogazdasag.hu/2026/10/14/azsia-fele-nyitnak-a-spanyol-exportorok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-14T06:03:01+00:00"
+    },
+    {
+      "id": "ddb6a26c9cfe74b0",
+      "title": "Nem jött be a magyar gazdák számítása: váltani kell erről a növényről is?",
+      "link": "https://www.agrarszektor.hu/noveny/20261014/nem-jott-be-a-magyar-gazdak-szamitasa-valtani-kell-errol-a-novenyrol-is-65055",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T04:03:00+00:00"
+    },
+    {
+      "id": "75c9085f0c471dbb",
+      "title": "Októbertől februárig négy növényvédő szer használható szükséghelyzeti engedéllyel a pöttyös lámpahordó-kabóca ellen",
+      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/negy-novenyvedo-szer-a-pottyos-lampahordo-kaboca-ellen/",
+      "source": "Agrofórum",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T03:40:00+00:00"
+    },
+    {
+      "id": "570771b964b4253e",
+      "title": "Árrésstop ki, kedvezményes áfa be – így erősödhetnek meg a termelők",
+      "link": "https://mezohir.hu/2026/10/14/mezogazdasag-zoldseg-afacsokkentes-es-arresstop/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-14T03:34:00+00:00"
+    },
     {
       "id": "a5ba3919093b13af",
       "title": "Kolomp helyett szenzor",
@@ -503,16 +543,6 @@
       "published_at": "2026-10-13T05:10:00+00:00"
     },
     {
-      "id": "ed15e848cecb6846",
-      "title": "Már készül a terv: így mentenék meg a magyarok alapélelmiszerét?",
-      "link": "https://www.agrarszektor.hu/noveny/20261013/mar-keszul-a-terv-igy-mentenek-meg-a-magyarok-alapelelmiszeret-65019",
-      "source": "Agrárszektor",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T05:01:00+00:00"
-    },
-    {
       "id": "04600acce32f0c45",
       "title": "Miért nem terem a paradicsom, miközben gyönyörűen nő? – A virágzástól a termésig vezető út",
       "link": "https://agroforum.hu/szakcikkek/zoldseg/miert-nem-terem-a-paradicsom-mikozben-gyonyoruen-no-a-viragzastol-a-termesig-vezeto-ut/",
@@ -533,26 +563,6 @@
       "published_at": "2026-10-13T03:34:00+00:00"
     },
     {
-      "id": "755e49b223bf1ce4",
-      "title": "Mitől sárga a répa – vagy fehér, esetleg lila?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/12/mitol-sarga-a-repa-vagy-feher-esetleg-lila/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-12T21:03:16+00:00"
-    },
-    {
-      "id": "c50a121765c1b05f",
-      "title": "Újabb veszély a földeken: négy szer kapott engedélyt!",
-      "link": "https://mezohir.hu/2026/10/12/mezogazdasag-pottyos-lampashordo-kaboca-elleni-vedekezes/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-12T14:34:00+00:00"
-    },
-    {
       "id": "11c83dd398a61e40",
       "title": "Sokan fogyasztják ezeket a tojásokat: nem tudják, de súlyos fertőzés lehet a vége",
       "link": "https://agronaplo.hu/agrarhirek/20261012/sokan-fogyasztjak-ezeket-a-tojasokat-nem-tudjak-de-sulyos-fertozes-lehet-a-vege-41249",
@@ -561,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-12T14:27:00+00:00"
-    },
-    {
-      "id": "b2421bc3f3c4b1ff",
-      "title": "Magyar siker az EuroTieren: Elképesztő innováció az állatgyógyászatban",
-      "link": "https://agroforum.hu/agrarhirek/allattenyesztes/magyar-siker-az-eurotieren-elkepeszto-innovacio-roboovaxx/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-12T14:10:00+00:00"
     },
     {
       "id": "0338d6d8fcb05c23",
@@ -801,16 +801,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-10T06:59:00+00:00"
-    },
-    {
-      "id": "df7fe86e6d3e22c0",
-      "title": "Új vagyonadó jön: a nagyobb gazdaságok is érintettek",
-      "link": "https://mezohir.hu/2026/10/10/mezogazdasag-jon-a-vagyonado/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-10T06:11:00+00:00"
     },
     {
       "id": "5db1838e0b338edf",
