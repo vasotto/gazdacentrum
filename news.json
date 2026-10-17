@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-10-16T21:07:14.248674+00:00",
-  "item_count": 135,
+  "generated_at": "2026-10-17T04:24:04.534492+00:00",
+  "item_count": 136,
   "items": [
+    {
+      "id": "c5b54a1a73a79c94",
+      "title": "Az idei tél várhatóan enyhébb és csapadékosabb lesz Magyarországon a megszokottnál",
+      "link": "https://magyarmezogazdasag.hu/2026/10/17/az-idei-tel-varhatoan-enyhebb-es-csapadekosabb-lesz-magyarorszagon-a-megszokottnal/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-17T06:06:09+00:00"
+    },
+    {
+      "id": "9bb029e37c6cc461",
+      "title": "Olcsóbb lehet a gázolaj?",
+      "link": "https://mezohir.hu/2026/10/17/ezogazdasag-olcsobb-lehet-a-gazolaj/",
+      "source": "Mezőhír",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-17T04:04:00+00:00"
+    },
+    {
+      "id": "d63d3428408c68a6",
+      "title": "Meglepő segítség a magyar kertesház-tulajoknak: ez mindenkit érint",
+      "link": "https://www.agrarszektor.hu/kiskert/20261017/meglepo-segitseg-a-magyar-kerteshaz-tulajoknak-ez-mindenkit-erint-64947",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-17T03:58:00+00:00"
+    },
+    {
+      "id": "a330d093d4e51598",
+      "title": "Öt százalékos áfát sürgetnek a magyar kertészek",
+      "link": "https://mezohir.hu/2026/10/17/mezogazdasag-ot-szazalekos-afat-surgetnek-a-magyar-kerteszek/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-17T03:34:00+00:00"
+    },
+    {
+      "id": "a8f329c46407e587",
+      "title": "Így érdemes elvégezni a szilva őszi zöldmetszését + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/gyumolcs/igy-erdemes-elvegezni-a-szilva-oszi-zoldmetszeset-video/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-17T02:57:00+00:00"
+    },
     {
       "id": "df917ddef39d084a",
       "title": "Nem csak krizantém kerülhet a sírokra: 8 fagytűrő növény halottak napjára",
@@ -443,16 +493,6 @@
       "published_at": "2026-10-16T05:10:00+00:00"
     },
     {
-      "id": "fe3af41c98172c52",
-      "title": "Sokan ültetnek otthon hortenziát, de rosszul gondozzák: itt hibáznak",
-      "link": "https://www.agrarszektor.hu/noveny/20261016/sokan-ultetnek-otthon-hortenziat-de-rosszul-gondozzak-itt-hibaznak-65083",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-16T05:01:00+00:00"
-    },
-    {
       "id": "299665b59510df0b",
       "title": "Drágult a paprika, mégsem elégedettek a termelők",
       "link": "https://mezohir.hu/2026/10/16/mezogazdasag-dragult-a-paprika-megsem-elegedettek-a-termelok/",
@@ -467,7 +507,7 @@
       "title": "Torma: mentsük meg, amíg nem késő",
       "link": "https://magyarmezogazdasag.hu/2026/10/15/torma-mentsuk-meg-amig-nem-keso/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Növényvédelem",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-15T21:04:35+00:00"
@@ -481,16 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-15T20:03:51+00:00"
-    },
-    {
-      "id": "6768dd91eb23b72a",
-      "title": "Jó szomszédság segítheti egy sérülékeny tengeri lény túlélését",
-      "link": "https://magyarmezogazdasag.hu/2026/10/15/jo-szomszedsag-segitheti-egy-serulekeny-tengeri-leny-tuleleset/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-15T19:04:33+00:00"
     },
     {
       "id": "8e462e4e66e987c0",
@@ -941,26 +971,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-13T07:01:00+00:00"
-    },
-    {
-      "id": "428711de7702ad1b",
-      "title": "Már a tünetek előtt felismerhető a növénybetegség",
-      "link": "https://mezohir.hu/2026/10/13/mi-vel-korabban-felismerheto-a-novenybetegseg/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T06:11:00+00:00"
-    },
-    {
-      "id": "7216ad5e4cada848",
-      "title": "Lehet gazdálkodni egy 50°C-os sivatagban?",
-      "link": "https://mezohir.hu/2026/10/13/sivatagi-gazdalkodas-50-fokos-hosegben/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T03:34:00+00:00"
     },
     {
       "id": "9542a8b3accadd9c",
