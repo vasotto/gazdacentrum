@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-17T20:36:00.428275+00:00",
-  "item_count": 140,
+  "generated_at": "2026-10-18T04:38:22.043658+00:00",
+  "item_count": 130,
   "items": [
+    {
+      "id": "07c8bb495b5559da",
+      "title": "Az elhízott kutyák el is butulnak?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/18/az-elhizott-kutyak-el-is-butulnak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-18T06:06:24+00:00"
+    },
+    {
+      "id": "850fe86f03c97d22",
+      "title": "Sokan hibáznak a zöldségek téli tárolásakor: ezt rontják el a legtöbben",
+      "link": "https://www.agrarszektor.hu/noveny/20261018/sokan-hibaznak-a-zoldsegek-teli-tarolasakor-ezt-rontjak-el-a-legtobben-65018",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-18T03:58:00+00:00"
+    },
+    {
+      "id": "813790c732b1ea57",
+      "title": "Megérkeztek az első ír gabonaárak",
+      "link": "https://mezohir.hu/2026/10/18/megerkeztek-az-elso-ir-gabonaarak/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-18T03:34:00+00:00"
+    },
     {
       "id": "5c954ef6ea06c80c",
       "title": "Skandináv nyugalom, magyar lendület",
@@ -383,16 +413,6 @@
       "published_at": "2026-10-17T03:34:00+00:00"
     },
     {
-      "id": "a8f329c46407e587",
-      "title": "Így érdemes elvégezni a szilva őszi zöldmetszését + VIDEÓ",
-      "link": "https://agroforum.hu/szakcikkek/gyumolcs/igy-erdemes-elvegezni-a-szilva-oszi-zoldmetszeset-video/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T02:57:00+00:00"
-    },
-    {
       "id": "df917ddef39d084a",
       "title": "Nem csak krizantém kerülhet a sírokra: 8 fagytűrő növény halottak napjára",
       "link": "https://magyarmezogazdasag.hu/2026/10/16/nem-csak-krizantem-kerulhet-a-sirokra-8-fagyturo-noveny-halottak-napjara/",
@@ -411,16 +431,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-16T20:02:51+00:00"
-    },
-    {
-      "id": "80c0742b918881e2",
-      "title": "Szennyvízből tápanyag: hatékonyabb lehet, mint a műtrágya",
-      "link": "https://magyarmezogazdasag.hu/2026/10/16/szennyvizbol-tapanyag-hatekonyabb-lehet-mint-a-mutragya/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-16T19:02:40+00:00"
     },
     {
       "id": "2d0359e374ff663d",
@@ -491,16 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-16T14:34:00+00:00"
-    },
-    {
-      "id": "fda4c5617c980e08",
-      "title": "Metszés, gépjavítás, elmaradt feladatok: kiderül, mivel csúsznak meg a legtöbben – Na, és Te mit halogatsz?",
-      "link": "https://www.agrarszektor.hu/vallalkozas/20261016/metszes-gepjavitas-elmaradt-feladatok-kiderul-mivel-csusznak-meg-a-legtobben-na-es-te-mit-halogatsz-65117",
-      "source": "Agrárszektor",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-16T14:30:00+00:00"
     },
     {
       "id": "1ef071874a3390f3",
@@ -581,16 +581,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-10-16T09:01:00+00:00"
-    },
-    {
-      "id": "a9123b1be56a2ae3",
-      "title": "Hogyan lesz elég élelmiszer? Nem csak azon múlik, mennyit termelünk",
-      "link": "https://biokutatas.hu/hir/hogyan-lesz-eleg-elelmiszer-nem-csak-azon-mulik-mennyit-termelunk/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "szakmai",
-      "published_at": "2026-10-16T08:54:13+00:00"
     },
     {
       "id": "a57f2a6e2b504dce",
@@ -943,16 +933,6 @@
       "published_at": "2026-10-13T19:33:55+00:00"
     },
     {
-      "id": "04e48cdde89d92f6",
-      "title": "Öntsünk tiszta vizet a pohárba (3.): Tudja-e élelmezni a biogazdálkodás a világot? Avagy látjuk-e az elefántot a szobában?",
-      "link": "https://biokutatas.hu/hir/ontsunk-tiszta-vizet-a-poharba-3-tudja-e-elelmezni-a-biogazdalkodas-a-vilagot/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-10-13T14:42:46+00:00"
-    },
-    {
       "id": "8ed486bcacfbadd4",
       "title": "A KAP Nemzeti Irányító Hatóság 111/2026. számú közleménye az „Ökológiai gazdálkodás támogatása” című (KAP-RD20a-1-24 kódszámú) felhívás módosításáról",
       "link": "https://kap.gov.hu/news/2026-10-13/162722/kap-nemzeti-iranyito-hatosag-1112026.-szamu-kozlemenye-az-okologiai",
@@ -981,16 +961,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-13T13:34:00+00:00"
-    },
-    {
-      "id": "d2b58a59856c2b9f",
-      "title": "Közel 400 új lehetőség nyílt a növényvédelemben",
-      "link": "https://mezohir.hu/2026/10/13/mezogazdasag-uj-lehetosegek-a-novenyvedelemben/",
-      "source": "Mezőhír",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-13T12:34:00+00:00"
     },
     {
       "id": "b18a56488a4c092a",
@@ -1073,16 +1043,6 @@
       "published_at": "2026-10-12T07:01:00+00:00"
     },
     {
-      "id": "5db1838e0b338edf",
-      "title": "Talajkímélő megoldások az ökológiai szántóföldi gazdálkodásban",
-      "link": "https://biokutatas.hu/rendezvenyek/talajkimelo-megoldasok-a-szantofoldon/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-10-09T15:58:27+00:00"
-    },
-    {
       "id": "56869baff652e8ff",
       "title": "TECH: AI jósolja meg a szamócatermés tervezését",
       "link": "https://fruitveb.hu/tech-ai-josolja-meg-a-szamocatermes-tervezeset/",
@@ -1153,16 +1113,6 @@
       "published_at": "2026-10-06T12:24:42+00:00"
     },
     {
-      "id": "70859b91490bc141",
-      "title": "Nemzetközi szaktanácsadói látogatás Magyarországon",
-      "link": "https://biokutatas.hu/hir/nemzetkozi-szaktanacsadoi-latogatas-magyarorszagon/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-30T15:26:34+00:00"
-    },
-    {
       "id": "5390295f692e3eb4",
       "title": "Reinke rendszerek szezonvégi karbantartása: így készítse fel öntözőrendszerét a télre",
       "link": "https://magtarkft.hu/reinke-szezonvegi-karbantartas",
@@ -1183,16 +1133,6 @@
       "published_at": "2026-09-24T08:28:41+00:00"
     },
     {
-      "id": "6045b3a340217d78",
-      "title": "Sajtótájékoztató az Európai Ökológiai Gazdálkodási Nap alkalmából",
-      "link": "https://biokutatas.hu/hir/sajtotajekoztato-az-europai-okologiai-gazdalkodasi-nap-alkalmabol/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-23T12:45:14+00:00"
-    },
-    {
       "id": "c0ae1d673c9c1a97",
       "title": "DAMMANN önjáró permetezők John Deere vezérléssel és ISOBUS rendszerrel",
       "link": "https://magtarkft.hu/dammann-onjaro-permetezok-john-deere-vezerlessel-es-isobus-rendszerrel/",
@@ -1203,36 +1143,6 @@
       "published_at": "2026-09-23T11:38:23+00:00"
     },
     {
-      "id": "76d938a146202f08",
-      "title": "Friss adatok a hazai biotermék piacról: egyre több bioélelmiszer kerül a kosarunkba, de lépést tud-e tartani a hazai kínálat?",
-      "link": "https://biokutatas.hu/hir/friss-adatok-a-hazai-biotermek-piacrol/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "Piaci adat",
-      "source_type": "szakmai",
-      "published_at": "2026-09-22T14:55:55+00:00"
-    },
-    {
-      "id": "38c40ae25abebc63",
-      "title": "Biotermékek kiskereskedelmi forgalma Magyarországon – NIQ RMS adatok alapján",
-      "link": "https://biokutatas.hu/kiadvany/biotermekek-kiskereskedelmi-forgalma-magyarorszagon-niq-rms-adatok-alapjan/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-21T08:18:01+00:00"
-    },
-    {
-      "id": "ba23e5fc558b5c04",
-      "title": "Trendek és fejlődési lehetőségek a hazai biotermék kiskereskedelemben",
-      "link": "https://biokutatas.hu/kiadvany/agrargazdasagi-temaju-kiadvany/trendek-es-fejlodesi-lehetosegek-a-hazai-biotermek-kiskereskedelemben/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "",
-      "source_type": "szakmai",
-      "published_at": "2026-09-21T08:13:37+00:00"
-    },
-    {
       "id": "b9910decf50346f4",
       "title": "STEYR HYTRAC: hidrogénhajtású traktorral kutatják a mezőgazdaság energiafüggetlenebb jövőjét",
       "link": "https://magtarkft.hu/steyr-hytrac-hidrogenhajtasu-traktorral-kutatjak-a-mezogazdasag-energiafuggetlenebb-jovojet/",
@@ -1241,16 +1151,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-09-19T13:10:32+00:00"
-    },
-    {
-      "id": "aab7502a0413c779",
-      "title": "FORTUNA műhelymunka és éves projekttalálkozó Párizsban",
-      "link": "https://biokutatas.hu/hir/fortuna-muhelymunka-es-eves-projekttalalkozo-parizsban/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "Esemény / képzés",
-      "source_type": "szakmai",
-      "published_at": "2026-09-17T12:52:10+00:00"
     },
     {
       "id": "e78c6b7552e8749c",
@@ -1404,6 +1304,7 @@
     }
   ],
   "errors": [
+    "ÖMKi: <urlopen error [Errno 110] Connection timed out>",
     "Agroinform: <unknown>:2:1326: not well-formed (invalid token)"
   ]
 }
