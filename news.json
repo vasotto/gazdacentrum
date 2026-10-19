@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-18T20:41:30.822899+00:00",
-  "item_count": 130,
+  "generated_at": "2026-10-19T04:39:06.021728+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "007c1fd7afcab538",
+      "title": "Kertészet: az ember sem csak kristálycukrot eszik, pedig tele van energiával",
+      "link": "https://magyarmezogazdasag.hu/2026/10/19/kerteszet-az-ember-sem-csak-kristalycukrot-eszik-pedig-tele-van-energiaval/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-19T06:07:33+00:00"
+    },
+    {
+      "id": "f8e8cb1d99516262",
+      "title": "Megszólalt a magyar gazda: enélkül végleg tönkremehetnek a kisgazdaságok",
+      "link": "https://www.agrarszektor.hu/vallalkozas/20261019/megszolalt-a-magyar-gazda-enelkul-vegleg-tonkremehetnek-a-kisgazdasagok-65118",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-19T04:03:00+00:00"
+    },
+    {
+      "id": "1ed94a88410e0be7",
+      "title": "Többet hozhat a kukorica és bab társítása",
+      "link": "https://mezohir.hu/2026/10/19/tobbet-hozhat-a-kukorica-bab-tarsitas/",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-19T03:34:00+00:00"
+    },
     {
       "id": "d5b335b2a9b98052",
       "title": "Klímaalkalmazkodás a szarvasmarhatartásban",
@@ -353,16 +383,6 @@
       "published_at": "2026-10-17T20:03:12+00:00"
     },
     {
-      "id": "9bf617d1f1487a32",
-      "title": "A gyönyörű gyilkos, amely életeket ment – egy extrém gyógynövény…",
-      "link": "https://magyarmezogazdasag.hu/2026/10/17/a-gyonyoru-gyilkos-amely-eleteket-ment-egy-extrem-gyogynoveny/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T19:07:44+00:00"
-    },
-    {
       "id": "2764b910f982b410",
       "title": "Fillérekért veszik itt a birsalmát a magyarok: mutatjuk, hol juthatsz hozzá olcsón",
       "link": "https://www.agrarszektor.hu/noveny/20261017/fillerekert-veszik-itt-a-birsalmat-a-magyarok-mutatjuk-hol-juthatsz-hozza-olcson-65126",
@@ -423,16 +443,6 @@
       "published_at": "2026-10-17T15:01:00+00:00"
     },
     {
-      "id": "bb57c93b02ceb848",
-      "title": "Így tárolható hosszan az egészséges őszi csemege, a gesztenye",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/igy-tarolhato-hosszan-az-egeszseges-oszi-csemege-a-gesztenye/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T14:10:00+00:00"
-    },
-    {
       "id": "314a3180f5f924b3",
       "title": "Erős számok láttak napvilágot: nem semmi, ami az EU-s műtrágyapiacon zajlik",
       "link": "https://www.agrarszektor.hu/agrarpenzek/20261017/eros-szamok-lattak-napvilagot-nem-semmi-ami-az-eu-s-mutragyapiacon-zajlik-65122",
@@ -451,16 +461,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-17T13:04:00+00:00"
-    },
-    {
-      "id": "18aee35311aab615",
-      "title": "Ömlik a külföldi zöldség a boltok polcaira: hihetetlen, de innen érkezik a java",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261017/omlik-a-kulfoldi-zoldseg-a-boltok-polcaira-hihetetlen-de-innen-erkezik-a-java-65115",
-      "source": "Agrárszektor",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T13:02:00+00:00"
     },
     {
       "id": "7b70fdc0032f3e9a",
@@ -933,16 +933,6 @@
       "published_at": "2026-10-14T07:00:00+00:00"
     },
     {
-      "id": "b14d43440350988c",
-      "title": "Mínuszok jönnek: ezek a növények kerülhetnek veszélybe",
-      "link": "https://mezohir.hu/2026/10/14/fagy-veszelyben-lehet-a-mezogazdasag/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-14T06:11:00+00:00"
-    },
-    {
       "id": "06f1f6fea3a856f1",
       "title": "Jelentősen csökkent a vöröshagyma termelői ára",
       "link": "https://www.aki.gov.hu/2026/10/13/jelentosen-csokkent-a-voroshagyma-termeloi-ara/",
@@ -1123,6 +1113,16 @@
       "published_at": "2026-10-09T07:46:44+00:00"
     },
     {
+      "id": "e1c8520bdfa1d774",
+      "title": "A Dammann működése zavartalanul folytatódik",
+      "link": "https://magtarkft.hu/dammann-mukodes-zavartalan",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-10-08T11:36:59+00:00"
+    },
+    {
       "id": "8172b1dd38256d57",
       "title": "A fenntartható közétkeztetés fejlesztésének legfontosabb kérdései",
       "link": "https://www.aki.gov.hu/2026/10/06/a-fenntarthato-kozetkeztetes-fejlesztesenek-legfontosabb-kerdesei/",
@@ -1153,6 +1153,16 @@
       "published_at": "2026-09-30T15:26:34+00:00"
     },
     {
+      "id": "5390295f692e3eb4",
+      "title": "Reinke rendszerek szezonvégi karbantartása: így készítse fel öntözőrendszerét a télre",
+      "link": "https://magtarkft.hu/reinke-szezonvegi-karbantartas",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-30T13:13:07+00:00"
+    },
+    {
       "id": "c271baeb69d9c2f7",
       "title": "Laboratóriumi munkatársat keresünk",
       "link": "https://phylazonit.hu/laboratoriumi-munkatarsat-keresunk/",
@@ -1171,6 +1181,16 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-09-23T12:45:14+00:00"
+    },
+    {
+      "id": "c0ae1d673c9c1a97",
+      "title": "DAMMANN önjáró permetezők John Deere vezérléssel és ISOBUS rendszerrel",
+      "link": "https://magtarkft.hu/dammann-onjaro-permetezok-john-deere-vezerlessel-es-isobus-rendszerrel/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-23T11:38:23+00:00"
     },
     {
       "id": "76d938a146202f08",
@@ -1203,6 +1223,16 @@
       "published_at": "2026-09-21T08:13:37+00:00"
     },
     {
+      "id": "b9910decf50346f4",
+      "title": "STEYR HYTRAC: hidrogénhajtású traktorral kutatják a mezőgazdaság energiafüggetlenebb jövőjét",
+      "link": "https://magtarkft.hu/steyr-hytrac-hidrogenhajtasu-traktorral-kutatjak-a-mezogazdasag-energiafuggetlenebb-jovojet/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-19T13:10:32+00:00"
+    },
+    {
       "id": "aab7502a0413c779",
       "title": "FORTUNA műhelymunka és éves projekttalálkozó Párizsban",
       "link": "https://biokutatas.hu/hir/fortuna-muhelymunka-es-eves-projekttalalkozo-parizsban/",
@@ -1221,6 +1251,16 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-09-14T08:18:49+00:00"
+    },
+    {
+      "id": "9850f7d31f2e64ae",
+      "title": "DAMMANN önjárók Güstrower műtrágyaszóró adapterrel",
+      "link": "https://magtarkft.hu/dammann-onjarok-gustrower-mutragyaszoro-adapterrel/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-09-10T12:05:05+00:00"
     },
     {
       "id": "be597cab048ed5c0",
@@ -1301,6 +1341,56 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-08-05T13:43:07+00:00"
+    },
+    {
+      "id": "cc05075295cc95b7",
+      "title": "Újabb elismerés: a STEYR Cervus CVT RED DOT díjat nyert",
+      "link": "https://magtarkft.hu/ujabb-elismeres-a-steyr-cervus-cvt-red-dot-dijat-nyert/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-04-27T11:14:30+00:00"
+    },
+    {
+      "id": "847d812b5dde900f",
+      "title": "A szántóföldön derül ki minden – SKY direktvetőgép a gyakorlatban",
+      "link": "https://magtarkft.hu/a-szantofoldon-derul-ki-minden-sky-direktvetogep-a-gyakorlatban/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-04-01T11:29:47+00:00"
+    },
+    {
+      "id": "b27b2ca150d95773",
+      "title": "Nemzetközi formatervezési díjat nyert a STEYR új csúcsmodellje",
+      "link": "https://magtarkft.hu/nemzetkozi-formatervezesi-dijat-nyert-a-steyr-uj-csucsmodellje/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-03-26T12:00:54+00:00"
+    },
+    {
+      "id": "651204af5f56d098",
+      "title": "Több választási lehetőség a STEYR Expert vásárlóknak: kétféle váltó és három felszereltségi csomag",
+      "link": "https://magtarkft.hu/tobb-valasztasi-lehetoseg-a-steyr-expert-vasarloknak-ketfele-valto-es-harom-felszereltsegi-csomag/",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2026-02-25T14:26:41+00:00"
+    },
+    {
+      "id": "3f1753f55658923f",
+      "title": "Új STEYR Impuls traktorcsalád – nagyobb teljesítmény, fejlettebb technológia, kiemelkedő komfort",
+      "link": "https://magtarkft.hu/itt-az-uj-impuls-cvt",
+      "source": "Magtár Kft.",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "ceges",
+      "published_at": "2025-12-10T14:24:51+00:00"
     }
   ],
   "errors": [
