@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-20T17:09:09.544966+00:00",
-  "item_count": 133,
+  "generated_at": "2026-10-20T21:36:43.262503+00:00",
+  "item_count": 142,
   "items": [
+    {
+      "id": "114a54a0bce50299",
+      "title": "Érvek a cirok mellett",
+      "link": "https://magyarmezogazdasag.hu/2026/10/20/ervek-a-cirok-mellett/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-20T21:02:06+00:00"
+    },
+    {
+      "id": "dd3adc0e925e7e79",
+      "title": "Miért jelezhet hiányt az őszibarack tápanyagban gazdag talajon?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/20/miert-jelezhet-hianyt-az-oszibarack-tapanyagban-gazdag-talajon/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-20T20:03:17+00:00"
+    },
+    {
+      "id": "36a67e342bf2eab6",
+      "title": "Jobb a biotartás az állatoknak?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/20/jobb-a-biotartas-az-allatoknak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-20T19:03:39+00:00"
+    },
+    {
+      "id": "381e3f82be543bc8",
+      "title": "Külföldön tarol 2 magyar élelmiszer: bekerülhetnek a világ elitjébe",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261020/kulfoldon-tarol-2-magyar-elelmiszer-bekerulhetnek-a-vilag-elitjebe-65187",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-20T18:28:00+00:00"
+    },
+    {
+      "id": "112d3b7e625ded28",
+      "title": "Teljesen megőrült a piac: ennyibe kerül most egy kiló alma a lengyeleknél",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261020/teljesen-megorult-a-piac-ennyibe-kerul-most-egy-kilo-alma-a-lengyeleknel-65181",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-20T17:28:00+00:00"
+    },
+    {
+      "id": "47a7b7d59ec7d209",
+      "title": "Nem mindennapi döntést hozott az ismert magyar tejipari cég: meglepő termékekkel újítanak",
+      "link": "https://agronaplo.hu/agrarhirek/20261020/nem-mindennapi-dontest-hozott-az-ismert-magyar-tejipari-ceg-meglepo-termekekkel-ujitanak-41297",
+      "source": "Agro Napló",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-20T17:28:00+00:00"
+    },
     {
       "id": "5483910288491595",
       "title": "Egyre nagyobb a pánik: újra megjelent a járvány",
@@ -201,6 +261,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-20T12:03:00+00:00"
+    },
+    {
+      "id": "dd52caadbf471ccd",
+      "title": "A gabona útja a szántóföldtől az asztalig – a Csoroszlya Farmon jártunk",
+      "link": "https://biokutatas.hu/hir/a-gabona-utja-vilagitotorony-gazdasaglatogatas/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-20T11:51:56+00:00"
     },
     {
       "id": "3f9006c3dbb451e6",
@@ -463,16 +533,6 @@
       "published_at": "2026-10-20T06:37:07+00:00"
     },
     {
-      "id": "a8212a2325d909e4",
-      "title": "Új károsító támadhatja meg Magyarországot: bármikor bejuthat",
-      "link": "https://www.agrarszektor.hu/innovacio/20261020/uj-karosito-tamadhatja-meg-magyarorszagot-barmikor-bejuthat-65147",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T06:19:00+00:00"
-    },
-    {
       "id": "edeca36c02a78d6b",
       "title": "Megtorpant a húskereslet, csökkennek a sertésárak",
       "link": "https://magyarmezogazdasag.hu/2026/10/20/megtorpant-a-huskereslet-csokkennek-a-sertesarak/",
@@ -481,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-20T06:04:47+00:00"
-    },
-    {
-      "id": "91758b36a493f225",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.20. kedd",
-      "link": "https://www.agrarszektor.hu/noveny/20261020/friss-agrarszektor-idojaras-elorejelzes-20261020-kedd-65166",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T05:45:04+00:00"
     },
     {
       "id": "30137e5e1ba1a639",
@@ -521,16 +571,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-19T20:03:55+00:00"
-    },
-    {
-      "id": "f130e4085818c2c0",
-      "title": "Így ismerhetjük fel a romlott édesburgonyát vásárláskor",
-      "link": "https://magyarmezogazdasag.hu/2026/10/19/igy-ismerhetjuk-fel-a-romlott-edesburgonyat-vasarlaskor/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T19:08:44+00:00"
     },
     {
       "id": "9f61047986ea5cbb",
@@ -583,16 +623,6 @@
       "published_at": "2026-10-19T14:10:00+00:00"
     },
     {
-      "id": "fb3680f3752a4ba6",
-      "title": "Klímaváltozás és a kenyér: az egészségünkre is hatással lehet",
-      "link": "https://magyarmezogazdasag.hu/2026/10/19/klimavaltozas-es-a-kenyer-az-egeszsegunkre-is-hatassal-lehet/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T14:04:39+00:00"
-    },
-    {
       "id": "2202e1a0585285d8",
       "title": "Elvehetik az autót? Szigorúbb büntetések jöhetnek",
       "link": "https://mezohir.hu/2026/10/19/kozlekedesi-szabalyok-szigoritasa-mezogazdasag/",
@@ -611,6 +641,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-19T13:34:00+00:00"
+    },
+    {
+      "id": "26fb395d50716877",
+      "title": "Csatlakozz a COLiBRI szakmai közösségéhez!",
+      "link": "https://biokutatas.hu/hir/csatlakozz-a-colibri-szakmai-kozossegehez/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-19T12:45:09+00:00"
     },
     {
       "id": "093d89b317bd8151",
@@ -653,16 +693,6 @@
       "published_at": "2026-10-19T10:41:00+00:00"
     },
     {
-      "id": "6a7dc6b2317b5931",
-      "title": "Egyre drágább a dohánytermesztés, több pénzt kérnek a gazdák",
-      "link": "https://magyarmezogazdasag.hu/2026/10/19/egyre-dragabb-a-dohanytermesztes-tobb-penzt-kernek-a-gazdak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T10:03:37+00:00"
-    },
-    {
       "id": "879cfa2d66e1cecb",
       "title": "Tájékoztató a KAP Stratégiai Terv alapján megvalósítandó beruházási műveletek összköltségének, illetve műszaki-szakmai tartalmának változtatásáról",
       "link": "https://kap.gov.hu/news/2026-10-19/110924/tajekoztato-kap-strategiai-terv-alapjan-megvalositando-beruhazasi-muveletek",
@@ -681,6 +711,16 @@
       "content_type": "Piaci adat",
       "source_type": "szakmai",
       "published_at": "2026-10-19T09:01:00+00:00"
+    },
+    {
+      "id": "8666376a603084c0",
+      "title": "Biogabonák, biolisztek és biokenyerek",
+      "link": "https://biokutatas.hu/hir/biogabonak-biolisztek-es-biokenyerek/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-19T08:20:48+00:00"
     },
     {
       "id": "3dd6674cf7fe4205",
@@ -843,16 +883,6 @@
       "published_at": "2026-10-17T10:03:33+00:00"
     },
     {
-      "id": "0157c2a6425b6dc6",
-      "title": "Döntött az EU: rendkívüli tervvel védekeznének a pusztító árvizek és az aszály ellen",
-      "link": "https://agronaplo.hu/agrarhirek/20261017/dontott-az-eu-rendkivuli-tervvel-vedekeznenek-a-pusztito-arvizek-es-az-aszaly-ellen-41274",
-      "source": "Agro Napló",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T09:04:00+00:00"
-    },
-    {
       "id": "75d0f1b414009489",
       "title": "Megjött az eső, de súlyos baj maradt a földeken",
       "link": "https://mezohir.hu/2026/10/17/mezogazdasag-talajnedvesseg-eso-utan-vizhiany/",
@@ -951,6 +981,16 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-10-16T09:01:00+00:00"
+    },
+    {
+      "id": "a9123b1be56a2ae3",
+      "title": "Hogyan lesz elég élelmiszer? Nem csak azon múlik, mennyit termelünk",
+      "link": "https://biokutatas.hu/hir/hogyan-lesz-eleg-elelmiszer-nem-csak-azon-mulik-mennyit-termelunk/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "szakmai",
+      "published_at": "2026-10-16T08:54:13+00:00"
     },
     {
       "id": "a57f2a6e2b504dce",
@@ -1093,6 +1133,16 @@
       "published_at": "2026-10-13T19:33:55+00:00"
     },
     {
+      "id": "04e48cdde89d92f6",
+      "title": "Öntsünk tiszta vizet a pohárba (3.): Tudja-e élelmezni a biogazdálkodás a világot? Avagy látjuk-e az elefántot a szobában?",
+      "link": "https://biokutatas.hu/hir/ontsunk-tiszta-vizet-a-poharba-3-tudja-e-elelmezni-a-biogazdalkodas-a-vilagot/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-13T14:42:46+00:00"
+    },
+    {
       "id": "b18a56488a4c092a",
       "title": "Hollandia: jelentősen bővül jövőre az iskolagyümölcs-program",
       "link": "https://fruitveb.hu/hollandia-jelentosen-bovul-jovore-az-iskolagyumolcs-program/",
@@ -1133,6 +1183,16 @@
       "published_at": "2026-10-12T11:45:04+00:00"
     },
     {
+      "id": "5db1838e0b338edf",
+      "title": "Talajkímélő megoldások az ökológiai szántóföldi gazdálkodásban",
+      "link": "https://biokutatas.hu/rendezvenyek/talajkimelo-megoldasok-a-szantofoldon/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-09T15:58:27+00:00"
+    },
+    {
       "id": "e1c8520bdfa1d774",
       "title": "A Dammann működése zavartalanul folytatódik",
       "link": "https://magtarkft.hu/dammann-mukodes-zavartalan",
@@ -1141,6 +1201,16 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-10-08T11:36:59+00:00"
+    },
+    {
+      "id": "70859b91490bc141",
+      "title": "Nemzetközi szaktanácsadói látogatás Magyarországon",
+      "link": "https://biokutatas.hu/hir/nemzetkozi-szaktanacsadoi-latogatas-magyarorszagon/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-09-30T15:26:34+00:00"
     },
     {
       "id": "5390295f692e3eb4",
@@ -1163,6 +1233,16 @@
       "published_at": "2026-09-24T08:28:41+00:00"
     },
     {
+      "id": "6045b3a340217d78",
+      "title": "Sajtótájékoztató az Európai Ökológiai Gazdálkodási Nap alkalmából",
+      "link": "https://biokutatas.hu/hir/sajtotajekoztato-az-europai-okologiai-gazdalkodasi-nap-alkalmabol/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-09-23T12:45:14+00:00"
+    },
+    {
       "id": "c0ae1d673c9c1a97",
       "title": "DAMMANN önjáró permetezők John Deere vezérléssel és ISOBUS rendszerrel",
       "link": "https://magtarkft.hu/dammann-onjaro-permetezok-john-deere-vezerlessel-es-isobus-rendszerrel/",
@@ -1171,6 +1251,16 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-09-23T11:38:23+00:00"
+    },
+    {
+      "id": "76d938a146202f08",
+      "title": "Friss adatok a hazai biotermék piacról: egyre több bioélelmiszer kerül a kosarunkba, de lépést tud-e tartani a hazai kínálat?",
+      "link": "https://biokutatas.hu/hir/friss-adatok-a-hazai-biotermek-piacrol/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "Piaci adat",
+      "source_type": "szakmai",
+      "published_at": "2026-09-22T14:55:55+00:00"
     },
     {
       "id": "b9910decf50346f4",
@@ -1334,7 +1424,6 @@
     }
   ],
   "errors": [
-    "ÖMKi: <urlopen error [Errno 110] Connection timed out>",
     "Agroinform: <unknown>:2:1326: not well-formed (invalid token)"
   ]
 }
