@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-20T21:36:43.262503+00:00",
-  "item_count": 142,
+  "generated_at": "2026-10-21T04:44:38.016992+00:00",
+  "item_count": 141,
   "items": [
+    {
+      "id": "72090ed9ef01b37b",
+      "title": "Nők a gazdaságok élén: nagyok a különbségek Európában",
+      "link": "https://magyarmezogazdasag.hu/2026/10/21/nok-a-gazdasagok-elen-nagyok-a-kulonbsegek-europaban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T06:06:49+00:00"
+    },
+    {
+      "id": "f4309e3340be516e",
+      "title": "Így kerülhet rovarfehérje a takarmányba – Sokan nem sejtik, mi van a háttérben",
+      "link": "https://www.agrarszektor.hu/metszet/20261021/igy-kerulhet-rovarfeherje-a-takarmanyba-sokan-nem-sejtik-mi-van-a-hatterben-65027",
+      "source": "Agrárszektor",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T03:59:00+00:00"
+    },
+    {
+      "id": "234f26f6d2e06db8",
+      "title": "A Google mesterséges intelligenciával alakítaná át a cirkot",
+      "link": "https://mezohir.hu/2026/10/21/mezogazdasag-cirok-nemesitese-mesterseges-intelligenciaval/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T03:34:00+00:00"
+    },
     {
       "id": "114a54a0bce50299",
       "title": "Érvek a cirok mellett",
@@ -513,16 +543,6 @@
       "published_at": "2026-10-20T06:59:00+00:00"
     },
     {
-      "id": "da6f3477e984391b",
-      "title": "Elkezdhetünk aggódni? Brutális időjárás jöhet a következő hónapokban",
-      "link": "https://www.agrarszektor.hu/noveny/20261020/elkezdhetunk-aggodni-brutalis-idojaras-johet-a-kovetkezo-honapokban-65168",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T06:44:00+00:00"
-    },
-    {
       "id": "1d3ca04b0e215aeb",
       "title": "Elfogyott a pénz: három agrárpályázatnál nincs tovább",
       "link": "https://mezohir.hu/2026/10/20/mezogazdasag-agrarpalyazat-forras-nelkul/",
@@ -563,16 +583,6 @@
       "published_at": "2026-10-19T21:06:12+00:00"
     },
     {
-      "id": "bf182cb7ae7d75d1",
-      "title": "Barátság csóka módra: ha nem is aranyat, de táplálékot ér",
-      "link": "https://magyarmezogazdasag.hu/2026/10/19/baratsag-csoka-modra-ha-nem-is-aranyat-de-taplalekot-er/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T20:03:55+00:00"
-    },
-    {
       "id": "9f61047986ea5cbb",
       "title": "Különleges gyümölcs terem a magyar kertekben: nyersen fanyar, mégis igazi kincs a konyhában",
       "link": "https://agronaplo.hu/agrarhirek/20261019/kulonleges-gyumolcs-terem-a-magyar-kertekben-nyersen-fanyar-megis-igazi-kincs-a-konyhaban-41288",
@@ -611,16 +621,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-19T14:36:00+00:00"
-    },
-    {
-      "id": "cf2447e025e1ab4e",
-      "title": "Terménylopás a földeken: már néhány kiló miatt is eljárás indulhat",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/termenylopas-a-foldeken-mar-nehany-kilo-miatt-is-eljaras-indulhat/",
-      "source": "Agrofórum",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T14:10:00+00:00"
     },
     {
       "id": "2202e1a0585285d8",
@@ -1021,16 +1021,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-16T06:11:00+00:00"
-    },
-    {
-      "id": "299665b59510df0b",
-      "title": "Drágult a paprika, mégsem elégedettek a termelők",
-      "link": "https://mezohir.hu/2026/10/16/mezogazdasag-dragult-a-paprika-megsem-elegedettek-a-termelok/",
-      "source": "Mezőhír",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-16T03:34:00+00:00"
     },
     {
       "id": "c09eac1ff8a40502",
