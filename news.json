@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-21T17:11:32.490191+00:00",
-  "item_count": 142,
+  "generated_at": "2026-10-21T21:42:22.453352+00:00",
+  "item_count": 141,
   "items": [
+    {
+      "id": "51d0b6ec5dae7356",
+      "title": "Nekik sikerült megvédeni a barackot",
+      "link": "https://magyarmezogazdasag.hu/2026/10/21/nekik-sikerult-megvedeni-a-barackot/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T21:07:00+00:00"
+    },
+    {
+      "id": "499cc3fc05784178",
+      "title": "Burgonya: a föld sáros aranya?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/21/burgonya-a-fold-saros-aranya/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T20:04:38+00:00"
+    },
     {
       "id": "85833675470eaa8d",
       "title": "A nehézségek ellenére stabil a szentesi zöldséghajtatás",
@@ -11,6 +31,26 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T19:03:07+00:00"
+    },
+    {
+      "id": "c126d4e17a59f5a8",
+      "title": "Itt a figyelmeztetés: akkora a baj, hogy már majdnem két Föld kellene az emberiségnek",
+      "link": "https://agronaplo.hu/agrarhirek/20261021/itt-a-figyelmeztetes-akkora-a-baj-hogy-mar-majdnem-ket-fold-kellene-az-emberisegnek-41302",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T17:36:00+00:00"
+    },
+    {
+      "id": "3b6c8a8d3fd655e2",
+      "title": "Sok termelő már inkább le se szedi a gyümölcsöket a fáról",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261021/sok-termelo-mar-inkabb-le-se-szedi-a-gyumolcsoket-a-farol-65206",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-21T17:28:00+00:00"
     },
     {
       "id": "1803c1283fb93209",
@@ -171,16 +211,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T11:10:00+00:00"
-    },
-    {
-      "id": "0970cfd7fbf28f03",
-      "title": "Komoly gondok vannak ennél a gyümölcsnél: mi lesz így a termelőkkel?",
-      "link": "https://agronaplo.hu/agrarhirek/20261021/komoly-gondok-vannak-ennel-a-gyumolcsnel-mi-lesz-igy-a-termelokkel-41300",
-      "source": "Agro Napló",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T11:02:00+00:00"
     },
     {
       "id": "b9fd9f59798a5679",
@@ -423,16 +453,6 @@
       "published_at": "2026-10-20T20:03:17+00:00"
     },
     {
-      "id": "36a67e342bf2eab6",
-      "title": "Jobb a biotartás az állatoknak?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/20/jobb-a-biotartas-az-allatoknak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T19:03:39+00:00"
-    },
-    {
       "id": "381e3f82be543bc8",
       "title": "Külföldön tarol 2 magyar élelmiszer: bekerülhetnek a világ elitjébe",
       "link": "https://www.agrarszektor.hu/elelmiszer/20261020/kulfoldon-tarol-2-magyar-elelmiszer-bekerulhetnek-a-vilag-elitjebe-65187",
@@ -461,26 +481,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-20T17:28:00+00:00"
-    },
-    {
-      "id": "5483910288491595",
-      "title": "Egyre nagyobb a pánik: újra megjelent a járvány",
-      "link": "https://www.agrarszektor.hu/allat/20261020/egyre-nagyobb-a-panik-ujra-megjelent-a-jarvany-65170",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T16:31:00+00:00"
-    },
-    {
-      "id": "0654190f93c9401d",
-      "title": "Enyhülnek az aszály okozta kötelezettségek az AKG- és az ÖKO támogatásokban",
-      "link": "https://magyarmezogazdasag.hu/2026/10/20/enyhulnek-az-aszaly-okozta-kotelezettsegek-az-akg-es-az-oko-tamogatasokban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Támogatások és pályázatok",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-10-20T16:10:17+00:00"
     },
     {
       "id": "9519288bea43d355",
@@ -921,16 +921,6 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "portál",
       "published_at": "2026-10-18T10:41:00+00:00"
-    },
-    {
-      "id": "17135a81ae3415c6",
-      "title": "Ezt nem láttuk jönni: új alapanyag jöhet a takarmánygyártásban?",
-      "link": "https://agronaplo.hu/agrarhirek/20261018/ezt-nem-lattuk-jonni-uj-alapanyag-johet-a-takarmanygyartasban-41280",
-      "source": "Agro Napló",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-18T08:58:00+00:00"
     },
     {
       "id": "96e3dea6528fcb5e",
