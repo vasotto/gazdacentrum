@@ -1,13 +1,33 @@
 {
-  "generated_at": "2026-10-21T21:42:22.453352+00:00",
-  "item_count": 141,
+  "generated_at": "2026-10-22T04:42:54.233696+00:00",
+  "item_count": 137,
   "items": [
+    {
+      "id": "9d778946d07f0268",
+      "title": "Vége a megszokásoknak: lejárt a hagyományos módszerek ideje a földeken",
+      "link": "https://www.agrarszektor.hu/noveny/20261022/vege-a-megszokasoknak-lejart-a-hagyomanyos-modszerek-ideje-a-foldeken-65052",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T03:58:00+00:00"
+    },
+    {
+      "id": "7d7a87d71fa14f7b",
+      "title": "Kevesebb műtrágya kellhet? Meglepő felfedezés született",
+      "link": "https://mezohir.hu/2026/10/22/mezogazdasag-mutragya-helyett-biologiai-nitrogenmegkotes/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T03:34:00+00:00"
+    },
     {
       "id": "51d0b6ec5dae7356",
       "title": "Nekik sikerült megvédeni a barackot",
       "link": "https://magyarmezogazdasag.hu/2026/10/21/nekik-sikerult-megvedeni-a-barackot/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Növényvédelem",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T21:07:00+00:00"
@@ -323,16 +343,6 @@
       "published_at": "2026-10-21T07:01:00+00:00"
     },
     {
-      "id": "60d2af5606e42a1a",
-      "title": "Sorsdöntő áfacsökkentés jöhet: ez óriási változásokat hozhat",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261021/sorsdonto-afacsokkentes-johet-ez-oriasi-valtozasokat-hozhat-65198",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T06:59:00+00:00"
-    },
-    {
       "id": "964ca69379202847",
       "title": "Különös takarmány terjedhet el Magyarországon: kevesen tudják, de szigorú szabályok vonatkoznak rá",
       "link": "https://agronaplo.hu/agrarhirek/20261021/kulonos-takarmany-terjedhet-el-magyarorszagon-kevesen-tudjak-de-szigoru-szabalyok-vonatkoznak-ra-41298",
@@ -443,16 +453,6 @@
       "published_at": "2026-10-20T21:02:06+00:00"
     },
     {
-      "id": "dd3adc0e925e7e79",
-      "title": "Miért jelezhet hiányt az őszibarack tápanyagban gazdag talajon?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/20/miert-jelezhet-hianyt-az-oszibarack-tapanyagban-gazdag-talajon/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T20:03:17+00:00"
-    },
-    {
       "id": "381e3f82be543bc8",
       "title": "Külföldön tarol 2 magyar élelmiszer: bekerülhetnek a világ elitjébe",
       "link": "https://www.agrarszektor.hu/elelmiszer/20261020/kulfoldon-tarol-2-magyar-elelmiszer-bekerulhetnek-a-vilag-elitjebe-65187",
@@ -461,16 +461,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-20T18:28:00+00:00"
-    },
-    {
-      "id": "112d3b7e625ded28",
-      "title": "Teljesen megőrült a piac: ennyibe kerül most egy kiló alma a lengyeleknél",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261020/teljesen-megorult-a-piac-ennyibe-kerul-most-egy-kilo-alma-a-lengyeleknel-65181",
-      "source": "Agrárszektor",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-20T17:28:00+00:00"
     },
     {
       "id": "47a7b7d59ec7d209",
@@ -501,16 +491,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-10-20T14:29:39+00:00"
-    },
-    {
-      "id": "1b079dbb734315e6",
-      "title": "Lehet a cukorcirok alternatívája a kukoricának?",
-      "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/lehet-a-cukorcirok-alternativaja-a-kukoricanak/",
-      "source": "Agrofórum",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T14:10:00+00:00"
     },
     {
       "id": "df0090eb7f43f309",
@@ -571,16 +551,6 @@
       "content_type": "",
       "source_type": "hivatalos",
       "published_at": "2026-10-20T12:32:09+00:00"
-    },
-    {
-      "id": "6b9da12e55caf02b",
-      "title": "Új generáció, új mérce: New Holland T7 Standard Wheelbase traktorszéria",
-      "link": "https://agroforum.hu/pr-cikk/uj-generacio-uj-merce-new-holland-t7-standard-wheelbase-traktorszeria-2/",
-      "source": "Agrofórum",
-      "category": "Gépesítés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-20T12:10:00+00:00"
     },
     {
       "id": "dd52caadbf471ccd",
@@ -981,16 +951,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-10-17T04:04:00+00:00"
-    },
-    {
-      "id": "a330d093d4e51598",
-      "title": "Öt százalékos áfát sürgetnek a magyar kertészek",
-      "link": "https://mezohir.hu/2026/10/17/mezogazdasag-ot-szazalekos-afat-surgetnek-a-magyar-kerteszek/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-17T03:34:00+00:00"
     },
     {
       "id": "7098b5b3272c440d",
