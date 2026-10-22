@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-22T17:09:50.803969+00:00",
-  "item_count": 144,
+  "generated_at": "2026-10-22T21:34:59.805846+00:00",
+  "item_count": 143,
   "items": [
+    {
+      "id": "86dd2d9d7fe9cdc6",
+      "title": "Mire figyeljenek a gazdálkodók?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/22/mire-figyeljenek-a-gazdalkodok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T21:08:47+00:00"
+    },
+    {
+      "id": "f156dc4fce8e1376",
+      "title": "200 ezer eurót kínál Románia, 75 milliót Magyarország",
+      "link": "https://magyarmezogazdasag.hu/2026/10/22/200-ezer-eurot-kinal-romania-75-milliot-magyarorszag/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T20:08:16+00:00"
+    },
+    {
+      "id": "a73c6a9f69064b91",
+      "title": "Vadászok kontra gazdák – ellentétek szítása helyett a békés egymás mellett élés",
+      "link": "https://magyarmezogazdasag.hu/2026/10/22/ellentetek-szitasa-helyett-a-bekes-egymas-mellett-elesre-kell-torekedni/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T19:09:53+00:00"
+    },
+    {
+      "id": "602f1c6cb01e8fb0",
+      "title": "Rábólintott Brüsszel: félmillió eurót kapnak a szlovén gazdák",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20261022/rabolintott-brusszel-felmillio-eurot-kapnak-a-szloven-gazdak-65222",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-22T17:29:00+00:00"
+    },
     {
       "id": "e68e4ee769ebe634",
       "title": "Felszólítják a magyarokat: ha ezt a károsítót látod, azonnal jelentened kell",
@@ -257,7 +297,7 @@
       "title": "Pántlikafűből gyorsan megújuló alapanyag",
       "link": "https://magyarmezogazdasag.hu/2026/10/22/pantlikafubol-gyorsan-megujulo-alapanyag/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Növénytermesztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T10:03:46+00:00"
@@ -423,26 +463,6 @@
       "published_at": "2026-10-22T05:10:00+00:00"
     },
     {
-      "id": "dd6c8a5b09394bf8",
-      "title": "Ömlik Európába az import hús: nem is gondolnád, honnan érkezik",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261022/omlik-europaba-az-import-hus-nem-is-gondolnad-honnan-erkezik-65210",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-22T05:02:00+00:00"
-    },
-    {
-      "id": "9d778946d07f0268",
-      "title": "Vége a megszokásoknak: lejárt a hagyományos módszerek ideje a földeken",
-      "link": "https://www.agrarszektor.hu/noveny/20261022/vege-a-megszokasoknak-lejart-a-hagyomanyos-modszerek-ideje-a-foldeken-65052",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T03:58:00+00:00"
-    },
-    {
       "id": "7d7a87d71fa14f7b",
       "title": "Kevesebb műtrágya kellhet? Meglepő felfedezés született",
       "link": "https://mezohir.hu/2026/10/22/mezogazdasag-mutragya-helyett-biologiai-nitrogenmegkotes/",
@@ -457,7 +477,7 @@
       "title": "Nekik sikerült megvédeni a barackot",
       "link": "https://magyarmezogazdasag.hu/2026/10/21/nekik-sikerult-megvedeni-a-barackot/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Növényvédelem",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T21:07:00+00:00"
@@ -503,16 +523,6 @@
       "published_at": "2026-10-21T15:59:52+00:00"
     },
     {
-      "id": "e47433aa8df6a74b",
-      "title": "A tejipar meghatározó alakját díjazták",
-      "link": "https://magyarmezogazdasag.hu/2026/10/21/a-tejipar-meghatarozo-alakjat-dijaztak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T14:48:57+00:00"
-    },
-    {
       "id": "d26c193ab7148ef7",
       "title": "Drasztikus döntés jöhet az aszály miatt: van, ahol fel kell adni a termelést Magyarországon?",
       "link": "https://agronaplo.hu/agrarhirek/20261021/drasztikus-dontes-johet-az-aszaly-miatt-van-ahol-fel-kell-adni-a-termelest-magyarorszagon-41301",
@@ -531,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T14:10:00+00:00"
-    },
-    {
-      "id": "5a991bc3a878e58d",
-      "title": "Nem több erdőre, hanem több mozaikosságra van szüksége a Homokhátságnak",
-      "link": "https://magyarmezogazdasag.hu/2026/10/21/nem-tobb-erdore-hanem-tobb-mozaikossagra-van-szuksege-a-homokhatsagnak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T14:04:46+00:00"
     },
     {
       "id": "e10045f0d79b72a5",
@@ -601,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-21T10:41:00+00:00"
-    },
-    {
-      "id": "d551a7a56637cb04",
-      "title": "A kaptár, mint élő immunrendszer",
-      "link": "https://magyarmezogazdasag.hu/2026/10/21/a-kaptar-mint-elo-immunrendszer/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T10:02:36+00:00"
     },
     {
       "id": "f6b3da295c05cb74",
