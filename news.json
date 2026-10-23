@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-10-23T11:37:21.137372+00:00",
+  "generated_at": "2026-10-23T17:05:59.516623+00:00",
   "item_count": 145,
   "items": [
+    {
+      "id": "3619299f9dbfd6d4",
+      "title": "Elfajult a helyzet az olaszoknál: milliárdos károkat okozott a tiltakozás",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261023/elfajult-a-helyzet-az-olaszoknal-milliardos-karokat-okozott-a-tiltakozas-65247",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T16:29:00+00:00"
+    },
+    {
+      "id": "e1d2d901b7e907b4",
+      "title": "Kemény vihar pusztított: több ezer hektárnyi növényház sérült meg",
+      "link": "https://www.agrarszektor.hu/noveny/20261023/kemeny-vihar-pusztitott-tobb-ezer-hektarnyi-novenyhaz-serult-meg-65237",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T15:02:00+00:00"
+    },
+    {
+      "id": "7a1627d1a978eb9b",
+      "title": "Váratlan fordulat jött Magyarországon: jelentősen esik a legnépszerűbb húsok ára",
+      "link": "https://agronaplo.hu/agrarhirek/20261023/varatlan-fordulat-jott-magyarorszagon-jelentosen-esik-a-legnepszerubb-husok-ara-41310",
+      "source": "Agro Napló",
+      "category": "Általános agrár",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-23T15:01:00+00:00"
+    },
+    {
+      "id": "157d36bb9f6c3dea",
+      "title": "Összeomlik a sertésár Németországban, nőnek a veszteségek",
+      "link": "https://magyarmezogazdasag.hu/2026/10/23/osszeomlik-a-sertesar-nemetorszagban-nonek-a-vesztesegek/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T14:26:10+00:00"
+    },
+    {
+      "id": "069d8dcb24876ddd",
+      "title": "A kerti medence téliesítésekor erre a néhány dologra kell figyelni",
+      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/a-kerti-medence-teliesitesekor-erre-a-nehany-dologra-kell-figyelni/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T14:10:00+00:00"
+    },
+    {
+      "id": "7dc5f563dc501773",
+      "title": "Ez riasztó: sokan nincsenek felkészülve a közeledő vízkrízisre",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261023/ez-riaszto-sokan-nincsenek-felkeszulve-a-kozeledo-vizkrizisre-65232",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T13:59:00+00:00"
+    },
+    {
+      "id": "2064c711b6ce502a",
+      "title": "Kerttulajdonosok, figyelem! Vagyonokat fizethet, aki megfeledkezik erről",
+      "link": "https://www.agrarszektor.hu/agrarpenzek/20261023/kerttulajdonosok-figyelem-vagyonokat-fizethet-aki-megfeledkezik-errol-65244",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T13:03:00+00:00"
+    },
+    {
+      "id": "f9ad318d34c377dd",
+      "title": "AI a mezőgazdaságban: a megvalósítás dönti el a sikert",
+      "link": "https://mezohir.hu/2026/10/23/mezogazdasag-ai-es-sikeres-megvalositas/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T12:34:00+00:00"
+    },
+    {
+      "id": "7bf9c72ae208aad0",
+      "title": "Vadgesztenyéből mosószer? Így készül az otthoni változat",
+      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/vadgesztenyebol-mososzer-igy-keszul-az-otthoni-valtozat/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T12:10:00+00:00"
+    },
+    {
+      "id": "3ba09564fbf14277",
+      "title": "Gyakran veszel csirkehúst? Jobb, ha tudod, mi derült ki róla",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261023/gyakran-veszel-csirkehust-jobb-ha-tudod-mi-derult-ki-rola-65235",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T12:01:00+00:00"
+    },
     {
       "id": "ee572e7262860b84",
       "title": "Nagy dobás az oroszoktól, erre a gépre most senki sem számított",
@@ -18,16 +118,6 @@
       "link": "https://www.agrarszektor.hu/elelmiszer/20261023/kuszobon-az-eu-nagy-megallapodasa-ez-magyarorszagot-is-erinti-65190",
       "source": "Agrárszektor",
       "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-23T11:01:00+00:00"
-    },
-    {
-      "id": "6344581ed3984533",
-      "title": "Súlyos százezreket bukhat az az ingatlantulajdonos, aki kihagyja ezt az őszi feladatot",
-      "link": "https://agronaplo.hu/agrarhirek/20261023/sulyos-szazezreket-bukhat-az-az-ingatlantulajdonos-aki-kihagyja-ezt-az-oszi-feladatot-41309",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-23T11:01:00+00:00"
@@ -303,26 +393,6 @@
       "published_at": "2026-10-22T15:27:00+00:00"
     },
     {
-      "id": "5081a7f356864efb",
-      "title": "Emberáldozatot követelt a rettegett kór: ilyet eddig senki nem látott",
-      "link": "https://www.agrarszektor.hu/agrarpenzek/20261022/emberaldozatot-kovetelt-a-rettegett-kor-ilyet-eddig-senki-nem-latott-65230",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T15:02:00+00:00"
-    },
-    {
-      "id": "9c6058153d49593a",
-      "title": "Ami vasárnap jön Magyarországon, olyan biztos nem lesz több az évben",
-      "link": "https://www.agrarszektor.hu/noveny/20261022/ami-vasarnap-jon-magyarorszagon-olyan-biztos-nem-lesz-tobb-az-evben-65241",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T14:26:00+00:00"
-    },
-    {
       "id": "f5031777a5919874",
       "title": "Ózon az öntözővízben – 10 évnyi tapasztalat és meglepő eredmények",
       "link": "https://agroforum.hu/agrarhirek/nagyvilag/ozon-az-ontozovizben-10-evnyi-tapasztalat-es-meglepo-eredmenyek/",
@@ -343,16 +413,6 @@
       "published_at": "2026-10-22T14:07:58+00:00"
     },
     {
-      "id": "a0a27a54134d0d50",
-      "title": "Megjött a friss jelentés: nem akármilyen idő vár a magyarokra a hétvégén",
-      "link": "https://www.agrarszektor.hu/noveny/20261022/megjott-a-friss-jelentes-nem-akarmilyen-ido-var-a-magyarokra-a-hetvegen-65234",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T14:03:00+00:00"
-    },
-    {
       "id": "bb3554a1b95586e1",
       "title": "A STEYR Spezial F CVT első nyilvános bemutatója az EIMA 2026 kiállításon",
       "link": "https://magtarkft.hu/a-steyr-spezial-f-cvt-elso-nyilvanos-bemutatoja-az-eima-2026-kiallitason/",
@@ -361,16 +421,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-10-22T13:35:21+00:00"
-    },
-    {
-      "id": "223f0380fcbba316",
-      "title": "Váratlan hírek jöttek az üzemanyagárakról: ezt tudnod kell, ha tankolni akarsz",
-      "link": "https://www.agrarszektor.hu/agrarpenzek/20261022/varatlan-hirek-jottek-az-uzemanyagarakrol-ezt-tudnod-kell-ha-tankolni-akarsz-65231",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T13:29:00+00:00"
     },
     {
       "id": "a13b59c44c411872",
@@ -391,16 +441,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T12:34:00+00:00"
-    },
-    {
-      "id": "62810c8d2b7ad6e7",
-      "title": "Elértük a kritikus pontot: tavaszra csődhullám söpörhet végig a hazai tejtermelőknél",
-      "link": "https://www.agrarszektor.hu/allat/20261022/elertuk-a-kritikus-pontot-tavaszra-csodhullam-soporhet-vegig-a-hazai-tejtermeloknel-65228",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T12:32:00+00:00"
     },
     {
       "id": "0540399df95ba742",
@@ -431,16 +471,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T11:29:00+00:00"
-    },
-    {
-      "id": "644567496a3502b7",
-      "title": "A földigiliszták talajjavító munkáját lepipáló eljárást dolgoztak ki, csodaszámba megy az eredményessége",
-      "link": "https://agroforum.hu/agrarhirek/talajmuveles-agrarhirek/a-foldigilisztak-talajjavito-munkajat-lepipalo-eljarast-dolgoztak-ki-csodaszamba-megy-az-eredmenyessege/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T11:10:00+00:00"
     },
     {
       "id": "0d77ec0d9f7d9ae5",
@@ -477,7 +507,7 @@
       "title": "Pántlikafűből gyorsan megújuló alapanyag",
       "link": "https://magyarmezogazdasag.hu/2026/10/22/pantlikafubol-gyorsan-megujulo-alapanyag/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Kertészet",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T10:03:46+00:00"
@@ -491,16 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T10:02:00+00:00"
-    },
-    {
-      "id": "45ab138112170ec2",
-      "title": "Delta Duo az őszi gyomok elleni védekezés szolgálatában",
-      "link": "https://agroforum.hu/pr-cikk/delta-duo-az-oszi-gyomok-elleni-vedekezes-szolgalataban/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T09:10:00+00:00"
     },
     {
       "id": "890ed7762279c987",
@@ -953,16 +973,6 @@
       "published_at": "2026-10-19T17:31:00+00:00"
     },
     {
-      "id": "6b5ff93e4e00648f",
-      "title": "Fontos bejelentést tett Magyar Péter: milliók pénztárcáját érinti a döntés",
-      "link": "https://agronaplo.hu/agrarhirek/20261019/fontos-bejelentest-tett-magyar-peter-milliok-penztarcajat-erinti-a-dontes-41286",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T16:13:00+00:00"
-    },
-    {
       "id": "a0e7a3f53f2d7a72",
       "title": "A KAP Nemzeti Irányító Hatóság 114/2026. számú közleménye a KAP Stratégiai Terv egyes pályázati felhívásainak módosításáról",
       "link": "https://kap.gov.hu/news/2026-10-19/175630/kap-nemzeti-iranyito-hatosag-1142026.-szamu-kozlemenye-kap-strategiai-terv",
@@ -1071,16 +1081,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-10-19T06:11:00+00:00"
-    },
-    {
-      "id": "1ed94a88410e0be7",
-      "title": "Többet hozhat a kukorica és bab társítása",
-      "link": "https://mezohir.hu/2026/10/19/tobbet-hozhat-a-kukorica-bab-tarsitas/",
-      "source": "Mezőhír",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-19T03:34:00+00:00"
     },
     {
       "id": "9269484f996971c5",
