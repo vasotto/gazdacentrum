@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-10-23T17:05:59.516623+00:00",
+  "generated_at": "2026-10-23T21:24:02.558218+00:00",
   "item_count": 145,
   "items": [
+    {
+      "id": "b2f7064326213993",
+      "title": "A vallás és a tökéletlenség viszonya, ha zöldség-gyümölcsről van szó",
+      "link": "https://magyarmezogazdasag.hu/2026/10/23/a-vallas-es-a-tokeletlenseg-viszonya-ha-zoldseg-gyumolcsrol-van-szo/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T21:08:21+00:00"
+    },
+    {
+      "id": "d5069502e2206bb9",
+      "title": "Nem csak a méret a lényeg: mezőgazdasági gépek amerikai szemmel",
+      "link": "https://magyarmezogazdasag.hu/2026/10/23/amerikai-tapasztalatok-hazai-tanulsagok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Gépesítés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T20:08:13+00:00"
+    },
+    {
+      "id": "ae76af1450c293ab",
+      "title": "Miért ősszel a legjobb felszedni a tormát?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/23/miert-osszel-a-legjobb-felszedni-a-tormat/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T19:09:29+00:00"
+    },
+    {
+      "id": "96a25e30fdc55c88",
+      "title": "Csak úgy zúdul Európára az import cukor: durva, honnan jön a legtöbb",
+      "link": "https://www.agrarszektor.hu/noveny/20261023/csak-ugy-zudul-europara-az-import-cukor-durva-honnan-jon-a-legtobb-65249",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-23T18:32:00+00:00"
+    },
+    {
+      "id": "fc1fba04d3bbc4e9",
+      "title": "Hatalmas eső jön szombaton: mutatjuk, mire kell felkészülni",
+      "link": "https://www.agrarszektor.hu/noveny/20261023/hatalmas-eso-jon-szombaton-mutatjuk-mire-kell-felkeszulni-65248",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-23T17:31:00+00:00"
+    },
     {
       "id": "3619299f9dbfd6d4",
       "title": "Elfajult a helyzet az olaszoknál: milliárdos károkat okozott a tiltakozás",
@@ -363,16 +413,6 @@
       "published_at": "2026-10-22T16:28:00+00:00"
     },
     {
-      "id": "555ecd95b644c144",
-      "title": "Brutális ciklon érte el Magyarországot: így csapott le",
-      "link": "https://www.agrarszektor.hu/noveny/20261022/brutalis-ciklon-erte-el-magyarorszagot-igy-csapott-le-65240",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T16:01:00+00:00"
-    },
-    {
       "id": "d018f091b6781ec2",
       "title": "Riasztó a helyzet a magyar tejtermelőknél: tavaszra telepek sora húzhatja le a rolót",
       "link": "https://agronaplo.hu/agrarhirek/20261022/riaszto-a-helyzet-a-magyar-tejtermeloknel-tavaszra-telepek-sora-huzhatja-le-a-rolot-41306",
@@ -381,16 +421,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T15:32:00+00:00"
-    },
-    {
-      "id": "3a88e444a27bf04b",
-      "title": "Változott a szabályozás: így juthatnak könnyebben pénzhez a gazdák",
-      "link": "https://www.agrarszektor.hu/agrarpenzek/20261022/valtozott-a-szabalyozas-igy-juthatnak-konnyebben-penzhez-a-gazdak-65227",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T15:27:00+00:00"
     },
     {
       "id": "f5031777a5919874",
@@ -503,16 +533,6 @@
       "published_at": "2026-10-22T10:29:03+00:00"
     },
     {
-      "id": "8fb1457bc55b0a35",
-      "title": "Pántlikafűből gyorsan megújuló alapanyag",
-      "link": "https://magyarmezogazdasag.hu/2026/10/22/pantlikafubol-gyorsan-megujulo-alapanyag/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T10:03:46+00:00"
-    },
-    {
       "id": "215b040984d53068",
       "title": "Elképesztő, ami a fákkal történik Magyarországon: te is észrevetted ezt?",
       "link": "https://agronaplo.hu/agrarhirek/20261022/elkepeszto-ami-a-fakkal-tortenik-magyarorszagon-te-is-eszrevetted-ezt-41304",
@@ -531,26 +551,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-10-22T09:01:00+00:00"
-    },
-    {
-      "id": "1f14dff8809cde3d",
-      "title": "A túlélés a tét a tejágazatban",
-      "link": "https://magyarmezogazdasag.hu/2026/10/22/a-tuleles-a-tet-a-tejagazatban/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T08:03:06+00:00"
-    },
-    {
-      "id": "75edc24e6db2166a",
-      "title": "Fermentálással lehetnek húsízűbbek a növényi ételek",
-      "link": "https://magyarmezogazdasag.hu/2026/10/22/fermentalassal-lehetnek-husizubbek-a-novenyi-etelek/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T07:07:51+00:00"
     },
     {
       "id": "5121739559962726",
