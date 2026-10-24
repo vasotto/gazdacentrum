@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-23T21:24:02.558218+00:00",
-  "item_count": 145,
+  "generated_at": "2026-10-24T04:35:13.158789+00:00",
+  "item_count": 144,
   "items": [
+    {
+      "id": "f009f444ec95dc26",
+      "title": "A szabadság ára – az elvadult háziállat vadálla?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/24/a-szabadsag-ara-az-elvadult-haziallat-vadalla/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-24T06:06:06+00:00"
+    },
+    {
+      "id": "bb80d1d02d0ecdf5",
+      "title": "Nem akármi derült ki a sütőtökről: ezt jobb, ha tudod vásárláskor",
+      "link": "https://www.agrarszektor.hu/noveny/20261024/nem-akarmi-derult-ki-a-sutotokrol-ezt-jobb-ha-tudod-vasarlaskor-65223",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-24T04:03:00+00:00"
+    },
+    {
+      "id": "d9eb3e534be6cb4f",
+      "title": "Mit tudnak a biostimulátorok stresszhelyzetben?",
+      "link": "https://mezohir.hu/2026/10/24/mezogazdasag-biostimulator-stresszhelyzetben-paprika-paradicsom/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-24T03:34:00+00:00"
+    },
     {
       "id": "b2f7064326213993",
       "title": "A vallás és a tökéletlenség viszonya, ha zöldség-gyümölcsről van szó",
@@ -403,16 +433,6 @@
       "published_at": "2026-10-22T16:29:00+00:00"
     },
     {
-      "id": "ebaa8014ea00e7c8",
-      "title": "Rendkívüli akciót indítottak a halőrök: erre kell készülnie a pecásoknak",
-      "link": "https://www.agrarszektor.hu/allat/20261022/rendkivuli-akciot-inditottak-a-halorok-erre-kell-keszulnie-a-pecasoknak-65220",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T16:28:00+00:00"
-    },
-    {
       "id": "d018f091b6781ec2",
       "title": "Riasztó a helyzet a magyar tejtermelőknél: tavaszra telepek sora húzhatja le a rolót",
       "link": "https://agronaplo.hu/agrarhirek/20261022/riaszto-a-helyzet-a-magyar-tejtermeloknel-tavaszra-telepek-sora-huzhatja-le-a-rolot-41306",
@@ -431,16 +451,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-22T14:10:00+00:00"
-    },
-    {
-      "id": "cd295a11a5563d75",
-      "title": "Évente 70 tonna: olasz almafajta hódít a síkvidéki termőhelyeken",
-      "link": "https://magyarmezogazdasag.hu/2026/10/22/evente-70-tonna-olasz-almafajta-hodit-a-sikvideki-termohelyeken/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T14:07:58+00:00"
     },
     {
       "id": "bb3554a1b95586e1",
@@ -481,16 +491,6 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "hivatalos",
       "published_at": "2026-10-22T12:21:19+00:00"
-    },
-    {
-      "id": "3d52be5687587c4d",
-      "title": "Lomb alatt maradó talaj és nyílt felszín összehasonlítása városi parkokban: hőmérséklet, nedvesség és biológiai aktivitás ősszel",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/lomb-alatt-marado-talaj-es-nyilt-felszin-osszehasonlitasa-varosi-parkokban-homerseklet-nedvesseg-es-biologiai-aktivitas-osszel/",
-      "source": "Agrofórum",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-22T12:10:00+00:00"
     },
     {
       "id": "00d2dad01939710d",
@@ -1071,16 +1071,6 @@
       "content_type": "Gyakorlati útmutató",
       "source_type": "szakmai",
       "published_at": "2026-10-19T07:01:00+00:00"
-    },
-    {
-      "id": "32116a6389d10cff",
-      "title": "Használt robotok a mezőgazdaságban: olcsóbb vétel, nagyobb kockázat",
-      "link": "https://mezohir.hu/2026/10/19/mezogazdasag-hasznalt-robotok-megterulese/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-19T06:11:00+00:00"
     },
     {
       "id": "9269484f996971c5",
