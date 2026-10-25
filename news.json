@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-25T16:16:59.565950+00:00",
-  "item_count": 145,
+  "generated_at": "2026-10-25T20:50:08.559728+00:00",
+  "item_count": 144,
   "items": [
+    {
+      "id": "b243d774fa5fedc9",
+      "title": "Fenntartható tápanyag-gazdálkodás és szennyezéscsökkentés",
+      "link": "https://magyarmezogazdasag.hu/2026/10/25/fenntarthato-tapanyag-gazdalkodas-es-szennyezescsokkentes/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-25T21:09:36+00:00"
+    },
+    {
+      "id": "a8f901c2288f2fbf",
+      "title": "Hogyan tartsunk törpekengurut (wallabit)?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/25/hogyan-tartsunk-torpekengurut-wallabit/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-10-25T20:08:38+00:00"
+    },
+    {
+      "id": "2ea9becaa62c2971",
+      "title": "Ez nagyot fog szólni: durva terjeszkedésre készül az ukrán húsipari óriás",
+      "link": "https://www.agrarszektor.hu/innovacio/20261025/ez-nagyot-fog-szolni-durva-terjeszkedesre-keszul-az-ukran-husipari-orias-65275",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-25T19:32:00+00:00"
+    },
+    {
+      "id": "78d940c4359e3e72",
+      "title": "Látványos őszi és téli függőkosarak a hangulatos teraszért",
+      "link": "https://magyarmezogazdasag.hu/2026/10/25/latvanyos-oszi-es-teli-fuggokosarak-a-hangulatos-teraszert/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-25T19:08:01+00:00"
+    },
+    {
+      "id": "c8b4189528258235",
+      "title": "Így trükköznek sokan a kertekben: aranyat ér, megéri bevállalni",
+      "link": "https://www.agrarszektor.hu/noveny/20261025/igy-trukkoznek-sokan-a-kertekben-aranyat-er-megeri-bevallalni-65273",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-25T18:31:00+00:00"
+    },
+    {
+      "id": "c78d52044a098a20",
+      "title": "Egyre több ilyen élelmiszer lehet az EU-ban: erre érdemes figyelni",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261025/egyre-tobb-ilyen-elelmiszer-lehet-az-eu-ban-erre-erdemes-figyelni-65148",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-25T17:27:00+00:00"
+    },
     {
       "id": "2e573f98a1654d5c",
       "title": "Különleges hibrid gyümölcsök lephetik el a magyar kerteket: nem árt vigyázni velük",
@@ -161,16 +221,6 @@
       "content_type": "Pályázat / támogatás",
       "source_type": "portál",
       "published_at": "2026-10-25T11:03:00+00:00"
-    },
-    {
-      "id": "90db47122bd41e1e",
-      "title": "Működik a zseniális trükk: ki ne dobd a zöld paradicsomot, aranyat érhet",
-      "link": "https://agronaplo.hu/agrarhirek/20261025/mukodik-a-zsenialis-trukk-ki-ne-dobd-a-zold-paradicsomot-aranyat-erhet-41315",
-      "source": "Agro Napló",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-25T10:56:00+00:00"
     },
     {
       "id": "78d7ddd6755984ce",
@@ -383,16 +433,6 @@
       "published_at": "2026-10-24T14:57:00+00:00"
     },
     {
-      "id": "ca3a7b6cef83df1d",
-      "title": "Itt a friss előrejelzés: leszakad az ég, így mossa el az eső az országot",
-      "link": "https://www.agrarszektor.hu/noveny/20261024/itt-a-friss-elorejelzes-leszakad-az-eg-igy-mossa-el-az-eso-az-orszagot-65265",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T14:33:00+00:00"
-    },
-    {
       "id": "f9ff9c7b8cdb62b5",
       "title": "Torma őszi ültetése: Ezzel az egyszerű trükkel nem hibázhatunk a dugványozás során",
       "link": "https://agroforum.hu/szakcikkek/zoldseg/torma-oszi-ultetese-ezzel-az-egyszeru-trukkel-nem-hibazhatunk-a-dugvanyozas-soran/",
@@ -401,26 +441,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-24T14:10:00+00:00"
-    },
-    {
-      "id": "7384786cb277055a",
-      "title": "Ez a hal árasztotta el a Tiszát: jobb, ha erről mindenki tud",
-      "link": "https://www.agrarszektor.hu/allat/20261024/ez-a-hal-arasztotta-el-a-tiszat-jobb-ha-errol-mindenki-tud-65260",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T14:06:00+00:00"
-    },
-    {
-      "id": "c406b0d6567558dc",
-      "title": "Mindenkit lenyomnak a lengyelek Európában: mi is felköthetjük a gatyánkat",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261024/mindenkit-lenyomnak-a-lengyelek-europaban-mi-is-felkothetjuk-a-gatyankat-65189",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T13:01:00+00:00"
     },
     {
       "id": "1b9707378b6d5734",
@@ -453,26 +473,6 @@
       "published_at": "2026-10-24T10:41:00+00:00"
     },
     {
-      "id": "8e9bed7d9bad9ef1",
-      "title": "Magvas gondolatok a kertből",
-      "link": "https://magyarmezogazdasag.hu/2026/10/24/magvas-gondolatok-a-kertbol/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T08:08:19+00:00"
-    },
-    {
-      "id": "596da58aee9318e0",
-      "title": "Miért nem várható csirke-lázadás? Jó nekik a ketrecben?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/24/miert-nem-varhato-csirke-lazadas/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T07:07:04+00:00"
-    },
-    {
       "id": "733ca8e21bf274c7",
       "title": "Hatalmas árkülönbségek vannak a magyar boltokban: ennyibe kerül most a sütőtök",
       "link": "https://agronaplo.hu/agrarhirek/20261024/hatalmas-arkulonbsegek-vannak-a-magyar-boltokban-ennyibe-kerul-most-a-sutotok-41311",
@@ -491,16 +491,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-10-24T06:11:00+00:00"
-    },
-    {
-      "id": "f009f444ec95dc26",
-      "title": "A szabadság ára – az elvadult háziállat vadálla?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/24/a-szabadsag-ara-az-elvadult-haziallat-vadalla/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-24T06:06:06+00:00"
     },
     {
       "id": "d9eb3e534be6cb4f",
