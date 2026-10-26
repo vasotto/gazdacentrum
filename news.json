@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-25T20:50:08.559728+00:00",
-  "item_count": 144,
+  "generated_at": "2026-10-26T04:45:27.551940+00:00",
+  "item_count": 143,
   "items": [
+    {
+      "id": "cb0de183248be3d3",
+      "title": "Olajretek: több mint zöldtrágya",
+      "link": "https://mezohir.hu/2026/10/26/mezogazdasag-olajretek-termesztese-es-hasznositasa/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-26T04:34:00+00:00"
+    },
+    {
+      "id": "f18d488e6659bb58",
+      "title": "Miért nem működik a legtöbb vadriasztó? Itt a megoldás, amire igazi garanciát vállalnak.",
+      "link": "https://www.agrarszektor.hu/agrofokusz/20261026/miert-nem-mukodik-a-legtobb-vadriaszto-itt-a-megoldas-amire-igazi-garanciat-vallalnak-65226",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-26T04:00:00+00:00"
+    },
     {
       "id": "b243d774fa5fedc9",
       "title": "Fenntartható tápanyag-gazdálkodás és szennyezéscsökkentés",
@@ -421,26 +441,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-24T15:01:00+00:00"
-    },
-    {
-      "id": "dcd648028f8dae35",
-      "title": "Vége? Bezárják a legendás sörgyárat, sokan maradnak munka nélkül",
-      "link": "https://www.agrarszektor.hu/elelmiszer/20261024/vege-bezarjak-a-legendas-sorgyarat-sokan-maradnak-munka-nelkul-65261",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T14:57:00+00:00"
-    },
-    {
-      "id": "f9ff9c7b8cdb62b5",
-      "title": "Torma őszi ültetése: Ezzel az egyszerű trükkel nem hibázhatunk a dugványozás során",
-      "link": "https://agroforum.hu/szakcikkek/zoldseg/torma-oszi-ultetese-ezzel-az-egyszeru-trukkel-nem-hibazhatunk-a-dugvanyozas-soran/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-24T14:10:00+00:00"
     },
     {
       "id": "1b9707378b6d5734",
@@ -871,16 +871,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-10-21T06:11:00+00:00"
-    },
-    {
-      "id": "234f26f6d2e06db8",
-      "title": "A Google mesterséges intelligenciával alakítaná át a cirkot",
-      "link": "https://mezohir.hu/2026/10/21/mezogazdasag-cirok-nemesitese-mesterseges-intelligenciaval/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-21T03:34:00+00:00"
     },
     {
       "id": "2a33503b0f8a74a0",
