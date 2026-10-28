@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-27T22:13:04.641509+00:00",
-  "item_count": 140,
+  "generated_at": "2026-10-28T05:41:16.263195+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "334a8483cfaa0969",
+      "title": "Hazai hajtatás – magas szintű technológia, kiváló minőség",
+      "link": "https://magyarmezogazdasag.hu/2026/10/28/hazai-hajtatas-magas-szintu-technologia-kivalo-minoseg/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-28T06:02:53+00:00"
+    },
+    {
+      "id": "0f63804ca585f73e",
+      "title": "Válságban a magyar állattenyésztés: ukrán import segíthet a termelőkön",
+      "link": "https://www.agrarszektor.hu/metszet/20261028/valsagban-a-magyar-allattenyesztes-ukran-import-segithet-a-termelokon-65290",
+      "source": "Agrárszektor",
+      "category": "Állattenyésztés",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-10-28T05:01:00+00:00"
+    },
+    {
+      "id": "e7d0a7be018324ae",
+      "title": "Változtak az agrárhitelek szabályai",
+      "link": "https://mezohir.hu/2026/10/28/mezogazdasag-agrarhitelek-elszamolasa-valtozott/",
+      "source": "Mezőhír",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-28T04:34:00+00:00"
+    },
     {
       "id": "802a21f2bb2bad41",
       "title": "Vita a tarvágásról: a szakmaiság vezéreljen, ne a látvány",
@@ -297,7 +327,7 @@
       "title": "Mi történik ősszel a kasvirág(ok) hatóanyagaival?",
       "link": "https://magyarmezogazdasag.hu/2026/10/27/mi-tortenik-osszel-a-kasviragok-hatoanyagaival/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
+      "category": "Növénytermesztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-27T10:02:25+00:00"
@@ -453,16 +483,6 @@
       "published_at": "2026-10-27T07:00:00+00:00"
     },
     {
-      "id": "1b600610c00a9dd4",
-      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.10.27. kedd",
-      "link": "https://www.agrarszektor.hu/noveny/20261027/friss-agrarszektor-idojaras-elorejelzes-20261027-kedd-65301",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-27T06:45:04+00:00"
-    },
-    {
       "id": "07cba52768fe3c86",
       "title": "Van olyan szín, amely jobban vonzza a kullancsokat?",
       "link": "https://agroforum.hu/szakcikkek/egyeb/van-olyan-szin-amely-jobban-vonzza-a-kullancsokat/",
@@ -501,26 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-26T21:03:18+00:00"
-    },
-    {
-      "id": "a72ac0bc5c2aa1ed",
-      "title": "A fagy nem minden gyógynövény ellensége. Vannak télen is szedhetők!",
-      "link": "https://magyarmezogazdasag.hu/2026/10/26/a-fagy-nem-minden-gyogynoveny-ellensege-telen-melyik-gyogynoveny-szedheto/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-26T20:03:50+00:00"
-    },
-    {
-      "id": "a6b8c745d15e34a2",
-      "title": "A fáraók kedvelt itala és udvarának dísze volt ez a növény",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/a-faraok-kedvelt-itala-es-udvaranak-disze-volt-ez-a-noveny/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-26T15:10:00+00:00"
     },
     {
       "id": "4f36a0b76536e9ca",
@@ -791,16 +791,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-23T12:34:00+00:00"
-    },
-    {
-      "id": "aad63b8da8b77b91",
-      "title": "Mit árul el a talaj a borról? Négy helyszínen kiderül!",
-      "link": "https://mezohir.hu/2026/10/23/mezogazdasag-talaj-es-terroir-2026/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-23T10:41:00+00:00"
     },
     {
       "id": "bb3554a1b95586e1",
