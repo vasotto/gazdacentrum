@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-29T22:44:47.009044+00:00",
-  "item_count": 137,
+  "generated_at": "2026-10-30T05:46:17.566559+00:00",
+  "item_count": 136,
   "items": [
+    {
+      "id": "8f171bb380a057ba",
+      "title": "45 ezer tyúkot kell felszámolni",
+      "link": "https://magyarmezogazdasag.hu/2026/10/30/45-ezer-tyukot-kell-felszamolni/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-30T06:02:04+00:00"
+    },
+    {
+      "id": "981f00e35c9ce3f6",
+      "title": "Itt az ideje aggódni? Riasztó, ami Magyarországon történik, már csak ez segíthet",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261030/itt-az-ideje-aggodni-riaszto-ami-magyarorszagon-tortenik-mar-csak-ez-segithet-65357",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-30T05:03:00+00:00"
+    },
+    {
+      "id": "ee8c38ef40bdb84c",
+      "title": "Szalmonella miatt hívnak vissza brokkolimagokat",
+      "link": "https://mezohir.hu/2026/10/30/brokkolimag-visszahivas-a-mezogazdasagban/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-30T04:34:00+00:00"
+    },
+    {
+      "id": "721d2081d3dc232f",
+      "title": "Mikor és hogyan vessünk őszi búzát az extrém aszályban? + PODCAST",
+      "link": "https://agroforum.hu/szakcikkek/novenytermesztes-szakcikkek/mikor-es-hogyan-vessunk-oszi-buzat-az-extrem-aszalyban-podcast/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-30T03:57:00+00:00"
+    },
     {
       "id": "0edae45b9781499e",
       "title": "Mézédes küldetés a magyar vidéken",
@@ -403,16 +443,6 @@
       "published_at": "2026-10-29T07:03:48+00:00"
     },
     {
-      "id": "920dde060b09d707",
-      "title": "Talajaink jövője a tét, minden csepp víz megőrzése közös felelősségünk (x)",
-      "link": "https://www.agrarszektor.hu/agrofokusz/20261029/talajaink-jovoje-a-tet-minden-csepp-viz-megorzese-kozos-felelossegunk-x-65194",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-29T07:00:00+00:00"
-    },
-    {
       "id": "c1c71eb5fc4f137b",
       "title": "A varjak gyorsabbak és pontosabbak, mint az emberek",
       "link": "https://magyarmezogazdasag.hu/2026/10/29/a-varjak-gyorsabbak-es-pontosabbak-mint-az-emberek/",
@@ -433,16 +463,6 @@
       "published_at": "2026-10-29T04:34:00+00:00"
     },
     {
-      "id": "02ed282b5bd93864",
-      "title": "Meddig van időnk a hagymás dísznövények ültetésére?",
-      "link": "https://magyarmezogazdasag.hu/2026/10/28/meddig-van-idonk-a-hagymas-disznovenyek-ultetesere/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-28T21:03:04+00:00"
-    },
-    {
       "id": "6fc3fdd2ac997c64",
       "title": "Veszélybe került az egyik legnépszerűbb magyar zöldség: komoly fordulat jöhet a boltokban",
       "link": "https://agronaplo.hu/agrarhirek/20261028/veszelybe-kerult-az-egyik-legnepszerubb-magyar-zoldseg-komoly-fordulat-johet-a-boltokban-41337",
@@ -451,16 +471,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-28T18:28:00+00:00"
-    },
-    {
-      "id": "66826665da718d71",
-      "title": "Kimerült szénbányák hasznosítása: Kína föld alatti farmokat tervez",
-      "link": "https://agroforum.hu/szakcikkek/nagyvilag-szakcikkek/kimerult-szenbanyak-hasznositasa-kina-fold-alatti-farmokat-tervez/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-28T15:10:00+00:00"
     },
     {
       "id": "21b1f33c30080280",
@@ -511,16 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-28T13:14:42+00:00"
-    },
-    {
-      "id": "28a139cfe7680cd4",
-      "title": "Nem kell mindenhez drága tisztítószer: mutatjuk, mi válhat be helyette",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/nem-kell-mindenhez-draga-tisztitoszer-mutatjuk-mi-valhat-be-helyette/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-28T13:10:00+00:00"
     },
     {
       "id": "2c066357df93df4e",
@@ -851,16 +851,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-10-26T08:01:00+00:00"
-    },
-    {
-      "id": "b2df1852c3b29c92",
-      "title": "Megmozdult a búza ára: fordulat jöhet a piacon?",
-      "link": "https://mezohir.hu/2026/10/26/mezogazdasag-buza-ara-ujra-emelkedik/",
-      "source": "Mezőhír",
-      "category": "Növénytermesztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-10-26T07:11:00+00:00"
     },
     {
       "id": "bb3554a1b95586e1",
