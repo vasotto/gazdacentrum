@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-30T22:17:54.463462+00:00",
-  "item_count": 142,
+  "generated_at": "2026-10-31T05:39:15.661807+00:00",
+  "item_count": 140,
   "items": [
+    {
+      "id": "9ff3ad5b601c97e3",
+      "title": "Miről beszélgetnek a bálnák?",
+      "link": "https://magyarmezogazdasag.hu/2026/10/31/mirol-beszelgetnek-a-balnak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-31T06:03:39+00:00"
+    },
+    {
+      "id": "bd783e7756931009",
+      "title": "Kiszárad Magyarország? Óriási küzdelem indulhat a túlélésért",
+      "link": "https://www.agrarszektor.hu/allat/20261031/kiszarad-magyarorszag-oriasi-kuzdelem-indulhat-a-tulelesert-65382",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-31T05:03:00+00:00"
+    },
+    {
+      "id": "1e41b8fe41dbe566",
+      "title": "Állami földet vennél? November 2-től jön a stop!",
+      "link": "https://mezohir.hu/2026/10/31/mezogazdasag-allami-fold-uj-szabalyok/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-10-31T04:34:00+00:00"
+    },
     {
       "id": "b6e692a4d6dc66a9",
       "title": "XXXVI. Keszthelyi Növényvédelmi Fórum",
@@ -453,16 +483,6 @@
       "published_at": "2026-10-30T07:11:00+00:00"
     },
     {
-      "id": "eac21e43ae75730a",
-      "title": "Ezért nem tudja könnyen meghámozni a sült gesztenyét: csak néhány apróságon múlik",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/ezert-nem-tudja-konnyen-meghamozni-a-sult-gesztenyet-csak-nehany-aprosagon-mulik/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-30T07:10:00+00:00"
-    },
-    {
       "id": "734935ef1f1ba4bd",
       "title": "A japánok különleges étele lehet a hosszú élet egyik titka",
       "link": "https://magyarmezogazdasag.hu/2026/10/30/a-japanok-kulonleges-etele-lehet-a-hosszu-elet-egyik-titka/",
@@ -481,16 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-30T06:45:04+00:00"
-    },
-    {
-      "id": "4e890af34a68fbe9",
-      "title": "A krizantém egyik legveszélyesebb betegsége: így ismerhető fel",
-      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/a-krizantem-egyik-legveszelyesebb-betegsege-igy-ismerheto-fel/",
-      "source": "Agrofórum",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-30T06:10:00+00:00"
     },
     {
       "id": "8f171bb380a057ba",
@@ -513,16 +523,6 @@
       "published_at": "2026-10-30T06:02:00+00:00"
     },
     {
-      "id": "981f00e35c9ce3f6",
-      "title": "Itt az ideje aggódni? Riasztó, ami Magyarországon történik, már csak ez segíthet",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261030/itt-az-ideje-aggodni-riaszto-ami-magyarorszagon-tortenik-mar-csak-ez-segithet-65357",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-30T05:03:00+00:00"
-    },
-    {
       "id": "ee8c38ef40bdb84c",
       "title": "Szalmonella miatt hívnak vissza brokkolimagokat",
       "link": "https://mezohir.hu/2026/10/30/brokkolimag-visszahivas-a-mezogazdasagban/",
@@ -541,16 +541,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-29T21:03:37+00:00"
-    },
-    {
-      "id": "0a01d0df6b833c4e",
-      "title": "Az Egri Bikavér nem hagyja magát",
-      "link": "https://magyarmezogazdasag.hu/2026/10/29/az-egri-bikaver-nem-hagyja-magat/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-29T20:03:26+00:00"
     },
     {
       "id": "1a3057c19f92e061",
@@ -851,16 +841,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-10-27T18:58:00+00:00"
-    },
-    {
-      "id": "633222c3fe432455",
-      "title": "Könnyítést kaphatnak a kertészetek az EU-tól",
-      "link": "https://mezohir.hu/2026/10/27/mezogazdasag-kerteszetek-unios-konnyitest-kaphatnak/",
-      "source": "Mezőhír",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-10-27T13:34:00+00:00"
     },
     {
       "id": "6a408575d06f0fe9",
