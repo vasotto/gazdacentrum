@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-11-06T19:23:41.475897+00:00",
+  "generated_at": "2026-11-07T05:57:17.018860+00:00",
   "item_count": 143,
   "items": [
+    {
+      "id": "6f847ad634c488f9",
+      "title": "Kevesebb állat, nagyobb költség: felforgathatja az EU az állatszállítást",
+      "link": "https://magyarmezogazdasag.hu/2026/11/07/kevesebb-allat-nagyobb-koltseg-felforgathatja-az-eu-az-allatszallitast/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-07T06:06:43+00:00"
+    },
+    {
+      "id": "c0db6544998342fb",
+      "title": "Gyakran eszel paprikát? Érdekes dolog látott napvilágot róla",
+      "link": "https://www.agrarszektor.hu/noveny/20261107/gyakran-eszel-paprikat-erdekes-dolog-latott-napvilagot-rola-65367",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-07T05:01:00+00:00"
+    },
+    {
+      "id": "949e62e9ec12419b",
+      "title": "Miért van most ennyi köd? Érdekes jelenség áll mögötte",
+      "link": "https://mezohir.hu/2026/11/07/mezogazdasag-kod-es-napsutes/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-07T04:34:00+00:00"
+    },
+    {
+      "id": "a1b38765978afab1",
+      "title": "Állatjóllét Európában: mely országok teljesítenek jobban?",
+      "link": "https://magyarmezogazdasag.hu/2026/11/06/merheto-e-az-allatjollet/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-06T21:07:14+00:00"
+    },
     {
       "id": "766119eb3e45c38d",
       "title": "„Vért” találtak egy 115 millió éves dinoszaurusz fosszíliában",
@@ -11,6 +51,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-06T20:08:59+00:00"
+    },
+    {
+      "id": "1aae537e0bef7057",
+      "title": "Ezt a magyar gazdák sem ússzák meg? Hamarosan jöhet az átállás",
+      "link": "https://www.agrarszektor.hu/innovacio/20261106/ezt-a-magyar-gazdak-sem-usszak-meg-hamarosan-johet-az-atallas-65528",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-06T19:27:00+00:00"
     },
     {
       "id": "1a189f39f519260c",
@@ -423,26 +473,6 @@
       "published_at": "2026-11-06T07:58:00+00:00"
     },
     {
-      "id": "7632cca770a15089",
-      "title": "Különleges állat született Magyarországon: ilyet nagyon ritkán látni",
-      "link": "https://www.agrarszektor.hu/allat/20261106/kulonleges-allat-szuletett-magyarorszagon-ilyet-nagyon-ritkan-latni-65499",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T07:43:00+00:00"
-    },
-    {
-      "id": "31e615ac458a9f29",
-      "title": "Jön az új szuperhatóság: 10 éve nem volt ilyen Magyarországon",
-      "link": "https://www.agrarszektor.hu/szabalyozas/20261106/jon-az-uj-szuperhatosag-10-eve-nem-volt-ilyen-magyarorszagon-65518",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T07:13:00+00:00"
-    },
-    {
       "id": "5ba57fd1204b8217",
       "title": "Árammal irtja a gyomot: robot váltaná a permetezést",
       "link": "https://mezohir.hu/2026/11/06/mezogazdasag-gyomirto-robot-elektromos-arammal/",
@@ -523,16 +553,6 @@
       "published_at": "2026-11-05T20:08:26+00:00"
     },
     {
-      "id": "e06761ab70fe99bb",
-      "title": "Mennyi lesz idén a dió ára? Gyenge hazai termés: fagykárok után hőségsokk",
-      "link": "https://magyarmezogazdasag.hu/2026/11/05/bajban-a-hazai-dio-a-fagykarok-utan-hosegsokk/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-11-05T19:09:10+00:00"
-    },
-    {
       "id": "1df7b90bdcf48e06",
       "title": "Óriási a baj Magyarországon: döbbenetes mennyiségű víz hiányzik a talajból",
       "link": "https://agronaplo.hu/agrarhirek/20261105/oriasi-a-baj-magyarorszagon-dobbenetes-mennyisegu-viz-hianyzik-a-talajbol-41375",
@@ -571,16 +591,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-05T14:34:00+00:00"
-    },
-    {
-      "id": "df879da145f603b7",
-      "title": "Tibeti juhászok: több bevétel, cserébe eltűnnek a hagyományaik",
-      "link": "https://magyarmezogazdasag.hu/2026/11/05/tibeti-juhaszok-tobb-bevetel-cserebe-eltunnek-a-hagyomanyaik/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-05T14:08:15+00:00"
     },
     {
       "id": "7753a1cbd102dd84",
@@ -861,16 +871,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-11-04T08:00:00+00:00"
-    },
-    {
-      "id": "b0aa71a9e9a84457",
-      "title": "Napelemmel működő aeropónia hoz új lehetőséget a mezőgazdaságban",
-      "link": "https://mezohir.hu/2026/11/04/napelemes-aeroponia-a-mezogazdasagban/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-04T07:11:00+00:00"
     },
     {
       "id": "edf5de7af06196ab",
