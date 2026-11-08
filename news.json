@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-11-07T21:48:46.986443+00:00",
-  "item_count": 141,
+  "generated_at": "2026-11-08T05:59:18.874497+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "dba922781e882232",
+      "title": "Ízletesebb paradicsom szenzorokkal? Szabályozzuk a szabályozhatót az üvegházban",
+      "link": "https://magyarmezogazdasag.hu/2026/11/08/izletesebb-paradicsom-szenzorokkal-szabalyozzuk-a-szabalyozhatot-az-uveghazban/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-08T06:06:32+00:00"
+    },
+    {
+      "id": "509039c550be582e",
+      "title": "Ömlik az import burgonya Magyarországra: ebből az országból jön a java",
+      "link": "https://www.agrarszektor.hu/noveny/20261108/omlik-az-import-burgonya-magyarorszagra-ebbol-az-orszagbol-jon-a-java-65535",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-11-08T05:03:00+00:00"
+    },
+    {
+      "id": "d908c1f6b6f47207",
+      "title": "Hiába hideg a reggel, a föld még dolgozik",
+      "link": "https://mezohir.hu/2026/11/08/mezogazdasag-talajhomerseklet-hideg-hajnalokon/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-08T04:34:00+00:00"
+    },
     {
       "id": "5ef728ecd80cade2",
       "title": "Zab és lucerna, mint két jóbarát?",
@@ -353,16 +383,6 @@
       "published_at": "2026-11-06T19:09:22+00:00"
     },
     {
-      "id": "23e051b7b8c6bea6",
-      "title": "Hiába az őszi eső, még nagy a baj: döbbenetes mennyiségű víz hiányzik a magyar földekből",
-      "link": "https://agronaplo.hu/agrarhirek/20261106/hiaba-az-oszi-eso-meg-nagy-a-baj-dobbenetes-mennyisegu-viz-hianyzik-a-magyar-foldekbol-41383",
-      "source": "Agro Napló",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T18:31:00+00:00"
-    },
-    {
       "id": "e45b3910e1070d72",
       "title": "Haladékot kaptak a szállítók: erre készülhetnek sokan 2028-ig",
       "link": "https://www.agrarszektor.hu/noveny/20261106/haladekot-kaptak-a-szallitok-erre-keszulhetnek-sokan-2028-ig-65509",
@@ -393,16 +413,6 @@
       "published_at": "2026-11-06T17:27:00+00:00"
     },
     {
-      "id": "02d76a444aa695a8",
-      "title": "Átléptük a kritikus határt - innen már nem biztos, hogy van visszaút",
-      "link": "https://www.agrarszektor.hu/noveny/20261106/atleptuk-a-kritikus-hatart-innen-mar-nem-biztos-hogy-van-visszaut-65537",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T17:01:00+00:00"
-    },
-    {
       "id": "1582b1aa729a735b",
       "title": "Nagy áresés jöhet a műtrágyapiacon, de van egy csavar",
       "link": "https://mezohir.hu/2026/11/06/mezogazdasag-mutragyaar-csokkenes-johet-2027-ben/",
@@ -423,16 +433,6 @@
       "published_at": "2026-11-06T15:31:00+00:00"
     },
     {
-      "id": "880ad9e13f3208c5",
-      "title": "Új génkezelési technikák – Mit gondolnak róla a termelők?",
-      "link": "https://agroforum.hu/szakcikkek/kitekintes/uj-genkezelesi-technikak-mit-gondolnak-rola-a-termelok/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T15:10:00+00:00"
-    },
-    {
       "id": "e15a9bbc948502c8",
       "title": "Melyik mezőgazdasági munka fogyasztja a legtöbb gázolajat?",
       "link": "https://mezohir.hu/2026/11/06/mezogazdasag-gazolaj-fogyasztas-munkamuveletenkent/",
@@ -441,16 +441,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-06T14:34:00+00:00"
-    },
-    {
-      "id": "d84ca66705021af2",
-      "title": "Az agrárszakképzés jövője: tudás, innováció és valódi pályalehetőségek",
-      "link": "https://magyarmezogazdasag.hu/2026/11/06/az-agrarszakkepzes-jovoje-tudas-innovacio-es-valodi-palyalehetosegek/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "Esemény / képzés",
-      "source_type": "portál",
-      "published_at": "2026-11-06T14:32:46+00:00"
     },
     {
       "id": "a40655024ffb5be5",
@@ -791,16 +781,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-04T15:34:00+00:00"
-    },
-    {
-      "id": "0a35a309f539703c",
-      "title": "5 hiba, ami észrevétlenül viszi a gazdák pénzét",
-      "link": "https://mezohir.hu/2026/11/04/mezogazdasag-5-rejtett-termelesi-koltsegek/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-04T14:34:00+00:00"
     },
     {
       "id": "53cde447541cb23b",
