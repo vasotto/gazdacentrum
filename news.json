@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-11-08T22:02:50.191098+00:00",
-  "item_count": 142,
+  "generated_at": "2026-11-09T06:24:06.063272+00:00",
+  "item_count": 144,
   "items": [
+    {
+      "id": "cbf43249e174a16e",
+      "title": "Kétszer annyi ázsiai lódarázsfészek került elő egy európai szigeten, mint tavaly",
+      "link": "https://magyarmezogazdasag.hu/2026/11/09/ketszer-annyi-azsiai-lodarazsfeszek-kerult-elo-egy-europai-szigeten-mint-tavaly/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-09T07:07:28+00:00"
+    },
+    {
+      "id": "5ced7fa28d9c3721",
+      "title": "Őszi káliumtrágyázás: mikor segít a növényeknek a tél átvészelésében?",
+      "link": "https://agroforum.hu/szakcikkek/tapanyag-utanpotlas/oszi-kaliumtragyazas-mikor-segit-a-novenyeknek-a-tel-atveszeleseben/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-09T06:10:00+00:00"
+    },
+    {
+      "id": "bdbadae8fc5833aa",
+      "title": "Szenzációs felfedezés: teljesen átírhatja a baromfitartás jövőjét az új kutatás",
+      "link": "https://www.agrarszektor.hu/allat/20261109/szenzacios-felfedezes-teljesen-atirhatja-a-baromfitartas-jovojet-az-uj-kutatas-65558",
+      "source": "Agrárszektor",
+      "category": "Állattenyésztés",
+      "content_type": "Kutatás / elemzés",
+      "source_type": "portál",
+      "published_at": "2026-11-09T06:07:00+00:00"
+    },
+    {
+      "id": "517c316874b2507e",
+      "title": "Keresőkutyák segíthetnek a nehezen felismerhető gyomnövények felderítésében",
+      "link": "https://magyarmezogazdasag.hu/2026/11/09/keresokutyak-segithetnek-a-nehezen-felismerheto-gyomnovenyek-felderiteseben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-09T06:06:35+00:00"
+    },
+    {
+      "id": "454c2da7b1a4e166",
+      "title": "Erre a növényre cserélik a kukoricát a gazdák? Sokan már így terveznek",
+      "link": "https://www.agrarszektor.hu/noveny/20261109/erre-a-novenyre-cserelik-a-kukoricat-a-gazdak-sokan-mar-igy-terveznek-65541",
+      "source": "Agrárszektor",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-09T05:03:00+00:00"
+    },
+    {
+      "id": "b7208569aa3e5289",
+      "title": "A növényeknek is van memóriájuk? Új felfedezés",
+      "link": "https://mezohir.hu/2026/11/09/mezogazdasag-novenyi-memoria-uj-felfedezese/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-09T04:34:00+00:00"
+    },
     {
       "id": "42fe991634a95a38",
       "title": "Márton-napi hiedelmek",
@@ -323,16 +383,6 @@
       "published_at": "2026-11-07T20:03:06+00:00"
     },
     {
-      "id": "d1367d020df3e411",
-      "title": "Tartották a versenyt a hibridekkel a régi hagyma-tájfajták egy kísérletben",
-      "link": "https://magyarmezogazdasag.hu/2026/11/07/tartottak-a-versenyt-a-hibridekkel-a-regi-hagyma-tajfajtak-egy-kiserletben/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-07T19:09:14+00:00"
-    },
-    {
       "id": "cc16a211ad28be90",
       "title": "Világszenzáció: exkluzív listára került fel ez a magyar hegy",
       "link": "https://www.agrarszektor.hu/agrarpenzek/20261107/vilagszenzacio-exkluziv-listara-kerult-fel-ez-a-magyar-hegy-65547",
@@ -423,16 +473,6 @@
       "published_at": "2026-11-07T13:06:00+00:00"
     },
     {
-      "id": "bb3a526c6936997a",
-      "title": "Durvább a vízhiány, mint sokan hitték: csendben fogy a magyarok tartaléka?",
-      "link": "https://www.agrarszektor.hu/noveny/20261107/durvabb-a-vizhiany-mint-sokan-hittek-csendben-fogy-a-magyarok-tartaleka-65522",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-07T12:03:00+00:00"
-    },
-    {
       "id": "75f659d1430774b5",
       "title": "Vegyes gabonapiaci kilátások a mezőgazdaságban",
       "link": "https://mezohir.hu/2026/11/07/gabonapiaci-kilatasok-a-mezogazdasagban/",
@@ -441,16 +481,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-11-07T11:41:00+00:00"
-    },
-    {
-      "id": "aa55b34d63a96470",
-      "title": "A rettenthetetlen lúd, ami igazából réceféle",
-      "link": "https://magyarmezogazdasag.hu/2026/11/07/a-rettenthetetlen-lud-ami-igazabol-recefele/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-07T10:08:24+00:00"
     },
     {
       "id": "ad010953c741f02a",
@@ -791,16 +821,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-05T09:34:00+00:00"
-    },
-    {
-      "id": "70248fa80a3bc540",
-      "title": "Mínusz 7,3 fokkal indult a nap, és még nincs vége",
-      "link": "https://mezohir.hu/2026/11/05/mezogazdasag-fagy-minusz-8-fok/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-05T08:34:00+00:00"
     },
     {
       "id": "fd2d412dcf012d74",
