@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-10T19:43:04.459205+00:00",
-  "item_count": 142,
+  "generated_at": "2026-11-11T06:15:13.823887+00:00",
+  "item_count": 143,
   "items": [
+    {
+      "id": "5ac600e40ad379aa",
+      "title": "Fehér karácsony 2026-ban? Mutatjuk, mit lehet már most tudni",
+      "link": "https://agroforum.hu/agrarhirek/idojaras/feher-karacsony-2026-ban-mutatjuk-mit-lehet-mar-most-tudni/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T06:10:00+00:00"
+    },
+    {
+      "id": "6668cc3799b3a6ad",
+      "title": "Új szemlélet a sertéstenyésztésben",
+      "link": "https://magyarmezogazdasag.hu/2026/11/11/uj-szemlelet-a-sertestenyesztesben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T06:03:14+00:00"
+    },
+    {
+      "id": "891c8a5d421278df",
+      "title": "Jön a második hullám: óriási eső önti el ezt a magyar térséget",
+      "link": "https://www.agrarszektor.hu/noveny/20261111/jon-a-masodik-hullam-oriasi-eso-onti-el-ezt-a-magyar-terseget-65623",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T06:02:00+00:00"
+    },
+    {
+      "id": "aff32e35fd389eeb",
+      "title": "Nem az időjárás diktál: így alakítja át a növénytermesztést a legújabb technológia",
+      "link": "https://www.agrarszektor.hu/metszet/20261111/nem-az-idojaras-diktal-igy-alakitja-at-a-novenytermesztest-a-legujabb-technologia-65579",
+      "source": "Agrárszektor",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T04:58:00+00:00"
+    },
+    {
+      "id": "f621bf459f0c1cfd",
+      "title": "A gyümölcsfát nem kell minden évben megkínozni: mit rontunk el a túlzott metszéssel?",
+      "link": "https://agroforum.hu/szakcikkek/gyumolcs/a-gyumolcsfat-nem-kell-minden-evben-megkinozni/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T04:40:00+00:00"
+    },
+    {
+      "id": "96f2435d8d3ed90c",
+      "title": "Kiderült az igazság a JÉGER-ről? Ezt mondják a kutatók!",
+      "link": "https://mezohir.hu/2026/11/11/mezogazdasag-jeger-meglepo-tudomanyos-eredmenyek/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-11T04:34:00+00:00"
+    },
+    {
+      "id": "c382e869e059096e",
+      "title": "Törzsmeszelés: mire jó és mire nem? Nem csak hagyomány…",
+      "link": "https://magyarmezogazdasag.hu/2026/11/10/torzsmeszeles-mire-jo-es-mire-nem-nem-csak-hagyomany/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növényvédelem",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-10T21:07:43+00:00"
+    },
     {
       "id": "ca8e0e10a2e8c64d",
       "title": "Kihívásokkal teli év a hazai agráriumban",
@@ -413,26 +483,6 @@
       "published_at": "2026-11-10T08:01:00+00:00"
     },
     {
-      "id": "0cc708ee31b26f50",
-      "title": "Indul a műholdas földmegfigyelés itthon: már semmi sem maradhat titokban",
-      "link": "https://www.agrarszektor.hu/innovacio/20261110/indul-a-muholdas-foldmegfigyeles-itthon-mar-semmi-sem-maradhat-titokban-65587",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-10T07:43:00+00:00"
-    },
-    {
-      "id": "0d2e08442610f22a",
-      "title": "Figyelmeztet a meteorológia: kemény ónos eső jöhet ma ebben a megyében",
-      "link": "https://www.agrarszektor.hu/noveny/20261110/figyelmeztet-a-meteorologia-kemeny-onos-eso-johet-ma-ebben-a-megyeben-65600",
-      "source": "Agrárszektor",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-10T07:16:00+00:00"
-    },
-    {
       "id": "356c7b16a4012a2d",
       "title": "Ezt a növényt alig ismerjük, pedig sokra képes",
       "link": "https://mezohir.hu/2026/11/10/mezogazdasag-amarant-igeretes-alternativa/",
@@ -523,26 +573,6 @@
       "published_at": "2026-11-09T18:32:00+00:00"
     },
     {
-      "id": "842ff5236d6adcec",
-      "title": "A tűzifa darabolásakor erre érdemes odafigyelni",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/a-tuzifa-darabolasakor-erre-erdemes-odafigyelni/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-09T15:10:00+00:00"
-    },
-    {
-      "id": "f7ab3c9989237e62",
-      "title": "Ellep a lehullott lomb, hova tüntessük el gyorsan? Ne a zöldhulladékos zsákba!",
-      "link": "https://magyarmezogazdasag.hu/2026/11/09/ellep-a-lehullott-lomb-hova-tuntessuk-el-gyorsan-ne-a-zoldhulladekos-zsakba/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-09T14:35:07+00:00"
-    },
-    {
       "id": "05da0ee0d221e649",
       "title": "Nagy bajban vannak a magyar tejtermelők: hiába nőnek az árak, súlyos a veszteség",
       "link": "https://agronaplo.hu/agrarhirek/20261109/nagy-bajban-vannak-a-magyar-tejtermelok-hiaba-nonek-az-arak-sulyos-a-veszteseg-41393",
@@ -591,16 +621,6 @@
       "content_type": "",
       "source_type": "hivatalos",
       "published_at": "2026-11-09T11:07:08+00:00"
-    },
-    {
-      "id": "cd52f8dd56d1dc05",
-      "title": "A túlzásba vitt gombagyűjtés a vadon élő állatokat is rosszul érintheti!",
-      "link": "https://magyarmezogazdasag.hu/2026/11/09/a-tulzasba-vitt-gombagyujtes-a-vadon-elo-allatokat-is-rosszul-erintheti/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-09T10:08:11+00:00"
     },
     {
       "id": "92439e5e8a998ef8",
@@ -831,16 +851,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-06T12:54:00+00:00"
-    },
-    {
-      "id": "fd75d72e0f10d239",
-      "title": "Üzemanyag lehet a tejipari hulladékból",
-      "link": "https://mezohir.hu/2026/11/06/mezogazdasag-biouzemanyag-tejipari-hulladekbol/",
-      "source": "Mezőhír",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-06T12:34:00+00:00"
     },
     {
       "id": "ff4de892a51c7e47",
