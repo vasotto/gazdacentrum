@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-12T23:38:15.284861+00:00",
+  "generated_at": "2026-11-13T06:43:01.993128+00:00",
   "item_count": 140,
   "items": [
+    {
+      "id": "d8f09fac6b9eb40c",
+      "title": "Rejtett tényező állhat a makacs vashiány hátterében",
+      "link": "https://magyarmezogazdasag.hu/2026/11/13/rejtett-tenyezo-allhat-a-makacs-vashiany-hattereben/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T07:03:27+00:00"
+    },
+    {
+      "id": "540374da6978eb7d",
+      "title": "Kórtani veszélyek a kalászosokban",
+      "link": "https://agroforum.hu/szakcikkek/novenyvedelem-szakcikkek/kortani-veszelyek-a-kalaszosokban/",
+      "source": "Agrofórum",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T06:10:00+00:00"
+    },
+    {
+      "id": "c6294e3eb745f07f",
+      "title": "Az aszály ellenére növelné a termelést Franciaország",
+      "link": "https://magyarmezogazdasag.hu/2026/11/13/az-aszaly-ellenere-novelne-a-termelest-franciaorszag/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T06:03:27+00:00"
+    },
+    {
+      "id": "a8ded00b5e69eef0",
+      "title": "Új adóval sújtanának rengeteg termelőt: óriási a felháborodás",
+      "link": "https://www.agrarszektor.hu/szabalyozas/20261113/uj-adoval-sujtananak-rengeteg-termelot-oriasi-a-felhaborodas-65647",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T06:01:00+00:00"
+    },
+    {
+      "id": "4172346714afcaff",
+      "title": "Szemünk előtt tűnik el a magyar szőlő: mi lesz így a híres hazai borokkal?",
+      "link": "https://www.agrarszektor.hu/noveny/20261113/szemunk-elott-tunik-el-a-magyar-szolo-mi-lesz-igy-a-hires-hazai-borokkal-65673",
+      "source": "Agrárszektor",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T05:01:00+00:00"
+    },
+    {
+      "id": "846108aad6ab2fc2",
+      "title": "Kukorica 2027: újabb nehéz év várhat a gazdákra?",
+      "link": "https://mezohir.hu/2026/11/13/mezogazdasag-kukoricatermesztes-2027-kilatasai/",
+      "source": "Mezőhír",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T04:34:00+00:00"
+    },
+    {
+      "id": "e396147f34af8a7c",
+      "title": "Így zárjuk a szezont a veteményesben + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/zoldseg/igy-zarjuk-a-szezont-a-vetemenyesben-video/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T03:58:00+00:00"
+    },
     {
       "id": "e538736c9037665c",
       "title": "Közösségi finanszírozással a mezőgazdaságért – Magyarországon is működne?",
@@ -373,26 +443,6 @@
       "published_at": "2026-11-12T09:34:00+00:00"
     },
     {
-      "id": "6cdd11b430f4dfe5",
-      "title": "Ömlik be a kínai kacsa a magyar piacra, itt az ideje felvenni a kesztyűt",
-      "link": "https://www.agrarszektor.hu/allat/20261112/omlik-be-a-kinai-kacsa-a-magyar-piacra-itt-az-ideje-felvenni-a-kesztyut-65363",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-11-12T09:32:00+00:00"
-    },
-    {
-      "id": "f1e2ba10c0fe96e6",
-      "title": "Bejelentést tettek a gazdáknak: külön támogatást kaphat, aki ezt megteszi",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261112/bejelentest-tettek-a-gazdaknak-kulon-tamogatast-kaphat-aki-ezt-megteszi-65654",
-      "source": "Agrárszektor",
-      "category": "Támogatások és pályázatok",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-11-12T08:43:00+00:00"
-    },
-    {
       "id": "fcaaef324ef5f0e5",
       "title": "Kidőlt az ősi fa, a gyökerei között pedig nem mindennapi dolgot találtak – a megtaláló dúsgazdag jutalomra számíthat",
       "link": "https://agroforum.hu/agrarhirek/nagyvilag/kidolt-az-osi-fa-a-gyokerei-kozott-pedig-nem-mindennapi-dolgot-talaltak-a-megtalalo-dusgazdag-jutalomra-szamithat/",
@@ -503,26 +553,6 @@
       "published_at": "2026-11-12T04:34:00+00:00"
     },
     {
-      "id": "6c8e5aa77d5e4d1b",
-      "title": "A direktvetés nem mindenhol hoz ugyanannyi termést",
-      "link": "https://magyarmezogazdasag.hu/2026/11/11/a-direktvetes-nem-mindenhol-hoz-ugyanannyi-termest/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-11T21:03:22+00:00"
-    },
-    {
-      "id": "003cda85c78a81e9",
-      "title": "Kutyakabát: hóbort, vagy szükséges kiegészítő?",
-      "link": "https://magyarmezogazdasag.hu/2026/11/11/kutyakabat-hobort-vagy-szukseges-kiegeszito/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-11T20:06:27+00:00"
-    },
-    {
       "id": "38d4e5da7f43dd6b",
       "title": "Ezt még a fagyok előtt el kell vetni a kertben: hetekkel korábban hozhat termést",
       "link": "https://agronaplo.hu/agrarhirek/20261111/ezt-meg-a-fagyok-elott-el-kell-vetni-a-kertben-hetekkel-korabban-hozhat-termest-41404",
@@ -553,16 +583,6 @@
       "published_at": "2026-11-11T15:34:00+00:00"
     },
     {
-      "id": "481f55b418547c75",
-      "title": "Hogyan befolyásolja az időjárás a gyomirtás gyakorlatát?",
-      "link": "https://agroforum.hu/szakcikkek/gyomirtas/hogyan-befolyasolja-az-idojaras-a-gyomirtas-gyakorlatat/",
-      "source": "Agrofórum",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "portál",
-      "published_at": "2026-11-11T15:10:00+00:00"
-    },
-    {
       "id": "3f52ae5bc68372fe",
       "title": "Három métert emelkedhet a Tisza, itt a fordulat!",
       "link": "https://mezohir.hu/2026/11/11/mezogazdasag-tisza-vizszintje-emelkedhet/",
@@ -581,16 +601,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-11T13:34:00+00:00"
-    },
-    {
-      "id": "b880bb4af8653dfd",
-      "title": "Ne várjon tavaszig! Két közönséges növény, amelynek most érdemes gyűjteni a gyökerét",
-      "link": "https://agroforum.hu/agrarhirek/eletmod-gasztronomia/ne-varjon-tavaszig-ket-kozonseges-noveny-amelynek-most-erdemes-gyujteni-a-gyokeret/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-11T13:10:00+00:00"
     },
     {
       "id": "00c042d8c3f3a77e",
@@ -901,16 +911,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-11-09T12:01:00+00:00"
-    },
-    {
-      "id": "916322c388964b19",
-      "title": "Kertészeti támogatás az északír mezőgazdaságban",
-      "link": "https://mezohir.hu/2026/11/09/kerteszeti-tamogatas-a-mezogazdasagban/",
-      "source": "Mezőhír",
-      "category": "Támogatások és pályázatok",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-11-09T11:41:16+00:00"
     },
     {
       "id": "f34bb0c8427a5bfe",
