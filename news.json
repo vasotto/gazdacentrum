@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-13T19:40:47.265496+00:00",
-  "item_count": 140,
+  "generated_at": "2026-11-14T06:20:20.883811+00:00",
+  "item_count": 139,
   "items": [
+    {
+      "id": "a2f3025c9a90db5d",
+      "title": "Milyen vitaminokra és tápanyagokra van nagyobb szükségünk télen?",
+      "link": "https://magyarmezogazdasag.hu/2026/11/14/milyen-vitaminokra-es-tapanyagokra-van-nagyobb-szuksegunk-telen/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T07:06:04+00:00"
+    },
+    {
+      "id": "ffa6e72d50cf650e",
+      "title": "Fokhagymás ízű méz? Létezik, de nem könnyű hozzájutni",
+      "link": "https://agroforum.hu/szakcikkek/egyeb/fokhagymas-izu-mez-letezik-de-nem-konnyu-hozzajutni/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T06:10:00+00:00"
+    },
+    {
+      "id": "1dd49850bf4914e5",
+      "title": "Sok szántóföldi növény jobban tűri az árnyékolást, mint eddig gondoltuk",
+      "link": "https://magyarmezogazdasag.hu/2026/11/14/sok-szantofoldi-noveny-jobban-turi-az-arnyekolast-mint-eddig-gondoltuk/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T06:04:01+00:00"
+    },
+    {
+      "id": "f0bd147d66adc363",
+      "title": "Kész, ennyi volt? Tényleg eltűnhetnek ezek az állatok Magyarországról?",
+      "link": "https://www.agrarszektor.hu/allat/20261114/kesz-ennyi-volt-tenyleg-eltunhetnek-ezek-az-allatok-magyarorszagrol-65693",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T05:03:00+00:00"
+    },
+    {
+      "id": "1e668be1e41b1e53",
+      "title": "Gazdálkodási napló?",
+      "link": "https://mezohir.hu/2026/11/14/mezogazdasag-gazdalkodasi-naplo-hataridok-ellenorzes/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T04:34:00+00:00"
+    },
+    {
+      "id": "8da0261ba8379fa9",
+      "title": "Regeneratív és biodinamikus gazdálkodás a gyakorlatban – az Erdődi Biogazdaságban jártunk",
+      "link": "https://biokutatas.hu/hir/regenerativ-es-biodinamikus-gazdalkodas-a-gyakorlatban-az-erdodi-biogazdasagban-jartunk/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-11-13T22:26:30+00:00"
+    },
+    {
+      "id": "89bd200258046640",
+      "title": "Itt a tavalyi mérleg: az árbevétel nőtt, a termelés csökkent",
+      "link": "https://magyarmezogazdasag.hu/2026/11/13/itt-a-tavalyi-merleg-az-arbevetel-nott-a-termeles-csokkent/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-13T21:03:59+00:00"
+    },
     {
       "id": "8d919a87848f5101",
       "title": "A madagaszkári kis süntanrek, aki nem is sün",
@@ -141,16 +211,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T13:28:00+00:00"
-    },
-    {
-      "id": "b0cafb2de7a8fdaa",
-      "title": "Növények, amelyek jobban működnek korlátozott körülmények között",
-      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/novenyek-amelyek-jobban-mukodnek-korlatozott-korulmenyek-kozott/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T13:10:00+00:00"
     },
     {
       "id": "e0a8c8ec673a1cea",
@@ -413,16 +473,6 @@
       "published_at": "2026-11-13T06:01:00+00:00"
     },
     {
-      "id": "4172346714afcaff",
-      "title": "Szemünk előtt tűnik el a magyar szőlő: mi lesz így a híres hazai borokkal?",
-      "link": "https://www.agrarszektor.hu/noveny/20261113/szemunk-elott-tunik-el-a-magyar-szolo-mi-lesz-igy-a-hires-hazai-borokkal-65673",
-      "source": "Agrárszektor",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T05:01:00+00:00"
-    },
-    {
       "id": "846108aad6ab2fc2",
       "title": "Kukorica 2027: újabb nehéz év várhat a gazdákra?",
       "link": "https://mezohir.hu/2026/11/13/mezogazdasag-kukoricatermesztes-2027-kilatasai/",
@@ -431,16 +481,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T04:34:00+00:00"
-    },
-    {
-      "id": "e396147f34af8a7c",
-      "title": "Így zárjuk a szezont a veteményesben + VIDEÓ",
-      "link": "https://agroforum.hu/szakcikkek/zoldseg/igy-zarjuk-a-szezont-a-vetemenyesben-video/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T03:58:00+00:00"
     },
     {
       "id": "e538736c9037665c",
@@ -461,16 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-12T20:04:42+00:00"
-    },
-    {
-      "id": "36a692d731805782",
-      "title": "Nem mindenkinek való a smart farming",
-      "link": "https://magyarmezogazdasag.hu/2026/11/12/nem-mindenkinek-valo-a-smart-farming/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-12T19:03:17+00:00"
     },
     {
       "id": "7aa2df6b76efaabc",
@@ -511,16 +541,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-11-12T15:01:00+00:00"
-    },
-    {
-      "id": "aa2d8bbd4d8302e2",
-      "title": "Több terméknél is beteltek az uniós kvóták",
-      "link": "https://magyarmezogazdasag.hu/2026/11/12/tobb-termeknel-is-beteltek-az-unios-kvotak/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-12T14:42:49+00:00"
     },
     {
       "id": "edcf834a479140d9",
@@ -601,16 +621,6 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-11-12T10:13:53+00:00"
-    },
-    {
-      "id": "55c0b3a0e3877431",
-      "title": "Eltűnt az árkülönbség a vaj és a sovány tejpor között",
-      "link": "https://magyarmezogazdasag.hu/2026/11/12/eltunt-az-arkulonbseg-a-vaj-es-a-sovany-tejpor-kozott/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-12T10:04:14+00:00"
     },
     {
       "id": "86670c9016772f39",
@@ -841,16 +851,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-10T18:33:00+00:00"
-    },
-    {
-      "id": "7cbdca36b3f3c690",
-      "title": "Ilyen aszályra 126 éve nem volt példa",
-      "link": "https://mezohir.hu/2026/11/10/mezogazdasag-aszaly-126-eves-rekorddal/",
-      "source": "Mezőhír",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-10T14:34:00+00:00"
     },
     {
       "id": "b1fa7cb4f9c973b0",
@@ -1251,16 +1251,6 @@
       "content_type": "",
       "source_type": "ceges",
       "published_at": "2026-09-23T11:38:23+00:00"
-    },
-    {
-      "id": "76d938a146202f08",
-      "title": "Friss adatok a hazai biotermék piacról: egyre több bioélelmiszer kerül a kosarunkba, de lépést tud-e tartani a hazai kínálat?",
-      "link": "https://biokutatas.hu/hir/friss-adatok-a-hazai-biotermek-piacrol/",
-      "source": "ÖMKi",
-      "category": "Ökológiai gazdálkodás",
-      "content_type": "Piaci adat",
-      "source_type": "szakmai",
-      "published_at": "2026-09-22T14:55:55+00:00"
     },
     {
       "id": "b9910decf50346f4",
