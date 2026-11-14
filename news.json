@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-11-14T17:59:56.470960+00:00",
-  "item_count": 135,
+  "generated_at": "2026-11-14T22:23:01.035452+00:00",
+  "item_count": 134,
   "items": [
+    {
+      "id": "19fb130d9771a7a9",
+      "title": "Saját ötletekből valódi üzleti modellek – Debrecenben folytatódott a TEREP program",
+      "link": "https://magyarmezogazdasag.hu/2026/11/14/sajat-otletekbol-valodi-uzleti-modellek-debrecenben-folytatodott-a-terep-program/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T21:03:00+00:00"
+    },
+    {
+      "id": "b8d7b5e741e04384",
+      "title": "Kiss Florentin: Küzdelemből oltalom",
+      "link": "https://magyarmezogazdasag.hu/2026/11/14/kiss-florentin-kuzdelembol-oltalom/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T20:03:25+00:00"
+    },
+    {
+      "id": "5b609f905e012ff0",
+      "title": "Kevés a siló Oroszországban, 10 millió gabonát zsákoltak be",
+      "link": "https://magyarmezogazdasag.hu/2026/11/14/keves-a-silo-oroszorszagban-10-millio-gabonat-zsakoltak-be/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T19:04:04+00:00"
+    },
+    {
+      "id": "a41e88524c023af0",
+      "title": "Figyelmeztetést adott ki Brüsszel: sok helyen kötelező intézkedések jönnek",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261114/figyelmeztetest-adott-ki-brusszel-sok-helyen-kotelezo-intezkedesek-jonnek-65590",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-14T18:31:00+00:00"
+    },
     {
       "id": "d225b9dbf8a9508e",
       "title": "Lehullt a lepel: ezért nem esett az eső egész nyáron Magyarországon",
@@ -317,7 +357,7 @@
       "title": "Itt a tavalyi mérleg: az árbevétel nőtt, a termelés csökkent",
       "link": "https://magyarmezogazdasag.hu/2026/11/13/itt-a-tavalyi-merleg-az-arbevetel-nott-a-termeles-csokkent/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
+      "category": "Növénytermesztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T21:03:59+00:00"
@@ -361,16 +401,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T18:33:00+00:00"
-    },
-    {
-      "id": "d06cb1ba7b04ef7a",
-      "title": "Durva, ami a magyar földpiacon zajlik: ebben a térségben már 5 millió felett jár a hektáronkénti ár",
-      "link": "https://agronaplo.hu/agrarhirek/20261113/durva-ami-a-magyar-foldpiacon-zajlik-ebben-a-tersegben-mar-5-millio-felett-jar-a-hektaronkenti-ar-41418",
-      "source": "Agro Napló",
-      "category": "Általános agrár",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-11-13T18:26:00+00:00"
     },
     {
       "id": "d37b61dcaab8a295",
@@ -453,16 +483,6 @@
       "published_at": "2026-11-13T13:29:00+00:00"
     },
     {
-      "id": "c30d26e3021add4a",
-      "title": "Egyre több amerikai mond le erről az élelmiszerről: már alig veszik",
-      "link": "https://www.agrarszektor.hu/noveny/20261113/egyre-tobb-amerikai-mond-le-errol-az-elelmiszerrol-mar-alig-veszik-65691",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T13:28:00+00:00"
-    },
-    {
       "id": "88c384dde7cf4efd",
       "title": "Spanyolország: enyhe növekedést mutat a zöldségfogyasztás",
       "link": "https://fruitveb.hu/spanyolorszag-enyhe-novekedest-mutat-a-zoldsegfogyasztas/",
@@ -483,16 +503,6 @@
       "published_at": "2026-11-13T11:55:30+00:00"
     },
     {
-      "id": "4964c6571c7a6143",
-      "title": "Szén-dioxid-trágyázás hatékonyan",
-      "link": "https://magyarmezogazdasag.hu/2026/11/13/szen-dioxid-tragyazas-hatekonyan/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T10:05:28+00:00"
-    },
-    {
       "id": "ff6c82d06d471f8c",
       "title": "Moldova: kedvező kilátásokkal kezdődik a dió szezonja",
       "link": "https://fruitveb.hu/moldova-kedvezo-kilatasokkal-kezdodik-a-dio-szezonja/",
@@ -511,16 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T08:34:00+00:00"
-    },
-    {
-      "id": "bb5f408dcea3bb2e",
-      "title": "Elevenen sülnek meg a marhák a legelőkön?",
-      "link": "https://magyarmezogazdasag.hu/2026/11/13/elevenen-sulnek-meg-a-marhak-a-legelokon/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T08:04:52+00:00"
     },
     {
       "id": "7b659cf6377273a0",
@@ -551,16 +551,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-11-13T07:11:00+00:00"
-    },
-    {
-      "id": "d8f09fac6b9eb40c",
-      "title": "Rejtett tényező állhat a makacs vashiány hátterében",
-      "link": "https://magyarmezogazdasag.hu/2026/11/13/rejtett-tenyezo-allhat-a-makacs-vashiany-hattereben/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T07:03:27+00:00"
     },
     {
       "id": "846108aad6ab2fc2",
