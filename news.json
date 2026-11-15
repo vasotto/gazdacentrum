@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-11-14T22:23:01.035452+00:00",
-  "item_count": 134,
+  "generated_at": "2026-11-15T06:28:15.443598+00:00",
+  "item_count": 135,
   "items": [
+    {
+      "id": "ceb2ec66e63da5a9",
+      "title": "Apró gyümölcs, nagy előnyök",
+      "link": "https://magyarmezogazdasag.hu/2026/11/15/apro-gyumolcs-nagy-elonyok/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-15T07:03:27+00:00"
+    },
+    {
+      "id": "29eda97448c76f79",
+      "title": "Kék banán? Különleges fajtákkal kísérleteznek a termesztők",
+      "link": "https://agroforum.hu/szakcikkek/nagyvilag-szakcikkek/kek-banan-kulonleges-fajtakkal-kiserleteznek-a-termesztok/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-15T06:10:00+00:00"
+    },
+    {
+      "id": "5b0020e54b4d0aff",
+      "title": "Több ezer hektár égett le indonéziai pálmaolaj- és papírfa-ültetvényeken",
+      "link": "https://magyarmezogazdasag.hu/2026/11/15/tobb-ezer-hektar-egett-le-indoneziai-palmaolaj-es-papirfa-ultetvenyeken/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-15T06:06:00+00:00"
+    },
+    {
+      "id": "c11a0ff3bce9470e",
+      "title": "Csodaszer a kertbe: ez megéri kipróbálni a drága talajjavítók helyett",
+      "link": "https://www.agrarszektor.hu/kiskert/20261115/csodaszer-a-kertbe-ez-megeri-kiprobalni-a-draga-talajjavitok-helyett-65469",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-15T04:59:00+00:00"
+    },
+    {
+      "id": "82a8a2ee0b645ab0",
+      "title": "Gabonák védelme: hol hibázhatunk?",
+      "link": "https://mezohir.hu/2026/11/15/mezogazdasag-gabonak-vedelme-veszelyes-kartevoktol/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "portál",
+      "published_at": "2026-11-15T04:34:00+00:00"
+    },
     {
       "id": "19fb130d9771a7a9",
       "title": "Saját ötletekből valódi üzleti modellek – Debrecenben folytatódott a TEREP program",
@@ -313,16 +363,6 @@
       "published_at": "2026-11-14T06:45:04+00:00"
     },
     {
-      "id": "ffa6e72d50cf650e",
-      "title": "Fokhagymás ízű méz? Létezik, de nem könnyű hozzájutni",
-      "link": "https://agroforum.hu/szakcikkek/egyeb/fokhagymas-izu-mez-letezik-de-nem-konnyu-hozzajutni/",
-      "source": "Agrofórum",
-      "category": "Kertészet",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-14T06:10:00+00:00"
-    },
-    {
       "id": "1dd49850bf4914e5",
       "title": "Sok szántóföldi növény jobban tűri az árnyékolást, mint eddig gondoltuk",
       "link": "https://magyarmezogazdasag.hu/2026/11/14/sok-szantofoldi-noveny-jobban-turi-az-arnyekolast-mint-eddig-gondoltuk/",
@@ -357,20 +397,10 @@
       "title": "Itt a tavalyi mérleg: az árbevétel nőtt, a termelés csökkent",
       "link": "https://magyarmezogazdasag.hu/2026/11/13/itt-a-tavalyi-merleg-az-arbevetel-nott-a-termeles-csokkent/",
       "source": "Magyar Mezőgazdaság",
-      "category": "Növénytermesztés",
+      "category": "Állattenyésztés",
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-13T21:03:59+00:00"
-    },
-    {
-      "id": "8d919a87848f5101",
-      "title": "A madagaszkári kis süntanrek, aki nem is sün",
-      "link": "https://magyarmezogazdasag.hu/2026/11/13/a-madagaszkari-kis-suntanrek-aki-nem-is-sun/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T20:01:00+00:00"
     },
     {
       "id": "701fa2c926a4ddff",
@@ -441,26 +471,6 @@
       "content_type": "Kutatás / elemzés",
       "source_type": "portál",
       "published_at": "2026-11-13T14:34:00+00:00"
-    },
-    {
-      "id": "76854b217cc23446",
-      "title": "Hova kerül az ukrán gabona? Rengeteg a termés, de van egy kis baj",
-      "link": "https://www.agrarszektor.hu/allat/20261113/hova-kerul-az-ukran-gabona-rengeteg-a-termes-de-van-egy-kis-baj-65695",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T14:26:00+00:00"
-    },
-    {
-      "id": "4d19113b8a109ad8",
-      "title": "Nem érdemes tovább várni a cukorrépa betakarításával",
-      "link": "https://magyarmezogazdasag.hu/2026/11/13/nem-erdemes-tovabb-varni-a-cukorrepa-betakaritasaval/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-13T14:04:34+00:00"
     },
     {
       "id": "304101a9997b75cd",
