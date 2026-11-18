@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-11-17T20:54:24.089926+00:00",
-  "item_count": 139,
+  "generated_at": "2026-11-18T07:26:40.163549+00:00",
+  "item_count": 140,
   "items": [
+    {
+      "id": "1a5da6bfb3bfae66",
+      "title": "Szója: beiktatható lehet a vetésváltásba",
+      "link": "https://magyarmezogazdasag.hu/2026/11/18/szoja-beiktathato-lehet-a-vetesvaltasba/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Növénytermesztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T08:08:07+00:00"
+    },
+    {
+      "id": "d84b2f93f16bd65a",
+      "title": "Kemény viharra készülhetünk ma: csak ez a 4 megye úszhatja meg",
+      "link": "https://www.agrarszektor.hu/noveny/20261118/kemeny-viharra-keszulhetunk-ma-csak-ez-a-4-megye-uszhatja-meg-65765",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T07:13:00+00:00"
+    },
+    {
+      "id": "a0c4d88ba20c5373",
+      "title": "Mézárak: 3500 forint alatt már ne adják az akácmézet?",
+      "link": "https://mezohir.hu/2026/11/18/mezarak-mezogazdasag-uj-ar-ajanlassal/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T07:11:00+00:00"
+    },
+    {
+      "id": "0375ccb0f080d260",
+      "title": "Nem minden száraz fa jó tüzelő: erre figyeljen vásárláskor!",
+      "link": "https://agroforum.hu/szakcikkek/egyeb/nem-minden-szaraz-fa-jo-tuzelo-erre-figyeljen-vasarlaskor/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T07:10:00+00:00"
+    },
+    {
+      "id": "15cea4cac5b00f9b",
+      "title": "Melyik kávé a legegészségesebb?",
+      "link": "https://magyarmezogazdasag.hu/2026/11/18/melyik-kave-a-legegeszsegesebb/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T07:04:44+00:00"
+    },
+    {
+      "id": "583a55cef9419863",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.11.18. szerda",
+      "link": "https://www.agrarszektor.hu/noveny/20261118/friss-agrarszektor-idojaras-elorejelzes-20261118-szerda-65764",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T06:45:04+00:00"
+    },
+    {
+      "id": "6462675cec14794d",
+      "title": "A madaraknak nem elég, ha a nemzeti parkokban biztonságban vannak",
+      "link": "https://magyarmezogazdasag.hu/2026/11/18/a-madaraknak-nem-eleg-ha-a-nemzeti-parkokban-biztonsagban-vannak/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T06:07:00+00:00"
+    },
+    {
+      "id": "ad8f56e9fd11648c",
+      "title": "Vége a kétkezi munkának? Így szednék össze a tojásokat a baromfitelepeken",
+      "link": "https://www.agrarszektor.hu/innovacio/20261118/vege-a-ketkezi-munkanak-igy-szednek-ossze-a-tojasokat-a-baromfitelepeken-65750",
+      "source": "Agrárszektor",
+      "category": "Állattenyésztés",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T06:01:00+00:00"
+    },
+    {
+      "id": "e4461946f074a971",
+      "title": "Itt az újabb drágulás? Ez vár a kenyér árára a magyar boltokban",
+      "link": "https://www.agrarszektor.hu/elelmiszer/20261118/itt-az-ujabb-dragulas-ez-var-a-kenyer-arara-a-magyar-boltokban-65751",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-11-18T04:59:00+00:00"
+    },
+    {
+      "id": "a24f1175d593a314",
+      "title": "Rekordfagy jön Magyarországon? Megvan a válasz!",
+      "link": "https://mezohir.hu/2026/11/18/rekordfagy-mezogazdasag-a-lehules-elott/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-18T04:34:00+00:00"
+    },
     {
       "id": "7b37e854567e4d18",
       "title": "Víz a szőlőben: minden csepp aranyat ér",
@@ -353,16 +453,6 @@
       "published_at": "2026-11-17T09:28:00+00:00"
     },
     {
-      "id": "44763862f513f262",
-      "title": "Veszélyre figyelmeztetik a magyarokat - itt csak így lehetnek biztonságban",
-      "link": "https://www.agrarszektor.hu/noveny/20261117/veszelyre-figyelmeztetik-a-magyarokat-itt-csak-igy-lehetnek-biztonsagban-65742",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-17T08:47:00+00:00"
-    },
-    {
       "id": "181b8ccdb6867e54",
       "title": "Ismét felméri a Nébih a magyar háztartások élelmiszerpazarlását: várják a jelentkezőket!",
       "link": "https://fruitveb.hu/ismet-felmeri-a-nebih-a-magyar-haztartasok-elelmiszerpazarlasat-varjak-a-jelentkezoket/",
@@ -413,26 +503,6 @@
       "published_at": "2026-11-17T07:58:00+00:00"
     },
     {
-      "id": "af29e588aa1b54e4",
-      "title": "Kemény, ami a Velencei-tónál zajlik: erről jobb, ha mindenki tud",
-      "link": "https://www.agrarszektor.hu/noveny/20261117/kemeny-ami-a-velencei-tonal-zajlik-errol-jobb-ha-mindenki-tud-65739",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-17T07:44:00+00:00"
-    },
-    {
-      "id": "9adfe67042907c30",
-      "title": "Beindult a készültség: visszatartják a vizet Magyarországon",
-      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261117/beindult-a-keszultseg-visszatartjak-a-vizet-magyarorszagon-65734",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-17T07:17:00+00:00"
-    },
-    {
       "id": "145cb1f700e3a06d",
       "title": "Földügyintézés: eltűnhet egy költséges lépés",
       "link": "https://mezohir.hu/2026/11/17/foldugyintezes-mezogazdasag-kozjegyzo-nelkul/",
@@ -481,46 +551,6 @@
       "content_type": "Piaci adat",
       "source_type": "portál",
       "published_at": "2026-11-17T04:34:00+00:00"
-    },
-    {
-      "id": "8a89457e08388ee6",
-      "title": "27. Educatio Nemzetközi Oktatási Szakkiállítás",
-      "link": "https://agroforum.hu/programok/27-educatio-nemzetkozi-oktatasi-szakkiallitas/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-16T20:40:17+00:00"
-    },
-    {
-      "id": "65cba521508ab86d",
-      "title": "Jászapáti vásárok – Állat- és kirakodóvásár",
-      "link": "https://agroforum.hu/programok/jaszapati-vasarok-allat-es-kirakodovasar/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-16T20:24:16+00:00"
-    },
-    {
-      "id": "b39ffdd9b28febd4",
-      "title": "Drónok a kutyákért",
-      "link": "https://magyarmezogazdasag.hu/2026/11/16/dronok-a-kutyakert/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-16T20:04:54+00:00"
-    },
-    {
-      "id": "7585f2974508c7b3",
-      "title": "A nehezebb bikák nehezebben találnak vevőre",
-      "link": "https://magyarmezogazdasag.hu/2026/11/16/a-nehezebb-bikak-nehezebben-talalnak-vevore/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-16T19:03:56+00:00"
     },
     {
       "id": "589e8ca70b1c169c",
@@ -801,26 +831,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-14T13:03:00+00:00"
-    },
-    {
-      "id": "1074b74f57a50f97",
-      "title": "Nőtt a gazdák jövedelme, mégsem egyértelmű a siker",
-      "link": "https://mezohir.hu/2026/11/14/mezogazdasag-jovedelem-az-eu-ban/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "Gyakorlati útmutató",
-      "source_type": "portál",
-      "published_at": "2026-11-14T11:41:00+00:00"
-    },
-    {
-      "id": "fe7052690cb2e9b1",
-      "title": "Gázolaj-visszaigénylés: fontos dátum közeleg!",
-      "link": "https://mezohir.hu/2026/11/14/mezogazdasag-gazolaj-visszaigenyles-2026-2/",
-      "source": "Mezőhír",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-14T09:34:00+00:00"
     },
     {
       "id": "3bd44961a2163716",
