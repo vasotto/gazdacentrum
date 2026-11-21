@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-20T20:22:35.368633+00:00",
-  "item_count": 132,
+  "generated_at": "2026-11-21T07:04:34.883381+00:00",
+  "item_count": 141,
   "items": [
+    {
+      "id": "0bdbb02fa2c51833",
+      "title": "Nem minden való az air fryerbe",
+      "link": "https://magyarmezogazdasag.hu/2026/11/21/nem-minden-valo-az-air-fryerbe/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T07:03:49+00:00"
+    },
+    {
+      "id": "46950d36f0ae4a01",
+      "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.11.21. szombat",
+      "link": "https://www.agrarszektor.hu/noveny/20261121/friss-agrarszektor-idojaras-elorejelzes-20261121-szombat-65836",
+      "source": "Agrárszektor",
+      "category": "Időjárás és vízgazdálkodás",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T06:45:04+00:00"
+    },
+    {
+      "id": "35c6c1b7ab976768",
+      "title": "Tele van a kertje a szomszéd faleveleivel? Nem biztos, hogy tűrnie kell",
+      "link": "https://agroforum.hu/szakcikkek/figyelmebe-ajanljuk/tele-van-a-kertje-a-szomszed-faleveleivel-nem-biztos-hogy-turnie-kell/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T06:10:00+00:00"
+    },
+    {
+      "id": "9877ade04df1c2a1",
+      "title": "Már 7 euróért is kapható a lengyel liba, a német termelők nehezen versenyeznek az ára",
+      "link": "https://magyarmezogazdasag.hu/2026/11/21/mar-7-euroert-is-kaphato-a-lengyel-liba-a-nemet-termelok-nehezen-versenyeznek-az-ara/",
+      "source": "Magyar Mezőgazdaság",
+      "category": "Állattenyésztés",
+      "content_type": "Piaci adat",
+      "source_type": "portál",
+      "published_at": "2026-11-21T06:02:14+00:00"
+    },
+    {
+      "id": "a2a77a8a1ec88a45",
+      "title": "Láthatatlan veszély fenyegeti Magyarországot: ezt nem fogjuk zsebre tenni",
+      "link": "https://www.agrarszektor.hu/fenntarthatosag/20261121/lathatatlan-veszely-fenyegeti-magyarorszagot-ezt-nem-fogjuk-zsebre-tenni-65803",
+      "source": "Agrárszektor",
+      "category": "Agrárgazdaság",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T05:03:00+00:00"
+    },
+    {
+      "id": "aad839b795e6588f",
+      "title": "A jó termés a gyökereknél kezdődik",
+      "link": "https://mezohir.hu/2026/11/21/mezogazdasag-termesztokozeg-a-sikeres-hajtatashoz/",
+      "source": "Mezőhír",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T04:34:00+00:00"
+    },
+    {
+      "id": "839a1fa4220facb4",
+      "title": "Így azonosítható gyorsan a szőlő aranyszínű sárgasága + VIDEÓ",
+      "link": "https://agroforum.hu/szakcikkek/szolo-bor-szakcikkek/igy-azonosithato-gyorsan-a-szolo-aranyszinu-sargasaga-video/",
+      "source": "Agrofórum",
+      "category": "Kertészet",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-21T03:52:00+00:00"
+    },
     {
       "id": "bc44e90045e8cad8",
       "title": "Éjszakai lábgörcsök: segíthet egy egyszerű esti nassolnivaló",
@@ -11,6 +81,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-20T21:02:09+00:00"
+    },
+    {
+      "id": "f77cede37c7ad7b0",
+      "title": "33. Fegyver, Horgászat, Vadászat nemzetközi kiállítás",
+      "link": "https://agroforum.hu/programok/33-fegyver-horgaszat-vadaszat-nemzetkozi-kiallitas/",
+      "source": "Agrofórum",
+      "category": "Általános agrár",
+      "content_type": "",
+      "source_type": "portál",
+      "published_at": "2026-11-20T20:27:00+00:00"
     },
     {
       "id": "d633d367bbc9fd05",
@@ -111,6 +191,16 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-20T15:10:00+00:00"
+    },
+    {
+      "id": "217eeceaed5d472f",
+      "title": "Talajművelési gyakorlatok értékelése és talajegészségi átállás – SoilPATH",
+      "link": "https://biokutatas.hu/kutatas/soilpath/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-11-20T14:42:46+00:00"
     },
     {
       "id": "bc6f7cb6d2b87364",
@@ -403,26 +493,6 @@
       "published_at": "2026-11-20T07:11:00+00:00"
     },
     {
-      "id": "23fe53a9f2e3554a",
-      "title": "Miért pusztulnak a méhek télen, ha van elég élelem?",
-      "link": "https://agroforum.hu/szakcikkek/allattenyesztes-szakcikkek/miert-pusztulnak-a-mehek-telen-ha-van-eleg-elelem/",
-      "source": "Agrofórum",
-      "category": "Állattenyésztés",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-20T07:10:00+00:00"
-    },
-    {
-      "id": "ac146efb2c8e69ac",
-      "title": "13 millió éves vámpírteve került elő",
-      "link": "https://magyarmezogazdasag.hu/2026/11/20/13-millio-eves-vampirteve-kerult-elo/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-20T07:02:11+00:00"
-    },
-    {
       "id": "f24fa0f1c2256c28",
       "title": "Friss! Agrárszektor időjárás előrejelzés: 2026.11.20. péntek",
       "link": "https://www.agrarszektor.hu/noveny/20261120/friss-agrarszektor-idojaras-elorejelzes-20261120-pentek-65822",
@@ -431,26 +501,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-20T06:45:03+00:00"
-    },
-    {
-      "id": "e9e8219164abb41b",
-      "title": "Ezt nézze meg az orchidea levelein, mielőtt nagyobb lesz a baj!",
-      "link": "https://agroforum.hu/agrarhirek/novenyvedelem/ezt-nezze-meg-az-orchidea-levelein-mielott-nagyobb-lesz-a-baj/",
-      "source": "Agrofórum",
-      "category": "Növényvédelem",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-20T06:10:00+00:00"
-    },
-    {
-      "id": "d631bc2dd7bf40f5",
-      "title": "Átrendeződik a világ sertéshúspiaca",
-      "link": "https://magyarmezogazdasag.hu/2026/11/20/atrendezodik-a-vilag-serteshuspiaca/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Állattenyésztés",
-      "content_type": "Piaci adat",
-      "source_type": "portál",
-      "published_at": "2026-11-20T06:02:00+00:00"
     },
     {
       "id": "6b93af26113de7b4",
@@ -463,16 +513,6 @@
       "published_at": "2026-11-20T05:04:00+00:00"
     },
     {
-      "id": "f7d7fd59bdef9595",
-      "title": "Vége az otthoni disznóvágásoknak? Búcsúzhatunk az ősi hagyománytól?",
-      "link": "https://www.agrarszektor.hu/allat/20261120/vege-az-otthoni-disznovagasoknak-bucsuzhatunk-az-osi-hagyomanytol-65808",
-      "source": "Agrárszektor",
-      "category": "Agrárgazdaság",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-20T05:03:00+00:00"
-    },
-    {
       "id": "3b30c7a8c443c87d",
       "title": "Zivatar után hózápor: megérkezik a tél Magyarországra?",
       "link": "https://mezohir.hu/2026/11/20/mezogazdasag-hozapor-erkezik-zivatar-utan/",
@@ -481,36 +521,6 @@
       "content_type": "",
       "source_type": "portál",
       "published_at": "2026-11-20T04:34:00+00:00"
-    },
-    {
-      "id": "6608d447e5956fb9",
-      "title": "A táj egészét kell felkészíteni az aszályra",
-      "link": "https://magyarmezogazdasag.hu/2026/11/19/a-taj-egeszet-kell-felkesziteni-az-aszalyra/",
-      "source": "Magyar Mezőgazdaság",
-      "category": "Időjárás és vízgazdálkodás",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-19T21:02:13+00:00"
-    },
-    {
-      "id": "17a34fd5162feef6",
-      "title": "Vince nap a Villányi borvidéken",
-      "link": "https://agroforum.hu/programok/vince-nap-a-villanyi-borvideken/",
-      "source": "Agrofórum",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-19T20:38:13+00:00"
-    },
-    {
-      "id": "316c3167cbfdb339",
-      "title": "Gazdák, figyelem! Újra módosult a népszerű pályázat, résen kell lenni",
-      "link": "https://www.agrarszektor.hu/agrarpenzek/20261119/gazdak-figyelem-ujra-modosult-a-nepszeru-palyazat-resen-kell-lenni-65802",
-      "source": "Agrárszektor",
-      "category": "Támogatások és pályázatok",
-      "content_type": "Pályázat / támogatás",
-      "source_type": "portál",
-      "published_at": "2026-11-19T19:28:00+00:00"
     },
     {
       "id": "7c94663c4522affb",
@@ -733,6 +743,16 @@
       "published_at": "2026-11-18T14:01:00+00:00"
     },
     {
+      "id": "8b4f77e57e84ab67",
+      "title": "Talajkímélő megoldások az ökológiai szántóföldi gazdálkodásban – Dani Mária biogazdaságában jártunk",
+      "link": "https://biokutatas.hu/hir/talajkimelo-megoldasok-az-okologiai-szantofoldi-gazdalkodasban-dani-maria-biogazdasagaban-jartunk/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-11-18T13:34:10+00:00"
+    },
+    {
       "id": "26c3f1a59ab49e5c",
       "title": "Műtrágyaárak: az egyik drágul, a másik olcsóbb!",
       "link": "https://mezohir.hu/2026/11/18/mutragyaarak-mezogazdasag-az-arfordulat-elott/",
@@ -823,16 +843,6 @@
       "published_at": "2026-11-18T08:01:00+00:00"
     },
     {
-      "id": "a0c4d88ba20c5373",
-      "title": "Mézárak: 3500 forint alatt már ne adják az akácmézet?",
-      "link": "https://mezohir.hu/2026/11/18/mezarak-mezogazdasag-uj-ar-ajanlassal/",
-      "source": "Mezőhír",
-      "category": "Általános agrár",
-      "content_type": "",
-      "source_type": "portál",
-      "published_at": "2026-11-18T07:11:00+00:00"
-    },
-    {
       "id": "d7800ec7c1d6d36b",
       "title": "A vágócsirke termelői ára csökkent, a vágópulykáé emelkedett",
       "link": "https://www.aki.gov.hu/2026/11/17/a-vagocsirke-termeloi-ara-csokkent-a-vagopulykae-emelkedett/",
@@ -841,6 +851,16 @@
       "content_type": "Piaci adat",
       "source_type": "hivatalos",
       "published_at": "2026-11-17T14:22:28+00:00"
+    },
+    {
+      "id": "ee607945279db051",
+      "title": "Monty Waldin és Tom Petherick: Biodinamikus kertművelés",
+      "link": "https://biokutatas.hu/kiadvany/monty-waldin-es-tom-petherick-biodinamikus-kertmuveles/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-11-17T14:15:46+00:00"
     },
     {
       "id": "a05bbe181259780f",
@@ -943,6 +963,16 @@
       "published_at": "2026-11-16T10:01:00+00:00"
     },
     {
+      "id": "c49b396268d11c51",
+      "title": "Alakítsuk együtt az európai növénynemesítés jövőjét! Felhívás kérdőív kitöltésére",
+      "link": "https://biokutatas.hu/hir/alakitsuk-egyutt-az-europai-novenynemesites-jovojet-felhivas-kerdoiv-kitoltesere/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "Kutatás / elemzés",
+      "source_type": "szakmai",
+      "published_at": "2026-11-16T08:51:56+00:00"
+    },
+    {
       "id": "20ea04a048823968",
       "title": "Franciaország: aszály és hőség csökkentette a sárgarépa hozamait",
       "link": "https://fruitveb.hu/franciaorszag-aszaly-es-hoseg-csokkentette-a-sargarepa-hozamait/",
@@ -951,6 +981,16 @@
       "content_type": "",
       "source_type": "szakmai",
       "published_at": "2026-11-16T08:01:00+00:00"
+    },
+    {
+      "id": "8da0261ba8379fa9",
+      "title": "Regeneratív és biodinamikus gazdálkodás a gyakorlatban – az Erdődi Biogazdaságban jártunk",
+      "link": "https://biokutatas.hu/hir/regenerativ-es-biodinamikus-gazdalkodas-a-gyakorlatban-az-erdodi-biogazdasagban-jartunk/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-11-13T22:26:30+00:00"
     },
     {
       "id": "88c384dde7cf4efd",
@@ -1153,6 +1193,56 @@
       "published_at": "2026-10-22T06:42:32+00:00"
     },
     {
+      "id": "dd52caadbf471ccd",
+      "title": "A gabona útja a szántóföldtől az asztalig – a Csoroszlya Farmon jártunk",
+      "link": "https://biokutatas.hu/hir/a-gabona-utja-vilagitotorony-gazdasaglatogatas/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-20T11:51:56+00:00"
+    },
+    {
+      "id": "26fb395d50716877",
+      "title": "Csatlakozz a COLiBRI szakmai közösségéhez!",
+      "link": "https://biokutatas.hu/hir/csatlakozz-a-colibri-szakmai-kozossegehez/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-19T12:45:09+00:00"
+    },
+    {
+      "id": "8666376a603084c0",
+      "title": "Biogabonák, biolisztek és biokenyerek",
+      "link": "https://biokutatas.hu/hir/biogabonak-biolisztek-es-biokenyerek/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-19T08:20:48+00:00"
+    },
+    {
+      "id": "a9123b1be56a2ae3",
+      "title": "Hogyan lesz elég élelmiszer? Nem csak azon múlik, mennyit termelünk",
+      "link": "https://biokutatas.hu/hir/hogyan-lesz-eleg-elelmiszer-nem-csak-azon-mulik-mennyit-termelunk/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "Gyakorlati útmutató",
+      "source_type": "szakmai",
+      "published_at": "2026-10-16T08:54:13+00:00"
+    },
+    {
+      "id": "04e48cdde89d92f6",
+      "title": "Öntsünk tiszta vizet a pohárba (3.): Tudja-e élelmezni a biogazdálkodás a világot? Avagy látjuk-e az elefántot a szobában?",
+      "link": "https://biokutatas.hu/hir/ontsunk-tiszta-vizet-a-poharba-3-tudja-e-elelmezni-a-biogazdalkodas-a-vilagot/",
+      "source": "ÖMKi",
+      "category": "Ökológiai gazdálkodás",
+      "content_type": "",
+      "source_type": "szakmai",
+      "published_at": "2026-10-13T14:42:46+00:00"
+    },
+    {
       "id": "e1c8520bdfa1d774",
       "title": "A Dammann működése zavartalanul folytatódik",
       "link": "https://magtarkft.hu/dammann-mukodes-zavartalan",
@@ -1324,7 +1414,6 @@
     }
   ],
   "errors": [
-    "ÖMKi: <urlopen error [Errno 110] Connection timed out>",
     "Agroinform: <unknown>:2:1326: not well-formed (invalid token)"
   ]
 }
